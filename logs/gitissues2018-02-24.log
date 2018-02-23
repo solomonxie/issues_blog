@@ -1059,3 +1059,27 @@ To git@github.com:solomonxie/user_content_issues_blog.git
 Config instance has no attribute 'comments_url'
 2018-02-24 03:48:15,441 - gitissues.issue - INFO - Mission aborted.
 2018-02-24 03:48:15,607 - gitissues.repo_mapping - INFO - Generated 30 issues from [solomonxie.github.io] to markdown file.
+2018-02-24 03:48:16,180 - gitissues.remote_syncing - INFO - 
+[master b0ecafc] Update from raspberrypi
+ 3 files changed, 173 insertions(+), 14 deletions(-)
+ rewrite logs/gitissues.log (63%)
+
+2018-02-24 03:48:21,937 - gitissues.remote_syncing - INFO - 
+To git@github.com:solomonxie/user_content_issues_blog.git
+   cf88bde..b0ecafc  master -> master
+
+2018-02-24 03:48:21,939 - gitissues - INFO - Finished fetching issues from Github.
+
+2018-02-24 03:50:01,404 - gitissues - INFO - Start fetching issues from Github...
+2018-02-24 03:50:01,405 - gitissues.issues - INFO - Check git remote status before further updates: 
+2018-02-24 03:50:09,724 - gitissues.issues - INFO - Already up-to-date.
+
+2018-02-24 03:50:09,726 - gitissues.issues - INFO - Now retriving [https://api.github.com/repos/solomonxie/solomonxie.github.io/issues?client_id=0c08b801005ee3005ded&client_secret=da1a866f28556cc27e6ee12ca7c07c35bb548e5b]...
+2018-02-24 03:50:16,651 - gitissues.issues - DEBUG - Remaining 4977 requests limit for this hour.
+2018-02-24 03:50:16,653 - gitissues.issues - INFO - Filtering updated and deleted items...
+2018-02-24 03:50:16,730 - gitissues.issues - INFO - 1 updates to be fetched...
+2018-02-24 03:50:16,731 - gitissues.issues - INFO - 0 deletes to be executed...
+2018-02-24 03:50:16,763 - gitissues.issue - ERROR - An error occured when requesting from Github:
+Config instance has no attribute 'comments_url'
+2018-02-24 03:50:16,765 - gitissues.issue - INFO - Mission aborted.
+2018-02-24 03:50:16,922 - gitissues.repo_mapping - INFO - Generated 30 issues from [solomonxie.github.io] to markdown file.
