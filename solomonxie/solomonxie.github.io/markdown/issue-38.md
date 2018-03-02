@@ -207,7 +207,3 @@ Jupyter 的魔法命令里有一个`%matplotlib inline`，可以直接在jupyter
 ![snip20180225_62](https://user-images.githubusercontent.com/14041622/36639038-0faea3c0-1a3e-11e8-9485-2ceb7c9b939b.png)
 
 
-
-
-
-
