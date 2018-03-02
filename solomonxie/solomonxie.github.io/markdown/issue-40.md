@@ -177,3 +177,4 @@ and [another  Khan review page ](https://www.khanacademy.org/math/precalculus/ve
 
 ![image](https://user-images.githubusercontent.com/14041622/36725667-f959a5a6-1bf1-11e8-9f7d-cd9c16957938.png)
 
+
