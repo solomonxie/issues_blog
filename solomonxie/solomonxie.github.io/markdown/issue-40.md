@@ -1,0 +1,179 @@
+# Linear Algebra from the ground up
+> Quick notes on Math or Stat (currently Linear Algebra). 
+
+
+## TL;DR. Archive Link: [why do I need to learn Linear Algebra?](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-368829945)
+
+
+# `Essence Linear Algebra` : `Vector` section notes
+> Wherever you learn LA, which always the first to mention is the VECTOR.
+
+![image](https://user-images.githubusercontent.com/14041622/35763026-d9a39fea-08dd-11e8-840e-5ad4c28cef40.png)
+
+![image](https://user-images.githubusercontent.com/14041622/36588863-69edc828-18c4-11e8-9aa6-f2f3a85ba623.png)
+
+Put the coordinate, or say, the position indicator, on a axis, and put a narrow from the origin to it, It becomes a VECTOR.
+So a vector contains a meaning of movement, from origin to the position, rather than just a position itself.
+
+## Why does it have to be `x, y` on Axis and why is it 90° rather than other?
+![image](https://user-images.githubusercontent.com/14041622/36589539-9a928d54-18c6-11e8-8402-7e0ea6c3d6bc.png)
+
+The official name for it is **Cartesian coordinate system**(笛卡尔坐标体系) according to [the wikipedia page](https://en.wikipedia.org/wiki/Cartesian_coordinate_system).
+It doesn't have to be perpendicular, actually there's a `Oblique Coordinates System` that axes use angles, but it's only applied to early systems. 
+Nowadays theories are most commonly take perpendicular axes as module for its convenience and applicablility to other systems. 
+Wikipedia explains:
+
+![image](https://user-images.githubusercontent.com/14041622/36591419-f0bc98fe-18cc-11e8-939b-49181e6af569.png)
+
+For simply distinguishing, can read [this page in madarine](https://baike.baidu.com/item/%E7%AC%9B%E5%8D%A1%E5%B0%94%E5%9D%90%E6%A0%87%E7%B3%BB?fr=aladdin).
+
+
+
+## FOUR-STEP PATH (Vector + Vector)
+Perfectly explains why two coordination(list, or say, vector) can be added! 
+Literally means how much distance to walk, how much walk horizontally and vertically. 
+Since two vectors were added together means how much we move on the axis(on x and on y), instead of taking 4 steps we can just make it one step directly to the final point, the same final place. 
+And draw an arrow from origin to it, then everything construct a beautiful triangle. 
+
+![image](https://user-images.githubusercontent.com/14041622/36588757-098a820a-18c4-11e8-9f32-62c4a66702a5.png)
+
+
+And two lists(vectors, coordinates)  much contain exact the same amount of distance indicator(number), otherwise it doesn’t make sense at all.
+2D, here it simply just means there’re two distance number in the list, like (2,-3). 
+So 3D means three distance number in the list, (2,-3, 5). 
+No matter how many dimensions are represented here, all we need to care about is how many pair of numbers we need to operate(add or multiply).
+
+
+## SCALING  (Multiplication of vector by a number)
+`SCALING` is what we say multiplication of a vector. 
+Literally just stretching, squishing or reversing direction of the vector(the position).
+
+![image](https://user-images.githubusercontent.com/14041622/35763036-f0b92970-08dd-11e8-8686-2f7b3bfe2d87.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35763039-f918bd4c-08dd-11e8-9df0-69780a52b0ec.png)
+
+And the number(multiplier) besides the vector(position), we call it `SCALARS`, 
+Literally means how much we scale the vector(scale the movement from origin to the position, closer or further, forward or backward). 
+The scalar we also just call it `number` sometimes.
+
+## VECTOR ADDITION & SCALAR MULPIPLICATION.
+It's the two Fundamental operation of vectors.
+
+![image](https://user-images.githubusercontent.com/14041622/36589168-6302cfda-18c5-11e8-8381-79fe699dbf20.png)
+
+
+Addition means moving the tip of an arrow to another position, multiplication means to scale the arrow line itself bigger or smaller.
+
+## BASIS OF VECTORS
+`i-hat` is a unit-vector (1 unit), only indicate x-distance. 
+When it’s with a number(scalar), `i-hat` can be stretched or squished. 
+Same with `j-hat`.  
+
+And i-hat and j-hat are called a pair of `BASIS VECTORS`.
+When adding two vectors(both with scalars) together, it becomes like this.
+
+![image](https://user-images.githubusercontent.com/14041622/35763044-086c60a0-08de-11e8-9c3a-3942b8332a13.png)
+
+## LINEAR COMBINATION 
+The combination of two vectors(the result), is the 3rd line from the triangle. It’s a direct line from this tail to that tip, so it’s linear result(combination).
+![image](https://user-images.githubusercontent.com/14041622/35763049-19499690-08de-11e8-8300-ec0762101da4.png)
+
+## SPAN
+with two vectors, depends on situation(is one’s value already set up, or both aren’t set up and can be anywhere), and we scale them to all possible places, and what places it covers, is the SPAN of the two vectors.
+If one is settled scaling rate, like -1.44, so no matter how much the other one move, all the movement will only draw a single line.
+
+![image](https://user-images.githubusercontent.com/14041622/35767628-fe157ee6-092a-11e8-9d3a-53c48284621a.png)
+
+## `LINEARLY DEPENDENT` and `LINEARLY INDEPENDENT`
+![image](https://user-images.githubusercontent.com/14041622/35767629-09e9c128-092b-11e8-9a80-d007b6a61849.png)
+In the case two-dimension, if two vectors line up then it makes no space but a line, in three-dimension no sphere but a sheet. 
+So if any vector lines up with another, we call it `LINEARLY DEPENDENT`. Vice versa, if it makes space then we call it `LINEARLY INDEPENDENT`.
+![image](https://user-images.githubusercontent.com/14041622/35767632-11aef59a-092b-11e8-9fd8-a5feda75ee80.png)
+## VECTOR SPACE
+Only when vectors are linearly independent (not collapse with any other vector), its span can draw a space.
+![image](https://user-images.githubusercontent.com/14041622/35767635-171fca2c-092b-11e8-8834-39affa91e746.png)
+
+
+
+
+# What are sin, cos, tan?
+
+- [Khan short video](https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-trig-ratios-intro/v/basic-trigonometry)
+- [Maths is Fun](http://www.mathsisfun.com/sine-cosine-tangent.html)
+
+## First to know the terms
+It's only applicable to an `Right triangle`.  A right triangle is a triangle with a 90-degree angle.
+The angle we pick out, is called `Θ`, theta. In `vector` related problems, it's also called the `direction angle`, see [this Khan practice](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/e/direction-angles).
+
+The side opposite to that angle is called `Opposite`.
+The side next to the angle is called `Adjacent`, "A-Jason-t".
+The side is long is called `Hypotenuse`, "High-po-ten-news`.
+![image](https://user-images.githubusercontent.com/14041622/36719484-1f16b318-1be0-11e8-9038-4e4f9da05fe2.png)
+
+
+## How to calculate sine, cosine and tangent of an angle 
+REMEMBER SHORTCUT: `SOH-CAH-TOA`, pronounced "so-kah-tow-ah".
+- `S`in = `O`pposite / `H`ypotenuse 
+- `C`on = `A`djacent / `H`ypotenuse
+- `T`an = `O`pposite / `A`djacent
+
+![image](https://user-images.githubusercontent.com/14041622/36720552-5e5182ee-1be3-11e8-92d1-33e1f0218ee8.png)
+
+
+## How to calculate the ratio of an angle?
+We want to know what the ratio of an angle is, 60° or 59°?
+If we know `tan(x) = 123`, whatever, then we can get it by `x = tan_inverse(123)`.
+`tan_inverse(...)` or `tan⁻¹(...)` are the same.
+
+## How to calculate the ratio of an `direction angle`
+> `direction angle` is a term for vectors. It is the angle we care about for a vector, which is in between of the vector line and the positive side of axis-x.
+
+**The ratio of a `direction angle` is always drawn from the positive side of axis-x, so that you could know what direction is this vector going to.**
+
+For a vector we only know its x-distance and y-distance, so in terms of trigonometry, or in `right triangle`, they're `Opposite` and `Adjacent`.  So that we could use `Tangent` to calculate the ratio, such as `tan⁻¹(y/x)`.
+
+**But the thing is**, `tan⁻¹(...)` always gives you a number less then 90. So we have to do some tricks for doing this when the direction angle's ratio of a vector is greater than 90, or lesser 0.
+
+To classify those situations, we use the idea of `4 quadrant` of the axis system.
+
+> And once we see x and y, we could immediately identify which quadrant the vector will fall into, then use the different method to calculte as follow:
+
+### [1st Quadrant ](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/v/angles-of-vectors-from-components) (+x, +y):
+```
+Ratio = tan⁻¹(y/x)
+```
+
+![snip20180227_91](https://user-images.githubusercontent.com/14041622/36723018-1758cbf2-1bea-11e8-88dd-ae3753bbe2db.png)
+
+### [2nd Quadrant](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/v/angles-of-vectors-from-components) (-x, +y):
+```
+Ratio = tan⁻¹(y/x) + 180
+```
+
+![image](https://user-images.githubusercontent.com/14041622/36723008-12b4d618-1bea-11e8-988e-840d942b66a0.png)
+
+### [3rd Quadrant](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/v/more-examples-finding-vector-angles) (-x, -y):
+```
+Ratio = tan⁻¹(y/x) + 180
+```
+
+![snip20180227_89](https://user-images.githubusercontent.com/14041622/36722966-f68032ee-1be9-11e8-808e-c623a3c248da.png)
+
+### [4th Quadrant](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/v/more-examples-finding-vector-angles) (x, -y):
+```
+Ratio = tan⁻¹(y/x) + 360
+```
+
+![snip20180227_90](https://user-images.githubusercontent.com/14041622/36722956-eee1defc-1be9-11e8-9dcc-ab3c935afa48.png)
+
+
+
+# Vector's `magnitude`, `direction`, `unit vector`, `components`
+
+View this [Khan review page](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/a/vector-forms-review), 
+and [another  Khan review page ](https://www.khanacademy.org/math/precalculus/vectors-precalc/component-form-of-vectors/a/vector-magnitude-and-direction-review) for this section.
+
+![image](https://user-images.githubusercontent.com/14041622/36725910-d03ed410-1bf2-11e8-9bf8-d85acf4f6dd6.png)
+
+![image](https://user-images.githubusercontent.com/14041622/36725667-f959a5a6-1bf1-11e8-9f7d-cd9c16957938.png)
+
