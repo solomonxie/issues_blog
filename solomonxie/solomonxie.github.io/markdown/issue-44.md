@@ -57,7 +57,7 @@ Examples: `Cube`, `Triangular Prism`, `Pyramids`
 
 
 
-# [`Prisms`](http://www.mathsisfun.com/geometry/prisms.html)
+# [`Prisms`](http://www.mathsisfun.com/geometry/prisms.html) shape
 A `Prism` is a 3D shape, which could be stretch out from a 2D shape with sides all straight. The 2D shape is called `Cross-Section`.
 A prism is a `polyhedron`, which means all faces are flat!
 
@@ -99,7 +99,7 @@ It's also called `Box and whisker plots`.
 
 
 
-# Shapes of distributions: `Clusters`, `gaps`, `peaks` & `outliers` for statistics graph
+# `Clusters`, `gaps`, `peaks` & `outliers` for Distribution graph(Stats)
 
 [Khan lecture: Shape for distributions.](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6-shape-of-data/v/shapes-of-distributions)
 [Khan lecture 2 `Clusters`, `gaps`, `peaks` & `outliers`.](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6-shape-of-data/v/examples-analyzing-clusters-gaps-peaks-and-outliers-for-distributions)
