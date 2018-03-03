@@ -88,11 +88,12 @@ A prism is a `polyhedron`, which means all faces are flat!
 ![image](https://user-images.githubusercontent.com/14041622/36936141-01427c82-1f3c-11e8-80d8-8299d8aa1cfe.png)
 
 
-# `Box plots` on a axis for statistics graph
+# `Box plots` and `Quartiles` for Distribution graph(Stats)
 It's also called `Box and whisker plots`.
 
 [Khan lecture 1.](https://www.khanacademy.org/math/probability/data-distributions-a1/box--whisker-plots-a1/v/reading-box-and-whisker-plots)
 [Khan lecture 2.](https://www.khanacademy.org/math/probability/data-distributions-a1/box--whisker-plots-a1/v/interpreting-box-plots)
+[Maths is for fun Wiki.](http://www.mathsisfun.com/data/quartiles.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/36936341-1b7ca9c6-1f3f-11e8-816d-a7248923a559.png)
 
