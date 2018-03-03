@@ -66,3 +66,11 @@ A prism is a `polyhedron`, which means all faces are flat!
 ![image](https://user-images.githubusercontent.com/14041622/36935949-7e45de84-1f39-11e8-9343-76fc4fcee1cd.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/36935966-a9294140-1f39-11e8-950d-76c16f927f60.png)
+
+
+
+# `Mean number`, `median number`, & `mode number`
+
+- `Mean number` is just an average of all numbers listed.
+- `Median number` is the middle positioned number in a ordered `number set` (means no duplicates). If there're two middles, then average them to get a median number.
+- `Mode number` is the number shows up most times in a list.
