@@ -411,3 +411,8 @@ git config --global http.proxy http://127.0.0.1:1087
 结果没过几分钟，
 所有端都可以正常连接了。
 也许真的是github突然遇到什么问题导致所有地方都不能访问。
+
+第二天更新：
+结果真的第二天就收到这个新闻：Github昨天晚上遭遇史上最大DDOS攻击。但是不包括我吧，我顶多每分钟10次连接，而且还是用的绑定的ssh key和oauth码。。。
+![image](https://user-images.githubusercontent.com/14041622/36930989-e39b3772-1ee7-11e8-93ae-5c0b83817d44.png)
+
