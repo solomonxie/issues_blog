@@ -44,3 +44,6 @@ pain in the ass..
 
 
 程序员的快乐更多的不是来自于项目的完成，而是来自于一个一个bug的解决。
+
+
+After a week’s reaching, I think I’m about reached to my bottom of maths: 6th grade. 
