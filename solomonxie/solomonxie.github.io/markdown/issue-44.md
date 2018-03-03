@@ -82,7 +82,7 @@ A prism is a `polyhedron`, which means all faces are flat!
 
 # [`Dependent variables`](http://www.mathsisfun.com/definitions/dependent-variable.html) & [`independent variables`](http://www.mathsisfun.com/definitions/independent-variable.html)
 
-- `Independent variables`: Input value of a function.
-- `Dependent variables`: Output value of a function.
+- `Independent variables`: **_Input_** value of a function. (usually x)
+- `Dependent variables`: **_Output_** value of a function. (usually y)
 
 ![image](https://user-images.githubusercontent.com/14041622/36936141-01427c82-1f3c-11e8-80d8-8299d8aa1cfe.png)
