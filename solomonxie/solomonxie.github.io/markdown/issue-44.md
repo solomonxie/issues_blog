@@ -69,7 +69,7 @@ A prism is a `polyhedron`, which means all faces are flat!
 
 
 
-# `Mean number`, `median number`, & `mode number`
+# `Mean`, `median`, & `mode` numbers
 [Khan lecture.](https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-center-distributions/v/mean-median-and-mode)
 
 - `Mean number` is just an average of all numbers listed.
@@ -77,3 +77,12 @@ A prism is a `polyhedron`, which means all faces are flat!
 - `Mode number` is the number shows up most times in a list.
 
 ![image](https://user-images.githubusercontent.com/14041622/36936067-12094dd0-1f3b-11e8-9b87-da9ce190a3d2.png)
+
+
+
+# [`Dependent variables`](http://www.mathsisfun.com/definitions/dependent-variable.html) & [`independent variables`](http://www.mathsisfun.com/definitions/independent-variable.html)
+
+- `Independent variables`: Input value of a function.
+- `Dependent variables`: Output value of a function.
+
+![image](https://user-images.githubusercontent.com/14041622/36936141-01427c82-1f3c-11e8-80d8-8299d8aa1cfe.png)
