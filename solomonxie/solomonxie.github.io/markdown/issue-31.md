@@ -294,9 +294,13 @@ $ vncserver
 第一次启动时，会提示你创建一个登录密码和只供浏览用的登录密码。
 ![image](https://user-images.githubusercontent.com/14041622/36931821-50c5d788-1ef9-11e8-9725-ff053e93e8fd.png)
 
+3. 第三步：开启服务器端口
+服务器端口开放需要在供应商的网页控制面板里调整，各不相同。下面的是Lightsail的配置：
+![image](https://user-images.githubusercontent.com/14041622/36932254-5a9f4160-1f01-11e8-9080-36ae23a1a038.png)
 
 
-2. 第二步：从本地计算机利用vnc访问
+
+4. 第四步：从本地计算机利用vnc访问
 每种平台方式不同。Mac上直接在文件夹菜单里的`Connect to Server`就可以连上，地址格式是：`vnc://IP:5901`，端口号是默认的。
 
 引用DigitalOcean的说明：
