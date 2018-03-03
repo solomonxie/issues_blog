@@ -88,7 +88,8 @@ A prism is a `polyhedron`, which means all faces are flat!
 ![image](https://user-images.githubusercontent.com/14041622/36936141-01427c82-1f3c-11e8-80d8-8299d8aa1cfe.png)
 
 
-# `Box and whisker plots` on a axis for statistics
+# `Box plots` on a axis for statistics
+It's also called `Box and whisker plots`.
 
 [Khan lecture 1.](https://www.khanacademy.org/math/probability/data-distributions-a1/box--whisker-plots-a1/v/reading-box-and-whisker-plots)
 [Khan lecture 2.](https://www.khanacademy.org/math/probability/data-distributions-a1/box--whisker-plots-a1/v/interpreting-box-plots)
