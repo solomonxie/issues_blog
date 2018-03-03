@@ -41,3 +41,16 @@ Types of angles: `acute`, `right`, `obtuse`(sounds "ob-tuse"), and `straight`.
 # Dividing numbers strategy
 [Khan page.](https://www.khanacademy.org/math/arithmetic/arith-review-multiply-divide/arith-review-mult-digit-div-2/v/dividing-2-digits-no-remainder)
 
+
+
+
+# [`Polyhedra`](http://www.mathsisfun.com/geometry/polyhedron.html)
+
+[Khan academy lession.](https://www.khanacademy.org/math/basic-geo/basic-geo-volume-sa/basic-geometry-surface-area/v/nets-of-polyhedra)
+
+Polyhedra, or Polyhedrons is plural for Polyhedron. means a 3D shape with surfaces all flat.
+Examples: `Cube`, `Triangular Prism`, `Pyramids`
+
+![image](https://user-images.githubusercontent.com/14041622/36935665-64ef4bc2-1f35-11e8-9101-13d25066b269.png)
+
+![image](https://user-images.githubusercontent.com/14041622/36935670-7ac153a0-1f35-11e8-8363-0aed60baaf21.png)
