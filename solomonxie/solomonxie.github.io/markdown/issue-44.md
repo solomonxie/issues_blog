@@ -88,10 +88,18 @@ A prism is a `polyhedron`, which means all faces are flat!
 ![image](https://user-images.githubusercontent.com/14041622/36936141-01427c82-1f3c-11e8-80d8-8299d8aa1cfe.png)
 
 
-# `Box plots` on a axis for statistics
+# `Box plots` on a axis for statistics graph
 It's also called `Box and whisker plots`.
 
 [Khan lecture 1.](https://www.khanacademy.org/math/probability/data-distributions-a1/box--whisker-plots-a1/v/reading-box-and-whisker-plots)
 [Khan lecture 2.](https://www.khanacademy.org/math/probability/data-distributions-a1/box--whisker-plots-a1/v/interpreting-box-plots)
 
 ![image](https://user-images.githubusercontent.com/14041622/36936341-1b7ca9c6-1f3f-11e8-816d-a7248923a559.png)
+
+
+
+# Shapes of distributions: `Clusters`, `gaps`, `peaks` & `outliers` for statistics graph
+
+[Khan lecture: Shape for distributions.](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6-shape-of-data/v/shapes-of-distributions)
+[Khan lecture 2 `Clusters`, `gaps`, `peaks` & `outliers`.](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6-shape-of-data/v/examples-analyzing-clusters-gaps-peaks-and-outliers-for-distributions)
+
