@@ -47,3 +47,6 @@ pain in the ass..
 
 
 After a week’s reaching, I think I’m about reached to my bottom of maths: 6th grade. 
+
+
+编程可以一直有机会学，数学就很难了。
