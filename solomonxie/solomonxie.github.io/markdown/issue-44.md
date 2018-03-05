@@ -108,3 +108,75 @@ It's also called `Box and whisker plots`, or `Five-number summary`.
 [Khan lecture: Shape for distributions.](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6-shape-of-data/v/shapes-of-distributions)
 [Khan lecture 2 `Clusters`, `gaps`, `peaks` & `outliers`.](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6-shape-of-data/v/examples-analyzing-clusters-gaps-peaks-and-outliers-for-distributions)
 
+
+
+
+# What are sin, cos, tan?
+
+- [Khan short video](https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-trig-ratios-intro/v/basic-trigonometry)
+- [Maths is Fun](http://www.mathsisfun.com/sine-cosine-tangent.html)
+
+## First to know the terms
+It's only applicable to an `Right triangle`.  A right triangle is a triangle with a 90-degree angle.
+The angle we pick out, is called `Θ`, theta. In `vector` related problems, it's also called the `direction angle`, see [this Khan practice](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/e/direction-angles).
+
+The side opposite to that angle is called `Opposite`.
+The side next to the angle is called `Adjacent`, "A-Jason-t".
+The side is long is called `Hypotenuse`, "High-po-ten-news`.
+![image](https://user-images.githubusercontent.com/14041622/36719484-1f16b318-1be0-11e8-9038-4e4f9da05fe2.png)
+
+
+## How to calculate sine, cosine and tangent of an angle 
+REMEMBER SHORTCUT: `SOH-CAH-TOA`, pronounced "so-kah-tow-ah".
+- `S`in = `O`pposite / `H`ypotenuse 
+- `C`on = `A`djacent / `H`ypotenuse
+- `T`an = `O`pposite / `A`djacent
+
+![image](https://user-images.githubusercontent.com/14041622/36720552-5e5182ee-1be3-11e8-92d1-33e1f0218ee8.png)
+
+
+## How to calculate the ratio of an angle?
+We want to know what the ratio of an angle is, 60° or 59°?
+If we know `tan(x) = 123`, whatever, then we can get it by `x = tan_inverse(123)`.
+`tan_inverse(...)` or `tan⁻¹(...)` are the same.
+
+## How to calculate the ratio of an `direction angle`
+> `direction angle` is a term for vectors. It is the angle we care about for a vector, which is in between of the vector line and the positive side of axis-x.
+
+**The ratio of a `direction angle` is always drawn from the positive side of axis-x, so that you could know what direction is this vector going to.**
+
+For a vector we only know its x-distance and y-distance, so in terms of trigonometry, or in `right triangle`, they're `Opposite` and `Adjacent`.  So that we could use `Tangent` to calculate the ratio, such as `tan⁻¹(y/x)`.
+
+**But the thing is**, `tan⁻¹(...)` always gives you a number less then 90. So we have to do some tricks for doing this when the direction angle's ratio of a vector is greater than 90, or lesser 0.
+
+To classify those situations, we use the idea of `4 quadrant` of the axis system.
+
+> And once we see x and y, we could immediately identify which quadrant the vector will fall into, then use the different method to calculte as follow:
+
+### [1st Quadrant ](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/v/angles-of-vectors-from-components) (+x, +y):
+```
+Ratio = tan⁻¹(y/x)
+```
+
+![snip20180227_91](https://user-images.githubusercontent.com/14041622/36723018-1758cbf2-1bea-11e8-88dd-ae3753bbe2db.png)
+
+### [2nd Quadrant](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/v/angles-of-vectors-from-components) (-x, +y):
+```
+Ratio = tan⁻¹(y/x) + 180
+```
+
+![image](https://user-images.githubusercontent.com/14041622/36723008-12b4d618-1bea-11e8-988e-840d942b66a0.png)
+
+### [3rd Quadrant](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/v/more-examples-finding-vector-angles) (-x, -y):
+```
+Ratio = tan⁻¹(y/x) + 180
+```
+
+![snip20180227_89](https://user-images.githubusercontent.com/14041622/36722966-f68032ee-1be9-11e8-808e-c623a3c248da.png)
+
+### [4th Quadrant](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/v/more-examples-finding-vector-angles) (x, -y):
+```
+Ratio = tan⁻¹(y/x) + 360
+```
+
+![snip20180227_90](https://user-images.githubusercontent.com/14041622/36722956-eee1defc-1be9-11e8-9dcc-ab3c935afa48.png)
