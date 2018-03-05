@@ -106,3 +106,9 @@ and [another  Khan review page ](https://www.khanacademy.org/math/precalculus/ve
 ![image](https://user-images.githubusercontent.com/14041622/36725667-f959a5a6-1bf1-11e8-9f7d-cd9c16957938.png)
 
 
+
+
+
+# Adding vectors in `magnitude & direction form`
+![image](https://user-images.githubusercontent.com/14041622/36966785-d510d402-2098-11e8-8b68-1d645d13020c.png)
+![image](https://user-images.githubusercontent.com/14041622/36967241-285034d6-209a-11e8-9757-14f263ec0d75.png)
