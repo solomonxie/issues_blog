@@ -185,4 +185,8 @@ Ratio = tan⁻¹(y/x) + 360
 
 # [Interquartile range (IQR)](https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-spread-distributions/v/calculating-interquartile-range-iqr) for Stats
 
+### Example 1
 ![image](https://user-images.githubusercontent.com/14041622/36989354-74aa48e8-20dc-11e8-91b9-5c4c94655553.png)
+
+### Example 2
+![image](https://user-images.githubusercontent.com/14041622/36989519-e5d4fbe4-20dc-11e8-83e9-39fef6cf012a.png)
