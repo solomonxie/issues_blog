@@ -125,3 +125,17 @@ Windows上可能需要安装个软件来连接，可以自己查一查。
 ![image](https://user-images.githubusercontent.com/14041622/36931496-b85af8fe-1ef1-11e8-95a0-b997c0f9220a.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/36931498-c0a2cb18-1ef1-11e8-9081-83699f96ce45.png)
+
+
+## VNC中无法连接互联网
+通过vnc连接到了树莓派桌面后，无论是浏览器还是桌面中打开的终端，皆无法连接到互联网。
+但是SSH连接树莓派时，在命令行里均可以正常连接网络。
+那么问题在于vnc了。目前暂没有找到解决方案。
+
+
+# 树莓派命令行找不到`ifconfig`命令
+> command not found: ifconfig
+
+[参考回答。](https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=23405)
+
+可以用`sudo ifconfig`,或直接指定位置`/sbin/ifconfig`，或者先设置别名`alias ifconfig="/sbin/ifconfg`，然后再正常使用。
