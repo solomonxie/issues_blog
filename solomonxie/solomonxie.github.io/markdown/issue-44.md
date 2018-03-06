@@ -2,24 +2,28 @@
 > Study notes mainly from Khan Academy. 
 
 TO-DO -> Khan Academy Subjects :
-- [x] Early Math
-- [x] Kindergarten
-- [x] 1st grade
-- [x] 2st grade
-- [x] 3st grade
-- [x] 4st grade
-- [x] 5st grade
+- [x] Early Math (100%)
+- [x] Kindergarten (100%)
+- [x] 1st grade (100%)
+- [x] 2st grade (100%)
+- [x] 3st grade (100%)
+- [x] 4st grade (100%)
+- [x] 5st grade (100%)
 - [ ] 6st grade
+    - [x] 69%
 - [ ] 7st grade
 - [ ] 8st grade
-- [x] Arithmetic
+- [x] Arithmetic (100%)
 - [ ] Basic geometry
 - [ ] Pre-algebra
+    - [x] 70%
 - [ ] Algebra basics
+    - [x] 40%
 - [ ] Algebra 1
 - [ ] High school geometry
 - [ ] Algebra 2
 - [ ] Trigonometry
+    - [x] 12%
 - [ ] Statistics and probability
 - [ ] High school statistics
 - [ ] AP Statistics
