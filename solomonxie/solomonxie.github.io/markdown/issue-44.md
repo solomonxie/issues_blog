@@ -1,11 +1,14 @@
 # Kindergarten Maths 幼儿园数学入门
 > Study notes mainly from Khan Academy. 
 
-## TO-DO
-- [ ] Algebra basics: practice all things before mastery challenge
-- [ ] Trigonometry: practice all things before mastery challenge
-- [ ] Basic geometry: finish mastery asap.
-- [ ] 6th grade: finish mastery asap. then move to 7th grade
+## Reminder
+#### Finish mastery challenge ASAP.
+- [ ] Basic geometry
+- [ ] 6th grade
+
+#### Practice all things before challenge
+- [ ] Algebra basics
+- [ ] Trigonometry
 
 ## Mastery challenge
 - [x] Early Math (100%)
@@ -15,22 +18,27 @@
 - [x] 3st grade (100%)
 - [x] 4st grade (100%)
 - [x] 5st grade (100%)
-- [ ] 6st grade
+- [ ] [6st grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
     - [x] 69%
-- [ ] 7st grade
-- [ ] 8st grade
+- [ ] [7st grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
+    - [ ] [Statistics and probability](https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-probability-statistics?t=practice)
+- [ ] [8st grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [x] Arithmetic (100%)
-- [ ] Basic geometry
+- [ ] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
     - [x] 58%
-- [ ] Pre-algebra
+- [ ] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
     - [x] 70%
-- [ ] Algebra basics
-    - [x] 40%
+- [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
+    - [ ] [Systems of equations](https://www.khanacademy.org/math/algebra-basics/alg-basics-systems-of-equations?t=practice)
+    - [ ] [Expressions with exponents](https://www.khanacademy.org/math/algebra-basics/alg-basics-expressions-with-exponents?t=practice)
+    - [ ] [Quadratics and polynomials](https://www.khanacademy.org/math/algebra-basics/alg-basics-quadratics-and-polynomials?t=practice)
+    - [ ] [Equations and geometry](https://www.khanacademy.org/math/algebra-basics/alg-basics-equations-and-geometry?t=practice)
 - [ ] Algebra 1
 - [ ] High school geometry
 - [ ] Algebra 2
-- [ ] Trigonometry
-    - [x] 12%
+- [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
+    - [ ] [Trigonometry with right triangles](https://www.khanacademy.org/math/trigonometry/trigonometry-right-triangles?t=practice)
+    - [ ] [Trigonometry with general triangles](https://www.khanacademy.org/math/trigonometry/trig-with-general-triangles?t=practice)
 - [ ] Statistics and probability
 - [ ] High school statistics
 - [ ] AP Statistics
