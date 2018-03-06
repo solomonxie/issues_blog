@@ -2,17 +2,17 @@
 > Study notes mainly from Khan Academy. 
 
 TO-DO -> Khan Academy Subjects :
-- [ ] Early Math
-- [ ] Kindergarten
-- [ ] 1st grade
-- [ ] 2st grade
-- [ ] 3st grade
-- [ ] 4st grade
-- [ ] 5st grade
+- [x] Early Math
+- [x] Kindergarten
+- [x] 1st grade
+- [x] 2st grade
+- [x] 3st grade
+- [x] 4st grade
+- [x] 5st grade
 - [ ] 6st grade
 - [ ] 7st grade
 - [ ] 8st grade
-- [ ] Arithmetic
+- [x] Arithmetic
 - [ ] Basic geometry
 - [ ] Pre-algebra
 - [ ] Algebra basics
@@ -22,13 +22,15 @@ TO-DO -> Khan Academy Subjects :
 - [ ] Trigonometry
 - [ ] Statistics and probability
 - [ ] High school statistics
+- [ ] AP Statistics
 - [ ] Precalculus
+- [ ] Differential calculus
+- [ ] Integral calculus
+- [ ] AP calculus AB
+- [ ] AP calculus BC
 - [ ] Multivariable calculus
 - [ ] Differential equations
 - [ ] Linear Algebra
-- [ ] 
-- [ ] 
-- [ ] 
 
 
 # Estimtion: 2-step estimation problem
