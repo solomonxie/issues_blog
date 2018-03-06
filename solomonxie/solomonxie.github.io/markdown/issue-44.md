@@ -44,7 +44,7 @@ Types of angles: `acute`, `right`, `obtuse`(sounds "ob-tuse"), and `straight`.
 
 
 
-# [`Polyhedra`](http://www.mathsisfun.com/geometry/polyhedron.html)
+# [`Polyhedra`](http://www.mathsisfun.com/geometry/polyhedron.html) - 3D shape
 
 [Khan academy lession.](https://www.khanacademy.org/math/basic-geo/basic-geo-volume-sa/basic-geometry-surface-area/v/nets-of-polyhedra)
 
@@ -57,7 +57,7 @@ Examples: `Cube`, `Triangular Prism`, `Pyramids`
 
 
 
-# [`Prisms`](http://www.mathsisfun.com/geometry/prisms.html) shape
+# [`Prisms`](http://www.mathsisfun.com/geometry/prisms.html)  - 3D shape
 A `Prism` is a 3D shape, which could be stretch out from a 2D shape with sides all straight. The 2D shape is called `Cross-Section`.
 A prism is a `polyhedron`, which means all faces are flat!
 
@@ -69,7 +69,7 @@ A prism is a `polyhedron`, which means all faces are flat!
 
 
 
-# `Mean`, `median`, & `mode` numbers
+# `Mean`, `median`, & `mode` numbers  (STATS)
 [Khan lecture.](https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-center-distributions/v/mean-median-and-mode)
 
 - `Mean number` is just an average of all numbers listed.
@@ -88,7 +88,7 @@ A prism is a `polyhedron`, which means all faces are flat!
 ![image](https://user-images.githubusercontent.com/14041622/36936141-01427c82-1f3c-11e8-80d8-8299d8aa1cfe.png)
 
 
-# `Box plots` and `Quartiles` for Distribution graph(Stats)
+# `Box plots` and `Quartiles`  (STATS: Distribution graph)
 It's also called `Box and whisker plots`, or `Five-number summary`.
 
 [Khan lecture 1.](https://www.khanacademy.org/math/probability/data-distributions-a1/box--whisker-plots-a1/v/reading-box-and-whisker-plots)
@@ -103,7 +103,7 @@ It's also called `Box and whisker plots`, or `Five-number summary`.
 
 
 
-# `Clusters`, `gaps`, `peaks` & `outliers` for Distribution graph(Stats)
+# `Clusters`, `gaps`, `peaks` & `outliers`   (STATS: Distribution graph)
 
 [Khan lecture: Shape for distributions.](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6-shape-of-data/v/shapes-of-distributions)
 [Khan lecture 2 `Clusters`, `gaps`, `peaks` & `outliers`.](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6-shape-of-data/v/examples-analyzing-clusters-gaps-peaks-and-outliers-for-distributions)
@@ -111,7 +111,7 @@ It's also called `Box and whisker plots`, or `Five-number summary`.
 
 
 
-# What are sin, cos, tan?
+# What are sin, cos, tan?  (TRIGONOMETRY)
 
 - [Khan short video](https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-trig-ratios-intro/v/basic-trigonometry)
 - [Maths is Fun](http://www.mathsisfun.com/sine-cosine-tangent.html)
