@@ -369,7 +369,13 @@ pm.response.to.have.status("状态名");
 
 
 
-# 使用Google Chart API 制作数学公式图
+# Markdown中插入数学公式
+以下方法：
+- Google Charts API
+- [Forkosh](http://www.forkosh.com/mathtex.html)
+- [Codecogs](https://latex.codecogs.com/)
+
+## Google Charts API 制作数学公式图
 都知道Markdown中插入公式不易，需要平台自己提供LaTex渲染引擎。
 如果是自己的平台倒还好说，很简单引入一个js文件即可。
 但是Github的README和issues等都默认是不支持LaTex的，也不能插入外部js文件。
@@ -389,3 +395,8 @@ pm.response.to.have.status("状态名");
 https://chart.apis.google.com/chart?cht=tx&chf=bg,s,FFFF00&chl=%0D%0A4x_0%5CDelta%28x%29%2B3%5CDelta%28x%29%2B2%5CDelta%28x%5E2%29%3E0%0D%0A
 ```
 ![formula](https://chart.apis.google.com/chart?cht=tx&chf=bg,s,FFFF00&chl=%0D%0A4x_0%5CDelta%28x%29%2B3%5CDelta%28x%29%2B2%5CDelta%28x%5E2%29%3E0%0D%0A)
+
+
+## Codecogs 制作数学公式
+相比Google来说，Codecogs采用了一样的url引用方式，一样的语法，且也必须是url编码。但是Codecogs提供了一个网页编辑器，可以直接在上面可视化编辑公式，然后直接拷贝图片链接即可，所见即所得，要快捷的多了。
+当然如果在意服务器稳定性还是想用Google的话，那还可以把图片链接前面直接改成Google api的地址即可。
