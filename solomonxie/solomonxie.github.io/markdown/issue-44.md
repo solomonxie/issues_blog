@@ -3,8 +3,9 @@
 
 ## Reminder
 #### Finish mastery challenge ASAP.
-- [ ] Basic geometry
 - [ ] 6th grade
+- [ ] Pre-algebra
+- [ ] Basic geometry
 
 #### Practice all things before challenge
 - [ ] Algebra basics
