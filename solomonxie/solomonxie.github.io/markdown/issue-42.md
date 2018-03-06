@@ -382,9 +382,10 @@ pm.response.to.have.status("状态名");
 
 ```
 ![](http://chart.googleapis.com/chart?cht=tx&chl= 在此插入Latex公式)
-
-# 例子
-![](http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
 ```
-
-![image](http://chart.googleapis.com/chart?cht=tx&chl=\Large)
+注意：公式虽然是LaTex语法，但是特殊符号必须经过url编码才行，否则Github不显示。
+例：
+```
+https://chart.apis.google.com/chart?cht=tx&chf=bg,s,FFFF00&chl=%0D%0A4x_0%5CDelta%28x%29%2B3%5CDelta%28x%29%2B2%5CDelta%28x%5E2%29%3E0%0D%0A
+```
+![formula](https://chart.apis.google.com/chart?cht=tx&chf=bg,s,FFFF00&chl=%0D%0A4x_0%5CDelta%28x%29%2B3%5CDelta%28x%29%2B2%5CDelta%28x%5E2%29%3E0%0D%0A)
