@@ -183,7 +183,7 @@ Ratio = tan⁻¹(y/x) + 360
 
 
 
-# [Interquartile range (IQR)](https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-spread-distributions/v/calculating-interquartile-range-iqr) for Stats
+# [Interquartile range (IQR)](https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-spread-distributions/v/calculating-interquartile-range-iqr)  (STATS: Box plot)
 
 ### Example 1
 ![image](https://user-images.githubusercontent.com/14041622/36989354-74aa48e8-20dc-11e8-91b9-5c4c94655553.png)
@@ -200,7 +200,7 @@ Ratio = tan⁻¹(y/x) + 360
 
 
 
-# Mean absolute deviation (MAD)
+# Mean absolute deviation - MAD  (STATS)
 `The deviation` is the distance from the value to the `mean` value. 
 It's used to describe how the values looks like or how they're laid on the axis, are they close to each other or far away.
 
@@ -219,3 +219,9 @@ The `Mean absolute deviation` is the absolute average of all deviations.
 
 ## [Polygons](http://www.mathsisfun.com/geometry/regular-polygons.html)
 ![image](https://user-images.githubusercontent.com/14041622/37026043-38e68ea2-2168-11e8-9cc7-f071c18d880f.png)
+
+
+
+# Calculate a trapezoid's area
+
+![image](https://user-images.githubusercontent.com/14041622/37027044-29390ffe-216b-11e8-9240-e71ab4179eb0.png)
