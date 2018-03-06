@@ -34,14 +34,14 @@
 - [ ] Statistics and probability
 - [ ] High school statistics
 - [ ] AP Statistics
-- [ ] Precalculus
+- [ ] [Precalculus](https://www.khanacademy.org/math/precalculus)
 - [ ] Differential calculus
 - [ ] Integral calculus
 - [ ] AP calculus AB
 - [ ] AP calculus BC
 - [ ] Multivariable calculus
 - [ ] Differential equations
-- [ ] Linear Algebra
+- [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 
 
 # Estimtion: 2-step estimation problem
