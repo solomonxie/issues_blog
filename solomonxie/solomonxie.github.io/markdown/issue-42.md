@@ -371,9 +371,10 @@ pm.response.to.have.status("状态名");
 
 # Markdown中插入数学公式
 以下方法：
-- Google Charts API
-- [Forkosh](http://www.forkosh.com/mathtex.html)
-- [Codecogs](https://latex.codecogs.com/)
+- Google Charts API（根据url地址返回公式图片）
+- [Forkosh](http://www.forkosh.com/mathtex.html)（根据url地址返回公式图片）
+- [Codecogs](https://latex.codecogs.com/)  （根据url地址返回公式图片）
+- MathJax 引擎（引入js文件渲染markdown中LaTex公式）
 
 ## Google Charts API 制作数学公式图
 都知道Markdown中插入公式不易，需要平台自己提供LaTex渲染引擎。
