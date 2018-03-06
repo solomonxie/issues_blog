@@ -366,3 +366,25 @@ pm.response.to.have.status("状态名");
 
 ![image](https://user-images.githubusercontent.com/14041622/36188652-53291c34-1188-11e8-89ec-6501c26c5563.png)
 
+
+
+
+# 使用Google Chart API 制作数学公式图
+都知道Markdown中插入公式不易，需要平台自己提供LaTex渲染引擎。
+如果是自己的平台倒还好说，很简单引入一个js文件即可。
+但是Github的README和issues等都默认是不支持LaTex的，也不能插入外部js文件。
+所以在Github中显示正常的公式唯一的方法就是引用公式的图片。
+目前最流行的是Google Chart API和Forkosh服务器，但是forkosh服务器连接不畅，除非自己架服务器搭建forkosh平台，否则就只能选google了。
+
+[参考文章。](https://www.jianshu.com/p/888c5eaebabd)
+
+用法如下：
+
+```
+![](http://chart.googleapis.com/chart?cht=tx&chl= 在此插入Latex公式)
+
+# 例子
+![](http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
+```
+
+![image](http://chart.googleapis.com/chart?cht=tx&chl=\Large)
