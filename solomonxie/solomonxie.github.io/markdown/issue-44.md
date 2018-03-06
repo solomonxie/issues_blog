@@ -1,6 +1,35 @@
 # Kindergarten Maths 幼儿园数学入门
 > Study notes mainly from Khan Academy. 
 
+TO-DO -> Khan Academy Subjects :
+- [ ] Early Math
+- [ ] Kindergarten
+- [ ] 1st grade
+- [ ] 2st grade
+- [ ] 3st grade
+- [ ] 4st grade
+- [ ] 5st grade
+- [ ] 6st grade
+- [ ] 7st grade
+- [ ] 8st grade
+- [ ] Arithmetic
+- [ ] Basic geometry
+- [ ] Pre-algebra
+- [ ] Algebra basics
+- [ ] Algebra 1
+- [ ] High school geometry
+- [ ] Algebra 2
+- [ ] Trigonometry
+- [ ] Statistics and probability
+- [ ] High school statistics
+- [ ] Precalculus
+- [ ] Multivariable calculus
+- [ ] Differential equations
+- [ ] Linear Algebra
+- [ ] 
+- [ ] 
+- [ ] 
+
 
 # Estimtion: 2-step estimation problem
 See [Khan academy video](https://www.khanacademy.org/math/cc-third-grade-math/cc-3rd-mult-div-topic/cc-3rd-two-step-word-problemsa/v/marbles-for-friends).
