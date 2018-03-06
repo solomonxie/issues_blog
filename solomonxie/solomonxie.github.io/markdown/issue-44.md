@@ -190,3 +190,10 @@ Ratio = tan⁻¹(y/x) + 360
 
 ### Example 2
 ![image](https://user-images.githubusercontent.com/14041622/36989519-e5d4fbe4-20dc-11e8-83e9-39fef6cf012a.png)
+
+
+
+# Terms, factors, & coefficients in Algebra
+[Khan lecture.](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-expressions-and-variables/cc-6th-evaluating-expressions/v/expression-terms-factors-and-coefficients)
+
+![image](https://user-images.githubusercontent.com/14041622/37022843-23b3d002-215f-11e8-9965-4fbd216b9559.png)
