@@ -238,3 +238,6 @@ Make a triangle with two points same with the given points, and solve the length
 
 ![image](https://user-images.githubusercontent.com/14041622/37028828-592abeb0-2170-11e8-84cf-a67c6ccae342.png)
 
+
+So to solve the example, just like this:
+![](https://latex.codecogs.com/gif.latex?%5Csqrt%7B%28%7C%20-6-%28-3%29%20%7C%29%20&plus;%20%28%7C8-9%7C%29%7D%20%3D%20%5Csqrt%7B10%7D)
