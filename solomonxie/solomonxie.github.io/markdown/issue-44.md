@@ -1,7 +1,13 @@
 # Kindergarten Maths 幼儿园数学入门
 > Study notes mainly from Khan Academy. 
 
-TO-DO -> Khan Academy Subjects :
+## TO-DO
+- [ ] Algebra basics: practice all things before mastery challenge
+- [ ] Trigonometry: practice all things before mastery challenge
+- [ ] Basic geometry: finish mastery asap.
+- [ ] 6th grade: finish mastery asap. then move to 7th grade
+
+## Mastery challenge
 - [x] Early Math (100%)
 - [x] Kindergarten (100%)
 - [x] 1st grade (100%)
@@ -15,6 +21,7 @@ TO-DO -> Khan Academy Subjects :
 - [ ] 8st grade
 - [x] Arithmetic (100%)
 - [ ] Basic geometry
+    - [x] 58%
 - [ ] Pre-algebra
     - [x] 70%
 - [ ] Algebra basics

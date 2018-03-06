@@ -1,6 +1,10 @@
 # Kaggle learning curves
 > This is for learning Machine Learning with Kaggle from the ground up.
 
+## TO-DO
+- [ ] Titanic
+- [ ] 天池新人挑战赛
+
 
 # Hardware for kaggle competition
 I was shocked when I saw the response to a question that the minimum PC specs for running kaggle competition:
