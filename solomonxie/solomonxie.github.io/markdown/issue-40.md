@@ -7,8 +7,7 @@
 - [ ] [Khan academy Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 - [ ] [Khan academy Pre-calculus](https://www.khanacademy.org/math/precalculus)
 - [ ] [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-- [ ] 
-- [ ] 
+- [ ] [A First Course in Linear Algebra](https://github.com/solomonxie/solomonxie.github.io/files/1786068/fcla-3.50-A.First.Course.in.Linear.Algebra.-.Robert.A.Beezer.University.of.Puget.Sound.Version.3.50.pdf)
 
 
 ## TL;DR. Archive Link: [why do I need to learn Linear Algebra?](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-368829945)
