@@ -225,3 +225,16 @@ The `Mean absolute deviation` is the absolute average of all deviations.
 # Calculate a trapezoid's area
 
 ![image](https://user-images.githubusercontent.com/14041622/37027044-29390ffe-216b-11e8-9240-e71ab4179eb0.png)
+
+
+
+# How to find the distance of two points on x-y axis?
+Example: `What is the distance between (-6, 8) and (-3, 9) ?`
+
+[Khan lecture.](https://www.khanacademy.org/math/basic-geo/basic-geometry-pythagorean-theorem/pythagorean-theorem-distance/v/example-finding-distance-with-pythagorean-theorem)
+
+Easy way to do this:
+Make a triangle with two points same with the given points, and solve the length of the triangle.
+
+![image](https://user-images.githubusercontent.com/14041622/37028828-592abeb0-2170-11e8-84cf-a67c6ccae342.png)
+
