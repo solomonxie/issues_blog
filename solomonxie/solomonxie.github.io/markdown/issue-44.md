@@ -362,4 +362,20 @@ How does it work? As the picture below, just simply **scale the distance** from 
 
 
 
-# Cheatsheet for area/surface/perimeter of shapes
+# Area, perimeter, surface, volume of shapes
+Cheatsheets for calculating area, perimeter, surface, volume of common shapes.
+
+## [Area of plane shapes ](http://www.mathsisfun.com/area.html)
+Triangle, square, rectangle, parallelogram, trapezoid, circle, ellipse, sector.
+
+![image](https://user-images.githubusercontent.com/14041622/37085857-17550858-2231-11e8-9e59-6d6273611d47.png)
+
+## Volume of Cuboids, Rectangular Prisms and Cubes
+Volume = Length × Width ×  Height
+
+## [Volume of Cone, sphere, Cylinder](http://www.mathsisfun.com/geometry/cone-sphere-cylinder.html)
+The volume of a cylinder is: `π × r² × h`
+The volume of a cone is: `1/3 π × r² × h`
+The volume of the sphere is:`4/3 π × r³`
+
+
