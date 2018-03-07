@@ -3,13 +3,13 @@
 
 ## Reminder
 #### Finish mastery challenge ASAP.
-- [ ] 6th grade
-- [ ] Pre-algebra
-- [ ] Basic geometry
+- [ ] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
+- [ ] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
+- [ ] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
 
 #### Practice all things before challenge
-- [ ] Algebra basics
-- [ ] Trigonometry
+- [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
+- [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
 
 ## Mastery challenge
 - [x] Early Math (100%)
@@ -21,6 +21,7 @@
 - [x] 5st grade (100%)
 - [ ] [6st grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
     - [x] 69%
+    - [x] 74%
 - [ ] [7st grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
     - [ ] [Statistics and probability](https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-probability-statistics?t=practice)
 - [ ] [8st grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
@@ -29,6 +30,7 @@
     - [x] 58%
 - [ ] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
     - [x] 70%
+    - [x] 79%
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
     - [ ] [Systems of equations](https://www.khanacademy.org/math/algebra-basics/alg-basics-systems-of-equations?t=practice)
     - [ ] [Expressions with exponents](https://www.khanacademy.org/math/algebra-basics/alg-basics-expressions-with-exponents?t=practice)
@@ -292,3 +294,14 @@ Make a triangle with two points same with the given points, and solve the length
 
 So to solve the example, just like this:
 ![](https://latex.codecogs.com/gif.latex?%5Csqrt%7B%28%7C%20-6-%28-3%29%20%7C%29%20&plus;%20%28%7C8-9%7C%29%7D%20%3D%20%5Csqrt%7B10%7D)
+
+
+# `Makeup price` problem
+> A `markup rate` is a percentage of the wholesale price that a store adds to get a selling or retail price. 
+
+### Question
+![image](https://user-images.githubusercontent.com/14041622/37076471-b85ed096-2211-11e8-9a59-ee1c57cb1314.png)
+
+### Answer
+![image](https://user-images.githubusercontent.com/14041622/37076497-d71faa82-2211-11e8-8f26-fad26e713759.png)
+
