@@ -359,3 +359,7 @@ Means take the point as a center to dilate the shape.
 How does it work? As the picture below, just simply **scale the distance** from each vertex(point) of the shape to the point.
 
 ![image](https://user-images.githubusercontent.com/14041622/37084930-be0f1ede-222e-11e8-9e16-97b5b4fe7003.png)
+
+
+
+# Cheatsheet for area/surface/perimeter of shapes
