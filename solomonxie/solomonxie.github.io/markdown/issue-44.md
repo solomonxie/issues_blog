@@ -334,3 +334,13 @@ the sum of the squares of the other two sides.
 
 - `Vertical angles` are angles opposite each other where two lines cross. A pair of vertical angles **have the same measure** of angle.
 ![image](https://user-images.githubusercontent.com/14041622/37080400-1467f0f2-2221-11e8-8621-382103ebb943.png)
+
+
+
+# [`Transformations`](https://www.khanacademy.org/math/basic-geo/basic-geo-transformations-congruence) (GEOMETRY)
+Types of transformations:
+- [`Translations`](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-transformations-intro/a/intro-to-translations): Move the shape. In geometry, a translation moves a thing up and down or left and right.
+- [`Rotation`](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-transformations-intro/a/intro-to-rotations): Rotate the shape. In geometry, rotations make things turn in a cycle around a definite center point. 
+- [`Reflection`](https://www.khanacademy.org/math/basic-geo/basic-geo-transformations-congruence/basic-geo-reflections/a/reflecting-shapes): Mirror the shape. A reflection is a transformation that acts like a mirror: It swaps all pairs of points that are on exactly opposite sides of the line of reflection.
+- [`Dilation`](https://www.khanacademy.org/math/basic-geo/basic-geo-transformations-congruence/basic-geo-dilations/v/dilating-from-an-arbitrary-point-example): Expand or shrink the shape.
+
