@@ -305,3 +305,13 @@ So to solve the example, just like this:
 ### Answer
 ![image](https://user-images.githubusercontent.com/14041622/37076497-d71faa82-2211-11e8-8f26-fad26e713759.png)
 
+
+
+
+# [`Pythagorean theorem`](http://www.mathsisfun.com/pythagoras.html) (TRIANGLE)
+勾股定理。
+Pronounced: `Pe~'tha-gor-rean 'Theor-rem`
+In a right angled triangle:
+the square of the hypotenuse is equal to
+the sum of the squares of the other two sides.
+![image](https://user-images.githubusercontent.com/14041622/37077006-f34959c2-2213-11e8-8ecf-70ae86c4b6b6.png)
