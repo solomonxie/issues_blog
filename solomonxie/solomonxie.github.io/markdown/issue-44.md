@@ -338,9 +338,16 @@ the sum of the squares of the other two sides.
 
 
 # [`Transformations`](https://www.khanacademy.org/math/basic-geo/basic-geo-transformations-congruence) (GEOMETRY)
+> Transformation means something's changing, transforming. 
+
 Types of transformations:
 - [`Translations`](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-transformations-intro/a/intro-to-translations): Move the shape. In geometry, a translation moves a thing up and down or left and right.
 - [`Rotation`](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-transformations-intro/a/intro-to-rotations): Rotate the shape. In geometry, rotations make things turn in a cycle around a definite center point. 
 - [`Reflection`](https://www.khanacademy.org/math/basic-geo/basic-geo-transformations-congruence/basic-geo-reflections/a/reflecting-shapes): Mirror the shape. A reflection is a transformation that acts like a mirror: It swaps all pairs of points that are on exactly opposite sides of the line of reflection.
 - [`Dilation`](https://www.khanacademy.org/math/basic-geo/basic-geo-transformations-congruence/basic-geo-dilations/v/dilating-from-an-arbitrary-point-example): Expand or shrink the shape.
 
+## [`Rigid transformations`](https://mathbitsnotebook.com/Geometry/Transformations/TRRigidTransformations.html)
+Means you transform the shape without changing the shape.
+Or say, exclude dilation, all translation/rotation/reflection would be `rigid transformation`.
+
+[Khan lecture.](https://www.khanacademy.org/math/basic-geo/basic-geo-transformations-congruence/transformations-intro-basic-geo/v/introduction-to-transformations)
