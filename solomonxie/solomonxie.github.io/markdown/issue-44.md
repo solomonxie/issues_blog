@@ -351,3 +351,6 @@ Means you transform the shape without changing the shape.
 Or say, exclude dilation, all translation/rotation/reflection would be `rigid transformation`.
 
 [Khan lecture.](https://www.khanacademy.org/math/basic-geo/basic-geo-transformations-congruence/transformations-intro-basic-geo/v/introduction-to-transformations)
+
+## `Dilations` [center](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/example-identifying-the-center-of-dilation) and [scale factor](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/dilation-scale-factor)
+
