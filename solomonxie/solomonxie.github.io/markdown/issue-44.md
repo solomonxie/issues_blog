@@ -102,11 +102,14 @@ Types of angles: `acute`, `right`, `obtuse`(sounds "ob-tuse"), and `straight`.
 [Khan academy lession.](https://www.khanacademy.org/math/basic-geo/basic-geo-volume-sa/basic-geometry-surface-area/v/nets-of-polyhedra)
 
 Polyhedra, or Polyhedrons is plural for Polyhedron. means a 3D shape with surfaces all flat.
-Examples: `Cube`, `Triangular Prism`, `Pyramids`
+Examples: `Cube`, `Triangular Prism`, `Pyramids`, `Tetrahedron`
+
+To see the full list of common polyhedrons: [Animated Polyhedron Models](http://www.mathsisfun.com/geometry/polyhedron-models.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/36935665-64ef4bc2-1f35-11e8-9101-13d25066b269.png)
 
-![image](https://user-images.githubusercontent.com/14041622/36935670-7ac153a0-1f35-11e8-8363-0aed60baaf21.png)
+![image](https://user-images.githubusercontent.com/14041622/37077235-03e9f7a4-2215-11e8-96e4-5ffa3d0d997b.png)
+
 
 
 
