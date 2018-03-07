@@ -22,12 +22,14 @@
 - [ ] [6st grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
     - [x] 69%
     - [x] 74%
+    - [x] 79%
 - [ ] [7st grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
     - [ ] [Statistics and probability](https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-probability-statistics?t=practice)
 - [ ] [8st grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [x] Arithmetic (100%)
 - [ ] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
     - [x] 58%
+    - [x] 80%
 - [ ] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
     - [x] 70%
     - [x] 79%
