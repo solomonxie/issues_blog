@@ -378,4 +378,8 @@ The volume of a cylinder is: `π × r² × h`
 The volume of a cone is: `1/3 π × r² × h`
 The volume of the sphere is:`4/3 π × r³`
 
-
+## [Volume, surface area of Pyramid](http://www.mathsisfun.com/geometry/pyramids.html)
+- The **Volume** of a Pyramid: `1/3 × [Base Area] × Height`
+- The **Surface Area** of a Pyramid: 
+    - When all side faces are the same: `[Base Area] + 1/2 × Perimeter × [Slant Length]`
+    - When side faces are different: `[Base Area] + [Lateral Area]`
