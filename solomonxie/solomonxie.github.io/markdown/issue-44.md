@@ -321,3 +321,9 @@ In a right angled triangle:
 the square of the hypotenuse is equal to
 the sum of the squares of the other two sides.
 ![image](https://user-images.githubusercontent.com/14041622/37077006-f34959c2-2213-11e8-8ecf-70ae86c4b6b6.png)
+
+
+
+# [Complementary & supplementary & vertical angles](https://www.khanacademy.org/math/basic-geo/basic-geo-angle/modal/v/complementary-and-supplementary-angles)
+
+
