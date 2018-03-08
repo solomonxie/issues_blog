@@ -431,3 +431,14 @@ Or it's a version of linear equation `y=mx +b`, only the b=0, then `y=mx`.
 ![image](https://user-images.githubusercontent.com/14041622/37138548-7291bebe-22e5-11e8-8c4f-44599cd77d00.png)
 
 At the showing image above, only first one shows a proportional relationship. The other two are not linear and going through origin.
+
+
+# 3 terms ratio problem
+```c
+It takes 54 minutes for 4 people to paint 6 walls.
+How many minutes does it take 6 people to paint 7 walls?
+```
+The answer is:
+![image](https://user-images.githubusercontent.com/14041622/37142006-c6486c40-22f1-11e8-9339-fddceaa27db4.png)
+
+
