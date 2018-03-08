@@ -495,3 +495,7 @@ It only fits to "poly" "nomials", aka. multiple terms, as below:
 
 ## `Monomial`, `Binomial`, `Trinomial`
 ![image](https://user-images.githubusercontent.com/14041622/37164466-4faf537a-2335-11e8-8917-bd3ec541ffb3.png)
+
+
+## [Multiply binomials](http://www.mathsisfun.com/algebra/special-binomial-products.html)
+![image](https://user-images.githubusercontent.com/14041622/37165295-41a90b8e-2337-11e8-9677-0f1dac7a5133.png)
