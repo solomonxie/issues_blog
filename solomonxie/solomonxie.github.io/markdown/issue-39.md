@@ -57,3 +57,12 @@ After a week’s reaching, I think I’m about reached to my bottom of maths: 6t
 
 突然想起来， 要说数学基础，其实我只是大学数学基础不好吧。。。
 我初中的中考数学105分还是110分来着，成人高考数学115分。满分都是120.
+
+
+# [`Quadratics`](http://www.mathsisfun.com/algebra/factoring-quadratics.html)
+
+![image](https://user-images.githubusercontent.com/14041622/37166237-87aa433a-2339-11e8-8878-584517e65751.png)
+
+## Factor a quadratic as the product of two binomials
+![image](https://user-images.githubusercontent.com/14041622/37166350-c84d72e0-2339-11e8-8016-065ea22ef192.png)
+
