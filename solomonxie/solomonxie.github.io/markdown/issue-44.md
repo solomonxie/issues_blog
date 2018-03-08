@@ -485,3 +485,13 @@ It makes it easy to use big and small values.
 `y = mx +b` is called "slope-intercept form` of an equation.
 - m is the slope of this line
 - b is the `y-intercept` of this line.
+
+
+# [`Polynomials`](https://www.mathsisfun.com/algebra/polynomials.html)
+Just an expression of some values, including variables, exponents, constants...
+It only fits to "poly" "nomials", aka. multiple terms, as below:
+
+![image](https://user-images.githubusercontent.com/14041622/37164350-f8360530-2334-11e8-8fbc-006108533421.png)
+
+## `Monomial`, `Binomial`, `Trinomial`
+![image](https://user-images.githubusercontent.com/14041622/37164466-4faf537a-2335-11e8-8917-bd3ec541ffb3.png)
