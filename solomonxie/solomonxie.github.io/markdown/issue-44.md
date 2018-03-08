@@ -456,3 +456,28 @@ It makes it easy to use big and small values.
 ![image](https://user-images.githubusercontent.com/14041622/37145837-f84084fc-22fc-11e8-9694-a3ea01e8b9dc.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/37145875-14ca7f9c-22fd-11e8-86a6-e35525484162.png)
+
+
+
+# [The `Slope` of a line](http://www.mathsisfun.com/geometry/slope.html)
+
+![image](https://latex.codecogs.com/png.latex?%5CLARGE%20Slope%20%3D%20%5Cfrac%7Bchange%5C%20in%5C%20y%7D%7Bchange%5C%20in%5C%20x%7D%20%3D%20%5Cfrac%7B%5CDelta%20y%7D%7B%5CDelta%20x%7D)
+
+![image](https://user-images.githubusercontent.com/14041622/37146549-0436fc4e-22ff-11e8-8388-9b439a7bc9e4.png)
+
+- `Positive slope`: the line is **going up**.
+- `Negative slope`: the line is **going down**.
+- `Slope of zero`: a horizontal line.
+- `Undefined slope`: a vertical line.
+
+![image](https://user-images.githubusercontent.com/14041622/37146850-ea84aee4-22ff-11e8-94f9-627caa3692ce.png)
+
+![image](https://user-images.githubusercontent.com/14041622/37146672-636554cc-22ff-11e8-80b7-2def47c3fa08.png)
+
+
+- `Rise`: the vertical change is called "rise".
+- `Run`: the horizontal change is called "run".
+
+![image](https://user-images.githubusercontent.com/14041622/37146823-d68e7834-22ff-11e8-9fa7-be6987d7293d.png)
+
+
