@@ -425,3 +425,15 @@ For example, the numbers of the second row represent: 12, 13, 15.
 How the `Stem and Leaf Plot` represent numbers, it depends on the context. Stem can represents number of tens place, or ones place; Leaf can represents ones place or even decimal places.
 
 ![image](https://user-images.githubusercontent.com/14041622/37135609-fcc5045e-22d8-11e8-90e7-15178626d756.png)
+
+
+
+# Proportional relationship
+Linearly, if x and y has a relationship that one is another's proportion, then they have a `proportional relationship`. Expression as:
+`y/x = k.`
+
+Or it's a version of linear equation `y=mx +b`, only the b=0, then `y=mx`.
+
+![image](https://user-images.githubusercontent.com/14041622/37138548-7291bebe-22e5-11e8-8c4f-44599cd77d00.png)
+
+At the showing image above, only first one shows a proportional relationship. The other two are not linear and going through origin.
