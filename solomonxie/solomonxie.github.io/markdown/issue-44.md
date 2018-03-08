@@ -362,6 +362,10 @@ How does it work? As the picture below, just simply **scale the distance** from 
 
 ![image](https://user-images.githubusercontent.com/14041622/37084930-be0f1ede-222e-11e8-9e16-97b5b4fe7003.png)
 
+In the example below, you should forget about the `origin` but set the P point as origin and count the distance of each vertex of the triangle: 
+![image](https://user-images.githubusercontent.com/14041622/37137940-027589e6-22e3-11e8-8743-248448836124.png)
+
+
 
 
 # Area, perimeter, surface, volume of shapes
