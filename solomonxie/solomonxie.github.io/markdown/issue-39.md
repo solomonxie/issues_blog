@@ -65,6 +65,10 @@ After a week’s reaching, I think I’m about reached to my bottom of maths: 6t
 
 ## Factor a quadratic as the product of two binomials
 It's easy to expand product of two binomials to a quadratic, but tricky to factor them back.
+
+![image](https://user-images.githubusercontent.com/14041622/37167137-0448086c-233c-11e8-8b0d-c73d21e55baa.png)
+
+
 What we should do is, in the standard quadratic form `ax² + bx +c = 0`, we are to:
 - Find the two common factors of "c"
 - Be sure the sum of two factors equals to "b"
@@ -72,5 +76,14 @@ As the example below, factors of "c" could be 4 and 6, and the sum of them is 10
 ![image](https://user-images.githubusercontent.com/14041622/37166444-00c1c662-233a-11e8-9e14-3907f2f56bc8.png)
 
 
-![image](https://user-images.githubusercontent.com/14041622/37166350-c84d72e0-2339-11e8-8016-065ea22ef192.png)
+### [Factor quadratics by grouping](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) (to factor more complicated quadratics)
+> When the coefficient of the 2nd degree term is not 1, things get more complicated.
 
+[Khan notes.](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) 
+
+![image](https://user-images.githubusercontent.com/14041622/37167291-78ae0896-233c-11e8-8cd6-bdc066b0c1d6.png)
+![image](https://user-images.githubusercontent.com/14041622/37167311-88e9a4c2-233c-11e8-8644-7c96a6242d8e.png)
+
+Then, we make it to:
+
+![image](https://user-images.githubusercontent.com/14041622/37167320-8c94a996-233c-11e8-9a28-a4b85d53fdcb.png)
