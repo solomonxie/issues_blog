@@ -356,9 +356,15 @@ Or say, exclude dilation, all translation/rotation/reflection would be `rigid tr
 
 ## Dilations [center](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/example-identifying-the-center-of-dilation) and [scale factor](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/dilation-scale-factor)
 
-### `Dilation Center`: "Dilate the shape ABOUT a point P"
-Means take the point as a center to dilate the shape.
+### `Dilation Center`
+"Dilate the shape ABOUT a point P", means take the point as a center to dilate the shape.
 How does it work? As the picture below, just simply **scale the distance** from each vertex(point) of the shape to the point.
+
+#### How to find the dilation center?
+The point P and it's image and dilation center, should be IN ONE LINE !
+
+![image](https://user-images.githubusercontent.com/14041622/37138070-9e925228-22e3-11e8-87d0-1944c461b4c9.png)
+
 
 ![image](https://user-images.githubusercontent.com/14041622/37084930-be0f1ede-222e-11e8-9e16-97b5b4fe7003.png)
 
