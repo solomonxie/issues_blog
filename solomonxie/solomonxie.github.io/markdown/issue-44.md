@@ -4,7 +4,7 @@
 ## Reminder
 #### Finish mastery challenge ASAP.
 - [ ] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
-- [ ] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
+- [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
 - [ ] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
 
 #### Practice all things before challenge
@@ -30,9 +30,8 @@
 - [ ] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
     - [x] 58%
     - [x] 80%
-- [ ] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
-    - [x] 70%
-    - [x] 79%
+    - [x] 90%
+- [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra) (100%)
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
     - [ ] [Systems of equations](https://www.khanacademy.org/math/algebra-basics/alg-basics-systems-of-equations?t=practice)
     - [ ] [Expressions with exponents](https://www.khanacademy.org/math/algebra-basics/alg-basics-expressions-with-exponents?t=practice)
