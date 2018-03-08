@@ -385,3 +385,7 @@ The volume of the sphere is:`4/3 π × r³`
 - The **Surface Area** of a Pyramid: 
     - When all side faces are the same: `[Base Area] + 1/2 × Perimeter × [Slant Length]`
     - When side faces are different: `[Base Area] + [Lateral Area]`
+
+
+# Rational & irrational numbers
+A rational number is any number that can be expressed as the fraction of two integers.
