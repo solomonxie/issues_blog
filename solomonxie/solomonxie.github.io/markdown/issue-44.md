@@ -34,7 +34,7 @@
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra) (100%)
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
     - [ ] [Systems of equations](https://www.khanacademy.org/math/algebra-basics/alg-basics-systems-of-equations?t=practice)
-    - [ ] [Expressions with exponents](https://www.khanacademy.org/math/algebra-basics/alg-basics-expressions-with-exponents?t=practice)
+    - [x] [Expressions with exponents](https://www.khanacademy.org/math/algebra-basics/alg-basics-expressions-with-exponents?t=practice)
     - [ ] [Quadratics and polynomials](https://www.khanacademy.org/math/algebra-basics/alg-basics-quadratics-and-polynomials?t=practice)
     - [ ] [Equations and geometry](https://www.khanacademy.org/math/algebra-basics/alg-basics-equations-and-geometry?t=practice)
 - [ ] Algebra 1
