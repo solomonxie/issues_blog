@@ -283,12 +283,6 @@ The `Mean absolute deviation` is the absolute average of all deviations.
 
 
 
-# Calculate a trapezoid's area
-
-![image](https://user-images.githubusercontent.com/14041622/37027044-29390ffe-216b-11e8-9240-e71ab4179eb0.png)
-
-
-
 # How to find the distance of two points on x-y axis?
 Example: `What is the distance between (-6, 8) and (-3, 9) ?`
 
