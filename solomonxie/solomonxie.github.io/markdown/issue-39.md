@@ -79,11 +79,15 @@ As the example below, factors of "c" could be 4 and 6, and the sum of them is 10
 ### [Factor quadratics by grouping](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) (to factor more complicated quadratics)
 > When the coefficient of the 2nd degree term is not 1, things get more complicated.
 
-[Khan notes.](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) 
+[Khan notes 1.](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) 
+[Khan notes 2.](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-quadratics-leading-coefficient-not-1)
 
-![image](https://user-images.githubusercontent.com/14041622/37167291-78ae0896-233c-11e8-8cd6-bdc066b0c1d6.png)
-![image](https://user-images.githubusercontent.com/14041622/37167311-88e9a4c2-233c-11e8-8644-7c96a6242d8e.png)
+The way to do it is, in the standard form of `Ax²+Bx+C`:
+- Find two numbers add up equal `B`
+- The product of the two numbers should equal to `A×C`
+- Regrouping `Bx` to two terms of `x` with the two number.
 
-Then, we make it to:
+#### Example
+![image](https://user-images.githubusercontent.com/14041622/37167728-b60c44b8-233d-11e8-942f-de684afa3038.png)
 
-![image](https://user-images.githubusercontent.com/14041622/37167320-8c94a996-233c-11e8-9a28-a4b85d53fdcb.png)
+![image](https://user-images.githubusercontent.com/14041622/37167732-baa85d68-233d-11e8-9c4a-490bcac3c832.png)
