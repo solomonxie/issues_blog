@@ -35,7 +35,6 @@
     - [x] 79%
     - [x] 98%
 - [ ] [7st grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
-    - [ ] [Statistics and probability](https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-probability-statistics?t=practice)
 - [ ] [8st grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [x] Arithmetic (100%)
 - [ ] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
