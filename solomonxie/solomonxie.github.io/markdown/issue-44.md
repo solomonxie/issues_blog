@@ -9,7 +9,17 @@
 
 #### Practice all things before challenge
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
+    - [x] [Graphing lines and slope](https://www.khanacademy.org/math/algebra-basics/alg-basics-graphing-lines-and-slope?t=practice)
+    - [x] [Systems of equations](https://www.khanacademy.org/math/algebra-basics/alg-basics-systems-of-equations?t=practice)
+    - [x] [Expressions with exponents](https://www.khanacademy.org/math/algebra-basics/alg-basics-expressions-with-exponents?t=practice)
+    - [x] [Quadratics and polynomials](https://www.khanacademy.org/math/algebra-basics/alg-basics-quadratics-and-polynomials?t=practice)
+    - [x] [Equations and geometry](https://www.khanacademy.org/math/algebra-basics/alg-basics-equations-and-geometry?t=practice)
 - [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
+    - [ ] Trigonometry with right triangles
+    - [ ] Trigonometry with general triangles
+    - [ ] The unit circle definition of sine, cosine, and tangent
+    - [ ] Graphs of trigonometric functions
+    - [ ] Trigonometric equations and identities
 
 ## Mastery challenge
 - [x] Early Math (100%)
@@ -34,11 +44,7 @@
     - [x] 90%
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra) (100%)
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
-    - [x] [Graphing lines and slope](https://www.khanacademy.org/math/algebra-basics/alg-basics-graphing-lines-and-slope?t=practice)
-    - [x] [Systems of equations](https://www.khanacademy.org/math/algebra-basics/alg-basics-systems-of-equations?t=practice)
-    - [x] [Expressions with exponents](https://www.khanacademy.org/math/algebra-basics/alg-basics-expressions-with-exponents?t=practice)
-    - [x] [Quadratics and polynomials](https://www.khanacademy.org/math/algebra-basics/alg-basics-quadratics-and-polynomials?t=practice)
-    - [x] [Equations and geometry](https://www.khanacademy.org/math/algebra-basics/alg-basics-equations-and-geometry?t=practice)
+    - [x] 85%
 - [ ] Algebra 1
 - [ ] High school geometry
 - [ ] Algebra 2
