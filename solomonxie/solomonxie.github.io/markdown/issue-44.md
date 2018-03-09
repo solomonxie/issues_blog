@@ -6,20 +6,29 @@
 - [ ] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
 - [ ] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
+- [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
 
 #### Practice all things before challenge
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
-    - [x] [Graphing lines and slope](https://www.khanacademy.org/math/algebra-basics/alg-basics-graphing-lines-and-slope?t=practice)
-    - [x] [Systems of equations](https://www.khanacademy.org/math/algebra-basics/alg-basics-systems-of-equations?t=practice)
-    - [x] [Expressions with exponents](https://www.khanacademy.org/math/algebra-basics/alg-basics-expressions-with-exponents?t=practice)
-    - [x] [Quadratics and polynomials](https://www.khanacademy.org/math/algebra-basics/alg-basics-quadratics-and-polynomials?t=practice)
-    - [x] [Equations and geometry](https://www.khanacademy.org/math/algebra-basics/alg-basics-equations-and-geometry?t=practice)
+    - [x] Graphing lines and slope
+    - [x] Systems of equations
+    - [x] Expressions with exponents
+    - [x] Quadratics and polynomials
+    - [x] Equations and geometry
 - [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
     - [ ] Trigonometry with right triangles
     - [ ] Trigonometry with general triangles
     - [ ] The unit circle definition of sine, cosine, and tangent
     - [ ] Graphs of trigonometric functions
     - [ ] Trigonometric equations and identities
+- [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
+    - [ ] Transformations
+    - [ ] Congruence
+    - [ ] Similarity
+    - [ ] Right triangle & trigonometry
+    - [ ] Solid geometry
+    - [ ] Analytic geometry
+    - [ ] Circles
 
 ## Mastery challenge
 - [x] Early Math (100%)
@@ -45,7 +54,7 @@
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
     - [x] 85%
 - [ ] Algebra 1
-- [ ] High school geometry
+- [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
 - [ ] Algebra 2
 - [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
     - [ ] [Trigonometry with right triangles](https://www.khanacademy.org/math/trigonometry/trigonometry-right-triangles?t=practice)
