@@ -499,3 +499,38 @@ It only fits to "poly" "nomials", aka. multiple terms, as below:
 
 ## [Multiply binomials](http://www.mathsisfun.com/algebra/special-binomial-products.html)
 ![image](https://user-images.githubusercontent.com/14041622/37165295-41a90b8e-2337-11e8-9677-0f1dac7a5133.png)
+
+
+
+# [`Quadratics`](http://www.mathsisfun.com/algebra/factoring-quadratics.html)
+
+![image](https://user-images.githubusercontent.com/14041622/37166237-87aa433a-2339-11e8-8878-584517e65751.png)
+
+## Factor a quadratic as the product of two binomials
+It's easy to expand product of two binomials to a quadratic, but tricky to factor them back.
+
+![image](https://user-images.githubusercontent.com/14041622/37167137-0448086c-233c-11e8-8b0d-c73d21e55baa.png)
+
+
+What we should do is, in the standard quadratic form `ax² + bx +c = 0`, we are to:
+- Find the two common factors of "c"
+- Be sure the sum of two factors equals to "b"
+As the example below, factors of "c" could be 4 and 6, and the sum of them is 10. So the answer is `(x+4)(x+6)`
+![image](https://user-images.githubusercontent.com/14041622/37166444-00c1c662-233a-11e8-9e14-3907f2f56bc8.png)
+
+
+### [Factor quadratics by grouping](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) (to factor more complicated quadratics)
+> When the coefficient of the 2nd degree term is not 1, things get more complicated.
+
+[Khan notes 1.](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) 
+[Khan notes 2.](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-quadratics-leading-coefficient-not-1)
+
+The way to do it is, in the standard form of `Ax²+Bx+C`:
+- Find two numbers add up equal `B`
+- The product of the two numbers should equal to `A×C`
+- Regrouping `Bx` to two terms of `x` with the two number.
+
+#### Example
+![image](https://user-images.githubusercontent.com/14041622/37167728-b60c44b8-233d-11e8-942f-de684afa3038.png)
+
+![image](https://user-images.githubusercontent.com/14041622/37167732-baa85d68-233d-11e8-9c4a-490bcac3c832.png)
