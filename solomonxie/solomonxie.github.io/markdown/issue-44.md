@@ -5,7 +5,7 @@
 #### Finish mastery challenge ASAP.
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
 - [x] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
-- [ ] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
+- [x] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
 
 #### Practice all things before challenge
