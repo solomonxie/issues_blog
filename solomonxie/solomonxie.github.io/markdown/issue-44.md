@@ -366,7 +366,15 @@ Or say, without dilation, after all translation/rotation/reflection, the shape i
 
 [Khan lecture.](https://www.khanacademy.org/math/basic-geo/basic-geo-transformations-congruence/transformations-intro-basic-geo/v/introduction-to-transformations)
 
-## Dilations [center](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/example-identifying-the-center-of-dilation) and [scale factor](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/dilation-scale-factor)
+## [Dilations](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/example-identifying-the-center-of-dilation)
+`Dilation`, just a fancy word for "resizing". 
+
+### [`Scale factor`](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/dilation-scale-factor)
+Means how much you scale the shape, like 2 times bigger, or 2/3 smaller.
+
+### [`Similarity`](http://www.mathsisfun.com/geometry/similar.html)
+When you resize, or say dilate a shape, you call the new shape "similar" to the original one.
+If nothing changed with the shape, you call it "congruent" to the original one.
 
 ### `Dilation Center`
 "Dilate the shape ABOUT a point P", means take the point as a center to dilate the shape.
