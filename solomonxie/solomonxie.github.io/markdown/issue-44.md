@@ -548,3 +548,14 @@ The way to do it is, in the standard form of `Ax²+Bx+C`:
 ![image](https://user-images.githubusercontent.com/14041622/37167728-b60c44b8-233d-11e8-942f-de684afa3038.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/37167732-baa85d68-233d-11e8-9c4a-490bcac3c832.png)
+
+
+
+# [Midpoint of a Line Segment](http://www.mathsisfun.com/algebra/line-midpoint.html)
+The midpoint is halfway between the two end points of the line segment.
+
+![image](https://user-images.githubusercontent.com/14041622/37205179-c03b1400-23ce-11e8-9387-e0d7239f3758.png)
+
+![image](https://user-images.githubusercontent.com/14041622/37205185-c6c468d0-23ce-11e8-8292-6d7d28ca9cbb.png)
+
+
