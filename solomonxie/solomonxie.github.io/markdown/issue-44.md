@@ -3,8 +3,8 @@
 
 ## Reminder
 #### Finish mastery challenge ASAP.
-- [ ] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
+- [ ] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
 - [ ] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
 
@@ -15,12 +15,6 @@
     - [x] Expressions with exponents
     - [x] Quadratics and polynomials
     - [x] Equations and geometry
-- [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
-    - [ ] Trigonometry with right triangles
-    - [ ] Trigonometry with general triangles
-    - [ ] The unit circle definition of sine, cosine, and tangent
-    - [ ] Graphs of trigonometric functions
-    - [ ] Trigonometric equations and identities
 - [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [ ] Transformations
     - [x] Congruence
@@ -29,6 +23,12 @@
     - [ ] Solid geometry
     - [ ] Analytic geometry
     - [ ] Circles
+- [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
+    - [ ] Trigonometry with right triangles
+    - [ ] Trigonometry with general triangles
+    - [ ] The unit circle definition of sine, cosine, and tangent
+    - [ ] Graphs of trigonometric functions
+    - [ ] Trigonometric equations and identities
 
 ## Mastery challenge
 - [x] Early Math (100%)
