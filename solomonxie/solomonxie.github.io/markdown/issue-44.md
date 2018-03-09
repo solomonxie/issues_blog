@@ -37,7 +37,7 @@
     - [x] [Graphing lines and slope](https://www.khanacademy.org/math/algebra-basics/alg-basics-graphing-lines-and-slope?t=practice)
     - [x] [Systems of equations](https://www.khanacademy.org/math/algebra-basics/alg-basics-systems-of-equations?t=practice)
     - [x] [Expressions with exponents](https://www.khanacademy.org/math/algebra-basics/alg-basics-expressions-with-exponents?t=practice)
-    - [ ] [Quadratics and polynomials](https://www.khanacademy.org/math/algebra-basics/alg-basics-quadratics-and-polynomials?t=practice)
+    - [x] [Quadratics and polynomials](https://www.khanacademy.org/math/algebra-basics/alg-basics-quadratics-and-polynomials?t=practice)
     - [x] [Equations and geometry](https://www.khanacademy.org/math/algebra-basics/alg-basics-equations-and-geometry?t=practice)
 - [ ] Algebra 1
 - [ ] High school geometry
