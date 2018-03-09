@@ -357,6 +357,9 @@ Types of transformations:
 - [`Reflection`](https://www.khanacademy.org/math/basic-geo/basic-geo-transformations-congruence/basic-geo-reflections/a/reflecting-shapes): Flip or mirror the shape. A reflection is a transformation that acts like a mirror: It swaps all pairs of points that are on exactly opposite sides of the line of reflection.
 - [`Dilation`](https://www.khanacademy.org/math/basic-geo/basic-geo-transformations-congruence/basic-geo-dilations/v/dilating-from-an-arbitrary-point-example): Expand or shrink the shape.
 
+And,
+you can group above types of transformations into two groups: `Rigid transformations` and `Dilations`
+
 ## [`Rigid transformations`](https://mathbitsnotebook.com/Geometry/Transformations/TRRigidTransformations.html) and [`Congruent`](http://www.mathsisfun.com/geometry/congruent.html)
 `Rigitd transformations` means you play around the shape without expanding or shrinking it.
 Or say, without dilation, all translation/rotation/reflection would be `rigid transformation`.
@@ -366,7 +369,10 @@ Or say, without dilation, after all translation/rotation/reflection, the shape i
 
 [Khan lecture.](https://www.khanacademy.org/math/basic-geo/basic-geo-transformations-congruence/transformations-intro-basic-geo/v/introduction-to-transformations)
 
-## [Dilations](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/example-identifying-the-center-of-dilation)
+![image](https://user-images.githubusercontent.com/14041622/37207189-dc2ee5e4-23d6-11e8-8a51-3c9b80c63edd.png)
+
+
+## [`Dilations`](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/example-identifying-the-center-of-dilation)
 `Dilation`, just a fancy word for "resizing". 
 
 ### [`Scale factor`](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/dilation-scale-factor)
@@ -375,6 +381,9 @@ Means how much you scale the shape, like 2 times bigger, or 2/3 smaller.
 ### [`Similarity`](http://www.mathsisfun.com/geometry/similar.html)
 When you resize, or say dilate a shape, you call the new shape "similar" to the original one.
 If nothing changed with the shape, you call it "congruent" to the original one.
+
+![image](https://user-images.githubusercontent.com/14041622/37207208-f233a2d0-23d6-11e8-8652-ee0e1a913b02.png)
+
 
 ### `Dilation Center`
 "Dilate the shape ABOUT a point P", means take the point as a center to dilate the shape.
