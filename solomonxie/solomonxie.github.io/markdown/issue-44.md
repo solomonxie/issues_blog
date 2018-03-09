@@ -39,11 +39,7 @@
 - [x] 3st grade (100%)
 - [x] 4st grade (100%)
 - [x] 5st grade (100%)
-- [ ] [6st grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
-    - [x] 69%
-    - [x] 74%
-    - [x] 79%
-    - [x] 98%
+- [x] [6st grade](https://www.khanacademy.org/mission/cc-sixth-grade-math) (100%
 - [ ] [7st grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
     - [x] 49%
 - [ ] [8st grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
