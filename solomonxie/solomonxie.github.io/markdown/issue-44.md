@@ -23,7 +23,7 @@
     - [ ] Trigonometric equations and identities
 - [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [ ] Transformations
-    - [ ] Congruence
+    - [x] Congruence
     - [ ] Similarity
     - [ ] Right triangle & trigonometry
     - [ ] Solid geometry
