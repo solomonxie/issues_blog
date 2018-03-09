@@ -4,7 +4,7 @@
 ## Reminder
 #### Finish mastery challenge ASAP.
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
-- [ ] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
+- [x] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
 - [ ] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
 
