@@ -7,6 +7,7 @@
 - [x] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
 - [x] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
+- [ ] [7th grade] (https://www.khanacademy.org/mission/cc-seventh-grade-math)
 
 #### Practice all things before challenge
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
@@ -44,6 +45,7 @@
     - [x] 79%
     - [x] 98%
 - [ ] [7st grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
+    - [x] 49%
 - [ ] [8st grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [x] Arithmetic (100%)
 - [ ] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
@@ -54,15 +56,15 @@
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
     - [x] 85%
 - [ ] Algebra 1
-- [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
 - [ ] Algebra 2
+- [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
 - [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
     - [ ] [Trigonometry with right triangles](https://www.khanacademy.org/math/trigonometry/trigonometry-right-triangles?t=practice)
     - [ ] [Trigonometry with general triangles](https://www.khanacademy.org/math/trigonometry/trig-with-general-triangles?t=practice)
 - [ ] Statistics and probability
 - [ ] High school statistics
-- [ ] AP Statistics
 - [ ] [Precalculus](https://www.khanacademy.org/math/precalculus)
+- [ ] AP Statistics
 - [ ] Differential calculus
 - [ ] Integral calculus
 - [ ] AP calculus AB
