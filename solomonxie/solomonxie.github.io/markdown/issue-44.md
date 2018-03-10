@@ -7,7 +7,8 @@
 - [x] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
 - [x] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
-- [ ] [7th grade] (https://www.khanacademy.org/mission/cc-seventh-grade-math)
+- [ ] [7th grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
+- [ ] [8th grade](https://www.khanacademy.org/mission/cc-eighth-grade-math)
 
 #### Practice all things before challenge
 - [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
@@ -35,14 +36,15 @@
 - [x] Early Math (100%)
 - [x] Kindergarten (100%)
 - [x] 1st grade (100%)
-- [x] 2st grade (100%)
-- [x] 3st grade (100%)
-- [x] 4st grade (100%)
-- [x] 5st grade (100%)
-- [x] [6st grade](https://www.khanacademy.org/mission/cc-sixth-grade-math) (100%
-- [ ] [7st grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
+- [x] 2nd grade (100%)
+- [x] 3th grade (100%)
+- [x] 4th grade (100%)
+- [x] 5th grade (100%)
+- [x] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math) (100%
+- [ ] [7th grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
     - [x] 49%
-- [ ] [8st grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
+- [ ] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
+    - [x] 55%
 - [x] Arithmetic (100%)
 - [ ] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
     - [x] 58%
