@@ -6,7 +6,7 @@
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
 - [x] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
 - [x] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
-- [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
+- [ ] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics)
 - [ ] [7th grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
 - [ ] [8th grade](https://www.khanacademy.org/mission/cc-eighth-grade-math)
 
@@ -51,7 +51,7 @@
     - [x] 80%
     - [x] 90%
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra) (100%)
-- [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
+- [ ] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics)
     - [x] 85%
 - [ ] Algebra 1
 - [ ] Algebra 2
