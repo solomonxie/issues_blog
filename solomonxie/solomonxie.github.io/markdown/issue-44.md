@@ -54,6 +54,7 @@
 - [ ] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics)
     - [x] 85%
     - [x] 90%
+    - [x] 95%
 - [ ] Algebra 1
 - [ ] Algebra 2
 - [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
