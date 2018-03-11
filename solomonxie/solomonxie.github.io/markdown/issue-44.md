@@ -384,7 +384,7 @@ Or say, without dilation, after all translation/rotation/reflection, the shape i
 
 
 ## [`Dilations`](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/example-identifying-the-center-of-dilation)
-`Dilation`, just a fancy word for "resizing". 
+`Dilation`, just a fancy word for "resizing", or "scaling".
 
 ### [`Similarity`](http://www.mathsisfun.com/geometry/similar.html)
 When you resize, or say dilate a shape, you call the new shape "similar" to the original one.
@@ -404,7 +404,7 @@ Notice:
 [Khan lecture: Scale factors and area](https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-geometry/cc-7th-scale-drawings/v/scale-factors-and-area)
 For Shape A and scaled shape A', it leads to two practical conclusions:
 - If we know the `scale factor` is x, then the area of A is x² times to the original one.
-- If we know the ratio (area of A') / (area of A) is x, then the `scale factor` is `√x`
+- If we know the ratio `(area of A')` ÷ `(area of A)` is x, then the `scale factor` is `√x`
 
 ### `Dilation Center`
 "Dilate the shape ABOUT a point P", means take the point as a center to dilate the shape.
