@@ -404,7 +404,7 @@ Notice:
 [Khan lecture: Scale factors and area](https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-geometry/cc-7th-scale-drawings/v/scale-factors-and-area)
 For Shape A and scaled shape A', it leads to two practical conclusions:
 - If we know the `scale factor` is x, then the area of A is x² times to the original one.
-- If we know the area of A' is `x` times to the original shape A, then the `scale factor` is `√x`
+- If we know the ratio (area of A') / (area of A) is x, then the `scale factor` is `√x`
 
 ### `Dilation Center`
 "Dilate the shape ABOUT a point P", means take the point as a center to dilate the shape.
