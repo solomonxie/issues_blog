@@ -399,9 +399,12 @@ Notice:
 - The scale factor is of the length of the shape, NOT the area of it.
 
 #### Scale factors and area
-- When you scale the shape, the **area** of the new shape is **(scale facto)² times** to the original one. 
+> When you scale the shape, the **area** of the new shape is **(scale facto)² times** to the original one. 
+
 [Khan lecture: Scale factors and area](https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-geometry/cc-7th-scale-drawings/v/scale-factors-and-area)
-Vice versa, if you know the area of new shape is `x` times to the original one, then the `scale factor` is `√x`
+For Shape A and scaled shape A', it leads to two practical conclusions:
+- If we know the `scale factor` is x, then the area of A is x² times to the original one.
+- If we know the area of A' is `x` times to the original shape A, then the `scale factor` is `√x`
 
 ### `Dilation Center`
 "Dilate the shape ABOUT a point P", means take the point as a center to dilate the shape.
