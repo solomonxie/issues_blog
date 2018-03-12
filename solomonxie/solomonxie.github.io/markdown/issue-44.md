@@ -43,6 +43,8 @@
 - [x] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math) (100%
 - [ ] [7th grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
     - [x] 49%
+    - [x] All practiced
+    - [x] 71%
 - [ ] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
     - [x] 55%
 - [x] Arithmetic (100%)
@@ -54,6 +56,7 @@
 - [ ] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics)
     - [x] 85%
     - [x] 90%
+    - [x] All practiced
     - [x] 95%
 - [ ] Algebra 1
 - [ ] Algebra 2
