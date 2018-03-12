@@ -3,15 +3,15 @@
 
 ## Reminder
 #### Finish mastery challenge ASAP.
-- [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
 - [x] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
+- [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
 - [x] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
 - [ ] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics)
 - [ ] [7th grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
 - [ ] [8th grade](https://www.khanacademy.org/mission/cc-eighth-grade-math)
 
 #### Practice all things before challenge
-- [ ] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
+- [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
     - [x] Graphing lines and slope
     - [x] Systems of equations
     - [x] Expressions with exponents
@@ -58,6 +58,7 @@
     - [x] 90%
     - [x] All practiced
     - [x] 95%
+    - [x] 99%
 - [ ] Algebra 1
 - [ ] Algebra 2
 - [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
