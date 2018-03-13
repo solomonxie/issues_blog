@@ -24,6 +24,9 @@
 - [ ] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
     - [ ] Solving equations with one unknown
     - [ ] Linear equations and functions
+    - [x] Systems of equations
+    - [x] Geometry
+    - [x] Geometric transformations
     - [ ] Data and modeling
 - [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [ ] Transformations
