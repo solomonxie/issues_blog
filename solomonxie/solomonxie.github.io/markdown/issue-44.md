@@ -46,6 +46,7 @@
     - [x] All practiced
     - [x] 71%
     - [x] 87%
+    - [x] 94%
 - [ ] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
     - [x] 55%
 - [x] Arithmetic (100%)
