@@ -49,10 +49,7 @@
 - [ ] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
     - [x] 55%
 - [x] Arithmetic (100%)
-- [ ] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
-    - [x] 58%
-    - [x] 80%
-    - [x] 90%
+- [x] [Basic geometry](https://www.khanacademy.org/mission/basic-geo) (100%)
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra) (100%)
 - [ ] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics)
     - [x] 85%
