@@ -8,7 +8,6 @@
 - [x] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
 - [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics)
 - [ ] [7th grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
-- [ ] [8th grade](https://www.khanacademy.org/mission/cc-eighth-grade-math)
 
 #### Practice all things before challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
@@ -17,6 +16,15 @@
     - [x] Expressions with exponents
     - [x] Quadratics and polynomials
     - [x] Equations and geometry
+- [ ] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
+    - [ ] Rates & proportional relationships
+    - [x] Expressions, equations, & inequalities
+    - [x] Geometry
+    - [x] Statistics and probability
+- [ ] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
+    - [ ] Solving equations with one unknown
+    - [ ] Linear equations and functions
+    - [ ] Data and modeling
 - [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [ ] Transformations
     - [x] Congruence
