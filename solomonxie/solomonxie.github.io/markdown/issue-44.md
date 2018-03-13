@@ -568,7 +568,9 @@ It only fits to "poly" "nomials", aka. multiple terms, as below:
 
 ![image](https://user-images.githubusercontent.com/14041622/37166237-87aa433a-2339-11e8-8878-584517e65751.png)
 
-## Factor a quadratic as the product of two binomials
+## To factor a quadratic as the product of two binomials
+> To find out the answer quickly and get intuition of it step by step, visit this cheat online solver: [Cymath](https://www.cymath.com/).
+
 It's easy to expand product of two binomials to a quadratic, but tricky to factor them back.
 
 ![image](https://user-images.githubusercontent.com/14041622/37167137-0448086c-233c-11e8-8b0d-c73d21e55baa.png)
@@ -581,7 +583,7 @@ As the example below, factors of "c" could be 4 and 6, and the sum of them is 10
 ![image](https://user-images.githubusercontent.com/14041622/37166444-00c1c662-233a-11e8-9e14-3907f2f56bc8.png)
 
 
-### [Factor quadratics by grouping](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) (to factor more complicated quadratics)
+### [To factor quadratics by grouping](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) (to factor more complicated quadratics)
 > When the coefficient of the 2nd degree term is not 1, things get more complicated.
 
 [Khan notes 1.](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) 
