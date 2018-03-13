@@ -22,7 +22,7 @@
     - [x] Geometry
     - [x] Statistics and probability
 - [ ] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
-    - [ ] Solving equations with one unknown
+    - [x] Solving equations with one unknown
     - [ ] Linear equations and functions
     - [x] Systems of equations
     - [x] Geometry
