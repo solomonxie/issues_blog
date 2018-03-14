@@ -16,14 +16,14 @@
     - [x] Expressions with exponents
     - [x] Quadratics and polynomials
     - [x] Equations and geometry
-- [ ] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
-    - [ ] Rates & proportional relationships
+- [x] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
+    - [x] Rates & proportional relationships
     - [x] Expressions, equations, & inequalities
     - [x] Geometry
     - [x] Statistics and probability
 - [ ] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
     - [x] Solving equations with one unknown
-    - [ ] Linear equations and functions
+    - [x] Linear equations and functions
     - [x] Systems of equations
     - [x] Geometry
     - [x] Geometric transformations
