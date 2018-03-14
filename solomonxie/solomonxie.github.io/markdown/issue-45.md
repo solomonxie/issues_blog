@@ -6,7 +6,7 @@
 [Full list from my Bible Gateway](https://www.biblegateway.com/user/annotations/#info-viewer-all)
 
 
-# Genesis
+# `The creation` Genesis 1~2
 
 ## Gen 1
 Genesis one is all about how the universe and all creatures were created. 
@@ -107,7 +107,10 @@ Not "sleep" but "deep sleep", so he could t feel pain.
 take a part of human and make a copy , with altered DNA.
 Can’t say God is not `the first and the best doctor and biologist`.
 
-## Gen 3
+
+
+
+# `Human's fall` Genesis 3
 Genesis three is the start of `Human's Fall`.
 
 ### Gen 3:1
