@@ -30,6 +30,9 @@
     - [x] Geometry
     - [x] Geometric transformations
     - [x] Data and modeling
+- [ ] [Mathematics I](https://www.khanacademy.org/math/math-1-2-3/math1?t=practice)
+- [ ] [Mathematics II](https://www.khanacademy.org/math/math-1-2-3/math1?t=practice)
+- [ ] [Mathematics III](https://www.khanacademy.org/math/math-1-2-3/math3?t=practice)
 - [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [ ] Transformations
     - [x] Congruence
@@ -64,10 +67,13 @@
 - [ ] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
     - [x] 55%
     - [x] 95%
-- [x] Arithmetic (100%)
+- [x] [Arithmetic (100%)](https://www.khanacademy.org/mission/arithmetic)
 - [x] [Basic geometry](https://www.khanacademy.org/mission/basic-geo) (100%)
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra) (100%)
 - [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics) (100%)
+- [ ] [Mathematics I](https://www.khanacademy.org/mission/math1)
+- [ ] [Mathematics II](https://www.khanacademy.org/mission/math2)
+- [ ] [Mathematics III](https://www.khanacademy.org/mission/math3)
 - [ ] [High school Algebra 1](https://www.khanacademy.org/mission/algebra)
 - [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice) 
 - [ ] [High school Algebra 2](https://www.khanacademy.org/mission/algebra2)
@@ -75,6 +81,7 @@
     - [x] 75%
 - [ ] [High school Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
 - [ ] [Precalculus](https://www.khanacademy.org/math/precalculus)
+- [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 - [ ] AP Statistics
 - [ ] Differential calculus
 - [ ] Integral calculus
@@ -82,7 +89,7 @@
 - [ ] AP calculus BC
 - [ ] Multivariable calculus
 - [ ] Differential equations
-- [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
+
 
 
 # Estimtion: 2-step estimation problem
