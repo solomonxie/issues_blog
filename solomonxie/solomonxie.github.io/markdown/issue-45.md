@@ -2,6 +2,10 @@
 > Reading notes and questions throughout bible, book by book, chapter by chapter, verse by verse.
 
 
+# Favorites
+[Full list from my Bible Gateway](https://www.biblegateway.com/user/annotations/#info-viewer-all)
+
+
 # Genesis
 
 ## Gen 1
