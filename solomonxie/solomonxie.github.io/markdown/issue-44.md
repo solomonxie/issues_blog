@@ -21,13 +21,13 @@
     - [x] Expressions, equations, & inequalities
     - [x] Geometry
     - [x] Statistics and probability
-- [ ] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
+- [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
     - [x] Solving equations with one unknown
     - [x] Linear equations and functions
     - [x] Systems of equations
     - [x] Geometry
     - [x] Geometric transformations
-    - [ ] Data and modeling
+    - [x] Data and modeling
 - [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [ ] Transformations
     - [x] Congruence
