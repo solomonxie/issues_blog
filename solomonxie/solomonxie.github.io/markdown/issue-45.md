@@ -135,3 +135,6 @@ Q: But is the term "sin" applicable for animals?
 
 ### Gen 3:6
 > 3 main good effect of `tree of knowledge` .
+
+### Gen 3:7
+> They hadn't had sex yet to make baby. Because before they know they're naked, they don't seem to have idea about it. 
