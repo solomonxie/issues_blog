@@ -8,6 +8,7 @@
 - [x] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
 - [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics)
 - [ ] [7th grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
+- [ ] [8th grade](https://www.khanacademy.org/mission/cc-eighth-grade-math)
 
 #### Practice all things before challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
@@ -58,8 +59,10 @@
     - [x] 71%
     - [x] 87%
     - [x] 94%
+    - [x] 98%
 - [ ] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
     - [x] 55%
+    - [x] 95%
 - [x] Arithmetic (100%)
 - [x] [Basic geometry](https://www.khanacademy.org/mission/basic-geo) (100%)
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra) (100%)
