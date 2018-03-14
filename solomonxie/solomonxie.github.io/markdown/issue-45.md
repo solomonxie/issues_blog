@@ -141,3 +141,11 @@ Q: But is the term "sin" applicable for animals?
 
 ### Gen 3:7
 > They hadn't had sex yet to make baby. Because before they know they're naked, they don't seem to have idea about it. 
+
+
+
+# `Proportional relationships`
+Refers to a function like `y = mx`.
+y and x have a proportional relationship, means they must go through a point (0,0).
+
+![image](https://user-images.githubusercontent.com/14041622/37390114-c0baa98c-27a1-11e8-9c9b-3b88eb517e5e.png)
