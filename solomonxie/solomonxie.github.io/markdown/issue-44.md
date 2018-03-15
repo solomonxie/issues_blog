@@ -16,9 +16,11 @@
 - [x] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [ ] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
+    - [x] Linear equations & graphs
     - [x] Functions
     - [ ] Sequnces
-    - [ ] Inequalities
+    - [x] Systems of equations
+    - [x] Inequalities
     - [ ] absolute value & piecewise functions
     - [ ] Rational exponents & radicals
     - [ ] Exponential growth & decay
