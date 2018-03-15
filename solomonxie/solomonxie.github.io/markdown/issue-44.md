@@ -58,8 +58,8 @@
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra) (100%)
 - [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics) (100%)
 - [ ] [Algebra 1](https://www.khanacademy.org/mission/algebra)
-- [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice) 
 - [ ] [Algebra 2](https://www.khanacademy.org/mission/algebra2)
+- [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice) 
 - [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
     - [x] 75%
 - [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
