@@ -13,26 +13,9 @@
 
 #### Practice all things before challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
-    - [x] Graphing lines and slope
-    - [x] Systems of equations
-    - [x] Expressions with exponents
-    - [x] Quadratics and polynomials
-    - [x] Equations and geometry
 - [x] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
-    - [x] Rates & proportional relationships
-    - [x] Expressions, equations, & inequalities
-    - [x] Geometry
-    - [x] Statistics and probability
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
-    - [x] Solving equations with one unknown
-    - [x] Linear equations and functions
-    - [x] Systems of equations
-    - [x] Geometry
-    - [x] Geometric transformations
-    - [x] Data and modeling
-- [ ] [Mathematics I](https://www.khanacademy.org/math/math-1-2-3/math1?t=practice)
-- [ ] [Mathematics II](https://www.khanacademy.org/math/math-1-2-3/math1?t=practice)
-- [ ] [Mathematics III](https://www.khanacademy.org/math/math-1-2-3/math3?t=practice)
+- [ ] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
 - [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [ ] Transformations
     - [x] Congruence
@@ -66,12 +49,12 @@
 - [x] [Basic geometry](https://www.khanacademy.org/mission/basic-geo) (100%)
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra) (100%)
 - [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics) (100%)
-- [ ] [High school Algebra 1](https://www.khanacademy.org/mission/algebra)
-- [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice) 
-- [ ] [High school Algebra 2](https://www.khanacademy.org/mission/algebra2)
+- [ ] [Algebra 1](https://www.khanacademy.org/mission/algebra)
+- [ ] [geometry](https://www.khanacademy.org/math/geometry?t=practice) 
+- [ ] [Algebra 2](https://www.khanacademy.org/mission/algebra2)
 - [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
     - [x] 75%
-- [ ] [High school Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
+- [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
 - [ ] [Precalculus](https://www.khanacademy.org/math/precalculus)
 - [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 - [ ] AP Statistics
