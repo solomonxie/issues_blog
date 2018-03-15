@@ -16,6 +16,15 @@
 - [x] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [ ] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
+    - [ ] Functions
+    - [ ] Sequnces
+    - [ ] Inequalities
+    - [ ] absolute value & piecewise functions
+    - [ ] Rational exponents & radicals
+    - [ ] Exponential growth & decay
+    - [ ] Polynomials
+    - [ ] Factorization
+    - [ ] Quadratics
 - [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [ ] Transformations
     - [x] Congruence
