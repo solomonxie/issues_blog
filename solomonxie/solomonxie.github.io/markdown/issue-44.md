@@ -24,7 +24,7 @@
     - [x] absolute value & piecewise functions
     - [x] Rational exponents & radicals
     - [ ] Exponential growth & decay
-    - [ ] Polynomials
+    - [x] Polynomials
     - [ ] Factorization
     - [ ] Quadratics
 - [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
