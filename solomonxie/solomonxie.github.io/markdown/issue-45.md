@@ -175,29 +175,29 @@ Answered: Cain was set to the east.
 # `Cain’s psychology, biology and genealogy` Genesis 4
 
 ### Genesis 4:1
-> Q: “Know his wife” is only meaning making sex? 
+> Q: `Know his wife` is only meaning `making sex`? 
 Or there’s something else more deep meaning in it? 
 
-> Eve got baby because of God’s help. 
+> Eve got baby because of `God’s help`. 
 Q: What’s specific help is it?
 
 ### Genesis 4:7
-> The “sin’s desire is contrary to you. 
+> The `sin’s desire` is contrary to you. 
 Q: Sin has desire?
 
 >  “You shall rule over it!” “If you do well...” 
-means Cain didn’t do well on offering. 
+means `Cain didn’t do well on offering`. 
 His offering must be less as good as Abel’s, or could be even worse, that he was not offering by will.
 
 ### Genesis 4:8
-> Q: What did Cain speak to Abel before killed him?
+> Q: What did `Cain speak to Abel` before killed him?
 
 ### Genesis 4:14
 > “Every one finds me...” 
 Not specifically says human or animal. 
 Most probably beast, because after Adam’s sin, animal start killing too. 
 Beasts were all over the place , 
-a man like Cain grew up in protection had no way to know how to survive from them.
+`Cain grew up in protection` had no way to know how to survive from them.
 
 ### Genesis 4:17
 > That’s the place makes confusion: 
@@ -206,13 +206,13 @@ Answered later on Gen 5:4.
 
 ### Genesis 4:17
 > He built a city, 
-there couldn’t be Cain’s one family, 
+there couldn’t be `Cain’s one family`, 
 must be a large group of people already existed there already.
 
 
 
 # `Patriarchs from Adam to Noah` Genesis 5
-Review [this page on Answer in Genesis: Ancient patriarchs in genesis](https://answersingenesis.org/bible-characters/ancient-patriarchs-in-genesis/) for further details.
+Review [this page on Answer in Genesis: `Ancient patriarchs in genesis`](https://answersingenesis.org/bible-characters/ancient-patriarchs-in-genesis/) for further details.
 Interesting part in this chapter is to find out the each one's `life time overlaps` from Adam to Noah,
 means Adam could have taught and talked to Noah's father or grandfather Nosh.
 
@@ -220,11 +220,11 @@ means Adam could have taught and talked to Noah's father or grandfather Nosh.
 > Adam had many children. 
 That solved the problem of where Cain’s wife came from.
 
-> Q: Where was Adam living at during his whole life?
+> Q: Where was `Adam` living at during his whole life?
 
 ### Genesis 5:29
-> Surely Adam died right before Noah’s birth. 
-According to genealogy in this chapter, Adam certainly could have spoken to Nosh, who walked with God. 
+> Surely `Adam died right before Noah’s birth`. 
+According to genealogy in this chapter, `Adam certainly could have spoken to Nosh`, who walked with God. 
 And Nosh could have directed instruct Noah about everything. 
 
 
