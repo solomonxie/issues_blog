@@ -583,6 +583,13 @@ As the example below, factors of "c" could be 4 and 6, and the sum of them is 10
 ![image](https://user-images.githubusercontent.com/14041622/37166444-00c1c662-233a-11e8-9e14-3907f2f56bc8.png)
 
 
+## [Use `Quadratic formula` to solve equation](http://www.mathsisfun.com/algebra/quadratic-equation-derivation.html)
+
+If we can't easily `factor the quadratic`, we have to use the `ultimate formula`:
+
+![image](https://user-images.githubusercontent.com/14041622/37529935-5e830952-2973-11e8-9028-8ba69e0e33bd.png)
+
+
 ### [To factor quadratics by grouping](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) (to factor more complicated quadratics)
 > When the coefficient of the 2nd degree term is not 1, things get more complicated.
 
