@@ -23,7 +23,7 @@
     - [x] Inequalities
     - [x] absolute value & piecewise functions
     - [x] Rational exponents & radicals
-    - [ ] Exponential growth & decay
+    - [x] Exponential growth & decay
     - [x] Polynomials
     - [ ] Factorization
     - [ ] Quadratics
