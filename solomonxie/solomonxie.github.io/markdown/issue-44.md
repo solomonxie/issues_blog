@@ -21,7 +21,7 @@
     - [x] Sequnces
     - [x] Systems of equations
     - [x] Inequalities
-    - [ ] absolute value & piecewise functions
+    - [x] absolute value & piecewise functions
     - [ ] Rational exponents & radicals
     - [ ] Exponential growth & decay
     - [ ] Polynomials
