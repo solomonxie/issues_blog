@@ -141,3 +141,66 @@ Q: But is the term "sin" applicable for animals?
 
 ### Gen 3:7
 > They hadn't had sex yet to make baby. Because before they know they're naked, they don't seem to have idea about it. 
+
+### Genesis 3:8
+> Q: Why is there a sound of God’s walking? 
+God is spirit not physical, so what’s the meaning of God to walk here? 
+When man sins, he’s afraid of president himself before God. He is the first one doing that.
+
+### Genesis 3:16
+> Woman’s desire shall be contrary to husband. 
+Q: What’s the meaning of this ?
+
+> Adam became like them, not all like them, but “in knowing good and evil”
+
+### Genesis 3:24
+> Q: What’s the purpose of setting them to protect the tree of life? 
+Can’t God just remove it or just ruin the garden? 
+Or does it even need a protection since God knows everything and can protect it from everywhere. Only thing I can guess of is that God just set a visible warning for human not to do stupid things to come, so that human won’t be hurt. 
+So it’s because God love man, that’s why He set up the visible sign to keep them away. 
+Q: And again what’s meaning of maintaining the tree? 
+All I can think of is that one day we will return ? 
+Where is this garden? In my imagination, it’s a mystery place like the frog island in Naruto. 
+
+> Only setup protection at east of the gate. People only come from east would try to break it?
+
+Answered: Cain was set to the east.
+
+
+
+# `Cain’s psychology, biology and genealogy` Genesis 4
+
+### Genesis 4:1
+> Q: “Know his wife” is only meaning making sex? 
+Or there’s something else more deep meaning in it? 
+
+> Eve got baby because of God’s help. 
+Q: What’s specific help is it?
+
+### Genesis 4:7
+> The “sin’s desire is contrary to you. 
+Q: Sin has desire?
+
+>  “You shall rule over it!” “If you do well...” 
+means Cain didn’t do well on offering. 
+His offering must be less as good as Abel’s, or could be even worse, that he was not offering by will.
+
+### Genesis 4:8
+> Q: What did Cain speak to Abel before killed him?
+
+### Genesis 4:14
+> “Every one finds me...” 
+Not specifically says human or animal. 
+Most probably beast, because after Adam’s sin, animal start killing too. 
+Beasts were all over the place , 
+a man like Cain grew up in protection had no way to know how to survive from them.
+
+### Genesis 4:17
+> That’s the place makes confusion: 
+where did this woman come from ?
+Answered later on Gen 5:4.
+
+### Genesis 4:17
+> He built a city, 
+there couldn’t be Cain’s one family, 
+must be a large group of people already existed there already.
