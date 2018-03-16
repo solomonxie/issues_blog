@@ -18,7 +18,7 @@
 - [ ] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
     - [x] Linear equations & graphs
     - [x] Functions
-    - [ ] Sequnces
+    - [x] Sequnces
     - [x] Systems of equations
     - [x] Inequalities
     - [ ] absolute value & piecewise functions
