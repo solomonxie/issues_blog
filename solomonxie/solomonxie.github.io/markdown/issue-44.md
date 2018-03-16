@@ -25,7 +25,7 @@
     - [x] Rational exponents & radicals
     - [x] Exponential growth & decay
     - [x] Polynomials
-    - [ ] Factorization
+    - [x] Factorization
     - [ ] Quadratics
 - [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [ ] Transformations
