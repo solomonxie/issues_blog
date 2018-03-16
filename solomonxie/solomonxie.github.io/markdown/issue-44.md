@@ -550,6 +550,12 @@ It only fits to "poly" "nomials", aka. multiple terms, as below:
 
 ![image](https://user-images.githubusercontent.com/14041622/37164350-f8360530-2334-11e8-8fbc-006108533421.png)
 
+## How to read polynomials
+![image](https://user-images.githubusercontent.com/14041622/37506367-8349bc8a-2924-11e8-917e-6c6572679861.png)
+![image](https://user-images.githubusercontent.com/14041622/37507166-2e7d562c-2928-11e8-9e6d-283c475d665a.png)
+
+
+
 ## `Monomial`, `Binomial`, `Trinomial`
 ![image](https://user-images.githubusercontent.com/14041622/37164466-4faf537a-2335-11e8-8917-bd3ec541ffb3.png)
 
