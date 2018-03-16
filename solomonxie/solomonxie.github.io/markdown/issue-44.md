@@ -22,7 +22,7 @@
     - [x] Systems of equations
     - [x] Inequalities
     - [x] absolute value & piecewise functions
-    - [ ] Rational exponents & radicals
+    - [x] Rational exponents & radicals
     - [ ] Exponential growth & decay
     - [ ] Polynomials
     - [ ] Factorization
