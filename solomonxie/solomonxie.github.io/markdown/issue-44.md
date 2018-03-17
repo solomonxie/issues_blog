@@ -673,6 +673,8 @@ There're two forms of equation to express the parabola:
 
 The `formula equation` of Axis of symmetry:
 - In the `Vertex form` of quadratic `y = (x-h)² + k`, the symmetry line is: **`x = h`**.
+Mind that, to understand this form, refers to the `Absolute value graph` notion.
+
 - In the `Standard form` of quadratic `y=ax²+bx+c`, the symmetry line is: **`x=−b/2a`**
 ![image](https://user-images.githubusercontent.com/14041622/37552727-94427d52-29f5-11e8-92d4-53e6650558ba.png)
 
