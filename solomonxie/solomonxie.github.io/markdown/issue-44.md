@@ -653,7 +653,7 @@ The meaning of it, is to tell us about `the solution of a quadratic`:
 
 # [`Parabola`](http://www.mathsisfun.com/geometry/parabola.html) : The graph for quadratic
 
-> `Parabola` is the graph for quadratic.
+> `Parabola` is a `quadratic`'s  graph.
 
 ![image](https://user-images.githubusercontent.com/14041622/37514478-fdc240ae-2942-11e8-9eff-41fbe13529fd.png)
 
