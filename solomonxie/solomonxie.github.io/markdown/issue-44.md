@@ -666,8 +666,12 @@ There're two forms of equation to express the parabola:
 
 ![image](https://user-images.githubusercontent.com/14041622/37552593-72f26150-29f3-11e8-9978-363232ab67e7.png)
 
+### [`Axis of Symmetry formula of a parabola`](http://www.mathwarehouse.com/geometry/parabola/axis-of-symmetry.php)
 
-
+The `Axis of symmetry` of the parabola, goes through its `vertex`.
+So we can get the `x position` by getting the symmetry line:
+- In the `Vertex form` of quadratic `y = (x-h)² + k`, the symmetry line is: **`x = h`**.
+- In the `Standard form` of quadratic `y=ax²+bx+c`, the symmetry line is: **`x=−b/2a`**
 
 ### [Graphing `quadratics` in factored form](http://www.mathsisfun.com/algebra/quadratic-equation-graphing.html)
 
