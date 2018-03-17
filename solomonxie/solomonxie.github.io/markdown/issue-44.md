@@ -665,7 +665,7 @@ If you draw a **vertical line** goes through the `vertex`, it can divided the gr
 There're two common forms of equation to express the parabola:
 `Standard form` and `Vertex form`.
 
-![image](https://user-images.githubusercontent.com/14041622/37552593-72f26150-29f3-11e8-9978-363232ab67e7.png)
+![image](https://user-images.githubusercontent.com/14041622/37553117-5e6d56fa-29fc-11e8-8bab-5a7be851e55b.png)
 
 And there's another form for the parabola: 
 the `Factor form`.
@@ -673,9 +673,9 @@ the `Factor form`.
 ![image](https://user-images.githubusercontent.com/14041622/37553062-4b908350-29fb-11e8-9a1e-122dbae2ae15.png)
 
 
-## [How to get the `Vertex` and `Axis of symmetry`](http://www.mathwarehouse.com/geometry/parabola/axis-of-symmetry.php)
+## [How to get the `Axis of symmetry`](http://www.mathwarehouse.com/geometry/parabola/axis-of-symmetry.php)
 
-> For a parabola, the `Axis of symmetry` goes through the `vertex`, so it's solving the same problem.
+> For a parabola, the `Axis of symmetry` goes through the `vertex`, which represent the `x position` of the `vertex`.
 
 The `formula equation` of Axis of symmetry:
 - In the `Vertex form` of quadratic `y = (x-h)² + k`, the symmetry line is: **`x = h`**.
@@ -687,6 +687,11 @@ Mind that, to understand this form, refers to the `Absolute value graph` notion.
 
 - In the `Factor form` of quadratic `y=c(x-a)(x-b)`, the symmetry line is: **`x=(a+b)/2`**
 ![image](https://user-images.githubusercontent.com/14041622/37553110-31e45b1a-29fc-11e8-9fc6-093562f5d4ed.png)
+
+## How to get the `Vertex`
+Getting the `Axis of symmetry` is half way to get the `vertex`, since it can only represent the `x position` of vertex. 
+For getting the `y position`, just input the `x value` into the equation, and get the `y value`.
+Solved.
 
 
 ## Graph the quadratic
