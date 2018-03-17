@@ -687,6 +687,9 @@ To graph a quadratic, we have a few different ways, and each needs the informati
 
 [Refer this page to review how to get a parabola's intersects.](http://www.mathwarehouse.com/geometry/parabola/parabola-intercepts.php)
 
+- To get two `roots`:
+Just solve the equation and get two solutons (if there're two solutions).
+
 - To get the `y-intersect` point:
 Simply let the `x=0`, 
 and solve the quadratic to get `y` position of the vertex.
@@ -697,8 +700,3 @@ And input the `y` value to the equation, to solve `x` position. Then we get the 
 Just ASSUME two `x positions`,
 then input to the quadratic, to get `y positions`. Then we get:
 `(x1, y1)` and `(x2, y2)`
-
-## [Graphing `quadratics` in factored form](http://www.mathsisfun.com/algebra/quadratic-equation-graphing.html)
-
-[Khan lecture.](https://www.khanacademy.org/math/algebra/quadratics/factored-form-alg1/v/graphing-quadratics-in-factored-form)
-![image](https://user-images.githubusercontent.com/14041622/37525227-39adb2b4-2967-11e8-86ad-01cfe60d9256.png)
