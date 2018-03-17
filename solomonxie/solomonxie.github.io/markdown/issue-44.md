@@ -568,6 +568,9 @@ It only fits to "poly" "nomials", aka. multiple terms, as below:
 
 ![image](https://user-images.githubusercontent.com/14041622/37166237-87aa433a-2339-11e8-8878-584517e65751.png)
 
+![image](https://user-images.githubusercontent.com/14041622/37551900-e6a78b7a-29e4-11e8-9c32-adab4fd60d16.png)
+
+
 ## To factor a quadratic as the product of two binomials
 > To find out the answer quickly and get intuition of it step by step, visit this cheat online solver: [Cymath](https://www.cymath.com/).
 
