@@ -9,13 +9,13 @@
 - [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics)
 - [x] [7th grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
 - [x] [8th grade](https://www.khanacademy.org/mission/cc-eighth-grade-math)
-- [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
+- [ ] [Algebra I](https://www.khanacademy.org/mission/algebra)
 
 #### Practice all things before challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
 - [x] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
-- [ ] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
+- [x] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
     - [x] Linear equations & graphs
     - [x] Functions
     - [x] Sequnces
@@ -26,7 +26,7 @@
     - [x] Exponential growth & decay
     - [x] Polynomials
     - [x] Factorization
-    - [ ] Quadratics
+    - [x] Quadratics
 - [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [ ] Transformations
     - [x] Congruence
@@ -58,6 +58,7 @@
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra) (100%)
 - [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics) (100%)
 - [ ] [Algebra 1](https://www.khanacademy.org/mission/algebra)
+    - [x] 69%
 - [ ] [Algebra 2](https://www.khanacademy.org/mission/algebra2)
 - [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice) 
 - [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
