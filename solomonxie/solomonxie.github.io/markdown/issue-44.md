@@ -650,7 +650,8 @@ The meaning of it, is to tell us about `the solution of a quadratic`:
 
 
 
-## [`Parabola`](http://www.mathsisfun.com/geometry/parabola.html) : The graph for quadratic
+
+# [`Parabola`](http://www.mathsisfun.com/geometry/parabola.html) : The graph for quadratic
 
 > `Parabola` is the graph for quadratic.
 
@@ -659,21 +660,21 @@ The meaning of it, is to tell us about `the solution of a quadratic`:
 A `parabola` always has a `vertex`, either its `top point` or `bottom point`.
 If you draw a **vertical line** goes through the `vertex`, it can divided the graph into `two mirrored part`.
 
-### [`Equation forms` of a Parabola](http://www.mathwarehouse.com/geometry/parabola/standard-and-vertex-form.php)
+## [`Equation forms` of a Parabola](http://www.mathwarehouse.com/geometry/parabola/standard-and-vertex-form.php)
 
 There're two forms of equation to express the parabola:
 `Standard form` and `Vertex form`.
 
 ![image](https://user-images.githubusercontent.com/14041622/37552593-72f26150-29f3-11e8-9978-363232ab67e7.png)
 
-### [`Axis of Symmetry formula of a parabola`](http://www.mathwarehouse.com/geometry/parabola/axis-of-symmetry.php)
+## [`Axis of Symmetry formula of a parabola`](http://www.mathwarehouse.com/geometry/parabola/axis-of-symmetry.php)
 
 The `Axis of symmetry` of the parabola, goes through its `vertex`.
 So we can get the `x position` by getting the symmetry line:
 - In the `Vertex form` of quadratic `y = (x-h)² + k`, the symmetry line is: **`x = h`**.
 - In the `Standard form` of quadratic `y=ax²+bx+c`, the symmetry line is: **`x=−b/2a`**
 
-### [Graphing `quadratics` in factored form](http://www.mathsisfun.com/algebra/quadratic-equation-graphing.html)
+## [Graphing `quadratics` in factored form](http://www.mathsisfun.com/algebra/quadratic-equation-graphing.html)
 
 [Khan lecture.](https://www.khanacademy.org/math/algebra/quadratics/factored-form-alg1/v/graphing-quadratics-in-factored-form)
 ![image](https://user-images.githubusercontent.com/14041622/37525227-39adb2b4-2967-11e8-86ad-01cfe60d9256.png)
@@ -688,23 +689,13 @@ To graph a quadratic, we have a few different ways, and each needs the informati
 ### How to get the `vertex`
 
 
-### How to get the `y-intersect` point
+## How to get the `y-intersect` point
 Simply let the `x=0`, 
 and solve the quadratic to get `y` position of the vertex.
 And input the `y` value to the equation, to solve `x` position. Then we get the vertex:
 `(x, y)`
 
-### How to get `any two points` of the graph
+## How to get `any two points` of the graph
 Just ASSUME two `x positions`,
 then input to the quadratic, to get `y positions`. Then we get:
 `(x1, y1)` and `(x2, y2)`
-
-
-# [Midpoint of a Line Segment](http://www.mathsisfun.com/algebra/line-midpoint.html)
-The midpoint is halfway between the two end points of the line segment.
-
-![image](https://user-images.githubusercontent.com/14041622/37205179-c03b1400-23ce-11e8-9387-e0d7239f3758.png)
-
-![image](https://user-images.githubusercontent.com/14041622/37205185-c6c468d0-23ce-11e8-8292-6d7d28ca9cbb.png)
-
-
