@@ -678,7 +678,7 @@ the `Factor form`.
 > For a parabola, the `Axis of symmetry` goes through the `vertex`, which represent the `x position` of the `vertex`.
 
 The `formula equation` of Axis of symmetry:
-- In the `Vertex form` of quadratic `y = (x-h)² + k`, the symmetry line is: **`x = h`**. The `vertex` is `(h, k)`.
+- In the `Vertex form` of quadratic `y = (x-h)² + k`, the symmetry line is: **`x = h`**. 
 Mind that, to understand this form, refers to the `Absolute value graph` notion.
 ![image](https://user-images.githubusercontent.com/14041622/37553098-e2839248-29fb-11e8-8ef9-db91cbf1a328.png)
 
@@ -694,9 +694,7 @@ For getting the `y position`, just input the `x value` into the equation, and ge
 Solved.
 
 It's easier to get the vertex in the `factor form` of quadratic:
-![image](https://user-images.githubusercontent.com/14041622/37553110-31e45b1a-29fc-11e8-9fc6-093562f5d4ed.png)
-
-Then the `vertex` is `(h, k)`.
+~Then the `vertex` is `(h, k)`.~
 
 ## Graph the quadratic
 To graph a quadratic, we have a few different ways, and each needs the information of a few points:
