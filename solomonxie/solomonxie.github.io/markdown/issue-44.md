@@ -16,31 +16,7 @@
 - [x] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [x] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
-    - [x] Linear equations & graphs
-    - [x] Functions
-    - [x] Sequnces
-    - [x] Systems of equations
-    - [x] Inequalities
-    - [x] absolute value & piecewise functions
-    - [x] Rational exponents & radicals
-    - [x] Exponential growth & decay
-    - [x] Polynomials
-    - [x] Factorization
-    - [x] Quadratics
-- [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
-    - [ ] Transformations
-    - [x] Congruence
-    - [ ] Similarity
-    - [ ] Right triangle & trigonometry
-    - [ ] Solid geometry
-    - [ ] Analytic geometry
-    - [ ] Circles
-- [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
-    - [ ] Trigonometry with right triangles
-    - [ ] Trigonometry with general triangles
-    - [ ] The unit circle definition of sine, cosine, and tangent
-    - [ ] Graphs of trigonometric functions
-    - [ ] Trigonometric equations and identities
+- [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
 
 ## Mastery challenge
 - [x] Early Math (100%)
@@ -59,11 +35,11 @@
 - [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics) (100%)
 - [ ] [Algebra 1](https://www.khanacademy.org/mission/algebra)
     - [x] 69%
+    - [x] 90%
+- [ ] [Geometry](https://www.khanacademy.org/mission/geometry) 
 - [ ] [Algebra 2](https://www.khanacademy.org/mission/algebra2)
-- [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice) 
 - [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
-    - [x] 75%
-- [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
+- [ ] Trigonometry
 - [ ] [Precalculus](https://www.khanacademy.org/math/precalculus)
 - [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 - [ ] AP Statistics
