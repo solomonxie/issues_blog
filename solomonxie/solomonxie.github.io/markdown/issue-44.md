@@ -571,6 +571,16 @@ It only fits to "poly" "nomials", aka. multiple terms, as below:
 ![image](https://user-images.githubusercontent.com/14041622/37551900-e6a78b7a-29e4-11e8-9c32-adab4fd60d16.png)
 
 
+## What is the `Solutions` to the quadratic
+The `solutions` to the Quadratic Equation are where it is equal to **ZERO.**
+They are also called **`ROOTS`,** or sometimes **`ZEROS`**, or **`REAL ZEROS`**, OR **`REAL NUMBER ZEROS`**, or **`DISTINCT REAL NUMBER ZEROS`**.
+Graphically, when the graph touches `x-axis`, the point is **`A SOLUTION`** to the quadratic equation.
+
+There're different ways to get solutions for the quadratic:
+- Factor the quadratic as a product of `two binomials`
+- Re-group the quadratic, and then factor it
+- Use `Quadratic Formula`.
+
 ## To factor a quadratic as the product of two binomials
 > To find out the answer quickly and get intuition of it step by step, visit this cheat online solver: [Cymath](https://www.cymath.com/).
 
@@ -614,6 +624,9 @@ It's an **universal** method for solving any quadratic equation.
 ## [`Discriminant` of a quadratic](https://www.khanacademy.org/math/algebra/quadratics/solving-quadratics-using-the-quadratic-formula/a/discriminant-review)
 ![image](https://user-images.githubusercontent.com/14041622/37552091-003c245c-29e9-11e8-9518-fe32deaf237e.png)
 
+![image](https://user-images.githubusercontent.com/14041622/37552225-ef5df86a-29eb-11e8-83bd-eec1659d8504.png)
+
+
 Within the `quadratic formula`, there is a `b2 − 4ac` called `Discriminant`.
 
 [Refers to Mathwarehouse.](http://www.mathwarehouse.com/quadratic/discriminant-in-quadratic-equation.php)
@@ -629,6 +642,9 @@ The meaning of it, is to tell us about `the solution of a quadratic`:
 - when it is **NEGETIVE** we get **`TWO Complex solutions`**. 
 ![image](https://user-images.githubusercontent.com/14041622/37552164-7347edae-29ea-11e8-9917-5637fa9ab2ac.png)
 
+The solutions table as below:
+
+![image](https://user-images.githubusercontent.com/14041622/37552231-04a49bc0-29ec-11e8-9248-4ed48132f912.png)
 
 
 
