@@ -660,6 +660,11 @@ The meaning of it, is to tell us about `the solution of a quadratic`:
 A `parabola` always has a `vertex`, either its `top point` or `bottom point`.
 If you draw a **vertical line** goes through the `vertex`, it can divided the graph into `two mirrored part`.
 
+## The `Concavity` of parabola
+- When it opens up, we also call it `Concave up`,
+- When it opens down, we also call it `Concave down`.
+
+
 ## [`Equation forms` of a Parabola](http://www.mathwarehouse.com/geometry/parabola/standard-and-vertex-form.php)
 
 There're two common forms of equation to express the parabola:
