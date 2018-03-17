@@ -694,7 +694,8 @@ For getting the `y position`, just input the `x value` into the equation, and ge
 Solved.
 
 It's easier to get the vertex in the `factor form` of quadratic:
-~Then the `vertex` is `(h, k)`.~
+
+Then the `vertex` is `(h, k)`.
 
 ## Graph the quadratic
 To graph a quadratic, we have a few different ways, and each needs the information of a few points:
