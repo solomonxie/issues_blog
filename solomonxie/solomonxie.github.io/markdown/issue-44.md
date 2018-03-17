@@ -647,6 +647,25 @@ The solutions table as below:
 ![image](https://user-images.githubusercontent.com/14041622/37552231-04a49bc0-29ec-11e8-9248-4ed48132f912.png)
 
 
+## Graph the quadratic
+To graph a quadratic, we have a few different ways, and each needs the information of a few points:
+- A `vertex` point, two `root` points.
+- A `vertex` point, a `y-intersect` point.
+- A `vertex` point, any two points on the graph.
+
+### How to get the `vertex`
+
+
+### How to get the `y-intersect` point
+Simply let the `x=0`, 
+and solve the quadratic to get `y` position of the vertex.
+And input the `y` value to the equation, to solve `x` position. Then we get the vertex:
+`(x, y)`
+
+### How to get `any two points` of the graph
+Just ASSUME two `x positions`,
+then input to the quadratic, to get `y positions`. Then we get:
+`(x1, y1)` and `(x2, y2)`
 
 
 # [Midpoint of a Line Segment](http://www.mathsisfun.com/algebra/line-midpoint.html)
