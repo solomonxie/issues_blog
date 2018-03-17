@@ -632,14 +632,14 @@ Within the `quadratic formula`, there is a `b2 − 4ac` called `Discriminant`.
 [Refers to Mathwarehouse.](http://www.mathwarehouse.com/quadratic/discriminant-in-quadratic-equation.php)
 
 The meaning of it, is to tell us about `the solution of a quadratic`:
-- when `b2 − 4ac` is **POSITIVE**, we get **`TWO Real solutions`.**
+- when `b2 − 4ac` is **POSITIVE**, we get **`TWO Real solutions`**. (It touches `x-axis` twice.)
 ![image](https://user-images.githubusercontent.com/14041622/37552160-6b266506-29ea-11e8-93d1-a28e80d6cca2.png)
 
-- when it is **ZERO** we get just **`ONE Real solution`**.
+- when it is **ZERO** we get just **`ONE Real solution`**. (Its `vertex` is on `x-axis`.)
 ![image](https://user-images.githubusercontent.com/14041622/37552159-5f348408-29ea-11e8-9fa1-c5beb504e423.png)
 
 
-- when it is **NEGETIVE** we get **`TWO Complex solutions`**. 
+- when it is **NEGETIVE** we get **`TWO Complex solutions`**. (It won't touch `x-axis` at all.)
 ![image](https://user-images.githubusercontent.com/14041622/37552164-7347edae-29ea-11e8-9917-5637fa9ab2ac.png)
 
 The solutions table as below:
