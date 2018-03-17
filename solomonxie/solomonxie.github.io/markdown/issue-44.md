@@ -659,6 +659,16 @@ The meaning of it, is to tell us about `the solution of a quadratic`:
 A `parabola` always has a `vertex`, either its `top point` or `bottom point`.
 If you draw a **vertical line** goes through the `vertex`, it can divided the graph into `two mirrored part`.
 
+### [`Equation forms` of a Parabola](http://www.mathwarehouse.com/geometry/parabola/standard-and-vertex-form.php)
+
+There're two forms of equation to express the parabola:
+`Standard form` and `Vertex form`.
+
+![image](https://user-images.githubusercontent.com/14041622/37552593-72f26150-29f3-11e8-9978-363232ab67e7.png)
+
+
+
+
 ### [Graphing `quadratics` in factored form](http://www.mathsisfun.com/algebra/quadratic-equation-graphing.html)
 
 [Khan lecture.](https://www.khanacademy.org/math/algebra/quadratics/factored-form-alg1/v/graphing-quadratics-in-factored-form)
