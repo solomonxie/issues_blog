@@ -16,7 +16,15 @@
 - [x] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [x] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
-- [ ] [High school geometry](https://www.khanacademy.org/math/geometry?t=practice)
+- [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
+    - [ ] Geometry foundations
+    - [ ] Transformations
+    - [ ] Congruence
+    - [ ] Similarity
+    - [ ] Right triangles & trigonometry
+    - [ ] Solid geometry
+    - [ ] Analytic geometry
+    - [ ] Circles
 
 ## Mastery challenge
 - [x] Early Math (100%)
