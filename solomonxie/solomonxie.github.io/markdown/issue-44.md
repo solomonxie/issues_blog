@@ -585,15 +585,7 @@ What we should do is, in the standard quadratic form `ax² + bx +c = 0`, we are 
 As the example below, factors of "c" could be 4 and 6, and the sum of them is 10. So the answer is `(x+4)(x+6)`
 ![image](https://user-images.githubusercontent.com/14041622/37166444-00c1c662-233a-11e8-9e14-3907f2f56bc8.png)
 
-
-## [Use `Quadratic formula` to solve equation](http://www.mathsisfun.com/algebra/quadratic-equation-derivation.html)
-
-If we can't easily `factor the quadratic`, we have to use the `ultimate formula`:
-
-![image](https://user-images.githubusercontent.com/14041622/37529935-5e830952-2973-11e8-9028-8ba69e0e33bd.png)
-
-
-### [To factor quadratics by grouping](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) (to factor more complicated quadratics)
+## [To factor quadratics by grouping](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) (to factor more complicated quadratics)
 > When the coefficient of the 2nd degree term is not 1, things get more complicated.
 
 [Khan notes 1.](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) 
@@ -608,6 +600,36 @@ The way to do it is, in the standard form of `Ax²+Bx+C`:
 ![image](https://user-images.githubusercontent.com/14041622/37167728-b60c44b8-233d-11e8-942f-de684afa3038.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/37167732-baa85d68-233d-11e8-9c4a-490bcac3c832.png)
+
+
+
+## [Use `Quadratic formula` to solve equation](http://www.mathsisfun.com/algebra/quadratic-equation-derivation.html)
+
+If we can't easily `factor the quadratic`, we have to use the `ultimate formula`:
+
+![image](https://user-images.githubusercontent.com/14041622/37529935-5e830952-2973-11e8-9028-8ba69e0e33bd.png)
+
+It's an **universal** method for solving any quadratic equation.
+
+## [`Discriminant` of a quadratic](https://www.khanacademy.org/math/algebra/quadratics/solving-quadratics-using-the-quadratic-formula/a/discriminant-review)
+![image](https://user-images.githubusercontent.com/14041622/37552091-003c245c-29e9-11e8-9518-fe32deaf237e.png)
+
+Within the `quadratic formula`, there is a `b2 − 4ac` called `Discriminant`.
+
+[Refers to Mathwarehouse.](http://www.mathwarehouse.com/quadratic/discriminant-in-quadratic-equation.php)
+
+The meaning of it, is to tell us about `the solution of a quadratic`:
+- when `b2 − 4ac` is **POSITIVE**, we get **`TWO Real solutions`.**
+![image](https://user-images.githubusercontent.com/14041622/37552160-6b266506-29ea-11e8-93d1-a28e80d6cca2.png)
+
+- when it is **ZERO** we get just **`ONE Real solution`**.
+![image](https://user-images.githubusercontent.com/14041622/37552159-5f348408-29ea-11e8-9fa1-c5beb504e423.png)
+
+
+- when it is **NEGETIVE** we get **`TWO Complex solutions`**. 
+![image](https://user-images.githubusercontent.com/14041622/37552164-7347edae-29ea-11e8-9917-5637fa9ab2ac.png)
+
+
 
 
 
