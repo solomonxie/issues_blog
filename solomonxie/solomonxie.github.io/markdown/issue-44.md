@@ -572,7 +572,8 @@ It only fits to "poly" "nomials", aka. multiple terms, as below:
 
 
 ## What is the `Solutions` to the quadratic
-The `solutions` to the Quadratic Equation are where it is equal to **ZERO.**
+> The `solutions` to the Quadratic Equation are where it is equal to **ZERO.**
+
 They are also called **`ROOTS`,** or sometimes **`ZEROS`**, or **`REAL ZEROS`**, OR **`REAL NUMBER ZEROS`**, or **`DISTINCT REAL NUMBER ZEROS`**.
 Graphically, when the graph touches `x-axis`, the point is **`A SOLUTION`** to the quadratic equation.
 
@@ -631,6 +632,11 @@ Within the `quadratic formula`, there is a `b2 − 4ac` called `Discriminant`.
 
 [Refers to Mathwarehouse.](http://www.mathwarehouse.com/quadratic/discriminant-in-quadratic-equation.php)
 
+
+The solutions table as below:
+
+![image](https://user-images.githubusercontent.com/14041622/37552231-04a49bc0-29ec-11e8-9248-4ed48132f912.png)
+
 The meaning of it, is to tell us about `the solution of a quadratic`:
 - when `b2 − 4ac` is **POSITIVE**, we get **`TWO Real solutions`**. (It touches `x-axis` twice.)
 ![image](https://user-images.githubusercontent.com/14041622/37552160-6b266506-29ea-11e8-93d1-a28e80d6cca2.png)
@@ -642,9 +648,21 @@ The meaning of it, is to tell us about `the solution of a quadratic`:
 - when it is **NEGETIVE** we get **`TWO Complex solutions`**. (It won't touch `x-axis` at all.)
 ![image](https://user-images.githubusercontent.com/14041622/37552164-7347edae-29ea-11e8-9917-5637fa9ab2ac.png)
 
-The solutions table as below:
 
-![image](https://user-images.githubusercontent.com/14041622/37552231-04a49bc0-29ec-11e8-9248-4ed48132f912.png)
+
+## [`Parabola`](http://www.mathsisfun.com/geometry/parabola.html) : The graph for quadratic
+
+> `Parabola` is the graph for quadratic.
+
+![image](https://user-images.githubusercontent.com/14041622/37514478-fdc240ae-2942-11e8-9eff-41fbe13529fd.png)
+
+A `parabola` always has a `vertex`, either its `top point` or `bottom point`.
+If you draw a **vertical line** goes through the `vertex`, it can divided the graph into `two mirrored part`.
+
+### [Graphing `quadratics` in factored form](http://www.mathsisfun.com/algebra/quadratic-equation-graphing.html)
+
+[Khan lecture.](https://www.khanacademy.org/math/algebra/quadratics/factored-form-alg1/v/graphing-quadratics-in-factored-form)
+![image](https://user-images.githubusercontent.com/14041622/37525227-39adb2b4-2967-11e8-86ad-01cfe60d9256.png)
 
 
 ## Graph the quadratic
