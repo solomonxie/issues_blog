@@ -667,17 +667,14 @@ There're two forms of equation to express the parabola:
 
 ![image](https://user-images.githubusercontent.com/14041622/37552593-72f26150-29f3-11e8-9978-363232ab67e7.png)
 
-## [`Axis of Symmetry formula of a parabola`](http://www.mathwarehouse.com/geometry/parabola/axis-of-symmetry.php)
+## [How to get the `Vertex` and `Axis of symmetry`](http://www.mathwarehouse.com/geometry/parabola/axis-of-symmetry.php)
 
-The `Axis of symmetry` of the parabola, goes through its `vertex`.
-So we can get the `x position` by getting the symmetry line:
+> For a parabola, the `Axis of symmetry` goes through the `vertex`, so it's solving the same problem.
+
+The `formula equation` of Axis of symmetry:
 - In the `Vertex form` of quadratic `y = (x-h)² + k`, the symmetry line is: **`x = h`**.
 - In the `Standard form` of quadratic `y=ax²+bx+c`, the symmetry line is: **`x=−b/2a`**
-
-## [Graphing `quadratics` in factored form](http://www.mathsisfun.com/algebra/quadratic-equation-graphing.html)
-
-[Khan lecture.](https://www.khanacademy.org/math/algebra/quadratics/factored-form-alg1/v/graphing-quadratics-in-factored-form)
-![image](https://user-images.githubusercontent.com/14041622/37525227-39adb2b4-2967-11e8-86ad-01cfe60d9256.png)
+![image](https://user-images.githubusercontent.com/14041622/37552727-94427d52-29f5-11e8-92d4-53e6650558ba.png)
 
 
 ## Graph the quadratic
@@ -686,16 +683,20 @@ To graph a quadratic, we have a few different ways, and each needs the informati
 - A `vertex` point, a `y-intersect` point.
 - A `vertex` point, any two points on the graph.
 
-### How to get the `vertex`
+[Refer this page to review how to get a parabola's intersects.](http://www.mathwarehouse.com/geometry/parabola/parabola-intercepts.php)
 
-
-## How to get the `y-intersect` point
+- To get the `y-intersect` point:
 Simply let the `x=0`, 
 and solve the quadratic to get `y` position of the vertex.
 And input the `y` value to the equation, to solve `x` position. Then we get the vertex:
 `(x, y)`
 
-## How to get `any two points` of the graph
+- To get `any two points` of the graph:
 Just ASSUME two `x positions`,
 then input to the quadratic, to get `y positions`. Then we get:
 `(x1, y1)` and `(x2, y2)`
+
+## [Graphing `quadratics` in factored form](http://www.mathsisfun.com/algebra/quadratic-equation-graphing.html)
+
+[Khan lecture.](https://www.khanacademy.org/math/algebra/quadratics/factored-form-alg1/v/graphing-quadratics-in-factored-form)
+![image](https://user-images.githubusercontent.com/14041622/37525227-39adb2b4-2967-11e8-86ad-01cfe60d9256.png)
