@@ -44,6 +44,7 @@
 - [ ] [Algebra 1](https://www.khanacademy.org/mission/algebra)
     - [x] 69%
     - [x] 90%
+    - [x] 94%
 - [ ] [Geometry](https://www.khanacademy.org/mission/geometry) 
 - [ ] [Algebra 2](https://www.khanacademy.org/mission/algebra2)
 - [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
@@ -555,6 +556,15 @@ It only fits to "poly" "nomials", aka. multiple terms, as below:
 
 ![image](https://user-images.githubusercontent.com/14041622/37551900-e6a78b7a-29e4-11e8-9c32-adab4fd60d16.png)
 
+## Different forms a quadratic
+> There're many tricks to convert one form to another, mainly depends on what information we have and what information we'd like to get.
+
+Common forms for quadratic as below:
+- `Standard form`: 
+- `Two binomials form`: Could get two solutions without calculator.
+- `Perfect square form`: Could get the positions of `vertex` by only eyeballing it. In another way, you could tell how much the graph was moved from the `origin point`.
+
+
 
 ## What is the `Solutions` to the quadratic
 > The `solutions` to the Quadratic Equation are where it is equal to **ZERO.**
@@ -581,7 +591,8 @@ What we should do is, in the standard quadratic form `ax² + bx +c = 0`, we are 
 As the example below, factors of "c" could be 4 and 6, and the sum of them is 10. So the answer is `(x+4)(x+6)`
 ![image](https://user-images.githubusercontent.com/14041622/37166444-00c1c662-233a-11e8-9e14-3907f2f56bc8.png)
 
-## [To factor quadratics by grouping](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) (to factor more complicated quadratics)
+## [To factor quadratics by re-grouping (to factor more complicated quadratics)](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping)
+
 > When the coefficient of the 2nd degree term is not 1, things get more complicated.
 
 [Khan notes 1.](https://www.khanacademy.org/math/algebra/polynomial-factorization/factoring-quadratics-2/a/factoring-by-grouping) 
@@ -592,30 +603,25 @@ The way to do it is, in the standard form of `Ax²+Bx+C`:
 - The product of the two numbers should equal to `A×C`
 - Regrouping `Bx` to two terms of `x` with the two number.
 
-#### Example
-![image](https://user-images.githubusercontent.com/14041622/37167728-b60c44b8-233d-11e8-942f-de684afa3038.png)
-
-![image](https://user-images.githubusercontent.com/14041622/37167732-baa85d68-233d-11e8-9c4a-490bcac3c832.png)
-
 
 
 ## [Use `Quadratic formula` to solve equation](http://www.mathsisfun.com/algebra/quadratic-equation-derivation.html)
 
-If we can't easily `factor the quadratic`, we have to use the `ultimate formula`:
+> If we can't easily `factor the quadratic`, we have to use the `ultimate formula`:
 
 ![image](https://user-images.githubusercontent.com/14041622/37529935-5e830952-2973-11e8-9028-8ba69e0e33bd.png)
 
 It's an **universal** method for solving any quadratic equation.
 
 ## [`Discriminant` of a quadratic](https://www.khanacademy.org/math/algebra/quadratics/solving-quadratics-using-the-quadratic-formula/a/discriminant-review)
+
+> Within the `quadratic formula`, there is a `b2 − 4ac` called `Discriminant`.
+
+[Refers to Mathwarehouse.](http://www.mathwarehouse.com/quadratic/discriminant-in-quadratic-equation.php)
+
 ![image](https://user-images.githubusercontent.com/14041622/37552091-003c245c-29e9-11e8-9518-fe32deaf237e.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/37552225-ef5df86a-29eb-11e8-83bd-eec1659d8504.png)
-
-
-Within the `quadratic formula`, there is a `b2 − 4ac` called `Discriminant`.
-
-[Refers to Mathwarehouse.](http://www.mathwarehouse.com/quadratic/discriminant-in-quadratic-equation.php)
 
 
 The solutions table as below:
