@@ -687,7 +687,7 @@ It's easier to get the vertex in the `factor form` of quadratic:
 
 Then the `vertex` is `(h, k)`.
 
-## Graph the quadratic
+## How to graph the quadratic
 To graph a quadratic, we have a few different ways, and each needs the information of a few points:
 - A `vertex` point, two `root` points.
 - A `vertex` point, a `y-intersect` point.
