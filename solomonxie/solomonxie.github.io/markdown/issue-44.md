@@ -70,9 +70,9 @@ Collected `MASTERY` rules:
 # How to read
 > Collect some common maths notions.
 
-For further information, review [this link](https://stemreader.org.uk/guidelines/), or download 
-[Guidelines for Reading Mathematics.pdf](https://github.com/solomonxie/solomonxie.github.io/files/1824645/Guidelines.for.Reading.Mathematics.pdf)
-.
+For further information, review [this link](https://stemreader.org.uk/guidelines/), 
+or 
+download this pdf: [Guidelines for Reading Mathematics.pdf](https://github.com/solomonxie/solomonxie.github.io/files/1824645/Guidelines.for.Reading.Mathematics.pdf).
 
 Notice that:
 Word in PARENTHESIS doesn't have to say out.
