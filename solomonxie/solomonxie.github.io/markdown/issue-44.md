@@ -71,29 +71,64 @@ Collected `MASTERY` rules:
 > Collect some common maths notions.
 
 Notice that:
-Words in parenthesis don't have to say out.
-Words in BOLD are the main parts.
+Word in PARENTHESIS doesn't have to say out.
 
 ## `product`
+
+> "Three **`times`** four" or "Three **`multiply by`** four".
+![image](https://user-images.githubusercontent.com/14041622/37590955-d6dc5470-2ba4-11e8-9983-f82d8ea845a1.png)
+
+> ?
+![image](https://user-images.githubusercontent.com/14041622/37591041-2c277388-2ba5-11e8-8323-d1c18dc4d92c.png)
 
 
 ## `quotient`
 
+> "Three **fourth** " or "Three **`over`** four".
+![image](https://user-images.githubusercontent.com/14041622/37590795-58f093b4-2ba4-11e8-8b88-b0bdeed7c45a.png)
 
-## `exponent`
+> "One **`half`**" or "One **over** two".
+![image](https://user-images.githubusercontent.com/14041622/37590818-65fce1de-2ba4-11e8-8c1a-e2a15d3db01e.png)
 
-> "2 `to the` **`third`** `power`."
-![image](https://user-images.githubusercontent.com/14041622/37589744-1fb683ea-2ba1-11e8-9a0f-cae292339049.png)
+> "Three **`halves`**" or "Three **over** two".
+![image](https://user-images.githubusercontent.com/14041622/37590845-7dad3464-2ba4-11e8-8d76-f5e7b40f8c58.png)
 
-> "9 **`to the`** a plus b (**`power`**)."
+> "x plus one **`over`** x minus one" .
+![image](https://user-images.githubusercontent.com/14041622/37590777-4d97ca46-2ba4-11e8-917b-bfe26bf8303f.png)
+
+
+## [`exponent`](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-exponents/v/introduction-to-exponents)
+
+> "x **`squared`**" or "x **`to the`** **`second`** (**`power`**)"
+![image](https://user-images.githubusercontent.com/14041622/37590907-b0aa8c5e-2ba4-11e8-913c-f8f983da4af0.png)
+
+> "x **`cubed`**" or "x **`to the`** **`third`** (**`power`**)"
+![image](https://user-images.githubusercontent.com/14041622/37590587-b8015f10-2ba3-11e8-9168-e78afd85c490.png)
+
+> "Three to the **`zeroth`** power"
+![image](https://user-images.githubusercontent.com/14041622/37589994-db38abac-2ba1-11e8-9f75-3e3835ae1acc.png)
+
+> "Nine **`to the`** a plus b (**`power`**)."
 ![image](https://user-images.githubusercontent.com/14041622/37589523-8310c280-2ba0-11e8-9e56-446311986b42.png)
 
-> "5 **`to the`** 3 t (power)."
+> "Five **`to the`** three t (power)."
 ![image](https://user-images.githubusercontent.com/14041622/37589340-e7aa99ba-2b9f-11e8-8b27-c041c73e67e2.png)
 
 > "B **`to the`** t (power)."
 ![image](https://user-images.githubusercontent.com/14041622/37589476-64b8c850-2ba0-11e8-9f97-e5ae5ae095dc.png)
 
+
+## `function` and [`composite function`](https://www.khanacademy.org/math/algebra2/manipulating-functions/function-composition/v/evaluating-composite-functions)
+
+> "f **`of`** x."
+![image](https://user-images.githubusercontent.com/14041622/37590472-56fcdbf4-2ba3-11e8-854d-54dd1988618a.png)
+
+
+> "g **`of`** f **`of`** x."
+![image](https://user-images.githubusercontent.com/14041622/37590190-791b6b34-2ba2-11e8-9b7b-a65f9407d406.png)
+
+> Both read as "h **`of`** g **`of`** minus six".
+![image](https://user-images.githubusercontent.com/14041622/37590379-0b7c57ae-2ba3-11e8-99fd-4510fef062b6.png)
 
 
 
