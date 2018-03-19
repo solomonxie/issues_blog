@@ -20,11 +20,25 @@ Collected `MASTERY` rules:
 - [x] [8th grade](https://www.khanacademy.org/mission/cc-eighth-grade-math)
 - [x] [Algebra I](https://www.khanacademy.org/mission/algebra)
 
-#### Practice all things before challenge
+#### Practice before mastery challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
 - [x] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [x] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
+- [x] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
+    - [x] Functions
+    - [ ] Complex numbers
+    - [ ] Arithmetic with polynomials
+    - [ ] Polynomials
+    - [ ] Radical relationships
+    - [ ] Rational relationships
+    - [ ] Exponential growth & decay
+    - [ ] Exponentials & logarithms
+    - [ ] Trigonometry
+    - [ ] Advanced equations & functions
+    - [ ] Series
+    - [ ] Modeling
+    - [ ] Conic sections
 - [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [x] Geometry foundations
     - [ ] Transformations
