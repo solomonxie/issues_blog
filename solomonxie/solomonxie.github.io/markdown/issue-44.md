@@ -51,8 +51,8 @@ Collected `MASTERY` rules:
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra) (100%)
 - [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics) (100%)
 - [x] [Algebra 1](https://www.khanacademy.org/mission/algebra) (100%)
-- [ ] [Geometry](https://www.khanacademy.org/mission/geometry) 
 - [ ] [Algebra 2](https://www.khanacademy.org/mission/algebra2)
+- [ ] [Geometry](https://www.khanacademy.org/mission/geometry) 
 - [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
 - [ ] Trigonometry
 - [ ] [Precalculus](https://www.khanacademy.org/math/precalculus)
