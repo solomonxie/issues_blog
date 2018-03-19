@@ -348,6 +348,7 @@ Example:
 
 
 # [`Transformations`](https://www.khanacademy.org/math/basic-geo/basic-geo-transformations-congruence) (GEOMETRY)
+
 > Transformation means something's changing, transforming. 
 
 Types of transformations:
@@ -360,7 +361,8 @@ And,
 you can group above types of transformations into two groups: `Rigid transformations` and `Dilations`
 
 ## [`Rigid transformations`](https://mathbitsnotebook.com/Geometry/Transformations/TRRigidTransformations.html) and [`Congruent`](http://www.mathsisfun.com/geometry/congruent.html)
-`Rigitd transformations` means you play around the shape without expanding or shrinking it.
+
+> `Rigitd transformations` means you play around the shape without expanding or shrinking it.
 Or say, without dilation, all translation/rotation/reflection would be `rigid transformation`.
 
 `Congruent` is the shape after you "rigid transformed`.
@@ -375,17 +377,21 @@ Or say, without dilation, after all translation/rotation/reflection, the shape i
 
 > `Dilation`, just a fancy word for "resizing", or "scaling".
 
-Notice that: Dilation **DOES NOT** change any angle within the shape. Don't get confused with a `horizontal stretch`, which does change both sides and angles.
+Notice that: Dilation **DOES NOT** change any angle within the shape.
+Don't get confused with a `horizontal stretch`, which **does change** both sides and angles.
 
 ### [`Similarity`](http://www.mathsisfun.com/geometry/similar.html)
-When you resize, or say dilate a shape, you call the new shape "similar" to the original one.
-If nothing changed with the shape, you call it "congruent" to the original one.
+
+> When you resize, or say dilate a shape, you call the new shape **`similar`** to the original one.
+If nothing changed with the shape, you call it **`congruent`** to the original one.
 
 ![image](https://user-images.githubusercontent.com/14041622/37207208-f233a2d0-23d6-11e8-8652-ee0e1a913b02.png)
 
 
 ### [`Scale factor`](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/dilation-scale-factor)
-Means how much you scale the shape, like 2 times bigger, or 2/3 smaller.
+
+> Means how much you scale the shape, like 2 times bigger, or 2/3 smaller.
+
 Notice:
 - The scale factor is of the length of the shape, NOT the area of it.
 
@@ -393,33 +399,38 @@ Notice:
 > When you scale the shape, the **area** of the new shape is **(scale facto)² times** to the original one. 
 
 [Khan lecture: Scale factors and area](https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-geometry/cc-7th-scale-drawings/v/scale-factors-and-area)
+
 For Shape A and scaled shape A', it leads to two practical conclusions:
 - If we know the `scale factor` is x, then the area of A is x² times to the original one.
 - If we know the ratio `(area of A')` ÷ `(area of A)` is x, then the `scale factor` is `√x`
 
 ### `Dilation Center`
-"Dilate the shape ABOUT a point P", means take the point as a center to dilate the shape.
+
+>"Dilate the shape ABOUT a point P", means take the point as a center to dilate the shape.
+
 How does it work? As the picture below, just simply **scale the distance** from each vertex(point) of the shape to the point.
 
 #### How to find the dilation center?
-The point P and it's image and dilation center, should be IN ONE LINE !
+> The point P and it's image and dilation center, should be IN ONE LINE !
 
 ![image](https://user-images.githubusercontent.com/14041622/37138070-9e925228-22e3-11e8-87d0-1944c461b4c9.png)
 
 
 ![image](https://user-images.githubusercontent.com/14041622/37084930-be0f1ede-222e-11e8-9e16-97b5b4fe7003.png)
 
-In the example below, you should forget about the `origin` but set the P point as origin and count the distance of each vertex of the triangle: 
+> In the example below, you should forget about the `origin` but set the P point as origin and count the distance of each vertex of the triangle: 
+
 ![image](https://user-images.githubusercontent.com/14041622/37137940-027589e6-22e3-11e8-8743-248448836124.png)
 
 
 
 
 # Area, perimeter, surface, volume of shapes
-Cheatsheets for calculating area, perimeter, surface, volume of common shapes.
+> Cheatsheets for calculating area, perimeter, surface, volume of common shapes.
 
 ## [Area of plane shapes ](http://www.mathsisfun.com/area.html)
-Triangle, square, rectangle, parallelogram, trapezoid, circle, ellipse, sector.
+
+> Triangle, square, rectangle, parallelogram, trapezoid, circle, ellipse, sector.
 
 ![image](https://user-images.githubusercontent.com/14041622/37085857-17550858-2231-11e8-9e59-6d6273611d47.png)
 
@@ -427,6 +438,7 @@ Triangle, square, rectangle, parallelogram, trapezoid, circle, ellipse, sector.
 Volume = Length × Width ×  Height
 
 ## [Volume of Cone, sphere, Cylinder](http://www.mathsisfun.com/geometry/cone-sphere-cylinder.html)
+
 The volume of a cylinder is: `π × r² × h`
 The volume of a cone is: `1/3 π × r² × h`
 The volume of the sphere is:`4/3 π × r³`
@@ -439,7 +451,8 @@ The volume of the sphere is:`4/3 π × r³`
 
 
 # [Rational & irrational numbers](http://www.mathsisfun.com/irrational-numbers.html)
-A rational number can always be expressed as a `fraction of two integers`.
+
+> A rational number can always be expressed as a `fraction of two integers`.
 vice versa, a irrational number cannot be expressed as a fraction of two integers.
 
 `A square root of a non-perfect square` is an irrational number, because it cannot be expressed as the fraction of two integers.
@@ -452,9 +465,9 @@ vice versa, a irrational number cannot be expressed as a fraction of two integer
 
 # [Stem and Leaf Plots](http://www.mathsisfun.com/data/stem-leaf-plots.html)
 
-[Khan lecture.](https://www.khanacademy.org/math/pre-algebra/pre-algebra-math-reasoning/pre-algebra-stem-leaf/v/reading-stem-and-leaf-plots)
+> A `Stem and Leaf Plot` is a special table where each data value is split into a "stem" (the first digit or digits) and a "leaf" (usually the last digit).
 
-A `Stem and Leaf Plot` is a special table where each data value is split into a "stem" (the first digit or digits) and a "leaf" (usually the last digit).
+[Khan lecture.](https://www.khanacademy.org/math/pre-algebra/pre-algebra-math-reasoning/pre-algebra-stem-leaf/v/reading-stem-and-leaf-plots)
 
 ![image](https://user-images.githubusercontent.com/14041622/37135370-02b17d76-22d8-11e8-8149-b8fe16141a7c.png)
 
