@@ -1,6 +1,14 @@
 # Kindergarten Maths 幼儿园数学入门
 > Study notes mainly from Khan Academy. 
 
+Collected `MASTERY` rules:
+- 1 `skill` means 1 practice subject, could be found at `practice page` on the subject.
+- 1 `skill` includes 4 to 7 `questions`.
+- Pass 75% of a `skill` to `Practiced`.
+- Pass 100% of a `skill` to `LEVEL ONE`.
+- 1 `question` correct on `Mastery challenge`, the related `skill` will **promote 1 level up**.
+- 1 `question` incorrect on `Mastery challenge`, the related `skill` will **demote 1 level down**.
+
 ## Reminder
 #### Finish mastery challenge ASAP.
 - [x] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
