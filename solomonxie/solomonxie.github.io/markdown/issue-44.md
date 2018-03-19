@@ -18,7 +18,7 @@ Collected `MASTERY` rules:
 - [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics)
 - [x] [7th grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
 - [x] [8th grade](https://www.khanacademy.org/mission/cc-eighth-grade-math)
-- [ ] [Algebra I](https://www.khanacademy.org/mission/algebra)
+- [x] [Algebra I](https://www.khanacademy.org/mission/algebra)
 
 #### Practice all things before challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
@@ -50,10 +50,7 @@ Collected `MASTERY` rules:
 - [x] [Basic geometry](https://www.khanacademy.org/mission/basic-geo) (100%)
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra) (100%)
 - [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics) (100%)
-- [ ] [Algebra 1](https://www.khanacademy.org/mission/algebra)
-    - [x] 69%
-    - [x] 90%
-    - [x] 94%
+- [x] [Algebra 1](https://www.khanacademy.org/mission/algebra) (100%)
 - [ ] [Geometry](https://www.khanacademy.org/mission/geometry) 
 - [ ] [Algebra 2](https://www.khanacademy.org/mission/algebra2)
 - [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
