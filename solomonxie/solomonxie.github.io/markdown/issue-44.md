@@ -4,8 +4,9 @@
 Collected `MASTERY` rules:
 - 1 `skill` means 1 practice subject, could be found at `practice page` on the subject.
 - 1 `skill` includes 4 to 7 `questions`.
-- Pass 75% of a `skill` to `Practiced`.
-- Pass 100% of a `skill` to `LEVEL ONE`.
+- 1 `skill` finished 75%, will promote to `Practiced`.
+- 1 `skill` finished 100%, will promote to `LEVEL ONE`.
+- 1 `skill` **must be** `practiced` to join the `Mastery challenge`.
 - 1 `question` correct on `Mastery challenge`, the related `skill` will **promote 1 level up**.
 - 1 `question` incorrect on `Mastery challenge`, the related `skill` will **demote 1 level down**.
 
@@ -25,7 +26,7 @@ Collected `MASTERY` rules:
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [x] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
 - [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
-    - [ ] Geometry foundations
+    - [x] Geometry foundations
     - [ ] Transformations
     - [ ] Congruence
     - [ ] Similarity
