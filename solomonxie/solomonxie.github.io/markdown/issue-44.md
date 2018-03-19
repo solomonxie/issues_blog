@@ -67,16 +67,32 @@ Collected `MASTERY` rules:
 
 
 
-# Estimtion: 2-step estimation problem
-See [Khan academy video](https://www.khanacademy.org/math/cc-third-grade-math/cc-3rd-mult-div-topic/cc-3rd-two-step-word-problemsa/v/marbles-for-friends).
+# How to read
+> Collect some common maths notions.
 
-![image](https://user-images.githubusercontent.com/14041622/36788003-424cb1ce-1cc7-11e8-9111-c05e45bdfbf5.png)
+Notice that:
+Words in parenthesis don't have to say out.
+Words in BOLD are the main parts.
 
-> Just round every number to the nearest tens and then make calculation.
-It then will be: 180 burgers, 60 sandwiches, and 40 salads, add together to 280.
-Same as below:
+## `product`
 
-![image](https://user-images.githubusercontent.com/14041622/36788347-9076106a-1cc8-11e8-9354-a36057683d77.png)
+
+## `quotient`
+
+
+## `exponent`
+
+> "2 `to the` **`third`** `power`."
+![image](https://user-images.githubusercontent.com/14041622/37589744-1fb683ea-2ba1-11e8-9a0f-cae292339049.png)
+
+> "9 **`to the`** a plus b (**`power`**)."
+![image](https://user-images.githubusercontent.com/14041622/37589523-8310c280-2ba0-11e8-9e56-446311986b42.png)
+
+> "5 **`to the`** 3 t (power)."
+![image](https://user-images.githubusercontent.com/14041622/37589340-e7aa99ba-2b9f-11e8-8b27-c041c73e67e2.png)
+
+> "B **`to the`** t (power)."
+![image](https://user-images.githubusercontent.com/14041622/37589476-64b8c850-2ba0-11e8-9f97-e5ae5ae095dc.png)
 
 
 
