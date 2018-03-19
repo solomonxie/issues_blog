@@ -372,7 +372,10 @@ Or say, without dilation, after all translation/rotation/reflection, the shape i
 
 
 ## [`Dilations`](https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/v/example-identifying-the-center-of-dilation)
-`Dilation`, just a fancy word for "resizing", or "scaling".
+
+> `Dilation`, just a fancy word for "resizing", or "scaling".
+
+Notice that: Dilation **DOES NOT** change any angle within the shape. Don't get confused with a `horizontal stretch`, which does change both sides and angles.
 
 ### [`Similarity`](http://www.mathsisfun.com/geometry/similar.html)
 When you resize, or say dilate a shape, you call the new shape "similar" to the original one.
