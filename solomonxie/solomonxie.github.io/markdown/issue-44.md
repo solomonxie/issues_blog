@@ -136,6 +136,11 @@ Word in PARENTHESIS doesn't have to say out.
 ![image](https://user-images.githubusercontent.com/14041622/37589476-64b8c850-2ba0-11e8-9f97-e5ae5ae095dc.png)
 
 
+## `Factorial !`
+> `4!` is usually pronounced "4 factorial", but some people even say "4 shriek" or "4 bang"
+
+
+
 ## `function` and [`composite function`](https://www.khanacademy.org/math/algebra2/manipulating-functions/function-composition/v/evaluating-composite-functions)
 
 > "f **`of`** x."
