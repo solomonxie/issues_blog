@@ -42,3 +42,16 @@
 ![image](https://user-images.githubusercontent.com/14041622/37643123-7da8fe6a-2c5a-11e8-9ae6-bbfb510ebdbe.png)
 ![image](https://user-images.githubusercontent.com/14041622/37643128-8241a850-2c5a-11e8-89a0-f2e5f8d86e7e.png)
 
+
+
+
+# Find roots of polynomials
+
+![image](https://user-images.githubusercontent.com/14041622/37644557-2a49c894-2c5f-11e8-9bf3-949903848cdd.png)
+
+----------------------
+
+![image](https://user-images.githubusercontent.com/14041622/37644642-6de8d176-2c5f-11e8-93c9-83a3f4c77823.png)
+
+![image](https://user-images.githubusercontent.com/14041622/37644655-74ddb33e-2c5f-11e8-87f0-a5c2475fe49c.png)
+
