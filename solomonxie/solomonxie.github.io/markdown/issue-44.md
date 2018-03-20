@@ -28,7 +28,7 @@ Collected `MASTERY` rules:
 
 #### Listen all lectures before Practice
 - [ ] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
-    - [ ] Functions
+    - [x] Functions
     - [ ] Complex numbers
     - [ ] Arithmetic with polynomials
     - [ ] Polynomials
