@@ -30,7 +30,7 @@ Collected `MASTERY` rules:
 - [ ] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
     - [x] Functions
     - [ ] Complex numbers
-    - [ ] Arithmetic with polynomials
+    - [x] Arithmetic with polynomials
     - [ ] Polynomials
     - [ ] Radical relationships
     - [ ] Rational relationships
