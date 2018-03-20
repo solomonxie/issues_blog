@@ -28,3 +28,17 @@
 ![image](https://user-images.githubusercontent.com/14041622/37637213-5d99f1ba-2c41-11e8-871d-6528d53eaea1.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/37637222-68247ec0-2c41-11e8-8e02-b65a425a2892.png)
+
+
+
+# `Binomial theorem`
+
+[Practice.](https://www.khanacademy.org/math/algebra2?t=practice#polynomial-functions)
+
+![image](https://user-images.githubusercontent.com/14041622/37643075-5ee6bef4-2c5a-11e8-862a-87af4d091a80.png)
+
+--------------------
+![image](https://user-images.githubusercontent.com/14041622/37643114-758d102c-2c5a-11e8-8e82-a6f1e2eed319.png)
+![image](https://user-images.githubusercontent.com/14041622/37643123-7da8fe6a-2c5a-11e8-9ae6-bbfb510ebdbe.png)
+![image](https://user-images.githubusercontent.com/14041622/37643128-8241a850-2c5a-11e8-89a0-f2e5f8d86e7e.png)
+
