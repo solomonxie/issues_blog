@@ -25,10 +25,12 @@ Collected `MASTERY` rules:
 - [x] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [x] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
-- [x] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
-    - [x] Functions
+
+#### Listen all lectures before Practice
+- [ ] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
+    - [ ] Functions
     - [ ] Complex numbers
-    - [x] Arithmetic with polynomials
+    - [ ] Arithmetic with polynomials
     - [ ] Polynomials
     - [ ] Radical relationships
     - [ ] Rational relationships
