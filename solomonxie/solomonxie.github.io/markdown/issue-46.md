@@ -80,3 +80,11 @@ Their absolute value go opposite way that one goes up the other goes down.
 ![image](https://user-images.githubusercontent.com/14041622/37704874-2a7c1408-2d35-11e8-8ca8-8b430a996512.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/37704996-86f41f3c-2d35-11e8-8641-0673184d03a1.png)
+
+
+
+# Construct exponential models
+
+[Khan practice.](https://www.khanacademy.org/math/algebra2/modal/e/construct-exponential-models-according-to-rate-of-change)
+
+![image](https://user-images.githubusercontent.com/14041622/37713627-733157fe-2d52-11e8-8be7-7cea56b2fcf6.png)
