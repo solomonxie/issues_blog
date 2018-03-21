@@ -32,7 +32,7 @@ Collected `MASTERY` rules:
     - [x] Polynomials
     - [x] Radical relationships
     - [x] Rational relationships
-    - [ ] Exponential growth & decay
+    - [x] Exponential growth & decay
     - [ ] Exponentials & logarithms
     - [ ] Trigonometry
     - [ ] Advanced equations & functions
