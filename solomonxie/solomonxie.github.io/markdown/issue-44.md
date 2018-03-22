@@ -157,12 +157,13 @@ Word in PARENTHESIS doesn't have to say out.
 
 # How to use calculator
 
-## Latex
+## `Latex syntax`
 > These syntax works for `Chrome address bar`, `Mac Spotlight bar`, `Cymath` etc.
 
 - Exponent: for `3⁴`, type `3^4`, results `81`.
 - Root: for `√9`, type `9^(1/2)`, results `3`.
 - Logarithm: for `log₂8`, type `log_2(8)`, results `3`.
+- Natural logarithm: for `ln 6`, type `ln 6`, results `1.791...`.
 
 
 # [Triangle types](https://www.khanacademy.org/math/basic-geo/basic-geometry-shapes/basic-geo-classifying-triangles/a/types-of-triangles-review)
