@@ -88,3 +88,17 @@ Their absolute value go opposite way that one goes up the other goes down.
 [Khan practice.](https://www.khanacademy.org/math/algebra2/modal/e/construct-exponential-models-according-to-rate-of-change)
 
 ![image](https://user-images.githubusercontent.com/14041622/37713627-733157fe-2d52-11e8-8be7-7cea56b2fcf6.png)
+
+
+
+# Graphs of `exponential functions`
+
+![image](https://user-images.githubusercontent.com/14041622/37783541-b6b69942-2e30-11e8-8e79-1983f616d276.png)
+-----------------------
+
+> First need to look at the BASE `1/3`. It's lot more intuitive to convert the **FRACTION** into an INTEGER, or a fraction larger than 1. Just make it to `3^(-x-1)`. Makes lots more sense.
+
+> Then look at the EXPONENT, `(-x-1)`, according to the `FUNCTIONS' TRANSFORMATION`, it seems to move graph to the ~right~ by 1 unit, but wrong! 
+It should be a WHOLE: `-(x+1)`, so it is move **LEFT** by 1 unit, **AND THEN** flip around **HORIZONTALLY**.
+
+> Then look at the FACTOR, `-2(...) +7`. It should **FIRST** to **FLIP** vertically, **AND THEN** move up 7 units.
