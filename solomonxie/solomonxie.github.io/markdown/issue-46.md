@@ -93,6 +93,8 @@ Their absolute value go opposite way that one goes up the other goes down.
 
 # Graphs of `exponential functions`
 
+[Khan practice.](https://www.khanacademy.org/math/algebra2/modal/e/graphs-of-exponential-functions#exponential-and-logarithmic-functions)
+
 ![image](https://user-images.githubusercontent.com/14041622/37783541-b6b69942-2e30-11e8-8e79-1983f616d276.png)
 -----------------------
 
@@ -100,5 +102,6 @@ Their absolute value go opposite way that one goes up the other goes down.
 
 > Then look at the EXPONENT, `(-x-1)`, according to the `FUNCTIONS' TRANSFORMATION`, it seems to move graph to the ~right~ by 1 unit, but wrong! 
 It should be a WHOLE: `-(x+1)`, so it is move **LEFT** by 1 unit, **AND THEN** flip around **HORIZONTALLY**.
+When it flips horizontally, it initially flips about `y-axis`, but since it was moved left by 1 unit, it then flips about the `x = -1`.
 
 > Then look at the FACTOR, `-2(...) +7`. It should **FIRST** to **FLIP** vertically, **AND THEN** move up 7 units.
