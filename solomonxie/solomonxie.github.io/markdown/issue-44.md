@@ -176,6 +176,12 @@ Types of angles: `acute`, `right`, `obtuse`(sounds "ob-tuse"), and `straight`.
 - `Right triangles` with 1 right angle.
 
 
+## Angle types 
+Types of angles: `acute`, `right`, `obtuse`(sounds "ob-tuse"), and `straight`.
+
+![image](https://user-images.githubusercontent.com/14041622/36795915-329e7c54-1cdf-11e8-8def-6a59a1c9bbef.png)
+
+
 
 
 # Dividing numbers strategy
