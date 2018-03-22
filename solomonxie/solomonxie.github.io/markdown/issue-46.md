@@ -95,8 +95,14 @@ Their absolute value go opposite way that one goes up the other goes down.
 
 [Khan practice.](https://www.khanacademy.org/math/algebra2/modal/e/graphs-of-exponential-functions#exponential-and-logarithmic-functions)
 
-![image](https://user-images.githubusercontent.com/14041622/37783541-b6b69942-2e30-11e8-8e79-1983f616d276.png)
+![image](https://user-images.githubusercontent.com/14041622/37784850-b32cd608-2e33-11e8-8f73-31ab1e07e7f9.png)
+
+Notice that:
+You should first to choose a `asymptote`, horizontal or vertical. Then plot two points to finish.
+
 -----------------------
+
+> Strategy: Have a image in mind, how it flips up & down, left & right, picture the final image. Then plot.
 
 > First need to look at the BASE `1/3`. It's lot more intuitive to convert the **FRACTION** into an INTEGER, or a fraction larger than 1. Just make it to `3^(-x-1)`. Makes lots more sense.
 
