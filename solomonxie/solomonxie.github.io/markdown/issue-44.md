@@ -157,7 +157,8 @@ Word in PARENTHESIS doesn't have to say out.
 
 # How to use calculator
 
-## `Chrome address bar` & `Mac Spotlight bar`
+## Latex
+> These syntax works for `Chrome address bar`, `Mac Spotlight bar`, `Cymath` etc.
 
 - Exponent: for `3⁴`, type `3^4`, results `81`.
 - Root: for `√9`, type `9^(1/2)`, results `3`.
