@@ -27,7 +27,7 @@ Collected `MASTERY` rules:
 - [x] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
 - [ ] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
     - [x] Functions
-    - [ ] Complex numbers
+    - [x] Complex numbers
     - [x] Arithmetic with polynomials
     - [x] Polynomials
     - [x] Radical relationships
