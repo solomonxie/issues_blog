@@ -37,7 +37,7 @@ Collected `MASTERY` rules:
     - [ ] Trigonometry
     - [x] Advanced equations & functions
     - [x] Series
-    - [ ] Modeling
+    - [x] Modeling
     - [ ] Conic sections
 - [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [x] Geometry foundations
