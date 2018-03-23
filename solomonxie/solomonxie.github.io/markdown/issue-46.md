@@ -111,3 +111,14 @@ It should be a WHOLE: `-(x+1)`, so it is move **LEFT** by 1 unit, **AND THEN** f
 When it flips horizontally, it initially flips about `y-axis`, but since it was moved left by 1 unit, it then flips about the `x = -1`.
 
 > Then look at the FACTOR, `-2(...) +7`. It should **FIRST** to **FLIP** vertically, **AND THEN** move up 7 units.
+
+
+# Finite `geometric series` word problems
+
+[Khan practice.](https://www.khanacademy.org/math/algebra2/modal/e/modeling-with-one-variable-equations-and-inequalities)
+
+![image](https://user-images.githubusercontent.com/14041622/37824277-0ee64c2a-2ec7-11e8-8efd-c6a31d6bb771.png)
+------------
+
+![image](https://user-images.githubusercontent.com/14041622/37824291-1b1db1a4-2ec7-11e8-80b8-1c3f2fd30c30.png)
+![image](https://user-images.githubusercontent.com/14041622/37824312-21d692a4-2ec7-11e8-92fe-86c76743bf65.png)
