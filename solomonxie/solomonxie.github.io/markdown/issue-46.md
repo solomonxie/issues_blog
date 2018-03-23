@@ -111,3 +111,21 @@ It should be a WHOLE: `-(x+1)`, so it is move **LEFT** by 1 unit, **AND THEN** f
 When it flips horizontally, it initially flips about `y-axis`, but since it was moved left by 1 unit, it then flips about the `x = -1`.
 
 > Then look at the FACTOR, `-2(...) +7`. It should **FIRST** to **FLIP** vertically, **AND THEN** move up 7 units.
+
+
+# `Mortgage Loan` Problem 
+
+> It's a finite `geometric series` problem, bit complicated but very useful in daily life.
+
+[Khan practice.](https://www.khanacademy.org/math/algebra2/modal/e/modeling-with-one-variable-equations-and-inequalities)
+[Khan lecture.](https://www.khanacademy.org/math/algebra2/sequences-and-series/alg2-finite-geometric-series-word-problems/v/geometric-series-sum-to-figure-out-mortgage-payments)
+
+![image](https://user-images.githubusercontent.com/14041622/37823732-51a4884e-2ec5-11e8-9f86-a96d1f897db2.png)
+-------------------
+
+![image](https://user-images.githubusercontent.com/14041622/37821827-a774c4e2-2ebf-11e8-9554-13674bacfa6d.png)
+
+![image](https://user-images.githubusercontent.com/14041622/37821831-ac223a7e-2ebf-11e8-97c0-9f2ccbcc6e55.png)
+
+![image](https://user-images.githubusercontent.com/14041622/37821724-5d2206c0-2ebf-11e8-9d4d-06fe9ac625a8.png)
+
