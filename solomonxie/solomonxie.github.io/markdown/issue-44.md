@@ -35,7 +35,7 @@ Collected `MASTERY` rules:
     - [x] Exponential growth & decay
     - [x] Exponentials & logarithms
     - [ ] Trigonometry
-    - [ ] Advanced equations & functions
+    - [x] Advanced equations & functions
     - [ ] Series
     - [ ] Modeling
     - [ ] Conic sections
