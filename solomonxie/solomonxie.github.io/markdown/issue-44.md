@@ -29,7 +29,7 @@ Collected `MASTERY` rules:
     - [x] Functions
     - [x] Complex numbers
     - [x] Arithmetic with polynomials
-    - [x] Polynomials
+    - [ ] Polynomials
     - [x] Radical relationships
     - [x] Rational relationships
     - [x] Exponential growth & decay
