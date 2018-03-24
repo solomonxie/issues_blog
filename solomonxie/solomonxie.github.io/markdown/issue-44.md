@@ -843,8 +843,8 @@ In this graph above, we will get an equation by `Pythagorean Theorem`
 
 ![image](https://user-images.githubusercontent.com/14041622/37862810-2c106f8e-2f8e-11e8-98b5-fa078ec2cb4e.png)
 
-And expand that equation, we got an equation that is easy to spot the `focus` and the `directrix`:
+And expand that equation, we got a parabola equation in `Standard quadratic form`:
 
 ![image](https://user-images.githubusercontent.com/14041622/37862814-52196fa0-2f8e-11e8-9b73-5d6d07569112.png)
 
-
+So we could spot out the `focus` and `directrix` information from a standard quadratic equation.
