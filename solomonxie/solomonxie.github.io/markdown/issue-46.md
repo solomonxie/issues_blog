@@ -122,3 +122,28 @@ When it flips horizontally, it initially flips about `y-axis`, but since it was 
 
 ![image](https://user-images.githubusercontent.com/14041622/37824291-1b1db1a4-2ec7-11e8-80b8-1c3f2fd30c30.png)
 ![image](https://user-images.githubusercontent.com/14041622/37824312-21d692a4-2ec7-11e8-92fe-86c76743bf65.png)
+
+
+
+# Equation of a parabola from focus & directrix
+
+[Khan practice.](Equation of a parabola from focus & directrix)
+
+![image](https://user-images.githubusercontent.com/14041622/37862994-799f2652-2f91-11e8-89c4-6eee658f5138.png)
+
+--------------
+
+According to the `focus` and `directrix` information, we know we can consist an equation like:
+```py
+(y-k)² = (x-a)² + (y-b)²
+```
+But that's for a `vertical parabola`. When the `directrix` is obviously making it to a `horizontal parabola`, we have to change the equation to:
+```py
+(x-k)² = (x-a)² + (y-b)²
+```
+So it becomes:
+```py
+(x+7)² = (x+3)² + (y+5)²
+```
+Expand the equation to get:
+![image](https://user-images.githubusercontent.com/14041622/37863035-4b288eac-2f92-11e8-8dab-a03d9f3de65f.png)

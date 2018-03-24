@@ -2,17 +2,6 @@
 > Better to have a place like here to say something randomly, with no restrictions and no worries.
 
 
-# A quick note of Keyboard symbols
-
-- `` ` ``, **Backticks** or **Back quote**
-- `~`, **Tilde** sounds like "Till da"
-- `!`, **Exclaimation mark**
-- `^`, **Caret**
-- `*`, **Asterisk**
-[More Details](https://user-images.githubusercontent.com/14041622/35766438-ab7f0fa6-0913-11e8-84a0-3f064dd87102.png)
-
-
-
 有时候对一些软件真是爱不释手，真的很想写文章分享，比如藏在Postman光辉后的Insomnia。真是大爱！真的是为了人设计的，不是为了机器设计的！之前还想着上什么课程才能学postman，结果下载了Insomnia发现，完全不用教程！这点点那点点马上就会了！玩了一圈，再去postman发现，融会贯通！
 当然，Insomnia虽然设计极佳，只可惜还太年轻没有postman那么多强大的功能，比如变量和函数脚本等。不过无所谓了，我就是喜欢！
 话说回来，真的很行写文章分享使用教程。只是网上各种软件介绍教程太多，我实在不想动手写这种东西。倒是实操某个项目中，顺带教一下还差不多。
@@ -61,3 +50,15 @@ After a week’s reaching, I think I’m about reached to my bottom of maths: 6t
 
 霍金预言说，”人工智能可能会改变甚至完全摧毁人类社会。”
 假设真是这样，那也就是接近圣经预言的大审判了。那么我希望我站在这个毁灭漩涡中的中心，心怀感激地等待上帝的公正大审判。
+
+
+担心人工智能会取代人的工作？
+你们太小看人的智慧了！
+太小看“上有政策下有对策”了！
+太小看“魔高一尺 道高一丈”！
+用不着屏蔽人工智能来保证人的工作，人总会有招在各种情况下好好赚钱生活的，放心吧
+
+
+数学的学习方法应该是：
+先把所有知识都理解了，解题时候知道什么思路就足够足够的了。
+如果能到此地步，应付考试就只需要背一些公式而已罢了。

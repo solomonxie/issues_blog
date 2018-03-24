@@ -48,3 +48,14 @@ fcitx -d
 
 ### `$ df -h`就可以查看本地各处的存储情况了。下图是我的树莓派存储：
 ![image](https://user-images.githubusercontent.com/14041622/35480902-b5b50f3a-0453-11e8-892e-d1f9be0ee8d6.png)
+
+
+
+# A quick note of Keyboard symbols
+
+- `` ` ``, **Backticks** or **Back quote**
+- `~`, **Tilde** sounds like "Till da"
+- `!`, **Exclaimation mark**
+- `^`, **Caret**
+- `*`, **Asterisk**
+[More Details](https://user-images.githubusercontent.com/14041622/35766438-ab7f0fa6-0913-11e8-84a0-3f064dd87102.png)
