@@ -830,14 +830,21 @@ It means,
 > To draw a parabola, you only need `a point` and `a line`.
 ![image](https://user-images.githubusercontent.com/14041622/37862776-aa3a908e-2f8d-11e8-8fb0-92181e142617.png)
 
-![image](https://user-images.githubusercontent.com/14041622/37862783-c191ecfa-2f8d-11e8-96c8-043cc4b31269.png)
-
 [Khan lecture.](https://www.khanacademy.org/math/algebra2/intro-to-conics-alg2/focus-and-directrix-of-a-parabola-alg2/v/focus-and-directrix-introduction)
 [Maths if fun.](http://www.mathsisfun.com/geometry/parabola.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/37862730-c6306cd8-2f8c-11e8-9d3b-a7aa02d321ae.png)
-![image](https://user-images.githubusercontent.com/14041622/37862723-ac0df26c-2f8c-11e8-86c5-255fb478dced.png)
 
 ### Equation for the parabola
+
+![image](https://user-images.githubusercontent.com/14041622/37862802-13658492-2f8e-11e8-8c65-1f1cd9950c71.png)
+
+In this graph above, we will get an equation by `Pythagorean Theorem`
+
+![image](https://user-images.githubusercontent.com/14041622/37862810-2c106f8e-2f8e-11e8-98b5-fa078ec2cb4e.png)
+
+And expand that equation, we got an equation that is easy to spot the `focus` and the `directrix`:
+
+![image](https://user-images.githubusercontent.com/14041622/37862814-52196fa0-2f8e-11e8-9b73-5d6d07569112.png)
 
 
