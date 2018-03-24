@@ -821,3 +821,14 @@ And input the `y` value to the equation, to solve `x` position. Then we get the 
 Just ASSUME two `x positions`,
 then input to the quadratic, to get `y positions`. Then we get:
 `(x1, y1)` and `(x2, y2)`
+
+
+## [`Parabola` from geometric perspective](https://www.khanacademy.org/math/algebra2/intro-to-conics-alg2/focus-and-directrix-of-a-parabola-alg2/a/parabola-focus-directrix-review)
+> Definition: A parabola is the set of **ALL POINTS** whose **distance** from **a certain POINT** (the `focus`) is equal to their distance from **a certain LINE** (the `directrix`).
+
+[Khan review page.](https://www.khanacademy.org/math/algebra2/intro-to-conics-alg2/focus-and-directrix-of-a-parabola-alg2/a/parabola-focus-directrix-review)
+[Maths if fun.](http://www.mathsisfun.com/geometry/parabola.html)
+
+![image](https://user-images.githubusercontent.com/14041622/37862723-ac0df26c-2f8c-11e8-86c5-255fb478dced.png)
+![image](https://user-images.githubusercontent.com/14041622/37862730-c6306cd8-2f8c-11e8-9d3b-a7aa02d321ae.png)
+
