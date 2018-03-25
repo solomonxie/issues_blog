@@ -267,7 +267,7 @@ It's also called `Box and whisker plots`, or `Five-number summary`.
 
 
 
-# What are sin, cos, tan?  (TRIGONOMETRY)
+# What are sine, cosine, tangent?  (TRIGONOMETRY)
 
 - [Khan short video](https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-trig-ratios-intro/v/basic-trigonometry)
 - [Maths is Fun](http://www.mathsisfun.com/sine-cosine-tangent.html)
