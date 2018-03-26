@@ -93,22 +93,27 @@ Word in PARENTHESIS doesn't have to say out.
 
 ## `product`
 
-> "Three **`times`** four" or "Three **`multiply by`** four".
+> "Three **`times`** four"
+"Three **`multiply by`** four".
 ![image](https://user-images.githubusercontent.com/14041622/37590955-d6dc5470-2ba4-11e8-9983-f82d8ea845a1.png)
 
-> ?
+> "Open parenthesis x plus three close parenthesis multiply by open parenthesis ...."
+"x plus three, multiply by x minus two."
 ![image](https://user-images.githubusercontent.com/14041622/37591041-2c277388-2ba5-11e8-8323-d1c18dc4d92c.png)
 
 
 ## `quotient`
 
-> "Three **fourth** " or "Three **`over`** four".
+> "Three **fourth** "
+"Three **`over`** four".
 ![image](https://user-images.githubusercontent.com/14041622/37590795-58f093b4-2ba4-11e8-8b88-b0bdeed7c45a.png)
 
-> "One **`half`**" or "One **over** two".
+> "One **`half`**"
+"One **over** two"
 ![image](https://user-images.githubusercontent.com/14041622/37590818-65fce1de-2ba4-11e8-8c1a-e2a15d3db01e.png)
 
-> "Three **`halves`**" or "Three **over** two".
+> "Three **`halves`**"
+"Three **over** two".
 ![image](https://user-images.githubusercontent.com/14041622/37590845-7dad3464-2ba4-11e8-8d76-f5e7b40f8c58.png)
 
 > "x plus one **`over`** x minus one" .
@@ -117,10 +122,12 @@ Word in PARENTHESIS doesn't have to say out.
 
 ## [`exponent`](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-exponents/v/introduction-to-exponents)
 
-> "x **`squared`**" or "x **`to the`** **`second`** (**`power`**)"
+> "x **`squared`**"
+"x (**raised**) **`to the`** **`second`** (**`power`**)"
 ![image](https://user-images.githubusercontent.com/14041622/37590907-b0aa8c5e-2ba4-11e8-913c-f8f983da4af0.png)
 
-> "x **`cubed`**" or "x **`to the`** **`third`** (**`power`**)"
+> "x **`cubed`**"
+"x **`to the`** **`third`** (**`power`**)"
 ![image](https://user-images.githubusercontent.com/14041622/37590587-b8015f10-2ba3-11e8-9168-e78afd85c490.png)
 
 > "Three to the **`zeroth`** power"
