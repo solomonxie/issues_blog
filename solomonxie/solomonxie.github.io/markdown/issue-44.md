@@ -70,7 +70,6 @@ Collected `MASTERY` rules:
 - [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
 - [ ] Trigonometry
 - [ ] [Precalculus](https://www.khanacademy.org/math/precalculus)
-- [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 - [ ] AP Statistics
 - [ ] Differential calculus
 - [ ] Integral calculus
@@ -78,6 +77,7 @@ Collected `MASTERY` rules:
 - [ ] AP calculus BC
 - [ ] Multivariable calculus
 - [ ] Differential equations
+- [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 
 
 
