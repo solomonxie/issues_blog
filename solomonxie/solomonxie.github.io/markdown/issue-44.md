@@ -19,13 +19,15 @@ Collected `MASTERY` rules:
 - [x] [7th grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
 - [x] [8th grade](https://www.khanacademy.org/mission/cc-eighth-grade-math)
 - [x] [Algebra I](https://www.khanacademy.org/mission/algebra)
+- [ ] [Algebra II](https://www.khanacademy.org/mission/algebra2)
+    - [x] 56%
 
 #### Practice before mastery challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
 - [x] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [x] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
-- [ ] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
+- [x] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
     - [x] Functions
     - [x] Complex numbers
     - [x] Arithmetic with polynomials
@@ -34,7 +36,7 @@ Collected `MASTERY` rules:
     - [x] Rational relationships
     - [x] Exponential growth & decay
     - [x] Exponentials & logarithms
-    - [ ] Trigonometry
+    - [x] Trigonometry
     - [x] Advanced equations & functions
     - [x] Series
     - [x] Modeling
