@@ -91,75 +91,98 @@ download this pdf: [Guidelines for Reading Mathematics.pdf](https://github.com/s
 Notice that:
 Word in PARENTHESIS doesn't have to say out.
 
-## `product`
+## `Product`
 
 > "Three **`times`** four"
 "Three **`multiply by`** four".
-![image](https://user-images.githubusercontent.com/14041622/37590955-d6dc5470-2ba4-11e8-9983-f82d8ea845a1.png)
+```py
+3 × 4
+```
 
 > "Open parenthesis x plus three close parenthesis multiply by open parenthesis ...."
 "x plus three, multiply by x minus two."
-![image](https://user-images.githubusercontent.com/14041622/37591041-2c277388-2ba5-11e8-8323-d1c18dc4d92c.png)
+```py
+(x+3)(x-2)
+```
 
-
-## `quotient`
+## `Quotient` & `Fraction`
 
 > "Three **fourth** "
 "Three **`over`** four".
-![image](https://user-images.githubusercontent.com/14041622/37590795-58f093b4-2ba4-11e8-8b88-b0bdeed7c45a.png)
+```py
+3/4
+```
 
 > "One **`half`**"
 "One **over** two"
-![image](https://user-images.githubusercontent.com/14041622/37590818-65fce1de-2ba4-11e8-8c1a-e2a15d3db01e.png)
+```py
+1/2
+```
 
 > "Three **`halves`**"
 "Three **over** two".
-![image](https://user-images.githubusercontent.com/14041622/37590845-7dad3464-2ba4-11e8-8d76-f5e7b40f8c58.png)
+```py
+3/2
+```
 
 > "x plus one **`over`** x minus one" .
-![image](https://user-images.githubusercontent.com/14041622/37590777-4d97ca46-2ba4-11e8-917b-bfe26bf8303f.png)
+```py
+(x+1)/(x-1)
+```
 
 
 ## [`exponent`](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-exponents/v/introduction-to-exponents)
 
 > "x **`squared`**"
 "x (**raised**) **`to the`** **`second`** (**`power`**)"
-![image](https://user-images.githubusercontent.com/14041622/37590907-b0aa8c5e-2ba4-11e8-913c-f8f983da4af0.png)
+```py
+x²
+```
 
 > "x **`cubed`**"
 "x **`to the`** **`third`** (**`power`**)"
-![image](https://user-images.githubusercontent.com/14041622/37590587-b8015f10-2ba3-11e8-9168-e78afd85c490.png)
-
+```py
+x³
+```
 > "Three to the **`zeroth`** power"
-![image](https://user-images.githubusercontent.com/14041622/37589994-db38abac-2ba1-11e8-9f75-3e3835ae1acc.png)
+```py
+3⁰
+```
 
 > "Nine **`to the`** a plus b (**`power`**)."
-![image](https://user-images.githubusercontent.com/14041622/37589523-8310c280-2ba0-11e8-9e56-446311986b42.png)
-
+```py
+9⁽ª⁺ᵇ⁾
+```
 > "Five **`to the`** three t (power)."
-![image](https://user-images.githubusercontent.com/14041622/37589340-e7aa99ba-2b9f-11e8-8b27-c041c73e67e2.png)
-
-> "B **`to the`** t (power)."
-![image](https://user-images.githubusercontent.com/14041622/37589476-64b8c850-2ba0-11e8-9f97-e5ae5ae095dc.png)
+```py
+5³ᵗ
+```
 
 
 ## `Factorial !`
-> `4!` is usually pronounced "4 factorial", but some people even say "4 shriek" or "4 bang"
-
-
+> "4 factorial"
+"4 shriek"
+"4 bang"
+```py
+4!
+```
 
 ## `function` and [`composite function`](https://www.khanacademy.org/math/algebra2/manipulating-functions/function-composition/v/evaluating-composite-functions)
 
 > "f **`of`** x."
-![image](https://user-images.githubusercontent.com/14041622/37590472-56fcdbf4-2ba3-11e8-854d-54dd1988618a.png)
-
+```py
+f(x)
+```
 
 > "g **`of`** f **`of`** x."
-![image](https://user-images.githubusercontent.com/14041622/37590190-791b6b34-2ba2-11e8-9b7b-a65f9407d406.png)
+```py
+(g◦f)(x)
+```
 
-> Both read as "h **`of`** g **`of`** minus six".
-![image](https://user-images.githubusercontent.com/14041622/37590379-0b7c57ae-2ba3-11e8-99fd-4510fef062b6.png)
-
+> "h **`of`** g **`of`** minus six".
+```py
+(f◦g)(-6)
+```
 
 
 # How to use calculator
