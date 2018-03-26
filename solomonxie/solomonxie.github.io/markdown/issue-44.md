@@ -21,6 +21,7 @@ Collected `MASTERY` rules:
 - [x] [Algebra I](https://www.khanacademy.org/mission/algebra)
 - [ ] [Algebra II](https://www.khanacademy.org/mission/algebra2)
     - [x] 56%
+    - [x] 80%
 
 #### Practice before mastery challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
