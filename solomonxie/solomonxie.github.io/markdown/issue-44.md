@@ -84,12 +84,8 @@ Collected `MASTERY` rules:
 # How to read
 > Collect some common maths notions.
 
-For further information, review [this link](https://stemreader.org.uk/guidelines/), 
-or 
-download this pdf: [Guidelines for Reading Mathematics.pdf](https://github.com/solomonxie/solomonxie.github.io/files/1824645/Guidelines.for.Reading.Mathematics.pdf).
-
-Notice that:
-Word in PARENTHESIS doesn't have to say out.
+For further information, review [this link](https://stemreader.org.uk/guidelines/), or download this pdf: [Guidelines for Reading Mathematics.pdf](https://github.com/solomonxie/solomonxie.github.io/files/1824645/Guidelines.for.Reading.Mathematics.pdf).
+Notice that: Word in PARENTHESIS doesn't have to say out.
 
 ## `Product`
 
@@ -167,7 +163,7 @@ x³
 4!
 ```
 
-## `function` and [`composite function`](https://www.khanacademy.org/math/algebra2/manipulating-functions/function-composition/v/evaluating-composite-functions)
+## `composite function`
 
 > "f **`of`** x."
 ```py
