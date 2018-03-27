@@ -48,7 +48,7 @@ Collected `MASTERY` rules:
     - [x] Geometry foundations
     - [ ] Transformations
     - [x] Congruence
-    - [ ] Similarity
+    - [x] Similarity
     - [ ] Right triangles & trigonometry
     - [ ] Solid geometry
     - [ ] Analytic geometry
