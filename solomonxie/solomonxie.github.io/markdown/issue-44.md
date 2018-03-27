@@ -556,6 +556,10 @@ How does it work? As the picture below, just simply **scale the distance** from 
 
 ![image](https://user-images.githubusercontent.com/14041622/37085857-17550858-2231-11e8-9e59-6d6273611d47.png)
 
+
+## Surface Area of Cylinders
+- Surface of cylinder: `Circumference × (r + h)`
+
 ## Volume of Cuboids, Rectangular Prisms and Cubes
 Volume = Length × Width ×  Height
 
