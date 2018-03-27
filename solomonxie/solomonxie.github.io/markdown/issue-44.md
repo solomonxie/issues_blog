@@ -23,6 +23,7 @@ Collected `MASTERY` rules:
     - [x] 56%
     - [x] 80%
     - [x] 89%
+    - [x] 96%
 
 #### Practice before mastery challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
