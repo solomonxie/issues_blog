@@ -47,7 +47,7 @@ Collected `MASTERY` rules:
 - [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [x] Geometry foundations
     - [ ] Transformations
-    - [ ] Congruence
+    - [x] Congruence
     - [ ] Similarity
     - [ ] Right triangles & trigonometry
     - [ ] Solid geometry
