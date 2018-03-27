@@ -558,7 +558,7 @@ How does it work? As the picture below, just simply **scale the distance** from 
 
 
 ## Surface Area of Cylinders
-- Surface of cylinder: `Circumference × (r + h)`
+- Surface of cylinder: `2π × r × (r + h)`
 
 ## Volume of Cuboids, Rectangular Prisms and Cubes
 Volume = Length × Width ×  Height
