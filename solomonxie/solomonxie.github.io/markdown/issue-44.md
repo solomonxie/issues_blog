@@ -50,7 +50,7 @@ Collected `MASTERY` rules:
     - [x] Congruence
     - [x] Similarity
     - [x] Right triangles & trigonometry
-    - [ ] Solid geometry
+    - [x] Solid geometry
     - [ ] Analytic geometry
     - [ ] Circles
 
