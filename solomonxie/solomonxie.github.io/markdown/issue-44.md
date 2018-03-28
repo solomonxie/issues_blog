@@ -27,19 +27,6 @@ Collected `MASTERY` rules:
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [x] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
 - [x] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
-    - [x] Functions
-    - [x] Complex numbers
-    - [x] Arithmetic with polynomials
-    - [x] Polynomials
-    - [x] Radical relationships
-    - [x] Rational relationships
-    - [x] Exponential growth & decay
-    - [x] Exponentials & logarithms
-    - [x] Trigonometry
-    - [x] Advanced equations & functions
-    - [x] Series
-    - [x] Modeling
-    - [x] Conic sections
 - [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [x] Geometry foundations
     - [ ] Transformations
@@ -68,9 +55,9 @@ Collected `MASTERY` rules:
 - [x] [Algebra 1](https://www.khanacademy.org/mission/algebra) (100%)
 - [x] [Algebra 2](https://www.khanacademy.org/mission/algebra2) (100%)
 - [ ] [Geometry](https://www.khanacademy.org/mission/geometry) 
-- [ ] Trigonometry
+- [ ] [Trigonometry](https://www.khanacademy.org/mission/trigonometry)
 - [ ] [Statistics & Probability](https://www.khanacademy.org/mission/probability)
-- [ ] [Precalculus](https://www.khanacademy.org/math/precalculus)
+- [ ] [Precalculus](https://www.khanacademy.org/mission/precalculus)
 - [ ] AP Statistics
 - [ ] Differential calculus
 - [ ] Integral calculus
