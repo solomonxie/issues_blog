@@ -35,7 +35,7 @@ Collected `MASTERY` rules:
     - [x] Right triangles & trigonometry
     - [x] Solid geometry
     - [ ] Analytic geometry
-    - [ ] Circles
+    - [x] Circles
 
 ## Mastery challenge
 - [x] Early Math (100%)
