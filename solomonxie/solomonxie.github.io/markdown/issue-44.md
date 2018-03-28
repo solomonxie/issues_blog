@@ -20,6 +20,8 @@ Collected `MASTERY` rules:
 - [x] [8th grade](https://www.khanacademy.org/mission/cc-eighth-grade-math)
 - [x] [Algebra I](https://www.khanacademy.org/mission/algebra)
 - [x] [Algebra II](https://www.khanacademy.org/mission/algebra2)
+- [ ] [Geometry](https://www.khanacademy.org/mission/geometry)
+    - [x] 77%
 
 #### Practice before mastery challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
