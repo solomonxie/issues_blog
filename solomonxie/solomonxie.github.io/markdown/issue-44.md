@@ -27,9 +27,9 @@ Collected `MASTERY` rules:
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
 - [x] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
 - [x] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
-- [ ] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
+- [x] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
     - [x] Geometry foundations
-    - [ ] Transformations
+    - [x] Transformations
     - [x] Congruence
     - [x] Similarity
     - [x] Right triangles & trigonometry
