@@ -19,11 +19,7 @@ Collected `MASTERY` rules:
 - [x] [7th grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
 - [x] [8th grade](https://www.khanacademy.org/mission/cc-eighth-grade-math)
 - [x] [Algebra I](https://www.khanacademy.org/mission/algebra)
-- [ ] [Algebra II](https://www.khanacademy.org/mission/algebra2)
-    - [x] 56%
-    - [x] 80%
-    - [x] 89%
-    - [x] 96%
+- [x] [Algebra II](https://www.khanacademy.org/mission/algebra2)
 
 #### Practice before mastery challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
@@ -70,10 +66,10 @@ Collected `MASTERY` rules:
 - [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra) (100%)
 - [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics) (100%)
 - [x] [Algebra 1](https://www.khanacademy.org/mission/algebra) (100%)
-- [ ] [Algebra 2](https://www.khanacademy.org/mission/algebra2)
+- [x] [Algebra 2](https://www.khanacademy.org/mission/algebra2) (100%)
 - [ ] [Geometry](https://www.khanacademy.org/mission/geometry) 
-- [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
 - [ ] Trigonometry
+- [ ] [Statistics & Probability](https://www.khanacademy.org/mission/probability)
 - [ ] [Precalculus](https://www.khanacademy.org/math/precalculus)
 - [ ] AP Statistics
 - [ ] Differential calculus
