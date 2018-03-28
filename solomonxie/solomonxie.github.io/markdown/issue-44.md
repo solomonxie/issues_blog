@@ -56,13 +56,13 @@ Collected `MASTERY` rules:
 - [x] [Algebra 2](https://www.khanacademy.org/mission/algebra2) (100%)
 - [ ] [Geometry](https://www.khanacademy.org/mission/geometry) 
 - [ ] [Trigonometry](https://www.khanacademy.org/mission/trigonometry)
-- [ ] [Statistics & Probability](https://www.khanacademy.org/mission/probability)
 - [ ] [Precalculus](https://www.khanacademy.org/mission/precalculus)
+- [ ] [Statistics & Probability](https://www.khanacademy.org/mission/probability)
+- [ ] AP calculus AB
+- [ ] AP calculus BC
 - [ ] AP Statistics
 - [ ] Differential calculus
 - [ ] Integral calculus
-- [ ] AP calculus AB
-- [ ] AP calculus BC
 - [ ] Multivariable calculus
 - [ ] Differential equations
 - [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
