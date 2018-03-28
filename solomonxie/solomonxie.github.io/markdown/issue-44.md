@@ -34,7 +34,7 @@ Collected `MASTERY` rules:
     - [x] Similarity
     - [x] Right triangles & trigonometry
     - [x] Solid geometry
-    - [ ] Analytic geometry
+    - [x] Analytic geometry
     - [x] Circles
 
 ## Mastery challenge
