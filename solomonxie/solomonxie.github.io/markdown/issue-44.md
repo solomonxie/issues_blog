@@ -22,6 +22,7 @@ Collected `MASTERY` rules:
 - [x] [Algebra II](https://www.khanacademy.org/mission/algebra2)
 - [ ] [Geometry](https://www.khanacademy.org/mission/geometry)
     - [x] 77%
+    - [x] 90%
 
 #### Practice before mastery challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
@@ -30,14 +31,7 @@ Collected `MASTERY` rules:
 - [x] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
 - [x] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
 - [x] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
-    - [x] Geometry foundations
-    - [x] Transformations
-    - [x] Congruence
-    - [x] Similarity
-    - [x] Right triangles & trigonometry
-    - [x] Solid geometry
-    - [x] Analytic geometry
-    - [x] Circles
+- [x] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
 
 ## Mastery challenge
 - [x] Early Math (100%)
