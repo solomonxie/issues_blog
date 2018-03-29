@@ -23,6 +23,7 @@ Collected `MASTERY` rules:
 - [ ] [Geometry](https://www.khanacademy.org/mission/geometry)
     - [x] 77%
     - [x] 90%
+- [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
 
 #### Practice before mastery challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
@@ -31,7 +32,8 @@ Collected `MASTERY` rules:
 - [x] [Algebra 1](https://www.khanacademy.org/math/algebra?t=practice)
 - [x] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
 - [x] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
-- [x] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
+- [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
+- [ ] [High school statistics](https://www.khanacademy.org/math/probability?t=practice)
 
 ## Mastery challenge
 - [x] Early Math (100%)
@@ -52,8 +54,8 @@ Collected `MASTERY` rules:
 - [x] [Algebra 2](https://www.khanacademy.org/mission/algebra2) (100%)
 - [ ] [Geometry](https://www.khanacademy.org/mission/geometry) 
 - [ ] [Trigonometry](https://www.khanacademy.org/mission/trigonometry)
+- [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
 - [ ] [Precalculus](https://www.khanacademy.org/mission/precalculus)
-- [ ] [Statistics & Probability](https://www.khanacademy.org/mission/probability)
 - [ ] AP calculus AB
 - [ ] AP calculus BC
 - [ ] AP Statistics
