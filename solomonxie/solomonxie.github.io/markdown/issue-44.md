@@ -36,7 +36,15 @@ Collected `MASTERY` rules:
 - [x] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
 - [x] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
 - [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
+    - [ ] Solve sinusoidal equations 
+    - [ ] Trig Angle addition identities
 - [ ] [High school statistics](https://www.khanacademy.org/math/probability?t=practice)
+    - [ ] Scatterplots
+    - [ ] Data distributions
+    - [x] Two-way tables
+    - [ ] Study design
+    - [ ] Probability
+    - [ ] Normal distributions
 
 ## Mastery challenge
 - [x] Early Math (100%)
