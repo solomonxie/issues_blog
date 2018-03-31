@@ -23,6 +23,7 @@ Collected `MASTERY` rules:
 - [ ] [Geometry](https://www.khanacademy.org/mission/geometry)
     - [x] 77%
     - [x] 90%
+    - [x] 96%
 - [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
 
 #### Practice before mastery challenge
