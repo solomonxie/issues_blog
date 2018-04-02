@@ -20,10 +20,7 @@ Collected `MASTERY` rules:
 - [x] [8th grade](https://www.khanacademy.org/mission/cc-eighth-grade-math)
 - [x] [Algebra I](https://www.khanacademy.org/mission/algebra)
 - [x] [Algebra II](https://www.khanacademy.org/mission/algebra2)
-- [ ] [Geometry](https://www.khanacademy.org/mission/geometry)
-    - [x] 77%
-    - [x] 90%
-    - [x] 96%
+- [x] [Geometry](https://www.khanacademy.org/mission/geometry)
 - [ ] [Trigonometry](https://www.khanacademy.org/mission/trigonometry)
     - [x] 85%
 - [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
@@ -63,7 +60,7 @@ Collected `MASTERY` rules:
 - [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics) (100%)
 - [x] [Algebra 1](https://www.khanacademy.org/mission/algebra) (100%)
 - [x] [Algebra 2](https://www.khanacademy.org/mission/algebra2) (100%)
-- [ ] [Geometry](https://www.khanacademy.org/mission/geometry) 
+- [x] [Geometry](https://www.khanacademy.org/mission/geometry) (100%)
 - [ ] [Trigonometry](https://www.khanacademy.org/mission/trigonometry)
 - [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
 - [ ] [Precalculus](https://www.khanacademy.org/mission/precalculus)
