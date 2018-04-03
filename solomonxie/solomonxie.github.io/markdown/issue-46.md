@@ -152,6 +152,28 @@ Expand the equation to get:
 
 # Inverse trig function word problems
 
+## EXAMPLE 1
+![image](https://user-images.githubusercontent.com/14041622/38241148-131e56ac-3764-11e8-899c-e2cf987b8d5d.png)
+Solve:
+
+- Set equation `Y(t) = −80`
+- Simplify equation and solve for all possible solutions:
+    - `base solution` as `θ = 1.7911 + 2πn` 
+    - Use trig identity `cos(θ) = cos(2π - θ)` to get second solution as `θ = 4.485 + 2πn`.
+- Replace θ with the expression of `t` and solve for t:
+    - `t*2π/3 = 1.7911 + 2πn` , and solve it to get `t = 0.9 + 3n`
+    - `t*2π/3= 4.485 + 2πn`, and solve it to get  `t = 2.1 + 3n`
+- Study the trig function (review the `Sinusoidal Functions`), get informations:
+    - Max at `(0, -31)`
+    - Min at `(1.5, -111)`
+    - Period is `2π/(2π/3)` and get the period is `3`
+- According to the situation we know:
+    - It passed the `1st Min` and is before the `2nd Max`
+    - So it's over `1.5 sec` at Bottom and not yet `3 sec` at top.
+- So within the range (1.5, 3), filter out invalid solution, `2.1` is the answer.
+
+## EXAMPLE 2
+
 ![image](https://user-images.githubusercontent.com/14041622/38239728-1cd36bc8-3760-11e8-9f13-882819c626e1.png)
 
 Solve:
