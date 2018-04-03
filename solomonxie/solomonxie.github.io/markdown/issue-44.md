@@ -33,7 +33,7 @@ Collected `MASTERY` rules:
 - [x] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
 - [x] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
 - [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
-    - [ ] Solve sinusoidal equations 
+    - [x] Solve sinusoidal equations 
     - [ ] Trig Angle addition identities
 - [ ] [High school statistics](https://www.khanacademy.org/math/probability?t=practice)
     - [ ] Scatterplots
