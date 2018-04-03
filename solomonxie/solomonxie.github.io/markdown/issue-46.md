@@ -163,7 +163,7 @@ Solve:
 - Replace θ with the expression of `t` and solve for t:
     - `t*2π/3 = 1.7911 + 2πn` , and solve it to get `t = 0.9 + 3n`
     - `t*2π/3= 4.485 + 2πn`, and solve it to get  `t = 2.1 + 3n`
-- Study the trig function (review the `Sinusoidal Functions`), get informations:
+- Study the graph of trig function (review the `Sinusoidal Functions`), get informations:
     - Max at `(0, -31)`
     - Min at `(1.5, -111)`
     - Period is `2π/(2π/3)` and get the period is `3`
@@ -172,7 +172,28 @@ Solve:
     - So it's over `1.5 sec` at Bottom and not yet `3 sec` at top.
 - So within the range (1.5, 3), filter out invalid solution, `2.1` is the answer.
 
+
+
 ## EXAMPLE 2
+![image](https://user-images.githubusercontent.com/14041622/38242513-95720c72-3767-11e8-889b-7699b14bf24d.png)
+Solve:
+
+- Simplify and solve to get solutions:
+    - `θ = 0.423 + 2πn`
+    - `θ = 2.718 + 2πn`, (with trig identity `sin(θ) = sin(π-θ)` when θ is positive)
+- Replace θ with expression of t:
+    - `t = 24.57 + 365n`
+    - `t = 157 + 365n`
+- Study the graph of trig function and get informations:
+    - Period: 365
+    - Y-intersect (Midline) at: `(0, 728)`
+    - Max (right after Y-axis) at: `(365/4, 780)`
+- Since `750` is not yet the Max `780`, so it's EARLIER than `365/4` aka.`91.25`.
+- Filter out the `157` which is later than `91.25`, so the `24.57` is the answer.
+
+
+
+## EXAMPLE 3
 
 ![image](https://user-images.githubusercontent.com/14041622/38239728-1cd36bc8-3760-11e8-9f13-882819c626e1.png)
 
