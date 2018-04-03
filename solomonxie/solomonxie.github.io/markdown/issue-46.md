@@ -147,3 +147,23 @@ So it becomes:
 ```
 Expand the equation to get:
 ![image](https://user-images.githubusercontent.com/14041622/37863035-4b288eac-2f92-11e8-8dab-a03d9f3de65f.png)
+
+
+
+# Inverse trig function word problems
+
+![image](https://user-images.githubusercontent.com/14041622/38239728-1cd36bc8-3760-11e8-9f13-882819c626e1.png)
+
+Solve:
+
+- Set equation to `I(t)=5.2`
+- Simplify equation to:
+![image](https://user-images.githubusercontent.com/14041622/38239775-4173612c-3760-11e8-8f22-e955615d8640.png)
+- Get `θ ≃ 0.9273 Rad`
+- Get First solution:
+![image](https://user-images.githubusercontent.com/14041622/38239979-dca4ca32-3760-11e8-84a8-2741f9d29da0.png)
+![image](https://user-images.githubusercontent.com/14041622/38239899-a696dade-3760-11e8-8613-0dd8f9f22976.png)
+- Use the trig identity for second solution: `cos(θ) = cos(2π−θ)`.
+![image](https://user-images.githubusercontent.com/14041622/38240038-fa9c03fc-3760-11e8-932c-2e9547af26b2.png)
+![image](https://user-images.githubusercontent.com/14041622/38240043-fd76168a-3760-11e8-87d7-86ba3c8a7b92.png)
+- The answer for SECOND TIME it hits 5.2 is `311 days`.
