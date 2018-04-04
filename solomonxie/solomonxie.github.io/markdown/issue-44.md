@@ -39,7 +39,7 @@ Collected `MASTERY` rules:
     - [x] Trig Angle addition identities
 - [ ] [High school statistics](https://www.khanacademy.org/math/probability?t=practice)
     - [x] Scatterplots
-    - [ ] Data distributions
+    - [x] Data distributions
     - [x] Two-way tables
     - [ ] Study design
     - [ ] Probability
