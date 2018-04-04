@@ -68,7 +68,7 @@ Collected `MASTERY` rules:
 - [ ] [Precalculus](https://www.khanacademy.org/mission/precalculus)
 - [ ] AP calculus AB
 - [ ] AP calculus BC
-- [ ] AP Statistics
+- [ ] [AP Statistics (None mastery)](https://www.khanacademy.org/math/ap-statistics)
 - [ ] Differential calculus
 - [ ] Integral calculus
 - [ ] Multivariable calculus
