@@ -38,7 +38,7 @@ Collected `MASTERY` rules:
     - [x] Solve sinusoidal equations 
     - [x] Trig Angle addition identities
 - [ ] [High school statistics](https://www.khanacademy.org/math/probability?t=practice)
-    - [ ] Scatterplots
+    - [x] Scatterplots
     - [ ] Data distributions
     - [x] Two-way tables
     - [ ] Study design
