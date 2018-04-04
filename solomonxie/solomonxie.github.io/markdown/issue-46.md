@@ -210,3 +210,13 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/38240038-fa9c03fc-3760-11e8-932c-2e9547af26b2.png)
 ![image](https://user-images.githubusercontent.com/14041622/38240043-fd76168a-3760-11e8-87d7-86ba3c8a7b92.png)
 - The answer for SECOND TIME it hits 5.2 is `311 days`.
+
+
+# Inverse trig function all possible solutions
+Find all possible solutions: `cos(x)=0.15`
+Solve:
+
+![image](https://user-images.githubusercontent.com/14041622/38292383-20aaf1ba-3816-11e8-9065-9779ec38840b.png)
+
+![image](https://user-images.githubusercontent.com/14041622/38292407-367f9d7e-3816-11e8-8265-3d4e3c716b8f.png)
+![image](https://user-images.githubusercontent.com/14041622/38292411-3a32e1c4-3816-11e8-8302-1d121f750ad9.png)

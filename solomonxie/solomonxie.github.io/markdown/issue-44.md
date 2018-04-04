@@ -24,6 +24,7 @@ Collected `MASTERY` rules:
 - [ ] [Trigonometry](https://www.khanacademy.org/mission/trigonometry)
     - [x] 85%
     - [x] 90%
+    - [x] 95%
 - [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
 
 #### Practice before mastery challenge
