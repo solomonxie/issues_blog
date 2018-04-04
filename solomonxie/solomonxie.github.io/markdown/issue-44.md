@@ -43,7 +43,7 @@ Collected `MASTERY` rules:
     - [x] Two-way tables
     - [x] Study design
     - [ ] Probability
-    - [ ] Normal distributions
+    - [x] Normal distributions
 
 ## Mastery challenge
 - [x] Early Math (100%)
