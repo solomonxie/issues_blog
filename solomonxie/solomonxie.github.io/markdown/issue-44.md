@@ -41,7 +41,7 @@ Collected `MASTERY` rules:
     - [x] Scatterplots
     - [x] Data distributions
     - [x] Two-way tables
-    - [ ] Study design
+    - [x] Study design
     - [ ] Probability
     - [ ] Normal distributions
 
