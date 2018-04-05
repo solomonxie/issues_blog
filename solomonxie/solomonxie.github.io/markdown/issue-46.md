@@ -220,3 +220,19 @@ Solve:
 
 ![image](https://user-images.githubusercontent.com/14041622/38292407-367f9d7e-3816-11e8-8265-3d4e3c716b8f.png)
 ![image](https://user-images.githubusercontent.com/14041622/38292411-3a32e1c4-3816-11e8-8302-1d121f750ad9.png)
+
+
+
+# Probability intro
+
+## Example:
+![image](https://user-images.githubusercontent.com/14041622/37281434-f739e706-262b-11e8-88e0-8dbf81813087.png)
+First to notice that, it's **ONE** event. 
+
+
+## Example:
+![image](https://user-images.githubusercontent.com/14041622/37280936-4707117a-262a-11e8-8d59-547e2f7c62fd.png)
+
+
+## Example:
+![image](https://user-images.githubusercontent.com/14041622/37280918-37d313ca-262a-11e8-9924-3e6531126671.png)
