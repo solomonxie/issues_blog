@@ -76,6 +76,12 @@ Collected `MASTERY` rules:
 - [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 
 
+## Review hard problems
+- [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
+    - [ ] [Sinusoidal functions](https://www.khanacademy.org/math/algebra2/trig-functions/modal/quiz/period-of-sinusoids-alg2-quiz)
+    - [ ] [Graph sinusoidal functions](https://www.khanacademy.org/math/algebra2/trig-functions/modal/quiz/constructing-sinusoids-alg2-quiz)
+
+
 
 # How to read
 > Collect some common maths notions.
