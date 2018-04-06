@@ -22,7 +22,7 @@ Collected `MASTERY` rules:
 - [x] [Algebra II](https://www.khanacademy.org/mission/algebra2)
 - [x] [Geometry](https://www.khanacademy.org/mission/geometry)
 - [x] [Trigonometry](https://www.khanacademy.org/mission/trigonometry)
-- [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
+- [ ] [High school statistics](https://www.khanacademy.org/mission/probability) (96%)
 
 #### Practice before mastery challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
@@ -35,13 +35,15 @@ Collected `MASTERY` rules:
     - [x] Graph sinusoidal functions
     - [x] Construct sinusoidal functions
     - [x] Solve sinusoidal equations 
-- [ ] [High school statistics](https://www.khanacademy.org/math/probability?t=practice)
-    - [x] Scatterplots
-    - [x] Data distributions
-    - [x] Two-way tables
-    - [x] Study design
-    - [ ] Probability
-    - [x] Normal distributions
+- [x] [High school statistics](https://www.khanacademy.org/math/probability?t=practice)
+- [ ] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice)
+    - [x] Trigonometry
+    - [ ] Conic sections
+    - [ ] Vectors
+    - [ ] Matrices
+    - [ ] Complex numbers
+    - [x] Probability and combinatorics
+    - [x] Series
 
 ## Mastery challenge
 - [x] Early Math (100%)
@@ -66,11 +68,11 @@ Collected `MASTERY` rules:
 - [ ] [Precalculus](https://www.khanacademy.org/mission/precalculus)
 - [ ] AP calculus AB
 - [ ] AP calculus BC
-- [ ] [AP Statistics (None mastery)](https://www.khanacademy.org/math/ap-statistics)
 - [ ] Differential calculus
 - [ ] Integral calculus
 - [ ] Multivariable calculus
 - [ ] Differential equations
+- [ ] [AP Statistics (None mastery)](https://www.khanacademy.org/math/ap-statistics)
 - [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 
 
