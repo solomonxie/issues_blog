@@ -88,6 +88,11 @@ Collected `MASTERY` rules:
         - [ ] SECOND REVIEW
         - [ ] THIRD REVIEW
         - [ ] FOUTH REVIEW
+    - [ ] [Inverse trig functions](https://www.khanacademy.org/math/precalculus/trig-equations-and-identities-precalc/modal/quiz/solving-sinusoidal-models-precalc-quiz)
+        - [ ] FIRST REVIEW
+        - [ ] SECOND REVIEW
+        - [ ] THIRD REVIEW
+        - [ ] FOUTH REVIEW
 - [ ] [Probability](https://www.khanacademy.org/math/statistics-probability/probability-library)
     - [ ] [Probability basics](https://www.khanacademy.org/math/probability/probability-geometry/modal/quiz/probability-basics-quiz)
         - [ ] FIRST REVIEW
@@ -99,6 +104,9 @@ Collected `MASTERY` rules:
         - [ ] SECOND REVIEW
         - [ ] THIRD REVIEW
         - [ ] FOUTH REVIEW
+- [ ] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
+    - [ ] [Quadratics & Parabola](https://www.khanacademy.org/math/algebra/quadratics/modal/test/quadratics-unit-test)
+    - [ ] [Polynomials](https://www.khanacademy.org/math/algebra2/polynomial-functions/modal/test/polynomial-functions-unit-test)
 
 
 # How to read
