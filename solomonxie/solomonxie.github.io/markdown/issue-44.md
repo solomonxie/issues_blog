@@ -79,8 +79,26 @@ Collected `MASTERY` rules:
 ## Review hard problems
 - [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
     - [ ] [Sinusoidal functions](https://www.khanacademy.org/math/algebra2/trig-functions/modal/quiz/period-of-sinusoids-alg2-quiz)
+        - [ ] FIRST REVIEW
+        - [ ] SECOND REVIEW
+        - [ ] THIRD REVIEW
+        - [ ] FOUTH REVIEW
     - [ ] [Graph sinusoidal functions](https://www.khanacademy.org/math/algebra2/trig-functions/modal/quiz/constructing-sinusoids-alg2-quiz)
-
+        - [ ] FIRST REVIEW
+        - [ ] SECOND REVIEW
+        - [ ] THIRD REVIEW
+        - [ ] FOUTH REVIEW
+- [ ] [Probability](https://www.khanacademy.org/math/statistics-probability/probability-library)
+    - [ ] [Probability basics](https://www.khanacademy.org/math/probability/probability-geometry/modal/quiz/probability-basics-quiz)
+        - [ ] FIRST REVIEW
+        - [ ] SECOND REVIEW
+        - [ ] THIRD REVIEW
+        - [ ] FOUTH REVIEW
+    - [ ] [Permutations and combinations](https://www.khanacademy.org/math/probability/probability-geometry/modal/quiz/probability-counting-permutations-combinations-quiz)
+        - [ ] FIRST REVIEW
+        - [ ] SECOND REVIEW
+        - [ ] THIRD REVIEW
+        - [ ] FOUTH REVIEW
 
 
 # How to read
