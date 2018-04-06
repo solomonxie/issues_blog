@@ -440,7 +440,7 @@ date
 和vim一样的思路，需要先安装tmux专属的插件管理器，一般都是用这个：`tmux plugin manager`，即tpm。注意：文档里面都会提到`prefix + ...`，其中`prefix`指的是tmux的命令前缀，默认是`ctrl+b`。
 
 按照[官网](https://github.com/tmux-plugins/tpm)的做法，很简单就安装上了，输入下面命令：
-```
+```shell
 # 把管理器文件安装到`~/.tmux/plugins/tpm`之下 此前这些目录是不存在的
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
