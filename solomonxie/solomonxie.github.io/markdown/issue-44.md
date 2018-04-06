@@ -105,8 +105,12 @@ Collected `MASTERY` rules:
         - [ ] THIRD REVIEW
         - [ ] FOUTH REVIEW
 - [ ] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
+    - [ ] [Functions](https://www.khanacademy.org/math/algebra2/manipulating-functions/modal/test/manipulating-functions-unit-test)
     - [ ] [Quadratics & Parabola](https://www.khanacademy.org/math/algebra/quadratics/modal/test/quadratics-unit-test)
     - [ ] [Polynomials](https://www.khanacademy.org/math/algebra2/polynomial-functions/modal/test/polynomial-functions-unit-test)
+    - [ ] [Graphs of rational functions](https://www.khanacademy.org/math/algebra2/rational-expressions-equations-and-functions/modal/quiz/modeling-with-rational-functions-quiz)
+    - [ ] [Exponential and Logarithmic functions](https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/modal/test/exponential-and-logarithmic-functions-unit-test)
+    - [ ] [Series](https://www.khanacademy.org/math/algebra2/sequences-and-series/modal/test/sequences-and-series-unit-test) 
 
 
 # How to read
