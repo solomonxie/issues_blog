@@ -38,10 +38,10 @@ Collected `MASTERY` rules:
 - [x] [High school statistics](https://www.khanacademy.org/math/probability?t=practice)
 - [ ] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice)
     - [x] Trigonometry
-    - [ ] Conic sections
+    - [x] Conic sections
     - [ ] Vectors
     - [ ] Matrices
-    - [ ] Complex numbers
+    - [x] Complex numbers
     - [x] Probability and combinatorics
     - [x] Series
 
