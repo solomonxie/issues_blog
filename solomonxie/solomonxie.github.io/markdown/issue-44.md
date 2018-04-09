@@ -93,6 +93,8 @@ Collected `MASTERY` rules:
     - [Graphs of rational functions](https://www.khanacademy.org/math/algebra2/rational-expressions-equations-and-functions/modal/quiz/modeling-with-rational-functions-quiz)
     - [Exponential and Logarithmic functions](https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/modal/test/exponential-and-logarithmic-functions-unit-test)
     - [Series](https://www.khanacademy.org/math/algebra2/sequences-and-series/modal/test/sequences-and-series-unit-test) 
+- [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice#precalc-matrices)
+    - [Conversion of complex numbers](https://www.khanacademy.org/math/precalculus/imaginary-and-complex-numbers/modal/quiz/polar-form-of-complex-numbers-quiz)
 
 
 # How to read
