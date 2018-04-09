@@ -22,7 +22,9 @@ Collected `MASTERY` rules:
 - [x] [Algebra II](https://www.khanacademy.org/mission/algebra2)
 - [x] [Geometry](https://www.khanacademy.org/mission/geometry)
 - [x] [Trigonometry](https://www.khanacademy.org/mission/trigonometry)
-- [ ] [High school statistics](https://www.khanacademy.org/mission/probability) (96%)
+- [x] [High school statistics](https://www.khanacademy.org/mission/probability)
+- [ ] [Precalculus](https://www.khanacademy.org/mission/precalculus)
+    - [x] 65%
 
 #### Practice before mastery challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
@@ -32,9 +34,6 @@ Collected `MASTERY` rules:
 - [x] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
 - [x] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
 - [x] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
-    - [x] Graph sinusoidal functions
-    - [x] Construct sinusoidal functions
-    - [x] Solve sinusoidal equations 
 - [x] [High school statistics](https://www.khanacademy.org/math/probability?t=practice)
 - [ ] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice)
     - [x] Trigonometry
@@ -64,7 +63,10 @@ Collected `MASTERY` rules:
 - [x] [Algebra 2](https://www.khanacademy.org/mission/algebra2) (100%)
 - [x] [Geometry](https://www.khanacademy.org/mission/geometry) (100%)
 - [x] [Trigonometry](https://www.khanacademy.org/mission/trigonometry) (100%)
-- [ ] [High school statistics](https://www.khanacademy.org/mission/probability)
+- [x] [High school statistics](https://www.khanacademy.org/mission/probability) (100%)
+- [x] Mathematics 1
+- [x] Mathematics 2
+- [x] Mathematics 3
 - [ ] [Precalculus](https://www.khanacademy.org/mission/precalculus)
 - [ ] AP calculus AB
 - [ ] AP calculus BC
