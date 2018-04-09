@@ -291,6 +291,7 @@ It's also called `Box and whisker plots`, or `Five-number summary`.
 
 ![image](https://user-images.githubusercontent.com/14041622/36936341-1b7ca9c6-1f3f-11e8-816d-a7248923a559.png)
 
+![image](https://user-images.githubusercontent.com/14041622/38495985-5227c8be-3c2e-11e8-9e96-071fceeb5374.png)
 
 ## [`Five-number summary`](https://www.khanacademy.org/math/probability/data-distributions-a1/box--whisker-plots-a1/e/interpreting-quartiles-on-box-plots)
 ![image](https://user-images.githubusercontent.com/14041622/36962890-3d312558-208c-11e8-9c92-391bd4b83032.png)
