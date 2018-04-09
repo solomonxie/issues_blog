@@ -243,6 +243,6 @@ First to notice that, it's **ONE** event.
 ![image](https://user-images.githubusercontent.com/14041622/38490800-aa0d8f30-3c1c-11e8-8dbe-39d6b03679f1.png)
 
 Solve:
-![image](https://user-images.githubusercontent.com/14041622/38490808-afdacc84-3c1c-11e8-95d4-ea01dbe0048f.png)
+![image](https://user-images.githubusercontent.com/14041622/38490950-180210c4-3c1d-11e8-9737-da2d1efa6db9.png)
 ![image](https://user-images.githubusercontent.com/14041622/38490819-b4ac5a16-3c1c-11e8-83c5-95a1c7c3ad74.png)
 ![image](https://user-images.githubusercontent.com/14041622/38490826-b99b68b4-3c1c-11e8-83bb-9bcccee8f451.png)
