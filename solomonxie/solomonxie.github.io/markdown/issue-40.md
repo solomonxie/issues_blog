@@ -1,4 +1,4 @@
-# Linear Algebra from the ground up
+# Calculus & Linear Algebra from the ground up
 > Quick notes on Math or Stat (currently Linear Algebra). 
 
 
