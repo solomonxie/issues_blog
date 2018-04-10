@@ -74,8 +74,8 @@ Collected `MASTERY` rules:
 - [ ] Integral calculus
 - [ ] Multivariable calculus
 - [ ] Differential equations
-- [ ] [AP Statistics (None mastery)](https://www.khanacademy.org/math/ap-statistics)
-- [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
+- [ ] [AP Statistics (No mastery)](https://www.khanacademy.org/math/ap-statistics)
+- [ ] [Linear Algebra (No mastery)](https://www.khanacademy.org/math/linear-algebra)
 
 
 ## Review hardcore quiz
