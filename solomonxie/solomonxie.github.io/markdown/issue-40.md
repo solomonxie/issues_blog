@@ -169,6 +169,8 @@ It means we eliminated all other variables and only left 1 variable in one equat
 # `Matrices multiplication`
 > It's very difficult to make sense of it. But mathematicians just somehow make it work, it then is a `Human defined operation`, no sense but just to use it.
 
+It is a whole new area aside from other operations like addition, subtraction and scalar multiplication.
+
 Two common ways to do multiplications of vectors:
 - `Dot product` [(link)](http://www.mathsisfun.com/algebra/vectors-dot-product.html)
 - `Cross product` [(link)](http://www.mathsisfun.com/algebra/vectors-cross-product.html)
