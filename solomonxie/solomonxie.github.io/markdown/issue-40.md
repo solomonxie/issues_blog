@@ -120,8 +120,33 @@ Easier to think about it, is to think about the `Similar graph` knowledge in the
 
 # `Matrices`
 > `Matrices` are just a **rectangle array of numbers**.
+![image](https://user-images.githubusercontent.com/14041622/38552009-51700eb2-3ced-11e8-86ce-15a21a9b3c0e.png)
 
 Matrices could be seen as a group of informations arranged **IN A CERTAIN WAY**.
+**IT'S SO SO SO SO SO EASIER TO THINK IT AS A SYSTEM OF EQUATIONS.**
+
+![image](https://user-images.githubusercontent.com/14041622/38552056-6a3a18fc-3ced-11e8-9f40-bae36f2b775d.png)
 
 
-## `Matrix row operations`
+## `Matrix row operations and Systems of equations`
+> It's very SAME with operations of `systems of equations`.
+
+[Refer to Khan academy article: Matrix row operations](https://www.khanacademy.org/math/precalculus/precalc-matrices/elementary-matrix-row-operations/a/matrix-row-operations)
+
+![image](https://user-images.githubusercontent.com/14041622/38552166-dff4d4d8-3ced-11e8-8ae4-3d9144c35473.png)
+
+
+There're different types of row operations:
+- Switch any two rows
+- Multiply a row by a nonzero constant
+- Add one row to another
+
+They all relate to the operations of systems of equations:
+### Switching any two rows:
+![image](https://user-images.githubusercontent.com/14041622/38552224-08aa1bea-3cee-11e8-93c2-61943babeb98.png)
+
+### Multiply a row by a nonzero constant:
+![image](https://user-images.githubusercontent.com/14041622/38552233-138a8cca-3cee-11e8-8569-f3a8238e554c.png)
+
+### Add one row to another:
+![image](https://user-images.githubusercontent.com/14041622/38552241-1c33501e-3cee-11e8-9604-3704346237a7.png)
