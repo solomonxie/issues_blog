@@ -91,8 +91,10 @@ That's why we could represent a vector in two ways:
 **IT'S VERY IMPORTANT TO UNDERSTAND THIS IDEA, SO THAT WE COULD FURTHER UNDERSTAND WHY WE COULD MOVE VECTORS, AND BY SO WE COULD DO SUMS AND MULTIPLICATIONS AND SO ON**
 
 ## Adding & subtracting vectors
-Either adding & subtracting could be seen as a movement to a vector, or say how it travels.
+Adding & subtracting could be seen as a movement to a vector, or say how it travels.
 ![image](https://user-images.githubusercontent.com/14041622/38543990-bef3a65c-3cd8-11e8-877c-2e23ea719208.png)
+
+[Refer to Maths is fun.](http://www.mathsisfun.com/algebra/vectors.html)
 
 - Adding vectors:
 ![image](https://user-images.githubusercontent.com/14041622/38543941-9acd84b4-3cd8-11e8-9314-9a6e8ac975a8.png)
