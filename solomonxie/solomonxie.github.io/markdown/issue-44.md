@@ -349,13 +349,47 @@ If we know `tan(x) = 123`, whatever, then we can get it by `x = tan_inverse(123)
 - Cotangent: `cot(θ) = 1 / tan(θ)`
 
 
-# [Interquartile range (IQR)](https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-spread-distributions/v/calculating-interquartile-range-iqr)  (STATS: Box plot)
+## How to calculate the ratio of an `direction angle`
+> `direction angle` is a term for vectors. It is the angle we care about for a vector, which is in between of the vector line and the positive side of axis-x.
 
-### Example 1
-![image](https://user-images.githubusercontent.com/14041622/36989354-74aa48e8-20dc-11e8-91b9-5c4c94655553.png)
+**The ratio of a `direction angle` is always drawn from the positive side of axis-x, so that you could know what direction is this vector going to.**
 
-### Example 2
-![image](https://user-images.githubusercontent.com/14041622/36989519-e5d4fbe4-20dc-11e8-83e9-39fef6cf012a.png)
+For a vector we only know its x-distance and y-distance, so in terms of trigonometry, or in `right triangle`, they're `Opposite` and `Adjacent`.  So that we could use `Tangent` to calculate the ratio, such as `tan⁻¹(y/x)`.
+
+**But the thing is**, `tan⁻¹(...)` always gives you a number less then 90. So we have to do some tricks for doing this when the direction angle's ratio of a vector is greater than 90, or lesser 0.
+
+To classify those situations, we use the idea of `4 quadrant` of the axis system.
+
+> And once we see x and y, we could immediately identify which quadrant the vector will fall into, then use the different method to calculte as follow:
+
+### [1st Quadrant ](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/v/angles-of-vectors-from-components) (+x, +y):
+```
+Ratio = tan⁻¹(y/x)
+```
+
+![snip20180227_91](https://user-images.githubusercontent.com/14041622/36723018-1758cbf2-1bea-11e8-88dd-ae3753bbe2db.png)
+
+### [2nd Quadrant](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/v/angles-of-vectors-from-components) (-x, +y):
+```
+Ratio = tan⁻¹(y/x) + 180
+```
+
+![image](https://user-images.githubusercontent.com/14041622/36723008-12b4d618-1bea-11e8-988e-840d942b66a0.png)
+
+### [3rd Quadrant](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/v/more-examples-finding-vector-angles) (-x, -y):
+```
+Ratio = tan⁻¹(y/x) + 180
+```
+
+![snip20180227_89](https://user-images.githubusercontent.com/14041622/36722966-f68032ee-1be9-11e8-808e-c623a3c248da.png)
+
+### [4th Quadrant](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/v/more-examples-finding-vector-angles) (x, -y):
+```
+Ratio = tan⁻¹(y/x) + 360
+```
+
+![snip20180227_90](https://user-images.githubusercontent.com/14041622/36722956-eee1defc-1be9-11e8-9dcc-ab3c935afa48.png)
+
 
 
 
@@ -366,7 +400,7 @@ If we know `tan(x) = 123`, whatever, then we can get it by `x = tan_inverse(123)
 
 
 
-# Mean absolute deviation - MAD  (STATS)
+# Mean absolute deviation (MAD) - STATS
 `The deviation` is the distance from the value to the `mean` value. 
 It's used to describe how the values looks like or how they're laid on the axis, are they close to each other or far away.
 

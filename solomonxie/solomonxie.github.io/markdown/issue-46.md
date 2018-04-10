@@ -246,3 +246,13 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/38490950-180210c4-3c1d-11e8-9737-da2d1efa6db9.png)
 ![image](https://user-images.githubusercontent.com/14041622/38490819-b4ac5a16-3c1c-11e8-83c5-95a1c7c3ad74.png)
 ![image](https://user-images.githubusercontent.com/14041622/38490826-b99b68b4-3c1c-11e8-83bb-9bcccee8f451.png)
+
+
+
+# [Interquartile range (IQR)](https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-spread-distributions/v/calculating-interquartile-range-iqr)  (STATS: Box plot)
+
+### Example 1
+![image](https://user-images.githubusercontent.com/14041622/36989354-74aa48e8-20dc-11e8-91b9-5c4c94655553.png)
+
+### Example 2
+![image](https://user-images.githubusercontent.com/14041622/36989519-e5d4fbe4-20dc-11e8-83e9-39fef6cf012a.png)
