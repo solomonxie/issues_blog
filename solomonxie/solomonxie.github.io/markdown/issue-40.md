@@ -82,7 +82,7 @@ When you scale a graph by a factor:
 
 [Refer to Khan academy article.](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/a/vector-forms-review)
 
-Forms of representing vector:
-- Magnitude & direction: `||v|| and θ`
-- Component form: `(a, b)`, also called `Engineering notation`.
-- Unit vector: `aÎ+bĴ`
+![image](https://user-images.githubusercontent.com/14041622/38547847-c2e1b29a-3ce2-11e8-9464-a5fbba606102.png)
+
+## Unit vectors
+> Also called `Engineering notation`.
