@@ -185,3 +185,11 @@ Two common ways to do multiplications of vectors:
 [Refer to Khan academy article: Multiplying matrices](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/a/multiplying-matrices)
 
 ![image](https://user-images.githubusercontent.com/14041622/38558530-0246d6ac-3d03-11e8-921d-7678e83e5178.png)
+
+
+
+# `Linear combinations & span`
+
+`Linear combinations` are just to add vectors together: `v₁ + v₂ + v₃.....`
+
+![image](https://user-images.githubusercontent.com/14041622/38565160-326e4f8a-3d13-11e8-935f-67ebdfb8a3cc.png)
