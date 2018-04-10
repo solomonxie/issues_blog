@@ -63,7 +63,7 @@ Ratio = tan⁻¹(y/x) + 360
 
 
 
-# Vector's magnitude & direction
+# `Vector & basic operations`
 > Definition: vector is a **MAGNITUDE** with a **DIRECTION**
 
 Notation: 
@@ -110,3 +110,5 @@ When you scale a graph by a factor:
 - Every line will be PARALLEL to its origin line.
 
 [Refer to previous note: Transformation.](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-371067923)
+
+![image](https://user-images.githubusercontent.com/14041622/38544907-56398f66-3cdb-11e8-8958-9628d87444ee.png)
