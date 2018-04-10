@@ -190,10 +190,6 @@ Two common ways to do multiplications of vectors:
 
 # `Vector span`
 
-## Linear combinations
-
-`Linear combinations` are just to add vectors together: `v₁ + v₂ + v₃.....`
-
 ## `R²`
 `R²` means a `Real numbers 2D plane`.
 Usually the `X/Y Axes plane` is this one.
@@ -224,7 +220,10 @@ So we say the vectors `(2, 3)` and `(4, 6)` are **`DEPENDENT`**, because they're
 
 Other than that, any two vectors are **`INDEPENDENT`**, if they're not **NOT COLLINEAR**.
 
-Let's list some `vector combinations` again:
+### Linear combinations
+> `Linear combinations` means to add vectors together: `v₁ + v₂ + v₃.....`. Simple like that.
+
+Let's list some `vector combinations`:
 - Zero Vector: span is 0.
 - One vector: span is a line.
 - Two vector: span is the whole R² plane, if they're not collinear.
