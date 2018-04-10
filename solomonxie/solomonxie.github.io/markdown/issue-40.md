@@ -1,11 +1,11 @@
 # Calculus & Linear Algebra from the ground up
-> Quick notes on College level of Maths or Stats (mainly Calculus and Linear Algebra). 
+> Quick notes on College level of Maths or Stats for machine learning.
 
 
 ## Study resources
-- [ ] [MIT OCW 18.06sc](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm)
-- [ ] [Khan academy Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 - [ ] [Khan academy Pre-calculus](https://www.khanacademy.org/math/precalculus)
+- [ ] [Khan academy Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
+- [ ] [MIT OCW 18.06sc Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm)
 - [ ] [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 - [ ] [A First Course in Linear Algebra](https://github.com/solomonxie/solomonxie.github.io/files/1786068/fcla-3.50-A.First.Course.in.Linear.Algebra.-.Robert.A.Beezer.University.of.Puget.Sound.Version.3.50.pdf)
 
