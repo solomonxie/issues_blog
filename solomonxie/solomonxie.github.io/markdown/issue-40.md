@@ -118,7 +118,7 @@ Easier to think about it, is to think about the `Similar graph` knowledge in the
 [Refer to previous notes: Inverse Trigonometric equations.](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-377686394)
 
 
-# `Matrices`
+# `Matrices intro`
 > `Matrices` are just a **rectangle array of numbers**.
 ![image](https://user-images.githubusercontent.com/14041622/38552009-51700eb2-3ced-11e8-86ce-15a21a9b3c0e.png)
 
@@ -164,3 +164,11 @@ Then by `row operations`, we need to achieve this kind of result, which is also 
 ![image](https://user-images.githubusercontent.com/14041622/38552642-53ad647a-3cef-11e8-9e72-3172da752b5d.png)
 
 It means we eliminated all other variables and only left 1 variable in one equation. Then you could put back the number to the system of equations.
+
+
+# `Matrices multiplication`
+> It's very difficult to make sense of it. But mathematicians just somehow make it work.
+
+Two common ways to do multiplications of vectors:
+- `Dot product` [(link)](http://www.mathsisfun.com/algebra/vectors-dot-product.html)
+- `Cross product` [(link)](http://www.mathsisfun.com/algebra/vectors-cross-product.html)
