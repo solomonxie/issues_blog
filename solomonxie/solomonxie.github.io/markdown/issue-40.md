@@ -154,10 +154,13 @@ They all relate to the operations of systems of equations:
 ## `Solve system equations using Matrix`
 > it's also called the **`Row-echelon form and Gaussian elimination`**.
 
+[Khan lecture: Reduced row echelon form](https://www.khanacademy.org/math/precalculus/precalc-matrices/modal/v/matrices-reduced-row-echelon-form-2)
+[Refer to Ck-12: Row Operations and Row Echelon Forms](https://www.ck12.org/c/algebra/row-operations-and-row-echelon-forms/lesson/Row-Operations-and-Row-Echelon-Forms-PCALC/?collectionCreatorID=3&conceptCollectionHandle=algebra-%3A%3A-row-operations-and-row-echelon-forms&collectionHandle=algebra)
+
 First we need to rewrite the system of equation to `matrix` form:
 ![image](https://user-images.githubusercontent.com/14041622/38552612-41076fc8-3cef-11e8-9654-fdadcb7627ba.png)
 
-Then by `row operations`, we need to achieve this kind of result:
+Then by `row operations`, we need to achieve this kind of result, which is also called **Reduced row echelon form**:
 ![image](https://user-images.githubusercontent.com/14041622/38552642-53ad647a-3cef-11e8-9e72-3172da752b5d.png)
 
 It means we eliminated all other variables and only left 1 variable in one equation. Then you could put back the number to the system of equations.
