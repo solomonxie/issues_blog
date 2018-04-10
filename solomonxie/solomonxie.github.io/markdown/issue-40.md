@@ -232,8 +232,12 @@ Let's list some `vector combinations`:
 - One vector: `span(v) = a line`.
 - Two vector: `span(v₁, v₂) = R²`, if they're not collinear.
 - Three vector or more: `span(v₁, v₂, v₃...) = R²`. Other than two vectors, are all **`REDUNDANT`**. 
+In another word:
+**IF ANY TWO VECTORS ARE INDEPENDENT, THEN OTHERS ARE ALL DEPENDENT.**
 
 ### How to know whether a linear combination is dependent
+
+[Refer to Khan lecture: Span and linear independence example](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-independence/v/span-and-linear-independence-example)
 
 A `linear combination` is **dependent**, **iff** it could satisfy this equation:
 ```py
