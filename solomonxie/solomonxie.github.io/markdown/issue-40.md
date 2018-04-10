@@ -13,11 +13,7 @@
 ## TL;DR. Archive Link: [why do I need to learn Linear Algebra?](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-368829945)
 
 
-### `Essence Linear Algebra` : Vector section notes
-> Wherever you learn LA, which always the first to mention is the VECTOR.
-
-[TL;DR. Jump to the archive.](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-379985082)
-
+## TL;DR. Archived link: [Vector section notes of Essence Linear Algebra](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-379985082)
 
 
 ## Vector's `magnitude`, `direction`, `unit vector`, `components`
