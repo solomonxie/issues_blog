@@ -87,3 +87,23 @@ Ratio = tan⁻¹(y/x) + 360
 
 ![snip20180227_90](https://user-images.githubusercontent.com/14041622/36722956-eee1defc-1be9-11e8-9dcc-ab3c935afa48.png)
 
+
+
+
+# Vector's magnitude & direction
+
+Now we got a vector start from `(-3,8)` to the point `(4, 5)`.  
+We say this vector has a magnitude `||v|| = √40` and has a direction to the bottom right.
+
+But we could also represent the vector as only `one point with two components`: `(7, -3)`.
+Which has a **HIDDEN INFORMATION** that it start from the **origin** and direction is to the point `(7, -3)`.
+
+Are they different vectors? NO! They're the same vector, just starts at different places.
+
+> Because **vector doesn't specify where it starts.** A vector only means `A magnitude & a direction`.
+
+That's why we could represent a vector in two ways:
+- `v is (-3,8) to (4, 5)`
+- `v = (7, -3)`
+
+**IT'S VERY IMPORTANT TO UNDERSTAND THIS IDEA, SO THAT WE COULD FURTHER UNDERSTAND WHY WE COULD MOVE VECTORS, AND BY SO WE COULD DO SUMS AND MULTIPLICATIONS AND SO ON**
