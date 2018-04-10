@@ -120,7 +120,10 @@ Easier to think about it, is to think about the `Similar graph` knowledge in the
 
 # `Matrices intro`
 > `Matrices` are just a **rectangle array of numbers**.
+
 ![image](https://user-images.githubusercontent.com/14041622/38552009-51700eb2-3ced-11e8-86ce-15a21a9b3c0e.png)
+
+### Prerequisites: `Systems of equations`
 
 Matrices could be seen as a group of informations arranged **IN A CERTAIN WAY**.
 **IT'S SO SO SO SO SO EASIER TO THINK IT AS A SYSTEM OF EQUATIONS.**
@@ -128,7 +131,7 @@ Matrices could be seen as a group of informations arranged **IN A CERTAIN WAY**.
 ![image](https://user-images.githubusercontent.com/14041622/38552056-6a3a18fc-3ced-11e8-9f40-bae36f2b775d.png)
 
 
-## `Matrix row operations and Systems of equations`
+## `Matrix row operations & Systems of equations`
 > It's very SAME with operations of `systems of equations`.
 
 [Refer to Khan academy article: Matrix row operations](https://www.khanacademy.org/math/precalculus/precalc-matrices/elementary-matrix-row-operations/a/matrix-row-operations)
@@ -167,10 +170,12 @@ It means we eliminated all other variables and only left 1 variable in one equat
 
 
 # `Matrices multiplication`
+
+**IT IS A WHOLE NEW AREA ASIDE FROM MATRICES BASIC OPERATIONS**.
+
 > It's very difficult to make sense of it. But mathematicians just somehow make it work, it then is a `Human defined operation`, no sense but just to use it.
 
-It is a whole new area aside from other operations like addition, subtraction and scalar multiplication.
-
+Before learning `matrices multiplication`, have to learn `vector dot & cross product`.
 Two common ways to do multiplications of vectors:
 - `Dot product` [(link)](http://www.mathsisfun.com/algebra/vectors-dot-product.html)
 - `Cross product` [(link)](http://www.mathsisfun.com/algebra/vectors-cross-product.html)
