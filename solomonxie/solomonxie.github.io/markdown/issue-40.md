@@ -116,3 +116,12 @@ Easier to think about it, is to think about the `Similar graph` knowledge in the
 **NOT EASY! NEED TO CONSIDER LOTS OF CONDITIONS, LIKE QUADRANTS, POSSIBLE SOLUTIONS, PRINCIPLE SOLUTION AND SO. RECOMMEND TO REVIEW INVERSE TRIG FUNCTIONS.**
 
 [Refer to previous notes: Inverse Trigonometric equations.](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-377686394)
+
+
+# `Matrices`
+> `Matrices` are just a **rectangle array of numbers**.
+
+Matrices could be seen as a group of informations arranged **IN A CERTAIN WAY**.
+
+
+## `Matrix row operations`
