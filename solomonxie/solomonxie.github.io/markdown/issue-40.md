@@ -89,3 +89,22 @@ That's why we could represent a vector in two ways:
 - `v = (7, -3)`
 
 **IT'S VERY IMPORTANT TO UNDERSTAND THIS IDEA, SO THAT WE COULD FURTHER UNDERSTAND WHY WE COULD MOVE VECTORS, AND BY SO WE COULD DO SUMS AND MULTIPLICATIONS AND SO ON**
+
+## Adding & subtracting vectors
+Either adding & subtracting could be seen as a movement to a vector, or say how it travels.
+![image](https://user-images.githubusercontent.com/14041622/38543990-bef3a65c-3cd8-11e8-877c-2e23ea719208.png)
+
+- Adding vectors:
+![image](https://user-images.githubusercontent.com/14041622/38543941-9acd84b4-3cd8-11e8-9314-9a6e8ac975a8.png)
+- Subtracting vectors: is just **ADDING** a **NEGATIVE VECTOR**
+![image](https://user-images.githubusercontent.com/14041622/38543960-ab2d4844-3cd8-11e8-8a08-3608c9221275.png)
+
+## Multiplying vectors by SCALAR
+> It's the very same with the section `DILATION` or `Scaling` in Geometry. 
+
+Just for review of `dilating` a graph geometrically:
+When you scale a graph by a factor:
+- Every line of the graph scale by the SAME factor
+- Every line will be PARALLEL to its origin line.
+
+[Refer to previous note: Transformation.](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-371067923)
