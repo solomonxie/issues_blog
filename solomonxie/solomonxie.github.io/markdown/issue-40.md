@@ -150,3 +150,14 @@ They all relate to the operations of systems of equations:
 
 ### Add one row to another:
 ![image](https://user-images.githubusercontent.com/14041622/38552241-1c33501e-3cee-11e8-9604-3704346237a7.png)
+
+## `Solve system equations using Matrix`
+> it's also called the **`Row-echelon form and Gaussian elimination`**.
+
+First we need to rewrite the system of equation to `matrix` form:
+![image](https://user-images.githubusercontent.com/14041622/38552612-41076fc8-3cef-11e8-9654-fdadcb7627ba.png)
+
+Then by `row operations`, we need to achieve this kind of result:
+![image](https://user-images.githubusercontent.com/14041622/38552642-53ad647a-3cef-11e8-9e72-3172da752b5d.png)
+
+It means we eliminated all other variables and only left 1 variable in one equation. Then you could put back the number to the system of equations.
