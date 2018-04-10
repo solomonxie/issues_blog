@@ -92,6 +92,9 @@ It's also called `Engineering notation`.
 **What's it for?**
 Basically just like the unit circle, make things easier to calculate angles or length or so. 
 Actually it's working together with unit circle and all other trigonometric knowledges.
+so, 
+**UNIT VECTOR IS RATHER A TRIGONOMETRIC WAY TO DEAL WITH VECTORS.**
+Easier to think about it, is to think about the `Similar graph` knowledge in the `Dilation` section. 
 
 ### `Unit vector form`
 > `unit vector` is easy, but `unit vector form` needs your bit more effort to understand.
