@@ -242,4 +242,18 @@ c₁v₁ + c₂v₂ + c₃v₃ .... = 0
 `c..` means the scalar for each vector, and you could change the scalar to any number, positive or negative.
 Note that: `c ≠ 0`, and vectors are not all zeros.
 
-Example:
+Assume that there's a linear combination of two vectors `v₁ + v₂`, 
+with scalars it could be `c₁v₁ + c₂v₂`.
+To verify whether it's dependent or independent, 
+we assume `c₁v₁ + c₂v₂ = 0` and solve for `c₁ and c₂`:
+- If `c₁ or c₂` ARE NOT zero => it's **dependent**
+- if `c₁ = c₂ = 0` => it's **independent**.
+
+Example: `Is vectors (2,1) and (3,2) dependent or independent?`
+Solve:
+- Assume `c₁(2,1) + c₂(3,2) = 0`
+- Get system of equations:
+    - `2c₁ + 3c₂ = 0`
+    - `1c₁ + 2c₂ = 0`
+- Solve system of equations get: `c₁=c₂=0`
+- So it's a **independent linear combination**.
