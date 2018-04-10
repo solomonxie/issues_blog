@@ -215,6 +215,18 @@ Exceptions:
 - `span(0) = 0`, it only stay at origin.
 - `v = w`, if two vectors are the same, or `collinear`, then it's still ONE vector.
 
-Notice: 
-vectors `(2, 3)` and `(4, 6)` are the **SAME VECTOR**! 
+## `Linearly dependent & independent`
+
+Vectors `(2, 3)` and `(4, 6)` are the **SAME VECTOR**! 
 Because `(4,6) = 2*(2,3)`, so it's just a scaled version of the first vector.
+
+So we say the vectors `(2, 3)` and `(4, 6)` are **`DEPENDENT`**, because they're **`COLLINEAR`**.
+
+Other than that, any two vectors are **`INDEPENDENT`**, if they're not **NOT COLLINEAR**.
+
+Let's list some `vector combinations` again:
+- Zero Vector: span is 0.
+- One vector: span is a line.
+- Two vector: span is the whole R² plane, if they're not collinear.
+- Three vector or more: Other than two vectors, are all **`REDUNDANT`**. Because two vectors already cover the whole R² space, to specify more vectors is just waste of time.
+
