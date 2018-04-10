@@ -188,7 +188,9 @@ Two common ways to do multiplications of vectors:
 
 
 
-# `Linear combinations & span`
+# `Vector span`
+
+## Linear combinations
 
 `Linear combinations` are just to add vectors together: `v₁ + v₂ + v₃.....`
 
@@ -199,3 +201,11 @@ span(v, w) = R²
 
 span(0) = 0
 ```
+
+`One vector` with a `scalar`, no matter how much it stretches or shrinks, **it ALWAYS on the same line**, because the slope is not changing. So **ONE VECTOR'S SPAN IS A LINE.**
+
+`Two vector` with `scalars`, we then **COULD** change the slope! So that we could get to any position that we want in the 2D plane, i.e., R².
+
+Exceptions:
+- `span(0) = 0`, it only stay at origin.
+- `v = w`, if two vectors are the same, or collinear, then it's still ONE vector.
