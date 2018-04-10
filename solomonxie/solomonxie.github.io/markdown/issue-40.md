@@ -190,9 +190,12 @@ Two common ways to do multiplications of vectors:
 
 # Vector span
 
-## `R²`
+## `R²` and `R³`
 `R²` means a `Real numbers 2D plane`.
 Usually the `X/Y Axes plane` is this one.
+
+`R³` means `Real numbers 3D plane`.
+Usually the `X/Y/Z Axes plane`.
 
 ## `Span of vectors`
 
