@@ -70,6 +70,7 @@ Notation:
 - `v` as a vector.
 - `|v|` or `||v||` as its **Magnitude**, or **Distance**, or **Absolute value**, same idea
 - **Slope** as its **Direction.**
+- `(a, b)` the two position there are called `X-component & Y-component`.
 
 It's not hard to understand the basic ideas of a vector, which consists of very basic knowledges form what we learned previously in high school:
 - Magnitude of vector: is the same with calculating the **distance of two points**
