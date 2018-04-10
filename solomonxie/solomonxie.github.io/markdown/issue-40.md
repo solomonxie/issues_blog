@@ -16,25 +16,6 @@
 ## TL;DR. Archived link: [Vector section notes of Essence Linear Algebra](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-379985082)
 
 
-## Vector's `magnitude`, `direction`, `unit vector`, `components`
-
-View this [Khan review page](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/a/vector-forms-review), 
-and [another  Khan review page ](https://www.khanacademy.org/math/precalculus/vectors-precalc/component-form-of-vectors/a/vector-magnitude-and-direction-review) for this section.
-
-![image](https://user-images.githubusercontent.com/14041622/36725910-d03ed410-1bf2-11e8-9bf8-d85acf4f6dd6.png)
-
-![image](https://user-images.githubusercontent.com/14041622/36725667-f959a5a6-1bf1-11e8-9f7d-cd9c16957938.png)
-
-
-
-
-
-# Adding vectors in `magnitude & direction form`
-![image](https://user-images.githubusercontent.com/14041622/36966785-d510d402-2098-11e8-8b68-1d645d13020c.png)
-![image](https://user-images.githubusercontent.com/14041622/36967241-285034d6-209a-11e8-9757-14f263ec0d75.png)
-
-
-
 # `MIT OpenCourseWare Linear Algebra` 18.06/18.06c/18.07/18.2....
 There are a bunch of different version of courses on Linear Algebra on MIT OpenCourseWare with the same lecturer Gilbert Strang. 
 It could be quite confusing, but everything became clear after read [this answer on Quora](https://www.quora.com/What-is-the-difference-among-MIT-opencourseware-Linear-Algebra-18-06SC-Linear-Algebra-18-06-Linear-Algebra-18-06CI-Linear-Algebra-18-700).
@@ -91,15 +72,23 @@ Ratio = tan⁻¹(y/x) + 360
 
 
 # Vector's magnitude & direction
+> Definition: vector is a **MAGNITUDE** with a **DIRECTION**
 
+Notation: 
+- `v` as a vector.
+- `|v|` or `||v||` as its **Magnitude**, or **Distance**, or **Absolute value**, same idea
+- **Slope** as its **Direction.**
+
+It's not hard to understand the basic ideas of a vector, which consists of very basic knowledges form what we learned previously in high school:
+- Magnitude of vector: is the same with calculating the **distance of two points**
+- Direction of vector: is the same with calculating the **slope of a line**.
+
+### `UNDERSTAND VECTOR'S MOVEMENT`
 Now we got a vector start from `(-3,8)` to the point `(4, 5)`.  
 We say this vector has a magnitude `||v|| = √40` and has a direction to the bottom right.
-
 But we could also represent the vector as only `one point with two components`: `(7, -3)`.
 Which has a **HIDDEN INFORMATION** that it start from the **origin** and direction is to the point `(7, -3)`.
-
 Are they different vectors? NO! They're the same vector, just starts at different places.
-
 > Because **vector doesn't specify where it starts.** A vector only means `A magnitude & a direction`.
 
 That's why we could represent a vector in two ways:
