@@ -252,13 +252,13 @@ Note that: `c ≠ 0`, and vectors are not all zeros.
 Assume that there's a linear combination of two vectors `v₁ + v₂`, 
 with scalars it could be `c₁v₁ + c₂v₂`.
 To verify whether it's dependent or independent, 
-we assume `c₁v₁ + c₂v₂ = 0` and solve for `c₁ and c₂`:
-- If `c₁ or c₂` ARE NOT zero => it's **dependent**
-- if `c₁ = c₂ = 0` => it's **independent**.
+we assume `c₁v₁ + c₂v₂ = (0,0)` and solve for `c₁ and c₂`:
+- it's **dependent** <=> If `c₁ or c₂` **at least one** is NON-ZERO number
+- it's **independent** <=> if `c₁ = c₂ = 0`
 
 Example: `Is vectors (2,1) and (3,2) dependent or independent?`
 Solve:
-- Assume `c₁(2,1) + c₂(3,2) = 0`
+- Assume `c₁(2,1) + c₂(3,2) = (0,0)`
 - Get system of equations:
     - `2c₁ + 3c₂ = 0`
     - `1c₁ + 2c₂ = 0`
