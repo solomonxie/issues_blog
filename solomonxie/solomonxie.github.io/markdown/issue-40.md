@@ -32,7 +32,7 @@ Vectors:
 Notation: 
 - `v` as a vector.
 - `|v|` or `||v||` as its **Magnitude**, or **Distance**, or **Absolute value**, same idea
-- **Slope** as its **Direction.**
+- **Slope or angle** as its **Direction.**
 - `(a, b)` the two position there are called `X-component & Y-component`.
 
 It's not hard to understand the basic ideas of a vector, which consists of very basic knowledges form what we learned previously in high school:
@@ -85,4 +85,23 @@ When you scale a graph by a factor:
 ![image](https://user-images.githubusercontent.com/14041622/38547847-c2e1b29a-3ce2-11e8-9464-a5fbba606102.png)
 
 ## Unit vectors
-> Also called `Engineering notation`.
+> Simply say, a `unit vector` is just a vector which magnitude is `1`. Kinda like the unit circle idea.
+It's also called `Engineering notation`.
+
+**What's it for?**
+Basically just like the unit circle, make things easier to calculate angles or length or so. 
+Actually it's working together with unit circle and all other trigonometric knowledges.
+
+### `Unit vector form`
+> `unit vector` is easy, but `unit vector form` needs your bit more effort to understand.
+
+`Unit vector form` assume that there are **TWO** unit vectors, one vertical, one horizontal.
+![image](https://user-images.githubusercontent.com/14041622/38548131-9347693e-3ce3-11e8-9600-3b5ee57e70ed.png)
+
+
+![image](https://user-images.githubusercontent.com/14041622/38547964-1747a326-3ce3-11e8-9f99-ea9024e007fd.png)
+
+## `How to get the direction (the angle) of a vector`
+> It's a very same problem of the topic `Inverse trig function`. 
+
+**NOT EASY! NEED TO CONSIDER LOTS OF CONDITIONS, LIKE QUADRANTS, POSSIBLE SOLUTIONS, PRINCIPLE SOLUTION AND SO. RECOMMEND TO REVIEW INVERSE TRIG FUNCTIONS.**
