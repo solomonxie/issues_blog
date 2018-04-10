@@ -214,3 +214,7 @@ span(0) = 0
 Exceptions:
 - `span(0) = 0`, it only stay at origin.
 - `v = w`, if two vectors are the same, or `collinear`, then it's still ONE vector.
+
+Notice: 
+vectors `(2, 3)` and `(4, 6)` are the **SAME VECTOR**! 
+Because `(4,6) = 2*(2,3)`, so it's just a scaled version of the first vector.
