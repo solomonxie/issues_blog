@@ -225,6 +225,7 @@ Other than that, any two vectors are **`INDEPENDENT`**, if they're not **NOT COL
 
 ### Linear combinations
 > `Linear combinations` means to add vectors together: `v₁ + v₂ + v₃.....`. Simple like that.
+I can say `some vectors`, or just to say `a linear combination`.
 
 Let's list some `vector combinations`:
 - Zero Vector: `span(0) = 0`.
@@ -232,3 +233,13 @@ Let's list some `vector combinations`:
 - Two vector: `span(v₁, v₂) = R²`, if they're not collinear.
 - Three vector or more: `span(v₁, v₂, v₃...) = R²`. Other than two vectors, are all **`REDUNDANT`**. 
 
+### How to know whether a linear combination is dependent
+
+A `linear combination` is **dependent**, **iff** it could satisfy this equation:
+```py
+c₁v₁ + c₂v₂ + c₃v₃ .... = 0
+```
+`c..` means the scalar for each vector, and you could change the scalar to any number, positive or negative.
+Note that: `c ≠ 0`, and vectors are not all zeros.
+
+Example:
