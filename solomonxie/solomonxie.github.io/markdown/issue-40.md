@@ -75,3 +75,14 @@ When you scale a graph by a factor:
 [Refer to previous note: Transformation.](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-371067923)
 
 ![image](https://user-images.githubusercontent.com/14041622/38544907-56398f66-3cdb-11e8-8958-9628d87444ee.png)
+
+
+
+# Vector forms
+
+[Refer to Khan academy article.](https://www.khanacademy.org/math/precalculus/vectors-precalc/magnitude-direction/a/vector-forms-review)
+
+Forms of representing vector:
+- Magnitude & direction: `||v|| and θ`
+- Component form: `(a, b)`, also called `Engineering notation`.
+- Unit vector: `aÎ+bĴ`
