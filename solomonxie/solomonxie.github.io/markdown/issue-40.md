@@ -102,6 +102,8 @@ Actually it's working together with unit circle and all other trigonometric know
 ![image](https://user-images.githubusercontent.com/14041622/38547964-1747a326-3ce3-11e8-9f99-ea9024e007fd.png)
 
 ## `How to get the direction (the angle) of a vector`
-> It's a very same problem of the topic `Inverse trig function`. 
+> It's the very same problem of the topic `Inverse trig function`. 
 
 **NOT EASY! NEED TO CONSIDER LOTS OF CONDITIONS, LIKE QUADRANTS, POSSIBLE SOLUTIONS, PRINCIPLE SOLUTION AND SO. RECOMMEND TO REVIEW INVERSE TRIG FUNCTIONS.**
+
+[Refer to previous notes: Inverse Trigonometric equations.](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-377686394)
