@@ -79,22 +79,22 @@ Collected `MASTERY` rules:
 
 
 ## Review hardcore quiz
-- [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
-    - [Sinusoidal functions](https://www.khanacademy.org/math/algebra2/trig-functions/modal/quiz/period-of-sinusoids-alg2-quiz)
-    - [Graph sinusoidal functions](https://www.khanacademy.org/math/algebra2/trig-functions/modal/quiz/constructing-sinusoids-alg2-quiz)
-    - [Inverse trig functions](https://www.khanacademy.org/math/precalculus/trig-equations-and-identities-precalc/modal/quiz/solving-sinusoidal-models-precalc-quiz)
-- [Probability](https://www.khanacademy.org/math/statistics-probability/probability-library)
-    - [Probability basics](https://www.khanacademy.org/math/probability/probability-geometry/modal/quiz/probability-basics-quiz)
-    - [Permutations and combinations](https://www.khanacademy.org/math/probability/probability-geometry/modal/quiz/probability-counting-permutations-combinations-quiz)
-- [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
-    - [Functions](https://www.khanacademy.org/math/algebra2/manipulating-functions/modal/test/manipulating-functions-unit-test)
-    - [Quadratics & Parabola](https://www.khanacademy.org/math/algebra/quadratics/modal/test/quadratics-unit-test)
-    - [Polynomials](https://www.khanacademy.org/math/algebra2/polynomial-functions/modal/test/polynomial-functions-unit-test)
-    - [Graphs of rational functions](https://www.khanacademy.org/math/algebra2/rational-expressions-equations-and-functions/modal/quiz/modeling-with-rational-functions-quiz)
-    - [Exponential and Logarithmic functions](https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/modal/test/exponential-and-logarithmic-functions-unit-test)
-    - [Series](https://www.khanacademy.org/math/algebra2/sequences-and-series/modal/test/sequences-and-series-unit-test) 
-- [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice#precalc-matrices)
-    - [Conversion of complex numbers](https://www.khanacademy.org/math/precalculus/imaginary-and-complex-numbers/modal/quiz/polar-form-of-complex-numbers-quiz)
+- [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
+    - [ ] [Sinusoidal functions](https://www.khanacademy.org/math/algebra2/trig-functions/modal/quiz/period-of-sinusoids-alg2-quiz)
+    - [ ] [Graph sinusoidal functions](https://www.khanacademy.org/math/algebra2/trig-functions/modal/quiz/constructing-sinusoids-alg2-quiz)
+    - [ ] [Inverse trig functions](https://www.khanacademy.org/math/precalculus/trig-equations-and-identities-precalc/modal/quiz/solving-sinusoidal-models-precalc-quiz)
+- [ ] [Probability](https://www.khanacademy.org/math/statistics-probability/probability-library)
+    - [ ] [Probability basics](https://www.khanacademy.org/math/probability/probability-geometry/modal/quiz/probability-basics-quiz)
+    - [ ] [Permutations and combinations](https://www.khanacademy.org/math/probability/probability-geometry/modal/quiz/probability-counting-permutations-combinations-quiz)
+- [ ] [Algebra 2](https://www.khanacademy.org/math/algebra2?t=practice)
+    - [ ] [Functions](https://www.khanacademy.org/math/algebra2/manipulating-functions/modal/test/manipulating-functions-unit-test)
+    - [ ] [Quadratics & Parabola](https://www.khanacademy.org/math/algebra/quadratics/modal/test/quadratics-unit-test)
+    - [ ] [Polynomials](https://www.khanacademy.org/math/algebra2/polynomial-functions/modal/test/polynomial-functions-unit-test)
+    - [ ] [Graphs of rational functions](https://www.khanacademy.org/math/algebra2/rational-expressions-equations-and-functions/modal/quiz/modeling-with-rational-functions-quiz)
+    - [ ] [Exponential and Logarithmic functions](https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/modal/test/exponential-and-logarithmic-functions-unit-test)
+    - [ ] [Series](https://www.khanacademy.org/math/algebra2/sequences-and-series/modal/test/sequences-and-series-unit-test) 
+- [ ] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice#precalc-matrices)
+    - [ ] [Conversion of complex numbers](https://www.khanacademy.org/math/precalculus/imaginary-and-complex-numbers/modal/quiz/polar-form-of-complex-numbers-quiz)
 
 
 # How to read
