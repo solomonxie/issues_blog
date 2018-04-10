@@ -188,7 +188,7 @@ Two common ways to do multiplications of vectors:
 
 
 
-# `Vector span`
+# Vector span
 
 ## `R²`
 `R²` means a `Real numbers 2D plane`.
@@ -213,6 +213,9 @@ Exceptions:
 
 ## `Linearly dependent & independent`
 
+- `Linear dependence`: two vectors are **`COLLINEAR`**, means on the same line.
+- `Linear independence`: two vectors are **`NOT COLLINEAR`**, means they're not on the same line.
+
 Vectors `(2, 3)` and `(4, 6)` are the **SAME VECTOR**! 
 Because `(4,6) = 2*(2,3)`, so it's just a scaled version of the first vector.
 
@@ -224,8 +227,8 @@ Other than that, any two vectors are **`INDEPENDENT`**, if they're not **NOT COL
 > `Linear combinations` means to add vectors together: `v₁ + v₂ + v₃.....`. Simple like that.
 
 Let's list some `vector combinations`:
-- Zero Vector: span is 0.
-- One vector: span is a line.
-- Two vector: span is the whole R² plane, if they're not collinear.
-- Three vector or more: Other than two vectors, are all **`REDUNDANT`**. Because two vectors already cover the whole R² space, to specify more vectors is just waste of time.
+- Zero Vector: `span(0) = 0`.
+- One vector: `span(v) = a line`.
+- Two vector: `span(v₁, v₂) = R²`, if they're not collinear.
+- Three vector or more: `span(v₁, v₂, v₃...) = R²`. Other than two vectors, are all **`REDUNDANT`**. 
 
