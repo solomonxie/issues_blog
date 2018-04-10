@@ -192,4 +192,10 @@ Two common ways to do multiplications of vectors:
 
 `Linear combinations` are just to add vectors together: `v₁ + v₂ + v₃.....`
 
-![image](https://user-images.githubusercontent.com/14041622/38565160-326e4f8a-3d13-11e8-935f-67ebdfb8a3cc.png)
+## `Span of vectors`
+```py
+# v, w are vectors
+span(v, w) = R²
+
+span(0) = 0
+```
