@@ -13,6 +13,7 @@
 Vectors:
 - [ ] Trigonometry: Unit circle, Inverse trig function
 - [ ] Geometry: Transformation
+- [ ] Precalculus: Complex number forms conversion
 - [ ] Algebra: Line
 
 
@@ -101,7 +102,12 @@ Actually it's working together with unit circle and all other trigonometric know
 
 ![image](https://user-images.githubusercontent.com/14041622/38547964-1747a326-3ce3-11e8-9f99-ea9024e007fd.png)
 
-## `How to get the direction (the angle) of a vector`
+## `Convert between vector forms`
+
+**HIGHLY RECOMMEND TO REVIEW THE COMPLEX NUMBER CONVERSION SKILLS, HAVING THE VERY SAME IDEA.**
+[Refer to previous note: complex number forms conversion skills.](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-379646389)
+
+### `How to get the direction (the angle) of a vector`
 > It's the very same problem of the topic `Inverse trig function`. 
 
 **NOT EASY! NEED TO CONSIDER LOTS OF CONDITIONS, LIKE QUADRANTS, POSSIBLE SOLUTIONS, PRINCIPLE SOLUTION AND SO. RECOMMEND TO REVIEW INVERSE TRIG FUNCTIONS.**
