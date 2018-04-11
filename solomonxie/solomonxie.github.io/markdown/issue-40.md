@@ -4,6 +4,13 @@
 
 ## Study resources
 - [ ] [Khan academy Pre-calculus](https://www.khanacademy.org/math/precalculus)
+- [ ] Khan academy AP calculus AB
+- [ ] Khan academy AP calculus BC
+- [ ] Khan academy Differential calculus
+- [ ] Khan academy Integral calculus
+- [ ] Khan academy Multivariable calculus
+- [ ] Khan academy Differential equations
+- [ ] [Khan academy AP Statistics](https://www.khanacademy.org/math/ap-statistics)
 - [ ] [Khan academy Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 - [ ] [MIT OCW 18.06sc Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm)
 - [ ] [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
@@ -14,8 +21,11 @@ Vectors:
 - [ ] Trigonometry: Unit circle, Inverse trig function
 - [ ] Geometry: Transformation
 - [ ] Precalculus: Complex number forms conversion
-- [ ] Algebra: Line
+- [ ] Algebra: Line equation
 
+Matrices:
+- [ ] Algebra: Systems of equations
+- [ ] Vector: Dot product & Cross product
 
 
 ## TL;DR. Archive Link: [why do I need to learn Linear Algebra?](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-368829945)
