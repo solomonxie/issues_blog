@@ -40,6 +40,15 @@ It's not hard to understand the basic ideas of a vector, which consists of very 
 - Magnitude of vector: is the same with calculating the **distance of two points**
 - Direction of vector: is the same with calculating the **slope of a line**.
 
+### `Distance` vs. `Displacement`
+- Distance is a **scalar** ("3 km")
+- Displacement is a **vector** ("3 km Southeast")
+![image](https://user-images.githubusercontent.com/14041622/38606213-fe8d426c-3da7-11e8-8851-9b3c67e7d5cd.png)
+
+### `Speed` vs `Velocity`
+- Speed is how fast something moves.
+- Velocity is speed with a direction.
+
 ### `UNDERSTAND VECTOR'S MOVEMENT`
 Now we got a vector start from `(-3,8)` to the point `(4, 5)`.  
 We say this vector has a magnitude `||v|| = √40` and has a direction to the bottom right.
