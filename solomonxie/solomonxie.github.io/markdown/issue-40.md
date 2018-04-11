@@ -207,6 +207,7 @@ It means we eliminated all other variables and only left 1 variable in one equat
 
 
 # `Vectors multiplication`
+> Vector multiplication is FUNDAMENTAL skill to solve `Matrices multiplication`.
 
 Two ways to do multiplications of vectors: 
 - `Dot product` [(link)](http://www.mathsisfun.com/algebra/vectors-dot-product.html)
