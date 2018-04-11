@@ -224,10 +224,12 @@ Two ways to do multiplications of vectors:
 ## `Dot product`
 **FIRST TO MENTION THAT, DOT PRODUCT OF VECTORS DOESN'T END UP GIVING YOU A VECTOR, BUT ONLY A NUMBER, A SCALAR.**
 
+![image](https://user-images.githubusercontent.com/14041622/38611451-44019c2c-3db6-11e8-9293-19a0e84410ed.png)
+![image](https://user-images.githubusercontent.com/14041622/38611957-cf3be13e-3db7-11e8-9521-f6d7491333c7.png)
+
+
 ![image](https://user-images.githubusercontent.com/14041622/38600226-ff8bb11a-3d95-11e8-8cfb-f5ab127dfa23.png)
 
-Example:
-![image](https://user-images.githubusercontent.com/14041622/38600338-68e066d8-3d96-11e8-920f-e070b6f57cef.png)
 
 ### `Magnitude of higher dimension vector`
 We know a 2D vector length( or magnitude) is `||(a, b)|| = √(a²+b²)`. 
