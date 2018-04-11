@@ -175,10 +175,10 @@ It means we eliminated all other variables and only left 1 variable in one equat
 
 > It's very difficult to make sense of it. But mathematicians just somehow make it work, it then is a `Human defined operation`, no sense but just to use it.
 
-Before learning `matrices multiplication`, have to learn `dot & cross product of vectors`.
+**Before** learning `matrices multiplication`, have to learn `dot & cross product of vectors`.
 
-Two common ways to do multiplications of vectors: 
-- `Dot product` [(link)](http://www.mathsisfun.com/algebra/vectors-dot-product.html)
+Two ways to do multiplications of vectors: 
+- `Dot product` [(link1)](http://www.mathsisfun.com/algebra/vectors-dot-product.html), [(link2)](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/modal/v/vector-dot-product-and-vector-length)
 - `Cross product` [(link)](http://www.mathsisfun.com/algebra/vectors-cross-product.html)
 
 [Refer to Khan lectures: Vector dot and cross products](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)
