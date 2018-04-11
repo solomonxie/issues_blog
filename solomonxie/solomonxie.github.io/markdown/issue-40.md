@@ -102,8 +102,14 @@ Easier to think about it, is to think about the `Similar graph` knowledge in the
 `Unit vector form` assume that there are **TWO** unit vectors, one vertical, one horizontal.
 ![image](https://user-images.githubusercontent.com/14041622/38548131-9347693e-3ce3-11e8-9600-3b5ee57e70ed.png)
 
-
 ![image](https://user-images.githubusercontent.com/14041622/38547964-1747a326-3ce3-11e8-9f99-ea9024e007fd.png)
+
+#### How to find a vector's unit vector
+![image](https://user-images.githubusercontent.com/14041622/38602559-b0cc106c-3d9d-11e8-9e63-651ac3ab4daf.png)
+
+Example: Find the unit vector of vector (-8, 5)
+![image](https://user-images.githubusercontent.com/14041622/38602586-cbb09484-3d9d-11e8-8c2d-35d1a71daa06.png)
+
 
 ## `Convert between vector forms`
 
