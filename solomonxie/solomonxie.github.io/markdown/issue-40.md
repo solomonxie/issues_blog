@@ -220,7 +220,8 @@ There're two operations are called `multiplication` for vectors:
 
 
 Dot & cross product:
-![image](https://user-images.githubusercontent.com/14041622/38635635-9270cd78-3df8-11e8-90da-0adb50fb2ce9.png)
+![image](https://user-images.githubusercontent.com/14041622/38636595-439043f2-3dfb-11e8-8ffd-a455fbc64227.png)
+
 
 
 
@@ -407,5 +408,10 @@ Intuition:
 
 
 # `Cross product`
-**REMEMBER: A CROSS PRODUCT ONLY HAS USE IN 3-DIMENSION, AND GIVES YOU A NEW VECTOR.**
+**REMEMBER: A CROSS PRODUCT ONLY HAS USE IN 3-DIMENSIONS, AND ORDER MATTERS, AND GIVES YOU A NEW VECTOR.**
+
+List it again:
+- Only work for 3-Dimensions
+- Order matters
+- Gives a new vector
 
