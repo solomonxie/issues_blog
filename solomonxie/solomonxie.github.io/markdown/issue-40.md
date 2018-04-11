@@ -206,30 +206,11 @@ Then by `row operations`, we need to achieve this kind of result, which is also 
 It means we eliminated all other variables and only left 1 variable in one equation. Then you could put back the number to the system of equations.
 
 
-# `Matrices multiplication`
-
-**IT IS A WHOLE NEW AREA ASIDE FROM MATRICES BASIC OPERATIONS**.
-
-> It's very difficult to make sense of it. But mathematicians just somehow make it work, it then is a `Human defined operation`, no sense but just to use it.
-
-Before learning `matrices multiplication`, have to learn `dot & cross product of vectors`.
+# `Vectors multiplication`
 
 Two ways to do multiplications of vectors: 
 - `Dot product` [(link)](http://www.mathsisfun.com/algebra/vectors-dot-product.html)
 - `Cross product` [(link)](http://www.mathsisfun.com/algebra/vectors-cross-product.html)
-
-[Refer to Khan lectures: Vector dot and cross products](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)
-[Refer to Khan academy article: Multiplying matrices](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/a/multiplying-matrices)
-
-### `Magnitude of higher dimension vector`
-We know a 2D vector length( or magnitude) is `||(a, b)|| = √(a²+b²)`. 
-But how about **higher dimension**?
-Although it makes no sense and hard to imagine with human's mind, but it's still using this rule:
-
-```py
-Length(a,b,c,d,....z) = √(a²+b²+c²+d²+...+z²)
-```
-So that a vector **(a, b)** multiply it self then will be equal to: `||(a,b)||²`, which then would be `a²+b²`
 
 ## `Dot product`
 **FIRST TO MENTION THAT, DOT PRODUCT OF VECTORS DOESN'T END UP GIVING YOU A VECTOR, BUT ONLY A NUMBER, A SCALAR.**
@@ -237,8 +218,6 @@ So that a vector **(a, b)** multiply it self then will be equal to: `||(a,b)||²
 ![image](https://user-images.githubusercontent.com/14041622/38624552-ea2e8aa0-3dda-11e8-9f41-f2ca0301b1a9.png)
 ![image](https://user-images.githubusercontent.com/14041622/38624556-ee196536-3dda-11e8-811f-12b9ec63d8a5.png)
 
-
-## `Dot product of matrices`
 
 
 
@@ -324,3 +303,19 @@ Example 2: `Is vectors (1,-1,2), (1,1,3) and (-1,0,2) dependent or independent?`
 - get the system of equations of 3 unknowns `c₁, c₂, c₃`
 - solve equations get solutions get `c₁ = c₂ = c₃ = 0`
 - So they're **independent**.
+
+
+# `Matrices multiplication`
+
+**IT IS A WHOLE NEW AREA ASIDE FROM MATRICES BASIC OPERATIONS**.
+
+> It's very difficult to make sense of it. But mathematicians just somehow make it work, it then is a `Human defined operation`, no sense but just to use it.
+
+Before learning `matrices multiplication`, have to learn `dot & cross product of vectors`.
+
+Two ways to do multiplications of vectors: 
+- `Dot product` [(link)](http://www.mathsisfun.com/algebra/vectors-dot-product.html)
+- `Cross product` [(link)](http://www.mathsisfun.com/algebra/vectors-cross-product.html)
+
+[Refer to Khan lectures: Vector dot and cross products](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)
+[Refer to Khan academy article: Multiplying matrices](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/a/multiplying-matrices)
