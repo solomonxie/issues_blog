@@ -261,10 +261,43 @@ Then it become like this picture again:
 How amazing it is!
 And now we could **Boost** the power on b: `|b| ×  |a|×cosθ`
 
+## `Ways of calculating dot product`
+
+There're two ways to calculate the dot product (I made up the names):
+- Projection Boost: 
+![image](https://user-images.githubusercontent.com/14041622/38635179-24867f34-3df7-11e8-8571-ba6fa706aa3f.png)
+- Axes Boost: 
+![image](https://user-images.githubusercontent.com/14041622/38635195-2b519c04-3df7-11e8-8a73-34171669a673.png)
+
+Result of two ways are **SAME**.
+
+> Remember: Boosting is not working when two vectors are **Perpendicular**, which product is `0`.
+
+### `Shadow Boost`
+> We reflect one vector on another one, then **Boost** the energy.
+
+Intuition:
+![image](https://user-images.githubusercontent.com/14041622/38634997-a69cff08-3df6-11e8-98b4-a66c2e0c1156.png)
+
+
+### `Axes Boost`
+> We break two vectors to `X-axis` and `Y-axis`, and BOOST on each axis.
+
+Easier to remember the formula is:
+![image](https://user-images.githubusercontent.com/14041622/38634475-2a08a182-3df5-11e8-989e-11218ff847f8.png)
+
+Intuition:
+![image](https://user-images.githubusercontent.com/14041622/38635041-bf54e088-3df6-11e8-9562-3f18002d288e.png)
+
+
 
 ### Examples:
 ![image](https://user-images.githubusercontent.com/14041622/38624552-ea2e8aa0-3dda-11e8-9f41-f2ca0301b1a9.png)
 ![image](https://user-images.githubusercontent.com/14041622/38624556-ee196536-3dda-11e8-811f-12b9ec63d8a5.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/38635344-a3359fb8-3df7-11e8-81f2-5a5debe95e22.png)
+![image](https://user-images.githubusercontent.com/14041622/38635363-aed95e0e-3df7-11e8-900c-d8f38dc4a4a2.png)
 
 
 
