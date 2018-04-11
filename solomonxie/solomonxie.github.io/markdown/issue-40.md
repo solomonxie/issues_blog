@@ -193,12 +193,12 @@ Example:
 ![image](https://user-images.githubusercontent.com/14041622/38600338-68e066d8-3d96-11e8-920f-e070b6f57cef.png)
 
 ### `Magnitude of higher dimension vector`
-We know a 2D vector magnitude is `||(a, b)|| = √(a²+b²)`. 
+We know a 2D vector length( or magnitude) is `||(a, b)|| = √(a²+b²)`. 
 But how about **higher dimension**?
 Although it makes no sense and hard to imagine with human's mind, but it's still using this rule:
 
 ```py
-Magnitude(a,b,c,d,....z) = √(a²+b²+c²+d²+...+z²)
+Length(a,b,c,d,....z) = √(a²+b²+c²+d²+...+z²)
 ```
 So that a vector **(a, b)** multiply it self then will be equal to: `||(a,b)||²`, which then would be `a²+b²`
 
