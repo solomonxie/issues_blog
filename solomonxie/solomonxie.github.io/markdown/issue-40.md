@@ -118,12 +118,20 @@ Example: Find the unit vector of vector (-8, 5)
 **HIGHLY RECOMMEND TO REVIEW THE COMPLEX NUMBER CONVERSION SKILLS, HAVING THE VERY SAME IDEA.**
 [Refer to previous note: complex number forms conversion skills.](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-379646389)
 
-### `How to get the direction (the angle) of a vector`
+### `How to find the direction angle of a vector`
 > It's the very same problem of the topic `Inverse trig function`. 
 
 **NOT EASY! NEED TO CONSIDER LOTS OF CONDITIONS, LIKE QUADRANTS, POSSIBLE SOLUTIONS, PRINCIPLE SOLUTION AND SO. RECOMMEND TO REVIEW INVERSE TRIG FUNCTIONS.**
 
 [Refer to previous notes: Inverse Trigonometric equations.](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-377686394)
+
+Example: Find the direction angle of vector `(-2, 5)` between 0° to 360°.
+Solve:
+- `tanθ = (-5/2)`
+- `θ₁ = -68.2`
+- `θ₂ = 180° + -68.2 = 111.8` because θ₁ is negative could use this trig identity.
+- Vector `(-2, 5)` is located on Quadrant-2, 
+- So the answer is `111.8`.
 
 
 # `Matrices intro`
