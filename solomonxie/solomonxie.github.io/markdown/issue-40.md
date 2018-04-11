@@ -104,7 +104,9 @@ Easier to think about it, is to think about the `Similar graph` knowledge in the
 
 ![image](https://user-images.githubusercontent.com/14041622/38547964-1747a326-3ce3-11e8-9f99-ea9024e007fd.png)
 
-#### How to find a vector's unit vector
+### `How to find a vector's unit vector`
+> More intuitively to solve it just to draw it out and solve it with trigonometry. 
+
 ![image](https://user-images.githubusercontent.com/14041622/38602559-b0cc106c-3d9d-11e8-9e63-651ac3ab4daf.png)
 
 Example: Find the unit vector of vector (-8, 5)
