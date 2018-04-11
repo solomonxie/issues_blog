@@ -175,14 +175,32 @@ It means we eliminated all other variables and only left 1 variable in one equat
 
 > It's very difficult to make sense of it. But mathematicians just somehow make it work, it then is a `Human defined operation`, no sense but just to use it.
 
-**Before** learning `matrices multiplication`, have to learn `dot & cross product of vectors`.
+Before learning `matrices multiplication`, have to learn `dot & cross product of vectors`.
 
 Two ways to do multiplications of vectors: 
-- `Dot product` [(link1)](http://www.mathsisfun.com/algebra/vectors-dot-product.html), [(link2)](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/modal/v/vector-dot-product-and-vector-length)
+- `Dot product` [(link)](http://www.mathsisfun.com/algebra/vectors-dot-product.html)
 - `Cross product` [(link)](http://www.mathsisfun.com/algebra/vectors-cross-product.html)
 
 [Refer to Khan lectures: Vector dot and cross products](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)
 [Refer to Khan academy article: Multiplying matrices](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/a/multiplying-matrices)
+
+## `Dot product`
+**FIRST TO MENTION THAT, DOT PRODUCT OF VECTORS DOESN'T END UP GIVING YOU A VECTOR, BUT ONLY A NUMBER, A SCALAR.**
+
+![image](https://user-images.githubusercontent.com/14041622/38600226-ff8bb11a-3d95-11e8-8cfb-f5ab127dfa23.png)
+
+Example:
+![image](https://user-images.githubusercontent.com/14041622/38600338-68e066d8-3d96-11e8-920f-e070b6f57cef.png)
+
+### `Magnitude of higher dimension vector`
+We know a 2D vector magnitude is `||(a, b)|| = √(a²+b²)`. 
+But how about **higher dimension**?
+Although it makes no sense and hard to imagine with human's mind, but it's still using this rule:
+
+```py
+Magnitude(a,b,c,d,....z) = √(a²+b²+c²+d²+...+z²)
+```
+So that a vector **(a, b)** multiply it self then will be equal to: `||(a,b)||²`, which then would be `a²+b²`
 
 ![image](https://user-images.githubusercontent.com/14041622/38558530-0246d6ac-3d03-11e8-921d-7678e83e5178.png)
 
