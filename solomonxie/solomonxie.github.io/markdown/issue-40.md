@@ -224,9 +224,8 @@ Two ways to do multiplications of vectors:
 ## `Dot product`
 **FIRST TO MENTION THAT, DOT PRODUCT OF VECTORS DOESN'T END UP GIVING YOU A VECTOR, BUT ONLY A NUMBER, A SCALAR.**
 
-![image](https://user-images.githubusercontent.com/14041622/38611451-44019c2c-3db6-11e8-9293-19a0e84410ed.png)
-![image](https://user-images.githubusercontent.com/14041622/38611957-cf3be13e-3db7-11e8-9521-f6d7491333c7.png)
-
+![image](https://user-images.githubusercontent.com/14041622/38624552-ea2e8aa0-3dda-11e8-9f41-f2ca0301b1a9.png)
+![image](https://user-images.githubusercontent.com/14041622/38624556-ee196536-3dda-11e8-811f-12b9ec63d8a5.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/38600226-ff8bb11a-3d95-11e8-8cfb-f5ab127dfa23.png)
 
