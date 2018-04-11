@@ -221,15 +221,6 @@ Two ways to do multiplications of vectors:
 [Refer to Khan lectures: Vector dot and cross products](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)
 [Refer to Khan academy article: Multiplying matrices](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/a/multiplying-matrices)
 
-## `Dot product`
-**FIRST TO MENTION THAT, DOT PRODUCT OF VECTORS DOESN'T END UP GIVING YOU A VECTOR, BUT ONLY A NUMBER, A SCALAR.**
-
-![image](https://user-images.githubusercontent.com/14041622/38624552-ea2e8aa0-3dda-11e8-9f41-f2ca0301b1a9.png)
-![image](https://user-images.githubusercontent.com/14041622/38624556-ee196536-3dda-11e8-811f-12b9ec63d8a5.png)
-
-![image](https://user-images.githubusercontent.com/14041622/38600226-ff8bb11a-3d95-11e8-8cfb-f5ab127dfa23.png)
-
-
 ### `Magnitude of higher dimension vector`
 We know a 2D vector length( or magnitude) is `||(a, b)|| = √(a²+b²)`. 
 But how about **higher dimension**?
@@ -240,7 +231,14 @@ Length(a,b,c,d,....z) = √(a²+b²+c²+d²+...+z²)
 ```
 So that a vector **(a, b)** multiply it self then will be equal to: `||(a,b)||²`, which then would be `a²+b²`
 
-![image](https://user-images.githubusercontent.com/14041622/38558530-0246d6ac-3d03-11e8-921d-7678e83e5178.png)
+## `Dot product`
+**FIRST TO MENTION THAT, DOT PRODUCT OF VECTORS DOESN'T END UP GIVING YOU A VECTOR, BUT ONLY A NUMBER, A SCALAR.**
+
+![image](https://user-images.githubusercontent.com/14041622/38624552-ea2e8aa0-3dda-11e8-9f41-f2ca0301b1a9.png)
+![image](https://user-images.githubusercontent.com/14041622/38624556-ee196536-3dda-11e8-811f-12b9ec63d8a5.png)
+
+
+## `Dot product of matrices`
 
 
 
