@@ -1,7 +1,7 @@
 # Kindergarten Maths 幼儿园数学入门
 > Study notes mainly from Khan Academy. 
 
-Collected `MASTERY` rules:
+#### `KHAN ACADEMY MASTERY` rules collected:
 - 1 `skill` means 1 practice subject, could be found at `practice page` on the subject.
 - 1 `skill` includes 4 to 7 `questions`.
 - 1 `skill` finished 75%, will promote to `Practiced`.
@@ -9,6 +9,8 @@ Collected `MASTERY` rules:
 - 1 `skill` **must be** `practiced` to join the `Mastery challenge`.
 - 1 `question` correct on `Mastery challenge`, the related `skill` will **promote 1 level up**.
 - 1 `question` incorrect on `Mastery challenge`, the related `skill` will **demote 1 level down**.
+- 1 `quiz` finished in course section, the correct `skills` will promote to `LEVEL ONE`.
+- 1 `unit test` finished in course section, the correct `skill` will promote to `LEVEL TWO`.
 
 ## Reminder
 #### Finish mastery challenge ASAP.
