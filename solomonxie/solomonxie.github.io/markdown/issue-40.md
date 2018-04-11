@@ -329,7 +329,7 @@ Two ways to do multiplications of vectors:
 # `Dot product`
 **REMEMBER: A DOT PRODUCT DOESN'T GIVE YOU A VECTOR, BUT ONLY A NUMBER, A SCALAR, A PRODUCT OF TWO MAGNITUDES.**
 
-[For a more intuitive lecture refer to Khan academy physics: Dot Product.](https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/electric-motors/v/the-dot-product)
+[For an intuitive video refer to Khan academy physics: Dot Product.](https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/electric-motors/v/the-dot-product)
 [For more explains in detail: Vector Calculus: Understanding the Dot Product](https://betterexplained.com/articles/vector-calculus-understanding-the-dot-product/)
 [Maths is fun: dot product.](https://www.mathsisfun.com/algebra/vectors-dot-product.html)
 
@@ -403,3 +403,9 @@ Intuition:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/38635344-a3359fb8-3df7-11e8-81f2-5a5debe95e22.png)
 ![image](https://user-images.githubusercontent.com/14041622/38635363-aed95e0e-3df7-11e8-900c-d8f38dc4a4a2.png)
+
+
+
+# `Cross product`
+**REMEMBER: A CROSS PRODUCT GIVES YOU A NEW VECTOR.**
+
