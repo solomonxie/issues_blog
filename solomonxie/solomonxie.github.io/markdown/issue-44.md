@@ -27,6 +27,7 @@
 - [x] [High school statistics](https://www.khanacademy.org/mission/probability)
 - [ ] [Precalculus](https://www.khanacademy.org/mission/precalculus)
     - [x] 65%
+    - [x] 78%
 
 #### Practice before mastery challenge
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
