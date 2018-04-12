@@ -478,6 +478,8 @@ The major fond of ways to understand are:
 - Through `Real-life example`
 - ~Through Algebraic methods~
 
+I found it very easy to understand it with `Real-life example` to an **intro level**.
+
 
 ## `Matrix-vector product` vs. `Dot product`
 > Why do we call a `matrix-vector product` as a twisted `dot product`, you could see below:
