@@ -449,6 +449,13 @@ Just to clear, the `matrix multiplication` is using the method called **`Matrix-
 [Refer to Khan academy article: Multiplying matrices](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/a/multiplying-matrices)
 [Refer to 3Blue1Brown: Dot products and duality](https://www.youtube.com/watch?v=LyGKycYT2v0&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=10)
 
+This topic is very easy to use but very difficult to understand! 
+But I rather to understand it instead of just memorising it. 
+So this is the **Learning path** of this topic:
+1. Dot product
+2. Matrix-vector product
+3. Matrix-matrix product
+
 ## `Matrix-vector product` vs. `Dot product`
 > Why do we call a `matrix-vector product` as a twisted `dot product`, you could see below:
 ![image](https://user-images.githubusercontent.com/14041622/38662516-29af0b78-3e67-11e8-997c-63760193eba9.png)
