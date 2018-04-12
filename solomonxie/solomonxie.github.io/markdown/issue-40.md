@@ -287,7 +287,8 @@ Multiplication a process of `double, triple, quadruple ...`.
 [Maths is fun: dot product.](https://www.mathsisfun.com/algebra/vectors-dot-product.html)
 [3Blue1Brown: Dot products and duality | Essence of linear algebra](https://www.youtube.com/watch?v=LyGKycYT2v0&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=10)
 
-![image](https://user-images.githubusercontent.com/14041622/38660834-4b846fe6-3e61-11e8-8d5c-b398e9df0ed2.png)
+![screencast 2018-04-12 15-08-30](https://user-images.githubusercontent.com/14041622/38661569-e3831bc4-3e63-11e8-82a1-326400859d03.gif)
+
 
 
 ### `Understand Dot product`
