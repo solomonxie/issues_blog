@@ -285,6 +285,10 @@ Multiplication a process of `double, triple, quadruple ...`.
 [For an intuitive video refer to Khan academy physics: Dot Product.](https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/electric-motors/v/the-dot-product)
 [For more explains in detail: Vector Calculus: Understanding the Dot Product](https://betterexplained.com/articles/vector-calculus-understanding-the-dot-product/)
 [Maths is fun: dot product.](https://www.mathsisfun.com/algebra/vectors-dot-product.html)
+[3Blue1Brown: Dot products and duality | Essence of linear algebra](https://www.youtube.com/watch?v=LyGKycYT2v0&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=10)
+
+![image](https://user-images.githubusercontent.com/14041622/38660834-4b846fe6-3e61-11e8-8d5c-b398e9df0ed2.png)
+
 
 ### `Understand Dot product`
 > It makes lots more sense to think `dot product` in **physics** way than maths algebraic way.
