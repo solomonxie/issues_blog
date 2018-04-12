@@ -160,55 +160,88 @@ Solve:
 - So the answer is `111.8`.
 
 
-# `Matrices intro`
-> `Matrices` are just a **rectangle array of numbers**.
+# Vector span
 
-![image](https://user-images.githubusercontent.com/14041622/38552009-51700eb2-3ced-11e8-86ce-15a21a9b3c0e.png)
+## `R²` and `R³`
+`R²` means a `Real numbers 2D plane`.
+Usually the `X/Y Axes plane` is this one.
 
-### Prerequisites: `Systems of equations`
+`R³` means `Real numbers 3D plane`.
+Usually the `X/Y/Z Axes plane`.
 
-Matrices could be seen as a group of informations arranged **IN A CERTAIN WAY**.
-**IT'S SO SO SO SO SO EASIER TO THINK IT AS A SYSTEM OF EQUATIONS.**
+## `Span of vectors`
 
-![image](https://user-images.githubusercontent.com/14041622/38552056-6a3a18fc-3ced-11e8-9f40-bae36f2b775d.png)
+```py
+# v, w are vectors
+span(v, w) = R²
 
+span(0) = 0
+```
 
-## `Matrix row operations & Systems of equations`
-> It's very SAME with operations of `systems of equations`.
+`One vector` with a `scalar`, no matter how much it stretches or shrinks, **it ALWAYS on the same line**, because the direction or slope is not changing. So **ONE VECTOR'S SPAN IS A LINE.**
 
-[Refer to Khan academy article: Matrix row operations](https://www.khanacademy.org/math/precalculus/precalc-matrices/elementary-matrix-row-operations/a/matrix-row-operations)
+`Two vector` with `scalars`, we then **COULD** change the slope! So that we could get to any position that we want in the 2D plane, i.e., R².
 
-![image](https://user-images.githubusercontent.com/14041622/38552166-dff4d4d8-3ced-11e8-8ae4-3d9144c35473.png)
+Exceptions:
+- `span(0) = 0`, it only stay at origin.
+- `v = w`, if two vectors are the same, or `collinear`, then it's still ONE vector.
 
+## `Linearly dependent & independent`
 
-There're different types of row operations:
-- Switch any two rows
-- Multiply a row by a nonzero constant
-- Add one row to another
+- `Linear dependence`: two vectors are **`COLLINEAR`**, means on the same line.
+- `Linear independence`: two vectors are **`NOT COLLINEAR`**, means they're not on the same line.
 
-They all relate to the operations of systems of equations:
-### Switching any two rows:
-![image](https://user-images.githubusercontent.com/14041622/38552224-08aa1bea-3cee-11e8-93c2-61943babeb98.png)
+Vectors `(2, 3)` and `(4, 6)` are the **SAME VECTOR**! 
+Because `(4,6) = 2*(2,3)`, so it's just a scaled version of the first vector.
 
-### Multiply a row by a nonzero constant:
-![image](https://user-images.githubusercontent.com/14041622/38552233-138a8cca-3cee-11e8-8569-f3a8238e554c.png)
+So we say the vectors `(2, 3)` and `(4, 6)` are **`DEPENDENT`**, because they're **`COLLINEAR`**.
 
-### Add one row to another:
-![image](https://user-images.githubusercontent.com/14041622/38552241-1c33501e-3cee-11e8-9604-3704346237a7.png)
+Other than that, any two vectors are **`INDEPENDENT`**, if they're not **NOT COLLINEAR**.
 
-## `Solve system equations using Matrix`
-> it's also called the **`Row-echelon form and Gaussian elimination`**.
+### Linear combinations
+> `Linear combinations` means to add vectors together: `v₁ + v₂ + v₃.....`. Simple like that.
+I can say `some vectors`, or just to say `a linear combination`.
 
-[Khan lecture: Reduced row echelon form](https://www.khanacademy.org/math/precalculus/precalc-matrices/modal/v/matrices-reduced-row-echelon-form-2)
-[Refer to Ck-12: Row Operations and Row Echelon Forms](https://www.ck12.org/c/algebra/row-operations-and-row-echelon-forms/lesson/Row-Operations-and-Row-Echelon-Forms-PCALC/?collectionCreatorID=3&conceptCollectionHandle=algebra-%3A%3A-row-operations-and-row-echelon-forms&collectionHandle=algebra)
+Let's list some `vector combinations`:
+- Zero Vector: `span(0) = 0`.
+- One vector: `span(v) = a line`.
+- Two vector: `span(v₁, v₂) = R²`, if they're not collinear.
+- Three vector or more: `span(v₁, v₂, v₃...) = R²`. Other than two vectors, are all **`REDUNDANT`**. 
+In another word:
+**IF ANY TWO VECTORS ARE INDEPENDENT, THEN OTHERS ARE ALL DEPENDENT.**
 
-First we need to rewrite the system of equation to `matrix` form:
-![image](https://user-images.githubusercontent.com/14041622/38552612-41076fc8-3cef-11e8-9654-fdadcb7627ba.png)
+### How to know whether a linear combination is dependent
 
-Then by `row operations`, we need to achieve this kind of result, which is also called **Reduced row echelon form**:
-![image](https://user-images.githubusercontent.com/14041622/38552642-53ad647a-3cef-11e8-9e72-3172da752b5d.png)
+[Refer to Khan lecture: Span and linear independence example](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-independence/v/span-and-linear-independence-example)
 
-It means we eliminated all other variables and only left 1 variable in one equation. Then you could put back the number to the system of equations.
+A `linear combination` is **dependent**, **iff** it could satisfy this equation:
+```py
+c₁v₁ + c₂v₂ + c₃v₃ .... = 0
+```
+`c..` means the scalar for each vector, and you could change the scalar to any number, positive or negative.
+Note that: `c ≠ 0`, and vectors are not all zeros.
+
+Assume that there's a linear combination of two vectors `v₁ + v₂ + v₃`, 
+with scalars it could be `c₁v₁ + c₂v₂ + c₃v₃`.
+To verify whether it's dependent or independent, 
+we assume `c₁v₁ + c₂v₂ + c₃v₃= (0,0,0)` and solve for `c₁, c₂, c₃`:
+- it's **independent** <=> if `c₁ = c₂ = c₃ = 0` **all** are zeros
+- it's **dependent** <=> If `c₁, c₂, c₃` **at least one** is NON-ZERO number
+
+Example 1: `Is vectors (2,1) and (3,2) dependent or independent?`
+Solve:
+- Assume `c₁(2,1) + c₂(3,2) = (0,0)`
+- Get system of equations:
+    - `2c₁ + 3c₂ = 0`
+    - `1c₁ + 2c₂ = 0`
+- Solve system of equations get: `c₁=c₂=0`
+- So it's a **independent linear combination**.
+
+Example 2: `Is vectors (1,-1,2), (1,1,3) and (-1,0,2) dependent or independent?`
+- Assume `c₁v₁ + c₂v₂ + c₃v₃= (0,0,0)`
+- get the system of equations of 3 unknowns `c₁, c₂, c₃`
+- solve equations get solutions get `c₁ = c₂ = c₃ = 0`
+- So they're **independent**.
 
 
 # `Vectors multiplication`
@@ -424,6 +457,57 @@ List it again:
 `Right-handed system`:
 ![image](https://user-images.githubusercontent.com/14041622/38636675-74a32202-3dfb-11e8-9b61-024bf9b0d219.png)
 
+
+
+# `Matrices intro`
+> `Matrices` are just a **rectangle array of numbers**.
+
+![image](https://user-images.githubusercontent.com/14041622/38552009-51700eb2-3ced-11e8-86ce-15a21a9b3c0e.png)
+
+### Prerequisites: `Systems of equations`
+
+Matrices could be seen as a group of informations arranged **IN A CERTAIN WAY**.
+**IT'S SO SO SO SO SO EASIER TO THINK IT AS A SYSTEM OF EQUATIONS.**
+
+![image](https://user-images.githubusercontent.com/14041622/38552056-6a3a18fc-3ced-11e8-9f40-bae36f2b775d.png)
+
+
+## `Matrix row operations & Systems of equations`
+> It's very SAME with operations of `systems of equations`.
+
+[Refer to Khan academy article: Matrix row operations](https://www.khanacademy.org/math/precalculus/precalc-matrices/elementary-matrix-row-operations/a/matrix-row-operations)
+
+![image](https://user-images.githubusercontent.com/14041622/38552166-dff4d4d8-3ced-11e8-8ae4-3d9144c35473.png)
+
+
+There're different types of row operations:
+- Switch any two rows
+- Multiply a row by a nonzero constant
+- Add one row to another
+
+They all relate to the operations of systems of equations:
+### Switching any two rows:
+![image](https://user-images.githubusercontent.com/14041622/38552224-08aa1bea-3cee-11e8-93c2-61943babeb98.png)
+
+### Multiply a row by a nonzero constant:
+![image](https://user-images.githubusercontent.com/14041622/38552233-138a8cca-3cee-11e8-8569-f3a8238e554c.png)
+
+### Add one row to another:
+![image](https://user-images.githubusercontent.com/14041622/38552241-1c33501e-3cee-11e8-9604-3704346237a7.png)
+
+## `Solve system equations using Matrix`
+> it's also called the **`Row-echelon form and Gaussian elimination`**.
+
+[Khan lecture: Reduced row echelon form](https://www.khanacademy.org/math/precalculus/precalc-matrices/modal/v/matrices-reduced-row-echelon-form-2)
+[Refer to Ck-12: Row Operations and Row Echelon Forms](https://www.ck12.org/c/algebra/row-operations-and-row-echelon-forms/lesson/Row-Operations-and-Row-Echelon-Forms-PCALC/?collectionCreatorID=3&conceptCollectionHandle=algebra-%3A%3A-row-operations-and-row-echelon-forms&collectionHandle=algebra)
+
+First we need to rewrite the system of equation to `matrix` form:
+![image](https://user-images.githubusercontent.com/14041622/38552612-41076fc8-3cef-11e8-9654-fdadcb7627ba.png)
+
+Then by `row operations`, we need to achieve this kind of result, which is also called **Reduced row echelon form**:
+![image](https://user-images.githubusercontent.com/14041622/38552642-53ad647a-3cef-11e8-9e72-3172da752b5d.png)
+
+It means we eliminated all other variables and only left 1 variable in one equation. Then you could put back the number to the system of equations.
 
 
 # `Matrices multiplication`
