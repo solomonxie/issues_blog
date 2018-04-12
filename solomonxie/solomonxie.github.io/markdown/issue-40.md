@@ -447,10 +447,16 @@ It means we eliminated all other variables and only left 1 variable in one equat
 
 Before learning `matrices multiplication`, have to learn `dot product of vectors` (let's forget about cross product).
 
-And also, it's using the core idea of `dot product`, but "twists" it a bit. Need you to have a strong intuition to understand what's going on.
-
 [Refer to Khan academy article: Multiplying matrices](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/a/multiplying-matrices)
 [Refer to 3Blue1Brown: Dot products and duality](https://www.youtube.com/watch?v=LyGKycYT2v0&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=10)
+
+## `Matrix-vector product` vs. `Dot product`
+Although `Matrix multiplication` is using the core idea of `dot product`, but "twists" it a bit.
+And we call the "twisted" version of dot product as the `Matrix-vector product`.
+
+![image](https://user-images.githubusercontent.com/14041622/38662516-29af0b78-3e67-11e8-997c-63760193eba9.png)
+
+
 
 ## Why is it multiplying this way
 **TO UNDERSTAND IT, YOU SHOULD FIND MORE SENSE IN GEOMETRIC WAY: MATRIX TRANSFORMATION.**
