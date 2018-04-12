@@ -110,6 +110,9 @@ When you scale a graph by a factor:
 > Simply say, a `unit vector` is just a vector which magnitude is `1`. Kinda like the unit circle idea.
 It's also called `Engineering notation`.
 
+![image](https://user-images.githubusercontent.com/14041622/38659785-831c216e-3e5d-11e8-8623-77fcc365adcb.png)
+
+
 **What's it for?**
 Basically just like the unit circle, make things easier to calculate angles or length or so. 
 Actually it's working together with unit circle and all other trigonometric knowledges.
@@ -120,7 +123,9 @@ Easier to think about it, is to think about the `Similar graph` knowledge in the
 ### `Unit vector form`
 > `unit vector` is easy, but `unit vector form` needs your bit more effort to understand.
 
-`Unit vector form` assume that there are **TWO** unit vectors, one vertical, one horizontal.
+**THIS FORM DOESN'T PRESENT VECTOR AS A POSITION ANYMORE, RATHER PRESENT IT AS HOW MUCH IT STRETCHES UNIT VECTORS, OR SAY PRESENT IT AS A SCALAR.**
+
+Assume that there are **TWO** unit vectors, one vertical, one horizontal.
 ![image](https://user-images.githubusercontent.com/14041622/38548131-9347693e-3ce3-11e8-9600-3b5ee57e70ed.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/38547964-1747a326-3ce3-11e8-9f99-ea9024e007fd.png)
