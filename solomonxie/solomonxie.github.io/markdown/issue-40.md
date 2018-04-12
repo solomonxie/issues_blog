@@ -449,6 +449,9 @@ It means we eliminated all other variables and only left 1 variable in one equat
 
 Just to clear, the `matrix multiplication` is using the method called **`Matrix-vector product`**, which is a "twisted" version of `dot product`.
 
+![image](https://user-images.githubusercontent.com/14041622/38692046-3d25a65a-3eb5-11e8-9609-0157bdcae291.png)
+
+
 [Refer to Khan academy article: Multiplying matrices](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/a/multiplying-matrices)
 [Refer to 3Blue1Brown: Dot products and duality](https://www.youtube.com/watch?v=LyGKycYT2v0&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=10)
 [Refer to maths is fun: How to Multiply Matrices](https://www.mathsisfun.com/algebra/matrix-multiplying.html)
