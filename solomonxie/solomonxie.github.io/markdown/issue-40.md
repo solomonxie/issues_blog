@@ -483,9 +483,18 @@ The major fond of ways to understand are:
 I found it very easy to understand it with `Real-life example` to an **intro level**.
 
 
-## `Matrix-vector product` vs. `Dot product`
-> Why do we call a `matrix-vector product` as a twisted `dot product`, you could see below:
+## `Matrix-vector product`
+We call a `matrix-vector product` as a twisted `dot product`.
+
+
+A `Matrix-vector product` is ALWAYS A **`Linear transformation`**.
+Refer to Khan lecture video: [Matrix vector products as linear transformations](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/linear-transformations/v/matrix-vector-products-as-linear-transformations)
+
+In the GPU of a computer,
+**"ALL THE GRAPHIC PROCESSORS ARE JUST HARD-WIRED MATRIX MULTIPLIERS!" - SAL KHAN**
+
 ![image](https://user-images.githubusercontent.com/14041622/38662516-29af0b78-3e67-11e8-997c-63760193eba9.png)
+
 
 #### `Size of Matrix-vector product`
 ![image](https://user-images.githubusercontent.com/14041622/38667518-37ae2a76-3e74-11e8-9b5f-80d762a3072f.png)
