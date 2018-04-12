@@ -527,7 +527,7 @@ Refer to the same video: [How does linear transformation work on unit vectors](h
 Refer to 3Blue1Brown's video: [Three-dimensional linear transformations](https://www.youtube.com/watch?v=rHLEWRxRGiM&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=6)
 Refer to 3Blue1Brown's video: [Matrix multiplication as composition](https://www.youtube.com/watch?v=XkY2DOUCWMU&index=5&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
-## How does Linear transformation work
+## `How does Linear transformation work`
 
 Remember a vector `(a, b)` could also present in `unit vector` form as `v = ai + bj`,
 and unit vectors are `i = (1, 0) & j = (0, 1)`.
@@ -555,7 +555,7 @@ And we present this `Applying a transformation to a vector` in the form below:
 
 There're only TWO part of this matrix multiplication:
 - `The Graph`: the 1st on right item.
-- `The Rule`: All the rest Matrices on the left of `The Graph`.
+- `The Rules`: All the rest Matrices on the left of `The Graph`.
 
 `The Graph` could be one point (vector) or many points (vectors), e.g.:
 - A point: `(2,3)`
@@ -563,3 +563,34 @@ There're only TWO part of this matrix multiplication:
 - A rectangle: `[ (3,0)   (3,4)    (0,4)  (0,0)]`
 - Any shape in any dimension.....
 
+SO ALL YOU NEED TO DO, IS JUST TO APPLY THOSE RULES ONE BY ONE, `LEFT BY RIGHT`, AND GET A NEW GRAPH!!!
+
+For example, we apply two transform rules to a vector `(x, y)`:
+
+![image](https://user-images.githubusercontent.com/14041622/38698319-3b1a687a-3ec7-11e8-9f18-cdeefd8874b8.png)
+
+It's working from `left to right`, exactly same with the function principles: `Shear( Rotate(x, y) )`.
+
+## `Break the rule and do the math`
+
+In the `transform rule` as below:
+
+![image](https://user-images.githubusercontent.com/14041622/38698610-39ec988c-3ec8-11e8-9fac-759fe64ff376.png)
+
+**WE HAVE TO BREAK THE RULE INTO SINGLE PARTS BEFORE WE DO THE CALCULATION.** 
+
+![image](https://user-images.githubusercontent.com/14041622/38698753-b2b7801a-3ec8-11e8-843b-3431c4955d46.png)
+
+And since we made the rule for `i & j`, so let's apply the `unit vector` to `the Graph`:
+
+![image](https://user-images.githubusercontent.com/14041622/38698988-632deb46-3ec9-11e8-9fd1-5edfef552f0f.png)
+
+Note that: 
+- The original graph is `v = 5i + 7j`, so after applying the new rule of `i & j`, we get: 
+`v = 5(3,-2) + 7(2,1)`
+- And now we could do the `Vector multiply a scalar` method, to get this:
+`v = (15,-10) + (14,7)`
+- Then we could do `Add two vectors`:
+`v = (19, -3)`
+- So after applying the transformation rule, we successfully transformed the vector to a new position:
+ `(19, -3)`
