@@ -506,3 +506,11 @@ In the GPU of a computer,
 
 ![screencast 2018-04-12 15-23-39](https://user-images.githubusercontent.com/14041622/38662131-dee63040-3e65-11e8-979d-285bd7c4b325.gif)
 
+
+
+
+# `Linear transformation`
+Although `Linear transformation` is the very same type of `Transformation` we learned in high school.
+But when it deals with a `vector's transformation`, things aren't that simple anymore.
+
+Refer to 3Blue1Brown's video: [Linear transformations and matrices](https://www.youtube.com/watch?v=kYB8IZa5AuE&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=4)
