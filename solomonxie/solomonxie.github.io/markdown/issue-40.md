@@ -282,6 +282,10 @@ Multiplication a process of `double, triple, quadruple ...`.
 ## `Dot product`
 **REMEMBER: A DOT PRODUCT DOESN'T GIVE YOU A VECTOR, BUT ONLY A NUMBER, A SCALAR, A PRODUCT OF TWO MAGNITUDES.**
 
+> The purpose:
+It is **NOT** to get a new vector, and **NOT** to `Reduct dimension`, 
+its only purpose **IS** to get a **quantity**, a magnitude, a number!
+
 [For an intuitive video refer to Khan academy physics: Dot Product.](https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/electric-motors/v/the-dot-product)
 [For more explains in detail: Vector Calculus: Understanding the Dot Product](https://betterexplained.com/articles/vector-calculus-understanding-the-dot-product/)
 [Maths is fun: dot product.](https://www.mathsisfun.com/algebra/vectors-dot-product.html)
@@ -290,14 +294,13 @@ Multiplication a process of `double, triple, quadruple ...`.
 ![screencast 2018-04-12 15-08-30](https://user-images.githubusercontent.com/14041622/38661569-e3831bc4-3e63-11e8-82a1-326400859d03.gif)
 
 
-
-### `Understand Dot product`
+## `Understand Dot product`
 > It makes lots more sense to think `dot product` in **physics** way than maths algebraic way.
 
 **Just to think `Two forces` "a & b" are `pulling` a box,** 
 so how much power did it pulled on the `direction of a`, or how much on the `direction of b`?
 
-#### `Vectors on same direction`
+### `Vectors on same direction`
 Let's make it easier before digging in:
 assume there's no angle, `Two forces` "a & b" are `pulling` to the same way, the same direction,
 so how much power would it be pulled?
@@ -309,7 +312,7 @@ So every `1 unit` power `a` pulls, `b` will pull `2 units` power.
 Then it make sense:
 The total power pulling the thing would be `3 · 6 = 18 units`
 
-#### `Vectors on different direction`
+### `Vectors on different direction`
 So the `Two forces` AREN'T pulling the box at the same direction anymore, how much power did it pulled on the `direction of a`, or how much on the `direction of b`?
 
 ![image](https://user-images.githubusercontent.com/14041622/38632862-91a762ce-3df0-11e8-9545-1e19ed677936.png)
@@ -326,7 +329,7 @@ Then it become like this picture again:
 How amazing it is!
 And now we could **Boost** the power on b: `|b| ×  |a|×cosθ`
 
-### `Ways of calculating dot product`
+## `Ways of calculating dot product`
 
 There're two ways to calculate the dot product (I made up the names):
 - Projection Boost: 
@@ -338,14 +341,14 @@ Result of two ways are **SAME**.
 
 > Remember: Boosting is not working when two vectors are **Perpendicular**, which product is `0`.
 
-#### `Shadow Boost`
+### `Shadow Boost`
 > We reflect one vector on another one, then **Boost** the energy.
 
 Intuition:
 ![image](https://user-images.githubusercontent.com/14041622/38634997-a69cff08-3df6-11e8-98b4-a66c2e0c1156.png)
 
 
-#### `Axes Boost`
+### `Axes Boost`
 > We break two vectors to `X-axis` and `Y-axis`, and BOOST on each axis.
 
 Easier to remember the formula is:
