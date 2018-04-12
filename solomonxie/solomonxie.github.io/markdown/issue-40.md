@@ -445,7 +445,7 @@ It means we eliminated all other variables and only left 1 variable in one equat
 # `Matrix multiplication`
 **IT IS A WHOLE NEW AREA ASIDE FROM MATRICES BASIC OPERATIONS**.
 
-> It's very difficult to make sense of it. But mathematicians just somehow make it work, it then is a `Human defined operation`, no sense but just to use it.
+> It's very difficult to make sense of it. But mathematicians just somehow make it work, it then is a `Human defined operation`, no sense but just to use it. If you only want to solve the problem, you only need 5 minutes to get it around, and you can skip all these below. But if you'd like to understand it, then prepare yourself for a couple of hours or days on this.
 
 Just to clear, the `matrix multiplication` is using the method called **`Matrix-vector product`**, which is a "twisted" version of `dot product`.
 
@@ -457,6 +457,7 @@ This topic is very easy to use but very difficult to understand!
 But I rather to understand it instead of just memorising it. 
 So this is the **Learning path** of this topic:
 1. Dot product
+2. Linear transformations
 2. Matrix-vector product
 3. Matrix-matrix product
 
@@ -472,8 +473,6 @@ and the **RESULT** is an `m×p matrix`.
 
 ## `Understand Matrix multiplication`
 There're so many different ways to understand it, to make sense of it, because it's so hard to understand.
-
-> If you only want to solve the problem, you only need 5 minutes to get it around, and you can skip all these below. But if you'd like to understand it, then prepare yourself for a couple of hours or days on this.
 
 The major fond of ways to understand are:
 - Through `Matrix transformation`
@@ -491,7 +490,7 @@ A `Matrix-vector product` is ALWAYS A **`Linear transformation`**.
 Refer to Khan lecture video: [Matrix vector products as linear transformations](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/linear-transformations/v/matrix-vector-products-as-linear-transformations)
 
 In the GPU of a computer,
-**"ALL THE GRAPHIC PROCESSORS ARE JUST HARD-WIRED MATRIX MULTIPLIERS!" - SAL KHAN**
+**"ALL THE GRAPHIC PROCESSORS ARE JUST HARD-WIRED MATRIX MULTIPLIERS! ALL THEY DO IS JUST MULTIPLYING MATRICES!" - SAL KHAN**
 
 ![image](https://user-images.githubusercontent.com/14041622/38662516-29af0b78-3e67-11e8-997c-63760193eba9.png)
 
