@@ -225,10 +225,12 @@ There're two operations are called `multiplication` for vectors:
 **IT'S THE VERY CORE SENSE OF MAKING A MULTIPLICATION OF VECTORS OR MATRICES.**
 
 Multiplication **ISN'T** just `Repeat counting in Arithmetic` anymore.
-Not `3×4 = 3+3+3+3` anymore!
+Not `4×3 = 4+4+4` anymore!
 
 It's rather kind of `Growth`, or empowerment, or **boosting**.
-We let `3 grow with speed of 4`, or to say `3 grow with a boosting of 4`.
+We'd say `we tripled 4`, or say `number 4 grow with speed of 3`, or to say `number 4 grows with a boosting of 3`.
+Whatever you'd say, you get the idea.
+Multiplication a process of `double, triple, quadruple ...`.
 
 **JUST TO REMEMBER: FORGET ABOUT ARITHMETIC MULTIPLICATION, ALWAYS SEE MULTIPLICATION AS BOOSTING.**
 
