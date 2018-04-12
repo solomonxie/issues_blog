@@ -619,5 +619,13 @@ Note that:
 
 **YOU BREAK `THE RULE` IN TO DIFFERENT UNIT VECTORS i, j, k... AND BREAK THE GRAPH INTO DIFFERENT POINTS, AND APPLY EACH i, j, k RULES TO EACH POINT.**
 
+### Example1
+![image](https://user-images.githubusercontent.com/14041622/38701147-bb7e535c-3ecf-11e8-8fe4-bf5582950785.png)
+Solve:
+- First we know it's a 3x2 Matrix multiply a 2x2 Matrix, it's valid, and the new Matrix's size would be 3x2.
+- And then we multiply each by each according to their **dimension**:
+![image](https://user-images.githubusercontent.com/14041622/38701686-1e31f46c-3ed1-11e8-94f9-b569f6e7fdf7.png)
+- We get the answer:
+![image](https://user-images.githubusercontent.com/14041622/38701783-696a33ae-3ed1-11e8-8cb8-0c17ff945135.png)
 
 
