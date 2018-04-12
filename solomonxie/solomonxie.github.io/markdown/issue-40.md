@@ -221,6 +221,16 @@ There're two operations are called `multiplication` for vectors:
 > The `cross product` is very very very limited in use, and NOT as fairly often in use as the `dot product`. So don't waste time on this unless having certain use of it.
 
 
+## `Boosting`
+**IT'S THE VERY CORE SENSE OF MAKING A MULTIPLICATION OF VECTORS OR MATRICES.**
+
+Multiplication **ISN'T** just `Repeat counting in Arithmetic` anymore.
+Not `3×4 = 3+3+3+3` anymore!
+
+It's rather kind of `Growth`, or empowerment, or **boosting**.
+We let `3 grow with speed of 4`, or to say `3 grow with a boosting of 4`.
+
+
 ## `Dot product`
 **REMEMBER: A DOT PRODUCT DOESN'T GIVE YOU A VECTOR, BUT ONLY A NUMBER, A SCALAR, A PRODUCT OF TWO MAGNITUDES.**
 
