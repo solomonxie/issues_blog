@@ -615,8 +615,9 @@ Note that:
 
 
 ## `Higher dimension rules & Multiple points graph`
-Let's finish the 2x2 Matrix, and look forward to another level. 
+> It's just extension to the 2x2 Matrix.
 
+**YOU BREAK `THE RULE` IN TO DIFFERENT UNIT VECTORS i, j, k... AND BREAK THE GRAPH INTO DIFFERENT POINTS, AND APPLY EACH i, j, k RULES TO EACH POINT.**
 
 
 
