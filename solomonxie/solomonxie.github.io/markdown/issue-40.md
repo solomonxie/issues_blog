@@ -453,5 +453,9 @@ And also, it's using the core idea of `dot product`, but "twists" it a bit. Need
 [Refer to 3Blue1Brown: Dot products and duality](https://www.youtube.com/watch?v=LyGKycYT2v0&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=10)
 
 ## Why is it multiplying this way
+**TO UNDERSTAND IT, YOU SHOULD FIND MORE SENSE IN GEOMETRIC WAY: MATRIX TRANSFORMATION.**
+
+![image](https://user-images.githubusercontent.com/14041622/38662212-27499d86-3e66-11e8-9337-d8e076783370.png)
+
 ![screencast 2018-04-12 15-23-39](https://user-images.githubusercontent.com/14041622/38662131-dee63040-3e65-11e8-979d-285bd7c4b325.gif)
 
