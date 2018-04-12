@@ -172,7 +172,13 @@ Usually the `X/Y Axes plane` is this one.
 `R³` means `Real numbers 3D plane`.
 Usually the `X/Y/Z Axes plane`.
 
+## `Linear combinations`
+> `Linear combinations` means to add vectors together: `v₁ + v₂ + v₃.....` to get a new vector. Simple like that.
+
 ## `Span of vectors`
+> It's the Set of all the `linear combinations` of two vectors.
+![image](https://user-images.githubusercontent.com/14041622/38660579-4af5843a-3e60-11e8-8143-ca0ab77198f1.png)
+
 
 ```py
 # v, w are vectors
@@ -201,10 +207,8 @@ So we say the vectors `(2, 3)` and `(4, 6)` are **`DEPENDENT`**, because they're
 
 Other than that, any two vectors are **`INDEPENDENT`**, if they're not **NOT COLLINEAR**.
 
-### Linear combinations
-> `Linear combinations` means to add vectors together: `v₁ + v₂ + v₃.....`. Simple like that.
-I can say `some vectors`, or just to say `a linear combination`.
 
+### List of some linear combinations
 Let's list some `vector combinations`:
 - Zero Vector: `span(0) = 0`.
 - One vector: `span(v) = a line`.
@@ -355,90 +359,6 @@ Intuition:
 
 
 
-
-
-# Vector span
-
-## `R²` and `R³`
-`R²` means a `Real numbers 2D plane`.
-Usually the `X/Y Axes plane` is this one.
-
-`R³` means `Real numbers 3D plane`.
-Usually the `X/Y/Z Axes plane`.
-
-## `Span of vectors`
-
-```py
-# v, w are vectors
-span(v, w) = R²
-
-span(0) = 0
-```
-
-`One vector` with a `scalar`, no matter how much it stretches or shrinks, **it ALWAYS on the same line**, because the direction or slope is not changing. So **ONE VECTOR'S SPAN IS A LINE.**
-
-`Two vector` with `scalars`, we then **COULD** change the slope! So that we could get to any position that we want in the 2D plane, i.e., R².
-
-Exceptions:
-- `span(0) = 0`, it only stay at origin.
-- `v = w`, if two vectors are the same, or `collinear`, then it's still ONE vector.
-
-## `Linearly dependent & independent`
-
-- `Linear dependence`: two vectors are **`COLLINEAR`**, means on the same line.
-- `Linear independence`: two vectors are **`NOT COLLINEAR`**, means they're not on the same line.
-
-Vectors `(2, 3)` and `(4, 6)` are the **SAME VECTOR**! 
-Because `(4,6) = 2*(2,3)`, so it's just a scaled version of the first vector.
-
-So we say the vectors `(2, 3)` and `(4, 6)` are **`DEPENDENT`**, because they're **`COLLINEAR`**.
-
-Other than that, any two vectors are **`INDEPENDENT`**, if they're not **NOT COLLINEAR**.
-
-### Linear combinations
-> `Linear combinations` means to add vectors together: `v₁ + v₂ + v₃.....`. Simple like that.
-I can say `some vectors`, or just to say `a linear combination`.
-
-Let's list some `vector combinations`:
-- Zero Vector: `span(0) = 0`.
-- One vector: `span(v) = a line`.
-- Two vector: `span(v₁, v₂) = R²`, if they're not collinear.
-- Three vector or more: `span(v₁, v₂, v₃...) = R²`. Other than two vectors, are all **`REDUNDANT`**. 
-In another word:
-**IF ANY TWO VECTORS ARE INDEPENDENT, THEN OTHERS ARE ALL DEPENDENT.**
-
-### How to know whether a linear combination is dependent
-
-[Refer to Khan lecture: Span and linear independence example](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-independence/v/span-and-linear-independence-example)
-
-A `linear combination` is **dependent**, **iff** it could satisfy this equation:
-```py
-c₁v₁ + c₂v₂ + c₃v₃ .... = 0
-```
-`c..` means the scalar for each vector, and you could change the scalar to any number, positive or negative.
-Note that: `c ≠ 0`, and vectors are not all zeros.
-
-Assume that there's a linear combination of two vectors `v₁ + v₂ + v₃`, 
-with scalars it could be `c₁v₁ + c₂v₂ + c₃v₃`.
-To verify whether it's dependent or independent, 
-we assume `c₁v₁ + c₂v₂ + c₃v₃= (0,0,0)` and solve for `c₁, c₂, c₃`:
-- it's **independent** <=> if `c₁ = c₂ = c₃ = 0` **all** are zeros
-- it's **dependent** <=> If `c₁, c₂, c₃` **at least one** is NON-ZERO number
-
-Example 1: `Is vectors (2,1) and (3,2) dependent or independent?`
-Solve:
-- Assume `c₁(2,1) + c₂(3,2) = (0,0)`
-- Get system of equations:
-    - `2c₁ + 3c₂ = 0`
-    - `1c₁ + 2c₂ = 0`
-- Solve system of equations get: `c₁=c₂=0`
-- So it's a **independent linear combination**.
-
-Example 2: `Is vectors (1,-1,2), (1,1,3) and (-1,0,2) dependent or independent?`
-- Assume `c₁v₁ + c₂v₂ + c₃v₃= (0,0,0)`
-- get the system of equations of 3 unknowns `c₁, c₂, c₃`
-- solve equations get solutions get `c₁ = c₂ = c₃ = 0`
-- So they're **independent**.
 
 
 # `Cross product`
