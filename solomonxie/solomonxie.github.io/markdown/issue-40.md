@@ -635,5 +635,13 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/38702654-c433b952-3ed3-11e8-97af-5adaa79fa1c6.png)
 
 
-### Example: Graph
+### Example: Transform Graphs
+![image](https://user-images.githubusercontent.com/14041622/38702739-fbd6997e-3ed3-11e8-9dac-cfd2b742e951.png)
+![image](https://user-images.githubusercontent.com/14041622/38702750-023c3c4c-3ed4-11e8-88dd-7568e10d798f.png)
+Solve:
+- Just to list all points of this graph:
+`(-4,8), (-8,-4), (-4,-4), (0,4)`
+- Arrange points to a Matrix:
+![image](https://user-images.githubusercontent.com/14041622/38702890-5def64c4-3ed4-11e8-87a4-4dcc1db9c7ec.png)
+- Apply the Matrix R to the Graph's matrix. Do the math.
 
