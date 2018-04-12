@@ -447,4 +447,11 @@ It means we eliminated all other variables and only left 1 variable in one equat
 
 Before learning `matrices multiplication`, have to learn `dot product of vectors` (let's forget about cross product).
 
+And also, it's using the core idea of `dot product`, but "twists" it a bit. Need you to have a strong intuition to understand what's going on.
+
 [Refer to Khan academy article: Multiplying matrices](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/a/multiplying-matrices)
+[Refer to 3Blue1Brown: Dot products and duality](https://www.youtube.com/watch?v=LyGKycYT2v0&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=10)
+
+## Why is it multiplying this way
+![screencast 2018-04-12 15-23-39](https://user-images.githubusercontent.com/14041622/38662131-dee63040-3e65-11e8-979d-285bd7c4b325.gif)
+
