@@ -515,18 +515,41 @@ In the GPU of a computer,
 
 
 # `Linear transformation`
-`Linear transformation` is a special kind of Transformation, which deals with `vectors`.
+**LINEAR TRANSFORMATION IS THE VERY KEY TO OPEN UP ALL GETES IN LINEAR ALGEBRA, BECAUSE IT MAKES PERFECT SENSE OF MATRIX MULTIPLICATION.**
 
+To understand `matrix multiplication`, Linear Transformation is the very first thing you want to learn. It's fairly important and can't get away with.
+
+> `Linear transformation` is a special kind of Transformation, which deals with `vectors`.
+
+Need to mention that, 3Blue1Brown has done well on build intuition on this topic:
 Refer to 3Blue1Brown's video: [Linear transformations and matrices](https://www.youtube.com/watch?v=kYB8IZa5AuE&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=4)
 Refer to the same video: [How does linear transformation work on unit vectors](https://youtu.be/kYB8IZa5AuE?t=3m47s)
+Refer to 3Blue1Brown's video: [Three-dimensional linear transformations](https://www.youtube.com/watch?v=rHLEWRxRGiM&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=6)
+Refer to 3Blue1Brown's video: [Matrix multiplication as composition](https://www.youtube.com/watch?v=XkY2DOUCWMU&index=5&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
-![screencast 2018-04-12 18-48-37](https://user-images.githubusercontent.com/14041622/38672959-4e08dcae-3e82-11e8-9545-5f8c0a950bc7.gif)
+## How does Linear transformation work
 
+Remember a vector `(a, b)` could also present in `unit vector` form as `v = ai + bj`,
+and unit vectors are `i = (1, 0) & j = (0, 1)`.
 
-![screencast 2018-04-12 18-30-44](https://user-images.githubusercontent.com/14041622/38672187-07f6b51c-3e80-11e8-8bb6-1f63692a6621.gif)
+If we want to transform a vector, like `move, flip, rotate, scale`, the thing we'll do is:
+**TO CHANGE THE UNIT VECTOR `i` AND `j`**.
 
+For example, there's a vector `v = (-1, 2)`, and it can present as `v = -1i + 2j`, then we're to do some movement to it:
+- Move: We let unit vector `i = (100, 0)`, then the vector moves to the right becomes `(-100, 2)`.
+- Rotate: we let unit vector `i = (0, 1)` and `j = (-1, 0)`, then the vector rotates 90° becomes `(-2, -1)`.
+**THAT'S THE MAGIC!!**
 
-## `Transform Matrix`
+By telling where the `unit vectors` are to go, we can create a pattern, a mapping rule, so that every vector uses this map, this rule, this pattern will have the same transformation!
 
-### `Break Transform Matrix`
-To understand it, you have to break it first
+Another example: 
+Assume there's a vector `v=(5,7)`, and let the unit vector `i=(3,-2)` and `j=(2,1)`, and present this **`TRANSFORM PATTERN`** as below:
+![image](https://user-images.githubusercontent.com/14041622/38697466-ae386936-3ec4-11e8-82b8-b88130a4906b.png)
+
+And we present this `Applying a transformation to a vector` in the form below:
+![image](https://user-images.githubusercontent.com/14041622/38697449-9b20935a-3ec4-11e8-917a-342a23259eec.png)
+
+**SO WHENEVER YOU ENCOUNTER MATRIX MULTIPLICATION AGAIN, NEVER READ IT AS TWO VECTORS OR TWO MATRICES MULTIPLYING TOGETHER!**
+
+## `How to interpret a Matrix Multiplication`
+
