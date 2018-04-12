@@ -313,6 +313,7 @@ The total power pulling the thing would be `3 · 6 = 18 units`
 So the `Two forces` AREN'T pulling the box at the same direction anymore, how much power did it pulled on the `direction of a`, or how much on the `direction of b`?
 
 ![image](https://user-images.githubusercontent.com/14041622/38632862-91a762ce-3df0-11e8-9545-1e19ed677936.png)
+![screencast 2018-04-12 15-13-15](https://user-images.githubusercontent.com/14041622/38661687-4d62303e-3e64-11e8-9529-78cc511f52c1.gif)
 
 Let's think about how much power it's pulling on the direction of `b`.
 Since `a` is pulling on a bit **wrong way**, so **`a`'s power ISN'T 100% working on `b`'s way**.
