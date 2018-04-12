@@ -510,10 +510,13 @@ In the GPU of a computer,
 
 
 # `Linear transformation`
-Although `Linear transformation` is the very same type of `Transformation` we learned in high school.
-But when it deals with a `vector's transformation`, things aren't that simple anymore.
+`Linear transformation` is a special kind of Transformation, which deals with `vectors`.
 
 Refer to 3Blue1Brown's video: [Linear transformations and matrices](https://www.youtube.com/watch?v=kYB8IZa5AuE&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=4)
+Refer to the same video: [How does linear transformation work on unit vectors](https://youtu.be/kYB8IZa5AuE?t=3m47s)
+
+![screencast 2018-04-12 18-48-37](https://user-images.githubusercontent.com/14041622/38672959-4e08dcae-3e82-11e8-9545-5f8c0a950bc7.gif)
 
 
 ![screencast 2018-04-12 18-30-44](https://user-images.githubusercontent.com/14041622/38672187-07f6b51c-3e80-11e8-8bb6-1f63692a6621.gif)
+
