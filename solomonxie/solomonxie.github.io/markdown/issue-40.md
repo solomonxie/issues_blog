@@ -230,6 +230,7 @@ Not `3×4 = 3+3+3+3` anymore!
 It's rather kind of `Growth`, or empowerment, or **boosting**.
 We let `3 grow with speed of 4`, or to say `3 grow with a boosting of 4`.
 
+**JUST TO REMEMBER: FORGET ABOUT ARITHMETIC MULTIPLICATION, ALWAYS SEE MULTIPLICATION AS BOOSTING.**
 
 ## `Dot product`
 **REMEMBER: A DOT PRODUCT DOESN'T GIVE YOU A VECTOR, BUT ONLY A NUMBER, A SCALAR, A PRODUCT OF TWO MAGNITUDES.**
