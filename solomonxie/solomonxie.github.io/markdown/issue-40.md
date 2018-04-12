@@ -534,6 +534,11 @@ Every time you see a matrix, you can interpret it as a certain transformation of
 Once you digest the idea, you’re in a great position to understand the linear algebra deeply. 
 **Almost all of the topics in linear algebra will become easy to understand once you start thinking about matrices as transformations of space.**" - 3Blue1Brown
 
+
+**YOU JUST HAVE TO MEMORISE THIS EQUATION AND GET THE IDEA. THAT IS GONNA HELP YOU OUT FROM ALL THE IDEAS AND PROBLEMS IN LINEAR ALGEBRA.**
+![image](https://user-images.githubusercontent.com/14041622/38699787-a0232910-3ecb-11e8-844e-30ccf58a5500.png)
+
+
 ## `How does Linear transformation work`
 
 Remember a vector `(a, b)` could also present in `unit vector` form as `v = ai + bj`,
@@ -578,7 +583,11 @@ SO ALL YOU NEED TO DO, IS JUST TO APPLY THOSE RULES ONE BY ONE, `LEFT BY RIGHT`,
 For example, we apply two transform rules to a vector `(x, y)`:
 
 ![image](https://user-images.githubusercontent.com/14041622/38699596-0936739a-3ecb-11e8-93ea-8fdd79af23e4.png)
-It's working from `left to right`, exactly same with the function principles: `Shear( Rotate(x, y) )`.
+
+It's exactly same with the function principles: `Shear( Rotate(x, y) )`.
+
+![image](https://user-images.githubusercontent.com/14041622/38699833-cb3ac450-3ecb-11e8-8364-bb1540ab33ae.png)
+
 
 
 
@@ -603,3 +612,11 @@ Note that:
 `v = (19, -3)`
 - So after applying the transformation rule, we successfully transformed the vector to a new position:
  `(19, -3)`
+
+
+## `Higher dimension rules & Multiple points graph`
+Let's finish the 2x2 Matrix, and look forward to another level. 
+
+
+
+
