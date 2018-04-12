@@ -514,3 +514,6 @@ Although `Linear transformation` is the very same type of `Transformation` we le
 But when it deals with a `vector's transformation`, things aren't that simple anymore.
 
 Refer to 3Blue1Brown's video: [Linear transformations and matrices](https://www.youtube.com/watch?v=kYB8IZa5AuE&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=4)
+
+
+![screencast 2018-04-12 18-30-44](https://user-images.githubusercontent.com/14041622/38672187-07f6b51c-3e80-11e8-8bb6-1f63692a6621.gif)
