@@ -479,7 +479,9 @@ The major fond of ways to understand are:
 - Through `Real-life example`
 - ~Through Algebraic methods~
 
-I found it very easy to understand it with `Real-life example` to an **intro level**.
+Although `Real-life example` makes sense easily, but it aren't gonna help solving problems well.
+So `Matrix transformation` is the ultimate way to understand Matrix multiplications.
+And it proved that it is the best way for that, and for all core ideas of `Linear Algebra`.
 
 
 ## `Matrix-vector product`
