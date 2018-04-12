@@ -520,3 +520,8 @@ Refer to the same video: [How does linear transformation work on unit vectors](h
 
 ![screencast 2018-04-12 18-30-44](https://user-images.githubusercontent.com/14041622/38672187-07f6b51c-3e80-11e8-8bb6-1f63692a6621.gif)
 
+
+## `Transform Matrix`
+
+### `Break Transform Matrix`
+To understand it, you have to break it first
