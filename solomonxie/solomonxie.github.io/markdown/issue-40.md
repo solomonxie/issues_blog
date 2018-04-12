@@ -619,13 +619,21 @@ Note that:
 
 **YOU BREAK `THE RULE` IN TO DIFFERENT UNIT VECTORS i, j, k... AND BREAK THE GRAPH INTO DIFFERENT POINTS, AND APPLY EACH i, j, k RULES TO EACH POINT.**
 
-### Example1
+### Example: 3x2 Matrix with 2x2 Matrix
 ![image](https://user-images.githubusercontent.com/14041622/38701147-bb7e535c-3ecf-11e8-8fe4-bf5582950785.png)
 Solve:
 - First we know it's a 3x2 Matrix multiply a 2x2 Matrix, it's valid, and the new Matrix's size would be 3x2.
 - And then we multiply each by each according to their **dimension**:
 ![image](https://user-images.githubusercontent.com/14041622/38701686-1e31f46c-3ed1-11e8-94f9-b569f6e7fdf7.png)
 - We get the answer:
-![image](https://user-images.githubusercontent.com/14041622/38701783-696a33ae-3ed1-11e8-8cb8-0c17ff945135.png)
+![image](https://user-images.githubusercontent.com/14041622/38701899-b3ad71d8-3ed1-11e8-9a88-fd535ebe30ea.png)
 
+### Example: 2x2 Matrix with 2x3 Matrix
+![image](https://user-images.githubusercontent.com/14041622/38701919-c187acd8-3ed1-11e8-8997-dc15d5acf4ca.png)
+Solve:
+- It's will get a 2x3 new Matrix (just for intuition), then we get the answer:
+![image](https://user-images.githubusercontent.com/14041622/38702654-c433b952-3ed3-11e8-97af-5adaa79fa1c6.png)
+
+
+### Example: Graph
 
