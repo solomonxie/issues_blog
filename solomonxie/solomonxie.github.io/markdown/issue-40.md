@@ -398,17 +398,6 @@ Example 2: `Is vectors (1,-1,2), (1,1,3) and (-1,0,2) dependent or independent?`
 - So they're **independent**.
 
 
-# `Matrices multiplication`
-
-**IT IS A WHOLE NEW AREA ASIDE FROM MATRICES BASIC OPERATIONS**.
-
-> It's very difficult to make sense of it. But mathematicians just somehow make it work, it then is a `Human defined operation`, no sense but just to use it.
-
-Before learning `matrices multiplication`, have to learn `dot product of vectors` (let's forget about cross product...).
-
-[Refer to Khan academy article: Multiplying matrices](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/a/multiplying-matrices)
-
-
 # `Cross product`
 > Actually the `cross product` is very very very limited in use, and as fairly often as the `dot product`. 
 
@@ -427,3 +416,15 @@ List it again:
 
 `Right-handed system`:
 ![image](https://user-images.githubusercontent.com/14041622/38636675-74a32202-3dfb-11e8-9b61-024bf9b0d219.png)
+
+
+
+# `Matrices multiplication`
+
+**IT IS A WHOLE NEW AREA ASIDE FROM MATRICES BASIC OPERATIONS**.
+
+> It's very difficult to make sense of it. But mathematicians just somehow make it work, it then is a `Human defined operation`, no sense but just to use it.
+
+Before learning `matrices multiplication`, have to learn `dot product of vectors` (let's forget about cross product).
+
+[Refer to Khan academy article: Multiplying matrices](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/a/multiplying-matrices)
