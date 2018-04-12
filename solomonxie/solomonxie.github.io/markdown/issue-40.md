@@ -553,3 +553,13 @@ And we present this `Applying a transformation to a vector` in the form below:
 
 ## `How to interpret a Matrix Multiplication`
 
+There're only TWO part of this matrix multiplication:
+- `The Graph`: the 1st on right item.
+- `The Rule`: All the rest Matrices on the left of `The Graph`.
+
+`The Graph` could be one point (vector) or many points (vectors), e.g.:
+- A point: `(2,3)`
+- A triangle: `[ (3,0)   (0,4)   (3,4) ]`
+- A rectangle: `[ (3,0)   (3,4)    (0,4)  (0,0)]`
+- Any shape in any dimension.....
+
