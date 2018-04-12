@@ -439,21 +439,18 @@ Then by `row operations`, we need to achieve this kind of result, which is also 
 It means we eliminated all other variables and only left 1 variable in one equation. Then you could put back the number to the system of equations.
 
 
-# `Matrices multiplication`
-
+# `Matrix multiplication`
 **IT IS A WHOLE NEW AREA ASIDE FROM MATRICES BASIC OPERATIONS**.
 
 > It's very difficult to make sense of it. But mathematicians just somehow make it work, it then is a `Human defined operation`, no sense but just to use it.
 
-Before learning `matrices multiplication`, have to learn `dot product of vectors` (let's forget about cross product).
+Just to clear, the `matrix multiplication` is using the method called **`Matrix-vector product`**, which is a "twisted" version of `dot product`.
 
 [Refer to Khan academy article: Multiplying matrices](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/a/multiplying-matrices)
 [Refer to 3Blue1Brown: Dot products and duality](https://www.youtube.com/watch?v=LyGKycYT2v0&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=10)
 
 ## `Matrix-vector product` vs. `Dot product`
-Although `Matrix multiplication` is using the core idea of `dot product`, but "twists" it a bit.
-And we call the "twisted" version of dot product as the `Matrix-vector product`.
-
+> Why do we call a `matrix-vector product` as a twisted `dot product`, you could see below:
 ![image](https://user-images.githubusercontent.com/14041622/38662516-29af0b78-3e67-11e8-997c-63760193eba9.png)
 
 
