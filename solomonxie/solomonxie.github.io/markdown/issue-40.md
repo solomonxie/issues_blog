@@ -527,6 +527,13 @@ Refer to the same video: [How does linear transformation work on unit vectors](h
 Refer to 3Blue1Brown's video: [Three-dimensional linear transformations](https://www.youtube.com/watch?v=rHLEWRxRGiM&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=6)
 Refer to 3Blue1Brown's video: [Matrix multiplication as composition](https://www.youtube.com/watch?v=XkY2DOUCWMU&index=5&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
+
+> "Matrices give us  **a language** to describe these transformations, where the columns represent those coordinates. 
+And matrix-vector multiplication is just a way to compute what that transformation does to a given vector. 
+Every time you see a matrix, you can interpret it as a certain transformation of space. 
+Once you digest the idea, you’re in a great position to understand the linear algebra deeply. 
+**Almost all of the topics in linear algebra will become easy to understand once you start thinking about matrices as transformations of space.**" - 3Blue1Brown
+
 ## `How does Linear transformation work`
 
 Remember a vector `(a, b)` could also present in `unit vector` form as `v = ai + bj`,
@@ -551,6 +558,9 @@ And we present this `Applying a transformation to a vector` in the form below:
 
 **SO WHENEVER YOU ENCOUNTER MATRIX MULTIPLICATION AGAIN, NEVER READ IT AS TWO VECTORS OR TWO MATRICES MULTIPLYING TOGETHER!**
 
+
+
+
 ## `How to interpret a Matrix Multiplication`
 
 There're only TWO part of this matrix multiplication:
@@ -567,14 +577,14 @@ SO ALL YOU NEED TO DO, IS JUST TO APPLY THOSE RULES ONE BY ONE, `LEFT BY RIGHT`,
 
 For example, we apply two transform rules to a vector `(x, y)`:
 
-![image](https://user-images.githubusercontent.com/14041622/38698319-3b1a687a-3ec7-11e8-9f18-cdeefd8874b8.png)
-
+![image](https://user-images.githubusercontent.com/14041622/38699596-0936739a-3ecb-11e8-93ea-8fdd79af23e4.png)
 It's working from `left to right`, exactly same with the function principles: `Shear( Rotate(x, y) )`.
+
+
 
 ## `Break the rule and do the math`
 
 In the `transform rule` as below:
-
 ![image](https://user-images.githubusercontent.com/14041622/38698610-39ec988c-3ec8-11e8-9fac-759fe64ff376.png)
 
 **WE HAVE TO BREAK THE RULE INTO SINGLE PARTS BEFORE WE DO THE CALCULATION.** 
@@ -582,7 +592,6 @@ In the `transform rule` as below:
 ![image](https://user-images.githubusercontent.com/14041622/38698753-b2b7801a-3ec8-11e8-843b-3431c4955d46.png)
 
 And since we made the rule for `i & j`, so let's apply the `unit vector` to `the Graph`:
-
 ![image](https://user-images.githubusercontent.com/14041622/38698988-632deb46-3ec9-11e8-9fd1-5edfef552f0f.png)
 
 Note that: 
