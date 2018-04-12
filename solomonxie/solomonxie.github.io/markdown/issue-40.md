@@ -460,7 +460,7 @@ So this is the **Learning path** of this topic:
 2. Matrix-vector product
 3. Matrix-matrix product
 
-## `What is the result of Matrix multiplication`
+## `Size of Matrix multiplication`
 Unlike `Vector multiplication` gives you only a number, `Matrix multiplication` gives you another `Matrix`, but a **SHRINK-SIZED** Matrix.
 ![image](https://user-images.githubusercontent.com/14041622/38666945-c23e7800-3e72-11e8-9428-8aba02e7234d.png)
 
@@ -472,6 +472,8 @@ and the **RESULT** is an `m×p matrix`.
 
 ## `Understand Matrix multiplication`
 There're so many different ways to understand it, to make sense of it, because it's so hard to understand.
+
+> If you only want to solve the problem, you only need 5 minutes to get it around, and you can skip all these below. But if you'd like to understand it, then prepare yourself for a couple of hours or days on this.
 
 The major fond of ways to understand are:
 - Through `Matrix transformation`
@@ -485,6 +487,8 @@ I found it very easy to understand it with `Real-life example` to an **intro lev
 > Why do we call a `matrix-vector product` as a twisted `dot product`, you could see below:
 ![image](https://user-images.githubusercontent.com/14041622/38662516-29af0b78-3e67-11e8-997c-63760193eba9.png)
 
+#### `Size of Matrix-vector product`
+![image](https://user-images.githubusercontent.com/14041622/38667518-37ae2a76-3e74-11e8-9b5f-80d762a3072f.png)
 
 
 ## Why is it multiplying this way
