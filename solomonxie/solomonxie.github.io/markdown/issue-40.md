@@ -161,6 +161,9 @@ Solve:
 
 
 # Vector span
+**It's extending the `unit vector` idea.**
+
+Refer to famous visualisation of 3Blue1Brown's video: [Linear combinations, span, and basis vectors](https://www.youtube.com/watch?v=k7RM-ot2NWY&t=0s&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=3)
 
 ## `R²` and `R³`
 `R²` means a `Real numbers 2D plane`.
