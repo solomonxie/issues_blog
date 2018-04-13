@@ -445,10 +445,12 @@ It means we eliminated all other variables and only left 1 variable in one equat
 # `Matrix multiplication`
 **IT IS A WHOLE NEW AREA ASIDE FROM MATRICES BASIC OPERATIONS**.
 
-> It's very difficult to make sense of it. But mathematicians just somehow make it work, it then is a `Human defined operation`, no sense but just to use it. If you only want to solve the problem, you only need 5 minutes to get it around, and you can skip all these below. But if you'd like to understand it, then prepare yourself for a couple of hours or days on this.
+It's very difficult to make sense of it. But mathematicians just somehow make it work, it then is a `Human defined operation`, it makes no sense but you just have to deal with it. 
+If you just need to solve the problem, you only need 5 minutes to get it around, and then you can skip all these below. 
+But if you'd like to understand it, then prepare yourself for a couple of hours or days on this.
 
-Just to clear, the `matrix multiplication` is using the method called **`Matrix-vector product`**, which is a "twisted" version of `dot product`.
 
+> It's necessary to make you confused with the operation below. Because that's most teachers start with to teach you how to multiply matrices. Don't worry, we're to skip this one and find a better perspective to solve it.
 ![image](https://user-images.githubusercontent.com/14041622/38692046-3d25a65a-3eb5-11e8-9609-0157bdcae291.png)
 
 
@@ -463,15 +465,6 @@ So this is the **Learning path** of this topic:
 2. **Linear transformations**
 2. Matrix-vector product
 3. Matrix-matrix product
-
-## `Size of Matrix multiplication`
-Unlike `Vector multiplication` gives you only a number, `Matrix multiplication` gives you another `Matrix`, but a **SHRINK-SIZED** Matrix.
-![image](https://user-images.githubusercontent.com/14041622/38666945-c23e7800-3e72-11e8-9428-8aba02e7234d.png)
-
-In General:
-To multiply an `m×n matrix` by an `n×p matrix`, the `n`s must be the same, 
-and the **RESULT** is an `m×p matrix`.
-![image](https://user-images.githubusercontent.com/14041622/38667056-0763bae4-3e73-11e8-88d4-7fc89cce8880.png)
 
 
 ## `Understand Matrix multiplication`
@@ -500,6 +493,169 @@ Refer to Khan lecture video: [Matrix vector products as linear transformations](
 **"ALL THE GRAPHIC PROCESSORS ARE JUST HARD-WIRED MATRIX MULTIPLIERS! ALL THEY DO IS JUST MULTIPLYING MATRICES!" - SAL KHAN**
 
 
+
+## `Linear transformation`
+> There're so many different ways to understand Matrix Multiplications, 
+and **Linear Transformations** is the best and probably the only one makes sense and perfect intuition to you, i.e. it might be the only chance to understand it after all.
+
+**LINEAR TRANSFORMATION IS THE VERY KEY TO OPEN UP ALL GETES IN LINEAR ALGEBRA, BECAUSE IT MAKES PERFECT SENSE OF MATRIX MULTIPLICATION.**
+
+To understand `matrix multiplication`, Linear Transformation is the very first thing you want to learn. It's fairly important and can't get away with.
+
+> `Linear transformation` is a special kind of Transformation, which deals with `vectors`.
+
+Need to mention that, 3Blue1Brown has done well on build intuition on this topic:
+Refer to 3Blue1Brown's video: [Linear transformations and matrices](https://www.youtube.com/watch?v=kYB8IZa5AuE&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=4)
+Refer to the same video: [How does linear transformation work on unit vectors](https://youtu.be/kYB8IZa5AuE?t=3m47s)
+Refer to 3Blue1Brown's video: [Three-dimensional linear transformations](https://www.youtube.com/watch?v=rHLEWRxRGiM&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=6)
+Refer to 3Blue1Brown's video: [Matrix multiplication as composition](https://www.youtube.com/watch?v=XkY2DOUCWMU&index=5&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+
+
+> "Matrices give us  **a language** to describe these transformations, where the columns represent those coordinates. 
+And matrix-vector multiplication is just a way to compute what that transformation does to a given vector. 
+Every time you see a matrix, you can interpret it as a certain transformation of space. 
+Once you digest the idea, you’re in a great position to understand the linear algebra deeply. 
+**Almost all of the topics in linear algebra will become easy to understand once you start thinking about matrices as transformations of space.**" - 3Blue1Brown
+
+
+**YOU JUST HAVE TO MEMORISE THIS EQUATION AND GET THE IDEA. THAT IS GONNA HELP YOU OUT FROM ALL THE IDEAS AND PROBLEMS IN LINEAR ALGEBRA.**
+![image](https://user-images.githubusercontent.com/14041622/38699787-a0232910-3ecb-11e8-844e-30ccf58a5500.png)
+
+
+## `Change the basis`
+> `Changing basis` is the very core of Linear Transformation. Every single move is based on this.
+
+Remember a vector `(a, b)` could also present in `unit vector` form as `v = ai + bj`,
+and unit vectors are `i = (1, 0) & j = (0, 1)`.
+
+If we want to transform a vector, like `move, flip, rotate, scale`, the thing we'll do is:
+**TO CHANGE THE UNIT VECTOR `i` AND `j`**.
+
+For example, there's a vector `v = (-1, 2)`, and it can present as `v = -1i + 2j`, then we're to do some movement to it:
+- Move: We let unit vector `i = (100, 0)`, then the vector moves to the right becomes `(-100, 2)`.
+- Rotate: we let unit vector `i = (0, 1)` and `j = (-1, 0)`, then the vector rotates 90° becomes `(-2, -1)`.
+**THAT'S THE MAGIC!!**
+
+By telling where the `unit vectors` are to go, we can create a pattern, a mapping rule, so that every vector uses this map, this rule, this pattern will have the same transformation!
+
+Another example: 
+Assume there's a vector `v=(5,7)`, and let the unit vector `i=(3,-2)` and `j=(2,1)`, and present this **`TRANSFORM PATTERN`** as below:
+![image](https://user-images.githubusercontent.com/14041622/38697466-ae386936-3ec4-11e8-82b8-b88130a4906b.png)
+
+And we present this `Applying a transformation to a vector` in the form below:
+![image](https://user-images.githubusercontent.com/14041622/38697449-9b20935a-3ec4-11e8-917a-342a23259eec.png)
+
+**SO WHENEVER YOU ENCOUNTER MATRIX MULTIPLICATION AGAIN, NEVER READ IT AS TWO VECTORS OR TWO MATRICES MULTIPLYING TOGETHER!**
+
+
+
+
+## `How to interpret a Matrix Multiplication`
+
+There're only TWO part of this matrix multiplication:
+- `The Graph`: the 1st on right item.
+- `The Rules`: All the rest Matrices on the left of `The Graph`.
+
+`The Graph` could be one point (vector) or many points (vectors), e.g.:
+- A point: `(2,3)`
+- A triangle: `[ (3,0)   (0,4)   (3,4) ]`
+- A rectangle: `[ (3,0)   (3,4)    (0,4)  (0,0)]`
+- Any shape in any dimension.....
+
+SO ALL YOU NEED TO DO, IS JUST TO APPLY THOSE RULES ONE BY ONE, `LEFT BY RIGHT`, AND GET A NEW GRAPH!!!
+
+For example, we apply two transform rules to a vector `(x, y)`:
+
+![image](https://user-images.githubusercontent.com/14041622/38699596-0936739a-3ecb-11e8-93ea-8fdd79af23e4.png)
+
+It's exactly same with the function principles: `Shear( Rotate(x, y) )`.
+
+![image](https://user-images.githubusercontent.com/14041622/38699833-cb3ac450-3ecb-11e8-8364-bb1540ab33ae.png)
+
+
+
+## `Break up the Matrices with its Geometric meaning`
+
+In the `transform rule` as below:
+![image](https://user-images.githubusercontent.com/14041622/38698610-39ec988c-3ec8-11e8-9fac-759fe64ff376.png)
+
+**WE HAVE TO BREAK THE MATRICES INTO SINGLE PARTS BEFORE WE DO THE CALCULATION.** 
+
+![image](https://user-images.githubusercontent.com/14041622/38698753-b2b7801a-3ec8-11e8-843b-3431c4955d46.png)
+
+And since we made the rule for `i & j`, so let's apply the `unit vector` to `the Graph`:
+![image](https://user-images.githubusercontent.com/14041622/38698988-632deb46-3ec9-11e8-9fd1-5edfef552f0f.png)
+
+Note that: 
+- The original graph is `v = 5i + 7j`, so after applying the new rule of `i & j`, we get: 
+`v = 5(3,-2) + 7(2,1)`
+- And now we could do the `Vector multiply a scalar` method, to get this:
+`v = (15,-10) + (14,7)`
+- Then we could do `Add two vectors`:
+`v = (19, -3)`
+- So after applying the transformation rule, we successfully transformed the vector to a new position:
+ `(19, -3)`
+
+
+
+
+## `Size of Matrix multiplication`
+Unlike `Vector multiplication` gives you only a number, `Matrix multiplication` gives you another `Matrix`, but a **SHRINK-SIZED** Matrix.
+![image](https://user-images.githubusercontent.com/14041622/38666945-c23e7800-3e72-11e8-9428-8aba02e7234d.png)
+
+In General:
+To multiply an `m×n matrix` by an `n×p matrix`, the `n`s must be the same, 
+and the **RESULT** is an `m×p matrix`.
+![image](https://user-images.githubusercontent.com/14041622/38667056-0763bae4-3e73-11e8-88d4-7fc89cce8880.png)
+
+
+
+
+
+## `Matrix Transformation`
+> It's a subset of `Linear transformation`, just with `higher dimension rules` & `multiple points graph` multiplying together. 
+
+**YOU BREAK `THE RULE` IN TO DIFFERENT UNIT VECTORS i, j, k... AND BREAK THE GRAPH INTO DIFFERENT POINTS, AND APPLY EACH i, j, k RULES TO EACH POINT.**
+
+
+### Example: 3x2 Matrix with 2x2 Matrix
+![image](https://user-images.githubusercontent.com/14041622/38701147-bb7e535c-3ecf-11e8-8fe4-bf5582950785.png)
+Solve:
+- First we know it's a 3x2 Matrix multiply a 2x2 Matrix, it's valid, and the new Matrix's size would be 3x2.
+- And then we multiply each by each according to their **dimension**:
+![image](https://user-images.githubusercontent.com/14041622/38701686-1e31f46c-3ed1-11e8-94f9-b569f6e7fdf7.png)
+- We get the answer:
+![image](https://user-images.githubusercontent.com/14041622/38701899-b3ad71d8-3ed1-11e8-9a88-fd535ebe30ea.png)
+
+### Example: 2x2 Matrix with 2x3 Matrix
+![image](https://user-images.githubusercontent.com/14041622/38701919-c187acd8-3ed1-11e8-8997-dc15d5acf4ca.png)
+Solve:
+- It's will get a 2x3 new Matrix (just for intuition), then we get the answer:
+![image](https://user-images.githubusercontent.com/14041622/38702654-c433b952-3ed3-11e8-97af-5adaa79fa1c6.png)
+
+
+### Example: Transform Graphs
+![image](https://user-images.githubusercontent.com/14041622/38702739-fbd6997e-3ed3-11e8-9dac-cfd2b742e951.png)
+![image](https://user-images.githubusercontent.com/14041622/38702750-023c3c4c-3ed4-11e8-88dd-7568e10d798f.png)
+Solve:
+- Just to list all points of this graph:
+`(-4,8), (-8,-4), (-4,-4), (0,4)`
+- Arrange points to a Matrix:
+![image](https://user-images.githubusercontent.com/14041622/38702890-5def64c4-3ed4-11e8-87a4-4dcc1db9c7ec.png)
+- Apply the Matrix R to the Graph's matrix. Do the math.
+
+
+## `Most common Matrix Transformations`
+> One single matrix to present the movement? Yes!
+
+[Refer to Math planet: Transformation using matrices](https://www.mathplanet.com/education/geometry/transformations/transformation-using-matrices)
+
+### Rotation
+![image](https://user-images.githubusercontent.com/14041622/38721496-0a0e4f9c-3f2d-11e8-8e8c-f83a4b69a41f.png)
+
+### Reflection
+![image](https://user-images.githubusercontent.com/14041622/38721364-7f5ab8d6-3f2c-11e8-81ca-b8084a627ca2.png)
+![image](https://user-images.githubusercontent.com/14041622/38721371-85145e1c-3f2c-11e8-91f4-fe424ab86a5a.png)
 
 
 
@@ -603,6 +759,18 @@ Note that:
 `v = (19, -3)`
 - So after applying the transformation rule, we successfully transformed the vector to a new position:
  `(19, -3)`
+
+
+
+
+## `Size of Matrix multiplication`
+Unlike `Vector multiplication` gives you only a number, `Matrix multiplication` gives you another `Matrix`, but a **SHRINK-SIZED** Matrix.
+![image](https://user-images.githubusercontent.com/14041622/38666945-c23e7800-3e72-11e8-9428-8aba02e7234d.png)
+
+In General:
+To multiply an `m×n matrix` by an `n×p matrix`, the `n`s must be the same, 
+and the **RESULT** is an `m×p matrix`.
+![image](https://user-images.githubusercontent.com/14041622/38667056-0763bae4-3e73-11e8-88d4-7fc89cce8880.png)
 
 
 
