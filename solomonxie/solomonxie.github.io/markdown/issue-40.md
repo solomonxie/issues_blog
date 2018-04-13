@@ -486,30 +486,21 @@ Although `Real-life example` makes sense easily, but it aren't gonna help solvin
 So `Matrix transformation` is the ultimate way to understand Matrix multiplications.
 And it proved that it is the best way for that, and for all core ideas of `Linear Algebra`.
 
-
-## `Matrix-vector product`
-We call a `matrix-vector product` as a twisted `dot product`.
-
-
-A `Matrix-vector product` is ALWAYS A **`Linear transformation`**.
-Refer to Khan lecture video: [Matrix vector products as linear transformations](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/linear-transformations/v/matrix-vector-products-as-linear-transformations)
-
-In the GPU of a computer,
-**"ALL THE GRAPHIC PROCESSORS ARE JUST HARD-WIRED MATRIX MULTIPLIERS! ALL THEY DO IS JUST MULTIPLYING MATRICES!" - SAL KHAN**
+Before we start, let's make things clear:
+- Dot product: Vector * Vector
+- Matrix-vector product: Matrix * Vector
+- Matrix-Matrix product: Matrix * Matrix
 
 ![image](https://user-images.githubusercontent.com/14041622/38662516-29af0b78-3e67-11e8-997c-63760193eba9.png)
 
 
-#### `Size of Matrix-vector product`
-![image](https://user-images.githubusercontent.com/14041622/38667518-37ae2a76-3e74-11e8-9b5f-80d762a3072f.png)
+Refer to Khan lecture video: [Matrix vector products as linear transformations](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/linear-transformations/v/matrix-vector-products-as-linear-transformations)
+
+> In the GPU of a computer,
+**"ALL THE GRAPHIC PROCESSORS ARE JUST HARD-WIRED MATRIX MULTIPLIERS! ALL THEY DO IS JUST MULTIPLYING MATRICES!" - SAL KHAN**
 
 
-## Why is it multiplying this way
-**TO UNDERSTAND IT, YOU SHOULD FIND MORE SENSE IN GEOMETRIC WAY: MATRIX TRANSFORMATION.**
 
-![image](https://user-images.githubusercontent.com/14041622/38662212-27499d86-3e66-11e8-9337-d8e076783370.png)
-
-![screencast 2018-04-12 15-23-39](https://user-images.githubusercontent.com/14041622/38662131-dee63040-3e65-11e8-979d-285bd7c4b325.gif)
 
 
 
