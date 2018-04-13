@@ -814,7 +814,7 @@ It's very special, and is the **ONLY** matrix can IGNORE the order when multiply
 
 ## `Calculate the Inverse of a Matrix`
 
-![image](https://user-images.githubusercontent.com/14041622/38729336-4202f232-3f45-11e8-8ea9-5012b308e3a4.png)
+> "Calculating it for a 2x2 is fairly straightforward, 3x3 becomes a little bit hairy, 4x4 will take you all day, 5x5 you're almost definitely gonna do a careless mistake if you do an inverse of matrix." - Sal Khan
 
 
 ### 2x2 Matrix inverse
