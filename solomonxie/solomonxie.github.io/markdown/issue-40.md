@@ -460,7 +460,7 @@ This topic is very easy to use but very difficult to understand!
 But I rather to understand it instead of just memorising it. 
 So this is the **Learning path** of this topic:
 1. Dot product
-2. Linear transformations
+2. **Linear transformations**
 2. Matrix-vector product
 3. Matrix-matrix product
 
@@ -591,12 +591,12 @@ It's exactly same with the function principles: `Shear( Rotate(x, y) )`.
 
 
 
-## `Break the rule and do the math`
+## `Break up the Matrices with its Geometric meaning`
 
 In the `transform rule` as below:
 ![image](https://user-images.githubusercontent.com/14041622/38698610-39ec988c-3ec8-11e8-9fac-759fe64ff376.png)
 
-**WE HAVE TO BREAK THE RULE INTO SINGLE PARTS BEFORE WE DO THE CALCULATION.** 
+**WE HAVE TO BREAK THE MATRICES INTO SINGLE PARTS BEFORE WE DO THE CALCULATION.** 
 
 ![image](https://user-images.githubusercontent.com/14041622/38698753-b2b7801a-3ec8-11e8-843b-3431c4955d46.png)
 
