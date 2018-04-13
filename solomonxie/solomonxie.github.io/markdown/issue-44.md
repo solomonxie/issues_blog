@@ -25,9 +25,8 @@
 - [x] [Geometry](https://www.khanacademy.org/mission/geometry)
 - [x] [Trigonometry](https://www.khanacademy.org/mission/trigonometry)
 - [x] [High school statistics](https://www.khanacademy.org/mission/probability)
-- [ ] [Precalculus](https://www.khanacademy.org/mission/precalculus)
-    - [x] 65%
-    - [x] 78%
+- [x] [Precalculus](https://www.khanacademy.org/mission/precalculus)
+
 
 #### Practice To-do List
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
@@ -38,11 +37,11 @@
 - [x] [Geometry](https://www.khanacademy.org/math/geometry?t=practice)
 - [x] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
 - [x] [High school statistics](https://www.khanacademy.org/math/probability?t=practice)
-- [ ] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice)
+- [x] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice)
     - [x] Trigonometry
     - [x] Conic sections
     - [x] Vectors
-    - [ ] Matrices
+    - [x] Matrices
     - [x] Complex numbers
     - [x] Probability and combinatorics
     - [x] Series
@@ -70,7 +69,8 @@
 - [x] Mathematics 1
 - [x] Mathematics 2
 - [x] Mathematics 3
-- [ ] [Precalculus](https://www.khanacademy.org/mission/precalculus)
+- [x] [Precalculus](https://www.khanacademy.org/mission/precalculus) (100%)
+- [ ] [Linear Algebra (No mastery)](https://www.khanacademy.org/math/linear-algebra)
 - [ ] AP calculus AB
 - [ ] AP calculus BC
 - [ ] Differential calculus
@@ -78,8 +78,6 @@
 - [ ] Multivariable calculus
 - [ ] Differential equations
 - [ ] [AP Statistics (No mastery)](https://www.khanacademy.org/math/ap-statistics)
-- [ ] [Linear Algebra (No mastery)](https://www.khanacademy.org/math/linear-algebra)
-
 
 ## Review hardcore quiz
 - [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
