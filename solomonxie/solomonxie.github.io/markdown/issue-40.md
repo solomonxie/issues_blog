@@ -803,6 +803,12 @@ Refer to 3Blue1Brown: [Inverse matrices, column space and null space ](https://w
 
 ![image](https://user-images.githubusercontent.com/14041622/38731911-c38a8000-3f4e-11e8-9484-00f53cb2dda0.png)
 
+### Why is the Inverse Matrix on the Left of Vector
+Because Matrix `A` is always as a `"Coefficient"` to the vector, or as a `transformation rule` to the vector, so it's always on the left of the vector ( or the graph).
+
+![image](https://user-images.githubusercontent.com/14041622/38735715-33449f86-3f5c-11e8-92f1-eee513f4956b.png)
+
+
 
 ## `Identity Matrix`
 > It's a simple yet important notation for doing dividing a matrix.
