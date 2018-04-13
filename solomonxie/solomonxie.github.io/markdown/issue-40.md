@@ -775,3 +775,41 @@ Then the `j unit vector` flip over to the **LEFT** side of `i unit vector`.
 [Refer to 3Blue1Brown for visualisation](https://youtu.be/Ip3X9LOh2dk?t=3m46s)
 
 ![image](https://user-images.githubusercontent.com/14041622/38727271-19c1fa62-3f3f-11e8-9fda-da457f2cf4d9.png)
+
+
+
+# `Inverse Matrices`
+> It's actually the `Matrix Division`.
+
+[Refer to maths is fun: Inverse of a Matrix.](http://www.mathsisfun.com/algebra/matrix-inverse.html)
+
+## `Identity Matrix`
+> It's a simple yet important notation for doing dividing a matrix.
+
+The `Identity Matrix` is the matrix equals to the number of `1`:
+![image](https://user-images.githubusercontent.com/14041622/38728577-d929f67c-3f42-11e8-9e0b-fb6d4b36bb50.png)
+
+> It's very much more intuitive to think a `identity matrix` as **`one unit vector`**.
+- 1-Dimension: `x = 1`
+- 2-Dimensions: `v = (1, 1)`
+- 3-Dimensions: `v = (1, 1, 1)`
+
+![image](https://user-images.githubusercontent.com/14041622/38728979-0b516648-3f44-11e8-9b52-ed7737029f3a.png)
+
+
+### The features of Identity Matrix
+- It is `square` (m×m Matrix)
+- It can be large or small (2×2, 3×3, 100×100, ... whatever)
+- It has `1`s on the diagonal and `0`s everywhere else
+- Its symbol is the capital letter `𝗜`
+
+More importantly, **IT CAN SWITCH SIDE WHEN MULTIPLYING ANOTHER MATIRX!**
+It's very special, and is the **ONLY** matrix can IGNORE the order when multiplying another matrix.
+![image](https://user-images.githubusercontent.com/14041622/38729092-6086a8f8-3f44-11e8-861b-8d8e9f1bb592.png)
+
+
+
+## `Calculate the Inverse of a Matrix`
+
+### 2x2 Matrix inverse
+![image](https://user-images.githubusercontent.com/14041622/38729138-92aa20c6-3f44-11e8-93e0-828fadb5cd01.png)
