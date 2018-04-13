@@ -645,3 +645,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/38702890-5def64c4-3ed4-11e8-87a4-4dcc1db9c7ec.png)
 - Apply the Matrix R to the Graph's matrix. Do the math.
 
+
+## `Elementary Matrices for Linear Transformation in ℝ²`
+![image](https://user-images.githubusercontent.com/14041622/38720079-6cb55aec-3f27-11e8-9406-eb97548b19d9.png)
+![image](https://user-images.githubusercontent.com/14041622/38720126-960d8bf8-3f27-11e8-8d63-9a0e2f20f499.png)
