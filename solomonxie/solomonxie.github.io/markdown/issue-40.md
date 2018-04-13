@@ -647,11 +647,9 @@ Solve:
 [Refer to Math planet: Transformation using matrices](https://www.mathplanet.com/education/geometry/transformations/transformation-using-matrices)
 
 ### Rotation
+![image](https://user-images.githubusercontent.com/14041622/38721496-0a0e4f9c-3f2d-11e8-8e8c-f83a4b69a41f.png)
 
 ### Reflection
 ![image](https://user-images.githubusercontent.com/14041622/38721364-7f5ab8d6-3f2c-11e8-81ca-b8084a627ca2.png)
 ![image](https://user-images.githubusercontent.com/14041622/38721371-85145e1c-3f2c-11e8-91f4-fe424ab86a5a.png)
 
-
-### xxx
-![image](https://user-images.githubusercontent.com/14041622/38720126-960d8bf8-3f27-11e8-8d63-9a0e2f20f499.png)
