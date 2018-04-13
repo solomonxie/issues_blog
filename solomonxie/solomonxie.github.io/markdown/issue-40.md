@@ -715,3 +715,33 @@ And here it comes, **MATRICES MULTIPLICATION COULD ALSO REPRESENT TRANSFORM RULE
 ![image](https://user-images.githubusercontent.com/14041622/38726318-671f2f9e-3f3c-11e8-96d3-2b3086cc1cb5.png)
 
 
+
+
+
+# `Determinant`
+It's quite easy to calculate, and not too hard to understand what's behind it.
+> The `Determinant of a transformation` is **How much the AREA of the new Graph scaled.**
+
+**JUST TO REMEMBER: THE DETERMINANT IS ABOUT AREA OF THE GRAPH!**
+
+[Refer to 3Blue1Brown: The determinant](https://www.youtube.com/watch?v=Ip3X9LOh2dk&index=7&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&t=0s)
+
+![image](https://user-images.githubusercontent.com/14041622/38727000-5d6a07e2-3f3e-11e8-9239-d40c128378ac.png)
+
+
+### `Unit vector graph`
+![image](https://user-images.githubusercontent.com/14041622/38726803-d05d599e-3f3d-11e8-9f94-9904eb22ffdf.png)
+
+We all know the `unit vector i & j`  made an area of `1`.
+But when we do a `Linear transformation` to the `unit vector graph`, the area is not `1` anymore, might be bigger or smaller. 
+So how much it re-sized we call it the `determinant`.
+
+![image](https://user-images.githubusercontent.com/14041622/38726771-b9f41b66-3f3d-11e8-8f7f-3b81368238e2.png)
+
+Note that:
+- Since `a/1 = a`, so calculating the **Area** of the `new unit vector graph`, is equal to the scalar itself.
+- Calculating how much the `unit vector graph` scaled, is exactly equal to how much the whole graph scaled.
+
+### Irregular shape
+> If it's not a `grid square` can be approximately very well  by many many `small piece of grid squares`.
+![image](https://user-images.githubusercontent.com/14041622/38726881-04f79232-3f3e-11e8-9ca1-83ef2416ca0b.png)
