@@ -817,6 +817,9 @@ Two conditions make a matrix NOT invertible:
 
 ![image](https://user-images.githubusercontent.com/14041622/38730081-c76d03ca-3f47-11e8-8730-2a83613f8f17.png)
 
+## `Adjugate matrix`
+> It's also called the `Adjoint of a matrix`.
+
 
 ## `Calculate the Inverse of a Matrix`
 
