@@ -30,6 +30,32 @@ Matrices:
 - [ ] Vector: Dot product & Cross product
 
 
+## Practice To-do List
+- [ ] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice)
+    - [x] Trigonometry
+    - [x] Conic sections
+    - [x] Vectors
+    - [ ] Matrices
+    - [x] Complex numbers
+    - [x] Probability and combinatorics
+    - [x] Series
+
+## Study path & Khan Academy Mastery challenge
+- [ ] [Precalculus](https://www.khanacademy.org/mission/precalculus)
+- [ ] [Linear Algebra (No mastery)](https://www.khanacademy.org/math/linear-algebra)
+- [ ] AP calculus AB
+- [ ] AP calculus BC
+- [ ] Differential calculus
+- [ ] Integral calculus
+- [ ] Multivariable calculus
+- [ ] Differential equations
+- [ ] [AP Statistics (No mastery)](https://www.khanacademy.org/math/ap-statistics)
+
+## Review hardcore quiz
+- [ ] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice#precalc-matrices)
+    - [ ] [Conversion of complex numbers](https://www.khanacademy.org/math/precalculus/imaginary-and-complex-numbers/modal/quiz/polar-form-of-complex-numbers-quiz)
+
+
 ## TL;DR. Archive Link: [why do I need to learn Linear Algebra?](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-368829945)
 
 

@@ -29,7 +29,7 @@
     - [x] 65%
     - [x] 78%
 
-#### Practice before mastery challenge
+#### Practice To-do List
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
 - [x] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
@@ -47,7 +47,7 @@
     - [x] Probability and combinatorics
     - [x] Series
 
-## Mastery challenge
+## Khan Academy Mastery challenge
 - [x] Early Math (100%)
 - [x] Kindergarten (100%)
 - [x] 1st grade (100%)
