@@ -1,4 +1,4 @@
-# Calculus & Linear Algebra from the ground up
+# Linear Algebra from the ground up
 > Quick notes on College level of Maths or Stats for machine learning.
 
 
