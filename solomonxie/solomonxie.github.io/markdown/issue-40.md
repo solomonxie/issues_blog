@@ -880,7 +880,7 @@ After doing a transformation to a graph, it is:
 In the case of 2x2 Matrices, the `Rank 2` is the best it can be.
 In the case of 3x3 Matrices, the `Rank 2` means it collapsed, or dimensional reduced.
 
-When it's the highest rank the output can be, we call it **`THE FULL RANK`**.
+When it's the highest rank the Matrix can be, we call it **`THE FULL RANK`**.
 
 ## `Column space of Matrix`
 Means `The SET of all possible outputs a matrix`.
