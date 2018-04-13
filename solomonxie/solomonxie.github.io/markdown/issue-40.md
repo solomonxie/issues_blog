@@ -747,6 +747,21 @@ Note that:
 ![image](https://user-images.githubusercontent.com/14041622/38726881-04f79232-3f3e-11e8-9ca1-83ef2416ca0b.png)
 
 
+## `Determinant formula for 2x2 Matrix`
+![image](https://user-images.githubusercontent.com/14041622/38727472-ab8f4d64-3f3f-11e8-8f32-05f87b346989.png)
+
+[Refer to Khan video.](https://www.khanacademy.org/math/precalculus/precalc-matrices/modal/v/finding-the-determinant-of-a-2x2-matrix)
+
+> It will be so much easier if you just to memorise the formula, than to understand where it comes from, which is also not necessary to do.
+
+![image](https://user-images.githubusercontent.com/14041622/38727512-cab770b8-3f3f-11e8-91e2-2335f275c11f.png)
+
+## `Determinant formula for 3x3 Matrix`
+> I hope you're not gonna have chance to apply this formula.
+
+![image](https://user-images.githubusercontent.com/14041622/38727569-f9c986b6-3f3f-11e8-87db-d84be4386175.png)
+
+
 ## `Zero determinant`
 If the determinant of a transformation `det(M) = 0`, then it means the Transformation squishes the graph to a line or a point!
 
