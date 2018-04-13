@@ -419,16 +419,17 @@ List it again:
 
 # `Matrices intro`
 > `Matrices` are just a **rectangle array of numbers**.
+Prerequisites: `Systems of equations`
 
 ![image](https://user-images.githubusercontent.com/14041622/38552009-51700eb2-3ced-11e8-86ce-15a21a9b3c0e.png)
 
-### Prerequisites: `Systems of equations`
 
 Matrices could be seen as a group of informations arranged **IN A CERTAIN WAY**.
 **IT'S SO SO SO SO SO EASIER TO THINK IT AS A SYSTEM OF EQUATIONS.**
 
 ![image](https://user-images.githubusercontent.com/14041622/38552056-6a3a18fc-3ced-11e8-9f40-bae36f2b775d.png)
 
+![image](https://user-images.githubusercontent.com/14041622/38731392-9ab1ae9e-3f4c-11e8-8c8b-7c53436ad624.png)
 
 ## `Matrix row operations & Systems of equations`
 > It's very SAME with operations of `systems of equations`.
@@ -782,6 +783,7 @@ Then the `j unit vector` flip over to the **LEFT** side of `i unit vector`.
 > There is actually no concept of `division of matrix`. But similarly we can let it `multiply an inverse` to achieve the same goal.
 
 [Refer to maths is fun: Inverse of a Matrix.](http://www.mathsisfun.com/algebra/matrix-inverse.html)
+Refer to 3Blue1Brown: [Inverse matrices, column space and null space ](https://www.youtube.com/watch?v=uQhTuRlWMxw&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=8)
 
 **SPOILER ALERT: EVEN 3x3 MATRIX INVERSE IS ALREADY TOO HEAVY TO CALCULATE, SO BETTER JUST TO MEMORISE THE 2x2  AND LET COMPUTER DO ALL THE HIGHER DIMENSIONS.**
 
