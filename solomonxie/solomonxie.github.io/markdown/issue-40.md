@@ -530,7 +530,8 @@ Once you digest the idea, you’re in a great position to understand the linear 
 ![image](https://user-images.githubusercontent.com/14041622/38699787-a0232910-3ecb-11e8-844e-30ccf58a5500.png)
 
 
-## `How does Linear transformation work`
+## `Change the basis`
+> `Changing basis` is the very core of Linear Transformation. Every single move is based on this.
 
 Remember a vector `(a, b)` could also present in `unit vector` form as `v = ai + bj`,
 and unit vectors are `i = (1, 0) & j = (0, 1)`.
@@ -569,7 +570,6 @@ There're only TWO part of this matrix multiplication:
 - A rectangle: `[ (3,0)   (3,4)    (0,4)  (0,0)]`
 - Any shape in any dimension.....
 
-### `Change the basis`
 SO ALL YOU NEED TO DO, IS JUST TO APPLY THOSE RULES ONE BY ONE, `LEFT BY RIGHT`, AND GET A NEW GRAPH!!!
 
 For example, we apply two transform rules to a vector `(x, y)`:
