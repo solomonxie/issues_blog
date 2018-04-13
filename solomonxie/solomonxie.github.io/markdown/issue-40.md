@@ -719,7 +719,7 @@ And here it comes, **MATRICES MULTIPLICATION COULD ALSO REPRESENT TRANSFORM RULE
 
 
 
-# `Determinant`
+# `Determinant of Transformation`
 It's quite easy to calculate, and not too hard to understand what's behind it.
 > The `Determinant of a transformation` is **How much the AREA of the new Graph scaled.**
 
@@ -782,12 +782,26 @@ Then the `j unit vector` flip over to the **LEFT** side of `i unit vector`.
 # `Inverse Matrices`
 > There is actually no concept of `division of matrix`. But similarly we can let it `multiply an inverse` to achieve the same goal.
 
-[Refer to maths is fun: Inverse of a Matrix.](http://www.mathsisfun.com/algebra/matrix-inverse.html)
 Refer to 3Blue1Brown: [Inverse matrices, column space and null space ](https://www.youtube.com/watch?v=uQhTuRlWMxw&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=8)
+[Refer to maths is fun: Inverse of a Matrix.](http://www.mathsisfun.com/algebra/matrix-inverse.html)
 
 **SPOILER ALERT: EVEN 3x3 MATRIX INVERSE IS ALREADY TOO HEAVY TO CALCULATE, SO BETTER JUST TO MEMORISE THE 2x2  AND LET COMPUTER DO ALL THE HIGHER DIMENSIONS.**
 
 ![image](https://user-images.githubusercontent.com/14041622/38729660-3e545774-3f46-11e8-94e8-928dde93154f.png)
+
+## `Understand the Inverse Matrix`
+> 3Blue1Brown's video perfect explained the intuition of it, pretty much everything you need to know.
+[Link: Inverse matrices, column space and null space ](https://youtu.be/uQhTuRlWMxw?t=3m58s)
+
+**It makes lots more sense in geometric meanings, that an Inverse Matrix just to RECOVER the transformation of a graph back to before.**
+
+![image](https://user-images.githubusercontent.com/14041622/38731998-1c629514-3f4f-11e8-8e67-7678eea7ac35.png)
+
+![image](https://user-images.githubusercontent.com/14041622/38732004-2409df0c-3f4f-11e8-8d34-fe2c9c86ab2d.png)
+
+![image](https://user-images.githubusercontent.com/14041622/38731792-5a980a18-3f4e-11e8-8ebb-dd3a11f3b540.png)
+
+![image](https://user-images.githubusercontent.com/14041622/38731911-c38a8000-3f4e-11e8-9484-00f53cb2dda0.png)
 
 
 ## `Identity Matrix`
