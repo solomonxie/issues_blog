@@ -817,14 +817,29 @@ Two conditions make a matrix NOT invertible:
 
 ![image](https://user-images.githubusercontent.com/14041622/38730081-c76d03ca-3f47-11e8-8730-2a83613f8f17.png)
 
-## `Adjugate matrix`
+## `Adjugate Matrix`
 > It's also called the `Adjoint of a matrix`.
+
+Refer to maths is fun: [Inverse of a Matrix using Minors, Cofactors and Adjugate.](https://www.mathsisfun.com/algebra/matrix-inverse-minors-cofactors-adjugate.html)
+
+### Adjugate of 2x2 Matrix
+![image](https://user-images.githubusercontent.com/14041622/38730850-c295be48-3f4a-11e8-8ede-eb652ea0cc43.png)
 
 
 ## `Calculate the Inverse of a Matrix`
-
 > "Calculating it for a 2x2 is fairly straightforward, 3x3 becomes a little bit hairy, 4x4 will take you all day, 5x5 you're almost definitely gonna do a careless mistake if you do an inverse of matrix." - Sal Khan
 
+![image](https://user-images.githubusercontent.com/14041622/38730748-54e85cc0-3f4a-11e8-9667-994efe1193c1.png)
 
 ### 2x2 Matrix inverse
+> With a 2x2 matrix, you really don't need to think much and waste time on the full steps, just simply follow this formula `1/Determinant × Adjugate`
+
 ![image](https://user-images.githubusercontent.com/14041622/38729138-92aa20c6-3f44-11e8-93e0-828fadb5cd01.png)
+
+
+### 3x3 Matrix inverse
+We can calculate the Inverse of a Matrix by:
+- Step 1: calculating the Matrix of Minors,
+- Step 2: then turn that into the Matrix of Cofactors,
+- Step 3: then the Adjugate, and
+- Step 4: multiply that by 1/Determinant.
