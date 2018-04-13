@@ -634,7 +634,6 @@ Note that:
 
 
 
-
 # `Matrix Transformation`
 > It's a subset of `Linear transformation`, just with `higher dimension rules` & `multiple points graph` multiplying together. 
 
@@ -676,6 +675,11 @@ Solve:
 - Apply the Matrix R to the Graph's matrix. Do the math.
 
 
+### `More examples`
+
+Refer to [Symbolab the Online math solver](https://www.symbolab.com/solver/matrix-vector-calculator/%5Cbegin%7Bpmatrix%7D-1%5C%5C%204%5C%5C%204%5Cend%7Bpmatrix%7D%5Ccdot%5Cbegin%7Bpmatrix%7D0%26-2%5Cend%7Bpmatrix%7D), which offers answers of any matrices operation step by step.
+
+
 ## `Most common Matrix Transformations`
 > One single matrix to present the movement? Yes!
 
@@ -693,8 +697,10 @@ Solve:
 
 
 ## `Composition of Matrix Multiplication`
-> Although you can see two matrices multiplying together as `a transform applying to a graph`.
-But actually sometime you can see it in slightly different perspective.
+> `Composition of Matrix Multiplication` means **More than one linear transformations applies to a graph one by one.**
+
+**Although you can see two matrices multiplying together as `a transform applying to a graph`.
+But actually sometime you can see it in slightly different perspective.**
 
 [Refer to 3Blue1Brown: Matrix multiplication as composition](https://www.youtube.com/watch?v=XkY2DOUCWMU&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=5)
 
