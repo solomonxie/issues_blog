@@ -134,7 +134,7 @@ When you scale a graph by a factor:
 
 ## Unit vectors
 > Simply say, a `unit vector` is just a vector which magnitude is `1`. Kinda like the unit circle idea.
-It's also called `Engineering notation`.
+It's also called `Engineering notation`, or the `basis vector`.
 
 ![image](https://user-images.githubusercontent.com/14041622/38659785-831c216e-3e5d-11e8-8623-77fcc365adcb.png)
 
