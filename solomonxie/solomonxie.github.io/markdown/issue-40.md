@@ -625,7 +625,22 @@ Note that:
 
 
 
-## `Size of Matrix multiplication`
+
+
+
+
+
+
+
+
+
+
+# `Matrix Transformation`
+> It's a subset of `Linear transformation`, just with `higher dimension rules` & `multiple points graph` multiplying together. 
+
+**YOU BREAK `THE RULE` IN TO DIFFERENT UNIT VECTORS i, j, k... AND BREAK THE GRAPH INTO DIFFERENT POINTS, AND APPLY EACH i, j, k RULES TO EACH POINT.**
+
+### `Size of Matrix multiplication`
 Unlike `Vector multiplication` gives you only a number, `Matrix multiplication` gives you another `Matrix`, but a **SHRINK-SIZED** Matrix.
 ![image](https://user-images.githubusercontent.com/14041622/38666945-c23e7800-3e72-11e8-9428-8aba02e7234d.png)
 
@@ -633,16 +648,6 @@ In General:
 To multiply an `m×n matrix` by an `n×p matrix`, the `n`s must be the same, 
 and the **RESULT** is an `m×p matrix`.
 ![image](https://user-images.githubusercontent.com/14041622/38667056-0763bae4-3e73-11e8-88d4-7fc89cce8880.png)
-
-
-
-
-
-## `Matrix Transformation`
-> It's a subset of `Linear transformation`, just with `higher dimension rules` & `multiple points graph` multiplying together. 
-
-**YOU BREAK `THE RULE` IN TO DIFFERENT UNIT VECTORS i, j, k... AND BREAK THE GRAPH INTO DIFFERENT POINTS, AND APPLY EACH i, j, k RULES TO EACH POINT.**
-
 
 ### Example: 3x2 Matrix with 2x2 Matrix
 ![image](https://user-images.githubusercontent.com/14041622/38701147-bb7e535c-3ecf-11e8-8fe4-bf5582950785.png)
@@ -684,3 +689,13 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/38721371-85145e1c-3f2c-11e8-91f4-fe424ab86a5a.png)
 
 
+
+
+
+## `Composition of Matrix Multiplication`
+> Although you can see two matrices multiplying together as `a transform applying to a graph`.
+But actually sometime you can see it in slightly different perspective.
+
+[Refer to 3Blue1Brown: Matrix multiplication as composition](https://www.youtube.com/watch?v=XkY2DOUCWMU&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=5)
+
+![image](https://user-images.githubusercontent.com/14041622/38725499-1684462a-3f3a-11e8-93f4-483a20fe6fee.png)
