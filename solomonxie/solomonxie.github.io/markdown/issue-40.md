@@ -742,6 +742,21 @@ Note that:
 - Since `a/1 = a`, so calculating the **Area** of the `new unit vector graph`, is equal to the scalar itself.
 - Calculating how much the `unit vector graph` scaled, is exactly equal to how much the whole graph scaled.
 
-### Irregular shape
+## Irregular shape
 > If it's not a `grid square` can be approximately very well  by many many `small piece of grid squares`.
 ![image](https://user-images.githubusercontent.com/14041622/38726881-04f79232-3f3e-11e8-9ca1-83ef2416ca0b.png)
+
+
+## `Zero determinant`
+If the determinant of a transformation `det(M) = 0`, then it means the Transformation squishes the graph to a line or a point!
+
+![image](https://user-images.githubusercontent.com/14041622/38727164-d8a84fa4-3f3e-11e8-9a4c-154024847b1d.png)
+
+
+## `Negative determinant`
+A `negative determinant` means the graph has been **`flipped over`** by the transformation. 
+Then the `j unit vector` flip over to the **LEFT** side of `i unit vector`.
+
+[Refer to 3Blue1Brown for visualisation](https://youtu.be/Ip3X9LOh2dk?t=3m46s)
+
+![image](https://user-images.githubusercontent.com/14041622/38727271-19c1fa62-3f3f-11e8-9fda-da457f2cf4d9.png)
