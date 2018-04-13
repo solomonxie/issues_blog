@@ -641,6 +641,17 @@ Solve:
 - Apply the Matrix R to the Graph's matrix. Do the math.
 
 
-## `Elementary Matrices for Linear Transformation in ℝ²`
-![image](https://user-images.githubusercontent.com/14041622/38720079-6cb55aec-3f27-11e8-9406-eb97548b19d9.png)
+## `Most common Matrix Transformations`
+> One single matrix to present the movement? Yes!
+
+[Refer to Math planet: Transformation using matrices](https://www.mathplanet.com/education/geometry/transformations/transformation-using-matrices)
+
+### Rotation
+
+### Reflection
+![image](https://user-images.githubusercontent.com/14041622/38721364-7f5ab8d6-3f2c-11e8-81ca-b8084a627ca2.png)
+![image](https://user-images.githubusercontent.com/14041622/38721371-85145e1c-3f2c-11e8-91f4-fe424ab86a5a.png)
+
+
+### xxx
 ![image](https://user-images.githubusercontent.com/14041622/38720126-960d8bf8-3f27-11e8-8d63-9a0e2f20f499.png)
