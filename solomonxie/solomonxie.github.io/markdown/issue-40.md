@@ -783,6 +783,8 @@ Then the `j unit vector` flip over to the **LEFT** side of `i unit vector`.
 
 [Refer to maths is fun: Inverse of a Matrix.](http://www.mathsisfun.com/algebra/matrix-inverse.html)
 
+**SPOILER ALERT: EVEN 3x3 MATRIX INVERSE IS ALREADY TOO HEAVY TO CALCULATE, SO BETTER JUST TO MEMORISE THE 2x2  AND LET COMPUTER DO ALL THE HIGHER DIMENSIONS.**
+
 ![image](https://user-images.githubusercontent.com/14041622/38729660-3e545774-3f46-11e8-94e8-928dde93154f.png)
 
 
@@ -818,7 +820,7 @@ Two conditions make a matrix NOT invertible:
 ![image](https://user-images.githubusercontent.com/14041622/38730081-c76d03ca-3f47-11e8-8730-2a83613f8f17.png)
 
 ## `Adjugate Matrix`
-> It's also called the `Adjoint of a matrix`.
+> It's also called the `Adjoint of a matrix`, or `Classical Adjoint`.
 
 Refer to maths is fun: [Inverse of a Matrix using Minors, Cofactors and Adjugate.](https://www.mathsisfun.com/algebra/matrix-inverse-minors-cofactors-adjugate.html)
 
@@ -843,3 +845,5 @@ We can calculate the Inverse of a Matrix by:
 - Step 2: then turn that into the Matrix of Cofactors,
 - Step 3: then the Adjugate, and
 - Step 4: multiply that by 1/Determinant.
+
+**I seems not tend to really note the full content here, because it's so useless in normal math life. Because it's way to hairy to calculate even with a 3x3 matrix. So just get the idea and let computer do the rest.** 
