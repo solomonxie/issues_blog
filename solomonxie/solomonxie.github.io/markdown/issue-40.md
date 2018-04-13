@@ -779,9 +779,12 @@ Then the `j unit vector` flip over to the **LEFT** side of `i unit vector`.
 
 
 # `Inverse Matrices`
-> It's actually the `Matrix Division`.
+> There is actually no concept of `division of matrix`. But similarly we can let it `multiply an inverse` to achieve the same goal.
 
 [Refer to maths is fun: Inverse of a Matrix.](http://www.mathsisfun.com/algebra/matrix-inverse.html)
+
+![image](https://user-images.githubusercontent.com/14041622/38729660-3e545774-3f46-11e8-94e8-928dde93154f.png)
+
 
 ## `Identity Matrix`
 > It's a simple yet important notation for doing dividing a matrix.
@@ -810,6 +813,9 @@ It's very special, and is the **ONLY** matrix can IGNORE the order when multiply
 
 
 ## `Calculate the Inverse of a Matrix`
+
+![image](https://user-images.githubusercontent.com/14041622/38729336-4202f232-3f45-11e8-8ea9-5012b308e3a4.png)
+
 
 ### 2x2 Matrix inverse
 ![image](https://user-images.githubusercontent.com/14041622/38729138-92aa20c6-3f44-11e8-93e0-828fadb5cd01.png)
