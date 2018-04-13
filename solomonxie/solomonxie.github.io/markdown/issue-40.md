@@ -866,6 +866,12 @@ We can calculate the Inverse of a Matrix by:
 
 **I seems not tend to really note the full content here, because it's so useless in normal math life. Because it's way to hairy to calculate even with a 3x3 matrix. So just get the idea and let computer do the rest.** 
 
+## `Solving Systems of equations with Inverse Matrices`
+[Khan lecture: Matrix equations and systems](https://www.khanacademy.org/math/precalculus/precalc-matrices/modal/v/matrix-equations-systems)
+
+![image](https://user-images.githubusercontent.com/14041622/38735482-7b87d94e-3f5b-11e8-90f5-7d752239d0fb.png)
+
+
 
 ## `Rank of Transformation`
 Means the `Dimension of output of a transformation`.
