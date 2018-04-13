@@ -810,6 +810,12 @@ More importantly, **IT CAN SWITCH SIDE WHEN MULTIPLYING ANOTHER MATIRX!**
 It's very special, and is the **ONLY** matrix can IGNORE the order when multiplying another matrix.
 ![image](https://user-images.githubusercontent.com/14041622/38729092-6086a8f8-3f44-11e8-861b-8d8e9f1bb592.png)
 
+## Not Invertible Matirces
+Two conditions make a matrix NOT invertible:
+- The matrix is not a `Square Matrix` (m×m matrix).
+- The `Determinant` is **ZERO**. Such matrix is also called a **`Singular matrix`**
+
+![image](https://user-images.githubusercontent.com/14041622/38730081-c76d03ca-3f47-11e8-8730-2a83613f8f17.png)
 
 
 ## `Calculate the Inverse of a Matrix`
