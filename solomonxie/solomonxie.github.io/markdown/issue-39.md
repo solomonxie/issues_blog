@@ -70,3 +70,12 @@ After a week’s reaching, I think I’m about reached to my bottom of maths: 6t
 
 训练拍照的感觉，大概我是从大量截图经验而来的。
 截图的经验真的不可小觑。
+
+
+就在今天，我"高中毕业"了！！！
+完完全全的48天可汗学院的学习，没有一天偷懒没有一天休息！完成了高中以下的全部学习！
+
+![screenshot-www khanacademy org-2018 04 14-02-35-35](https://user-images.githubusercontent.com/14041622/38752371-7fd3353e-3f8d-11e8-833f-50501f24725e.png)
+![snip20180414_622](https://user-images.githubusercontent.com/14041622/38752372-801ab3fa-3f8d-11e8-80bb-6cb8334a2f82.png)
+![screenshot-www khanacademy org-2018 03 08-18-10-57](https://user-images.githubusercontent.com/14041622/38752390-8c652c76-3f8d-11e8-8282-4a008d6b1370.png)
+![image](https://user-images.githubusercontent.com/14041622/38752411-a43e23c0-3f8d-11e8-8e1b-ce8a4853c577.png)
