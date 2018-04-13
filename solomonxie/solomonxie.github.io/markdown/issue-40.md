@@ -569,6 +569,7 @@ There're only TWO part of this matrix multiplication:
 - A rectangle: `[ (3,0)   (3,4)    (0,4)  (0,0)]`
 - Any shape in any dimension.....
 
+### `Change the basis`
 SO ALL YOU NEED TO DO, IS JUST TO APPLY THOSE RULES ONE BY ONE, `LEFT BY RIGHT`, AND GET A NEW GRAPH!!!
 
 For example, we apply two transform rules to a vector `(x, y)`:
@@ -578,7 +579,6 @@ For example, we apply two transform rules to a vector `(x, y)`:
 It's exactly same with the function principles: `Shear( Rotate(x, y) )`.
 
 ![image](https://user-images.githubusercontent.com/14041622/38699833-cb3ac450-3ecb-11e8-8364-bb1540ab33ae.png)
-
 
 
 
@@ -605,10 +605,14 @@ Note that:
  `(19, -3)`
 
 
-## `Higher dimension rules & Multiple points graph`
-> It's just extension to the 2x2 Matrix.
+
+
+
+## `Matrix Transformation`
+> It's a subset of `Linear transformation`, just with `higher dimension rules` & `multiple points graph` multiplying together. 
 
 **YOU BREAK `THE RULE` IN TO DIFFERENT UNIT VECTORS i, j, k... AND BREAK THE GRAPH INTO DIFFERENT POINTS, AND APPLY EACH i, j, k RULES TO EACH POINT.**
+
 
 ### Example: 3x2 Matrix with 2x2 Matrix
 ![image](https://user-images.githubusercontent.com/14041622/38701147-bb7e535c-3ecf-11e8-8fe4-bf5582950785.png)
