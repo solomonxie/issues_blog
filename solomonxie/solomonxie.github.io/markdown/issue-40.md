@@ -865,7 +865,7 @@ We can calculate the Inverse of a Matrix by:
 **I seems not tend to really note the full content here, because it's so useless in normal math life. Because it's way to hairy to calculate even with a 3x3 matrix. So just get the idea and let computer do the rest.** 
 
 
-# `Rank of Transformation`
+## `Rank of Transformation`
 Means the `Dimension of output of a transformation`.
 
 [Refer to 3Blue1Brown: Inverse matrices, column space and null space](https://youtu.be/uQhTuRlWMxw?t=8m)
@@ -879,3 +879,15 @@ After doing a transformation to a graph, it is:
 
 In the case of 2x2 Matrices, the `Rank 2` is the best it can be.
 In the case of 3x3 Matrices, the `Rank 2` means it collapsed, or dimensional reduced.
+
+
+## `Column space of Matrix`
+Means `The SET of all possible outputs a matrix`.
+In another word, it's `THE SPAN OF THE COLUMNS OF THE MATRIX`.
+
+The columns of the matrix tell where the `basis vectors` land, like `i & j`.
+And the `span of all basis vectors` gives you all possible outputs, which is the `Column space`.
+
+![image](https://user-images.githubusercontent.com/14041622/38732534-08ca67f0-3f51-11e8-966c-9cdb0cc1e25f.png)
+
+![image](https://user-images.githubusercontent.com/14041622/38732562-2a3fb93a-3f51-11e8-96df-0a048a26c170.png)
