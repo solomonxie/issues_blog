@@ -198,8 +198,10 @@ Usually the `X/Y Axes plane` is this one.
 `R³` means `Real numbers 3D plane`.
 Usually the `X/Y/Z Axes plane`.
 
-## `Linear combinations`
+## `Linear combinations (Vector Addition)`
 > `Linear combinations` means to add vectors together: `v₁ + v₂ + v₃.....` to get a new vector. Simple like that.
+
+**IT'S JUST ANOTHER WORD FOR `VECTOR ADDITION`**.
 
 ## `Span of vectors`
 > It's the Set of all the `linear combinations` of two vectors.
