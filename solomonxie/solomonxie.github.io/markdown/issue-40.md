@@ -852,6 +852,8 @@ Refer to maths is fun: [Inverse of a Matrix using Minors, Cofactors and Adjugate
 ### 2x2 Matrix inverse
 > With a 2x2 matrix, you really don't need to think much and waste time on the full steps, just simply follow this formula `1/Determinant × Adjugate`
 
+[Refer to Khan lecture.](https://www.khanacademy.org/math/precalculus/precalc-matrices/modal/v/inverse-of-a-2x2-matrix)
+
 ![image](https://user-images.githubusercontent.com/14041622/38729138-92aa20c6-3f44-11e8-93e0-828fadb5cd01.png)
 
 
@@ -881,6 +883,9 @@ In the case of 2x2 Matrices, the `Rank 2` is the best it can be.
 In the case of 3x3 Matrices, the `Rank 2` means it collapsed, or dimensional reduced.
 
 When it's the highest rank the Matrix can be, we call it **`THE FULL RANK`**.
+
+
+
 
 ## `Column space of Matrix`
 Means `The SET of all possible outputs a matrix`.
