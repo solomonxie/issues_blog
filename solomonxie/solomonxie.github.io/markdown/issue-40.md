@@ -3,18 +3,9 @@
 
 
 ## Study resources
-- [ ] [High school maths notes](https://github.com/solomonxie/solomonxie.github.io/issues/44)
-- [ ] Khan academy
-    - [x] [Pre-calculus](https://www.khanacademy.org/math/precalculus)
-    - [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
-    - [ ] AP calculus AB
-    - [ ] AP calculus BC
-    - [ ] Differential calculus
-    - [ ] Integral calculus
-    - [ ] Multivariable calculus
-    - [ ] Differential equations
-    - [ ] [AP Statistics](https://www.khanacademy.org/math/ap-statistics)
-- [ ] [MIT OCW 18.06sc Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm)
+- [x] [High school maths notes](https://github.com/solomonxie/solomonxie.github.io/issues/44)
+- [x] [ Khan academy Pre-calculus](https://www.khanacademy.org/math/precalculus)
+- [ ] [MIT OCW 18.06 SC Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm)
 - [ ] [Essence of linear algebra: Youtube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 - [ ] [A First Course in Linear Algebra: PDF](https://github.com/solomonxie/solomonxie.github.io/files/1786068/fcla-3.50-A.First.Course.in.Linear.Algebra.-.Robert.A.Beezer.University.of.Puget.Sound.Version.3.50.pdf)
 
@@ -32,24 +23,7 @@ Matrices:
 
 ## Practice To-do List
 - [x] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice)
-    - [x] Trigonometry
-    - [x] Conic sections
-    - [x] Vectors
-    - [x] Matrices
-    - [x] Complex numbers
-    - [x] Probability and combinatorics
-    - [x] Series
 
-## Study path & Khan Academy Mastery challenge
-- [x] [Precalculus](https://www.khanacademy.org/mission/precalculus) (100%)
-- [ ] [Linear Algebra (No mastery)](https://www.khanacademy.org/math/linear-algebra)
-- [ ] AP calculus AB
-- [ ] AP calculus BC
-- [ ] Differential calculus
-- [ ] Integral calculus
-- [ ] Multivariable calculus
-- [ ] Differential equations
-- [ ] [AP Statistics (No mastery)](https://www.khanacademy.org/math/ap-statistics)
 
 ## Review hardcore quiz
 - [ ] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice#precalc-matrices)
