@@ -886,3 +886,15 @@ And the `span of all basis vectors` gives you all possible outputs, which is the
 ![image](https://user-images.githubusercontent.com/14041622/38732534-08ca67f0-3f51-11e8-966c-9cdb0cc1e25f.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/38732562-2a3fb93a-3f51-11e8-96df-0a048a26c170.png)
+
+
+
+# `The geometry of linear equations` (MIT)
+
+[Refer to the pdf.](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/MIT18_06SCF11_Ses1.1sum.pdf)
+
+"The fundamental problem of linear algebra is to solve n linear equations in `n` unknowns."
+We view this problem in three ways:
+- Row picture
+- *Column picture
+- Matrix picture
