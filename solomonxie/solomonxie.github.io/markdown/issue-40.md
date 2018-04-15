@@ -895,6 +895,6 @@ And the `span of all basis vectors` gives you all possible outputs, which is the
 
 "The fundamental problem of linear algebra is to solve n linear equations in `n` unknowns."
 We view this problem in three ways:
-- Row picture
-- *Column picture
-- Matrix picture
+- Row picture: The "row method" focuses on the individual equations
+- *Column picture: The "column method" focuses on combining the columns
+- Matrix picture: The "matrix method" is an even more compact and powerful way of describing systems of linear equations.
