@@ -1,4 +1,4 @@
-# Linear Algebra from the ground up
+# Linear Algebra from the ground up 线性代数从零学起
 > Quick notes on College level of Maths or Stats for machine learning.
 
 

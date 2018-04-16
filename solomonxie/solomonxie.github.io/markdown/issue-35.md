@@ -1,4 +1,4 @@
-# Network Troubleshooting
+# Network Troubleshooting 网络故障排除
 > 日常的网络问题层出不穷，实在太多有点记忆不够用，在这里开一篇再好不过，随时查阅。
 另外，基础的网络学习也一起放在这吧
 
