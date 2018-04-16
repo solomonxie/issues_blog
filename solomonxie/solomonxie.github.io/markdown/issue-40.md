@@ -21,9 +21,29 @@ Matrices:
 - [ ] Vector: Dot product & Cross product
 
 
-## Practice To-do List
+## TOC TO-DO LIST
+Khan Academy:
 - [x] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice)
 
+MIT OCW Linear Algebra 18.06:
+- [ ] Unit I: Ax = b and the Four Subspaces
+    - [ ] The Geometry of Linear equations
+    - [ ] AN OVERVIEW OF KEY IDEAS
+    - [ ] ELIMINATION WITH MATRICES
+    - [ ] MULTIPLICATION AND INVERSE MATRICES
+    - [ ] FACTORIZATION INTO A = LU
+    - [ ] TRANSPOSES, PERMUTATIONS, VECTOR SPACES
+    - [ ] COLUMN SPACE AND NULL SPACE
+    - [ ] SOLVING AX = 0: PIVOT VARIABLES, SPECIAL SOLUTIONS
+    - [ ] SOLVING AX = B: ROW REDUCED FORM R
+    - [ ] INDEPENDENCE, BASIS AND DIMENSION
+    - [ ] THE FOUR FUNDAMENTAL SUBSPACES
+    - [ ] MATRIX SPACES; RANK 1; SMALL WORLD GRAPHS
+    - [ ] GRAPHS, NETWORKS, INCIDENCE MATRICES
+    - [ ] EXAM 1 REVIEW
+    - [ ] EXAM 1
+- [ ] Unit II: Least Squares, Determinants and Eigenvalues
+- [ ] Unit III: Positive Definite Matrices and Applications
 
 ## Review hardcore quiz
 - [ ] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice#precalc-matrices)
