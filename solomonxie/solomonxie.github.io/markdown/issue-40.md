@@ -27,21 +27,21 @@ Khan Academy:
 
 MIT OCW Linear Algebra 18.06:
 - [ ] Unit I: Ax = b and the Four Subspaces
-    - [ ] The Geometry of Linear equations
-    - [ ] AN OVERVIEW OF KEY IDEAS
-    - [ ] ELIMINATION WITH MATRICES
-    - [ ] MULTIPLICATION AND INVERSE MATRICES
-    - [ ] FACTORIZATION INTO A = LU
-    - [ ] TRANSPOSES, PERMUTATIONS, VECTOR SPACES
-    - [ ] COLUMN SPACE AND NULL SPACE
-    - [ ] SOLVING AX = 0: PIVOT VARIABLES, SPECIAL SOLUTIONS
-    - [ ] SOLVING AX = B: ROW REDUCED FORM R
-    - [ ] INDEPENDENCE, BASIS AND DIMENSION
-    - [ ] THE FOUR FUNDAMENTAL SUBSPACES
-    - [ ] MATRIX SPACES; RANK 1; SMALL WORLD GRAPHS
-    - [ ] GRAPHS, NETWORKS, INCIDENCE MATRICES
-    - [ ] EXAM 1 REVIEW
-    - [ ] EXAM 1
+    - [ ] The Geometry of Linear Equations
+    - [ ] An overview of key ideas
+    - [ ] Elimination with matrices
+    - [ ] Multiplication and Inverse matrices
+    - [ ] Factorization in to A = LU
+    - [ ] Transposes, Permutations, Vector Spaces
+    - [ ] Column space and Null space
+    - [ ] Solving Ax = 0: Pivot variables, Special solutions
+    - [ ] Solving Ax = B: Row reduced from R
+    - [ ] Independence, Basis and Dimension
+    - [ ] The four fundamental Subspaces
+    - [ ] Matrix spaces; Rank 1; Small world graphs
+    - [ ] Graphs, Networks, Incidence matrices
+    - [ ] Exam 1 review
+    - [ ] Exam 1
 - [ ] Unit II: Least Squares, Determinants and Eigenvalues
 - [ ] Unit III: Positive Definite Matrices and Applications
 
