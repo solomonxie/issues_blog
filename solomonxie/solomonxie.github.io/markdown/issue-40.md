@@ -143,6 +143,17 @@ When you scale a graph by a factor:
 
 ![image](https://user-images.githubusercontent.com/14041622/38547847-c2e1b29a-3ce2-11e8-9464-a5fbba606102.png)
 
+In Gilbert Strang's _Intro to Linear Algebra_, it's different point of view:
+For row or column:
+- `Row vector`: v = (1, 1, -1)
+- `Column vector`: 
+![image](https://user-images.githubusercontent.com/14041622/38878583-dfea6254-4293-11e8-896c-8d77dc9f8cfb.png)
+
+For representing method:
+![image](https://user-images.githubusercontent.com/14041622/38878751-4877e99a-4294-11e8-9e86-aee4d47bf80b.png)
+
+
+
 ## Unit vectors
 > Simply say, a `unit vector` is just a vector which magnitude is `1`. Kinda like the unit circle idea.
 It's also called `Engineering notation`, or the `basis vector`.
