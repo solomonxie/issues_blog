@@ -210,9 +210,9 @@ Usually the `X/Y Axes plane` is this one.
 Usually the `X/Y/Z Axes plane`.
 
 ## `Linear combinations (Vector Addition)`
-> `Linear combinations` means to add vectors together: `v₁ + v₂ + v₃.....` to get a new vector. Simple like that.
+> DEFINITION: The sum of `cv` and `dw` is a linear combination of `v` and `w`.
 
-**IT'S JUST ANOTHER WORD FOR `VECTOR ADDITION`**.
+`Linear combinations` means to add vectors together: `v₁ + v₂ + v₃.....` to get a new vector. Simple like that.
 
 ## `Span of vectors`
 > It's the Set of all the `linear combinations` of two vectors.
