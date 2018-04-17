@@ -16,3 +16,4 @@
     - [_The Extradimensional Nature of God_](http://www.godandscience.org/apologetics/xdimgod.html)
 - Reasonable:
     - [_Four Dimensions in Ephesians 3:18?_](https://scibible.wordpress.com/2013/11/23/four-dimensions-in-ephesians-318/)
+    - [_The Gospel in time and space_](https://creation.com/the-gospel-in-time-and-space)
