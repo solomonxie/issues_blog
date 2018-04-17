@@ -60,6 +60,8 @@ MIT OCW Linear Algebra 18.06:
 
 
 # `Vector & basic operations`
+
+## What is a vector
 > Definition: vector is a **MAGNITUDE** with a **DIRECTION**
 
 Notation: 
@@ -81,7 +83,7 @@ It's not hard to understand the basic ideas of a vector, which consists of very 
 - Speed is how fast something moves.
 - Velocity is speed with a direction.
 
-### `UNDERSTAND VECTOR'S MOVEMENT`
+## `UNDERSTAND VECTOR'S MOVEMENT`
 Now we got a vector start from `(-3,8)` to the point `(4, 5)`.  
 We say this vector has a magnitude `||v|| = √40` and has a direction to the bottom right.
 But we could also represent the vector as only `one point with two components`: `(7, -3)`.
@@ -96,6 +98,8 @@ That's why we could represent a vector in two ways:
 **IT'S VERY IMPORTANT TO UNDERSTAND THIS IDEA, SO THAT WE COULD FURTHER UNDERSTAND WHY WE COULD MOVE VECTORS, AND BY SO WE COULD DO SUMS AND MULTIPLICATIONS AND SO ON**
 
 ## Adding & subtracting vectors
+> "Linear algebra is built on these operations `v + w` and `cv`: **Adding vectors and multiplying by scalars.**" - Gilbert Strang
+
 Adding & subtracting could be seen as a movement to a vector, or say how it travels.
 ![image](https://user-images.githubusercontent.com/14041622/38543990-bef3a65c-3cd8-11e8-877c-2e23ea719208.png)
 
@@ -119,8 +123,8 @@ from this big bag you could also split a smaller bag of fruits, and then you wil
 A vector is the very idea of **a bag of fruits**.
 
 
-## Multiplying vectors by SCALAR
-> It's the very same with the section `DILATION` or `Scaling` in Geometry. 
+## `Scalar Multiplication`
+> It's the same with the section `DILATION` or `Scaling` in Geometry. 
 
 Just for review of `dilating` a graph geometrically:
 When you scale a graph by a factor:
