@@ -25,6 +25,14 @@ Matrices:
 Khan Academy:
 - [x] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice)
 
+Introduction to Linear Algebra by Gilbert Strang:
+- [ ] 1.Introduction to Vectors
+    - [ ] 1.1 Vectors and Linear Combinations
+    - [ ] 1.2 Lengths and Dot Products
+    - [ ] 1.3 Matrices
+- [ ] 2.Solving Linear Equations
+- [ ] 3.Vector Spaces & Subspaces
+
 MIT OCW Linear Algebra 18.06:
 - [ ] Unit I: Ax = b and the Four Subspaces
     - [ ] The Geometry of Linear Equations
