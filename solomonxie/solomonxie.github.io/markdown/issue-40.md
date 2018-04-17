@@ -103,8 +103,21 @@ Adding & subtracting could be seen as a movement to a vector, or say how it trav
 
 - Adding vectors:
 ![image](https://user-images.githubusercontent.com/14041622/38543941-9acd84b4-3cd8-11e8-9314-9a6e8ac975a8.png)
+
 - Subtracting vectors: is just **ADDING** a **NEGATIVE VECTOR**
 ![image](https://user-images.githubusercontent.com/14041622/38543960-ab2d4844-3cd8-11e8-8a08-3608c9221275.png)
+
+### `Understand vector's addition & subtraction`
+Refer to _Intro to Linear Algebra by Gilbert Strang: 1.1_.
+
+**"You can't add apples and oranges."**
+But you can add **fruits**!
+Imagine you have one bag of fruits `(3 apples, 4 oranges)`, and another bag of fruits `(1 apple, 2 oranges)`.
+So adding them together you will get one big bag of fruits `(4 apples, 6 oranges)`,
+from this big bag you could also split a smaller bag of fruits, and then you will call it `subtraction`.
+
+A vector is the very idea of **a bag of fruits**.
+
 
 ## Multiplying vectors by SCALAR
 > It's the very same with the section `DILATION` or `Scaling` in Geometry. 
