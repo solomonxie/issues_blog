@@ -343,7 +343,7 @@ Multiplication a process of `double, triple, quadruple ...`.
 **REMEMBER: A DOT PRODUCT DOESN'T GIVE YOU A VECTOR, BUT ONLY A NUMBER, A SCALAR, A PRODUCT OF TWO MAGNITUDES.**
 
 > The purpose:
-It is **NOT** to get a new vector, and **NOT** to `Reduct dimension`, 
+It is **NOT** to get a new vector, and **NOT** to `Reduce dimension`, 
 its only purpose **IS** to get a **quantity**, a magnitude, a number!
 
 [For an intuitive video refer to Khan academy physics: Dot Product.](https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/electric-motors/v/the-dot-product)
