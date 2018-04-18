@@ -392,7 +392,7 @@ And now we could **Boost** the power on b: `|b| ×  |a|×cosθ`
 ## `Ways of calculating dot product`
 
 There're two ways to calculate the dot product (I made up the names):
-- Projection Boost: 
+- Shadow Boost: 
 ![image](https://user-images.githubusercontent.com/14041622/38635179-24867f34-3df7-11e8-8571-ba6fa706aa3f.png)
 - Axes Boost: 
 ![image](https://user-images.githubusercontent.com/14041622/38635195-2b519c04-3df7-11e8-8a73-34171669a673.png)
