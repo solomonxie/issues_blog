@@ -1,6 +1,8 @@
 # Linear Algebra from the ground up 线性代数从零学起
 > Quick notes on College level of Maths or Stats for machine learning.
 
+## Survey
+[Slant: What are the best resources to learn linear algebra?](https://www.slant.co/topics/6073/~resources-to-learn-linear-algebra)
 
 ## Study resources
 - [x] [High school maths notes](https://github.com/solomonxie/solomonxie.github.io/issues/44)
@@ -65,8 +67,6 @@ MIT OCW Linear Algebra 18.06:
 
 
 ## TL;DR Archived link: [MIT OCW Linear Algebra courses list & compare](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-380001327).
-
-## TL;DR Archived link: Best online source to learn Linear algebra 
 
 
 # `Vector & basic operations`
