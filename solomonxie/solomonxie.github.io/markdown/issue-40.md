@@ -165,8 +165,11 @@ For representing method:
 
 
 ## Unit vectors
-> Simply say, a `unit vector` is just a vector which magnitude is `1`. Kinda like the unit circle idea.
+> Simply say, a `unit vector` is just a vector which length is `1`. Kinda like the unit circle idea.
 It's also called `Engineering notation`, or the `basis vector`.
+
+![image](https://user-images.githubusercontent.com/14041622/38917048-17088350-431c-11e8-9f52-3da7b4e8fced.png)
+Which means, it could lie on axis or in between.
 
 ![image](https://user-images.githubusercontent.com/14041622/38659785-831c216e-3e5d-11e8-8623-77fcc365adcb.png)
 
