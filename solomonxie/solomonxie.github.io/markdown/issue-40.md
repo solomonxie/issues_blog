@@ -74,7 +74,7 @@ MIT OCW Linear Algebra 18.06:
 
 Notation: 
 - `v` as a vector.
-- `|v|` or `||v||` as its **Magnitude**, or **Distance**, or **Absolute value**, same idea
+- `|v|` or `||v||` as its **Magnitude**, or **Length**, or **Distance**, or **Absolute value**, same idea
 - **Slope or angle** as its **Direction.**
 - `(a, b)` the two position there are called `X-component & Y-component`.
 
