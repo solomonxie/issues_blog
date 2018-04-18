@@ -64,7 +64,9 @@ MIT OCW Linear Algebra 18.06:
 ## TL;DR. Archived link: [Vector section notes of Essence Linear Algebra](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-379985082)
 
 
-## TL;DR Archived link: [MIT OCW Linear Algebra course compare](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-380001327).
+## TL;DR Archived link: [MIT OCW Linear Algebra courses list & compare](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-380001327).
+
+## TL;DR Archived link: Best online source to learn Linear algebra 
 
 
 # `Vector & basic operations`
