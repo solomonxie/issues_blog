@@ -353,8 +353,14 @@ its only purpose **IS** to get a **quantity**, a magnitude, a number!
 
 ![screencast 2018-04-12 15-08-30](https://user-images.githubusercontent.com/14041622/38661569-e3831bc4-3e63-11e8-82a1-326400859d03.gif)
 
+## `Understand Dot product in business`
 
-## `Understand Dot product`
+Refer to _Intro to linear algebra by Gilbert Strang: 1.2_.
+
+![image](https://user-images.githubusercontent.com/14041622/38916654-ccbf081a-431a-11e8-8ecc-d84d01dfcdc2.png)
+
+
+## `Understand Dot product in physics`
 > It makes lots more sense to think `dot product` in **physics** way than maths algebraic way.
 
 **Just to think `Two forces` "a & b" are `pulling` a box,** 
