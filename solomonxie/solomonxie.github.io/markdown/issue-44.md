@@ -12,6 +12,9 @@
 - 1 `quiz` finished in course section, the correct `skills` will promote to `LEVEL ONE`.
 - 1 `unit test` finished in course section, the correct `skill` will promote **promote 1 level up till MASTERY**.
 
+## Quick links
+- 
+
 ## Reminder
 #### Finish mastery challenge ASAP.
 - [x] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
@@ -72,12 +75,16 @@
 - [x] [Precalculus](https://www.khanacademy.org/mission/precalculus) (100%)
 - [ ] [Linear Algebra (No mastery)](https://www.khanacademy.org/math/linear-algebra)
 - [ ] AP calculus AB
-- [ ] AP calculus BC
-- [ ] Differential calculus
-- [ ] Integral calculus
-- [ ] Multivariable calculus
-- [ ] Differential equations
 - [ ] [AP Statistics (No mastery)](https://www.khanacademy.org/math/ap-statistics)
+
+## Prerequisites
+- [ ] Precalculus:
+    - [ ] Trigonometry: Unit circle, Inverse trig function
+    - [ ] Geometry: Transformation
+    - [ ] Precalculus: Conversion of complex numbers
+    - [ ] Algebra: Line equation
+    - [ ] Algebra: Systems of equations
+    - [ ] Vector: Dot product & Cross product
 
 ## Review hardcore quiz
 - [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
