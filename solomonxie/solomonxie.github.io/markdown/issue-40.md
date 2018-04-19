@@ -986,12 +986,21 @@ And the `span of all basis vectors` gives you all possible outputs, which is the
 
 
 
-# `The geometry of linear equations` (MIT)
+# MIT OCW 18.06 - Unit 1.1 The geometry of linear equations
 
 [Refer to the pdf.](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/MIT18_06SCF11_Ses1.1sum.pdf)
 
-"The fundamental problem of linear algebra is to solve n linear equations in `n` unknowns."
+> "The fundamental problem of linear algebra is to solve n linear equations in `n` unknowns."
+
+![image](https://user-images.githubusercontent.com/14041622/38993221-93ad3a46-4415-11e8-8d2f-c3c88abac23b.png)
+
 We view this problem in three ways:
-- Row picture: The "row method" focuses on the individual equations
-- *Column picture: The "column method" focuses on combining the columns
-- Matrix picture: The "matrix method" is an even more compact and powerful way of describing systems of linear equations.
+- `Row picture`: Each row is an equation, and we could draw out each line equation on the graph.
+![image](https://user-images.githubusercontent.com/14041622/38993085-38d02db8-4415-11e8-96d8-2f0b0ba20c90.png)
+- *`Column picture`: Rewrite equations in the form below, and each column is a vector, and we could each vector (with scalar) on the graph.
+![image](https://user-images.githubusercontent.com/14041622/38993157-6636c2da-4415-11e8-9833-a0d61e68f58d.png)
+![image](https://user-images.githubusercontent.com/14041622/38993091-3ed60e8a-4415-11e8-81a3-33ba90a04e84.png)
+- `Matrix picture`: Rewrite equations into `Coefficient Matrix form`, and see the geometric meaning of a matrix and vector.
+![image](https://user-images.githubusercontent.com/14041622/38993281-bc62a2f0-4415-11e8-8489-044900a93d7b.png)
+
+
