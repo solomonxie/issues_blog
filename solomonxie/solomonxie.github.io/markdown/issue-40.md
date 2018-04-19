@@ -22,42 +22,13 @@ Matrices:
 - [ ] Algebra: Systems of equations
 - [ ] Vector: Dot product & Cross product
 
-
-## Study goals of Linear Algebra
-- [ ] Systems of linear equations
-- [ ] Row reduction and echelon forms
-- [ ] Matrix operations, including inverses
-- [ ] Block matrices
-- [ ] Linear dependence and independence
-- [ ] Subspaces and bases and dimensions
-- [ ] Orthogonal bases and orthogonal projections
-- [ ] Gram-Schmidt process
-- [ ] Linear models and least-squares problems
-- [ ] Determinants and their properties
-- [ ] Cramer's Rule
-- [ ] Eigenvalues and eigenvectors
-- [ ] Diagonalization of a matrix
-- [ ] Symmetric matrices
-- [ ] Positive definite matrices
-- [ ] Similar matrices
-- [ ] Linear transformations
-- [ ] Singular Value Decomposition
-
 ## TOC TO-DO LIST
 Khan Academy:
 - [x] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice)
 
-Introduction to Linear Algebra by Gilbert Strang:
-- [ ] 1.Introduction to Vectors
-    - [ ] 1.1 Vectors and Linear Combinations
-    - [ ] 1.2 Lengths and Dot Products
-    - [ ] 1.3 Matrices
-- [ ] 2.Solving Linear Equations
-- [ ] 3.Vector Spaces & Subspaces
-
 MIT OCW Linear Algebra 18.06:
 - [ ] Unit I: Ax = b and the Four Subspaces
-    - [ ] The Geometry of Linear Equations
+    - [ ] The Geometry of Linear Equations (Watched; Practiced 2/3)
     - [ ] An overview of key ideas
     - [ ] Elimination with matrices
     - [ ] Multiplication and Inverse matrices
@@ -74,6 +45,27 @@ MIT OCW Linear Algebra 18.06:
     - [ ] Exam 1
 - [ ] Unit II: Least Squares, Determinants and Eigenvalues
 - [ ] Unit III: Positive Definite Matrices and Applications
+
+
+## Study goals of Linear Algebra
+- [ ] Systems of linear equations
+- [ ] Row Reduction Echelon Forms (RREF)
+- [ ] Matrix operations, including inverses
+- [ ] Block matrices
+- [ ] Linear dependence and independence
+- [ ] Subspaces and bases and dimensions
+- [ ] Orthogonal bases and orthogonal projections
+- [ ] Gram-Schmidt process
+- [ ] Linear models and least-squares problems
+- [ ] Determinants and their properties
+- [ ] Cramer's Rule
+- [ ] Eigenvalues and eigenvectors
+- [ ] Diagonalization of a matrix
+- [ ] Symmetric matrices
+- [ ] Positive definite matrices
+- [ ] Similar matrices
+- [ ] Linear transformations
+- [ ] Singular Value Decomposition
 
 ## Review hardcore quiz
 - [ ] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice#precalc-matrices)
