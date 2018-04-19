@@ -990,7 +990,7 @@ And the `span of all basis vectors` gives you all possible outputs, which is the
 
 [Refer to the review pdf.](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/MIT18_06SCF11_Ses1.1sum.pdf)
 
-Long lecture video outlines: [Matrix picture](https://youtu.be/ZK3O402wf1c?t=2m47s), [Row picture](https://youtu.be/ZK3O402wf1c?t=3m41s), [Column picture](https://youtu.be/ZK3O402wf1c?t=8m41s), [Matrix picture in 3D](https://youtu.be/ZK3O402wf1c?t=15m26s), [Row picture in 3D: intersects of planes](https://youtu.be/ZK3O402wf1c?t=17m33s)
+Long lecture video outlines: [Matrix picture](https://youtu.be/ZK3O402wf1c?t=2m47s), [Row picture](https://youtu.be/ZK3O402wf1c?t=3m41s), [Column picture](https://youtu.be/ZK3O402wf1c?t=8m41s), [Matrix picture in 3D](https://youtu.be/ZK3O402wf1c?t=15m26s), [Row picture in 3D: intersects of planes](https://youtu.be/ZK3O402wf1c?t=17m33s), [Column picture in 3D](https://youtu.be/ZK3O402wf1c?t=23m11s)
 
 > "The fundamental problem of linear algebra is to solve n linear equations in `n` unknowns."
 
