@@ -262,7 +262,7 @@ Usually the `X/Y/Z Axes plane`.
 `Linear combinations` means to add vectors together: `v₁ + v₂ + v₃.....` to get a new vector. Simple like that.
 
 ## `Span of vectors`
-> It's the Set of all the `linear combinations` of two vectors.
+> It's the **Set** of all the `linear combinations` of a number vectors.
 ![image](https://user-images.githubusercontent.com/14041622/38660579-4af5843a-3e60-11e8-8143-ca0ab77198f1.png)
 
 
@@ -303,9 +303,12 @@ Let's list some `vector combinations`:
 In another word:
 **IF ANY TWO VECTORS ARE INDEPENDENT, THEN OTHERS ARE ALL DEPENDENT.**
 
-### How to know whether a linear combination is dependent
+### `How to know whether a linear combination is dependent`
 
 [Refer to Khan lecture: Span and linear independence example](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-independence/v/span-and-linear-independence-example)
+
+> It's important for knowing if a `linear combination` can fill out a plane or space. 
+For example, if two vectors aren't independent, then it's just one vector, and can only draw a line. If three vectors aren't independent, then they're just two vectors, one is redundant, so they can only fill out a 2D plane instead of a 3D space.
 
 A `linear combination` is **dependent**, **iff** it could satisfy this equation:
 ```py
