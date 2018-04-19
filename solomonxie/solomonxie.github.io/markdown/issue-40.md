@@ -543,6 +543,10 @@ Then by `row operations`, we need to achieve this kind of result, which is also 
 
 It means we eliminated all other variables and only left 1 variable in one equation, which is called **`Identity Matrix`**. Then you could put back the number to the system of equations.
 
+### Example of Reduced Row Echelon Form or Gauss Jordan Elimination
+![image](https://user-images.githubusercontent.com/14041622/39001211-59796bb6-4428-11e8-927c-834330f41f36.png)
+![image](https://user-images.githubusercontent.com/14041622/39001195-502330ba-4428-11e8-8185-bfd4d662e4a0.png)
+
 
 
 # `Matrix multiplication`
