@@ -535,13 +535,6 @@ Then by `row operations`, we need to achieve this kind of result, which is also 
 
 It means we eliminated all other variables and only left 1 variable in one equation, which is called **`Identity Matrix`**. Then you could put back the number to the system of equations.
 
-### Example of solving system of equations
-![image](https://user-images.githubusercontent.com/14041622/39001211-59796bb6-4428-11e8-927c-834330f41f36.png)
-
-#### `Reduced Row Echelon Form`
-![image](https://user-images.githubusercontent.com/14041622/39001195-502330ba-4428-11e8-8185-bfd4d662e4a0.png)
-
-#### `Gauss Jordan Elimination`
 
 
 
@@ -1007,5 +1000,11 @@ We view this problem in three ways:
 ![image](https://user-images.githubusercontent.com/14041622/38993091-3ed60e8a-4415-11e8-81a3-33ba90a04e84.png)
 - `Matrix picture`: Rewrite equations into `Coefficient Matrix form`, and see the geometric meaning of a matrix and vector.
 ![image](https://user-images.githubusercontent.com/14041622/38993281-bc62a2f0-4415-11e8-8489-044900a93d7b.png)
+
+### Example of solving system of equations
+![image](https://user-images.githubusercontent.com/14041622/39001211-59796bb6-4428-11e8-927c-834330f41f36.png)
+
+#### `Reduced Row Echelon Form`
+![image](https://user-images.githubusercontent.com/14041622/39001195-502330ba-4428-11e8-8185-bfd4d662e4a0.png)
 
 
