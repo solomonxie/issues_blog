@@ -23,6 +23,26 @@ Matrices:
 - [ ] Vector: Dot product & Cross product
 
 
+## Study goals of Linear Algebra
+- [ ] Systems of linear equations
+- [ ] Row reduction and echelon forms
+- [ ] Matrix operations, including inverses
+- [ ] Block matrices
+- [ ] Linear dependence and independence
+- [ ] Subspaces and bases and dimensions
+- [ ] Orthogonal bases and orthogonal projections
+- [ ] Gram-Schmidt process
+- [ ] Linear models and least-squares problems
+- [ ] Determinants and their properties
+- [ ] Cramer's Rule
+- [ ] Eigenvalues and eigenvectors
+- [ ] Diagonalization of a matrix
+- [ ] Symmetric matrices
+- [ ] Positive definite matrices
+- [ ] Similar matrices
+- [ ] Linear transformations
+- [ ] Singular Value Decomposition
+
 ## TOC TO-DO LIST
 Khan Academy:
 - [x] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice)
