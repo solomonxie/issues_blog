@@ -28,7 +28,7 @@ Khan Academy:
 
 MIT OCW Linear Algebra 18.06:
 - [ ] Unit I: Ax = b and the Four Subspaces
-    - [ ] The Geometry of Linear Equations (Watched; Practiced 2/3)
+    - [ ] The Geometry of Linear Equations (Watched; Practiced 3/3)
     - [ ] An overview of key ideas
     - [ ] Elimination with matrices
     - [ ] Multiplication and Inverse matrices
