@@ -1,10 +1,10 @@
 # Linear Algebra with Moocs 线性代数课程笔记
 > Quick notes on College level of Maths or Stats for machine learning.
 
-## Survey
-[Slant: What are the best resources to learn linear algebra?](https://www.slant.co/topics/6073/~resources-to-learn-linear-algebra)
+![image](https://user-images.githubusercontent.com/14041622/39059913-694ddbb0-44f2-11e8-9a02-e534328afcff.png)
 
 ## Study resources
+- [ ] [Slant: What are the best resources to learn linear algebra?](https://www.slant.co/topics/6073/~resources-to-learn-linear-algebra)
 - [x] [High school maths notes](https://github.com/solomonxie/solomonxie.github.io/issues/44)
 - [x] [ Khan academy Pre-calculus](https://www.khanacademy.org/math/precalculus)
 - [ ] [MIT OCW 18.06 SC Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm)
