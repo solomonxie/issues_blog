@@ -89,3 +89,10 @@ We view this problem in three ways:
 ![image](https://user-images.githubusercontent.com/14041622/39001195-502330ba-4428-11e8-8185-bfd4d662e4a0.png)
 
 And at this point, `x₁(1,0,0) + x₂(0,1,0) + x₃(-1,2,0) = (0,0,0)`. So for what coefficients of `x₁, x₂, x₃` would produce a zero vector? By eyeballing it we could tell, `x₁=1 & x₂=-2` would have done.
+
+
+
+# `Solving System of Linear Equations`
+
+## `Row Echelon Form vs. Reduced Row Echelon Form`
+[Refer to this lecture video: REF & RREF](https://www.youtube.com/watch?v=W01H0LcVUdQ&index=10&list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6).
