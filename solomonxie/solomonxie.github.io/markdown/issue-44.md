@@ -77,15 +77,6 @@
 - [ ] AP calculus AB
 - [ ] [AP Statistics (No mastery)](https://www.khanacademy.org/math/ap-statistics)
 
-## Prerequisites
-- [ ] Precalculus:
-    - [ ] Trigonometry: Unit circle, Inverse trig function
-    - [ ] Geometry: Transformation
-    - [ ] Precalculus: Conversion of complex numbers
-    - [ ] Algebra: Line equation
-    - [ ] Algebra: Systems of equations
-    - [ ] Vector: Dot product & Cross product
-
 ## Review hardcore quiz
 - [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
     - [ ] [Sinusoidal functions](https://www.khanacademy.org/math/algebra2/trig-functions/modal/quiz/period-of-sinusoids-alg2-quiz)

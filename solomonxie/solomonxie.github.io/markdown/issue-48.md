@@ -1,6 +1,15 @@
 # Pre Linear Algebra 线性代数基础
 It's so much better to extract the basic knowledge from Precalculus in here.
 
+## Prerequisites
+- [ ] Precalculus:
+    - [ ] Trigonometry: Unit circle, Inverse trig function
+    - [ ] Geometry: Transformation
+    - [ ] Precalculus: Conversion of complex numbers
+    - [ ] Algebra: Line equation
+    - [ ] Algebra: Systems of equations
+    - [ ] Vector: Dot product & Cross product
+
 
 # `Vector & basic operations`
 
