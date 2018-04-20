@@ -1,8 +1,6 @@
 # Linear Algebra with Moocs 线性代数课程笔记
 > Quick notes on College level of Maths or Stats for machine learning.
 
-![image](https://user-images.githubusercontent.com/14041622/39059913-694ddbb0-44f2-11e8-9a02-e534328afcff.png)
-
 ## Study resources
 - [ ] [Slant: What are the best resources to learn linear algebra?](https://www.slant.co/topics/6073/~resources-to-learn-linear-algebra)
 - [x] [High school maths notes](https://github.com/solomonxie/solomonxie.github.io/issues/44)
@@ -55,6 +53,9 @@
 ## Review hardcore quiz
 - [ ] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice#precalc-matrices)
     - [ ] [Conversion of complex numbers](https://www.khanacademy.org/math/precalculus/imaginary-and-complex-numbers/modal/quiz/polar-form-of-complex-numbers-quiz)
+
+![image](https://user-images.githubusercontent.com/14041622/39066642-51cd6ce2-4508-11e8-9863-4cc7f0497983.png)
+
 
 
 ## TL;DR. Archived link: [Vector section notes of Essence Linear Algebra](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-379985082)
