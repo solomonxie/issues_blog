@@ -586,7 +586,7 @@ Or it's a version of linear equation `y=mx +b`, only the b=0, then `y=mx`.
 At the showing image above, only first one shows a proportional relationship. The other two are not linear and going through origin.
 
 
-# 3 terms ratio problem
+# `Three Terms ratio problem`
 ```c
 It takes 54 minutes for 4 people to paint 6 walls.
 How many minutes does it take 6 people to paint 7 walls?

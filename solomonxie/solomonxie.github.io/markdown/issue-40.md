@@ -2,7 +2,7 @@
 > Quick notes on College level of Maths or Stats for machine learning.
 
 ## Study resources
-- [ ] [Slant: What are the best resources to learn linear algebra?](https://www.slant.co/topics/6073/~resources-to-learn-linear-algebra)
+- [x] [Slant: What are the best resources to learn linear algebra?](https://www.slant.co/topics/6073/~resources-to-learn-linear-algebra)
 - [x] [High school maths notes](https://github.com/solomonxie/solomonxie.github.io/issues/44)
 - [x] [ Khan academy Pre-calculus](https://www.khanacademy.org/math/precalculus)
 - [ ] [MIT OCW 18.06 SC Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm)
@@ -11,9 +11,9 @@
 
 ## MIT OCW Linear Algebra 18.06 
 - [ ] Unit I: Ax = b and the Four Subspaces
-    - [ ] The Geometry of Linear Equations (Watched; Practiced 3/3)
-    - [ ] An overview of key ideas
-    - [ ] Elimination with matrices
+    - [x] The Geometry of Linear Equations (Watched; Practiced 3/3)
+    - [x] An overview of key ideas (Watched.)
+    - [ ] Elimination with matrices (Watched; Practiced 0/3)
     - [ ] Multiplication and Inverse matrices
     - [ ] Factorization in to A = LU
     - [ ] Transposes, Permutations, Vector Spaces
@@ -50,11 +50,9 @@
 - [ ] Linear transformations
 - [ ] Singular Value Decomposition
 
-## Review hardcore quiz
-- [ ] [Precalculus](https://www.khanacademy.org/math/precalculus?t=practice#precalc-matrices)
-    - [ ] [Conversion of complex numbers](https://www.khanacademy.org/math/precalculus/imaginary-and-complex-numbers/modal/quiz/polar-form-of-complex-numbers-quiz)
-
 ![image](https://user-images.githubusercontent.com/14041622/39066642-51cd6ce2-4508-11e8-9863-4cc7f0497983.png)
+
+
 
 
 
@@ -76,17 +74,73 @@ Long lecture video outlines: [Matrix picture](https://youtu.be/ZK3O402wf1c?t=2m4
 
 We view this problem in three ways:
 - `Row picture`: Each row is an equation, and we could draw out each line equation on the graph.
-![image](https://user-images.githubusercontent.com/14041622/38993085-38d02db8-4415-11e8-96d8-2f0b0ba20c90.png)
-- *`Column picture`: Rewrite equations in the form below, and each column is a vector, and we could each vector (with scalar) on the graph.
-![image](https://user-images.githubusercontent.com/14041622/38993157-6636c2da-4415-11e8-9833-a0d61e68f58d.png)
-![image](https://user-images.githubusercontent.com/14041622/38993091-3ed60e8a-4415-11e8-81a3-33ba90a04e84.png)
+- **`Column picture`**: Rewrite equations in the form below, and each column is a vector, and we could each vector (with scalar) on the graph.
 - `Matrix picture`: Rewrite equations into `Coefficient Matrix form`, and see the geometric meaning of a matrix and vector.
-![image](https://user-images.githubusercontent.com/14041622/38993281-bc62a2f0-4415-11e8-8489-044900a93d7b.png)
+
+![image](https://user-images.githubusercontent.com/14041622/39082877-d8f0be02-458c-11e8-9da5-fdcc95edeefc.png)
 
 
 
 
-# `Solving System of Linear Equations`
+
+# `Solving Systems of Linear Equations`
+> Solving `Linear systems` is the very first and fundamental skill throughout Linear Algebra. It's probably the first lesson of all sorts of courses.
+
+## Terminology
+Before learning `solving systems of linear equations`, you really need to get familiar with all the core terminologies involved, otherwise it can be very hard to move on to next stage.
+And in this case, the best way to learn that is through Wikipedia.
+
+JYR, the core terms are: `Gaussian elimination`, `Gauss-Jordan elimination`, `Augmented Matrix`, `Elementary Row Operations`, `Elementary matrix`, `Row Echelon Form (REF)`, `Reduced Row Echelon Form (RREF)`, `Triangular Form`.
+
+### [`Gaussian elimination`](https://en.wikipedia.org/wiki/Gaussian_elimination)
+> It's a `Row reduction algorithm` to solve System of linear equations.
+
+[Refer to simple wiki: Gaussian elimination](https://simple.wikipedia.org/wiki/Gaussian_elimination)
+
+To perform `Gaussian elimination`, the `coefficients of the terms in the system of linear equations` are used to create a type of matrix called an `augmented matrix`. 
+Then, `elementary row operations` are used to **simplify** the matrix. 
+The **goal** of Gaussian elimination is to get the matrix in `row-echelon form`. 
+If a matrix is in `row-echelon form`, which is also called `Triangular Form`.
+Some definitions of Gaussian elimination say that the matrix result has to be in `reduced row-echelon form`. 
+**Gaussian elimination that creates a reduced row-echelon matrix result is sometimes called `Gauss-Jordan elimination`.**
+
+To be simpler, here is the structure:
+- Algorithm: `Gaussian Elimination`
+    - Step 1: Rewrite system to a `Augmented Matrix`.
+    - Step 2: Simplify matrix with `Elementary row operations`.
+    - Result:
+        - `Row Echelon Form` or
+        - `Reduced Echelon Form`
+
+And if we make the result only in `RREF`, so the name of the algorithm could also be called:
+- Algorithm: `Gauss-Jordan Elimination`
+    - Step 1: Rewrite system to a `Augmented Matrix`.
+    - Step 2: Simplify matrix with `Elementary row operations`.
+    - Result: Only in `Reduced Echelon Form`
+
+### `Elementary Row Operations`
+Elementary row operations are used to **simplify the matrix**. 
+
+The three types of row operations used are:
+- Type 1: **Switching** one row with another **row**.
+- Type 2: **Multiplying** a row by a non-zero **number**.
+- Type 3: **Adding or subtracting** a row from another **row**.
+
+### Example
+Suppose the goal is to find the solution for the linear system below:
+![image](https://user-images.githubusercontent.com/14041622/39080182-31be1c9a-455c-11e8-927e-773f3788b77a.png)
+
+First we need to turn it into `Augmented Matrix` form:
+![image](https://user-images.githubusercontent.com/14041622/39080192-5804ace8-455c-11e8-96ec-57c0d884a69b.png)
+
+Then we apply `Elementary Row Operations`, and result in `Row Echelon Form`:
+![image](https://user-images.githubusercontent.com/14041622/39080203-a26b890a-455c-11e8-9f41-50c66079b22e.png)
+
+At the end, if we'd like, we can further on apply some row operations to get the matrix in `Reduced Row Echelon Form`:
+![image](https://user-images.githubusercontent.com/14041622/39080275-2846e60a-455d-11e8-83c5-53b84fd5b45a.png)
+Reading this matrix tells us that the solutions for this system of equations occur when x = 2, y = 3, and z = -1.
 
 ## `Row Echelon Form vs. Reduced Row Echelon Form`
 [Refer to this lecture video: REF & RREF](https://www.youtube.com/watch?v=W01H0LcVUdQ&index=10&list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6).
+
+
