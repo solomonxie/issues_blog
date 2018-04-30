@@ -79,3 +79,7 @@ After a week’s reaching, I think I’m about reached to my bottom of maths: 6t
 ![snip20180414_622](https://user-images.githubusercontent.com/14041622/38752372-801ab3fa-3f8d-11e8-80bb-6cb8334a2f82.png)
 ![screenshot-www khanacademy org-2018 03 08-18-10-57](https://user-images.githubusercontent.com/14041622/38752390-8c652c76-3f8d-11e8-8282-4a008d6b1370.png)
 ![image](https://user-images.githubusercontent.com/14041622/38752411-a43e23c0-3f8d-11e8-8e1b-ce8a4853c577.png)
+
+
+
+我在想未来找工作应聘的事，看着别人的面经，看着看着就干着急，心里想着：不要把我惹急了，惹急了我就把面试这一套玩意当成任务来攻略！就像我当初攻略签证一样，就像我当初攻略消防资质一样，就像我当初攻略各种数学问题一样，真没什么大不了的！
