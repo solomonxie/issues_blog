@@ -345,6 +345,16 @@ It's unclear if EXIF data in JPEG sources are preserved. There's an issue with p
 
 # `scp`命令在服务器上传下载文件
 
+```shell
+#Copy a local file to a remote host:
+scp path/to/local_file remote_host:path/to/remote_file
+
+#Copy a file from a remote host to a local folder:
+scp remote_host:path/to/remote_file path/to/local_dir
+
+#Recursively copy the contents of a directory from a remote host to a local directory:
+scp -r remote_host:path/to/remote_dir path/to/local_dir
+```
 
 
 # 命令行里打印日期
@@ -408,7 +418,7 @@ date
 
 ## 解决方案一：`tmux`
 
-很幸运，在学习怎么把vim分屏浏览时知道了tmux，然后看tmux视频时学到：原来ssh是这样的特性，断开就会停止所有之前连接ssh期间运行的所有processes，而tmux的核心业务不在于把屏幕分成几块好看，而是它能保存session！而且还能多端实时直播session！
+很幸运，在学习怎么把vim分屏浏览时知道了tmux，然后看视频时学到：原来ssh是这样的特性，断开就会停止所有之前连接ssh期间运行的所有processes，而tmux的核心业务不在于把屏幕分成几块好看，而是它能保存session！而且还能多端实时直播session！
 
 ### 解决方案二：`nohup`
 网上一般说到不间断任务，一般也都会先提到这个，可以说是常规方案。
@@ -428,9 +438,76 @@ date
 我万万没想到，将vim打造成IDE、将脚本不间断运行、让任务运行状态多处可观看的tmux，是这么简单。
 一句`sudo apt-get install tmux`就安装好，一句`tmux`就开启，一句`tmux new -s <session-name>`就可以创建和保存session。超绝！
 
-### 常用操作[快捷键参考](https://gist.github.com/ryerh/14b7c24dfd623ef8edc7#%E5%90%8C%E6%AD%A5%E7%AA%97%E6%A0%BC)
+[常用操作快捷键参考。](https://gist.github.com/ryerh/14b7c24dfd623ef8edc7#%E5%90%8C%E6%AD%A5%E7%AA%97%E6%A0%BC)
 
-## Tmux无法持久保存session
+## Tmux常用命令参考
+
+```shell
+#启动新会话：
+tmux [new -s 会话名 -n 窗口名]
+
+#恢复会话：
+tmux at [-t 会话名]
+
+#列出所有会话：
+tmux ls
+
+#关闭会话：
+tmux kill-session -t 会话名
+
+#关闭所有会话：
+tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill
+```
+
+## Tmux 常用内部命令
+> 所谓`内部命令`，就是进入Tmux后的指令。在按下`前缀键`后的命令，一般前缀键为`Ctrl+b`.
+
+```vim
+#会话
+:new<回车>  启动新会话
+s           列出所有会话
+$           重命名当前会话
+
+#窗口
+c  创建新窗口
+w  列出所有窗口
+n  后一个窗口
+p  前一个窗口
+f  查找窗口
+,  重命名当前窗口
+&  关闭当前窗口
+
+#窗格（分割窗口）
+%  垂直分割
+"  水平分割
+o  交换窗格
+x  关闭窗格
+⍽  左边这个符号代表空格键 - 切换布局
+q 显示每个窗格是第几个，当数字出现的时候按数字几就选中第几个窗格
+{ 与上一个窗格交换位置
+} 与下一个窗格交换位置
+z 切换窗格最大化/最小化
+
+#调整窗口排序
+swap-window -s 3 -t 1  交换 3 号和 1 号窗口
+swap-window -t 1       交换当前和 1 号窗口
+move-window -t 1       移动当前窗口到 1 号
+
+#同步窗格 
+#这么做可以切换到想要的窗口，输入 Tmux 前缀和一个冒号呼出命令提示行，然后输入：
+:setw synchronize-panes
+
+#调整窗格尺寸
+#如果你不喜欢默认布局，可以重调窗格的尺寸。虽然这很容易实现，但一般不需要这么干。这几个命令用来调整窗格：
+PREFIX : resize-pane -D          当前窗格向下扩大 1 格
+PREFIX : resize-pane -U          当前窗格向上扩大 1 格
+PREFIX : resize-pane -L          当前窗格向左扩大 1 格
+PREFIX : resize-pane -R          当前窗格向右扩大 1 格
+PREFIX : resize-pane -D 20       当前窗格向下扩大 20 格
+PREFIX : resize-pane -t 2 -L 20  编号为 2 的窗格向左扩大 20 格
+```
+
+## Tmux无法持久保存session问题
 它虽然好用，但是缺点是关机的话session就全都消失了。要解决这点，需要安装单独的插件。
 这个时候你就需要`Tmux-Resurrect`插件来了，[地址在这](https://github.com/tmux-plugins/tmux-resurrect)。
 插件说明里很清楚的写了，tmux一旦关机，就会失去一切的设置。所以还必须用插件来解决。
