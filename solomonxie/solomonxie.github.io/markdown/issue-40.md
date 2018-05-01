@@ -90,7 +90,7 @@ We view this problem in three ways:
 Before learning `solving systems of linear equations`, you really need to get familiar with all the core terminologies involved, otherwise it can be very hard to move on to next stage.
 And in this case, the best way to learn that is through Wikipedia.
 
-JYR, the core terms are: `Gaussian elimination`, `Gauss-Jordan elimination`, `Augmented Matrix`, `Elementary Row Operations`, `Elementary matrix`, `Row Echelon Form (REF)`, `Reduced Row Echelon Form (RREF)`, `Triangular Form`.
+JFR, the core terms are: `Gaussian elimination`, `Gauss-Jordan elimination`, `Augmented Matrix`, `Elementary Row Operations`, `Elementary matrix`, `Row Echelon Form (REF)`, `Reduced Row Echelon Form (RREF)`, `Triangular Form`.
 
 ### [`Gaussian elimination`](https://en.wikipedia.org/wiki/Gaussian_elimination)
 > It's a `Row reduction algorithm` to solve System of linear equations.
