@@ -86,13 +86,17 @@ We view this problem in three ways:
 
 Lecture video outlines: [Elimination pivots and an example](https://youtu.be/QVKj3LADCnA?t=3m9s), [Failure of Elimination method](https://youtu.be/QVKj3LADCnA?t=10m34s), [Augmented matrix](https://youtu.be/QVKj3LADCnA?t=14m50s), [Operations of matrices elimination](https://youtu.be/QVKj3LADCnA?t=19m24s), [Row operations of Matrices Multiplication](https://youtu.be/QVKj3LADCnA?t=20m22s), [Column operations of Matrices multiplication](https://youtu.be/QVKj3LADCnA?t=21m43s)
 
-### Row operation of Matrices Multiplication
+### `Column operation` of Matrices Multiplication
 
 > Below it's a `Column Vector multiplied by a 3x3 Matrix`:
 ![image](https://user-images.githubusercontent.com/14041622/39472961-f1dfd32c-4d7e-11e8-8c0f-2ebf560526d0.png)
 
+The result of matrix multiplication above is a `1x3 Matrix`, which is a `Column vector` again. Because:
 
-### Column operation of Matrices Multiplication
+**THE RESULT OF THAT COLUMN OPERATION IS A COMBINATIONS OF THE MATRIX.**
+
+
+### `Row operation` of Matrices Multiplication
 
 > Below it's a `Row Vector to multiply a 3x3 Matrix`:
 ![image](https://user-images.githubusercontent.com/14041622/39472895-a9e5568c-4d7e-11e8-9d75-07d5224a3f42.png)
