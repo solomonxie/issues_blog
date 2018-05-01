@@ -84,7 +84,7 @@ We view this problem in three ways:
 ## Unit 1.2 Elimination with Matrices
 > `Elimination` is the method **EVERY** softwares use to solve `linear equations`.
 
-Lecture video outlines: [Elimination pivots and an example](https://youtu.be/QVKj3LADCnA?t=3m9s), [Failure of Elimination method](https://youtu.be/QVKj3LADCnA?t=10m34s), [Augmented matrix](https://youtu.be/QVKj3LADCnA?t=14m50s), [Operations of matrices elimination](https://youtu.be/QVKj3LADCnA?t=19m24s), [Row operations of Matrices Multiplication](https://youtu.be/QVKj3LADCnA?t=20m22s), [Column operations of Matrices multiplication](https://youtu.be/QVKj3LADCnA?t=21m43s), [Elementary Matrix](https://youtu.be/QVKj3LADCnA?t=25m28s)
+Lecture video outlines: [Elimination pivots and an example](https://youtu.be/QVKj3LADCnA?t=3m9s), [Failure of Elimination method](https://youtu.be/QVKj3LADCnA?t=10m34s), [Augmented matrix](https://youtu.be/QVKj3LADCnA?t=14m50s), [Operations of matrices elimination](https://youtu.be/QVKj3LADCnA?t=19m24s), [Row operations of Matrices Multiplication](https://youtu.be/QVKj3LADCnA?t=20m22s), [Column operations of Matrices multiplication](https://youtu.be/QVKj3LADCnA?t=21m43s), [Elementary Matrix](https://youtu.be/QVKj3LADCnA?t=24m46s)
 
 ### `Column operation` of Matrices Multiplication
 
@@ -118,6 +118,9 @@ Simply saying, an `Elementary Matrix` is just an `Identity Matrix` with **ONLY O
 The example above is an `elementary matrix` which only altered the `Row-2 Column-1 entry`, and we'd like to call it the `E₂₁ matrix`, which represents `the elementary matrix which fixed the 2-1 position`.
 
 The reason we need an `elementary matrix` is to apply each one step of `Elimination of linear equations`.
+Which means that, 
+
+**FOR EVERY SINGLE STEP OF ELIMINATION, WE NEED AN ELEMENTARY MATRIX.**
 
 
 # `Matrices Elimination`
