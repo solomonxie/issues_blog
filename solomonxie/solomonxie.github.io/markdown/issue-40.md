@@ -1,6 +1,8 @@
 # Linear Algebra with Moocs 线性代数课程笔记
 > Quick notes on College level of Maths or Stats for machine learning.
 
+Linear algebra, Matrix algebra, same thing.
+
 ## Study resources
 - [x] [Slant: What are the best resources to learn linear algebra?](https://www.slant.co/topics/6073/~resources-to-learn-linear-algebra)
 - [x] [High school maths notes](https://github.com/solomonxie/solomonxie.github.io/issues/44)
