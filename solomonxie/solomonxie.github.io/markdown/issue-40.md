@@ -103,6 +103,7 @@ JFR, the core terms are: `Gaussian elimination`, `Gauss-Jordan elimination`, `Au
 > It's a `Row reduction algorithm` to solve System of linear equations.
 
 [Refer to simple wiki: Gaussian elimination](https://simple.wikipedia.org/wiki/Gaussian_elimination)
+[Example: showme.com](http://www.showme.com/sh/?h=3fjkVEW)
 
 To perform `Gaussian elimination`, the `coefficients of the terms in the system of linear equations` are used to create a type of matrix called an `augmented matrix`. 
 Then, `elementary row operations` are used to **simplify** the matrix. 
@@ -154,3 +155,5 @@ Reading this matrix tells us that the solutions for this system of equations occ
 > Means we put another column into the matrix, which represents the **Right side** of the system of equations, numbers of right of the `=` sign.
 
 When we apply elimination to `Linear equations`, we operate both sides at the same time. But for computer programmes, it often apply to **Left side**, and remember the operations, a.g. multiply a number or add equations together, when the left side finished then apply the same operations to the right side.
+
+![image](https://user-images.githubusercontent.com/14041622/39471215-829b2d90-4d74-11e8-97b1-7ce730e92e86.png)
