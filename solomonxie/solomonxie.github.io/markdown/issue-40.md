@@ -253,3 +253,10 @@ If a given Matrix was told it's an `Augmented Matrix`, so we have to assume that
 
 ![image](https://user-images.githubusercontent.com/14041622/39482311-20236e3e-4da1-11e8-859e-6954b2d33f4a.png)
 
+## `Equivalent systems & Equivalent Matrices`
+
+- Equivalent systems: Linear systems with the SAME SOLUTION SET.
+![image](https://user-images.githubusercontent.com/14041622/39482863-30ad3ee0-4da3-11e8-9314-8e6c9010690e.png)
+- Equivalent matrices: Two matrices where One Matrix **can be turned** into the other matrix by some `elementary row operations`.
+![image](https://user-images.githubusercontent.com/14041622/39482947-735664c4-4da3-11e8-8d4b-fc1b233adc87.png)
+
