@@ -62,7 +62,9 @@
 ## TL;DR Archived link: [MIT OCW Linear Algebra courses list & compare](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-380001327).
 
 
-# MIT OCW 18.06 - Unit 1.1 The geometry of linear equations
+# MIT OCW 18.06 SC Course Notes
+
+## Unit 1.1 The geometry of linear equations
 
 [Refer to the review pdf.](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/MIT18_06SCF11_Ses1.1sum.pdf)
 
@@ -78,6 +80,11 @@ We view this problem in three ways:
 - `Matrix picture`: Rewrite equations into `Coefficient Matrix form`, and see the geometric meaning of a matrix and vector.
 
 ![image](https://user-images.githubusercontent.com/14041622/39082877-d8f0be02-458c-11e8-9da5-fdcc95edeefc.png)
+
+## Unit 1.2 Elimination with Matrices
+> `Elimination` is the method **EVERY** softwares use to solve `linear equations`.
+
+Lecture video outlines: [Elimination pivots and an example](https://youtu.be/QVKj3LADCnA?t=3m9s), [Failure of Elimination method](https://youtu.be/QVKj3LADCnA?t=10m34s),
 
 
 
