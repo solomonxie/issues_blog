@@ -248,3 +248,8 @@ Reading this matrix tells us that the solutions for this system of equations occ
 When we apply elimination to `Linear equations`, we operate both sides at the same time. But for computer programmes, it often apply to **Left side**, and remember the operations, a.g. multiply a number or add equations together, when the left side finished then apply the same operations to the right side.
 
 ![image](https://user-images.githubusercontent.com/14041622/39471215-829b2d90-4d74-11e8-97b1-7ce730e92e86.png)
+
+If a given Matrix was told it's an `Augmented Matrix`, so we have to assume that the **Last Column** is **The Solution Column**.
+
+![image](https://user-images.githubusercontent.com/14041622/39482311-20236e3e-4da1-11e8-859e-6954b2d33f4a.png)
+
