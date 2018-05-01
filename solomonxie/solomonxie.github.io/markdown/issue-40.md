@@ -70,6 +70,7 @@
 
 Lecture video outlines | Links
 -- | --
+Lecture | [0m0s](https://www.youtube.com/watch?v=ZK3O402wf1c&t=0s&index=1&list=PLE7DDD91010BC51F8)
 Matrix picture | [2m47s](https://youtu.be/ZK3O402wf1c?t=2m47s)
 Row picture | [3m41s](https://youtu.be/ZK3O402wf1c?t=3m41s)
 Column picture | [8m41s](https://youtu.be/ZK3O402wf1c?t=8m41s)
@@ -92,9 +93,9 @@ We view this problem in three ways:
 ## Unit 1.2 Elimination with Matrices
 > `Elimination` is the method **EVERY** softwares use to solve `linear equations`.
 
-
 Lecture video outlines | Links
 -- | -- 
+Lecture | [0m0s](https://www.youtube.com/watch?v=QVKj3LADCnA&t=0s&index=2&list=PLE7DDD91010BC51F8)
 Elimination pivots and an example | [3m9s](https://youtu.be/QVKj3LADCnA?t=3m9s) 
 Failure of Elimination method | [10m34s](https://youtu.be/QVKj3LADCnA?t=10m34s) 
 Augmented matrix | [14m50s](https://youtu.be/QVKj3LADCnA?t=14m50s)
@@ -157,6 +158,13 @@ Example: To **switch two ROWS of a matrix** by using a `permutation matrix` :
 Example: To **switch two COLUMNS of a matrix** by using a `permutation matrix`:
 ![image](https://user-images.githubusercontent.com/14041622/39474756-113f76b0-4d88-11e8-950a-719ba2619094.png)
 
+
+
+## Unit 1.3 Multiplication & Inverse Matrices
+
+Lecture outlines | Links
+-- | --
+Lecture | [0m0s](https://www.youtube.com/watch?v=FX4C-JpTFgY&t=136s&index=3&list=PLE7DDD91010BC51F8)
 
 
 # `Matrices Elimination`
