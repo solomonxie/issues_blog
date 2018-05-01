@@ -91,9 +91,11 @@ Lecture video outlines: [Elimination pivots and an example](https://youtu.be/QVK
 > Below it's a `Column Vector multiplied by a 3x3 Matrix`:
 ![image](https://user-images.githubusercontent.com/14041622/39472961-f1dfd32c-4d7e-11e8-8c0f-2ebf560526d0.png)
 
-The result of matrix multiplication above is a `1x3 Matrix`, which is a `Column vector` again. Because:
+The result  above is a `3x1 Matrix`, which is a `Column vector` again. Because:
 
-**THE RESULT OF THAT COLUMN OPERATION IS A COMBINATIONS OF THE MATRIX.**
+**THE RESULT OF THAT COLUMN OPERATION IS A LINEAR COMBINATIONS OF THE COLUMNS.**
+
+> **"A MATRIX TIMES A COLUMN, IS A COLUMN."**
 
 
 ### `Row operation` of Matrices Multiplication
@@ -101,9 +103,19 @@ The result of matrix multiplication above is a `1x3 Matrix`, which is a `Column 
 > Below it's a `Row Vector to multiply a 3x3 Matrix`:
 ![image](https://user-images.githubusercontent.com/14041622/39472895-a9e5568c-4d7e-11e8-9d75-07d5224a3f42.png)
 
+The result above is a `1x3 Matrix`, which is a `Row vector` again. Because:
+
+**THE RESULT OF THAT ROW OPERATION IS A COMBINATION OF THE ROWS.**
 
 
+### `Elementary Matrix`
+Simply saying, an `Elementary Matrix` is just an `Identity Matrix` with **ONLY ONE ELEMENT CHANGED**.
 
+![image](https://user-images.githubusercontent.com/14041622/39473567-0bc69f66-4d82-11e8-98d9-d7ff9f49760d.png)
+
+The example above is an `elementary matrix` which only altered the `Row-2 Column-1 entry`, and we'd like to call it the `E₂₁ matrix`, which represents `the elementary matrix which fixed the 2-1 position`.
+
+The reason we need an `elementary matrix` is to apply each one step of `Elimination of linear equations`.
 
 
 # `Matrices Elimination`
