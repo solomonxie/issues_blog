@@ -90,8 +90,8 @@ Lecture video outlines: [Elimination pivots and an example](https://youtu.be/QVK
 
 
 
-# `Solving Systems of Linear Equations`
-> Solving `Linear systems` is the very first and fundamental skill throughout Linear Algebra. It's probably the first lesson of all sorts of courses.
+# `Matrices Elimination`
+> `Matrices elimination` (or `solving system of linear equations`) is the very first and fundamental skill throughout Linear Algebra. It's probably the first lesson of all sorts of courses.
 
 ## Terminology
 Before learning `solving systems of linear equations`, you really need to get familiar with all the core terminologies involved, otherwise it can be very hard to move on to next stage.
