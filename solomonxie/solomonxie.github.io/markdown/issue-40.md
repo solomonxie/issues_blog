@@ -68,7 +68,15 @@
 
 [Refer to the review pdf.](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/MIT18_06SCF11_Ses1.1sum.pdf)
 
-Long lecture video outlines: [Matrix picture](https://youtu.be/ZK3O402wf1c?t=2m47s), [Row picture](https://youtu.be/ZK3O402wf1c?t=3m41s), [Column picture](https://youtu.be/ZK3O402wf1c?t=8m41s), [Matrix picture in 3D](https://youtu.be/ZK3O402wf1c?t=15m26s), [Row picture in 3D: intersects of planes](https://youtu.be/ZK3O402wf1c?t=17m33s), [Column picture in 3D](https://youtu.be/ZK3O402wf1c?t=23m11s)
+Lecture video outlines | Links
+-- | --
+Matrix picture | [2m47s](https://youtu.be/ZK3O402wf1c?t=2m47s)
+Row picture | [3m41s](https://youtu.be/ZK3O402wf1c?t=3m41s)
+Column picture | [8m41s](https://youtu.be/ZK3O402wf1c?t=8m41s)
+Matrix picture in 3D | [15m26s](https://youtu.be/ZK3O402wf1c?t=15m26s)
+Row picture in 3D: intersects of planes | [17m33s](https://youtu.be/ZK3O402wf1c?t=17m33s)
+Column picture in 3D | [23m11s](https://youtu.be/ZK3O402wf1c?t=23m11s)
+Permutation Matrix | [36m42s](https://youtu.be/QVKj3LADCnA?t=36m42s)
 
 > "The fundamental problem of linear algebra is to solve n linear equations in `n` unknowns."
 
@@ -84,7 +92,19 @@ We view this problem in three ways:
 ## Unit 1.2 Elimination with Matrices
 > `Elimination` is the method **EVERY** softwares use to solve `linear equations`.
 
-Lecture video outlines: [Elimination pivots and an example](https://youtu.be/QVKj3LADCnA?t=3m9s), [Failure of Elimination method](https://youtu.be/QVKj3LADCnA?t=10m34s), [Augmented matrix](https://youtu.be/QVKj3LADCnA?t=14m50s), [Operations of matrices elimination](https://youtu.be/QVKj3LADCnA?t=19m24s), [Row operations of Matrices Multiplication](https://youtu.be/QVKj3LADCnA?t=20m22s), [Column operations of Matrices multiplication](https://youtu.be/QVKj3LADCnA?t=21m43s), [Elementary Matrix](https://youtu.be/QVKj3LADCnA?t=24m46s)
+
+Lecture video outlines | Links
+-- | -- 
+Elimination pivots and an example | [3m9s](https://youtu.be/QVKj3LADCnA?t=3m9s) 
+Failure of Elimination method | [10m34s](https://youtu.be/QVKj3LADCnA?t=10m34s) 
+Augmented matrix | [14m50s](https://youtu.be/QVKj3LADCnA?t=14m50s)
+Operations of matrices elimination | [19m24s](https://youtu.be/QVKj3LADCnA?t=19m24s)
+Row operations of Matrices Multiplication | [20m22s](https://youtu.be/QVKj3LADCnA?t=20m22s)
+Column operations of Matrices multiplication | [21m43s](https://youtu.be/QVKj3LADCnA?t=21m43s)
+Elementary Matrix | [24m46s](https://youtu.be/QVKj3LADCnA?t=24m46s)
+Include all elimination steps in one Matrix | [33m29s](https://youtu.be/QVKj3LADCnA?t=33m29s)
+
+> To do `column operations`, the matrix multiplies on the right. To do `row operations`, the matrix multiplies on the left.
 
 ### `Column operation` of Matrices Multiplication
 
@@ -121,6 +141,22 @@ The reason we need an `elementary matrix` is to apply each one step of `Eliminat
 Which means that, 
 
 **FOR EVERY SINGLE STEP OF ELIMINATION, WE NEED AN ELEMENTARY MATRIX.**
+
+So for **two steps of elimination**, we could represent it with `elementary matrices` as below:
+![image](https://user-images.githubusercontent.com/14041622/39473976-4b9e3534-4d84-11e8-90bf-4dc88a5ef825.png)
+
+Combining **all elimination steps** in ONE MATRIX:
+![image](https://user-images.githubusercontent.com/14041622/39474381-4f43ebf0-4d86-11e8-8b0e-6d3788d67616.png)
+
+### `Permutation Matrix`
+> `Permutation Matrix` is used only to **switch positions** of elements in the matrix, without changing any numbers.
+
+Example: To **switch two ROWS of a matrix** by using a `permutation matrix` :
+![image](https://user-images.githubusercontent.com/14041622/39474697-cc77de32-4d87-11e8-90ba-f7cff7edd486.png)
+
+Example: To **switch two COLUMNS of a matrix** by using a `permutation matrix`:
+![image](https://user-images.githubusercontent.com/14041622/39474756-113f76b0-4d88-11e8-950a-719ba2619094.png)
+
 
 
 # `Matrices Elimination`
