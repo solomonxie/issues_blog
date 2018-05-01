@@ -1,11 +1,6 @@
 # Linear Algebra with Moocs 线性代数课程笔记
 > Quick notes on College level of Maths or Stats for machine learning.
 
-Linear algebra, Matrix algebra, same thing.
-
-![image](https://user-images.githubusercontent.com/14041622/39481781-25f6f346-4d9f-11e8-988e-0c1623e6edca.png)
-
-
 ## Study resources
 - [x] [Slant: What are the best resources to learn linear algebra?](https://www.slant.co/topics/6073/~resources-to-learn-linear-algebra)
 - [x] [High school maths notes](https://github.com/solomonxie/solomonxie.github.io/issues/44)
@@ -62,6 +57,8 @@ Linear algebra, Matrix algebra, same thing.
 
 
 ## TL;DR. Archived link: [Vector section notes of Essence Linear Algebra](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-379985082)
+
+## TL;DR Archived link: [MIT OCW Linear Algebra courses list & compare](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-380001327).
 
 
 ## TL;DR Archived link: [MIT OCW Linear Algebra courses list & compare](https://github.com/solomonxie/solomonxie.github.io/issues/21#issuecomment-380001327).
