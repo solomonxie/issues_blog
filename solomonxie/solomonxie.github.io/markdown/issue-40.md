@@ -84,7 +84,7 @@ We view this problem in three ways:
 ## Unit 1.2 Elimination with Matrices
 > `Elimination` is the method **EVERY** softwares use to solve `linear equations`.
 
-Lecture video outlines: [Elimination pivots and an example](https://youtu.be/QVKj3LADCnA?t=3m9s), [Failure of Elimination method](https://youtu.be/QVKj3LADCnA?t=10m34s),
+Lecture video outlines: [Elimination pivots and an example](https://youtu.be/QVKj3LADCnA?t=3m9s), [Failure of Elimination method](https://youtu.be/QVKj3LADCnA?t=10m34s), [Augmented matrix](https://youtu.be/QVKj3LADCnA?t=14m50s),
 
 
 
@@ -147,7 +147,10 @@ At the end, if we'd like, we can further on apply some row operations to get the
 ![image](https://user-images.githubusercontent.com/14041622/39080275-2846e60a-455d-11e8-83c5-53b84fd5b45a.png)
 Reading this matrix tells us that the solutions for this system of equations occur when x = 2, y = 3, and z = -1.
 
-## `Row Echelon Form vs. Reduced Row Echelon Form`
+### `Row Echelon Form vs. Reduced Row Echelon Form`
 [Refer to this lecture video: REF & RREF](https://www.youtube.com/watch?v=W01H0LcVUdQ&index=10&list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6).
 
+## `Augmented Matrix`
+> Means we put another column into the matrix, which represents the **Right side** of the system of equations, numbers of right of the `=` sign.
 
+When we apply elimination to `Linear equations`, we operate both sides at the same time. But for computer programmes, it often apply to **Left side**, and remember the operations, a.g. multiply a number or add equations together, when the left side finished then apply the same operations to the right side.
