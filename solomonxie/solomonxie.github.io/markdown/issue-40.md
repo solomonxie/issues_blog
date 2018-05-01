@@ -84,7 +84,7 @@ We view this problem in three ways:
 ## Unit 1.2 Elimination with Matrices
 > `Elimination` is the method **EVERY** softwares use to solve `linear equations`.
 
-Lecture video outlines: [Elimination pivots and an example](https://youtu.be/QVKj3LADCnA?t=3m9s), [Failure of Elimination method](https://youtu.be/QVKj3LADCnA?t=10m34s), [Augmented matrix](https://youtu.be/QVKj3LADCnA?t=14m50s), [Operations of matrices elimination](https://youtu.be/QVKj3LADCnA?t=19m24s), [Row operations of Matrices Multiplication](https://youtu.be/QVKj3LADCnA?t=20m22s), [Column operations of Matrices multiplication](https://youtu.be/QVKj3LADCnA?t=21m43s)
+Lecture video outlines: [Elimination pivots and an example](https://youtu.be/QVKj3LADCnA?t=3m9s), [Failure of Elimination method](https://youtu.be/QVKj3LADCnA?t=10m34s), [Augmented matrix](https://youtu.be/QVKj3LADCnA?t=14m50s), [Operations of matrices elimination](https://youtu.be/QVKj3LADCnA?t=19m24s), [Row operations of Matrices Multiplication](https://youtu.be/QVKj3LADCnA?t=20m22s), [Column operations of Matrices multiplication](https://youtu.be/QVKj3LADCnA?t=21m43s), [Elementary Matrix](https://youtu.be/QVKj3LADCnA?t=25m28s)
 
 ### `Column operation` of Matrices Multiplication
 
@@ -109,6 +109,8 @@ The result above is a `1x3 Matrix`, which is a `Row vector` again. Because:
 
 
 ### `Elementary Matrix`
+> It's also called `Elimination Matrix`.
+
 Simply saying, an `Elementary Matrix` is just an `Identity Matrix` with **ONLY ONE ELEMENT CHANGED**.
 
 ![image](https://user-images.githubusercontent.com/14041622/39473567-0bc69f66-4d82-11e8-98d9-d7ff9f49760d.png)
