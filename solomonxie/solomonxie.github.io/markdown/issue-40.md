@@ -3,6 +3,9 @@
 
 Linear algebra, Matrix algebra, same thing.
 
+![image](https://user-images.githubusercontent.com/14041622/39481781-25f6f346-4d9f-11e8-988e-0c1623e6edca.png)
+
+
 ## Study resources
 - [x] [Slant: What are the best resources to learn linear algebra?](https://www.slant.co/topics/6073/~resources-to-learn-linear-algebra)
 - [x] [High school maths notes](https://github.com/solomonxie/solomonxie.github.io/issues/44)
