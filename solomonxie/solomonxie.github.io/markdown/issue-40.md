@@ -246,6 +246,9 @@ Reading this matrix tells us that the solutions for this system of equations occ
 ### `Row Echelon Form vs. Reduced Row Echelon Form`
 [Refer to this lecture video: REF & RREF](https://www.youtube.com/watch?v=W01H0LcVUdQ&index=10&list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6).
 
+![image](https://user-images.githubusercontent.com/14041622/39505998-a43af43c-4e08-11e8-857d-cb5254378aec.png)
+
+
 ## `Augmented Matrix`
 > Means we put another column into the matrix, which represents the **Right side** of the system of equations, numbers of right of the `=` sign.
 
