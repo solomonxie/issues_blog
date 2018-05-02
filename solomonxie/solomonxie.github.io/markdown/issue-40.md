@@ -227,7 +227,7 @@ Elementary row operations are used to **simplify the matrix**.
 The three types of row operations used are:
 - Type 1: **Switching** one row with another **row**.
 - Type 2: **Multiplying** a row by a non-zero **number**.
-- Type 3: **Adding or subtracting** a row from another **row**.
+- Type 3: **Adding** a row from another **row**. (!Note: you can only **ADD** them but not **subtract**, but you can **ADD** a negative)
 
 ### Example
 Suppose the goal is to find the solution for the linear system below:
@@ -272,3 +272,20 @@ If a given Matrix was told it's an `Augmented Matrix`, so we have to assume that
 - Equivalent matrices: Two matrices where One Matrix **can be turned** into the other matrix by some `elementary row operations`.
 ![image](https://user-images.githubusercontent.com/14041622/39482947-735664c4-4da3-11e8-8d4b-fc1b233adc87.png)
 
+## `Pivot`
+> Or called the `Cursor`, or `Basic`, or `Basic variable`.
+
+It means the value that represents the `unknown variable`  in each column. There's no `pivot` in a column if you can't get a 1 in that column.
+
+![image](https://user-images.githubusercontent.com/14041622/39506959-5ef42898-4e0e-11e8-89e0-8002688d81fb.png)
+
+### `Free variables`
+If there's no pivot in a column, that means this `unknown variable` of the column can be **any number**, so we call it a `free variable`.
+
+![image](https://user-images.githubusercontent.com/14041622/39507131-27751b7e-4e0f-11e8-9761-cef7ee48cd64.png)
+
+### `Pivot columns`
+
+The `pivots` are found after `Row Reduction`, and then **go back** to the Original Matrix, the columns **WITH** pivots are called `pivot columns`.
+
+![image](https://user-images.githubusercontent.com/14041622/39507277-ce962f42-4e0f-11e8-8638-917697b3a341.png)
