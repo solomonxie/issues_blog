@@ -246,8 +246,13 @@ Reading this matrix tells us that the solutions for this system of equations occ
 ### `Row Echelon Form vs. Reduced Row Echelon Form`
 [Refer to this lecture video: REF & RREF](https://www.youtube.com/watch?v=W01H0LcVUdQ&index=10&list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6).
 
-![image](https://user-images.githubusercontent.com/14041622/39505998-a43af43c-4e08-11e8-857d-cb5254378aec.png)
+It doesn't really matter it is a `Square Matrix` or not, there could be a `Diagonal` or `Main diagonal`, or you can't draw a diagonal at all. 
+The only thing matters is **WHAT ARE ABOVE 1 AND WHAT ARE BELOW 1.**
 
+- REF: For each column, all numbers **below** 1 MUST BE 0. Doesn't matter what numbers are above 1.
+- RREF: For each column, all numbers both **above & below** 1 MUST BE 0. We don't care about it if there's no 1 in the column.
+
+![image](https://user-images.githubusercontent.com/14041622/39506655-9e283416-4e0c-11e8-9e58-1df4f85c25e6.png)
 
 ## `Augmented Matrix`
 > Means we put another column into the matrix, which represents the **Right side** of the system of equations, numbers of right of the `=` sign.
