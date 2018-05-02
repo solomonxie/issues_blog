@@ -229,6 +229,10 @@ The three types of row operations used are:
 - Type 2: **Multiplying** a row by a non-zero **number**.
 - Type 3: **Adding** a row from another **row**. (!Note: you can only **ADD** them but not **subtract**, but you can **ADD** a negative)
 
+Confusing operation: See where the `negative sign` was put:
+![image](https://user-images.githubusercontent.com/14041622/39507688-b0f759aa-4e11-11e8-89b3-69846f64a53a.png)
+
+
 ### Example
 Suppose the goal is to find the solution for the linear system below:
 ![image](https://user-images.githubusercontent.com/14041622/39080182-31be1c9a-455c-11e8-927e-773f3788b77a.png)
