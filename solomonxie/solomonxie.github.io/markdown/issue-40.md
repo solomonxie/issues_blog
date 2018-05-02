@@ -298,3 +298,7 @@ The `pivots` are found after `Row Reduction`, and then **go back** to the Origin
 It's simple: When you solve out one `unknown variable` in the Linear System, you put the value back to other equations. We call this process as `Back Substitution`.
 
 ![image](https://user-images.githubusercontent.com/14041622/39522421-b93a512a-4e44-11e8-970c-b965fdee3808.png)
+
+
+
+![image](https://user-images.githubusercontent.com/14041622/39527938-55f55a72-4e55-11e8-9f4e-d5ca9a984596.png)
