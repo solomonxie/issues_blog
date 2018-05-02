@@ -150,6 +150,8 @@ The result above is a `1x3 Matrix`, which is a `Row vector` again. Because:
 ### `Elementary Matrix`
 > It's also called `Elimination Matrix`.
 
+[Refer to this brief video from Mathispower4u.](https://www.youtube.com/watch?v=pMp8RfWtPwQ&feature=youtu.be)
+
 Simply saying, an `Elementary Matrix` is just an `Identity Matrix` with **ONLY ONE ELEMENT CHANGED**.
 
 ![image](https://user-images.githubusercontent.com/14041622/39473567-0bc69f66-4d82-11e8-98d9-d7ff9f49760d.png)
@@ -278,6 +280,8 @@ If a given Matrix was told it's an `Augmented Matrix`, so we have to assume that
 
 ## `Pivot`
 > Or called the `Cursor`, or `Basic`, or `Basic variable`.
+
+[Refer to this video from mathispower4u.](http://youtu.be/HFbBclH99d0)
 
 It means the value that represents the `unknown variable`  in each column. There's no `pivot` in a column if you can't get a 1 in that column.
 
