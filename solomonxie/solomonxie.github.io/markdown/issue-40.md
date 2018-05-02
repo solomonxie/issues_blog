@@ -313,6 +313,8 @@ It's simple: When you solve out one `unknown variable` in the Linear System, you
 
 ## Matrix Multiplication
 
+[Refer to this video by mathispower4u](https://www.youtube.com/watch?v=zAjUyPe-4mI&feature=youtu.be)
+
 A fairly simple way to remember how to do `matrix multiplication`:
 Assume that two matrices multiply together as `AB = C`.
 **You need to write out each entries of the product, and then place this entry with a row of A and a column of B which numbered as subscriptions of this entry.**
