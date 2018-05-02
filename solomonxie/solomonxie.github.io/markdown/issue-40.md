@@ -150,7 +150,8 @@ The result above is a `1x3 Matrix`, which is a `Row vector` again. Because:
 ### `Elementary Matrix`
 > It's also called `Elimination Matrix`.
 
-[Refer to this brief video from Mathispower4u.](https://www.youtube.com/watch?v=pMp8RfWtPwQ&feature=youtu.be)
+[Refer to this amazing good video by Mathispower4u: Elementary Matrices](https://www.youtube.com/watch?v=7H3JFH3IjB0&feature=youtu.be)
+[Refer to Mathispower4u: Write a Matrix as a Product of Elementary Matrices](https://www.youtube.com/watch?v=pMp8RfWtPwQ&feature=youtu.be)
 
 Simply saying, an `Elementary Matrix` is just an `Identity Matrix` with **ONLY ONE ELEMENT CHANGED**.
 
