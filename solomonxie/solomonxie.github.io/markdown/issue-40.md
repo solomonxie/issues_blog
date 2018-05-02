@@ -86,7 +86,7 @@ Linear algebra, Matrix algebra, same thing.
 
 [Refer to the review pdf.](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/MIT18_06SCF11_Ses1.1sum.pdf)
 
-Lecture video outlines | Links
+Lecture video timeline | Links
 -- | --
 Lecture | [0m0s](https://www.youtube.com/watch?v=ZK3O402wf1c&t=0s&index=1&list=PLE7DDD91010BC51F8)
 Matrix picture | [2m47s](https://youtu.be/ZK3O402wf1c?t=2m47s)
@@ -111,7 +111,7 @@ We view this problem in three ways:
 ## Unit 1.2 Elimination with Matrices
 > `Elimination` is the method **EVERY** softwares use to solve `linear equations`.
 
-Lecture video outlines | Links
+Lecture video timeline | Links
 -- | -- 
 Lecture | [0m0s](https://www.youtube.com/watch?v=QVKj3LADCnA&t=0s&index=2&list=PLE7DDD91010BC51F8)
 Elimination pivots and an example | [3m9s](https://youtu.be/QVKj3LADCnA?t=3m9s) 
@@ -155,6 +155,8 @@ The result above is a `1x3 Matrix`, which is a `Row vector` again. Because:
 
 Simply saying, an `Elementary Matrix` is just an `Identity Matrix` with **ONLY ONE ELEMENT CHANGED**.
 
+`Elementary Matrix` must be **ONLY ONE ROW OPERATION** away from the `Identity Matrix`.
+
 ![image](https://user-images.githubusercontent.com/14041622/39473567-0bc69f66-4d82-11e8-98d9-d7ff9f49760d.png)
 
 The example above is an `elementary matrix` which only altered the `Row-2 Column-1 entry`, and we'd like to call it the `E₂₁ matrix`, which represents `the elementary matrix which fixed the 2-1 position`.
@@ -183,7 +185,7 @@ Example: To **switch two COLUMNS of a matrix** by using a `permutation matrix`:
 
 ## Unit 1.3 Multiplication & Inverse Matrices
 
-Lecture outlines | Links
+Lecture timeline | Links
 -- | --
 Lecture | [0m0s](https://www.youtube.com/watch?v=FX4C-JpTFgY&t=136s&index=3&list=PLE7DDD91010BC51F8)
 
