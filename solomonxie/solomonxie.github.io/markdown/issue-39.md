@@ -75,10 +75,10 @@ After a week’s reaching, I think I’m about reached to my bottom of maths: 6t
 就在今天，我"高中毕业"了！！！
 完完全全的48天可汗学院的学习，没有一天偷懒没有一天休息！完成了高中以下的全部学习！
 
-![screenshot-www khanacademy org-2018 04 14-02-35-35](https://user-images.githubusercontent.com/14041622/38752371-7fd3353e-3f8d-11e8-833f-50501f24725e.png)
-![snip20180414_622](https://user-images.githubusercontent.com/14041622/38752372-801ab3fa-3f8d-11e8-80bb-6cb8334a2f82.png)
-![screenshot-www khanacademy org-2018 03 08-18-10-57](https://user-images.githubusercontent.com/14041622/38752390-8c652c76-3f8d-11e8-8282-4a008d6b1370.png)
-![image](https://user-images.githubusercontent.com/14041622/38752411-a43e23c0-3f8d-11e8-8e1b-ce8a4853c577.png)
+https://user-images.githubusercontent.com/14041622/38752371-7fd3353e-3f8d-11e8-833f-50501f24725e.png
+https://user-images.githubusercontent.com/14041622/38752372-801ab3fa-3f8d-11e8-80bb-6cb8334a2f82.png
+https://user-images.githubusercontent.com/14041622/38752390-8c652c76-3f8d-11e8-8282-4a008d6b1370.png
+https://user-images.githubusercontent.com/14041622/38752411-a43e23c0-3f8d-11e8-8e1b-ce8a4853c577.png
 
 
 
@@ -87,3 +87,8 @@ After a week’s reaching, I think I’m about reached to my bottom of maths: 6t
 
 
 总结一下我的Education background， 我的确一直追求较高脑力水准的行业，金融和IT。本科金融管理，但是我发现这一行非常看中学术背景，简单说就是学历和学术水平等等。可惜像我这种草根，高中辍学的很难上去，也没有那么大的动力去做。算回来，其实还是IT更适合我这种草根，也更有动力去做。
+
+
+我觉得我的一生就像我用的手机和电脑：总是用最便宜的设备，穷尽脑汁去做最复杂的事情。
+这不好吗？也许不算。
+相对于同期的那些高材生来说，他们一直在用最贵的设备做最复杂的事情。而我虽然试图用最便宜的设备（我的大脑）去做同样的事情。这样会增加很大的难度，但是你会发现我另辟蹊径的能力更让人眼前一亮。
