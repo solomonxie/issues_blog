@@ -433,3 +433,15 @@ The `E` above represents `all elementary matrices`.
 
 [For refreshing `how to get elementary matrices` please refer to this video by mathispower4u](https://www.youtube.com/watch?v=1SoU0BfhKaI&feature=youtu.be)
 ![image](https://user-images.githubusercontent.com/14041622/39562501-89d4b1d8-4ede-11e8-8b38-b46d31ee20cb.png)
+
+
+
+# MIT OCW 18.06 SC  Unit 1.4 Factorization into A = LU
+
+prerequisites:
+
+Lecture timeline | Links
+-- | --
+Lecture | [0m0s](https://www.youtube.com/watch?v=MsIvs_6vC38&t=130s&index=4&list=PLE7DDD91010BC51F8)
+
+![image](https://user-images.githubusercontent.com/14041622/39564033-17aaeb3e-4ee5-11e8-9bd9-d998edfad405.png)
