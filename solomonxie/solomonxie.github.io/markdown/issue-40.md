@@ -3,9 +3,10 @@
 
 ## Study resources
 - [x] [Slant: What are the best resources to learn linear algebra?](https://www.slant.co/topics/6073/~resources-to-learn-linear-algebra)
-- [x] [High school maths notes](https://github.com/solomonxie/solomonxie.github.io/issues/44)
+- [x] [Pre Linear Algebra notes](https://github.com/solomonxie/solomonxie.github.io/issues/48)
 - [x] [ Khan academy Pre-calculus](https://www.khanacademy.org/math/precalculus)
 - [ ] [MIT OCW 18.06 SC Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm)
+- [ ] [Mathispower4u](http://www.mathispower4u.com/linear-alg.php)
 - [ ] [Essence of linear algebra: Youtube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 - [ ] [A First Course in Linear Algebra: PDF](https://github.com/solomonxie/solomonxie.github.io/files/1786068/fcla-3.50-A.First.Course.in.Linear.Algebra.-.Robert.A.Beezer.University.of.Puget.Sound.Version.3.50.pdf)
 
@@ -13,8 +14,8 @@
 - [ ] Unit I: Ax = b and the Four Subspaces
     - [x] The Geometry of Linear Equations (Watched; Practiced 3/3)
     - [x] An overview of key ideas (Watched.)
-    - [ ] Elimination with matrices (Watched; Practiced 0/3)
-    - [ ] Multiplication and Inverse matrices
+    - [x] Elimination with matrices (Watched; Practiced 0/3)
+    - [x] Multiplication and Inverse matrices
     - [ ] Factorization in to A = LU
     - [ ] Transposes, Permutations, Vector Spaces
     - [ ] Column space and Null space
@@ -338,6 +339,7 @@ Example: To **switch two COLUMNS of a matrix** by using a `permutation matrix`:
 
 prerequisites:
 - Matrix multiplication basics(row * col), review [this note](https://github.com/solomonxie/solomonxie.github.io/issues/40#issuecomment-386033645).
+- Elementary matrices, review [this video](https://www.youtube.com/watch?v=1SoU0BfhKaI&feature=youtu.be)
 
 [Refer to Juanklopper's jupyter notebook.](https://github.com/solomonxie/jupyter-notebooks/blob/master/forks/MIT_OCW_Linear_Algebra_18_06-master/I_04_Matrix_multiplication_Inverses.ipynb)
 
@@ -430,3 +432,4 @@ Why could we use Gauss-Jordan Elimination to solve `Inverse of matrix`?
 The `E` above represents `all elementary matrices`.
 
 [For refreshing `how to get elementary matrices` please refer to this video by mathispower4u](https://www.youtube.com/watch?v=1SoU0BfhKaI&feature=youtu.be)
+![image](https://user-images.githubusercontent.com/14041622/39562501-89d4b1d8-4ede-11e8-8b38-b46d31ee20cb.png)
