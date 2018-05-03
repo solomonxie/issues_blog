@@ -479,13 +479,16 @@ Lecture | [0m0s](https://www.youtube.com/watch?v=MsIvs_6vC38&t=130s&index=4&list
 
 For a Matrix A, we could factor it out as `A = LU`, just like we factor a number to two numbers.
 
+![image](https://user-images.githubusercontent.com/14041622/39573271-176de746-4f05-11e8-9309-26d7d0f664ac.png)
+
 ## `Upper Triangular Matrix`
 
 The factor matrix `U` represents the `Upper Triangular Matrix`, which we're already familiar with: the matrix we've got after `Gauss Elimination`.
 
 Refer to video:[ LU Decomposition using Gaussian Elimination](https://www.youtube.com/watch?v=jbeX2HCW6OE)
 
-![image](https://user-images.githubusercontent.com/14041622/39573271-176de746-4f05-11e8-9309-26d7d0f664ac.png)
+![image](https://user-images.githubusercontent.com/14041622/39575064-d1531996-4f0b-11e8-995e-239df4d1214a.png)
+
 
 ## `Lower Triangular Matrix`
 
@@ -496,6 +499,20 @@ Refer to video: [LU Decomposition Step 1](https://www.youtube.com/watch?v=O_L56x
 
 ![image](https://user-images.githubusercontent.com/14041622/39574447-d81f9198-4f09-11e8-946d-1f1274111884.png)
 
-### How to get the Lower Triangular Matrix
+### `How to get the Lower Triangular Matrix`
 
 [Refer to this video: LU Decomposition - Shortcut Method by Math is power](https://www.youtube.com/watch?v=UlWcofkUDDU)
+
+
+## `Solve System of equations using LU Decomposition`
+> The goal of learning `LU Decomposition` is to solve Linear systems.
+
+[Refer to this video: Solve a System of Linear Equations Using LU Decomposition](https://www.youtube.com/watch?v=m3EojSAgIao&feature=youtu.be)
+
+Assuming there's equation `AX = B` as below, and we're to solve for `X`: 
+![image](https://user-images.githubusercontent.com/14041622/39588763-ffebdd56-4f2e-11e8-8a07-891176ba45e8.png)
+
+Steps to apply the `LU Decomposition` to solve the Linear System:
+- Decompose LU, and represent `AX = B` as `LUX = B`
+- Let `L(UX) = B` and solve for `(UX)`
+- Solve `U` for `X`
