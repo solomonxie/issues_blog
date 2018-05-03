@@ -333,6 +333,7 @@ Example: To **switch two COLUMNS of a matrix** by using a `permutation matrix`:
 
 
 
+
 # MIT OCW 18.06 SC  Unit 1.3 Multiplication & Inverse Matrices
 
 prerequisites:
@@ -427,3 +428,5 @@ Why could we use Gauss-Jordan Elimination to solve `Inverse of matrix`?
 ![image](https://user-images.githubusercontent.com/14041622/39561633-7483dae8-4ed9-11e8-996c-703cc2fcabb4.png)
 
 The `E` above represents `all elementary matrices`.
+
+[For refreshing `how to get elementary matrices` please refer to this video by mathispower4u](https://www.youtube.com/watch?v=1SoU0BfhKaI&feature=youtu.be)
