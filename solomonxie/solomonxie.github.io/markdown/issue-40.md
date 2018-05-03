@@ -338,7 +338,7 @@ Example: To **switch two COLUMNS of a matrix** by using a `permutation matrix`:
 prerequisites:
 - Matrix multiplication basics(row * col), review [this note](https://github.com/solomonxie/solomonxie.github.io/issues/40#issuecomment-386033645).
 
-[Refer to Juanklopper's jupyter notebook.](https://github.com/juanklopper/MIT_OCW_Linear_Algebra_18_06/blob/master/I_04_Matrix_multiplication_Inverses.ipynb)
+[Refer to Juanklopper's jupyter notebook.](https://github.com/solomonxie/jupyter-notebooks/blob/master/forks/MIT_OCW_Linear_Algebra_18_06-master/I_04_Matrix_multiplication_Inverses.ipynb)
 
 Lecture timeline | Links
 -- | --
