@@ -185,9 +185,12 @@ Example: To **switch two COLUMNS of a matrix** by using a `permutation matrix`:
 
 ## Unit 1.3 Multiplication & Inverse Matrices
 
+![image](https://user-images.githubusercontent.com/14041622/39558587-692a7a7e-4ec2-11e8-86ed-81f3087d761a.png)
+
 Lecture timeline | Links
 -- | --
 Lecture | [0m0s](https://www.youtube.com/watch?v=FX4C-JpTFgY&t=136s&index=3&list=PLE7DDD91010BC51F8)
+xxx | [50s](https://youtu.be/FX4C-JpTFgY?t=50s)
 
 
 # `Matrices Elimination`
