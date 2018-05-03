@@ -422,7 +422,10 @@ But there's another way to tell:
 
 ![image](https://user-images.githubusercontent.com/14041622/39560934-b1d24c04-4ed4-11e8-9d8c-c0331fc8b2db.png)
 
-### `Gauss-Jordan Elimination to solve Inverse of a matrix`
+
+## `Use Gauss-Jordan Elimination to get Inverse`
+
+**THIS METHOD IS SO MUCH EASIER TO GET THE INVERSE THAN THE WAY WE LEARNT IN HIGH SHCOOL WHICH LETS YOU TO CALCULATE ALL DETERMINANT, ADJUGATE AND COFACTOR AND SO ON.**
 
 [Refer to Khan academy lecture: Inverting a 3x3 matrix using Gaussian elimination.](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-determinants-and-inverses-of-large-matrices/v/inverting-matrices-part-3)
 
