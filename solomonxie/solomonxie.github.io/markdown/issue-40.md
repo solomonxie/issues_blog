@@ -346,19 +346,48 @@ Lecture | [0m0s](https://www.youtube.com/watch?v=FX4C-JpTFgY&t=136s&index=3&list
 Method 1: Multiply matrix by vector | [50s](https://youtu.be/FX4C-JpTFgY?t=50s)
 When're we allowed to multiply matrices | [4m38s](https://youtu.be/FX4C-JpTFgY?t=4m38s)
 Method 2: Multiply matrix by COLUMN | [6m12s](https://youtu.be/FX4C-JpTFgY?t=6m12s)
-Method 3: Multiply matrix by ROW | [10m4s](https://youtu.be/FX4C-JpTFgY?t=10m4s)
-
+Method 3: Multiply ROW by matrix | [10m4s](https://youtu.be/FX4C-JpTFgY?t=10m4s)
+Method 4: Multiply COLUMN by ROW | [11m37s](https://youtu.be/FX4C-JpTFgY?t=11m37s)
+Method 5: Block Multiplication | [18m25s](https://youtu.be/FX4C-JpTFgY?t=18m25s)
 
 ![image](https://user-images.githubusercontent.com/14041622/39558587-692a7a7e-4ec2-11e8-86ed-81f3087d761a.png)
 
 
-## Method 1: Multiply matrix by vector: Basic calculation of an entry of the Product Matrix
+## Method 1: Multiply matrix by vector
+
+Calculation of an entry of the Product Matrix.
+
+![image](https://user-images.githubusercontent.com/14041622/39560053-60299bb6-4ecd-11e8-988c-c8359b65fdbc.png)
+
+
 ![image](https://user-images.githubusercontent.com/14041622/39558944-429fcc62-4ec5-11e8-809b-8be93a1660cb.png)
 
 ## Method 2: Multiply matrix by COLUMN
 
-Each **column** of the product matrix C, is `A * Column of B`.
+Each **column** of the `product matrix C`, is `Matrix A * Column of B`.
 
 ![image](https://user-images.githubusercontent.com/14041622/39559663-7857ec9a-4eca-11e8-9a71-c969fa48bac6.png)
 
-## Method 3: 
+## Method 3: Multiply ROW by matrix
+
+Each **row** of the `product matrix C`, is `Row of A * Matrix B`.
+
+![image](https://user-images.githubusercontent.com/14041622/39559794-77f07a8c-4ecb-11e8-82af-4cdd8c8d9821.png)
+
+
+## Method 4: Multiply COLUMN by ROW
+
+![image](https://user-images.githubusercontent.com/14041622/39559955-ab9ad82c-4ecc-11e8-9d7e-790b76d79975.png)
+
+### Dot product
+![image](https://user-images.githubusercontent.com/14041622/39560005-08e11582-4ecd-11e8-8f10-53322d584bb3.png)
+
+
+## Method 5: Block multiplication
+
+You can cut each matrix to blocks, each block is no necessary to be equal sized as long as they can match each other well.
+
+After you cut matrices into blocks, the multiplication will just be like a smaller matrix multiplication: **Each block can be seen as a number in a matrix.**
+
+![image](https://user-images.githubusercontent.com/14041622/39560200-a36da5f6-4ece-11e8-9c9b-c729f0418abd.png)
+
