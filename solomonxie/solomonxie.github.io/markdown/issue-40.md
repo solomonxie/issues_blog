@@ -21,7 +21,7 @@
     - [x] The Geometry of Linear Equations (Watched; Practiced 3/3)
     - [x] An overview of key ideas (Watched)
     - [x] Elimination with matrices (Watched)
-    - [x] Multiplication and Inverse matrices (Watched)
+    - [x] Multiplication and Inverse matrices (Watched; Practiced.)
     - [ ] Factorization in to A = LU
     - [ ] Transposes, Permutations, Vector Spaces
     - [ ] Column space and Null space
