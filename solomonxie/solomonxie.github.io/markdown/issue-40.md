@@ -111,6 +111,11 @@ We view this problem in three ways:
 ## Unit 1.2 Elimination with Matrices
 > `Elimination` is the method **EVERY** softwares use to solve `linear equations`.
 
+prerequisites:
+- Terminology(Augmented matrix, elementary matrix, pivot, gauss elimination...), included in [this note](https://github.com/solomonxie/solomonxie.github.io/issues/40#issuecomment-383020020).
+- Matrix elimination, review [this note](https://github.com/solomonxie/solomonxie.github.io/issues/40#issuecomment-383020020).
+- Gauss elimination, review in simple wiki.
+
 Lecture video timeline | Links
 -- | -- 
 Lecture | [0m0s](https://www.youtube.com/watch?v=QVKj3LADCnA&t=0s&index=2&list=PLE7DDD91010BC51F8)
@@ -184,6 +189,9 @@ Example: To **switch two COLUMNS of a matrix** by using a `permutation matrix`:
 
 
 ## Unit 1.3 Multiplication & Inverse Matrices
+
+prerequisites:
+- Matrix multiplication basics(row * col), review [this note](https://github.com/solomonxie/solomonxie.github.io/issues/40#issuecomment-386033645).
 
 ![image](https://user-images.githubusercontent.com/14041622/39558587-692a7a7e-4ec2-11e8-86ed-81f3087d761a.png)
 
