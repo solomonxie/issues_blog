@@ -239,11 +239,14 @@ It's simple: When you solve out one `unknown variable` in the Linear System, you
 
 
 
-# `Matrix multiplication & Inverse Matrix`
-
-## Matrix Multiplication
+# `Matrix multiplication`
 
 [Refer to this video by mathispower4u](https://www.youtube.com/watch?v=zAjUyPe-4mI&feature=youtu.be)
+
+Practice:
+- [ ] [Khan academy](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/e/multiplying_a_matrix_by_a_matrix)
+- [ ] [Symbolab](https://www.symbolab.com/practice/matrices-practice#area=main&subtopic=Multiply&isTour=false)
+- [ ] [Wolfram](https://www.wolframalpha.com/problem-generator/quiz/?category=Linear%20algebra&topic=MultiplyNMatrices)
 
 A fairly simple way to remember how to do `matrix multiplication`:
 Assume that two matrices multiply together as `AB = C`.
@@ -254,6 +257,11 @@ So on and so forth, write down all the **entries** of the product entries, and t
 
 ![image](https://user-images.githubusercontent.com/14041622/39535582-def1e1ea-4e66-11e8-8ce8-26dfac365f3d.png)
 
+## `Properties of matrix multiplication`
+
+[Refer to Khan academy article.](https://www.khanacademy.org/math/algebra-home/alg-matrices/modal/a/properties-of-matrix-multiplication)
+
+![image](https://user-images.githubusercontent.com/14041622/39564456-e4ba295e-4ee6-11e8-89fa-5347281decc4.png)
 
 
 
@@ -432,10 +440,10 @@ But there's another way to tell:
 [Online Calculator.](https://www.symbolab.com/solver/step-by-step/inverse%20%5Cbegin%7Bpmatrix%7D1%262%261%5C%5C%202%260%260%5C%5C%200%260%262%5Cend%7Bpmatrix%7D)
 
 Practice for Gauss-Jordan Elimination to get Inverse of a matrix:
-- [Khan academy](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-determinants-and-inverses-of-large-matrices/e/matrix_inverse_3x3)
-- [Symbolab](https://www.symbolab.com/practice/matrices-practice#area=main&subtopic=Inverse&isTour=false)
-- [Wolfram](https://www.wolframalpha.com/problem-generator/quiz/?category=Linear%20algebra&topic=Inverse2Matrix)
-- [UOS](http://www.maths.usyd.edu.au/u/UG/JM/MATH1002/Quizzes/quiz8.html)
+- [ ] [Khan academy](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-determinants-and-inverses-of-large-matrices/e/matrix_inverse_3x3)
+- [ ] [Symbolab](https://www.symbolab.com/practice/matrices-practice#area=main&subtopic=Inverse&isTour=false)
+- [ ] [Wolfram](https://www.wolframalpha.com/problem-generator/quiz/?category=Linear%20algebra&topic=Inverse2Matrix)
+- [ ] [UOS](http://www.maths.usyd.edu.au/u/UG/JM/MATH1002/Quizzes/quiz8.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/39561075-e257821c-4ed5-11e8-922d-8158a6587525.png)
 
@@ -464,11 +472,3 @@ Lecture timeline | Links
 Lecture | [0m0s](https://www.youtube.com/watch?v=MsIvs_6vC38&t=130s&index=4&list=PLE7DDD91010BC51F8)
 
 ![image](https://user-images.githubusercontent.com/14041622/39564033-17aaeb3e-4ee5-11e8-9bd9-d998edfad405.png)
-
-
-
-# Properties of matrix multiplication
-
-[Refer to Khan academy article.](https://www.khanacademy.org/math/algebra-home/alg-matrices/modal/a/properties-of-matrix-multiplication)
-
-![image](https://user-images.githubusercontent.com/14041622/39564456-e4ba295e-4ee6-11e8-89fa-5347281decc4.png)
