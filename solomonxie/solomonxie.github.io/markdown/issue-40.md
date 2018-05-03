@@ -13,9 +13,9 @@
 ## MIT OCW Linear Algebra 18.06 
 - [ ] Unit I: Ax = b and the Four Subspaces
     - [x] The Geometry of Linear Equations (Watched; Practiced 3/3)
-    - [x] An overview of key ideas (Watched.)
-    - [x] Elimination with matrices (Watched; Practiced 0/3)
-    - [x] Multiplication and Inverse matrices
+    - [x] An overview of key ideas (Watched)
+    - [x] Elimination with matrices (Watched)
+    - [x] Multiplication and Inverse matrices (Watched)
     - [ ] Factorization in to A = LU
     - [ ] Transposes, Permutations, Vector Spaces
     - [ ] Column space and Null space
@@ -32,10 +32,10 @@
 
 
 ## Study goals of Linear Algebra
-- [ ] Systems of linear equations
-- [ ] Row Reduction Echelon Forms (RREF)
-- [ ] Matrix operations, including inverses
-- [ ] Block matrices
+- [x] Systems of linear equations
+- [x] Row Reduction Echelon Forms (RREF)
+- [x] Matrix operations, including inverses
+- [x] Block matrices
 - [ ] Linear dependence and independence
 - [ ] Subspaces and bases and dimensions
 - [ ] Orthogonal bases and orthogonal projections
