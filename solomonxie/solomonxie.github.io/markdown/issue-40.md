@@ -344,11 +344,16 @@ Lecture timeline | Links
 -- | --
 Lecture | [0m0s](https://www.youtube.com/watch?v=FX4C-JpTFgY&t=136s&index=3&list=PLE7DDD91010BC51F8)
 Method 1: Multiply matrix by vector | [50s](https://youtu.be/FX4C-JpTFgY?t=50s)
-When're we allowed to multiply matrices | [4m38s](https://youtu.be/FX4C-JpTFgY?t=4m38s)
+When allowed to multiply matrices | [4m38s](https://youtu.be/FX4C-JpTFgY?t=4m38s)
 Method 2: Multiply matrix by COLUMN | [6m12s](https://youtu.be/FX4C-JpTFgY?t=6m12s)
 Method 3: Multiply ROW by matrix | [10m4s](https://youtu.be/FX4C-JpTFgY?t=10m4s)
 Method 4: Multiply COLUMN by ROW | [11m37s](https://youtu.be/FX4C-JpTFgY?t=11m37s)
 Method 5: Block Multiplication | [18m25s](https://youtu.be/FX4C-JpTFgY?t=18m25s)
+Inverse Matrices (Square matrices) | [21m15s](https://youtu.be/FX4C-JpTFgY?t=21m15s)
+Invertible Matrix | [22m0s](https://youtu.be/FX4C-JpTFgY?t=22m)
+Singular Matrix (No-inverse matrix) | [24m39s](https://youtu.be/FX4C-JpTFgY?t=24m39s)
+Calculate Inverse of Matrix | [31m52s](https://youtu.be/FX4C-JpTFgY?t=31m52s)
+Gauss-Jordan Elimination to solve Inverse of a matrix | [35m20s](https://youtu.be/FX4C-JpTFgY?t=35m20s)
 
 ![image](https://user-images.githubusercontent.com/14041622/39558587-692a7a7e-4ec2-11e8-86ed-81f3087d761a.png)
 
@@ -387,7 +392,38 @@ Each **row** of the `product matrix C`, is `Row of A * Matrix B`.
 
 You can cut each matrix to blocks, each block is no necessary to be equal sized as long as they can match each other well.
 
+![image](https://user-images.githubusercontent.com/14041622/39560231-e0a54096-4ece-11e8-99c7-5d64c5e739ad.png)
+
 After you cut matrices into blocks, the multiplication will just be like a smaller matrix multiplication: **Each block can be seen as a number in a matrix.**
 
 ![image](https://user-images.githubusercontent.com/14041622/39560200-a36da5f6-4ece-11e8-9c9b-c729f0418abd.png)
 
+## Inverses (Square matrices)
+
+If a matrix's inverse exists, then we call this matrix `Invertible`, or `Non-singular`.
+
+And only with `square matrices`, the inverse can be both **right side** or **left side** with the original matrix to produce the `Identity Matrix`.
+
+![image](https://user-images.githubusercontent.com/14041622/39560342-d9d403f0-4ecf-11e8-8526-c704ad2d4811.png)
+
+### Singular Matrix (No inverse)
+
+Simplest way to tell if it's a `singular matrix` is to calculate its `Determinant` which we learnt in high school: It's a singular matrix if its determinant is ZERO.
+But there's another way to tell:
+
+![image](https://user-images.githubusercontent.com/14041622/39560934-b1d24c04-4ed4-11e8-9d8c-c0331fc8b2db.png)
+
+### Gauss-Jordan Elimination to solve Inverse of a matrix
+
+![image](https://user-images.githubusercontent.com/14041622/39561075-e257821c-4ed5-11e8-922d-8158a6587525.png)
+
+With this formula above, we got TWO equations, which will help us form a **system of equations**!
+That's where Gauss comes in: we **AUGMENT TWO COLUMNS** to the matrix.
+
+![image](https://user-images.githubusercontent.com/14041622/39561501-a6a297d6-4ed8-11e8-9a18-f92b4b309ad2.png)
+
+Why could we use Gauss-Jordan Elimination to solve `Inverse of matrix`?
+
+![image](https://user-images.githubusercontent.com/14041622/39561633-7483dae8-4ed9-11e8-996c-703cc2fcabb4.png)
+
+The `E` above represents `all elementary matrices`.
