@@ -28,12 +28,22 @@
 
 
 # Project: chrome插件管理bookmark
+
+`#书签 #bookmarks #chrome #automation`
+
 利用这个特性，可以动态获取facebook、知乎等网站，或某种方式，
 获取这些网站的通知，然后在书签上显示出通知数字。
 如
 ￼
 ![image](https://user-images.githubusercontent.com/14041622/39084026-144efcde-45a1-11e8-8ce0-72005d9dbda2.png)
 
+## 更新：
+设计书签管理的XML或JSON数据结构，方便在一个文件内保持所有标签和相关信息。
+包括`title, type(folder/link), description, icon, script...`
+
+此chrome 插件会定期(每分钟)通过服务器的脚本访问或通过本机访问网络指定的地方，更新标签信息：如未读邮件数，网盘剩余容量，日历上的日期，TODO列表的剩余项目等等等等。
+
+书签里的每个文件夹或链接都可以指定单独的脚本，以达到不同的效果。脚本最好支持像POSTMAN一样所有的API功能。
 
 
 # Project: 构建词云神经网络

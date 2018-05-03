@@ -16,27 +16,6 @@
 - [ ] [Uni of Sydney (Quizzes for Linear algebra Math1002)](http://www.maths.usyd.edu.au/u/UG/JM/MATH1002/Quizzes/)
 - [ ] [Yu Tsumura (Linear Algebra Problems and Solutions)](https://yutsumura.com/linear-algebra/)
 
-## MIT OCW Linear Algebra 18.06 
-- [ ] Unit I: Ax = b and the Four Subspaces
-    - [x] The Geometry of Linear Equations (Watched; Practiced 3/3)
-    - [x] An overview of key ideas (Watched)
-    - [x] Elimination with matrices (Watched)
-    - [x] Multiplication and Inverse matrices (Watched; Practiced.)
-    - [ ] Factorization in to A = LU
-    - [ ] Transposes, Permutations, Vector Spaces
-    - [ ] Column space and Null space
-    - [ ] Solving Ax = 0: Pivot variables, Special solutions
-    - [ ] Solving Ax = B: Row reduced from R
-    - [ ] Independence, Basis and Dimension
-    - [ ] The four fundamental Subspaces
-    - [ ] Matrix spaces; Rank 1; Small world graphs
-    - [ ] Graphs, Networks, Incidence matrices
-    - [ ] Exam 1 review
-    - [ ] Exam 1
-- [ ] Unit II: Least Squares, Determinants and Eigenvalues
-- [ ] Unit III: Positive Definite Matrices and Applications
-
-
 ## Study goals of Linear Algebra
 - [x] Systems of linear equations
 - [x] Row Reduction Echelon Forms (RREF)
@@ -57,6 +36,26 @@
 - [ ] Linear transformations
 - [ ] Singular Value Decomposition
 
+
+## MIT OCW Linear Algebra 18.06 
+- [ ] Unit I: Ax = b and the Four Subspaces
+    - [x] The Geometry of Linear Equations (Watched; Practiced 3/3)
+    - [x] An overview of key ideas (Watched)
+    - [x] Elimination with matrices (Watched)
+    - [x] Multiplication and Inverse matrices (Watched; Practiced.)
+    - [ ] Factorization in to A = LU
+    - [ ] Transposes, Permutations, Vector Spaces
+    - [ ] Column space and Null space
+    - [ ] Solving Ax = 0: Pivot variables, Special solutions
+    - [ ] Solving Ax = B: Row reduced from R
+    - [ ] Independence, Basis and Dimension
+    - [ ] The four fundamental Subspaces
+    - [ ] Matrix spaces; Rank 1; Small world graphs
+    - [ ] Graphs, Networks, Incidence matrices
+    - [ ] Exam 1 review
+    - [ ] Exam 1
+- [ ] Unit II: Least Squares, Determinants and Eigenvalues
+- [ ] Unit III: Positive Definite Matrices and Applications
 
 
 
