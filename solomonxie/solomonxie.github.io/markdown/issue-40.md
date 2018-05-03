@@ -480,16 +480,23 @@ Lecture | [0m0s](https://www.youtube.com/watch?v=MsIvs_6vC38&t=130s&index=4&list
 
 For a Matrix A, we could factor it out as `A = LU`, just like we factor a number to two numbers.
 
-The `Factor matrix U` represents the `Upper Triangular Matrix`, which we're already familiar with: the matrix we've got after `Gauss Elimination`.
+## `Upper Triangular Matrix`
+
+The factor matrix `U` represents the `Upper Triangular Matrix`, which we're already familiar with: the matrix we've got after `Gauss Elimination`.
 
 Refer to video:[ LU Decomposition using Gaussian Elimination](https://www.youtube.com/watch?v=jbeX2HCW6OE)
 
 ![image](https://user-images.githubusercontent.com/14041622/39573271-176de746-4f05-11e8-9309-26d7d0f664ac.png)
 
+## `Lower Triangular Matrix`
 
-The `Lower Triangular Matrix` is not hard to get as well: 
+The factor matrix `L` is not hard to get as well: 
 **All the numbers in this matrix are `factor numbers` we used in each elimination step.**
 
 Refer to video: [LU Decomposition Step 1](https://www.youtube.com/watch?v=O_L56xuQmxk)
 
 ![image](https://user-images.githubusercontent.com/14041622/39574447-d81f9198-4f09-11e8-946d-1f1274111884.png)
+
+### How to get the Lower Triangular Matrix
+
+[Refer to this video: LU Decomposition - Shortcut Method by Math is power](https://www.youtube.com/watch?v=UlWcofkUDDU)
