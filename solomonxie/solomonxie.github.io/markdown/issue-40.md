@@ -338,9 +338,17 @@ Example: To **switch two COLUMNS of a matrix** by using a `permutation matrix`:
 prerequisites:
 - Matrix multiplication basics(row * col), review [this note](https://github.com/solomonxie/solomonxie.github.io/issues/40#issuecomment-386033645).
 
-![image](https://user-images.githubusercontent.com/14041622/39558587-692a7a7e-4ec2-11e8-86ed-81f3087d761a.png)
+[Refer to Juanklopper's jupyter notebook.](https://github.com/juanklopper/MIT_OCW_Linear_Algebra_18_06/blob/master/I_04_Matrix_multiplication_Inverses.ipynb)
 
 Lecture timeline | Links
 -- | --
 Lecture | [0m0s](https://www.youtube.com/watch?v=FX4C-JpTFgY&t=136s&index=3&list=PLE7DDD91010BC51F8)
-xxx | [50s](https://youtu.be/FX4C-JpTFgY?t=50s)
+Method 1: Basic calculation of an entry of the Product Matrix | [50s](https://youtu.be/FX4C-JpTFgY?t=50s)
+When're we allowed to multiply matrices | [4m38s](https://youtu.be/FX4C-JpTFgY?t=4m38s)
+Method 2: | [6m12s](https://youtu.be/FX4C-JpTFgY?t=6m12s)
+
+![image](https://user-images.githubusercontent.com/14041622/39558587-692a7a7e-4ec2-11e8-86ed-81f3087d761a.png)
+
+
+## How to calculate an entry of the Product Matrix
+![image](https://user-images.githubusercontent.com/14041622/39558944-429fcc62-4ec5-11e8-809b-8be93a1660cb.png)
