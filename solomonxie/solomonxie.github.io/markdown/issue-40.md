@@ -244,9 +244,10 @@ It's simple: When you solve out one `unknown variable` in the Linear System, you
 [Refer to this video by mathispower4u](https://www.youtube.com/watch?v=zAjUyPe-4mI&feature=youtu.be)
 
 Practice:
-- [ ] [Khan academy](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/e/multiplying_a_matrix_by_a_matrix)
-- [ ] [Symbolab](https://www.symbolab.com/practice/matrices-practice#area=main&subtopic=Multiply&isTour=false)
-- [ ] [Wolfram](https://www.wolframalpha.com/problem-generator/quiz/?category=Linear%20algebra&topic=MultiplyNMatrices)
+- [ ] [Khan academy (simple)](https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/e/multiplying_a_matrix_by_a_matrix)
+- [ ] [Symbolab (simple/advanced)](https://www.symbolab.com/practice/matrices-practice#area=main&subtopic=Multiply&isTour=false)
+- [ ] [Wolfram (beginner/Intermediate/Advanced)](https://www.wolframalpha.com/problem-generator/quiz/?category=Linear%20algebra&topic=MultiplyNMatrices)
+- [ ] [UOS](http://www.maths.usyd.edu.au/u/UG/JM/MATH1002/Quizzes/quiz7.html)
 
 A fairly simple way to remember how to do `matrix multiplication`:
 Assume that two matrices multiply together as `AB = C`.
