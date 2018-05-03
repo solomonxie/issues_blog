@@ -343,12 +343,22 @@ prerequisites:
 Lecture timeline | Links
 -- | --
 Lecture | [0m0s](https://www.youtube.com/watch?v=FX4C-JpTFgY&t=136s&index=3&list=PLE7DDD91010BC51F8)
-Method 1: Basic calculation of an entry of the Product Matrix | [50s](https://youtu.be/FX4C-JpTFgY?t=50s)
+Method 1: Multiply matrix by vector | [50s](https://youtu.be/FX4C-JpTFgY?t=50s)
 When're we allowed to multiply matrices | [4m38s](https://youtu.be/FX4C-JpTFgY?t=4m38s)
-Method 2: | [6m12s](https://youtu.be/FX4C-JpTFgY?t=6m12s)
+Method 2: Multiply matrix by COLUMN | [6m12s](https://youtu.be/FX4C-JpTFgY?t=6m12s)
+Method 3: Multiply matrix by ROW | [10m4s](https://youtu.be/FX4C-JpTFgY?t=10m4s)
+
 
 ![image](https://user-images.githubusercontent.com/14041622/39558587-692a7a7e-4ec2-11e8-86ed-81f3087d761a.png)
 
 
-## How to calculate an entry of the Product Matrix
+## Method 1: Multiply matrix by vector: Basic calculation of an entry of the Product Matrix
 ![image](https://user-images.githubusercontent.com/14041622/39558944-429fcc62-4ec5-11e8-809b-8be93a1660cb.png)
+
+## Method 2: Multiply matrix by COLUMN
+
+Each **column** of the product matrix C, is `A * Column of B`.
+
+![image](https://user-images.githubusercontent.com/14041622/39559663-7857ec9a-4eca-11e8-9a71-c969fa48bac6.png)
+
+## Method 3: 
