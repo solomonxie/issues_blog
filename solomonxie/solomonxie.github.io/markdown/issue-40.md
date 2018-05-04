@@ -622,6 +622,8 @@ Why is Origin necessary in Vector spaces | [25m33s](https://youtu.be/JibVXBElKL0
 Most important thing about Vector space | [28m29s](https://youtu.be/JibVXBElKL0?t=28m29s)
 A case that's not a Vector space | [29m41s](https://youtu.be/JibVXBElKL0?t=29m41s)
 All possible subspaces in R² | [35m54s](https://youtu.be/JibVXBElKL0?t=35m54s)
+How do subspaces come out from Matrices | [39m45s](https://youtu.be/JibVXBElKL0?t=39m45s)
+
 
 ## `Permutations`
 > "Permutation executes Row exchanges."
@@ -683,4 +685,11 @@ All possible subspaces in R² |
 -- |
 The whole R² space |
 Any line goes through Origin `(0,0)` |
-The Zero vector itself |
+The Zero vector itself (𝐙) |
+
+All possible subspaces in R³ | 
+-- |
+The whole R³ space |
+Any plane goes through the Origin `(0,0)` |
+Any line goes through Origin `(0,0)` |
+The Zero vector itself (𝐙) |
