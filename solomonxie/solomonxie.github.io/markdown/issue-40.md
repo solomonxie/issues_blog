@@ -719,8 +719,10 @@ Prerequisites
 -- |
 xx |
 
+![image](https://user-images.githubusercontent.com/14041622/39637014-6d9e29b0-4ff4-11e8-975f-00aa020aedc9.png)
 
 
 Lecture timeline | Links
 -- | --
 Lecture | [0m0s](https://www.youtube.com/watch?v=8o5Cmfpeo6g&index=6&list=PLE7DDD91010BC51F8&t=161s)
+What are Vector spaces | [1m5s](https://youtu.be/8o5Cmfpeo6g?t=1m5s)
