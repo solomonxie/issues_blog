@@ -355,9 +355,12 @@ Example: To **switch two COLUMNS of a matrix** by using a `permutation matrix`:
 
 # MIT OCW 18.06 SC  Unit 1.3 Multiplication & Inverse Matrices
 
-prerequisites:
-- Matrix multiplication basics(row * col), review [this note](https://github.com/solomonxie/solomonxie.github.io/issues/40#issuecomment-386033645).
-- Elementary matrices, review [this video](https://www.youtube.com/watch?v=1SoU0BfhKaI&feature=youtu.be)
+Prerequisites | Links
+-- | --
+Matrix multiplication basics(row * col) | [Note](https://github.com/solomonxie/solomonxie.github.io/issues/40#issuecomment-386033645)
+Elementary matrices | [Video](https://www.youtube.com/watch?v=1SoU0BfhKaI&feature=youtu.be)
+
+![image](https://user-images.githubusercontent.com/14041622/39558587-692a7a7e-4ec2-11e8-86ed-81f3087d761a.png)
 
 [Refer to Juanklopper's jupyter notebook.](https://github.com/solomonxie/jupyter-notebooks/blob/master/forks/MIT_OCW_Linear_Algebra_18_06-master/I_04_Matrix_multiplication_Inverses.ipynb)
 
@@ -375,8 +378,6 @@ Invertible Matrix | [22m0s](https://youtu.be/FX4C-JpTFgY?t=22m)
 Singular Matrix (No-inverse matrix) | [24m39s](https://youtu.be/FX4C-JpTFgY?t=24m39s)
 Calculate Inverse of Matrix | [31m52s](https://youtu.be/FX4C-JpTFgY?t=31m52s)
 Gauss-Jordan Elimination to solve Inverse of a matrix | [35m20s](https://youtu.be/FX4C-JpTFgY?t=35m20s)
-
-![image](https://user-images.githubusercontent.com/14041622/39558587-692a7a7e-4ec2-11e8-86ed-81f3087d761a.png)
 
 
 ## `Method 1: Multiply matrix by vector`
