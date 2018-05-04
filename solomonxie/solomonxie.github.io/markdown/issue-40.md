@@ -470,14 +470,26 @@ prerequisites:
 Lecture timeline | Links
 -- | --
 Lecture | [0m0s](https://www.youtube.com/watch?v=MsIvs_6vC38&t=130s&index=4&list=PLE7DDD91010BC51F8)
+What's the Inverse of a Product | [0m25s](https://youtu.be/MsIvs_6vC38?t=25s)
 
 ![image](https://user-images.githubusercontent.com/14041622/39564033-17aaeb3e-4ee5-11e8-9bd9-d998edfad405.png)
 
+> "`A = LU` is the BIG FORMULA for elimination. It's a great way to look at Gaussian Elimination."
+
+## What's the Inverse of a product
+Assume `A & B` are all invertible matrices, so what is `(AB)⁻¹`?
+
+Yes, we multiply their inverses together `A⁻¹ & B⁻¹`, but in what order do we multiply these inverses?
+**IN REVERSE ORDER.**
+Which makes:
+`(AB) (B⁻¹A⁻¹) = 𝐈`
 
 
 # `LU Decomposition`
 
 For a Matrix A, we could factor it out as `A = LU`, just like we factor a number to two numbers.
+
+[`Online LU Decomposition Calculator`](https://www.wolframalpha.com/input/?i=LU+decomposition+of+%7B%7B7,3,-11%7D,%7B-6,7,10%7D,%7B-11,2,-2%7D%7D&lk=3)
 
 ![image](https://user-images.githubusercontent.com/14041622/39573271-176de746-4f05-11e8-9309-26d7d0f664ac.png)
 
