@@ -689,9 +689,13 @@ _-_ | Any plane goes through the Origin `(0,0)`
 Any line goes through Origin `(0,0)` | Any line goes through Origin `(0,0,0)`
 The Zero vector itself (𝐙) | The Zero vector itself (𝐙)
 
-
 Remember the NO.1 rule of a Subspace:
 **ALL VECTOR COMBINATIONS FORM A SUBSPACE.**
+
+Three rules of Subspace:
+- [ ] Contains Zero vector
+- [ ] Closed under addition
+- [ ] Closed under scalar multiplication
 
 ### `Column Space`
 > Column space is a special kind of subspace, which comes out of **matrix**.
