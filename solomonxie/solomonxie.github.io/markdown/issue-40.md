@@ -375,7 +375,7 @@ Gauss-Jordan Elimination to solve Inverse of a matrix | [35m20s](https://youtu.b
 ![image](https://user-images.githubusercontent.com/14041622/39558587-692a7a7e-4ec2-11e8-86ed-81f3087d761a.png)
 
 
-## Method 1: Multiply matrix by vector
+## `Method 1: Multiply matrix by vector`
 
 Calculation of an entry of the Product Matrix.
 
@@ -384,28 +384,28 @@ Calculation of an entry of the Product Matrix.
 
 ![image](https://user-images.githubusercontent.com/14041622/39558944-429fcc62-4ec5-11e8-809b-8be93a1660cb.png)
 
-## Method 2: Multiply matrix by COLUMN
+## `Method 2: Multiply matrix by COLUMN`
 
 Each **column** of the `product matrix C`, is `Matrix A * Column of B`.
 
 ![image](https://user-images.githubusercontent.com/14041622/39559663-7857ec9a-4eca-11e8-9a71-c969fa48bac6.png)
 
-## Method 3: Multiply ROW by matrix
+## `Method 3: Multiply ROW by matrix`
 
 Each **row** of the `product matrix C`, is `Row of A * Matrix B`.
 
 ![image](https://user-images.githubusercontent.com/14041622/39559794-77f07a8c-4ecb-11e8-82af-4cdd8c8d9821.png)
 
 
-## Method 4: Multiply COLUMN by ROW
+## `Method 4: Multiply COLUMN by ROW`
 
 ![image](https://user-images.githubusercontent.com/14041622/39559955-ab9ad82c-4ecc-11e8-9d7e-790b76d79975.png)
 
-### Dot product
+### `Dot product`
 ![image](https://user-images.githubusercontent.com/14041622/39560005-08e11582-4ecd-11e8-8f10-53322d584bb3.png)
 
 
-## Method 5: Block multiplication
+## `Method 5: Block multiplication`
 
 You can cut each matrix to blocks, each block is no necessary to be equal sized as long as they can match each other well.
 
@@ -415,7 +415,7 @@ After you cut matrices into blocks, the multiplication will just be like a small
 
 ![image](https://user-images.githubusercontent.com/14041622/39560200-a36da5f6-4ece-11e8-9c9b-c729f0418abd.png)
 
-## Inverses (Square matrices)
+## `Inverses (Square matrices)`
 
 If a matrix's inverse exists, then we call this matrix `Invertible`, or `Non-singular`.
 
@@ -423,7 +423,7 @@ And only with `square matrices`, the inverse can be both **right side** or **lef
 
 ![image](https://user-images.githubusercontent.com/14041622/39560342-d9d403f0-4ecf-11e8-8526-c704ad2d4811.png)
 
-### Singular Matrix (No inverse)
+### `Singular Matrix (No inverse)`
 
 Simplest way to tell if it's a `singular matrix` is to calculate its `Determinant` which we learnt in high school: It's a singular matrix if its determinant is ZERO.
 But there's another way to tell:
@@ -473,15 +473,16 @@ Lecture | [0m0s](https://www.youtube.com/watch?v=MsIvs_6vC38&t=130s&index=4&list
 What's the Inverse of a Product | [0m25s](https://youtu.be/MsIvs_6vC38?t=25s)
 Inverse of a Transposed Matrix | [4m2s](https://youtu.be/MsIvs_6vC38?t=4m2s)
 How's A related to U | [7m51s](https://youtu.be/MsIvs_6vC38?t=7m51s)
-3x3 LU Decomposition | [13m53s](https://youtu.be/MsIvs_6vC38?t=13m53s)
+3x3 LU Decomposition (without Row Exchange) | [13m53s](https://youtu.be/MsIvs_6vC38?t=13m53s)
 L is product of inverses | [16m45s](https://youtu.be/MsIvs_6vC38?t=16m45s)
-
+How expensive is Elimination | [26m5s](https://youtu.be/MsIvs_6vC38?t=26m5s)
+LU Decomposition (with Row exchange) | [40m18s](https://youtu.be/MsIvs_6vC38?t=40m18s)
 
 ![image](https://user-images.githubusercontent.com/14041622/39564033-17aaeb3e-4ee5-11e8-9bd9-d998edfad405.png)
 
 > "`A = LU` is the BIG FORMULA for elimination. It's a great way to look at Gaussian Elimination."
 
-## What's the Inverse of a product
+## `What's the Inverse of a product`
 Assume `A & B` are all invertible matrices, so what is `(AB)⁻¹`?
 
 Yes, we multiply their inverses together `A⁻¹ & B⁻¹`, but in what order do we multiply these inverses?
@@ -495,13 +496,13 @@ so:
 **`(AB)⁻¹ = (B⁻¹A⁻¹)`**
 
 
-## Inverse of a Transposed Matrix
+## `Inverse of a Transposed Matrix`
 ![image](https://user-images.githubusercontent.com/14041622/39616136-80e71ede-4fac-11e8-87a6-e22360a42818.png)
 
 So the Inverse of `(Aᵀ)⁻¹ = (A⁻¹)ᵀ`
 
 
-## Lower triangular matrix
+## `LU Decompose (without Row Exhcnage)`
 
 > "L is the product of Inverses."
 
@@ -513,6 +514,24 @@ Assume in the elimination process without row exchanges, we only apply `elementa
 So the `L` would be the **Inverse** of those elementary matrices, but in **Reverse order**.
 
 ![image](https://user-images.githubusercontent.com/14041622/39617696-45d219b4-4fb3-11e8-87e0-18d5dcec3dde.png)
+
+```py
+EA = U
+A = LU
+```
+
+![image](https://user-images.githubusercontent.com/14041622/39618742-b5a2062e-4fb7-11e8-9fbc-b715793b9963.png)
+
+> So that steps above is the `Inverse Elementary Matrices` picture of getting the L. 
+But actually what actually we get is really simple to observe:
+**If no row exchanges, multipliers go directly into L.**
+
+So as we've understood the meaning behind it, we can forget it and just remember the **`multipliers`**.
+
+
+
+## `LU Decomposition (with Row exchange)`
+
 
 
 
