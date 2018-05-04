@@ -485,8 +485,7 @@ How's A related to U | [7m51s](https://youtu.be/MsIvs_6vC38?t=7m51s)
 L is product of inverses | [16m45s](https://youtu.be/MsIvs_6vC38?t=16m45s)
 How expensive is Elimination | [26m5s](https://youtu.be/MsIvs_6vC38?t=26m5s)
 LU Decomposition (with Row exchange) | [40m18s](https://youtu.be/MsIvs_6vC38?t=40m18s)
-Transposes & Permutations | [40m47s](https://youtu.be/MsIvs_6vC38?t=40m47s)
-Permutations | [41m15s](https://youtu.be/MsIvs_6vC38?t=41m15s)
+Permutations for Row exchanges | [41m15s](https://youtu.be/MsIvs_6vC38?t=41m15s)
 
 
 
@@ -544,7 +543,15 @@ So as we've understood the meaning behind it, we can forget it and just remember
 
 ## `LU Decomposition (with Row exchange)`
 
-### `Transposes & Permutations`
+### `Permutations means Row exchanges or Column Exchanges`
+
+For a 3x3 Identity Matrix, there're 6 permutations of it:
+![image](https://user-images.githubusercontent.com/14041622/39620002-460a70a8-4fbc-11e8-8e4b-5ee3ef3b9f7f.png)
+
+
+**The `Inverse of a Permutation` is its `Transpose`**:
+
+![image](https://user-images.githubusercontent.com/14041622/39619970-2c5b12c0-4fbc-11e8-9cef-03ac2fc3238d.png)
 
 
 
