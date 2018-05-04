@@ -724,5 +724,7 @@ xx |
 
 Lecture timeline | Links
 -- | --
-Lecture | [0m0s](https://www.youtube.com/watch?v=8o5Cmfpeo6g&index=6&list=PLE7DDD91010BC51F8&t=161s)
-What are Vector spaces | [1m5s](https://youtu.be/8o5Cmfpeo6g?t=1m5s)
+Lecture | [0:0](https://www.youtube.com/watch?v=8o5Cmfpeo6g&index=6&list=PLE7DDD91010BC51F8&t=161s)
+What are Vector spaces | [1:5](https://youtu.be/8o5Cmfpeo6g?t=1m5s)
+Subspaces of R³ | [2:33](https://youtu.be/8o5Cmfpeo6g?t=2m31s)
+
