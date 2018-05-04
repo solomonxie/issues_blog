@@ -600,3 +600,25 @@ Steps to apply the `LU Decomposition` to solve the Linear System:
 
 
 
+
+
+
+# MIT OCW 18.06 SC  Unit 1.5 Transposes, Permutations, Vector Spaces Rⁿ
+
+prerequisites:
+
+
+Lecture timeline | Links
+-- | --
+Lecture | [0m0s](https://www.youtube.com/watch?v=JibVXBElKL0&list=PLE7DDD91010BC51F8&index=5&t=0s)
+Permutations | [1m17s](https://youtu.be/JibVXBElKL0?t=1m17s)
+
+
+## `Permutations`
+> "Permutation executes Row exchanges."
+
+For LU Decomposition the `A = LU` **DOESN'T** work with `Row exchanges`, so we change it to:
+```py
+PA = LU
+```
+Which apply row exchanges to matrix A into the right order (for pivots), then decompose it.
