@@ -466,6 +466,10 @@ The `E` above represents `all elementary matrices`.
 # MIT OCW 18.06 SC  Unit 1.4 Factorization into A = LU
 
 prerequisites:
+- Matrix Inverses
+- Matrix multiplication
+- Elementary Matrix
+- Permutation Matrix
 
 Lecture timeline | Links
 -- | --
@@ -477,6 +481,10 @@ How's A related to U | [7m51s](https://youtu.be/MsIvs_6vC38?t=7m51s)
 L is product of inverses | [16m45s](https://youtu.be/MsIvs_6vC38?t=16m45s)
 How expensive is Elimination | [26m5s](https://youtu.be/MsIvs_6vC38?t=26m5s)
 LU Decomposition (with Row exchange) | [40m18s](https://youtu.be/MsIvs_6vC38?t=40m18s)
+Transposes & Permutations | [40m47s](https://youtu.be/MsIvs_6vC38?t=40m47s)
+Permutations | [41m15s](https://youtu.be/MsIvs_6vC38?t=41m15s)
+
+
 
 ![image](https://user-images.githubusercontent.com/14041622/39564033-17aaeb3e-4ee5-11e8-9bd9-d998edfad405.png)
 
@@ -532,6 +540,7 @@ So as we've understood the meaning behind it, we can forget it and just remember
 
 ## `LU Decomposition (with Row exchange)`
 
+### `Transposes & Permutations`
 
 
 
