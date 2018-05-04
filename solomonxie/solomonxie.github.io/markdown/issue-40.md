@@ -472,6 +472,10 @@ Lecture timeline | Links
 Lecture | [0m0s](https://www.youtube.com/watch?v=MsIvs_6vC38&t=130s&index=4&list=PLE7DDD91010BC51F8)
 What's the Inverse of a Product | [0m25s](https://youtu.be/MsIvs_6vC38?t=25s)
 Inverse of a Transposed Matrix | [4m2s](https://youtu.be/MsIvs_6vC38?t=4m2s)
+How's A related to U | [7m51s](https://youtu.be/MsIvs_6vC38?t=7m51s)
+3x3 LU Decomposition | [13m53s](https://youtu.be/MsIvs_6vC38?t=13m53s)
+L is product of inverses | [16m45s](https://youtu.be/MsIvs_6vC38?t=16m45s)
+
 
 ![image](https://user-images.githubusercontent.com/14041622/39564033-17aaeb3e-4ee5-11e8-9bd9-d998edfad405.png)
 
@@ -486,14 +490,29 @@ Which makes:
 `(AB)(B⁻¹A⁻¹) = 𝐈` or `(B⁻¹A⁻¹)(AB) = 𝐈`. They perform in the same way get the same result.
 
 ![image](https://user-images.githubusercontent.com/14041622/39616176-bbd17dc8-4fac-11e8-99ca-ef76bd1bc55b.png)
+so:
 
-So the Inverse of `AB` is `B⁻¹A⁻¹`.
+**`(AB)⁻¹ = (B⁻¹A⁻¹)`**
 
 
 ## Inverse of a Transposed Matrix
 ![image](https://user-images.githubusercontent.com/14041622/39616136-80e71ede-4fac-11e8-87a6-e22360a42818.png)
 
-So the Inverse of `Aᵀ` is `(A⁻¹)ᵀ`
+So the Inverse of `(Aᵀ)⁻¹ = (A⁻¹)ᵀ`
+
+
+## Lower triangular matrix
+
+> "L is the product of Inverses."
+
+**`L = E⁻¹`, which means L is the inverse of `elementary matrix`.**
+
+![image](https://user-images.githubusercontent.com/14041622/39617446-580782dc-4fb2-11e8-8ed5-99b2e45cf696.png)
+
+Assume in the elimination process without row exchanges, we only apply `elementary matrices` to the matrix one by one.
+So the `L` would be the **Inverse** of those elementary matrices, but in **Reverse order**.
+
+![image](https://user-images.githubusercontent.com/14041622/39617696-45d219b4-4fb3-11e8-87e0-18d5dcec3dde.png)
 
 
 
