@@ -540,10 +540,8 @@ But actually what actually we get is really simple to observe:
 So as we've understood the meaning behind it, we can forget it and just remember the **`multipliers`**.
 
 
-
-## `LU Decomposition (with Row exchange)`
-
-### `Permutations means Row exchanges or Column Exchanges`
+## `Row exchanges with Permutations`
+> For LU Decomposition, although we can't represent row exchanges with `Elementary Matrices`, but we can do it with `Permutation matrices`.
 
 For a 3x3 Identity Matrix, there're 6 permutations of it:
 ![image](https://user-images.githubusercontent.com/14041622/39620002-460a70a8-4fbc-11e8-8e4b-5ee3ef3b9f7f.png)
