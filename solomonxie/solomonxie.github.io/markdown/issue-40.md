@@ -616,7 +616,7 @@ Possibilities of permutations | [7m23s](https://youtu.be/JibVXBElKL0?t=7m23s)
 Transposes | [10m15s](https://youtu.be/JibVXBElKL0?t=10m15s)
 General formula for transpose | [11m38s](https://youtu.be/JibVXBElKL0?t=11m38s)
 Symmetric matrices | [12m43s](https://youtu.be/JibVXBElKL0?t=12m43s)
-
+RᵀR is always symmetric | [15m6s](https://youtu.be/JibVXBElKL0?t=15m6s)
 
 ## `Permutations`
 > "Permutation executes Row exchanges."
@@ -652,4 +652,4 @@ The way to do a transpose is just **SWITCH ENTRIES**.
 Aᵀ = A
 ```
 
-> Given any matrix R (not necessarily square) the product RᵀR is always symmetric, because (RᵀR)ᵀ = Rᵀ(Rᵀ)ᵀ = RᵀR. (Note: (Rᵀ)ᵀ = R)
+Given any matrix R (not necessarily square) the product RᵀR is always symmetric, because after transposing it's still the same: `(RᵀR)ᵀ = Rᵀ(Rᵀ)ᵀ = RᵀR`. (Note: (Rᵀ)ᵀ = R, and matrix multiplications is from right to left.)
