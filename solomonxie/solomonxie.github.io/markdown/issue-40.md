@@ -679,7 +679,14 @@ e.g., take the **positive part of R²** as a space, if we do additions to the ve
 
 **EVERY VECTOR SPACE GOT TO HAVE THE ZERO VECTOR IN IT.**
 
-### `Subspaces`
+### Rules of Vector spaces
+
+[Refer to video by TheTrevTutor: Vector Spaces](https://www.youtube.com/watch?v=XDvSsDsLVLs&list=PLDDGPdw7e6AjJacaEe9awozSaOou-NIx_&index=27&t=0s)
+
+![image](https://user-images.githubusercontent.com/14041622/39636060-b0124ef0-4ff1-11e8-9a0f-dbf82d5f8875.png)
+
+
+## `Subspaces`
 If a Vector space is **INSIDE** of a Vector space e.g. R², we call it `The Subspace of R²`.
 
 All Subspaces of R² | All Subspaces of R³
@@ -692,15 +699,28 @@ The Zero vector itself (𝐙) | The Zero vector itself (𝐙)
 Remember the NO.1 rule of a Subspace:
 **ALL VECTOR COMBINATIONS FORM A SUBSPACE.**
 
-Three rules of Subspace:
+### Three rules of Subspace:
 - [ ] Contains Zero vector
 - [ ] Closed under addition
 - [ ] Closed under scalar multiplication
 
-### `Column Space`
+## `Column Space`
 > Column space is a special kind of subspace, which comes out of **matrix**.
 
 ![image](https://user-images.githubusercontent.com/14041622/39627729-69449f72-4fd9-11e8-9359-eb3f76c275d5.png)
 ![image](https://user-images.githubusercontent.com/14041622/39627899-e3184ba0-4fd9-11e8-9a19-f6720bdee709.png)
 
 **Which means the column space of a matrix only have 3 vectors: 2 column vectors and a Zero vector, and the Column space(their linear combinations) forms a 2D plane.**
+
+
+# MIT OCW 18.06 SC  Unit 1.6Column Space and Nullspace
+
+Prerequisites
+-- |
+xx |
+
+
+
+Lecture timeline | Links
+-- | --
+Lecture | [0m0s](https://www.youtube.com/watch?v=8o5Cmfpeo6g&index=6&list=PLE7DDD91010BC51F8&t=161s)
