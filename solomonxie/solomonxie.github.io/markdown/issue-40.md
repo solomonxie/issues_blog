@@ -346,6 +346,10 @@ Example: To **switch two ROWS of a matrix** by using a `permutation matrix` :
 Example: To **switch two COLUMNS of a matrix** by using a `permutation matrix`:
 ![image](https://user-images.githubusercontent.com/14041622/39474756-113f76b0-4d88-11e8-950a-719ba2619094.png)
 
+### `Some common permutation matrices`
+
+![image](https://user-images.githubusercontent.com/14041622/39619697-5605a320-4fbb-11e8-89b6-51a9490314c7.png)
+
 
 
 
