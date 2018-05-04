@@ -606,12 +606,16 @@ Steps to apply the `LU Decomposition` to solve the Linear System:
 # MIT OCW 18.06 SC  Unit 1.5 Transposes, Permutations, Vector Spaces Rⁿ
 
 prerequisites:
-
+- ?
 
 Lecture timeline | Links
 -- | --
 Lecture | [0m0s](https://www.youtube.com/watch?v=JibVXBElKL0&list=PLE7DDD91010BC51F8&index=5&t=0s)
 Permutations | [1m17s](https://youtu.be/JibVXBElKL0?t=1m17s)
+Possibilities of permutations | [7m23s](https://youtu.be/JibVXBElKL0?t=7m23s)
+Transposes | [10m15s](https://youtu.be/JibVXBElKL0?t=10m15s)
+General formula for transpose | [11m38s](https://youtu.be/JibVXBElKL0?t=11m38s)
+Symmetric matrices | [12m43s](https://youtu.be/JibVXBElKL0?t=12m43s)
 
 
 ## `Permutations`
@@ -620,5 +624,32 @@ Permutations | [1m17s](https://youtu.be/JibVXBElKL0?t=1m17s)
 For LU Decomposition the `A = LU` **DOESN'T** work with `Row exchanges`, so we change it to:
 ```py
 PA = LU
+
+# P = Permutation Matrix = Identity Matrix with Reordered rows
 ```
-Which apply row exchanges to matrix A into the right order (for pivots), then decompose it.
+**Which apply row exchanges to matrix A into the right order (for pivots), then decompose it.**
+
+### Permutation properties
+```py
+Possibilities of Permutations of nxn matrix = n!
+
+P⁻¹ = Pᵀ
+PᵀP = 𝐈
+```
+
+## `Transposes`
+
+The way to do a transpose is just **SWITCH ENTRIES**.
+
+![image](https://user-images.githubusercontent.com/14041622/39621993-394e1278-4fc3-11e8-827a-776bceb20e4f.png)
+
+
+## `Symmetric matrices`
+> It means the transpose of the matrix doesn't change it.
+
+```py
+#symmetric matrix
+Aᵀ = A
+```
+
+> Given any matrix R (not necessarily square) the product RᵀR is always symmetric, because (RᵀR)ᵀ = Rᵀ(Rᵀ)ᵀ = RᵀR. (Note: (Rᵀ)ᵀ = R)
