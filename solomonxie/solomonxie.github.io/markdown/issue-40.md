@@ -605,9 +605,6 @@ Steps to apply the `LU Decomposition` to solve the Linear System:
 
 # MIT OCW 18.06 SC  Unit 1.5 Transposes, Permutations, Vector Spaces Rⁿ
 
-prerequisites:
-- ?
-
 Lecture timeline | Links
 -- | --
 Lecture | [0m0s](https://www.youtube.com/watch?v=JibVXBElKL0&list=PLE7DDD91010BC51F8&index=5&t=0s)
@@ -617,6 +614,12 @@ Transposes | [10m15s](https://youtu.be/JibVXBElKL0?t=10m15s)
 General formula for transpose | [11m38s](https://youtu.be/JibVXBElKL0?t=11m38s)
 Symmetric matrices | [12m43s](https://youtu.be/JibVXBElKL0?t=12m43s)
 RᵀR is always symmetric | [15m6s](https://youtu.be/JibVXBElKL0?t=15m6s)
+Chapter 3: Vector spaces | [20m12s](https://youtu.be/JibVXBElKL0?t=20m12s)
+What "space" means | [22m3s](https://youtu.be/JibVXBElKL0?t=22m3s)
+Why is Origin necessary in Vector spaces | [25m33s](https://youtu.be/JibVXBElKL0?t=25m33s)
+What's so important about Vector space | [28m29s](https://youtu.be/JibVXBElKL0?t=28m29s)
+A case that's not a Vector space | [29m41s](https://youtu.be/JibVXBElKL0?t=29m41s)
+
 
 ## `Permutations`
 > "Permutation executes Row exchanges."
@@ -652,4 +655,20 @@ The way to do a transpose is just **SWITCH ENTRIES**.
 Aᵀ = A
 ```
 
-Given any matrix R (not necessarily square) the product RᵀR is always symmetric, because after transposing it's still the same: `(RᵀR)ᵀ = Rᵀ(Rᵀ)ᵀ = RᵀR`. (Note: (Rᵀ)ᵀ = R, and matrix multiplications is from right to left.)
+Given any matrix R (not necessarily square) the product RᵀR is always symmetric, because after transposing it's still the same: 
+```py
+(RᵀR)ᵀ = Rᵀ(Rᵀ)ᵀ = RᵀR`
+
+# Note: (Rᵀ)ᵀ = R, and matrix multiplications is from right to left.
+```
+
+
+## Vector spaces
+
+Most important thing about vector spaces: 
+**We can do operations to any vector and still in the same space.**
+We can add or scale or combine any R² vectors and we're still in R² space. 
+
+In another word, if you do some additions or scalings to a vector but turns out it jump out of the space, then **It can't be a vector space.**
+e.g., take the **positive part of R²** as a space, if we do additions to the vectors in it they will still be positive. BUT, if we apply a **negative scalars** to vectors, they will come out of the **positive space**. So it's not a Vector space.
+
