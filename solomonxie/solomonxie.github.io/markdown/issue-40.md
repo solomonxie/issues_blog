@@ -617,7 +617,7 @@ RᵀR is always symmetric | [15m6s](https://youtu.be/JibVXBElKL0?t=15m6s)
 Chapter 3: Vector spaces | [20m12s](https://youtu.be/JibVXBElKL0?t=20m12s)
 What "space" means | [22m3s](https://youtu.be/JibVXBElKL0?t=22m3s)
 Why is Origin necessary in Vector spaces | [25m33s](https://youtu.be/JibVXBElKL0?t=25m33s)
-What's so important about Vector space | [28m29s](https://youtu.be/JibVXBElKL0?t=28m29s)
+Most important thing about Vector space | [28m29s](https://youtu.be/JibVXBElKL0?t=28m29s)
 A case that's not a Vector space | [29m41s](https://youtu.be/JibVXBElKL0?t=29m41s)
 
 
@@ -665,10 +665,12 @@ Given any matrix R (not necessarily square) the product RᵀR is always symmetri
 
 ## Vector spaces
 
-Most important thing about vector spaces: 
+### Most important thing about vector spaces
 **We can do operations to any vector and still in the same space.**
 We can add or scale or combine any R² vectors and we're still in R² space. 
 
 In another word, if you do some additions or scalings to a vector but turns out it jump out of the space, then **It can't be a vector space.**
 e.g., take the **positive part of R²** as a space, if we do additions to the vectors in it they will still be positive. BUT, if we apply a **negative scalars** to vectors, they will come out of the **positive space**. So it's not a Vector space.
 
+### Subspace
+If a Vector space is **INSIDE** of a Vector space e.g. R², we call it `The Subspace of R²`.
