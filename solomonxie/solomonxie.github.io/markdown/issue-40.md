@@ -469,11 +469,15 @@ The `E` above represents `all elementary matrices`.
 
 # MIT OCW 18.06 SC  Unit 1.4 Factorization into A = LU
 
-prerequisites:
-- Matrix Inverses
-- Matrix multiplication
-- Elementary Matrix
-- Permutation Matrix
+Prerequisites
+-- |
+Matrix Inverses |
+Matrix multiplication |
+Elementary Matrix |
+Permutation Matrix |
+
+
+![image](https://user-images.githubusercontent.com/14041622/39564033-17aaeb3e-4ee5-11e8-9bd9-d998edfad405.png)
 
 Lecture timeline | Links
 -- | --
@@ -487,9 +491,6 @@ How expensive is Elimination | [26m5s](https://youtu.be/MsIvs_6vC38?t=26m5s)
 LU Decomposition (with Row exchange) | [40m18s](https://youtu.be/MsIvs_6vC38?t=40m18s)
 Permutations for Row exchanges | [41m15s](https://youtu.be/MsIvs_6vC38?t=41m15s)
 
-
-
-![image](https://user-images.githubusercontent.com/14041622/39564033-17aaeb3e-4ee5-11e8-9bd9-d998edfad405.png)
 
 > "`A = LU` is the BIG FORMULA for elimination. It's a great way to look at Gaussian Elimination."
 
@@ -619,7 +620,7 @@ What "space" means | [22m3s](https://youtu.be/JibVXBElKL0?t=22m3s)
 Why is Origin necessary in Vector spaces | [25m33s](https://youtu.be/JibVXBElKL0?t=25m33s)
 Most important thing about Vector space | [28m29s](https://youtu.be/JibVXBElKL0?t=28m29s)
 A case that's not a Vector space | [29m41s](https://youtu.be/JibVXBElKL0?t=29m41s)
-
+All possible subspaces in R² | [35m54s](https://youtu.be/JibVXBElKL0?t=35m54s)
 
 ## `Permutations`
 > "Permutation executes Row exchanges."
@@ -663,7 +664,7 @@ Given any matrix R (not necessarily square) the product RᵀR is always symmetri
 ```
 
 
-## Vector spaces
+## `Vector spaces`
 
 ### Most important thing about vector spaces
 **We can do operations to any vector and still in the same space.**
@@ -672,5 +673,13 @@ We can add or scale or combine any R² vectors and we're still in R² space.
 In another word, if you do some additions or scalings to a vector but turns out it jump out of the space, then **It can't be a vector space.**
 e.g., take the **positive part of R²** as a space, if we do additions to the vectors in it they will still be positive. BUT, if we apply a **negative scalars** to vectors, they will come out of the **positive space**. So it's not a Vector space.
 
+**EVERY VECTOR SPACE GOT TO HAVE THE ZERO VECTOR IN IT.**
+
 ### Subspace
 If a Vector space is **INSIDE** of a Vector space e.g. R², we call it `The Subspace of R²`.
+
+All possible subspaces in R² | 
+-- |
+The whole R² space |
+Any line goes through Origin `(0,0)` |
+The Zero vector itself |
