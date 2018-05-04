@@ -681,15 +681,9 @@ e.g., take the **positive part of R²** as a space, if we do additions to the ve
 ### Subspace
 If a Vector space is **INSIDE** of a Vector space e.g. R², we call it `The Subspace of R²`.
 
-All possible subspaces in R² | 
--- |
-The whole R² space |
-Any line goes through Origin `(0,0)` |
-The Zero vector itself (𝐙) |
-
-All possible subspaces in R³ | 
--- |
-The whole R³ space |
-Any plane goes through the Origin `(0,0)` |
-Any line goes through Origin `(0,0)` |
-The Zero vector itself (𝐙) |
+All Subspaces of R² | All Subspaces of R³
+-- | --
+The whole R² space | The whole R³ space
+_-_ | Any plane goes through the Origin `(0,0)`
+Any line goes through Origin `(0,0)` | Any line goes through Origin `(0,0)`
+The Zero vector itself (𝐙) | The Zero vector itself (𝐙)
