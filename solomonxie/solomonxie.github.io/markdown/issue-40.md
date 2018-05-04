@@ -39,11 +39,11 @@
 
 ## MIT OCW Linear Algebra 18.06 
 - [ ] Unit I: Ax = b and the Four Subspaces
-    - [x] The Geometry of Linear Equations (Watched; Practiced 3/3)
+    - [x] The Geometry of Linear Equations (Watched; Noted; Practiced 3/3)
     - [x] An overview of key ideas (Watched)
-    - [x] Elimination with matrices (Watched)
-    - [x] Multiplication and Inverse matrices (Watched; Practiced.)
-    - [ ] Factorization in to A = LU
+    - [x] Elimination with matrices (Watched; Noted;)
+    - [x] Multiplication and Inverse matrices (Watched; Noted; Practiced.)
+    - [x] Factorization in to A = LU (Watched; Noted;)
     - [ ] Transposes, Permutations, Vector Spaces
     - [ ] Column space and Null space
     - [ ] Solving Ax = 0: Pivot variables, Special solutions
