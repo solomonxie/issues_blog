@@ -92,14 +92,14 @@ Linear algebra, Matrix algebra, same thing.
 
 Lecture video timeline | Links
 -- | --
-Lecture | [0m0s](https://www.youtube.com/watch?v=ZK3O402wf1c&t=0s&index=1&list=PLE7DDD91010BC51F8)
-Matrix picture | [2m47s](https://youtu.be/ZK3O402wf1c?t=2m47s)
-Row picture | [3m41s](https://youtu.be/ZK3O402wf1c?t=3m41s)
-Column picture | [8m41s](https://youtu.be/ZK3O402wf1c?t=8m41s)
-Matrix picture in 3D | [15m26s](https://youtu.be/ZK3O402wf1c?t=15m26s)
-Row picture in 3D: intersects of planes | [17m33s](https://youtu.be/ZK3O402wf1c?t=17m33s)
-Column picture in 3D | [23m11s](https://youtu.be/ZK3O402wf1c?t=23m11s)
-Permutation Matrix | [36m42s](https://youtu.be/QVKj3LADCnA?t=36m42s)
+Lecture | [0:0](https://www.youtube.com/watch?v=ZK3O402wf1c&t=0s&index=1&list=PLE7DDD91010BC51F8)
+Matrix picture | [2:47](https://youtu.be/ZK3O402wf1c?t=2m47s)
+Row picture | [3:41](https://youtu.be/ZK3O402wf1c?t=3m41s)
+Column picture | [8:41](https://youtu.be/ZK3O402wf1c?t=8m41s)
+Matrix picture in 3D | [15:26](https://youtu.be/ZK3O402wf1c?t=15m26s)
+Row picture in 3D: intersects of planes | [17:33](https://youtu.be/ZK3O402wf1c?t=17m33s)
+Column picture in 3D | [23:11](https://youtu.be/ZK3O402wf1c?t=23m11s)
+Permutation Matrix | [36:42](https://youtu.be/QVKj3LADCnA?t=36m42s)
 
 > "The fundamental problem of linear algebra is to solve n linear equations in `n` unknowns."
 
@@ -276,15 +276,15 @@ prerequisites:
 
 Lecture video timeline | Links
 -- | -- 
-Lecture | [0m0s](https://www.youtube.com/watch?v=QVKj3LADCnA&t=0s&index=2&list=PLE7DDD91010BC51F8)
-Elimination pivots and an example | [3m9s](https://youtu.be/QVKj3LADCnA?t=3m9s) 
-Failure of Elimination method | [10m34s](https://youtu.be/QVKj3LADCnA?t=10m34s) 
-Augmented matrix | [14m50s](https://youtu.be/QVKj3LADCnA?t=14m50s)
-Operations of matrices elimination | [19m24s](https://youtu.be/QVKj3LADCnA?t=19m24s)
-Row operations of Matrices Multiplication | [20m22s](https://youtu.be/QVKj3LADCnA?t=20m22s)
-Column operations of Matrices multiplication | [21m43s](https://youtu.be/QVKj3LADCnA?t=21m43s)
-Elementary Matrix | [24m46s](https://youtu.be/QVKj3LADCnA?t=24m46s)
-Include all elimination steps in one Matrix | [33m29s](https://youtu.be/QVKj3LADCnA?t=33m29s)
+Lecture | [0:0](https://www.youtube.com/watch?v=QVKj3LADCnA&t=0s&index=2&list=PLE7DDD91010BC51F8)
+Elimination pivots and an example | [3:9](https://youtu.be/QVKj3LADCnA?t=3m9s) 
+Failure of Elimination method | [10:34](https://youtu.be/QVKj3LADCnA?t=10m34s) 
+Augmented matrix | [14:50](https://youtu.be/QVKj3LADCnA?t=14m50s)
+Operations of matrices elimination | [19:24](https://youtu.be/QVKj3LADCnA?t=19m24s)
+Row operations of Matrices Multiplication | [20:22](https://youtu.be/QVKj3LADCnA?t=20m22s)
+Column operations of Matrices multiplication | [21:43](https://youtu.be/QVKj3LADCnA?t=21m43s)
+Elementary Matrix | [24:46](https://youtu.be/QVKj3LADCnA?t=24m46s)
+Include all elimination steps in one Matrix | [33:29](https://youtu.be/QVKj3LADCnA?t=33m29s)
 
 > To do `column operations`, the matrix multiplies on the right. To do `row operations`, the matrix multiplies on the left.
 
@@ -366,18 +366,18 @@ Elementary matrices | [Video](https://www.youtube.com/watch?v=1SoU0BfhKaI&featur
 
 Lecture timeline | Links
 -- | --
-Lecture | [0m0s](https://www.youtube.com/watch?v=FX4C-JpTFgY&t=136s&index=3&list=PLE7DDD91010BC51F8)
-Method 1: Multiply matrix by vector | [50s](https://youtu.be/FX4C-JpTFgY?t=50s)
-When allowed to multiply matrices | [4m38s](https://youtu.be/FX4C-JpTFgY?t=4m38s)
-Method 2: Multiply matrix by COLUMN | [6m12s](https://youtu.be/FX4C-JpTFgY?t=6m12s)
-Method 3: Multiply ROW by matrix | [10m4s](https://youtu.be/FX4C-JpTFgY?t=10m4s)
-Method 4: Multiply COLUMN by ROW | [11m37s](https://youtu.be/FX4C-JpTFgY?t=11m37s)
-Method 5: Block Multiplication | [18m25s](https://youtu.be/FX4C-JpTFgY?t=18m25s)
-Inverse Matrices (Square matrices) | [21m15s](https://youtu.be/FX4C-JpTFgY?t=21m15s)
-Invertible Matrix | [22m0s](https://youtu.be/FX4C-JpTFgY?t=22m)
-Singular Matrix (No-inverse matrix) | [24m39s](https://youtu.be/FX4C-JpTFgY?t=24m39s)
-Calculate Inverse of Matrix | [31m52s](https://youtu.be/FX4C-JpTFgY?t=31m52s)
-Gauss-Jordan Elimination to solve Inverse of a matrix | [35m20s](https://youtu.be/FX4C-JpTFgY?t=35m20s)
+Lecture | [0:0](https://www.youtube.com/watch?v=FX4C-JpTFgY&t=136s&index=3&list=PLE7DDD91010BC51F8)
+Method 1: Multiply matrix by vector | [0:50](https://youtu.be/FX4C-JpTFgY?t=50s)
+When allowed to multiply matrices | [4:38](https://youtu.be/FX4C-JpTFgY?t=4m38s)
+Method 2: Multiply matrix by COLUMN | [6:12](https://youtu.be/FX4C-JpTFgY?t=6m12s)
+Method 3: Multiply ROW by matrix | [10:4](https://youtu.be/FX4C-JpTFgY?t=10m4s)
+Method 4: Multiply COLUMN by ROW | [11:37](https://youtu.be/FX4C-JpTFgY?t=11m37s)
+Method 5: Block Multiplication | [18:25](https://youtu.be/FX4C-JpTFgY?t=18m25s)
+Inverse Matrices (Square matrices) | [21:15](https://youtu.be/FX4C-JpTFgY?t=21m15s)
+Invertible Matrix | [22:0](https://youtu.be/FX4C-JpTFgY?t=22m)
+Singular Matrix (No-inverse matrix) | [24:39](https://youtu.be/FX4C-JpTFgY?t=24m39s)
+Calculate Inverse of Matrix | [31:52](https://youtu.be/FX4C-JpTFgY?t=31m52s)
+Gauss-Jordan Elimination to solve Inverse of a matrix | [35:20](https://youtu.be/FX4C-JpTFgY?t=35m20s)
 
 
 ## `Method 1: Multiply matrix by vector`
@@ -482,15 +482,15 @@ Permutation Matrix |
 
 Lecture timeline | Links
 -- | --
-Lecture | [0m0s](https://www.youtube.com/watch?v=MsIvs_6vC38&t=130s&index=4&list=PLE7DDD91010BC51F8)
-What's the Inverse of a Product | [0m25s](https://youtu.be/MsIvs_6vC38?t=25s)
-Inverse of a Transposed Matrix | [4m2s](https://youtu.be/MsIvs_6vC38?t=4m2s)
-How's A related to U | [7m51s](https://youtu.be/MsIvs_6vC38?t=7m51s)
-3x3 LU Decomposition (without Row Exchange) | [13m53s](https://youtu.be/MsIvs_6vC38?t=13m53s)
-L is product of inverses | [16m45s](https://youtu.be/MsIvs_6vC38?t=16m45s)
-How expensive is Elimination | [26m5s](https://youtu.be/MsIvs_6vC38?t=26m5s)
-LU Decomposition (with Row exchange) | [40m18s](https://youtu.be/MsIvs_6vC38?t=40m18s)
-Permutations for Row exchanges | [41m15s](https://youtu.be/MsIvs_6vC38?t=41m15s)
+Lecture | [0:0](https://www.youtube.com/watch?v=MsIvs_6vC38&t=130s&index=4&list=PLE7DDD91010BC51F8)
+What's the Inverse of a Product | [0:25](https://youtu.be/MsIvs_6vC38?t=25s)
+Inverse of a Transposed Matrix | [4:2](https://youtu.be/MsIvs_6vC38?t=4m2s)
+How's A related to U | [7:51](https://youtu.be/MsIvs_6vC38?t=7m51s)
+3x3 LU Decomposition (without Row Exchange) | [13:53](https://youtu.be/MsIvs_6vC38?t=13m53s)
+L is product of inverses | [16:45](https://youtu.be/MsIvs_6vC38?t=16m45s)
+How expensive is Elimination | [26:5](https://youtu.be/MsIvs_6vC38?t=26m5s)
+LU Decomposition (with Row exchange) | [40:18](https://youtu.be/MsIvs_6vC38?t=40m18s)
+Permutations for Row exchanges | [41:15](https://youtu.be/MsIvs_6vC38?t=41m15s)
 
 
 > "`A = LU` is the BIG FORMULA for elimination. It's a great way to look at Gaussian Elimination."
@@ -609,21 +609,21 @@ Steps to apply the `LU Decomposition` to solve the Linear System:
 
 Lecture timeline | Links
 -- | --
-Lecture | [0m0s](https://www.youtube.com/watch?v=JibVXBElKL0&list=PLE7DDD91010BC51F8&index=5&t=0s)
-Permutations | [1m17s](https://youtu.be/JibVXBElKL0?t=1m17s)
-Possibilities of permutations | [7m23s](https://youtu.be/JibVXBElKL0?t=7m23s)
-Transposes | [10m15s](https://youtu.be/JibVXBElKL0?t=10m15s)
-General formula for transpose | [11m38s](https://youtu.be/JibVXBElKL0?t=11m38s)
-Symmetric matrices | [12m43s](https://youtu.be/JibVXBElKL0?t=12m43s)
-RᵀR is always symmetric | [15m6s](https://youtu.be/JibVXBElKL0?t=15m6s)
-Chapter 3: Vector spaces | [20m12s](https://youtu.be/JibVXBElKL0?t=20m12s)
-What "space" means | [22m3s](https://youtu.be/JibVXBElKL0?t=22m3s)
-Why is Origin necessary in Vector spaces | [25m33s](https://youtu.be/JibVXBElKL0?t=25m33s)
-Most important thing about Vector space | [28m29s](https://youtu.be/JibVXBElKL0?t=28m29s)
-A case that's not a Vector space | [29m41s](https://youtu.be/JibVXBElKL0?t=29m41s)
-All possible subspaces in R² | [35m54s](https://youtu.be/JibVXBElKL0?t=35m54s)
-All possible subspaces in R³ | [394s](https://youtu.be/JibVXBElKL0?t=39m4s)
-Subspaces come out from Matrices: Column Space | [39m45s](https://youtu.be/JibVXBElKL0?t=39m45s)
+Lecture | [0:0](https://www.youtube.com/watch?v=JibVXBElKL0&list=PLE7DDD91010BC51F8&index=5&t=0s)
+Permutations | [1:17](https://youtu.be/JibVXBElKL0?t=1m17s)
+Possibilities of permutations | [7:23](https://youtu.be/JibVXBElKL0?t=7m23s)
+Transposes | [10:15](https://youtu.be/JibVXBElKL0?t=10m15s)
+General formula for transpose | [11:38](https://youtu.be/JibVXBElKL0?t=11m38s)
+Symmetric matrices | [12:43](https://youtu.be/JibVXBElKL0?t=12m43s)
+RᵀR is always symmetric | [15:6](https://youtu.be/JibVXBElKL0?t=15m6s)
+Chapter 3: Vector spaces | [20:12](https://youtu.be/JibVXBElKL0?t=20m12s)
+What "space" means | [22:3](https://youtu.be/JibVXBElKL0?t=22m3s)
+Why is Origin necessary in Vector spaces | [25:33](https://youtu.be/JibVXBElKL0?t=25m33s)
+Most important thing about Vector space | [28:29](https://youtu.be/JibVXBElKL0?t=28m29s)
+A case that's not a Vector space | [29:41](https://youtu.be/JibVXBElKL0?t=29m41s)
+All possible subspaces in R² | [35:54](https://youtu.be/JibVXBElKL0?t=35m54s)
+All possible subspaces in R³ | [39:4](https://youtu.be/JibVXBElKL0?t=39m4s)
+Subspaces come out from Matrices: Column Space | [39:45](https://youtu.be/JibVXBElKL0?t=39m45s)
 
 
 ## `Permutations`
