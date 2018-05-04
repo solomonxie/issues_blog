@@ -7,16 +7,23 @@
 
 
 # Project: 制作自己的httpbin或者直接fork python版的
+
+`#httpbin #netwrok #troubleshooting`
+
 部署在服务器上
 
 
 # Project: 爬取所有goodreads图书信息，然后爬取全网的PDF和txt、word等资源
 然后建立一个完整的图书资源和信息库。
 
+`#webspider #webcrawler #gooodreads #searchengine`
+
 显示资源完整度百分百：比如哪些图书信息是有pdf资源的 哪些是没有的。
 
 
 # Project: 树莓派上crontab每天git pull所有的repo保存到本地u盘。
+
+`#raspberrypi #crontab #linux #git`
 
 
 # Project: 读取issues里所有图片并下载，然后保存到另一个repo中备份。保留对应表。
@@ -24,12 +31,14 @@
 
 # Project :抓取自己豆瓣的影评和短篇到github成为博客
 
+`#api #douban #webcrawler #webspider #python`
+
 像抓取issues一样的思路
 
 
 # Project: chrome插件管理bookmark
 
-`#书签 #bookmarks #chrome #automation`
+`#书签 #bookmarks #chrome #automation #youtube`
 
 利用这个特性，可以动态获取facebook、知乎等网站，或某种方式，
 获取这些网站的通知，然后在书签上显示出通知数字。
@@ -45,8 +54,15 @@
 
 书签里的每个文件夹或链接都可以指定单独的脚本，以达到不同的效果。脚本最好支持像POSTMAN一样所有的API功能。
 
+## 更新：
+- 设计单独脚本自动读取youtube订阅列表，同步到书签专门文件夹中。
+- 设计单独脚本自动读取自己github所有repos（需要权限），同步到专门的文件夹中。
+
 
 # Project: 构建词云神经网络
+
+`#machinelearning #neuralnetwork #wordcloud #ai`
+
 两个词出现在同一篇文章中次数作为两个词的距离度。
 次数越多，距离越近。
 
