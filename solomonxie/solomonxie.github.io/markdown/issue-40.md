@@ -733,6 +733,8 @@ Features a Column space | [14:46](https://youtu.be/8o5Cmfpeo6g?t=14m46s)
 How much smaller is the Column space? | [15:48](https://youtu.be/8o5Cmfpeo6g?t=15m48s)
 Does every `Ax=B` have a solution for every `B`? | [16:17](https://youtu.be/8o5Cmfpeo6g?t=16m17s)
 Which `B`s allow the system of equations solved | [19:39](https://youtu.be/8o5Cmfpeo6g?t=19m39s)
+Null space | [28:12](https://youtu.be/8o5Cmfpeo6g?t=28m12s)
+Understand what's the point of a Vector space | [40:24](https://youtu.be/8o5Cmfpeo6g?t=40m24s)
 
 ### Is the union of two subspaces a subspace?
 ![image](https://user-images.githubusercontent.com/14041622/39638399-aab7386a-4ff8-11e8-8a0d-c5e2ce2c5654.png)
@@ -749,3 +751,7 @@ NO!
 Not always, but sometimes.
 
 > "The system of linear equations Ax = b is solvable exactly when b is a vector in the column space of A"
+
+
+## `Null space Ax=0`
+![image](https://user-images.githubusercontent.com/14041622/39661172-eda0b6e2-507f-11e8-84dd-9b911098fb6d.png)
