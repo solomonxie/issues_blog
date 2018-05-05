@@ -732,6 +732,7 @@ Column space | [11:36](https://youtu.be/8o5Cmfpeo6g?t=11m36s)
 Features a Column space | [14:46](https://youtu.be/8o5Cmfpeo6g?t=14m46s)
 How much smaller is the Column space? | [15:48](https://youtu.be/8o5Cmfpeo6g?t=15m48s)
 Does every `Ax=B` have a solution for every `B`? | [16:17](https://youtu.be/8o5Cmfpeo6g?t=16m17s)
+Which `B`s allow the system of equations solved | [19:39](https://youtu.be/8o5Cmfpeo6g?t=19m39s)
 
 ### Is the union of two subspaces a subspace?
 ![image](https://user-images.githubusercontent.com/14041622/39638399-aab7386a-4ff8-11e8-8a0d-c5e2ce2c5654.png)
@@ -742,3 +743,9 @@ For a 3x3 matrix,
 We pick out three Column Vectors, and take all their **`Linear combinations`**, then we formed a **`Column space`**.
 
 > Definition: Column Space of A is all Linear combinations of A's columns.
+
+### Does every `Ax=B` have a solution for every `B`?
+NO!
+Not always, but sometimes.
+
+> "The system of linear equations Ax = b is solvable exactly when b is a vector in the column space of A"
