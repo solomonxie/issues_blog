@@ -637,6 +637,55 @@ tmux中鼠标滚屏默认是关闭的，且不是很容易像开关一样开启�
 看过了一些stackoverflow尝试了一些解决方案，发现没有一个管用。如果比这个还麻烦，暂时我就觉得没有必要再折腾了，直接用原生的屏幕滚动浏览快捷键即可：
 `Prefix + [`，然后直接用上下箭头，或者PnUp和PnDown即可
 
+## `Tmux的配置文件`
+配置文件默认位于`~/.tmux.conf`.
+日常使用中，前缀键`Ctrl+b`和切换窗口键`Ctrl+o`等等，实在太麻烦了。所以改快捷键有时候是很必要的。
+[参考这篇文档。](https://gist.github.com/ryerh/14b7c24dfd623ef8edc7#配置文件tmuxconf)
+
+我的配置如下：
+```vim
+# 基础设置
+#set -g default-terminal "screen-256color"
+set -g default-terminal "xterm-256color"     # recover colorful terminal
+set -g display-time 3000
+set -g escape-time 0
+set -g history-limit 65535
+set -g base-index 1
+set -g pane-base-index 1
+
+
+# 前缀绑定 (Ctrl+a)
+#set -g prefix ^a
+#unbind ^b
+#bind a send-prefix
+
+# 启用鼠标(Tmux v2.1)
+set -g mouse on
+
+# 选中窗口
+bind-key k select-pane -U
+bind-key j select-pane -D
+bind-key h select-pane -L
+bind-key l select-pane -R
+
+# copy-mode 将快捷键设置为 vi 模式
+setw -g mode-keys vi
+
+#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+# Tmux Plugin Manager(Tmux v2.1)
+#== TMUX PLUGIN MANAGER ==#
+# Tmux Resurrect
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+
+# List of plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run '~/.tmux/plugins/tpm/tpm'
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+```
+
 
 # 使服务器上的任务不间断运行
 > 通过ssh登录服务器运行一个python脚本，想让它24小时不间断运行。可是一旦我退出ssh，整个程序就断了。这是由于ssh的session特性——它本身就是一个session，连接上开启session，断开ssh连接则关闭session，关闭时所有你在这个session里运行的东西都会被中断。
