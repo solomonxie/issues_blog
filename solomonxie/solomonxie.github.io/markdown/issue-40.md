@@ -750,4 +750,11 @@ Not always, but sometimes.
 
 
 ## `Null space Ax=0`
+![image](https://user-images.githubusercontent.com/14041622/39661357-d072ebe6-5082-11e8-9f3e-f3c952c1df91.png)
+
+> "If you give me a Matrix A, and let me to find N(A). Literally my goal is to find the set of All x's satisfied the equation Ax=0."
+
+[Refer to Khan academy lecture](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/null-column-space/v/introduction-to-the-null-space-of-a-matrix)
+[Refer to this video explanation by TheTrevTutor](https://www.youtube.com/watch?v=JlC58uaJVsg&list=PLDDGPdw7e6AjJacaEe9awozSaOou-NIx_&index=32&t=0s)
+
 ![image](https://user-images.githubusercontent.com/14041622/39661172-eda0b6e2-507f-11e8-84dd-9b911098fb6d.png)
