@@ -29,3 +29,18 @@ No. Based on the context, it's very much more likely to say that **God will not 
 
 ## References
 - [Did God limit man’s life to 120 years?](https://www.versebyverseministry.org/bible-answers/are-people-limited-to-120-years-of-life/), [(PDF Archive)](https://github.com/solomonxie/solomonxie.github.io/files/1934342/Did.God.limit.man.s.life.to.120.years_._.Verse.By.Verse.Ministry.pdf)
+
+
+
+# Q: Can a Christian lose salvation
+
+## Short answer
+No. A Christian can not lose salvation.
+But, the problem is that Are you a real Christian?
+“By their fruit you will recognize them” (Matthew 7:16).
+
+
+
+## References
+- [Can a Christian lose salvation?](https://www.gotquestions.org/Christian-lose-salvation.html)
+- [Is eternal security a "license" to sin?](https://www.gotquestions.org/license-sin.html)
