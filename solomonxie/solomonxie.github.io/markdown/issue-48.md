@@ -384,7 +384,16 @@ Intuition:
 ![image](https://user-images.githubusercontent.com/14041622/38635363-aed95e0e-3df7-11e8-900c-d8f38dc4a4a2.png)
 
 
+## `Scalar Projection & Vector Projection`
 
+[Refer to lecture from Imperial College London](https://www.youtube.com/watch?v=0bS5_k86id8&index=8&list=PLZnyIsit9AM7acLo1abCA1STjZ41ffwaM)
+
+![image](https://user-images.githubusercontent.com/14041622/39665588-77a06e66-50c9-11e8-877f-308c30d511b8.png)
+
+What if we know the vectors, and we want to know how much is the projection(the shadow)?
+Example:
+![image](https://user-images.githubusercontent.com/14041622/39665580-4f346e6e-50c9-11e8-944b-4c771e236ae8.png)
+How we're gonna solve this is: We know the vectors, so we can get their `dot product` easily by taking their linear combination; and we know the length of each vector, by using Pythagorean theorem; and then we get the projection, as in the picture.
 
 
 # `Cross product`
