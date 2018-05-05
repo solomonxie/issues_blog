@@ -386,7 +386,8 @@ Intuition:
 
 ## `Scalar Projection & Vector Projection`
 
-[Refer to lecture from Imperial College London](https://www.youtube.com/watch?v=0bS5_k86id8&index=8&list=PLZnyIsit9AM7acLo1abCA1STjZ41ffwaM)
+[Refer to lecture by Imperial College London: Projection](https://www.youtube.com/watch?v=0bS5_k86id8&index=8&list=PLZnyIsit9AM7acLo1abCA1STjZ41ffwaM)
+[Refer also to Khan academy: Intro to Projections](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/lin-trans-examples/v/introduction-to-projections)
 
 ![image](https://user-images.githubusercontent.com/14041622/39665667-615dca6c-50ca-11e8-91a3-0d99fcdc07da.png)
 
