@@ -715,10 +715,6 @@ Remember the NO.1 rule of a Subspace:
 
 # MIT OCW 18.06 SC  Unit 1.6Column Space and Nullspace
 
-Prerequisites
--- |
-xx |
-
 ![image](https://user-images.githubusercontent.com/14041622/39637014-6d9e29b0-4ff4-11e8-975f-00aa020aedc9.png)
 
 
