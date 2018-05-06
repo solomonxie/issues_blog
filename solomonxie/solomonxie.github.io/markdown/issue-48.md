@@ -385,10 +385,12 @@ Intuition:
 
 
 ## `Scalar Projection & Vector Projection`
-Assume that the vector `v` projects onto the vector `w`.
+Assume that the vector `w` projects onto the vector `v`.
 Notation:
-- Scalar projection: **`Compᵥw`**, read as "Component of `v` onto `w`".
-- Vector projection: **`Projᵥw`**, read as "Projection of `v` onto `w`".
+- Scalar projection: **`Componentᵥw`**, read as "Component of `w` onto `v`".
+- Vector projection: **`Projectionᵥw`**, read as "Projection of `w` onto `v`".
+
+**Notice that: When you read it, it's in a reverse order! Very important!**
 
 ### Projection Formula
 
@@ -403,7 +405,7 @@ Note that, the formula concerns of these concepts as **prerequisites**:
 > The name is just the same with the names mentioned above: `boosting`.
 
 ```py
-Componentᵥw = (dot product of v & w) / (v's length)
+Componentᵥw = (dot product of v & w) / (w's length)
 ```
 
 [Refer to lecture by Imperial College London: Projection](https://www.youtube.com/watch?v=0bS5_k86id8&index=8&list=PLZnyIsit9AM7acLo1abCA1STjZ41ffwaM)
