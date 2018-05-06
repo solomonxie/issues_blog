@@ -387,8 +387,8 @@ Intuition:
 ## `Scalar Projection & Vector Projection`
 Assume that the vector `v` projects onto the vector `w`.
 Notation:
-- Scalar projection: **`Compᵥw`**, means Component of `v` onto `w`.
-- Vector projection: **`Projᵥw`**, means Projection of `v` onto `w`.
+- Scalar projection: **`Compᵥw`**, read as "Component of `v` onto `w`".
+- Vector projection: **`Projᵥw`**, read as "Projection of `v` onto `w`".
 
 ### Projection Formula
 
@@ -401,6 +401,10 @@ Note that, the formula concerns of these concepts as **prerequisites**:
 
 ### `How to calculate the Scalar Projection`
 > The name is just the same with the names mentioned above: `boosting`.
+
+```py
+Componentᵥw = (dot product of v & w) / (v's length)
+```
 
 [Refer to lecture by Imperial College London: Projection](https://www.youtube.com/watch?v=0bS5_k86id8&index=8&list=PLZnyIsit9AM7acLo1abCA1STjZ41ffwaM)
 [Refer also to Khan academy: Intro to Projections](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/lin-trans-examples/v/introduction-to-projections)
@@ -415,7 +419,9 @@ How we're gonna solve this is: We know the vectors, so we can get their `dot pro
 
 Remember that a `Scalar projection` is the vector's **LENGTH** projected on another vector. And when we add the **DIRECTION** onto the LENGTH, it became a vector, which lies on another vector. Then it makes it a `Vector projection`.
 
-The idea of its formula is simple with words: 
+```py
+Projectionᵥw = (Componentᵥw) * (Unit vector of v)
+```
 
 [Refer also to video for formula by Kate Penner: Vector Projection Equations](https://www.youtube.com/watch?v=cZuDWviSI4c)
 [Refer to video by Firefly Lectures: Vector Projections - Example 1](https://www.youtube.com/watch?v=xSu-0xcRBo8)
@@ -423,6 +429,7 @@ The idea of its formula is simple with words:
 
 Example:
 ![image](https://user-images.githubusercontent.com/14041622/39665680-7994804e-50ca-11e8-9b3c-22d8eb3a66f4.png)
+
 
 
 
