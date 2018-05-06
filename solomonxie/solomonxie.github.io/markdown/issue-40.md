@@ -763,7 +763,7 @@ Not always, but sometimes.
 
 # `Scalar Projection & Vector Projection`
 
-[Refer to the note in `Pre Linear algebra`.](https://github.com/solomonxie/solomonxie.github.io/issues/48#issuecomment-383118452)
+[Refer to the note in `Pre Linear algebra` about understanding Dot product.](https://github.com/solomonxie/solomonxie.github.io/issues/48#issuecomment-383118452)
 
 Assume that the vector `w` projects onto the vector `v`.
 Notation:
@@ -811,3 +811,10 @@ Projectionᵥw = (Componentᵥw) * (Unit vector of v)
 
 Example:
 ![image](https://user-images.githubusercontent.com/14041622/39665680-7994804e-50ca-11e8-9b3c-22d8eb3a66f4.png)
+
+
+
+# Change of Vector basis
+
+Example:
+![image](https://user-images.githubusercontent.com/14041622/39670938-be46df30-5141-11e8-9ccb-872090624350.png)
