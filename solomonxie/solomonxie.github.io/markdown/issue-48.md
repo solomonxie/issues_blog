@@ -385,14 +385,25 @@ Intuition:
 
 
 ## `Scalar Projection & Vector Projection`
+Assume that the vector `v` projects onto the vector `w`.
+Notation:
+- Scalar projection: **`Compᵥw`**, means Component of `v` onto `w`.
+- Vector projection: **`Projᵥw`**, means Projection of `v` onto `w`.
 
-[Refer to lecture by Imperial College London: Projection](https://www.youtube.com/watch?v=0bS5_k86id8&index=8&list=PLZnyIsit9AM7acLo1abCA1STjZ41ffwaM)
-[Refer also to Khan academy: Intro to Projections](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/lin-trans-examples/v/introduction-to-projections)
+### Projection Formula
 
-![image](https://user-images.githubusercontent.com/14041622/39665667-615dca6c-50ca-11e8-91a3-0d99fcdc07da.png)
+Note that, the formula concerns of these concepts as **prerequisites**:
+- Dot product calculation
+- Dot product cosine formula
+- Unit vector
+
+![image](https://user-images.githubusercontent.com/14041622/39670502-d6ce9c72-5138-11e8-9996-e2576d1e48b9.png)
 
 ### `How to calculate the Scalar Projection`
 > The name is just the same with the names mentioned above: `boosting`.
+
+[Refer to lecture by Imperial College London: Projection](https://www.youtube.com/watch?v=0bS5_k86id8&index=8&list=PLZnyIsit9AM7acLo1abCA1STjZ41ffwaM)
+[Refer also to Khan academy: Intro to Projections](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/lin-trans-examples/v/introduction-to-projections)
 
 What if we know the vectors, and we want to know how much is the `Scalar projection`(the shadow)?
 Example:
@@ -402,10 +413,13 @@ How we're gonna solve this is: We know the vectors, so we can get their `dot pro
 ### `How to calculate the Vector Projection`
 > It's another idea for projection, and less intuitive.
 
-[Refer to video by Firefly Lectures: Vector projections](https://www.youtube.com/watch?v=fqPiDICPkj8)
-[Refer also to video for formula by Kate Penner: Vector Projection Equations](https://www.youtube.com/watch?v=cZuDWviSI4c)
+Remember that a `Scalar projection` is the vector's **LENGTH** projected on another vector. And when we add the **DIRECTION** onto the LENGTH, it became a vector, which lies on another vector. Then it makes it a `Vector projection`.
 
-![image](https://user-images.githubusercontent.com/14041622/39670502-d6ce9c72-5138-11e8-9996-e2576d1e48b9.png)
+The idea of its formula is simple with words: 
+
+[Refer also to video for formula by Kate Penner: Vector Projection Equations](https://www.youtube.com/watch?v=cZuDWviSI4c)
+[Refer to video by Firefly Lectures: Vector Projections - Example 1](https://www.youtube.com/watch?v=xSu-0xcRBo8)
+
 
 Example:
 ![image](https://user-images.githubusercontent.com/14041622/39665680-7994804e-50ca-11e8-9b3c-22d8eb3a66f4.png)
