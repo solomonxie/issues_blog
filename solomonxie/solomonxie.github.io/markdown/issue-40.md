@@ -815,18 +815,18 @@ Example:
 
 
 # Change of Vector basis
-
-[Refer to lecture form Imperial College London: Changing basis](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/AN3cB/changing-basis)
-
 > Changing basis of a vector, the vector's length & direction remain the same, but the numbers represent the vector will change, since the meaning of the numbers have changed. 
 Our goal is to calculate the New numbers in the vector in terms of the new basis.
+
+## Change of basis (Still orthogonal: 90°)
+
+[Refer to lecture form Imperial College London: Changing basis](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/AN3cB/changing-basis)
 
 The method to do that, is:
 1. to calculate the Vector's projections on both new basis, and
 2. **Add up** the new basis to get the vector's numbers.
 
 ![image](https://user-images.githubusercontent.com/14041622/39671000-d7209a68-5142-11e8-82fe-8efe64da9587.png)
-
 
 Example:
 ![image](https://user-images.githubusercontent.com/14041622/39670938-be46df30-5141-11e8-9ccb-872090624350.png)
