@@ -824,7 +824,7 @@ Our goal is to calculate the New numbers in the vector in terms of the new basis
 
 The method to do that, is:
 1. to calculate the Vector's projections on both new basis, and
-2. **Add up** the new basis to get the vector's numbers.
+2. 
 
 ![image](https://user-images.githubusercontent.com/14041622/39671000-d7209a68-5142-11e8-82fe-8efe64da9587.png)
 
