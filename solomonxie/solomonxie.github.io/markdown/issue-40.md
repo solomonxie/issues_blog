@@ -818,7 +818,9 @@ Example:
 > Changing basis of a vector, the vector's length & direction remain the same, but the numbers represent the vector will change, since the meaning of the numbers have changed. 
 Our goal is to calculate the New numbers in the vector in terms of the new basis.
 
-## Change of basis (Still orthogonal: 90°)
+[Refer to video by Trefor Bazett: Deriving the Change-of-Basis formula](https://www.youtube.com/watch?v=njvTyIWtxrE)
+
+## Projection vector method (Only for 90° bases)
 
 [Refer to lecture form Imperial College London: Changing basis](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/AN3cB/changing-basis)
 
