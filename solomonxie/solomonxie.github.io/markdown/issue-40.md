@@ -826,7 +826,8 @@ Our goal is to calculate the New numbers in the vector in terms of the new basis
 
 [Refer to video by Trefor Bazett: Deriving the Change-of-Basis formula](https://www.youtube.com/watch?v=njvTyIWtxrE)
 
-## Writing a vector in a new basis: Projection vector method (Only for 90° bases)
+## Projection vector method (Only for 90° bases)
+> The goal is to write a vector in a new basis.
 
 [Refer to lecture form Imperial College London: Changing basis](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/AN3cB/changing-basis)
 
