@@ -225,14 +225,16 @@ Let's list some `vector combinations`:
 In another word:
 **IF ANY TWO VECTORS ARE INDEPENDENT, THEN OTHERS ARE ALL DEPENDENT.**
 
-### `How to know whether a linear combination is dependent`
+## `How to calculate a linear combination's independency`
 
+[Refer to Adam Panagos: Linear Algebra Example Problems - Linearly Independent Vectors #1](https://www.youtube.com/watch?v=rQZD3RM9ic0)
+[Refer to TheTrevTutor: [Linear Algebra] Linear Independence and Bases](https://www.youtube.com/watch?v=OLqc_rt7abI)
 [Refer to Khan lecture: Span and linear independence example](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-independence/v/span-and-linear-independence-example)
 
 > It's important for knowing if a `linear combination` can fill out a plane or space. 
 For example, if two vectors aren't independent, then it's just one vector, and can only draw a line. If three vectors aren't independent, then they're just two vectors, one is redundant, so they can only fill out a 2D plane instead of a 3D space.
 
-A `linear combination` is **dependent**, **iff** it could satisfy this equation:
+A `linear combination` is **independent**, **iff** it could satisfy this equation:
 ```py
 c₁v₁ + c₂v₂ + c₃v₃ .... = 0
 ```
@@ -243,8 +245,8 @@ Assume that there's a linear combination of two vectors `v₁ + v₂ + v₃`,
 with scalars it could be `c₁v₁ + c₂v₂ + c₃v₃`.
 To verify whether it's dependent or independent, 
 we assume `c₁v₁ + c₂v₂ + c₃v₃= (0,0,0)` and solve for `c₁, c₂, c₃`:
-- it's **dependent** <=> if `c₁ = c₂ = c₃ = 0` **all** are zeros
-- it's **independent** <=> If `c₁, c₂, c₃` **at least one** is NON-ZERO number
+- it's **independent** <=> if `c₁ = c₂ = c₃ = 0` **all** are zeros
+- it's **dependent** <=> If `c₁, c₂, c₃` **at least one** is NON-ZERO number
 
 Example 1: `Is vectors (2,1) and (3,2) dependent or independent?`
 Solve:
