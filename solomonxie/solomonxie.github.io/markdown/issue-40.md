@@ -840,7 +840,7 @@ Example:
 ![image](https://user-images.githubusercontent.com/14041622/39670938-be46df30-5141-11e8-9ccb-872090624350.png)
 Solution:
 The idea is to take projection of the vector onto both **new basis**, except it's taking only a part of the `projection vector formula`. As in the formula below, it only takes the blue squared part as the number of the new vector's component.
-![image](https://user-images.githubusercontent.com/14041622/39691233-74b54482-520f-11e8-8729-958ed08c8458.png)
+![image](https://user-images.githubusercontent.com/14041622/39691584-9a06699a-5210-11e8-9778-a2c6c0705643.png)
 ```py
 Component V₁ = (V﹒b₁) / |b₁|² = (5*1 + -1*1) / ( √(1²+1²) )² = 4/2 = 2
 Component V₂ = (V﹒b₂) / |b₂|² = (5*1 + -1*-1) / ( √(1²+(-1)²) )² = 6/2= 3
