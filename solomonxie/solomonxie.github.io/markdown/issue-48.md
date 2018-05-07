@@ -379,7 +379,12 @@ Intuition:
 ![image](https://user-images.githubusercontent.com/14041622/38635363-aed95e0e-3df7-11e8-900c-d8f38dc4a4a2.png)
 
 
+## `Dot product & Symmetry`
+> Dot product has a relationship with Symmetry.
 
+[Refer to lecture of Imperial College London: Einstein summation convention and the symmetry of the dot product](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/kI0DB/introduction-einstein-summation-convention-and-the-symmetry-of-the-dot-product)
+
+![image](https://user-images.githubusercontent.com/14041622/39709237-ecf3e4e4-524b-11e8-80db-67d0085f2920.png)
 
 
 
