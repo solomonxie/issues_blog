@@ -853,3 +853,5 @@ V' = (2, 3)
 ## `Matrices changing basis`
 ![image](https://user-images.githubusercontent.com/14041622/39709985-0d941f0a-524e-11e8-87d7-629882d7c3c3.png)
 [Refer to lecture: Matrices changing basis](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/q8iik/matrices-changing-basis)
+
+![image](https://user-images.githubusercontent.com/14041622/39710852-92f80fe2-5250-11e8-8935-3469c9a9e207.png)
