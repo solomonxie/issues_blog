@@ -801,9 +801,15 @@ How we're gonna solve this is: We know the vectors, so we can get their `dot pro
 
 Remember that a `Scalar projection` is the vector's **LENGTH** projected on another vector. And when we add the **DIRECTION** onto the LENGTH, it became a vector, which lies on another vector. Then it makes it a `Vector projection`.
 
+It can be understood as this formula:
 ```py
 Projectionᵥw = (Componentᵥw) * (Unit vector of v)
 ```
+But usually we write it as this:
+![image](https://user-images.githubusercontent.com/14041622/39691159-2dd0d3ec-520f-11e8-8922-f0c6f8c593ae.png)
+
+![image](https://user-images.githubusercontent.com/14041622/39691134-1d490f4e-520f-11e8-9077-82b63a569303.png)
+
 
 [Refer also to video for formula by Kate Penner: Vector Projection Equations](https://www.youtube.com/watch?v=cZuDWviSI4c)
 [Refer to video by Firefly Lectures: Vector Projections - Example 1](https://www.youtube.com/watch?v=xSu-0xcRBo8)
