@@ -174,3 +174,8 @@ It could be quite confusing, but everything became clear after read [this answer
 
 This list below is [a section of page from MIT OCW](https://ocw.mit.edu/courses/mathematics/):
 ![image](https://user-images.githubusercontent.com/14041622/36985159-7efc60de-20d1-11e8-8f43-2dcc263ae287.png)
+
+
+
+# `How to learn Linear Algebra`
+
