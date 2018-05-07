@@ -409,6 +409,7 @@ Each **row** of the `product matrix C`, is `Row of A * Matrix B`.
 ### `Dot product`
 ![image](https://user-images.githubusercontent.com/14041622/39560005-08e11582-4ecd-11e8-8f10-53322d584bb3.png)
 
+![image](https://user-images.githubusercontent.com/14041622/39709443-6a62c152-524c-11e8-9137-23904f5b6d5a.png)
 
 ## `Method 5: Block multiplication`
 
