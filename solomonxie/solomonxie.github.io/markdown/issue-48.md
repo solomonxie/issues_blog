@@ -750,6 +750,7 @@ Note that:
 
 ![image](https://user-images.githubusercontent.com/14041622/38727569-f9c986b6-3f3f-11e8-87db-d84be4386175.png)
 
+> "This (determinant) is both tricky to show and derive, and is kind of **pointless**. Knowing how to do the operations (of determinant) **isn't a useful skill anymore** because we just type **det(A)** into a computer. Thus I'll just type det(A) and my computer gives me the answer, done. From a learning perspective, it doesn't add much. So I'm not going to teach you how to do determinants. If you want to know, then look up a **QR decomposition** online, or better yet, look in a linear algebra textbook." -  David Dye, Imperial College London
 
 ## `Zero determinant`
 If the determinant of a transformation `det(M) = 0`, then it means the Transformation squishes the graph to a line or a point!
