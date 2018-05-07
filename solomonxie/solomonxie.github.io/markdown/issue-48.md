@@ -243,8 +243,8 @@ Assume that there's a linear combination of two vectors `v₁ + v₂ + v₃`,
 with scalars it could be `c₁v₁ + c₂v₂ + c₃v₃`.
 To verify whether it's dependent or independent, 
 we assume `c₁v₁ + c₂v₂ + c₃v₃= (0,0,0)` and solve for `c₁, c₂, c₃`:
-- it's **independent** <=> if `c₁ = c₂ = c₃ = 0` **all** are zeros
-- it's **dependent** <=> If `c₁, c₂, c₃` **at least one** is NON-ZERO number
+- it's **dependent** <=> if `c₁ = c₂ = c₃ = 0` **all** are zeros
+- it's **independent** <=> If `c₁, c₂, c₃` **at least one** is NON-ZERO number
 
 Example 1: `Is vectors (2,1) and (3,2) dependent or independent?`
 Solve:
@@ -253,13 +253,13 @@ Solve:
     - `2c₁ + 3c₂ = 0`
     - `1c₁ + 2c₂ = 0`
 - Solve system of equations get: `c₁=c₂=0`
-- So it's a **independent linear combination**.
+- So it's a **dependent linear combination**.
 
 Example 2: `Is vectors (1,-1,2), (1,1,3) and (-1,0,2) dependent or independent?`
 - Assume `c₁v₁ + c₂v₂ + c₃v₃= (0,0,0)`
 - get the system of equations of 3 unknowns `c₁, c₂, c₃`
 - solve equations get solutions get `c₁ = c₂ = c₃ = 0`
-- So they're **independent**.
+- So they're **dependent**.
 
 
 # `Vectors multiplication`
