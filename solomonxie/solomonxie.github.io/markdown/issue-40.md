@@ -821,7 +821,7 @@ Example:
 
 
 
-# Change of Vector basis
+# Change of basis
 > Changing basis of a vector, the vector's length & direction remain the same, but the numbers represent the vector will change, since the meaning of the numbers have changed. 
 Our goal is to calculate the New numbers in the vector in terms of the new basis.
 
@@ -849,3 +849,7 @@ Component V₂ = (V﹒b₂) / |b₂|² = (5*1 + -1*-1) / ( √(1²+(-1)²) )² =
 
 V' = (2, 3)
 ```
+
+## `Matrices changing basis`
+![image](https://user-images.githubusercontent.com/14041622/39709985-0d941f0a-524e-11e8-87d7-629882d7c3c3.png)
+[Refer to lecture: Matrices changing basis](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/q8iik/matrices-changing-basis)
