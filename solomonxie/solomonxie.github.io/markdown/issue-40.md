@@ -851,7 +851,8 @@ V' = (2, 3)
 ```
 
 ## `Matrices changing basis`
-![image](https://user-images.githubusercontent.com/14041622/39709985-0d941f0a-524e-11e8-87d7-629882d7c3c3.png)
-[Refer to lecture: Matrices changing basis](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/q8iik/matrices-changing-basis)
 
-![image](https://user-images.githubusercontent.com/14041622/39710852-92f80fe2-5250-11e8-8935-3469c9a9e207.png)
+[Refer to lecture: Matrices changing basis](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/q8iik/matrices-changing-basis)
+[Refer to video: Change of Coordinates Matrix #2](https://www.youtube.com/watch?v=2K6ipONMIgg&t=24s)
+
+![image](https://user-images.githubusercontent.com/14041622/39711480-6d133e62-5252-11e8-91e5-f694affec82a.png)
