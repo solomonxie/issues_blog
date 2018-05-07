@@ -248,20 +248,13 @@ we assume `c₁v₁ + c₂v₂ + c₃v₃= (0,0,0)` and solve for `c₁, c₂, c
 - it's **independent** <=> if `c₁ = c₂ = c₃ = 0` **all** are zeros
 - it's **dependent** <=> If `c₁, c₂, c₃` **at least one** is NON-ZERO number
 
-Example 1: `Is vectors (2,1) and (3,2) dependent or independent?`
-Solve:
-- Assume `c₁(2,1) + c₂(3,2) = (0,0)`
-- Get system of equations:
-    - `2c₁ + 3c₂ = 0`
-    - `1c₁ + 2c₂ = 0`
-- Solve system of equations get: `c₁=c₂=0`
-- So it's a **dependent linear combination**.
+Independent Example:
+![image](https://user-images.githubusercontent.com/14041622/39693352-4fde755a-5216-11e8-85cf-a75f9f5f48ef.png)
 
-Example 2: `Is vectors (1,-1,2), (1,1,3) and (-1,0,2) dependent or independent?`
-- Assume `c₁v₁ + c₂v₂ + c₃v₃= (0,0,0)`
-- get the system of equations of 3 unknowns `c₁, c₂, c₃`
-- solve equations get solutions get `c₁ = c₂ = c₃ = 0`
-- So they're **dependent**.
+
+Dependent Example:
+![image](https://user-images.githubusercontent.com/14041622/39693311-2dbbf0ec-5216-11e8-9cdb-e8d40d671671.png)
+
 
 
 # `Vectors multiplication`
