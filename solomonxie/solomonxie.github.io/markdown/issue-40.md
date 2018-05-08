@@ -45,8 +45,8 @@
     - [x] Elimination with matrices (Watched; Noted;)
     - [x] Multiplication and Inverse matrices (Watched; Noted; Practiced.)
     - [x] Factorization in to A = LU (Watched; Noted;)
-    - [ ] Transposes, Permutations, Vector Spaces
-    - [ ] Column space and Null space
+    - [x] Transposes, Permutations, Vector Spaces
+    - [x] Column space and Null space
     - [ ] Solving Ax = 0: Pivot variables, Special solutions
     - [ ] Solving Ax = B: Row reduced from R
     - [ ] Independence, Basis and Dimension
@@ -874,11 +874,28 @@ V' = (2, 3)
 # `Orthogonal Matrix`
 > It's a **Square Matrix** consisted with **Unit vectors**. Usually it's just **Identity Matrix**.
 
-[Refer to Wiki.](https://en.wikipedia.org/wiki/Orthogonal_matrix)
-
+[Refer to Wiki: Orthogonal Matrix.](https://en.wikipedia.org/wiki/Orthogonal_matrix)
 [Refer to lecture by Imperial College London: Orthogonal Matrices](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/uYJRz/orthogonal-matrices)
-
 
 ## `Orthonormal basis`
 > If two vectors are **Unit vectors** AND **Orthogonal**(perpendicular) to each other, they will be called `Orthonormal`.
 If they form a set of Basis, they'll be called `Orthonormal basis`.
+
+[Refer to Wiki: Orthonormality](https://en.wikipedia.org/wiki/Orthonormality)
+
+## `Transpose of Orthogonal matrix`
+If the Matrix composed with orthonormal basis, then its `transpose` is its `inverse`: 
+```py
+Aᵀ = A⁻¹
+
+# which makes this one true as well
+AAᵀ = 𝐈
+AᵀA = 𝐈
+```
+
+## `Determinant of Orthogonal matrix`
+The `determinant` of an Orthogonal matrix, **must be** either 1 or -1.
+The -1 determinant means the matrix was flipped around from originally `right-handed` to `left-handed`.
+```py
+|A| = ±1
+```
