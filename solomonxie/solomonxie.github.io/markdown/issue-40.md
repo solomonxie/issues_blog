@@ -880,3 +880,5 @@ V' = (2, 3)
 
 
 ## `Orthonormal basis`
+> If two vectors are **Unit vectors** AND **Orthogonal**(perpendicular) to each other, they will be called `Orthonormal`.
+If they form a set of Basis, they'll be called `Orthonormal basis`.
