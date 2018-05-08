@@ -880,13 +880,13 @@ V' = (2, 3)
 [Refer to Wiki: Orthogonal Matrix.](https://en.wikipedia.org/wiki/Orthogonal_matrix)
 [Refer to lecture by Imperial College London: Orthogonal Matrices](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/uYJRz/orthogonal-matrices)
 
-## `Orthonormal basis`
+### `Orthonormal basis`
 > If two vectors are **Unit vectors** AND **Orthogonal**(perpendicular) to each other, they will be called `Orthonormal`.
 If they form a set of Basis, they'll be called `Orthonormal basis`.
 
 [Refer to Wiki: Orthonormality](https://en.wikipedia.org/wiki/Orthonormality)
 
-## `Transpose of Orthogonal matrix`
+### `Transpose of Orthogonal matrix`
 If the Matrix composed with orthonormal basis, then its `transpose` is its `inverse`: 
 ```py
 Aᵀ = A⁻¹
@@ -896,9 +896,14 @@ AAᵀ = 𝐈
 AᵀA = 𝐈
 ```
 
-## `Determinant of Orthogonal matrix`
+### `Determinant of Orthogonal matrix`
 The `determinant` of an Orthogonal matrix, **must be** either 1 or -1.
 The -1 determinant means the matrix was flipped around from originally `right-handed` to `left-handed`.
 ```py
 |A| = ±1
 ```
+
+## `The Gram–Schmidt process`
+> " My life would probably be easier if I could construct some **orthonormal basis** somehow. And there's a process for doing that which is called the Gram-Schmidt process" - David Dye, Imperial College London
+
+[Refer to lecture: The Gram–Schmidt process](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/28C1t/the-gram-schmidt-process)
