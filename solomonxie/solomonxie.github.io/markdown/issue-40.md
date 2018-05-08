@@ -947,12 +947,20 @@ Imagine we are applying a Transformation matrix many many times, if we follow th
 
 
 ## `Eigenbasis`
+
+[Refer to lecture: Changing to the eigenbasis](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/EcsN0/changing-to-the-eigenbasis)
+
 If you're lucky enough, that the `Transformation Matrix` is a `Diagonal matrix`, 
 then when you're raising powers to the Matrix, you just need to simply raise power to the `Diagonal elements`.
 
 If you aren't lucky, that the Transformation Matrix isn't a Diagonal matrix, 
 then we're gonna do `Eigen-Analysis`, 
-which means we're to change our basis to make the Transformation Matrix to a Diagonal matrix, 
-then raise power to it, 
-finally transform the result matrix back to original basis again.
+which means:
+1. we're to change our basis to make the Transformation Matrix to a Diagonal matrix, 
+2. then raise power to it, 
+3. finally transform the result matrix back to original basis again.
+
+The steps will be like:
+
+![image](https://user-images.githubusercontent.com/14041622/39749880-5dbc08ba-52e6-11e8-80c3-0ea0cb26d346.png)
 
