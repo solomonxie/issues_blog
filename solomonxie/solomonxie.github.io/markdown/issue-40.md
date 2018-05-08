@@ -923,3 +923,10 @@ Refer to video by Trefor Bazett:
 [The geometric view on orthogonal projections](https://www.youtube.com/watch?v=2dGXQwYDaqU&list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6&index=66)
 
 ![gram-schmidt_orthonormalization_process](https://user-images.githubusercontent.com/14041622/39745304-735e5df6-52d9-11e8-9558-7c6d0faf34d4.gif)
+
+
+
+# `Eigen`
+
+## `Eigenvectors`
+> For a `linear transformation`, an `eigenvector` is a vector which, after applying the transformation, stays in the same span. 
