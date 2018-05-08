@@ -149,7 +149,7 @@ iTerm的配置方法和Terminal.app非常相似，自己在偏好设置中采用
 
 
 
-## `Zsh命令自动补全插件 [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)`
+## Zsh命令自动补全插件 [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 这里利用Oh my zsh的方法安装。直接一句话命令行里下载并移动到oh my zsh目录中：
 ```shell
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
@@ -158,7 +158,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 
 
 
-## `Zsh命令语法高亮插件 [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)`
+## Zsh命令语法高亮插件 [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 将插件下载到oh my zsh的插件目录下的该新建插件同名文件夹中
 ```shell
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
@@ -171,7 +171,7 @@ source "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 保存重新打开即可看到高亮的命令行了。
 
 
-## `Zsh自动跳转目录插件 [autojump](https://github.com/wting/autojump)`
+## Zsh自动跳转目录插件 [autojump](https://github.com/wting/autojump)
 
 安装方法：
 ```shell
