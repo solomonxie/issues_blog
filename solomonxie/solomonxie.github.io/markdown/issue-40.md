@@ -930,3 +930,6 @@ Refer to video by Trefor Bazett:
 
 ## `Eigenvectors`
 > For a `linear transformation`, an `eigenvector` is a vector which, after applying the transformation, stays in the same span. 
+
+When we say `eigenvectors`, we always need to say `eigenvectors of a linear transformation`.
+It's the same with `determinant of linear transformation`.
