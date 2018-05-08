@@ -653,6 +653,17 @@ The way to do a transpose is just **SWITCH ENTRIES**.
 
 ![image](https://user-images.githubusercontent.com/14041622/39621993-394e1278-4fc3-11e8-827a-776bceb20e4f.png)
 
+> Remember: intuitively the matrix is **NOT Rotating** to be a transpose, but **Flipping** by the Diagonal of the matrix. Which means the entries on the **DIAGONAL** maintain the same.
+![200px-matrix_transpose](https://user-images.githubusercontent.com/14041622/39741457-9f7ff456-52cc-11e8-8d4b-2b1a42e15fc7.gif)
+
+### `Properties of Transposes`
+![image](https://user-images.githubusercontent.com/14041622/39741716-86361f88-52cd-11e8-9749-2d12588f05ef.png)
+
+### `Special transpose matrices`
+> There're some well-known matrices are defined by their Transpose.
+
+![image](https://user-images.githubusercontent.com/14041622/39741875-08697928-52ce-11e8-922d-ef4e8a578f0a.png)
+
 
 ## `Symmetric matrices`
 > It means the transpose of the matrix doesn't change it.
