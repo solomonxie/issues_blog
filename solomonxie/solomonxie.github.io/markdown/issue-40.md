@@ -664,7 +664,7 @@ Aᵀ = A
 
 Given any matrix R (not necessarily square) the product RᵀR is always symmetric, because after transposing it's still the same: 
 ```py
-(RᵀR)ᵀ = Rᵀ(Rᵀ)ᵀ = RᵀR`
+(RᵀR)ᵀ = Rᵀ(Rᵀ)ᵀ = RᵀR
 
 # Note: (Rᵀ)ᵀ = R, and matrix multiplications is from right to left.
 ```
