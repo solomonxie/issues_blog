@@ -926,10 +926,25 @@ Refer to video by Trefor Bazett:
 
 
 
-# `Eigen`
+# `Eigen-stuffs`
 
 ## `Eigenvectors`
 > For a `linear transformation`, an `eigenvector` is a vector which, after applying the transformation, stays in the **same span**. 
 
 When we say `eigenvectors`, we always need to say `eigenvectors of a linear transformation`.
 It's the same with `determinant of linear transformation`.
+
+## `Eigenvalues`
+
+## `Eigenbasis`
+
+## `Diagonal Matrix`
+> A `diagonal matrix` is a matrix in which the entries outside the `main diagonal` are all zero.
+
+![image](https://user-images.githubusercontent.com/14041622/39749332-fd80da1c-52e4-11e8-8db4-2a6601442fe0.png)
+
+Imagine we are applying a Transformation matrix many many times, if we follow the basic Matrix Multiplication rule that will be a shit ton of calculations. But `Diagonal matrix` rule save us out.
+
+If you raise powers to the Matrix, you just need to simply raise power to the `Diagonal elements`.
+
+![image](https://user-images.githubusercontent.com/14041622/39749114-76effbd6-52e4-11e8-8a11-0fc75656bbcb.png)
