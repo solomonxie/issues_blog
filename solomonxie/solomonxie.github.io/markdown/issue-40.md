@@ -264,6 +264,9 @@ So on and so forth, write down all the **entries** of the product entries, and t
 
 ![image](https://user-images.githubusercontent.com/14041622/39564456-e4ba295e-4ee6-11e8-89fa-5347281decc4.png)
 
+## `Einstein summation convention`
+[Refer to Wiki: Einstein notation](https://en.wikipedia.org/wiki/Einstein_notation)
+![image](https://user-images.githubusercontent.com/14041622/39742544-75cdc4d6-52d0-11e8-8fb4-b5b7da2f6380.png)
 
 
 
