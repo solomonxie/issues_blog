@@ -857,3 +857,10 @@ V' = (2, 3)
 [Refer to video: Change of Coordinates Matrix #2](https://www.youtube.com/watch?v=2K6ipONMIgg&t=24s)
 
 ![image](https://user-images.githubusercontent.com/14041622/39711480-6d133e62-5252-11e8-91e5-f694affec82a.png)
+
+
+
+# `Orthogonal Matrix`
+> It's a **Square Matrix** consisted with **Unit vectors.**
+
+[Refer to Wiki.](https://en.wikipedia.org/wiki/Orthogonal_matrix)
