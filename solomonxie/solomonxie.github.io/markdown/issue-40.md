@@ -936,8 +936,6 @@ It's the same with `determinant of linear transformation`.
 
 ## `Eigenvalues`
 
-## `Eigenbasis`
-
 ## `Diagonal Matrix`
 > A `diagonal matrix` is a matrix in which the entries outside the `main diagonal` are all zero.
 
@@ -945,10 +943,12 @@ It's the same with `determinant of linear transformation`.
 
 Imagine we are applying a Transformation matrix many many times, if we follow the basic Matrix Multiplication rule that will be a shit ton of calculations. But `Diagonal matrix` rule save us out.
 
+![image](https://user-images.githubusercontent.com/14041622/39749114-76effbd6-52e4-11e8-8a11-0fc75656bbcb.png)
+
+
+## `Eigenbasis`
 If you're lucky enough, that the `Transformation Matrix` is a `Diagonal matrix`, 
 then when you're raising powers to the Matrix, you just need to simply raise power to the `Diagonal elements`.
-
-![image](https://user-images.githubusercontent.com/14041622/39749114-76effbd6-52e4-11e8-8a11-0fc75656bbcb.png)
 
 If you aren't lucky, that the Transformation Matrix isn't a Diagonal matrix, 
 then we're gonna do `Eigen-Analysis`, 
