@@ -906,4 +906,10 @@ The -1 determinant means the matrix was flipped around from originally `right-ha
 ## `The Gram–Schmidt process`
 > " My life would probably be easier if I could construct some **orthonormal basis** somehow. And there's a process for doing that which is called the Gram-Schmidt process" - David Dye, Imperial College London
 
-[Refer to lecture: The Gram–Schmidt process](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/28C1t/the-gram-schmidt-process)
+[Refer to video by Trefor Bazett: Using Gram-Schmidt to orthogonalize a basis](https://www.youtube.com/watch?v=LXE9NeaLQsc)
+
+How to see this process intuitively? 
+Think about the famous paint [ _The Ambassadors (Holbein) - Wikipedia _](https://en.wikipedia.org/wiki/The_Ambassadors_(Holbein))
+![image](https://user-images.githubusercontent.com/14041622/39744678-aaf3ecec-52d7-11e8-8f90-240b80339136.png)
+The skull in the paint is so hard to recognize because it's in some "funny" basis, we need to transform it into our world basis, the `Orthonormal basis`, so that we could see it as below:
+![image](https://user-images.githubusercontent.com/14041622/39744635-88f52a7a-52d7-11e8-9c02-1a10d314b015.png)
