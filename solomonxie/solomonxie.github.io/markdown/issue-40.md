@@ -1,7 +1,8 @@
 # Linear Algebra with Moocs 线性代数课程笔记
-> Quick notes on College level of Maths or Stats for machine learning.
+> Quick notes on College level of Math or Stats for machine learning.
 
 ## Study resources
+- [ ] [Wiki: List of linear algebra topics](https://en.wikipedia.org/wiki/List_of_linear_algebra_topics)
 - [x] [Slant: What are the best resources to learn linear algebra?](https://www.slant.co/topics/6073/~resources-to-learn-linear-algebra)
 - [x] [Pre Linear Algebra notes](https://github.com/solomonxie/solomonxie.github.io/issues/48)
 - [x] [ Khan academy Pre-calculus](https://www.khanacademy.org/math/precalculus)
