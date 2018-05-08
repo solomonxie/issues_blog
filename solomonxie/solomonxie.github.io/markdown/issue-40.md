@@ -920,5 +920,6 @@ The skull in the paint is so hard to recognize because it's in some "funny" basi
 Refer to video by Trefor Bazett: 
 [Using Gram-Schmidt to orthogonalize a basis](https://www.youtube.com/watch?v=LXE9NeaLQsc), 
 [Full example: using Gram-Schmidt](https://www.youtube.com/watch?v=zti01DiImiQ&index=71&t=0s&list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6)
+[The geometric view on orthogonal projections](https://www.youtube.com/watch?v=2dGXQwYDaqU&list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6&index=66)
 
 ![gram-schmidt_orthonormalization_process](https://user-images.githubusercontent.com/14041622/39745304-735e5df6-52d9-11e8-9558-7c6d0faf34d4.gif)
