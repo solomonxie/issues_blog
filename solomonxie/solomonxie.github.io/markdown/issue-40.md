@@ -861,6 +861,11 @@ V' = (2, 3)
 
 
 # `Orthogonal Matrix`
-> It's a **Square Matrix** consisted with **Unit vectors.**
+> It's a **Square Matrix** consisted with **Unit vectors**. Usually it's just **Identity Matrix**.
 
 [Refer to Wiki.](https://en.wikipedia.org/wiki/Orthogonal_matrix)
+
+[Refer to lecture by Imperial College London: Orthogonal Matrices](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/uYJRz/orthogonal-matrices)
+
+
+## `Orthonormal basis`
