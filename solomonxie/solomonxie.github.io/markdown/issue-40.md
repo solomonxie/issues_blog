@@ -934,6 +934,8 @@ Refer to video by Trefor Bazett:
 When we say `eigenvectors`, we always need to say `eigenvectors of a linear transformation`.
 It's the same with `determinant of linear transformation`.
 
+### How to calculate the Eigenvectors
+
 ## `Eigenvalues`
 
 ## `Diagonal Matrix`
@@ -946,7 +948,7 @@ Imagine we are applying a Transformation matrix many many times, if we follow th
 ![image](https://user-images.githubusercontent.com/14041622/39749114-76effbd6-52e4-11e8-8a11-0fc75656bbcb.png)
 
 
-## `Eigenbasis`
+## `Eigenbasis & Diagonalization`
 
 [Refer to lecture: Changing to the eigenbasis](https://www.coursera.org/learn/linear-algebra-machine-learning/lecture/EcsN0/changing-to-the-eigenbasis)
 
