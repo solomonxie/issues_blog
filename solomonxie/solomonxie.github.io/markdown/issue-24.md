@@ -603,6 +603,9 @@ pip uninstall <package name>
 ## 升级某个包
 pip install --upgrade <package name>
 
+## 安装某个版本的包
+pip install django==1.9
+
 ## 升级自己
 pip install --upgrade pip
 
@@ -611,6 +614,22 @@ pip show <package name>
 
 ## 查看已经过期的软件（不是最新版）
 pip list --outdated
+
+## 列出已安装的包 (二者皆可)
+pip list
+pip freeze
+
+## 导出已安装包到requirements.txt
+pip freeze > requirements.txt
+
+## 批量安装包
+pip install -r requirements.txt
+
+## 搜索包
+pip search
+
+## 查询可升级的包
+pip list -o
 ```
 
 
