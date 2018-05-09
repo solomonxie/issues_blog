@@ -588,8 +588,17 @@ with open('repo.tar', 'wb') as fp:
 ```
 
 
-# Pip 显示模块包的安装路径
-``` 
+# `pip 常用操作`
+
+
+```shell
+## 升级某个包
+pip install --upgrade <package name>
+
+## 升级自己
+pip install --upgrade pip
+
+## 显示模块包的安装路径
 pip show <package name>
 ```
 
