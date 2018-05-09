@@ -589,9 +589,17 @@ with open('repo.tar', 'wb') as fp:
 
 
 # `pip 常用操作`
-
+注意：
+- 安装过程中尽管很多包需要sudo权限，但是，尽量不要sudo！最好的是在virtualenv下操作
+- 一些常见问题，升级pip到10.0就解决了
 
 ```shell
+## 安装包
+pip install <package name>
+
+## 删除包
+pip uninstall <package name>
+
 ## 升级某个包
 pip install --upgrade <package name>
 
@@ -600,6 +608,9 @@ pip install --upgrade pip
 
 ## 显示模块包的安装路径
 pip show <package name>
+
+## 查看已经过期的软件（不是最新版）
+pip list --outdated
 ```
 
 
