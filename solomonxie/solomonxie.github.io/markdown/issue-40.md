@@ -969,5 +969,34 @@ The steps will be like:
 
 
 
-# Book note: `Linear Algebra for Machine Learning - Jason Brownlee`
+# `Why & How to learn Linear algebra`
+
+
+## `Book: Linear Algebra for Machine Learning (Jason Brownlee)`
+> "Linear algebra is a pillar of machine learning." - Jason
+
 Check [THIS LINK](https://www.scribd.com/document/371769141/Jason-Brownlee-Basics-for-Linear-Algebra-for-Machine-Learning-Discover-the-Mathematical-Language-of-Data-in-Python-2018) for reading book: _Jason-Brownlee-Basics-for-Linear-Algebra-for-Machine-Learning-Discover-the-Mathematical-Language-of-Data-in-Python-2018_
+
+### Linear Algebra Is Important in Machine Learning
+![image](https://user-images.githubusercontent.com/14041622/39855453-94745df2-545e-11e8-9ad4-ae3e749999c1.png)
+
+### Study Linear Algebra Too Early
+![image](https://user-images.githubusercontent.com/14041622/39855632-3c40d024-545f-11e8-8d20-7671aa6b5f78.png)
+
+### Study Too Much Linear Algebra
+![image](https://user-images.githubusercontent.com/14041622/39855715-95d255ea-545f-11e8-9822-1182eb42d31a.png)
+
+### Study Linear Algebra Wrong
+![image](https://user-images.githubusercontent.com/14041622/39855774-db81e4f2-545f-11e8-8986-bad7de8ed936.png)
+
+### A Bette Way To Study Linear Algebra
+![image](https://user-images.githubusercontent.com/14041622/39855844-1e4bb84e-5460-11e8-9d30-edf5c45a4a74.png)
+
+### What will be learnt in this book
+- Vector norms
+- Matrix multiplication
+- Matrix properties
+- Tensor & its operations
+- Matrix factorization: `Eigendecomposition` & `Singular Value Decomposition`
+- `Principal Component Analysis (PCA)`
+- `Linear Least Squares Regression`
