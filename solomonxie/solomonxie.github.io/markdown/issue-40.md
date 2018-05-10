@@ -966,3 +966,8 @@ The steps will be like:
 
 ![image](https://user-images.githubusercontent.com/14041622/39749880-5dbc08ba-52e6-11e8-80c3-0ea0cb26d346.png)
 
+
+
+
+# Book note: `Linear Algebra for Machine Learning - Jason Brownlee`
+Check [THIS LINK](https://www.scribd.com/document/371769141/Jason-Brownlee-Basics-for-Linear-Algebra-for-Machine-Learning-Discover-the-Mathematical-Language-of-Data-in-Python-2018) for reading book: _Jason-Brownlee-Basics-for-Linear-Algebra-for-Machine-Learning-Discover-the-Mathematical-Language-of-Data-in-Python-2018_
