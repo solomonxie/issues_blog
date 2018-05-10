@@ -234,6 +234,8 @@ $ source ~/PATH-TO-VENV/activate
 ```
 
 ## 添加Python3 Kernel
+[参考：Jupyter增加内核](http://www.cnblogs.com/Jeffiy/p/4861528.html)
+
 默认的只有Python2 Kernel，所以只能建立Python2的笔记。
 要添加也很简单。
 **强烈建议在Python3的Virtualenv虚拟环境下实现！！！**
