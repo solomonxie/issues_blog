@@ -206,6 +206,12 @@ Anaconda体积庞大，软件管理看起来一体化简单，实际上在处理
 参考了[这篇的思路](https://zhuanlan.zhihu.com/p/27542582)，正确的方法是在virtualenv虚拟环境下，绝对安全封闭的环境下用`pip`安装jupyter。这样的话，第一，不需要`sudo pip`这样敏感的东西去安装jupyter这么复杂的工具；第二，也保证了jupyter不会搞乱其它东西。
 然后，二话不说，在已有virtualenv的情况下，在某个文件夹里建立虚拟环境，并启动虚拟环境。然后简单一句`pip install jupyter`，完成安装。
 安装完成后`jupyter notebook`，完美运行！
+```shell
+$ pip install jupyter
+
+# or for Python3
+$ pip3 install jupyter
+```
 这样的话，即使以后要在jupyter里各种安装插件、各种配置新kernel等，都不用害怕了，因为再怎么玩弄，也出不去这个圈。
 话说回来，实际上你也没什么需要在全系统配置jupyter的必要，在某个文件夹玩就足够足够的了。
 何必呢？
@@ -213,9 +219,19 @@ Anaconda体积庞大，软件管理看起来一体化简单，实际上在处理
 ## 启动Jupyter
 用命令行启动很简单，在某个工作目录，输入：
 ```
-jupyter notebook
+$ jupyter notebook
 ```
 这样就能以这个目录打开一个`http://localhost:8889/tree`的网页，一切都在这个网页里操作。
+
+## 正确的启动Jupyter
+正确的方式，实际上是在Virtualenv虚拟环境下启动，可以随意安装各种包，适配各种Python版本环境：
+```shell
+# 启动Virtualenv
+$ source ~/PATH-TO-VENV/activate 
+
+# 启动Jupyter
+(venv)$ jupyter notebook
+```
 
 ### 终端里找不到`jupyter`命令
 总是报`command not found jupyter`错误，说没有这个命令。一开始还以为是zsh的问题，可是切换到bash也一样。
@@ -223,8 +239,8 @@ jupyter notebook
 然后发现，在Mac自带的Terminal.app中就可以正常打开，不需要改任何配置。
 这才知道原来是iTerm2无法识别。于是在Terminal.app中用`which`命令查看jupyter命令的所在处，看到它位于`/Users/我的用户名/anaconda2/bin/jupyter`这个地方。
 于是直接在`~/.zshrc`中加入alias：
-```
-alias jupyter="/Users/我的用户名/anaconda2/bin/jupyter"
+```shell
+$ alias jupyter="/Users/我的用户名/anaconda2/bin/jupyter"
 ```
 重启iTerm2，好用！
 
