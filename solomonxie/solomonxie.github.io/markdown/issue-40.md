@@ -1008,3 +1008,17 @@ Check [THIS LINK](https://www.scribd.com/document/371769141/Jason-Brownlee-Basic
 4. Diagonal Matrix
 5. Identity Matrix
 6. Orthogonal Matrix
+
+## `Matrix Operations`
+1. Transpose
+2. Inverse
+3. Trace: Gives the sum of all of the diagonal entries of a matrix
+4. Determinant
+5. Rank: To estimate of the number of linearly independent rows or columns in a matrix. 
+
+## `Sparse Matrix & Dense Matrix`
+Matrices that contain mostly zero values are called sparse, distinct from matrices where most of the values are non-zero, called dense. 
+
+> Very large matrices require a lot of memory, and some very large matrices that we wish to work
+with are sparse.
+In practice, most large matrices are sparse — almost all entries are zeros.
