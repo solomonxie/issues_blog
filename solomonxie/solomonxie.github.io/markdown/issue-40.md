@@ -1052,3 +1052,11 @@ Where L is the Lower triangular matrix, and Lᵀ is its transpose.
 Or
 ![image](https://user-images.githubusercontent.com/14041622/39876376-92226d9a-54a5-11e8-82ef-765289477d98.png)
 Where U is the Upper Triangular matrix, and Uᵀ is its tranpose.
+
+
+## `Eigendecomposition`
+> Eigendecomposition of a matrix is a type of decomposition that involves decomposing a square
+matrix into a set of eigenvectors and eigenvalues.
+One of the most widely used kinds of matrix decomposition is called eigendecomposition, in which we decompose a matrix into a set of eigenvectors and eigenvalues.
+
+![image](https://user-images.githubusercontent.com/14041622/39876647-4f265c9e-54a6-11e8-8403-f0e113d990ae.png)
