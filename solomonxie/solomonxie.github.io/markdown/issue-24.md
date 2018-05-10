@@ -233,6 +233,23 @@ $ source ~/PATH-TO-VENV/activate
 (venv)$ jupyter notebook
 ```
 
+## 添加Python3 Kernel
+默认的只有Python2 Kernel，所以只能建立Python2的笔记。
+要添加也很简单。
+**强烈建议在Python3的Virtualenv虚拟环境下实现！！！**
+```shell
+# 启动Virtualenv
+$ source ~/PATH-TO-VENV/activate 
+
+# 在Python3的虚拟环境下安装Kernel
+(venv3)$ pip3 install ipykernel
+
+# 将Kernel添加进Jupyter笔记选项中
+(venv3)$ python -m ipykernel install
+```
+启动Jupyter notebook后，就会看到Kernel里面多了Python3了：
+![image](https://user-images.githubusercontent.com/14041622/39862292-f1c80168-5475-11e8-9d50-576620dd6d6f.png)
+
 ### 终端里找不到`jupyter`命令
 总是报`command not found jupyter`错误，说没有这个命令。一开始还以为是zsh的问题，可是切换到bash也一样。
 照着网上攻略在`.zshrc`里改也没用，在`.bash_profile`里改也没用。
