@@ -997,6 +997,6 @@ Check [THIS LINK](https://www.scribd.com/document/371769141/Jason-Brownlee-Basic
 - Matrix multiplication
 - Matrix properties
 - Tensor & its operations
-- Matrix factorization: `Eigendecomposition` & `Singular Value Decomposition`
+- Matrix factorization: `Eigendecomposition` & `Singular Value Decomposition (SVD)`
 - `Principal Component Analysis (PCA)`
 - `Linear Least Squares Regression`
