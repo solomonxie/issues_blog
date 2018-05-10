@@ -1031,8 +1031,24 @@ In practice, most large matrices are sparse — almost all entries are zeros.
 Most common types of matrix decomposition:
 - LU Decomposition
 - QR Decomposition
+- Cholesky Decomposition
 
-### LU Decomposition
+### `LU Decomposition`
 > The factors L and U are triangular matrices. The factorization that comes from `elimination`.
 
+#### LUP Decomposition
+![image](https://user-images.githubusercontent.com/14041622/39875803-3156534c-54a4-11e8-92ea-01c80f5ccdc1.png)
 
+
+### `QR Decomposition`
+![image](https://user-images.githubusercontent.com/14041622/39875972-a3bbd970-54a4-11e8-8916-a07b86443380.png)
+![image](https://user-images.githubusercontent.com/14041622/39875990-b05e2f3e-54a4-11e8-9058-e29f5472f96c.png)
+![image](https://user-images.githubusercontent.com/14041622/39876123-02fb0244-54a5-11e8-9ad7-30934e38f0b6.png)
+
+### `Cholesky Decomposition`
+The Cholesky decomposition is for square symmetric matrices where all values are greater than zero, so-called positive deﬁnite matrices. 
+![image](https://user-images.githubusercontent.com/14041622/39876349-83aa0c46-54a5-11e8-82b1-7fc2b216038e.png)
+Where L is the Lower triangular matrix, and Lᵀ is its transpose.
+Or
+![image](https://user-images.githubusercontent.com/14041622/39876376-92226d9a-54a5-11e8-82ef-765289477d98.png)
+Where U is the Upper Triangular matrix, and Uᵀ is its tranpose.
