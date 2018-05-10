@@ -969,30 +969,27 @@ The steps will be like:
 
 
 
-# `Why & How to learn Linear algebra`
-
-
-## `Book: Linear Algebra for Machine Learning (Jason Brownlee)`
+# `Book: Linear Algebra for Machine Learning (Jason Brownlee)`
 > "Linear algebra is a pillar of machine learning." - Jason
 
 Check [THIS LINK](https://www.scribd.com/document/371769141/Jason-Brownlee-Basics-for-Linear-Algebra-for-Machine-Learning-Discover-the-Mathematical-Language-of-Data-in-Python-2018) for reading book: _Jason-Brownlee-Basics-for-Linear-Algebra-for-Machine-Learning-Discover-the-Mathematical-Language-of-Data-in-Python-2018_
 
-### Linear Algebra Is Important in Machine Learning
+## Linear Algebra Is Important in Machine Learning
 ![image](https://user-images.githubusercontent.com/14041622/39855453-94745df2-545e-11e8-9ad4-ae3e749999c1.png)
 
-### Study Linear Algebra Too Early
+## Study Linear Algebra Too Early
 ![image](https://user-images.githubusercontent.com/14041622/39855632-3c40d024-545f-11e8-8d20-7671aa6b5f78.png)
 
-### Study Too Much Linear Algebra
+## Study Too Much Linear Algebra
 ![image](https://user-images.githubusercontent.com/14041622/39855715-95d255ea-545f-11e8-9822-1182eb42d31a.png)
 
-### Study Linear Algebra Wrong
+## Study Linear Algebra Wrong
 ![image](https://user-images.githubusercontent.com/14041622/39855774-db81e4f2-545f-11e8-8986-bad7de8ed936.png)
 
-### A Bette Way To Study Linear Algebra
+## A Bette Way To Study Linear Algebra
 ![image](https://user-images.githubusercontent.com/14041622/39855844-1e4bb84e-5460-11e8-9d30-edf5c45a4a74.png)
 
-### What will be learnt in this book
+## What will be learnt in this book
 - Vector norms
 - Matrix multiplication
 - Matrix properties
@@ -1060,3 +1057,16 @@ matrix into a set of eigenvectors and eigenvalues.
 One of the most widely used kinds of matrix decomposition is called eigendecomposition, in which we decompose a matrix into a set of eigenvectors and eigenvalues.
 
 ![image](https://user-images.githubusercontent.com/14041622/39876647-4f265c9e-54a6-11e8-8403-f0e113d990ae.png)
+![image](https://user-images.githubusercontent.com/14041622/39876931-212130de-54a7-11e8-9d40-cc1e0ae6bca6.png)
+> Not all square matrices can be decomposed into eigenvectors and eigenvalues
+
+The parent matrix can be shown to be a product of the eigenvectors and eigenvalues:
+![image](https://user-images.githubusercontent.com/14041622/39877077-80d955e2-54a7-11e8-8ef6-88bd53ccfb63.png)
+![image](https://user-images.githubusercontent.com/14041622/39877109-9d0310e6-54a7-11e8-9445-fcfb651aaf1e.png)
+
+> Almost all vectors change direction, when they are multiplied by A. 
+Certain exceptional vectors x are in the same direction as Ax. 
+Those are the “eigenvectors”.
+
+![image](https://user-images.githubusercontent.com/14041622/39877359-59650938-54a8-11e8-8b3b-35398d5a667a.png)
+![image](https://user-images.githubusercontent.com/14041622/39877421-81430464-54a8-11e8-9f95-e86c1bdc98d4.png)
