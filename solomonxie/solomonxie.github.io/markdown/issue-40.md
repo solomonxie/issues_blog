@@ -2,13 +2,13 @@
 > Quick notes on College level of Math or Stats for machine learning.
 
 ## Study resources
-- [ ] [Wiki: List of linear algebra topics](https://en.wikipedia.org/wiki/List_of_linear_algebra_topics)
+- [x] [Wiki: List of linear algebra topics](https://en.wikipedia.org/wiki/List_of_linear_algebra_topics)
 - [x] [Slant: What are the best resources to learn linear algebra?](https://www.slant.co/topics/6073/~resources-to-learn-linear-algebra)
 - [x] [Pre Linear Algebra notes](https://github.com/solomonxie/solomonxie.github.io/issues/48)
 - [x] [ Khan academy Pre-calculus](https://www.khanacademy.org/math/precalculus)
+- [x] [Essence of linear algebra: Youtube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 - [ ] [MIT OCW 18.06 SC Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm)
 - [ ] [Mathispower4u](http://www.mathispower4u.com/linear-alg.php)
-- [ ] [Essence of linear algebra: Youtube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 - [ ] [A First Course in Linear Algebra: PDF](https://github.com/solomonxie/solomonxie.github.io/files/1786068/fcla-3.50-A.First.Course.in.Linear.Algebra.-.Robert.A.Beezer.University.of.Puget.Sound.Version.3.50.pdf)
 
 ## Practice & Quizzes
