@@ -1000,3 +1000,11 @@ Check [THIS LINK](https://www.scribd.com/document/371769141/Jason-Brownlee-Basic
 - Matrix factorization: `Eigendecomposition` & `Singular Value Decomposition (SVD)`
 - `Principal Component Analysis (PCA)`
 - `Linear Least Squares Regression`
+
+## `Types of Matrices`
+1. Square Matrix
+2. Symmetric Matrix
+3. Triangular Matrix
+4. Diagonal Matrix
+5. Identity Matrix
+6. Orthogonal Matrix
