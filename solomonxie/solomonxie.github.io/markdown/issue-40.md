@@ -1016,9 +1016,23 @@ Check [THIS LINK](https://www.scribd.com/document/371769141/Jason-Brownlee-Basic
 4. Determinant
 5. Rank: To estimate of the number of linearly independent rows or columns in a matrix. 
 
-## `Sparse Matrix & Dense Matrix`
-Matrices that contain mostly zero values are called sparse, distinct from matrices where most of the values are non-zero, called dense. 
+## `Sparse Matrix`
+Matrices that contain mostly zero values are called `sparse`, distinct from matrices where most of the values are non-zero, called `dense`. 
 
 > Very large matrices require a lot of memory, and some very large matrices that we wish to work
 with are sparse.
 In practice, most large matrices are sparse — almost all entries are zeros.
+
+## Matrix Decompositions
+![image](https://user-images.githubusercontent.com/14041622/39865245-cb298546-547e-11e8-87b0-00dbd4609a26.png)
+![image](https://user-images.githubusercontent.com/14041622/39865262-db6c2f58-547e-11e8-84d0-0a6fa3eb13cd.png)
+
+
+Most common types of matrix decomposition:
+- LU Decomposition
+- QR Decomposition
+
+### LU Decomposition
+> The factors L and U are triangular matrices. The factorization that comes from `elimination`.
+
+
