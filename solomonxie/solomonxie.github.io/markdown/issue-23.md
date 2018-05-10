@@ -104,16 +104,29 @@ ABP 不管是什么网页都会插入 14000 多条元素隐藏规则，所以占
 [AdBlock 对比 uBlock Origin](https://zhuanlan.zhihu.com/p/23188485)
 [参考使用方法文章](https://www.jianshu.com/p/22a73602c2ed)
 
-- (1)巨大的电源按钮：用于打开和关闭uBlock Origin按钮，蓝色开启/灰色关闭 。
-点击巨大的电源按钮可以针对当前站点关闭 uBlock Origin，也就是将当前站点添加为 白名单，在你下次访问时仍会保留此状态。相对地，按住 Ctrl 并点击按钮只针对当前页面关闭 uBlock Origin（在 Mac下是按住command ⌘ 点击）
-- (2)`闪电图标`：去除当前页面的元素。点击闪电图标可以进入元素去除器模式，在此你可以交互式地移除当前页面的一个或多个元素。不过这里移除元素始终是临时性的，也就是说页面重新载入后所移除的元素又将重新显示出来。
-- (3)`元素吸管图标`：点击滴管图标可以进入`元素选择器模式`，在这里你可以交互地从页面选择元素并创建过滤规则来`永久移除该元素`。屏蔽元素按钮(用过ABP的都知道)
-- (4)列表图标：网络请求日志(个人理解:网络请求记录监控中心)：可以按照网络资源查看/屏蔽的控制系统 。网络请求日志与开发工具的网络 不同之处在于，不单单可以查看网络资源，还可以屏蔽不想要的脚本等等之流 。你可以在浏览器里实时查看网络通信情况。提示：点击图标的同时按住 Shift 键可以切换选择是在新窗口还是新标签页中打开记录台。uBO 会在你未按 Shift 键打开记录台时记住你的选择。
-- (5）禁止网页弹窗按钮，开启后，该网页永久无法弹窗 。默认情况下弹出窗口是允许显示的，除非有相应的过滤规则屏蔽。但如果开启该选项，不管规则如何，当前站点的所有弹出窗口都会被屏蔽：
+### 使用方法
+[参考文章： uBlock Origin：不仅可以过滤广告还可以创建过滤规则屏蔽任何你不想见的元素](http://chromecj.com/productivity/2017-06/770.html)
+(1)关闭按钮，用于关闭uBlock按钮，蓝色开启/灰色关闭 
+(2)元素吸管，屏蔽元素按钮(用过ABP的都知道) 
+(3)网络请求日志(个人理解:网络请求记录监控中心)：可以按照网络资源查看/屏蔽的控制系统 
+网络请求日志与开发工具的网络 不同之处在于，不单单可以查看网络资源，还可以屏蔽不想要的脚本等等之流 
+(4)禁止网页弹窗按钮，开启后，该网页永久无法弹窗 
+(5)严格屏蔽按钮，开启后，将不再对当前网页本身进行屏蔽，比如可以用于网络运营商的网络劫持，规则(uBlock设置->自定义规则列表)：
+![image](https://user-images.githubusercontent.com/14041622/39868204-1cfd364a-548b-11e8-9cb6-a4c5e422a607.png)
 
 
-![image](https://user-images.githubusercontent.com/14041622/39424881-526a465c-4cab-11e8-9c77-0eadd954ff91.png)
+### uBlock Origin 常用设置
+[参考：uBlock Origin中文使用手册，告诉你uBlock Origin怎么用！](https://blog.csdn.net/jamie0515/article/details/76522036)
 
+打开后台设置选项：
+对于中文规则：
+- CHN: CJX's EasyList Lite​
+- CHN: CJX's Annoyance List​​
+- CHN: EasyList China (中文)​
+对于英文规则：
+- EasyList​
+
+注意：启用越多的过滤规则就会产生越高的内存占用。 然而，即使再添加，uBlock₀ 的内存占用依然比其他常见的过滤工具要低的多。
 
 ## [`Ghostery`](https://chrome.google.com/webstore/detail/ghostery-%E2%80%93-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij) - Privacy Ad Blocker
 
