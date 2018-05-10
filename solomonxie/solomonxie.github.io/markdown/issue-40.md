@@ -1070,3 +1070,22 @@ Those are the “eigenvectors”.
 
 ![image](https://user-images.githubusercontent.com/14041622/39877359-59650938-54a8-11e8-8b3b-35398d5a667a.png)
 ![image](https://user-images.githubusercontent.com/14041622/39877421-81430464-54a8-11e8-9f95-e86c1bdc98d4.png)
+
+
+## `Singular Value Decomposition (SVD)`
+> The Singular Value Decomposition is a highlight of linear algebra.
+
+![image](https://user-images.githubusercontent.com/14041622/39877826-7e6a084a-54a9-11e8-8366-bea2b903026c.png)
+![image](https://user-images.githubusercontent.com/14041622/39877951-c4149e1e-54a9-11e8-8401-050477bdbc50.png)
+![image](https://user-images.githubusercontent.com/14041622/39878035-f65df424-54a9-11e8-86ee-3c5a6c37c796.png)
+
+> The singular value decomposition (SVD) provides another way to factorize a matrix, into singular vectors and singular values. The SVD allows us to discover some of the same kind of information as the eigendecomposition. However, the SVD is more generally applicable.
+
+
+## `Pseudoinverse`
+![image](https://user-images.githubusercontent.com/14041622/39878330-a567ad0c-54aa-11e8-8a46-ace037f1fbe3.png)
+![image](https://user-images.githubusercontent.com/14041622/39878352-b5abf588-54aa-11e8-99bd-aa1518c89339.png)
+
+
+## `Dimensionality Reduction`
+![image](https://user-images.githubusercontent.com/14041622/39878631-63b7f046-54ab-11e8-8a32-c247b7667164.png)
