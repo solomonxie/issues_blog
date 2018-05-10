@@ -7,9 +7,8 @@
 - [x] [Pre Linear Algebra notes](https://github.com/solomonxie/solomonxie.github.io/issues/48)
 - [x] [ Khan academy Pre-calculus](https://www.khanacademy.org/math/precalculus)
 - [x] [Essence of linear algebra: Youtube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-- [ ] [MIT OCW 18.06 SC Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm)
 - [ ] [Mathispower4u](http://www.mathispower4u.com/linear-alg.php)
-- [ ] [A First Course in Linear Algebra: PDF](https://github.com/solomonxie/solomonxie.github.io/files/1786068/fcla-3.50-A.First.Course.in.Linear.Algebra.-.Robert.A.Beezer.University.of.Puget.Sound.Version.3.50.pdf)
+- [ ] [MIT OCW 18.06 SC Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm)
 
 ## Practice & Quizzes
 - [ ] [Symbolab (Matrices & Vectors Practice)](https://www.symbolab.com/practice/matrices-vectors-practice?lp=no)
