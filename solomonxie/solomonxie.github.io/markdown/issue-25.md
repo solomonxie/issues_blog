@@ -182,7 +182,6 @@ endsnippet
 ## `Snippets插件的Python支持问题`
 经常因为系统的Python版本变动，导致整个Vim瘫痪，起因就是这个Snippets插件。因为它完全依赖python，所以导致vim每次敲键盘都会报错。
 ![image](https://user-images.githubusercontent.com/14041622/39951062-fa1a1ab0-55b8-11e8-9be8-f404e66ee0ec.png)
-![image](https://user-images.githubusercontent.com/14041622/39951039-c670e57c-55b8-11e8-815f-e25226993a99.png)
 
 #### Mac解决方案：
 最简单的是通过升级vim解决。因为升级vim时，会重新根据当前的环境进行make编译。所以之前由于python版本的改变导致的问题，都这么解决了。
@@ -239,7 +238,7 @@ vim --version
 ```
 
 
-## Vim自带补全工具 OmniComplete
+## Vim原生补全工具 OmniComplete
 用了一天倒腾自动补全插件，实在是崩溃，但凡有点名气的都对vim本身的编译有很麻烦的要求。搜索过程中才发现Vim其实是自带补全功能的，称为`OmniComplete`。
 输代码的过程中，直接按`Ctrl+X`然后再按`Ctrl+O`，就会弹出vim猜测的一系列补全内容。可以在菜单里按“上下键”选择，注意是方向上下键，不是JK键。
 经过测试，原生支持很多种语言。
