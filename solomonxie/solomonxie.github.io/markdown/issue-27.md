@@ -462,6 +462,9 @@ alias gc = "git add . && git commit -m \"`date`\" "
 格式是`* * * * * 命令`，其中前五个星号分别代表着第几分钟、第几小时、每月第几日、哪个月、星期几。要按照顺序替换*为一个数字，如果保持*，则表示任意。
 *还可以加运算符：
 [参考文章](https://segmentfault.com/a/1190000007478002)
+
+[在线Cron表达式生成工具。](http://xiongyingqi.com/cron-online/)
+
 ```
 *:任何时间
 /:每隔多久
@@ -479,6 +482,16 @@ alias gc = "git add . && git commit -m \"`date`\" "
 ** 
 
 ```
+
+## `Crontab创建任务时报错：crontab: no crontab - using an empty one crontab: "/usr/bin/vi" exited with status 1`
+![image](https://user-images.githubusercontent.com/14041622/39955127-aabdd0b2-55fc-11e8-9d13-d6b043df0708.png)
+
+这个错误主要是没有在bash或zsh中指定文本编辑器的问题。
+直接到`~/.bash_profile`或`~/.zshrc`文件中添加指定编辑器的语句即可：
+```shell
+export EDITOR=vim
+```
+退出后，重启Bash或者Zsh即可。
 
 
 # Linux 设计系统时区和时间
