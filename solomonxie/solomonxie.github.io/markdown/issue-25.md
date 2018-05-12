@@ -181,7 +181,14 @@ endsnippet
 
 ## `Snippets插件的Python支持问题`
 经常因为系统的Python版本变动，导致整个Vim瘫痪，起因就是这个Snippets插件。因为它完全依赖python，所以导致vim每次敲键盘都会报错。
+![image](https://user-images.githubusercontent.com/14041622/39951062-fa1a1ab0-55b8-11e8-9be8-f404e66ee0ec.png)
+![image](https://user-images.githubusercontent.com/14041622/39951039-c670e57c-55b8-11e8-815f-e25226993a99.png)
 
+#### Mac解决方案：
+最简单的是通过升级vim解决。因为升级vim时，会重新根据当前的环境进行make编译。所以之前由于python版本的改变导致的问题，都这么解决了。
+```shell
+$ brew upgrade vim
+```
 
 
 ## 从源代码编译Vim 8.0 （当前环境：树莓派原生系统）
