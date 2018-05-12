@@ -167,7 +167,7 @@ Jason
 ```
 
 
-# Python中文解决方案 （简易）
+# Python2中文解决方案 （简易）
 翻了翻几年前研究Python中文编码的问题，原来如此复杂。。。。一时间全忘了。
 为了避开这个理论上的难题，我直接开启了实验出真知的模式，试验出一个简单的方法。
 简单来说如下：
@@ -284,7 +284,7 @@ $ alias jupyter="/Users/我的用户名/anaconda2/bin/jupyter"
 
 
 
-# 关于解决Python乱码问题的终极解决方案 (TL;DR)
+# 关于解决Python2乱码问题的终极解决方案 (TL;DR)
 ![image](https://user-images.githubusercontent.com/14041622/35929949-a242afbe-0c6b-11e8-8848-508c4e8124d1.png)
 
 > 有个特别好玩的现象，当我们为了python编码头疼的时候，几乎搜索到所有的文章都会先发一通牢骚。然后在无可奈何地写解决思路（是解决思路不是方案）。这个问题真不是新手问题，即使是十几年python老手也经常头疼。中国外国都一样。看看这个python专家在[PyCon大会上用半个多小时讲解乱码的视频](https://www.youtube.com/watch?time_continue=1040&v=sgHbC6udIqc)就了解了，他自己都给自己的来回encoding, decoding, encoding, decoding说晕了，台下举手他都拒绝回答，可想而知这个问题复杂性。
