@@ -179,7 +179,7 @@ endsnippet
 > 上面只是输入关键词然后生成一段固定内容的方法。实际上更常用的方法是，根据给定的变量生成动态内容，或是指定需要更改的几个位置，生成内容后自动把焦点分别指向这几个位置供你修改。
 
 
-## `Snippets插件的Python支持问题`
+## `Snippets插件报错：缺少的Python支持问题`
 经常因为系统的Python版本变动，导致整个Vim瘫痪，起因就是这个Snippets插件。因为它完全依赖python，所以导致vim每次敲键盘都会报错。
 ![image](https://user-images.githubusercontent.com/14041622/39951062-fa1a1ab0-55b8-11e8-9be8-f404e66ee0ec.png)
 
