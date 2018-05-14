@@ -424,7 +424,7 @@ with open('test.html', 'r') as f:
 > 另外，关于JSON的乱码问题，又是一个新的较长篇章。我会单分一篇，请到我的专栏里找。
 
 
-# Python操作JSON出现乱码的解决方案
+# Python2操作JSON出现乱码的解决方案
 > 其实刚刚写过一整篇Python编码问题的解决方案，由于JSON又是一种特殊案例（与库相关，与语言本身无关）所以就单独提出来说。
 
 
@@ -502,7 +502,7 @@ print read[0:20], type(read)
 ## 大功告成！
 
 
-# 更多Python编码的小细节
+# 更多Python2编码的小细节
 
 ## 数组`.join()`合并
 数组中必须所有的元素都是字符串，且都是统一的编码才能合并，否则报错。统一后，如果全是unicode，那么返回的字符串就是unicode；如果元素全是str，那么返回的就是str。
@@ -687,7 +687,7 @@ shutil.rmtree('<path>', True)
 
 
 
-# Python 异常捕获
+# Python2 异常捕获
 常用配置是这样的：
 ```
 try:
