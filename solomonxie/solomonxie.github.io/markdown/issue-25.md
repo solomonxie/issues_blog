@@ -531,11 +531,11 @@ let NERDTreeDirArrows = 1
 [参考：在 Vim 中进行文件目录操作](https://harttle.land/2016/10/14/vim-file-and-directory.html)
 
 ```vim
-# 新建文件
-:new [FILE-NAME]
+# 新建文件/打开文件
+: e [FILE-NAME]
 
-# 打开文件
-:e
+# 新建文件 （只打开半个窗口 另半个窗口保留之前的文件）
+:new [FILE-NAME]
 
 # 退出 (如果文件更改则保存)
 :x 
