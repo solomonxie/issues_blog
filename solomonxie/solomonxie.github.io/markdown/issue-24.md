@@ -629,6 +629,10 @@ with open('repo.tar', 'wb') as fp:
 - 一些常见问题，升级pip到10.0就解决了
 
 ```shell
+## 安装pip
+$ curl https://bootstrap.pypa.io/get-pip.py >> get-pip.py
+$ python get-pip.py
+
 ## 安装包
 pip install <package name>
 
