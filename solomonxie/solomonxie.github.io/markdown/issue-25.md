@@ -557,3 +557,8 @@ let NERDTreeDirArrows = 1
 # 删除文件
 :!rm foo.txt
 ```
+
+
+# Vim文本复制
+> Vim的文本复制，原要比我们日常的拷贝、粘贴要复杂的多的多。
+
