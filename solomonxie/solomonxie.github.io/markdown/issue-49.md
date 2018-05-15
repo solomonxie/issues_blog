@@ -138,3 +138,9 @@ We see that clearly:
 
 ## `Mixed Discontinuities`
 ![image](https://user-images.githubusercontent.com/14041622/40051076-06f92d38-586c-11e8-9d2e-415a2c6e95ad.png)
+
+
+
+# `Continuity & Discontinuity Equations`
+
+## `Continuity`
