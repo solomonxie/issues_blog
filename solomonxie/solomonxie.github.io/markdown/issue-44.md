@@ -61,13 +61,18 @@
 
 
 ## Unit Tests (For reviewing forgettable High school level concepts)
-[Algebra](https://www.khanacademy.org/math/algebra-home):
-
-[Geometry](https://www.khanacademy.org/math/math-1-2-3/geometry):
-
-[Trigonometry](https://www.khanacademy.org/math/math-1-2-3/trigonometry):
-
-[Statistics](https://www.khanacademy.org/math/math-1-2-3/probability):
+[Algebra (All contents)](https://www.khanacademy.org/math/algebra-home):
+[Linear equations, functions, & graphs (Slope, Linear equation forms)](https://www.khanacademy.org/math/algebra-home/alg-linear-eq-func/modal/test/alg-linear-eq-func-unit-test)
+[Sequences (arithmetic/geometric sequences)](https://www.khanacademy.org/math/algebra-home/alg-sequences/modal/test/alg-sequences-unit-test)
+[Functions (Domain, Range, Interval, ARC, Transformation, Inversion, Symmetry, End behavior, Periodicity)](https://www.khanacademy.org/math/algebra-home/alg-functions/modal/test/alg-functions-unit-test)
+[Quadratic equations & functions (Parabola, Quadratic forms, Transform quadratic functions)](https://www.khanacademy.org/math/algebra-home/alg-quadratics/modal/test/alg-quadratics-unit-test)
+[Polynomial expressions, equations, & functions (monomial, binomial, Zeros of polynomial func)](https://www.khanacademy.org/math/algebra-home/alg-polynomials/modal/test/alg-polynomials-unit-test)
+[Exponential & logarithmic functions (Exponent properties, Radicals, growth&decay, Properties of logarithms)](https://www.khanacademy.org/math/algebra-home/alg-exp-and-log/modal/test/alg-exp-and-log-unit-test)
+[Radical equations & functions (Extraneous solutions, Domain of radical functions)](https://www.khanacademy.org/math/algebra-home/alg-radical-eq-func/modal/test/alg-radical-eq-func-unit-test)
+[Rational expressions, equations, & functions (rational expressions, End behavior, Discontinuities)](https://www.khanacademy.org/math/algebra-home/alg-rational-expr-eq-func/modal/test/alg-rational-expr-eq-func-unit-test)
+[Trig functions (Radians, Graphs,  Sinusoidal functions, Inverse, Trig identities)](https://www.khanacademy.org/math/algebra-home/alg-trig-functions/modal/test/alg-trig-functions-unit-test)
+[Complex numbers (Absolute value & angle, Distance & midpoint, Forms of complex numbers)](https://www.khanacademy.org/math/algebra-home/alg-complex-numbers/modal/test/alg-complex-numbers-unit-test)
+[Conic sections (Functions of conic shapes, Foci, Hyperbola, Ellipse)](https://www.khanacademy.org/math/algebra-home/alg-conic-sections/modal/test/alg-conic-sections-unit-test)
 
 ## Review hardcore quiz
 - [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
