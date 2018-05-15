@@ -73,7 +73,7 @@
 - [x] Mathematics 2
 - [x] Mathematics 3
 - [x] [Precalculus](https://www.khanacademy.org/mission/precalculus) (100%)
-- [ ] [Linear Algebra (No mastery)](https://www.khanacademy.org/math/linear-algebra)
+- [x] [Linear Algebra (No mastery)](https://www.khanacademy.org/math/linear-algebra)
 - [ ] AP calculus AB
 - [ ] [AP Statistics (No mastery)](https://www.khanacademy.org/math/ap-statistics)
 
