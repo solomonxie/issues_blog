@@ -144,3 +144,4 @@ We see that clearly:
 # `Continuity & Discontinuity Equations`
 
 ## `Continuity`
+At a point `a`, for `f(x)` to be continuous at `x=a`, we need `lim(x→a)f(x) = f(a)`
