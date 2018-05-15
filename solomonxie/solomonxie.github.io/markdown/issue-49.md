@@ -104,3 +104,11 @@ Solve:
 - Replace `sin(x)` as `±1`
 - Left side becomes `(5x+1)/(x-5)`, right side becomes `(5x-1)/(x-5)`
 - Both sides' limits are `5`, so the limit exists, and is `5`.
+
+
+# `All types of discontinuities`
+
+## `Jump Discontinuity`
+
+## `Removable Discontinuity`
+> A `removable discontinuity` occurs at points where the **two-sided limit exists** but **doesn't equal** the function value at that point.
