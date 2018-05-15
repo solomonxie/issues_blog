@@ -7,6 +7,20 @@
 
 ## Practice To-do List
 - [ ] Limits and continuity
+- [ ] Derivatives introduction
+- [ ] Derivative rules
+- [ ] Advanced derivatives
+- [ ] Existence theorems
+- [ ] Using derivatives to analyze functions
+- [ ] Applications of derivatives
+- [ ] Accumulation and Riemann sums
+- [ ] Antiderivatives and the fundamental theorem of calculus
+- [ ] Differential equations
+- [ ] Applications of definite integrals
+
+## Study goals 
+- [ ] Limits
+- [ ] Derivatives
 
 
 # `Limits`
