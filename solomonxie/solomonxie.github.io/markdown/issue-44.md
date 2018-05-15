@@ -51,12 +51,12 @@
 - [x] [Geometry](https://www.khanacademy.org/mission/geometry) (100%)
 - [x] [Trigonometry](https://www.khanacademy.org/mission/trigonometry) (100%)
 - [x] [High school statistics](https://www.khanacademy.org/mission/probability) (100%)
-- [x] Mathematics 1
-- [x] Mathematics 2
-- [x] Mathematics 3
 - [x] [Precalculus](https://www.khanacademy.org/mission/precalculus) (100%)
-- [x] [Linear Algebra (No mastery)](https://www.khanacademy.org/math/linear-algebra)
-- [ ] AP calculus AB
+- [x] Mathematics 1 (100%)
+- [x] Mathematics 2 (100%)
+- [x] Mathematics 3 (100%)
+- [x] [Linear Algebra (No mastery)](https://www.khanacademy.org/math/linear-algebra) (100%)
+- [ ] [AP calculus AB](https://www.khanacademy.org/mission/ap-calculus-ab)
 - [ ] [AP Statistics (No mastery)](https://www.khanacademy.org/math/ap-statistics)
 
 
