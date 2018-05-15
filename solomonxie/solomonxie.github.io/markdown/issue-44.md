@@ -1,5 +1,5 @@
 # Kindergarten Maths 幼儿园数学入门
-> Study notes mainly from Khan Academy. 
+> Study notes mainly from Khan Academy.  Not literally for Kindergarten maths only, but also including all K12 math subjects.
 
 #### `KHAN ACADEMY MASTERY` rules collected:
 - 1 `skill` means 1 practice subject, could be found at `practice page` on the subject.
@@ -60,7 +60,7 @@
 - [ ] [AP Statistics (No mastery)](https://www.khanacademy.org/math/ap-statistics)
 
 
-## Unit Tests (Forgettable High school level concepts)
+## Unit Tests (For reviewing forgettable High school level concepts)
 [Algebra](https://www.khanacademy.org/math/algebra-home):
 
 [Geometry](https://www.khanacademy.org/math/math-1-2-3/geometry):
