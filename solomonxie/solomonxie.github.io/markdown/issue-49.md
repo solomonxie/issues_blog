@@ -6,7 +6,7 @@
 - [ ] [Mathispower4u](http://www.mathispower4u.com/calculus.php)
 
 ## Practice To-do List (Linked with Unit tests)
-- [ ] [Limits and continuity](https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-continuity/modal/test/ab-limits-continuity-unit-test)
+- [x] [Limits and continuity](https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-continuity/modal/test/ab-limits-continuity-unit-test)
 - [ ] [Derivatives introduction](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-intro/modal/test/ab-derivative-intro-unit-test)
 - [ ] Derivative rules
 - [ ] Advanced derivatives
