@@ -43,9 +43,19 @@ Pencil Definition:
 
 
 
-# Limits at infinity of quotients
+# `Limits at infinity`
 
-## `With square roots`
+## `Rational functions`
+> The KEY point is to look at the powers & coefficients of Numerator & Dominator.
+Just the same with `Finding the Asymptote`.
+
+[Refer to previous note on the `How to find Asymptote`](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-374894945).
+Example:
+![image](https://user-images.githubusercontent.com/14041622/40048425-c4959c30-5864-11e8-947d-cd5c59375f72.png)
+Solve:
+
+## `Quotients with square roots`
+> The KEY point is to calculate both `numerator & dominator`, then calculate the limit of EACH term with in the square root.
 
 Example:
 ![image](https://user-images.githubusercontent.com/14041622/40047707-c2a05052-5862-11e8-805a-5d8c6ca98d47.png)
@@ -61,8 +71,8 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40048216-3c8970b4-5864-11e8-8496-68e2e638df1d.png)
 - Then get the result easily.
 
-## `With trig`
-Calculating limits related to a trig function, is necessary to use the **`Squeeze theorem`**.
+## `Quotients with trig`
+> The KEY point is to apply the **`Squeeze theorem`**, and it is a MUST.
 
 Example:
 ![image](https://user-images.githubusercontent.com/14041622/40047015-e86fb63a-5860-11e8-9f72-b97d62f785c2.png)
