@@ -12,26 +12,8 @@
 - 1 `quiz` finished in course section, the correct `skills` will promote to `LEVEL ONE`.
 - 1 `unit test` finished in course section, the correct `skill` will promote **promote 1 level up till MASTERY**.
 
-## Quick links
-- 
 
-## Reminder
-#### Finish mastery challenge ASAP.
-- [x] [6th grade](https://www.khanacademy.org/mission/cc-sixth-grade-math)
-- [x] [Pre-algebra](https://www.khanacademy.org/mission/pre-algebra)
-- [x] [Basic geometry](https://www.khanacademy.org/mission/basic-geo)
-- [x] [Algebra basics](https://www.khanacademy.org/mission/algebra-basics)
-- [x] [7th grade](https://www.khanacademy.org/mission/cc-seventh-grade-math)
-- [x] [8th grade](https://www.khanacademy.org/mission/cc-eighth-grade-math)
-- [x] [Algebra I](https://www.khanacademy.org/mission/algebra)
-- [x] [Algebra II](https://www.khanacademy.org/mission/algebra2)
-- [x] [Geometry](https://www.khanacademy.org/mission/geometry)
-- [x] [Trigonometry](https://www.khanacademy.org/mission/trigonometry)
-- [x] [High school statistics](https://www.khanacademy.org/mission/probability)
-- [x] [Precalculus](https://www.khanacademy.org/mission/precalculus)
-
-
-#### Practice To-do List
+## Practice To-do List
 - [x] [Algebra basics](https://www.khanacademy.org/math/algebra-basics?t=practice)
 - [x] [7th grade](https://www.khanacademy.org/math/cc-seventh-grade-math?t=practice)
 - [x] [8th grade](https://www.khanacademy.org/math/cc-eighth-grade-math?t=practice)
@@ -76,6 +58,16 @@
 - [x] [Linear Algebra (No mastery)](https://www.khanacademy.org/math/linear-algebra)
 - [ ] AP calculus AB
 - [ ] [AP Statistics (No mastery)](https://www.khanacademy.org/math/ap-statistics)
+
+
+## Unit Tests (Forgettable High school level concepts)
+[Algebra](https://www.khanacademy.org/math/algebra-home):
+
+[Geometry](https://www.khanacademy.org/math/math-1-2-3/geometry):
+
+[Trigonometry](https://www.khanacademy.org/math/math-1-2-3/trigonometry):
+
+[Statistics](https://www.khanacademy.org/math/math-1-2-3/probability):
 
 ## Review hardcore quiz
 - [ ] [Trigonometry](https://www.khanacademy.org/math/trigonometry?t=practice)
