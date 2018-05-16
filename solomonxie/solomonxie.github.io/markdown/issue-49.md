@@ -163,7 +163,9 @@ It's just the same with calculating the limits of both sides.
 
 
 # `Derivative Basics`
-> Simply saying, it's just the SLOPE of a POINT of a graph (line or curves or anything).
+> Simply saying, it's just the SLOPE of ONE POINT of a graph (line or curves or anything).
+
+A Derivative, is the `Instantaneous Rate of Change`, which's related to the `tangent line` of a point, instead of a secant line to calculate the Average rate of change.
 
 “Derivatives are the result of performing a differentiation process upon a function or an expression. ”
 
@@ -184,7 +186,7 @@ In Lagrange's notation, the derivative of `f` expressed as `f'`.
 - The `secant line` is drawn to connect TWO POINTS, and gets us the `Average Rate of Change` between two points.
 - The `Tangent line` is drawn through ONE POINT, and gets us the `Rage of change at the exact moment`.
 
-As for the `secant line`, its interval gets smaller and smaller and APPROACHING to `0` distance, it actually is a process of calculating `limits` approaching `0`, which will get us the `tangent line`.
+As for the `secant line`, its interval gets smaller and smaller and APPROACHING to `0` distance, it actually is a process of calculating `limits` approaching `0`, which will get us the `tangent line`, that been said, is the whole business we're talking about: the `Derivative`, the `Instantaneous Rate of Change`.
 
 ![image](https://user-images.githubusercontent.com/14041622/40102814-125b24e4-591e-11e8-9d6d-f51e0fc85ee6.png)
 
