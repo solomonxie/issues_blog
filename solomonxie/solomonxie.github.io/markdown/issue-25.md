@@ -72,7 +72,7 @@ yy → 拷贝当前行当行于 ddP
 u → undo
 <C-r> → redo
 
-- [ ] 打开/保存/退出/改变文件(Buffer)
+- [x] 打开/保存/退出/改变文件(Buffer)
 :e <path/to/file> → 打开一个文件
 :w → 存盘
 :saveas <path/to/file> → 另存为 <path/to/file>
