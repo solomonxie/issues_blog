@@ -160,3 +160,12 @@ Example:
 ![image](https://user-images.githubusercontent.com/14041622/40052537-b4a9ec66-5870-11e8-8451-89d2e640f220.png)
 Solve:
 It's just the same with calculating the limits of both sides.
+
+
+# `Derivative Basics`
+> Simply saying, it's just the SLOPE of a POINT of a graph (line or curves or anything).
+
+“Derivatives are the result of performing a differentiation process upon a function or an expression. ”
+
+## `Derivative notations`
+![image](https://user-images.githubusercontent.com/14041622/40072454-82645990-58a6-11e8-9c48-190f832a37cc.png)
