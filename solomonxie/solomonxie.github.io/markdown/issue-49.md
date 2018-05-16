@@ -184,6 +184,8 @@ In Lagrange's notation, the derivative of `f` expressed as `f'`.
 - The `secant line` is drawn to connect TWO POINTS, and gets us the `Average Rate of Change` between two points.
 - The `Tangent line` is drawn through ONE POINT, and gets us the `Rage of change at the exact moment`.
 
+As for the `secant line`, its interval gets smaller and smaller and APPROACHING to `0` distance, it actually is a process of calculating `limits` approaching `0`, which will get us the `tangent line`.
+
 ![image](https://user-images.githubusercontent.com/14041622/40102814-125b24e4-591e-11e8-9d6d-f51e0fc85ee6.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/40102982-8c9e92c2-591e-11e8-9893-6f4d4c7fc876.png)
