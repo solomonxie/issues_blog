@@ -179,6 +179,8 @@ A Derivative, is the `Instantaneous Rate of Change`, which's related to the `tan
 In Lagrange's notation, the derivative of `f` expressed as `f'`.
 
 ### `Leibniz's notation`
+> Actually you can see `dy/dx` as `Δy/Δx`, reads `delta y over delta x`. And `Δ` means the change, you can understand it as `change in y over change in x`.
+
 ![image](https://user-images.githubusercontent.com/14041622/40102277-a5ba5b26-591c-11e8-9d8f-ecdb59db5b69.png)
 
 ## `Tangent line & Secant line`
