@@ -217,11 +217,15 @@ or:
 ![image](https://user-images.githubusercontent.com/14041622/40105483-a2913a38-5925-11e8-8ce9-f45765e23bc0.png)
 
 
-## `Differentiability`
+
+# `Differentiability`
 > "If the point of a function IS differentiable, then it MUST BE continuous at the point."
 
-In these situations, at the point `c` is NOT `differentiable`:
+Not differentiable situations:
+- Vertical Tangent (∞)
+- Not Continuous
 
+Example of NOT `differentiable` points:
 ![image](https://user-images.githubusercontent.com/14041622/40107341-8e16a390-592a-11e8-9d9a-82a01c2c64e1.png)
 
 You can see, if the point DOES NOT have `limit`, it's NOT DIFFERENTIABLE. 
