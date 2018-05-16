@@ -38,7 +38,10 @@ for (var i=0; i<arr.length; i++) {
 ```
 
 
-# 用过一些tree的总结
+# 用过一些JS-Tree控件之后的总结 2007-12-14
+
+[原文在此。](http://www.iteye.com/topic/148372)
+
     最近用了不少的javascript做的树控件，感受颇深啊，有些累了真的。可能是我的需求太多了吧，导致一些树控件根本无法满足要求……下面就简要的说一些树吧（作者：Zexombie,地址：zexombie.javaeye.com）
 大概在google里搜了国内外的以下这些树（太次的不包括）：（作者：Zexombie,地址：zexombie.javaeye.com）
 tmlx-Tree（作者：Zexombie,地址：zexombie.javaeye.com）
