@@ -165,6 +165,11 @@ It's just the same with calculating the limits of both sides.
 # `Derivative Basics`
 > Simply saying, it's just the SLOPE of ONE POINT of a graph (line or curves or anything).
 
+[Refer to Mathsisfun: Introduction to Derivatives](https://www.mathsisfun.com/calculus/derivatives-introduction.html)
+
+![image](https://user-images.githubusercontent.com/14041622/40104999-4f4ccb18-5924-11e8-9baf-d9e43e3e1cd8.png)
+
+
 A Derivative, is the `Instantaneous Rate of Change`, which's related to the `tangent line` of a point, instead of a secant line to calculate the Average rate of change.
 
 “Derivatives are the result of performing a differentiation process upon a function or an expression. ”
@@ -176,10 +181,19 @@ A Derivative, is the `Instantaneous Rate of Change`, which's related to the `tan
 ![image](https://user-images.githubusercontent.com/14041622/40072454-82645990-58a6-11e8-9c48-190f832a37cc.png)
 
 ### `Lagrange's notation`
-In Lagrange's notation, the derivative of `f` expressed as `f'`.
+In Lagrange's notation, the derivative of `f(x)` expressed as `f'(x)`, reads as `f prime of x`.
 
 ### `Leibniz's notation`
-> Actually you can see `dy/dx` as `Δy/Δx`, reads `delta y over delta x`. And `Δ` means the change, you can understand it as `change in y over change in x`.
+In this form, we write `dx` instead of `Δx heads towards 0`.
+And `the derivative of` is commonly written as: 
+![image](https://user-images.githubusercontent.com/14041622/40105095-9470659c-5924-11e8-8e8d-8916bef4c995.png)
+
+> For memorizing, just see `d` as `Δ`, reads `Delta`, means change. So `dy/dx` means `Δy/Δx`. Or it can be represent as `df / dx` or `d/dx · f(x)`, whatever.
+
+
+![image](https://user-images.githubusercontent.com/14041622/40105113-9d98cdd0-5924-11e8-86a2-e918c0109b23.png)
+
+
 
 ![image](https://user-images.githubusercontent.com/14041622/40102277-a5ba5b26-591c-11e8-9d8f-ecdb59db5b69.png)
 
@@ -195,3 +209,7 @@ As for the `secant line`, its interval gets smaller and smaller and APPROACHING 
 ![image](https://user-images.githubusercontent.com/14041622/40102982-8c9e92c2-591e-11e8-9893-6f4d4c7fc876.png)
 
 ![secant to tangent animation](https://user-images.githubusercontent.com/14041622/40102854-2ef65b6e-591e-11e8-8041-a9e7a4b58b40.gif)
+
+
+## `Derivative formula`
+![image](https://user-images.githubusercontent.com/14041622/40104768-c032b23a-5923-11e8-9d4c-9c5cc53df8b8.png)
