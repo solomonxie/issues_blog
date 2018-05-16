@@ -168,4 +168,21 @@ It's just the same with calculating the limits of both sides.
 “Derivatives are the result of performing a differentiation process upon a function or an expression. ”
 
 ## `Derivative notations`
+
+[Refer to Khan academy article: Derivative notation review.](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-intro/modal/a/derivative-notation-review)
+
 ![image](https://user-images.githubusercontent.com/14041622/40072454-82645990-58a6-11e8-9c48-190f832a37cc.png)
+
+### `Lagrange's notation`
+In Lagrange's notation, the derivative of `f` expressed as `f'`.
+
+### `Leibniz's notation`
+![image](https://user-images.githubusercontent.com/14041622/40102277-a5ba5b26-591c-11e8-9d8f-ecdb59db5b69.png)
+
+## `Tangent line & Secant line`
+
+![image](https://user-images.githubusercontent.com/14041622/40102814-125b24e4-591e-11e8-9d6d-f51e0fc85ee6.png)
+
+![image](https://user-images.githubusercontent.com/14041622/40102982-8c9e92c2-591e-11e8-9893-6f4d4c7fc876.png)
+
+![secant to tangent animation](https://user-images.githubusercontent.com/14041622/40102854-2ef65b6e-591e-11e8-8041-a9e7a4b58b40.gif)
