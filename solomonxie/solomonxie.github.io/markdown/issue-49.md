@@ -212,4 +212,17 @@ As for the `secant line`, its interval gets smaller and smaller and APPROACHING 
 
 
 ## `Derivative formula`
-![image](https://user-images.githubusercontent.com/14041622/40104768-c032b23a-5923-11e8-9d4c-9c5cc53df8b8.png)
+![image](https://user-images.githubusercontent.com/14041622/40105442-86b7a7c0-5925-11e8-8db4-a4492fd7139e.png)
+or:
+![image](https://user-images.githubusercontent.com/14041622/40105483-a2913a38-5925-11e8-8ce9-f45765e23bc0.png)
+
+
+## `Differentiability`
+> "If f(x) is differentiable at `x=c`, then f(x) MUST BE continuous at `x=c`."
+
+In these situations, at the point `c` is NOT `differentiable`:
+
+![image](https://user-images.githubusercontent.com/14041622/40107341-8e16a390-592a-11e8-9d9a-82a01c2c64e1.png)
+
+You can see, if the point DOES NOT have `limit`, it's NOT DIFFERENTIABLE. 
+In another word, the point is not CONTINUOUS, it's `Jump Discontinuity`, or `Removable Discontinuity`, or any type of discontinuities.
