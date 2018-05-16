@@ -218,7 +218,7 @@ or:
 
 
 ## `Differentiability`
-> "If f(x) is differentiable at `x=c`, then f(x) MUST BE continuous at `x=c`."
+> "If the point of a function IS differentiable, then it MUST BE continuous at the point."
 
 In these situations, at the point `c` is NOT `differentiable`:
 
