@@ -8,7 +8,7 @@
 ## Practice To-do List (Linked with Unit tests)
 - [x] [Limits and continuity](https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-continuity/modal/test/ab-limits-continuity-unit-test)
 - [x] [Derivatives introduction](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-intro/modal/test/ab-derivative-intro-unit-test)
-- [ ] Derivative rules
+- [ ] [Derivative rules](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-rules/modal/test/ab-derivative-rules-unit-test)
 - [ ] Advanced derivatives
 - [ ] Existence theorems
 - [ ] Using derivatives to analyze functions
@@ -27,6 +27,7 @@
 
 # `Limits`
 > Limits are all about approaching.
+And the entire Calculus is built upon this concept.
 
 
 # `Function's Continuity`
