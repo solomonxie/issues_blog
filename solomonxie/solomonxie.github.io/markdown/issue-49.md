@@ -242,9 +242,10 @@ we can then let their `Y-value Change` divided by their `X-value Change` to get 
 
 There're two equations for calculating derivative at a point, and the only different thing is how to express the IMAGINARY POINT with respect to the point `a`, it could either be `x` or `a+h` :
 
-![image](https://user-images.githubusercontent.com/14041622/40105442-86b7a7c0-5925-11e8-8db4-a4492fd7139e.png)
+![image](https://user-images.githubusercontent.com/14041622/40187586-70e7343c-5a2a-11e8-83ab-e36804921b73.png)
 or:
-![image](https://user-images.githubusercontent.com/14041622/40105483-a2913a38-5925-11e8-8ce9-f45765e23bc0.png)
+![image](https://user-images.githubusercontent.com/14041622/40187604-78b086b4-5a2a-11e8-8539-76872a76996e.png)
+
 
 ## `How to calculate derivative`
 Strategy:
