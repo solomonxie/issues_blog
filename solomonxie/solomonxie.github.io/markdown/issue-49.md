@@ -228,3 +228,41 @@ In another word, the point is not CONTINUOUS, it's `Jump Discontinuity`, or `Rem
 - Two sides' limits are different
 
 ![image](https://user-images.githubusercontent.com/14041622/40108012-64c1e426-592c-11e8-99c9-357d59ee9a87.png)
+
+
+
+# `Derivative equation`
+There're two equations for calculating derivative at a point:
+
+![image](https://user-images.githubusercontent.com/14041622/40105442-86b7a7c0-5925-11e8-8db4-a4492fd7139e.png)
+or:
+![image](https://user-images.githubusercontent.com/14041622/40105483-a2913a38-5925-11e8-8ce9-f45765e23bc0.png)
+
+## `How to calculate derivative`
+Strategy:
+- Determine if it's **CONTINUOUS** at this point, by:
+    - See if the point is defined in the interval
+    - Calculate **LIMITS** of both RIGHT SIDE and LEFT SIDE of the point.
+    - If two sides' limits are the same, then it's continuous. Otherwise it's discontinuous.
+- Determine if it's **DIFFERENTIABLE** (Actually is the process of getting its **derivative**):
+    - Apply Derivative equation to get both RIGHT SIDE LIMIT and LEFT SIDE LIMIT.
+    - If two sides' limits are the same, then that value is the **Derivative** at the point. If not, then it's NOT DIFFERENTIABLE.
+
+Example:
+![image](https://user-images.githubusercontent.com/14041622/40156524-990fb1fe-59cc-11e8-939c-104e910309ab.png)
+Solve:
+- See that interval is including the point `3`.
+- Left side limit of the point, is using the first equation, and gets the `lim g(x) = -7`
+- Right side limit of the point, is using the second equation, and gets the `lim g(x) = -7`
+- Limits of both sides are the SAME, so it's continuous, and let's see if it's differentiable.
+- Apply the derivative equation for both Left side  & Right side:
+![image](https://user-images.githubusercontent.com/14041622/40156711-c093b63e-59cd-11e8-9bd7-f7e884e74d7b.png)
+- Both sides' limits exists but not that same, so it's not differentiable.
+
+Example2:
+![image](https://user-images.githubusercontent.com/14041622/40156269-fa328364-59ca-11e8-97fa-af21bfa10de9.png)
+Solve:
+- See that interval is including the point `-1`.
+- Left side limit of the point, is using the first equation, and gets the `lim g(x) = 1`
+- Right side limit of the point, is using the second equation, and gets the `lim g(x) = 4`
+- Limits of both sides are NOT SAME, so it's not continuous, then of course not differentiable.
