@@ -207,9 +207,10 @@ Anaconda体积庞大，软件管理看起来一体化简单，实际上在处理
 然后，二话不说，在已有virtualenv的情况下，在某个文件夹里建立虚拟环境，并启动虚拟环境。然后简单一句`pip install jupyter`，完成安装。
 安装完成后`jupyter notebook`，完美运行！
 ```shell
+# for Python2
 $ pip install jupyter
 
-# or for Python3
+# for Python3
 $ pip3 install jupyter
 ```
 这样的话，即使以后要在jupyter里各种安装插件、各种配置新kernel等，都不用害怕了，因为再怎么玩弄，也出不去这个圈。
