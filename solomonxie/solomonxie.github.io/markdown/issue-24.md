@@ -111,6 +111,22 @@ def show_users():
 # python path路径问题
 > 看似是个小问题，但是在python里实际上是个非常容易被混淆的东西。
 
+
+## 获取文件名
+```py
+>>> s = '/Users/me/movie/abc.mp4'
+>>> os.path.basename(s)
+'abc.mp4'
+```
+
+
+## 获取文件名（不包含扩展名）
+```py
+>>> s = '/Users/me/movie/abc.mp4'
+>>> os.path.basename(os.path.splitext(s)[0])
+'abc'
+```
+
 ## 获取目录名
 ```py
 >>> s = '/Users/me/movie/'
@@ -119,13 +135,6 @@ def show_users():
 ```
 为什么要这么写？看看下面实验就知道：
 ![image](https://user-images.githubusercontent.com/14041622/40163558-b548fa8e-59e9-11e8-8c07-41462fefc9a5.png)
-
-## 获取文件名（不包含扩展名）
-```py
->>> s = '/Users/me/movie/abc.mp4'
->>> os.path.basename(os.path.splitext(s)[0])
-'abc'
-```
 
 ## 获取当前脚本的路径
 [参考文章](https://stackoverflow.com/questions/4934806/how-can-i-find-scripts-directory-with-python)。
