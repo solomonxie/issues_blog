@@ -273,3 +273,9 @@ Solve:
 - Left side limit of the point, is using the first equation, and gets the `lim g(x) = 1`
 - Right side limit of the point, is using the second equation, and gets the `lim g(x) = 4`
 - Limits of both sides are NOT SAME, so it's not continuous, then of course not differentiable.
+
+
+# `Local Linearity`
+> `Local Linearity` is for approximating of a point's value by its near known point.
+
+Just think of a curve, a good way to approximate its Y-value, is to find another known point near it, and make a line connecting two points, then gets the value by linear equation.
