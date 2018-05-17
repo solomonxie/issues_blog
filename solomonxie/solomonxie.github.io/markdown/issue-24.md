@@ -121,6 +121,9 @@ def show_users():
 - 当前文件完整路径：`os.path.realpath(sys.argv[0])`
 - 当前文件所在文件夹：`os.path.dirname(os.path.realpath(sys.argv[0]))`
 
+## 示例
+![image](https://user-images.githubusercontent.com/14041622/40163558-b548fa8e-59e9-11e8-8c07-41462fefc9a5.png)
+
 
 
 # python调用命令行
