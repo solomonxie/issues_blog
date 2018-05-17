@@ -258,7 +258,7 @@ Strategy:
 Example:
 ![image](https://user-images.githubusercontent.com/14041622/40156524-990fb1fe-59cc-11e8-939c-104e910309ab.png)
 Solve:
-- See that interval is including the point `3`.
+- See that the point `3` is defined in the interval.
 - Left side limit of the point, is using the first equation, and gets the `lim g(x) = -7`
 - Right side limit of the point, is using the second equation, and gets the `lim g(x) = -7`
 - Limits of both sides are the SAME, so it's continuous, and let's see if it's differentiable.
@@ -269,7 +269,7 @@ Solve:
 Example2:
 ![image](https://user-images.githubusercontent.com/14041622/40156269-fa328364-59ca-11e8-97fa-af21bfa10de9.png)
 Solve:
-- See that interval is including the point `-1`.
+- See that the point `-1` is defined in the interval.
 - Left side limit of the point, is using the first equation, and gets the `lim g(x) = 1`
 - Right side limit of the point, is using the second equation, and gets the `lim g(x) = 4`
 - Limits of both sides are NOT SAME, so it's not continuous, then of course not differentiable.
