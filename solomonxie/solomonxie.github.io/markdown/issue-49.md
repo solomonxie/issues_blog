@@ -256,7 +256,7 @@ Solve:
 - Right side limit of the point, is using the second equation, and gets the `lim g(x) = -7`
 - Limits of both sides are the SAME, so it's continuous, and let's see if it's differentiable.
 - Apply the derivative equation for both Left side  & Right side:
-![image](https://user-images.githubusercontent.com/14041622/40156711-c093b63e-59cd-11e8-9bd7-f7e884e74d7b.png)
+![image](https://user-images.githubusercontent.com/14041622/40156768-197072c4-59ce-11e8-9a2f-d9e09cd354c7.png)
 - Both sides' limits exists but not that same, so it's not differentiable.
 
 Example2:
