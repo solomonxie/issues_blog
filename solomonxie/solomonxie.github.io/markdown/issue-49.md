@@ -232,7 +232,14 @@ In another word, the point is not CONTINUOUS, it's `Jump Discontinuity`, or `Rem
 
 
 # `Derivative equation`
-There're two equations for calculating derivative at a point:
+The idea of derivative equation is quite simple: **The LIMIT of the SLOPE.**
+
+> The slope is equal to `change in Y / change in X`. 
+So for a point `a`, we IMAGINE we have another near point which lies on the SAME LINE with `a`, 
+and since we have TWO POINTS now, 
+we can then let their `Y-value Change` divided by their `X-value Change` to get the slope.
+
+There're two equations for calculating derivative at a point, and the only different thing is how to express the IMAGINARY POINT with respect to the point `a`, it could either be `x` or `a+h` :
 
 ![image](https://user-images.githubusercontent.com/14041622/40105442-86b7a7c0-5925-11e8-8db4-a4492fd7139e.png)
 or:
