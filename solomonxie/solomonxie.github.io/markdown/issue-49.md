@@ -211,11 +211,6 @@ As for the `secant line`, its interval gets smaller and smaller and APPROACHING 
 ![secant to tangent animation](https://user-images.githubusercontent.com/14041622/40102854-2ef65b6e-591e-11e8-8041-a9e7a4b58b40.gif)
 
 
-## `Derivative formula`
-![image](https://user-images.githubusercontent.com/14041622/40105442-86b7a7c0-5925-11e8-8db4-a4492fd7139e.png)
-or:
-![image](https://user-images.githubusercontent.com/14041622/40105483-a2913a38-5925-11e8-8ce9-f45765e23bc0.png)
-
 
 
 # `Differentiability`
