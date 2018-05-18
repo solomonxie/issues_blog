@@ -1,6 +1,27 @@
 # Machine Learning diary 机器学习日记
 > By having a wild thought on start a career on Artificial intelligence, started today to do a tiny research on how to study AI. It turns out it consist of a shit black hole of knowledges, which means I have to study all of those things, not mention even some basic terms are causing a headache to me, such like Machine Learning, Deep Learning, Data Mining, Big Data, Classification etc etc. Thus I tend to write down some notes and random thoughts here helping me to organise it better. Saying, a tiny pen is better than a great brain.
 
+## Prerequisites
+### Math
+- [x] Linear Algebra (Finished Basics)
+- [ ] Differential Calculus
+- [ ] Integral Calculus
+- [ ] Multivariable Calculus
+- [ ] Statistics & Probability
+
+### Computer Science
+- [ ] Data Structures
+- [ ] Algorithms
+- [ ] Optimization
+
+### Programming (Python)
+- [x] Jupyter Notebook
+- [ ] matplotlib
+- [ ] Numpy
+- [ ] scikit-learn
+- [ ] pandas
+
+
 
 ## Differ all the basic terms for starters
 
