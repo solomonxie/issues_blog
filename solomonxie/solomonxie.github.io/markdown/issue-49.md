@@ -321,3 +321,18 @@ It tells us how to differentiate `Composite functions`.
 - Forgetting to multiply by the derivative of the inner function
 - Computing `f'(g'(x))` wrongly:
 ![image](https://user-images.githubusercontent.com/14041622/40225381-7744459a-5abb-11e8-848d-9a28c39db99c.png)
+
+### How to identify Composite functions
+> Seems a basic algebra101, but actually a quite tricky one to identify.
+
+[Refer to Khan lecture: Identifying composite functions](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-rules/modal/v/recognizing-compositions-of-functions)
+
+Examples:
+![image](https://user-images.githubusercontent.com/14041622/40226233-add7f910-5abd-11e8-8522-853ca335a2a1.png)
+It's a composite function, which the inner is `cos(x)` and outer is `x²`.
+
+![image](https://user-images.githubusercontent.com/14041622/40226318-f2bbe668-5abd-11e8-9f47-405b4476c054.png)
+It's a composite function, which the inner is `2x³-4x` and outer is `sin(x)`.
+
+![image](https://user-images.githubusercontent.com/14041622/40226383-24b4fe48-5abe-11e8-9cb0-9c0bda203c89.png)
+It's a composite function, which the inner is `cos(x)` and outer is `√(x)`.
