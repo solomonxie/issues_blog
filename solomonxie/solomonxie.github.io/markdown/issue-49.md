@@ -308,19 +308,19 @@ Functions | Function | Derivative
 -- | -- | --
 Constant | c | 0
 Line | x | 1
-  | ax | a
+        | ax | a
 Square | x² | 2x
-Square Root | √x | (½)x^(-½)
+Square Root | √x | ![image](https://user-images.githubusercontent.com/14041622/40228460-eca5310c-5ac3-11e8-91c1-1ef393f60202.png)
 Exponential | eˣ | eˣ
-  | aˣ | ln(a)·aˣ
+                     | aˣ | aˣ · ln(a)
 Logarithms | ln(x) | 1/x
-  | loga(x) | 1 / (x·ln(a))
+                    | loga(x) | 1 / (x·ln(a))
 Trigonometry (x is in radians) | sin(x) | cos(x)
-  | cos(x) | −sin(x)
-  | tan(x) | sec²(x)
+                                                   | cos(x) | −sin(x)
+                                                   | tan(x) | sec²(x)
 Inverse Trigonometry | sin⁻¹(x) | 1/√(1−x²)
-  | cos⁻¹(x) | −1/√(1−x²)
-  | tan⁻¹(x) | 1/(1+x²)
+                                     | cos⁻¹(x) | −1/√(1−x²)
+                                     | tan⁻¹(x) | 1/(1+x²)
 
 
 
