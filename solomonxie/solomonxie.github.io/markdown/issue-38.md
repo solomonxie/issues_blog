@@ -3,15 +3,9 @@
 
 ## Prerequisites
 ### Math
-- [x] Linear Algebra (Finished Basics)
-    - [ ] PCA
-    - [ ] SVD
-    - [ ] Eigen Decomposition
-    - [ ] LU Decomposition
-    - [ ] QR Decomposition
-    - [ ] Norms
-    - [ ] 
 
+- [x] Linear Algebra (Finished Basics)
+PCA, SVD, Eigen Decomposition, LU Decomposition, QR Decomposition, Norms
 - [ ] Differential Calculus
 - [ ] Integral Calculus
 - [ ] Multivariable Calculus
