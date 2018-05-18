@@ -327,16 +327,14 @@ Inverse Trigonometry | sin⁻¹(x) | 1/√(1−x²)
 ## Common Rules for multiple functions
 Rules | Function | Derivative
 -- | -- | --
-With constant | cf | cf’
-Power Rule | xⁿ | n·xⁿ−1
+With constant | c·f | c·f’
+Power Rule | xⁿ | n·xⁿ⁻¹
 Sum Rule | f + g | f’ + g’
 Difference Rule | f - g | f’ − g’
-Product Rule | fg | f g’ + f’ g
-Quotient Rule | f/g | (f’g − g’f )/g²
-Reciprocal Rule | 1/f | −f’/f²
-Chain Rule (as "Composition of Functions") | f º g | (f’ º g) × g’
-Chain Rule (using ’ ) | f(g(x)) | f’(g(x))g’(x)
-Chain Rule (using ddx ) | dydx = dydududx
+Product Rule | f · g | fg’ + f’ g
+Quotient Rule | f / g | (f’g − g’f ) / g²
+Reciprocal Rule | 1 / f | −f’ / f²
+Chain Rule | f(g(x)) | f’(g(x)) · g’(x)
 
 
 
