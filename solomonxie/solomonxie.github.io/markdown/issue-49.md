@@ -407,6 +407,9 @@ Leibniz's notation for second derivative is:
 So knowing how to differentiate an `implicit function` is quite helpful when we're dealing with those NOT EASILY SEPARATED functions.
 
 ## `How to Differentiate Implicit function`
+
+[Refer to video: Use implicit differentiation to find the second derivative of y (y'') (KristaKingMath)](https://www.youtube.com/watch?v=MzwcOw27ZRE)
+
 Steps:
 - Differentiate both sides of the equation.
 - Differentiate `X components` is easy by what we've learnt.
