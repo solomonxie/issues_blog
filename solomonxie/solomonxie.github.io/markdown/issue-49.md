@@ -327,6 +327,8 @@ It tells us how to differentiate `Composite functions`.
 
 [Refer to Khan lecture: Identifying composite functions](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-rules/modal/v/recognizing-compositions-of-functions)
 
+The core principle to identify it, is trying to re-write the function into a nested one: `f(g(x))`. If you could do this, it's composite, if not, then it's not one.
+
 Examples:
 ![image](https://user-images.githubusercontent.com/14041622/40226233-add7f910-5abd-11e8-8522-853ca335a2a1.png)
 It's a composite function, which the inner is `cos(x)` and outer is `x²`.
