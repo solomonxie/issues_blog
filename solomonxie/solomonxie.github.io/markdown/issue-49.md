@@ -302,3 +302,11 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40188314-3ea8c38a-5a2c-11e8-9410-11f6cb3bfb0b.png)
 ![image](https://user-images.githubusercontent.com/14041622/40218463-e7d0cfa8-5aa3-11e8-8a97-36d6b2ff4254.png)
 ![image](https://user-images.githubusercontent.com/14041622/40218640-9736918a-5aa4-11e8-896b-929cc60df9d0.png)
+
+
+
+# `Chain Rule`
+> One of the **core principles** in Calculus is the Chain Rule.
+
+
+
