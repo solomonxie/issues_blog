@@ -294,3 +294,9 @@ Example:
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40158702-81d93242-59d8-11e8-87ad-9622f18ddbc7.png)
 
+
+
+
+# basic differentiation rules
+
+![image](https://user-images.githubusercontent.com/14041622/40188314-3ea8c38a-5a2c-11e8-9410-11f6cb3bfb0b.png)
