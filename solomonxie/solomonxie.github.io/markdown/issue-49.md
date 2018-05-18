@@ -411,8 +411,12 @@ Steps:
 - Differentiate `X components` is easy by what we've learnt.
 - Differentiate `Y component` is the most tricky part:
     - Treat `Y component` as a `Composite function` with respect to `X`.
-    - **Differentiate this composite function with Chain Rule.**
+    - Differentiate this composite function with Chain Rule.
+    - **Whenever we take derivative with something includes `Y`, we have to multiply by `dy/dx`, which is the `f'(x)`.**
 - Solve the equation
+
+
+
 
 
 ### Example
