@@ -308,5 +308,8 @@ Solve:
 # `Chain Rule`
 > One of the **core principles** in Calculus is the Chain Rule.
 
+![image](https://user-images.githubusercontent.com/14041622/40225024-860955bc-5aba-11e8-8383-d461211e196c.png)
 
+**It must be composite functions, and it has to have `inner & outer` functions, which you could write in form of `f(g(x))`.**
+![image](https://user-images.githubusercontent.com/14041622/40225120-c6ddf174-5aba-11e8-8b1b-2859c7eeb749.png)
 
