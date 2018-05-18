@@ -297,11 +297,51 @@ Solve:
 
 
 
-# basic differentiation rules
+# Basic Differentiation Rules
 
-![image](https://user-images.githubusercontent.com/14041622/40188314-3ea8c38a-5a2c-11e8-9410-11f6cb3bfb0b.png)
-![image](https://user-images.githubusercontent.com/14041622/40218463-e7d0cfa8-5aa3-11e8-8a97-36d6b2ff4254.png)
-![image](https://user-images.githubusercontent.com/14041622/40218640-9736918a-5aa4-11e8-896b-929cc60df9d0.png)
+![image](https://user-images.githubusercontent.com/14041622/40227636-a305cc52-5ac1-11e8-9fbe-ac7e11dd4a6f.png)
+
+[Refer to Math is fun: Derivative Rules](https://www.mathsisfun.com/calculus/derivatives-rules.html)
+
+## Derivative of Single Common Functions
+Functions | Function | Derivative
+-- | -- | --
+Constant | c | 0
+Line | x | 1
+  | ax | a
+Square | x² | 2x
+Square Root | √x | (½)x^(-½)
+Exponential | eˣ | eˣ
+  | aˣ | ln(a)·aˣ
+Logarithms | ln(x) | 1/x
+  | loga(x) | 1 / (x·ln(a))
+Trigonometry (x is in radians) | sin(x) | cos(x)
+  | cos(x) | −sin(x)
+  | tan(x) | sec²(x)
+Inverse Trigonometry | sin⁻¹(x) | 1/√(1−x²)
+  | cos⁻¹(x) | −1/√(1−x²)
+  | tan⁻¹(x) | 1/(1+x²)
+
+
+
+## Common Rules for multiple functions
+Rules | Function | Derivative
+-- | -- | --
+With constant | cf | cf’
+Power Rule | xⁿ | n·xⁿ−1
+Sum Rule | f + g | f’ + g’
+Difference Rule | f - g | f’ − g’
+Product Rule | fg | f g’ + f’ g
+Quotient Rule | f/g | (f’g − g’f )/g²
+Reciprocal Rule | 1/f | −f’/f²
+Chain Rule (as "Composition of Functions") | f º g | (f’ º g) × g’
+Chain Rule (using ’ ) | f(g(x)) | f’(g(x))g’(x)
+Chain Rule (using ddx ) | dydx = dydududx
+
+
+
+
+
 
 ## `Chain Rule`
 > One of the **core principles** in Calculus is the Chain Rule.
