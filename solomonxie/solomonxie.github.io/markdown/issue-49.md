@@ -357,7 +357,7 @@ It tells us how to differentiate `Composite functions`.
 - Not recognizing whether a function is composite or not
 - Wrong identification of the inner and outer function
 - **Forgetting to multiply by the derivative of the inner function**
-- Computing `f'(g'(x))` wrongly:
+- Computing `f(g(x))` wrongly:
 ![image](https://user-images.githubusercontent.com/14041622/40225381-7744459a-5abb-11e8-848d-9a28c39db99c.png)
 
 ### How to identify Composite functions
