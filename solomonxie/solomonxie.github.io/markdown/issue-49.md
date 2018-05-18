@@ -397,6 +397,25 @@ Leibniz's notation for second derivative is:
 # `Implicit differentiation`
 > Bit hard to understand it in the first place.
 
+## `What is Implicit & Explicit Function`
+[Refer to video by Krista King: What is implicit differentiation?](https://www.youtube.com/watch?v=GpWCFoCznGI)
+
+- `Explicit function`: it's the normal function we've seen a lot before, which's in the form of `y = x....`
+- `Implicit function`: it't NOT YET in the general form of a function and not easily separated, like `x² + y² = 1`
+
+So knowing how to differentiate an `implicit function` is quite helpful when we're dealing with those NOT EASILY SEPARATED functions.
+
+## `How to Differentiate Implicit function`
+Steps:
+- Differentiate both sides of the equation.
+- Differentiate `X components` is easy by what we've learnt.
+- Differentiate `Y component` is the most tricky part:
+    - Treat `Y component` as a `Composite function` with respect to `X`.
+    - **Differentiate this composite function with Chain Rule.**
+- Solve the equation
+
+
+### Example
 For a Circle function `x² + y² = 1`, 
 ![image](https://user-images.githubusercontent.com/14041622/40231822-1a1b14b6-5acf-11e8-8240-2dda37c0a6f3.png)
 
@@ -409,3 +428,8 @@ But we can actually do the same thing by differentiate the function **IMPLICITLY
 Mind that the **tricky** thing of that is the `derivative of y`.
 Taking `derivative with respect to x`, we're actually computing the derivative of a `Composite function` to `y`, which will apply the Chain Rule as below:
 ![image](https://user-images.githubusercontent.com/14041622/40231802-0890d316-5acf-11e8-9fa3-1e45e033efb3.png)
+
+What is the role the `dy/dx` plays in it?
+It's so much more clear to see it as `f'(x)`!
+
+![image](https://user-images.githubusercontent.com/14041622/40232401-32cd0c56-5ad1-11e8-94d0-360d45b92b42.png)
