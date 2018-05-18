@@ -338,3 +338,8 @@ It's a composite function, which the inner is `2x³-4x` and outer is `sin(x)`.
 
 ![image](https://user-images.githubusercontent.com/14041622/40226383-24b4fe48-5abe-11e8-9cb0-9c0bda203c89.png)
 It's a composite function, which the inner is `cos(x)` and outer is `√(x)`.
+
+
+# `Derivatives of Trig functions`
+
+![image](https://user-images.githubusercontent.com/14041622/40227555-69eb9e74-5ac1-11e8-98cf-75d6088b5b4f.png)
