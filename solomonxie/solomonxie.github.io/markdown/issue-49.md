@@ -3,6 +3,7 @@
 
 ## Study resources
 - [ ] [Khan academy: AP Calculus AB](https://www.khanacademy.org/mission/ap-calculus-ab)
+- [ ] [Kristan King](https://www.youtube.com/user/TheIntegralCALC/playlists)
 - [ ] [Mathispower4u](http://www.mathispower4u.com/calculus.php)
 
 ## Practice To-do List (Linked with Unit tests)
