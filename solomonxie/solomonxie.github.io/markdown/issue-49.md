@@ -381,3 +381,13 @@ It's a composite function, which the inner is `cos(x)` and outer is `√(x)`.
 # `Derivatives of Trig functions`
 
 ![image](https://user-images.githubusercontent.com/14041622/40227555-69eb9e74-5ac1-11e8-98cf-75d6088b5b4f.png)
+
+
+
+# `Second derivatives`
+The second derivative of a function is simply the derivative of the function's derivative.
+
+Notation:
+Leibniz's notation for second derivative is:
+![image](https://user-images.githubusercontent.com/14041622/40231289-2c34f3da-5acd-11e8-9348-2ba4fb04a2aa.png)
+![image](https://user-images.githubusercontent.com/14041622/40231293-344c4e10-5acd-11e8-886d-39457c2efb2d.png)
