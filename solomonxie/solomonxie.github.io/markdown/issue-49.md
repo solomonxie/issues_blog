@@ -277,8 +277,8 @@ Solve:
 - Limits of both sides are NOT SAME, so it's not continuous, then of course not differentiable.
 
 
-# `Local Linearity`
-> `Local Linearity` is for approximating of a point's value by its near known point.
+# `Local linearity & Linear approximation`
+> `Local linearity` is for approximating of a point's value by its near known point.
 
 Just think of a curve, a good way to approximate its Y-value, is to find another known point near it, and make a line connecting two points, then gets the value by linear equation.
 
@@ -300,3 +300,5 @@ Solve:
 # basic differentiation rules
 
 ![image](https://user-images.githubusercontent.com/14041622/40188314-3ea8c38a-5a2c-11e8-9410-11f6cb3bfb0b.png)
+![image](https://user-images.githubusercontent.com/14041622/40218463-e7d0cfa8-5aa3-11e8-8a97-36d6b2ff4254.png)
+![image](https://user-images.githubusercontent.com/14041622/40218640-9736918a-5aa4-11e8-896b-929cc60df9d0.png)
