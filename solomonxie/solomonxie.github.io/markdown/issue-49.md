@@ -303,13 +303,21 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40218463-e7d0cfa8-5aa3-11e8-8a97-36d6b2ff4254.png)
 ![image](https://user-images.githubusercontent.com/14041622/40218640-9736918a-5aa4-11e8-896b-929cc60df9d0.png)
 
-
-
-# `Chain Rule`
+## `Chain Rule`
 > One of the **core principles** in Calculus is the Chain Rule.
 
-![image](https://user-images.githubusercontent.com/14041622/40225024-860955bc-5aba-11e8-8383-d461211e196c.png)
+[Refer to Khan academy article: Chain rule](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-rules/modal/a/chain-rule-review)
+
+It tells us how to differentiate `Composite functions`.
+
+![image](https://user-images.githubusercontent.com/14041622/40225236-178dc84c-5abb-11e8-8bbf-098d8df7d3b9.png)
 
 **It must be composite functions, and it has to have `inner & outer` functions, which you could write in form of `f(g(x))`.**
 ![image](https://user-images.githubusercontent.com/14041622/40225120-c6ddf174-5aba-11e8-8b1b-2859c7eeb749.png)
 
+### Common mistakes
+- Not recognizing whether a function is composite or not
+- Wrong identification of the inner and outer function
+- Forgetting to multiply by the derivative of the inner function
+- Computing `f'(g'(x))` wrongly:
+![image](https://user-images.githubusercontent.com/14041622/40225381-7744459a-5abb-11e8-848d-9a28c39db99c.png)
