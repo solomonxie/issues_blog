@@ -391,3 +391,21 @@ Notation:
 Leibniz's notation for second derivative is:
 ![image](https://user-images.githubusercontent.com/14041622/40231289-2c34f3da-5acd-11e8-9348-2ba4fb04a2aa.png)
 ![image](https://user-images.githubusercontent.com/14041622/40231293-344c4e10-5acd-11e8-886d-39457c2efb2d.png)
+
+
+
+# `Implicit differentiation`
+> Bit hard to understand it in the first place.
+
+For a Circle function `x² + y² = 1`, 
+![image](https://user-images.githubusercontent.com/14041622/40231822-1a1b14b6-5acf-11e8-8240-2dda37c0a6f3.png)
+
+if we'd like to compute its **derivative** at a point, we can **Explicitly** re-write it into formal `f(x)` function and calculate the derivative, like this:
+![image](https://user-images.githubusercontent.com/14041622/40231629-6807df20-5ace-11e8-8e91-951128b9178e.png)
+
+But we can actually do the same thing by differentiate the function **IMPLICITLY**, just by taking derivative of the equation DIRECTLY:
+![image](https://user-images.githubusercontent.com/14041622/40231686-a480a374-5ace-11e8-8713-368bb557c6f2.png)
+
+Mind that the **tricky** thing of that is the `derivative of y`.
+Taking `derivative with respect to x`, we're actually computing the derivative of a `Composite function` to `y`, which will apply the Chain Rule as below:
+![image](https://user-images.githubusercontent.com/14041622/40231802-0890d316-5acf-11e8-9fa3-1e45e033efb3.png)
