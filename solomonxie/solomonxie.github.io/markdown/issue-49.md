@@ -447,6 +447,16 @@ Assume you are to differentiate `Y` **WITH RESPECT** to `X`, written as `dy/dx`:
 Solve:
 [Refer to Symbolab: Implicit Derivative Calculator](https://www.symbolab.com/solver/implicit-derivative-calculator/implicit%20derivative%20%5Cfrac%7Bdy%7D%7Bdx%7D%2C%20x%5E%7B2%7D%2Bxy%2By%5E%7B3%7D%3D0)
 
+- Treat `y` as `y(x)`
+- Apply the Sum Rule:
+![image](https://user-images.githubusercontent.com/14041622/40271287-c61ce952-5bcd-11e8-92d4-3ed3c706cd2f.png)
+- Apply the Product Rule to the `Mixed term`, and
+- Apply the Chain Rule to the `Y term`:
+![image](https://user-images.githubusercontent.com/14041622/40271324-5448fa9a-5bce-11e8-9d89-f30ad9a81658.png)
+- Operate the equation and **solve for `dy/dx`**, and get:
+![image](https://user-images.githubusercontent.com/14041622/40271337-94837f9a-5bce-11e8-8861-3b894ff5f0b9.png)
+
+
 
 # `Related Rates`
 > It's so much harder to understand as extension to `Implicit Differentiation`.
