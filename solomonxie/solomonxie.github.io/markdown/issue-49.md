@@ -466,7 +466,7 @@ Btw, at Khan academy it's called the `Differentiate related functions`.
 
 [Refer to Khan lecture.](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-advanced/modal/v/differentiating-related-functions-intro)
 [Refer to video by KristaKingMath: Related rates](https://www.youtube.com/watch?v=Vi5KBiXg0Co)
-[Refer to video by The Organic Chemistry Tutor: Related Rates](https://www.youtube.com/watch?v=ps-r4nti5Go)
+[Refer to video by The Organic Chemistry Tutor: Introduction to Related Rates](https://www.youtube.com/watch?v=I9mVUo-bhM8&t=0s&index=78&list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv)
 
 
 # `Second derivatives`
