@@ -398,6 +398,9 @@ Leibniz's notation for second derivative is:
 # `Implicit differentiation`
 > Bit hard to understand it in the first place.
 
+![image](https://user-images.githubusercontent.com/14041622/40266041-b0ae9720-5b76-11e8-823f-33d3935a9124.png)
+
+
 ## `What is Implicit & Explicit Function`
 [Refer to video by Krista King: What is implicit differentiation?](https://www.youtube.com/watch?v=GpWCFoCznGI)
 
