@@ -180,7 +180,7 @@ A Derivative, is the `Instantaneous Rate of Change`, which's related to the `tan
 
 [Refer to Khan academy article: Derivative notation review.](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-intro/modal/a/derivative-notation-review)
 
-![image](https://user-images.githubusercontent.com/14041622/40072454-82645990-58a6-11e8-9c48-190f832a37cc.png)
+![image](https://user-images.githubusercontent.com/14041622/40266166-d90e5e1a-5b78-11e8-9fdf-20e72b432012.png)
 
 ### `Lagrange's notation`
 In Lagrange's notation, the derivative of `f(x)` expressed as `f'(x)`, reads as `f prime of x`.
@@ -192,12 +192,17 @@ And `the derivative of` is commonly written as:
 
 > For memorizing, just see `d` as `Δ`, reads `Delta`, means change. So `dy/dx` means `Δy/Δx`. Or it can be represent as `df / dx` or `d/dx · f(x)`, whatever.
 
-
 ![image](https://user-images.githubusercontent.com/14041622/40105113-9d98cdd0-5924-11e8-86a2-e918c0109b23.png)
 
-
-
 ![image](https://user-images.githubusercontent.com/14041622/40102277-a5ba5b26-591c-11e8-9d8f-ecdb59db5b69.png)
+
+### `How to understand dy/dx`
+
+This is a review from "the future", which means while studying Calculus, you have to come back constantly to review what the `dy/dx` means.  ---- It's just so confusing.
+Without fully understanding the `dy/dx`, you will be lost at topics like `Differentiate Implicit functions`, `Related Rates` and such.
+
+![image](https://user-images.githubusercontent.com/14041622/40266233-1868f164-5b7a-11e8-9516-712cd539fd91.png)
+
 
 ## `Tangent line & Secant line`
 
