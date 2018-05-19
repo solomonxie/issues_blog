@@ -428,6 +428,8 @@ So knowing how to differentiate an `implicit function` is quite helpful when we'
 [Refer to video: Use implicit differentiation to find the second derivative of y (y'') (KristaKingMath)](https://www.youtube.com/watch?v=MzwcOw27ZRE)
 [Refer to video by The Organic Chemistry Tutor: Implicit Differentiation Explained - Product Rule, Quotient & Chain Rule - Calculus](https://www.youtube.com/watch?v=LGY-DjFsALc)
 
+[Refer to Symbolab: Implicit Derivative Calculator](https://www.symbolab.com/solver/implicit-derivative-calculator/implicit%20derivative%20%5Cfrac%7Bdy%7D%7Bdx%7D%2C%20x%5E%7B2%7D%2Bxy%2By%5E%7B3%7D%3D0)
+
 Assume you are to differentiate `Y` **WITH RESPECT** to `X`, written as `dy/dx`:
 - Differentiate terms with `X` as normal
 - Differentiate terms with `Y` as the same to `X`, BUT multiply by `(dy/dx)`
@@ -440,27 +442,10 @@ Assume you are to differentiate `Y` **WITH RESPECT** to `X`, written as `dy/dx`:
 ![image](https://user-images.githubusercontent.com/14041622/40266809-34b13dfe-5b84-11e8-8981-cd6b0349fb80.png)
 
 
-
-
-
 ### Example
-For a Circle function `x² + y² = 1`, 
-![image](https://user-images.githubusercontent.com/14041622/40231822-1a1b14b6-5acf-11e8-8240-2dda37c0a6f3.png)
-
-if we'd like to compute its **derivative** at a point, we can **Explicitly** re-write it into formal `f(x)` function and calculate the derivative, like this:
-![image](https://user-images.githubusercontent.com/14041622/40231629-6807df20-5ace-11e8-8e91-951128b9178e.png)
-
-But we can actually do the same thing by differentiate the function **IMPLICITLY**, just by taking derivative of the equation DIRECTLY:
-![image](https://user-images.githubusercontent.com/14041622/40231686-a480a374-5ace-11e8-8713-368bb557c6f2.png)
-
-Mind that the **tricky** thing of that is the `derivative of y`.
-Taking `derivative with respect to x`, we're actually computing the derivative of a `Composite function` to `y`, which will apply the Chain Rule as below:
-![image](https://user-images.githubusercontent.com/14041622/40231802-0890d316-5acf-11e8-9fa3-1e45e033efb3.png)
-
-What is the role the `dy/dx` plays in it?
-It's so much more clear to see it as `f'(x)`!
-
-![image](https://user-images.githubusercontent.com/14041622/40232401-32cd0c56-5ad1-11e8-94d0-360d45b92b42.png)
+![image](https://user-images.githubusercontent.com/14041622/40271196-87e4a61c-5bcc-11e8-9b9a-bfe940549680.png)
+Solve:
+[Refer to Symbolab: Implicit Derivative Calculator](https://www.symbolab.com/solver/implicit-derivative-calculator/implicit%20derivative%20%5Cfrac%7Bdy%7D%7Bdx%7D%2C%20x%5E%7B2%7D%2Bxy%2By%5E%7B3%7D%3D0)
 
 
 # `Related Rates`
