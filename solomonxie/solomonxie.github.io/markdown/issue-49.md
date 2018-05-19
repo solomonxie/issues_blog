@@ -418,14 +418,16 @@ So knowing how to differentiate an `implicit function` is quite helpful when we'
 
 [Refer to video: Use implicit differentiation to find the second derivative of y (y'') (KristaKingMath)](https://www.youtube.com/watch?v=MzwcOw27ZRE)
 
-Steps:
-- Differentiate both sides of the equation.
-- Differentiate `X components` is easy by what we've learnt.
-- Differentiate `Y component` is the most tricky part:
-    - Treat `Y component` as a `Composite function` with respect to `X`.
-    - Differentiate this composite function with Chain Rule.
-    - **Whenever we take derivative with something includes `Y`, we have to multiply by `dy/dx`, which is the `f'(x)`.**
-- Solve the equation
+Assume you are to differentiate `Y` **WITH RESPECT** to `X`, written as `dy/dx`:
+- Differentiate terms with `X` as normal
+- Differentiate terms with `Y` as the same to `X`, BUT multiply by `(dy/dx)`
+- Differentiate terms **MIXED** with `X & Y` .......
+
+### How to differentiate `Y` with respect to `X`
+![image](https://user-images.githubusercontent.com/14041622/40266769-864f311c-5b83-11e8-9f35-f6087c87e85d.png)
+
+### How to differentiate term MIXED with both `X & Y`
+
 
 
 
