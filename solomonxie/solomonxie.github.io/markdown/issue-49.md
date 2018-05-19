@@ -444,3 +444,10 @@ What is the role the `dy/dx` plays in it?
 It's so much more clear to see it as `f'(x)`!
 
 ![image](https://user-images.githubusercontent.com/14041622/40232401-32cd0c56-5ad1-11e8-94d0-360d45b92b42.png)
+
+
+# `Related Rates`
+> At Khan academy, it's called the `Differentiate related functions`.
+
+[Refer to Khan lecture.](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-advanced/modal/v/differentiating-related-functions-intro)
+[Refer to video by KristaKingMath: Related rates](https://www.youtube.com/watch?v=Vi5KBiXg0Co)
