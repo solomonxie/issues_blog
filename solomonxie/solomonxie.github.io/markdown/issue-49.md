@@ -450,6 +450,7 @@ Solve:
 - Treat `y` as `y(x)`
 - Apply the Sum Rule:
 ![image](https://user-images.githubusercontent.com/14041622/40271287-c61ce952-5bcd-11e8-92d4-3ed3c706cd2f.png)
+- Apply the normal rules to `X term`, and
 - Apply the Product Rule to the `Mixed term`, and
 - Apply the Chain Rule to the `Y term`:
 ![image](https://user-images.githubusercontent.com/14041622/40271324-5448fa9a-5bce-11e8-9d89-f30ad9a81658.png)
