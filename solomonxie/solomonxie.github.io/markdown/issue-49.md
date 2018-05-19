@@ -447,7 +447,9 @@ It's so much more clear to see it as `f'(x)`!
 
 
 # `Related Rates`
-> At Khan academy, it's called the `Differentiate related functions`.
+> It's so much harder to understand as extension to `Differentiate Implicit Functions`.
+
+Btw, at Khan academy it's called the `Differentiate related functions`.
 
 [Refer to Khan lecture.](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-advanced/modal/v/differentiating-related-functions-intro)
 [Refer to video by KristaKingMath: Related rates](https://www.youtube.com/watch?v=Vi5KBiXg0Co)
