@@ -460,7 +460,7 @@ Solve:
 
 
 # `Related Rates`
-> It's so much harder to understand as extension to `Implicit Differentiation`.
+> It's so much harder to understand as **extension** to `Implicit Differentiation`.
 
 Btw, at Khan academy it's called the `Differentiate related functions`.
 
