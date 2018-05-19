@@ -344,10 +344,7 @@ Chain Rule | f(g(x)) | f’(g(x)) · g’(x)
 
 
 
-
-
-
-## `Chain Rule`
+# `Chain Rule`
 > One of the **core principles** in Calculus is the Chain Rule.
 
 [Refer to Khan academy article: Chain rule](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-rules/modal/a/chain-rule-review)
@@ -383,6 +380,17 @@ It's a composite function, which the inner is `2x³-4x` and outer is `sin(x)`.
 ![image](https://user-images.githubusercontent.com/14041622/40226383-24b4fe48-5abe-11e8-9cb0-9c0bda203c89.png)
 It's a composite function, which the inner is `cos(x)` and outer is `√(x)`.
 
+## `Chain Rule in Differentiation Form`
+> Some says it's much easier to understand Chain Rule in `df/dx` form.
+
+![image](https://user-images.githubusercontent.com/14041622/40268878-2efa0a70-5ba8-11e8-9de6-1ba1c843e3f0.png)
+
+[Refer to Symbolab worked example.](https://www.symbolab.com/solver/step-by-step/%5Cfrac%7Bd%7D%7Bdx%7D%5Cleft(sqrt%5Cleft(3cos%5E%7B3%7D%5Cleft(x%5Cright)%5Cright)%5Cright))
+
+Example:
+![image](https://user-images.githubusercontent.com/14041622/40268880-38210900-5ba8-11e8-8e45-3691ad3b5163.png)
+
+
 
 # `Derivatives of Trig functions`
 
@@ -398,16 +406,6 @@ cot(θ) = 1/tan(θ)
 ```
 ![unit circle](https://user-images.githubusercontent.com/14041622/38487029-724164d8-3c11-11e8-9913-17a6da068090.png)
 
-
-
-
-# `Second derivatives`
-The second derivative of a function is simply the derivative of the function's derivative.
-
-Notation:
-Leibniz's notation for second derivative is:
-![image](https://user-images.githubusercontent.com/14041622/40231289-2c34f3da-5acd-11e8-9348-2ba4fb04a2aa.png)
-![image](https://user-images.githubusercontent.com/14041622/40231293-344c4e10-5acd-11e8-886d-39457c2efb2d.png)
 
 
 
@@ -473,3 +471,12 @@ Btw, at Khan academy it's called the `Differentiate related functions`.
 [Refer to Khan lecture.](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-advanced/modal/v/differentiating-related-functions-intro)
 [Refer to video by KristaKingMath: Related rates](https://www.youtube.com/watch?v=Vi5KBiXg0Co)
 [Refer to video by The Organic Chemistry Tutor: Related Rates](https://www.youtube.com/watch?v=ps-r4nti5Go)
+
+
+# `Second derivatives`
+The second derivative of a function is simply the derivative of the function's derivative.
+
+Notation:
+Leibniz's notation for second derivative is:
+![image](https://user-images.githubusercontent.com/14041622/40231289-2c34f3da-5acd-11e8-9348-2ba4fb04a2aa.png)
+![image](https://user-images.githubusercontent.com/14041622/40231293-344c4e10-5acd-11e8-886d-39457c2efb2d.png)
