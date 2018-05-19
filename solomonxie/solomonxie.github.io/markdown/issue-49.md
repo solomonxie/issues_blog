@@ -417,17 +417,18 @@ So knowing how to differentiate an `implicit function` is quite helpful when we'
 ## `How to Differentiate Implicit function`
 
 [Refer to video: Use implicit differentiation to find the second derivative of y (y'') (KristaKingMath)](https://www.youtube.com/watch?v=MzwcOw27ZRE)
+[Refer to video by The Organic Chemistry Tutor: Implicit Differentiation Explained - Product Rule, Quotient & Chain Rule - Calculus](https://www.youtube.com/watch?v=LGY-DjFsALc)
 
 Assume you are to differentiate `Y` **WITH RESPECT** to `X`, written as `dy/dx`:
 - Differentiate terms with `X` as normal
 - Differentiate terms with `Y` as the same to `X`, BUT multiply by `(dy/dx)`
-- Differentiate terms **MIXED** with `X & Y` .......
+- Differentiate terms **MIXED** with `X & Y` by using `Product Rule`, then differentiate each term.
 
 ### How to differentiate `Y` with respect to `X`
 ![image](https://user-images.githubusercontent.com/14041622/40266769-864f311c-5b83-11e8-9f35-f6087c87e85d.png)
 
 ### How to differentiate term MIXED with both `X & Y`
-
+![image](https://user-images.githubusercontent.com/14041622/40266809-34b13dfe-5b84-11e8-8981-cd6b0349fb80.png)
 
 
 
