@@ -455,7 +455,7 @@ It's so much more clear to see it as `f'(x)`!
 
 
 # `Related Rates`
-> It's so much harder to understand as extension to `Differentiate Implicit Functions`.
+> It's so much harder to understand as extension to `Implicit Differentiation`.
 
 Btw, at Khan academy it's called the `Differentiate related functions`.
 
