@@ -486,7 +486,21 @@ Btw, at Khan academy it's called the `Differentiate related functions`.
 Example:
 ![image](https://user-images.githubusercontent.com/14041622/40301867-f537cfd8-5d1f-11e8-87d7-308a2ebb320b.png)
 Solve:
+- First thing we need to find the **RIGHT** equation of Chain rule. Since it's asking us to find `dy/dt`, so we will re-write it to this one to form an equation:
+![image](https://user-images.githubusercontent.com/14041622/40303119-18105648-5d24-11e8-9825-91f14654faa6.png)
+- Then since we've given the `dx/dt = -3`, we only need to find out the `dy/dx` to get the result.
+- We've got an equation of `x & y`, regardless whom it's respecting to. So we can do either `Implicit or Explicit differentiation` to the equation `y²=7x+1`, with respect to `y`:
+![image](https://user-images.githubusercontent.com/14041622/40303322-e0535cc2-5d24-11e8-9176-d082e0c68a70.png)
+- Use the implicit differentiation method, we got the `dy/dx = 7/2y`
+- And since `y=6`, so `7/2y = 7/12`
+- Back to the Chain Rule equation, we get `dy/dt = 7/12 · (-3) = -7/4 = -1.75`
 
+
+
+Example:
+
+Solve:
+- Remind you that, in this problem, it's **NOT** respecting to `x` anymore, so you need to change mind before getting confused.
 
 
 # `Second derivatives`
