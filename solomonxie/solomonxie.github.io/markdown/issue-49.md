@@ -500,7 +500,4 @@ Leibniz's notation for second derivative is:
 It's developed by the Chain rule:
 ![image](https://user-images.githubusercontent.com/14041622/40294502-6f80d4c8-5d08-11e8-82a5-5b91e20a2e7f.png)
 
-So here it comes:
-**The derivative of a function, could be `1 over the derivative of its INVERSE`**
 
-Example:
