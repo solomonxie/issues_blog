@@ -490,3 +490,17 @@ Notation:
 Leibniz's notation for second derivative is:
 ![image](https://user-images.githubusercontent.com/14041622/40231289-2c34f3da-5acd-11e8-9348-2ba4fb04a2aa.png)
 ![image](https://user-images.githubusercontent.com/14041622/40231293-344c4e10-5acd-11e8-886d-39457c2efb2d.png)
+
+
+
+# `Derivative of Inverse functions`
+
+![image](https://user-images.githubusercontent.com/14041622/40294394-f6786cb2-5d07-11e8-8d47-1d71456b4d2f.png)
+
+It's developed by the Chain rule:
+![image](https://user-images.githubusercontent.com/14041622/40294502-6f80d4c8-5d08-11e8-82a5-5b91e20a2e7f.png)
+
+So here it comes:
+**The derivative of a function, could be `1 over the derivative of its INVERSE`**
+
+Example:
