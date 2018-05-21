@@ -122,3 +122,14 @@ defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false
 ```
 
 参考这个系统设置的其它设置，看[这篇文章](https://zhuanlan.zhihu.com/p/20234659)。
+
+
+# VS Code
+> VS Code 叫 "Visual Studio Code"，但是完全不同于"Visual Studio"，可以不用害怕。实际上相当轻量、可定制、好看。被称为`The last IDE you need`.
+
+安装极其简单，Mac上下载好文件后，直接双击运行就ok了。
+
+![硅谷第五季截图](https://user-images.githubusercontent.com/14041622/40292967-09e76e30-5d01-11e8-8347-e05a25eb71d0.png)
+硅谷第五季截图
+
+## 更改下面状态栏status bar的颜色
