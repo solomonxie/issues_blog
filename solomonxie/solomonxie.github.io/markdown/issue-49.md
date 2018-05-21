@@ -347,6 +347,8 @@ Chain Rule | f(g(x)) | f’(g(x)) · g’(x)
 # `Chain Rule`
 > One of the **core principles** in Calculus is the Chain Rule.
 
+![image](https://user-images.githubusercontent.com/14041622/40289431-ce3b8652-5cea-11e8-9aba-c40a24f19bdd.png)
+
 [Refer to Khan academy article: Chain rule](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-rules/modal/a/chain-rule-review)
 
 It tells us how to differentiate `Composite functions`.
