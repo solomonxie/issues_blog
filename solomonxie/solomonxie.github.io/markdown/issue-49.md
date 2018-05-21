@@ -406,6 +406,8 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40227555-69eb9e74-5ac1-11e8-98cf-75d6088b5b4f.png)
 
 ## Reminder of Trig identities & Unit circle values
+[Refer to previous note of all trig identities.](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-377684464)
+
 ```py
 # Reciprocal and quotient identities
 tan(θ) = sin(θ) / cos(θ)
