@@ -498,9 +498,16 @@ Solve:
 
 
 Example:
-
+![image](https://user-images.githubusercontent.com/14041622/40303447-5c3a1196-5d25-11e8-9239-b95c743b8be0.png)
 Solve:
 - Remind you that, in this problem, it's **NOT** respecting to `x` anymore, so you need to change mind before getting confused.
+- First thing we need to find the **RIGHT** equation of Chain rule. Since it's asking us to find `dx/dt`, so we will re-write it to this one to form an equation:
+![image](https://user-images.githubusercontent.com/14041622/40303475-78622dd6-5d25-11e8-9912-bd3744e514e9.png)
+- Then since we've given the `dy/dt = -0.5`, we only need to find out the `dx/dy` to get the result.
+- We've got an equation of `x & y`, regardless whom it's respecting to. It seems easier to **differentiate** explicitly:
+![image](https://user-images.githubusercontent.com/14041622/40303547-c07bde32-5d25-11e8-8e6c-2c2d532a45b8.png)
+- Then we use `d/dx` to differentiate the equation to get: `dx/dy = y⁻² = (0.2)⁻² = 25`
+- Back to the Chain Rule equation, we get `dx/dt = dx/dy · dy/dt = 25 * (-0.5) = -12.5`.
 
 
 # `Second derivatives`
