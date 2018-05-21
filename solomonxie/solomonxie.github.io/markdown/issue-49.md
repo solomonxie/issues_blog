@@ -503,3 +503,12 @@ It's developed by the Chain rule:
 ## `Derivative of Inverse Trig functions`
 ![image](https://user-images.githubusercontent.com/14041622/40295659-bafc3b14-5d0c-11e8-9a1d-ddfa0c4295d5.png)
 
+
+
+
+# `Derivative of exponential functions`
+
+> It's save a lot of time of life not to dig in how mathematicians developed these formulas.
+If you do want to, [refer to Khan's lecture: Exponential functions differentiation intro](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-advanced/modal/v/exponential-functions-differentiation-intro)
+
+![image](https://user-images.githubusercontent.com/14041622/40298682-8ae4c95a-5d16-11e8-8115-1363d8ae637c.png)
