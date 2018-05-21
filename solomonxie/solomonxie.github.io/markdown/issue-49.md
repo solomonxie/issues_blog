@@ -382,16 +382,23 @@ It's a composite function, which the inner is `2x³-4x` and outer is `sin(x)`.
 ![image](https://user-images.githubusercontent.com/14041622/40226383-24b4fe48-5abe-11e8-9cb0-9c0bda203c89.png)
 It's a composite function, which the inner is `cos(x)` and outer is `√(x)`.
 
-## `Chain Rule in Differentiation Form`
-> Some says it's much easier to understand Chain Rule in `df/dx` form.
+## `Two forms of Chain Rule`
 
-![image](https://user-images.githubusercontent.com/14041622/40268878-2efa0a70-5ba8-11e8-9de6-1ba1c843e3f0.png)
+The general form of Chain Rule is like this:
+![image](https://user-images.githubusercontent.com/14041622/40289487-313c6d84-5ceb-11e8-85a9-2aee2108aa60.png)
 
-[Refer to Symbolab worked example.](https://www.symbolab.com/solver/step-by-step/%5Cfrac%7Bd%7D%7Bdx%7D%5Cleft(sqrt%5Cleft(3cos%5E%7B3%7D%5Cleft(x%5Cright)%5Cright)%5Cright))
+But the Chain Rule has another **more commonly used** form:
+![image](https://user-images.githubusercontent.com/14041622/40289493-3ddcdfa6-5ceb-11e8-9771-2d93d210a85b.png)
+
+Their results are exactly the same.
+It's just some people find the first form makes sense, some more people find the second one does.
+
+
 
 Example:
 ![image](https://user-images.githubusercontent.com/14041622/40268880-38210900-5ba8-11e8-8e45-3691ad3b5163.png)
-
+Solve:
+[Refer to Symbolab worked example.](https://www.symbolab.com/solver/step-by-step/%5Cfrac%7Bd%7D%7Bdx%7D%5Cleft(sqrt%5Cleft(3cos%5E%7B3%7D%5Cleft(x%5Cright)%5Cright)%5Cright))
 
 
 # `Derivatives of Trig functions`
