@@ -349,6 +349,19 @@ Facebook、twitter、微信、等一切社交媒体上通过@此系统id号的�
 但是如果从博客上更改了文章，那么也可以去更新github上对应的issue。
 
 
+# Project: Gitissues 分发系统
+@2018-05-17
+
+写的话，集中在一个repo的issues里面写就可以。
+但是其实更需要分很多个repo来生成专门的博客。
+
+先创建多个repo，如Math／ML／Tech 等等。
+
+在总issue里，可以随便乱写，然后脚本根据每个issue的Milestone或label或某种设置，把它映射到不同的repo中的issues和markdown文件中去。
+
+
+
+
 # (✔已完成）Project: cmd工具自动同步issues到repo里 
 - 自动检测issues更新，生成md文件到指定repo中
 - 检测到issues内容变动（根据修改时间）则自动更新对应文件
