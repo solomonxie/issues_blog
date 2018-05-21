@@ -462,7 +462,10 @@ Solve:
 
 
 # `Related Rates`
-> It's so much harder to understand as **extension** to `Implicit Differentiation`.
+> It's so much harder to understand as **extension** to `Implicit Differentiation` as a beginner to it.
+Actually when you're calculating an Implicit Differentiation at Symbolab.com, it's actually showing you the method of Related Rates.
+
+![image](https://user-images.githubusercontent.com/14041622/40288873-ff4bacf2-5ce7-11e8-9729-fb9d1bd1d9f2.png)
 
 Btw, at Khan academy it's called the `Differentiate related functions`.
 
@@ -470,7 +473,18 @@ Btw, at Khan academy it's called the `Differentiate related functions`.
 [Refer to video by KristaKingMath: Related rates](https://www.youtube.com/watch?v=Vi5KBiXg0Co)
 [Refer to video by The Organic Chemistry Tutor: Introduction to Related Rates](https://www.youtube.com/watch?v=I9mVUo-bhM8&t=0s&index=78&list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv)
 
-![image](https://user-images.githubusercontent.com/14041622/40288873-ff4bacf2-5ce7-11e8-9729-fb9d1bd1d9f2.png)
+## `Two forms of Chain Rule`
+
+The general form of Chain Rule is like this:
+![image](https://user-images.githubusercontent.com/14041622/40289487-313c6d84-5ceb-11e8-85a9-2aee2108aa60.png)
+
+But the Chain Rule has another **more commonly used** form:
+![image](https://user-images.githubusercontent.com/14041622/40289493-3ddcdfa6-5ceb-11e8-9771-2d93d210a85b.png)
+
+Their results are exactly the same.
+It's just some people find the first form makes sense, some more people find the second one does.
+
+
 
 
 
