@@ -468,6 +468,9 @@ Btw, at Khan academy it's called the `Differentiate related functions`.
 [Refer to video by KristaKingMath: Related rates](https://www.youtube.com/watch?v=Vi5KBiXg0Co)
 [Refer to video by The Organic Chemistry Tutor: Introduction to Related Rates](https://www.youtube.com/watch?v=I9mVUo-bhM8&t=0s&index=78&list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv)
 
+![image](https://user-images.githubusercontent.com/14041622/40288873-ff4bacf2-5ce7-11e8-9729-fb9d1bd1d9f2.png)
+
+
 
 # `Second derivatives`
 The second derivative of a function is simply the derivative of the function's derivative.
