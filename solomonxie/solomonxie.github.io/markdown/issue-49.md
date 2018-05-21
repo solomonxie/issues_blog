@@ -512,3 +512,11 @@ It's developed by the Chain rule:
 If you do want to, [refer to Khan's lecture: Exponential functions differentiation intro](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-advanced/modal/v/exponential-functions-differentiation-intro)
 
 ![image](https://user-images.githubusercontent.com/14041622/40298682-8ae4c95a-5d16-11e8-8115-1363d8ae637c.png)
+
+Example:
+Find the derivative of:
+![image](https://user-images.githubusercontent.com/14041622/40298914-3a2b92f4-5d17-11e8-884e-be6cf50eb431.png)
+Solve:
+Reminder: **Don't forget it's a `composite function` and you need to apply the chain rule.**
+
+![image](https://user-images.githubusercontent.com/14041622/40298961-6157e9e0-5d17-11e8-8f73-56ca14655ccf.png)
