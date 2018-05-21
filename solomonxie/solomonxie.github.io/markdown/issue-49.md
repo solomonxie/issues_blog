@@ -500,4 +500,6 @@ Leibniz's notation for second derivative is:
 It's developed by the Chain rule:
 ![image](https://user-images.githubusercontent.com/14041622/40294502-6f80d4c8-5d08-11e8-82a5-5b91e20a2e7f.png)
 
+## `Derivative of Inverse Trig functions`
+![image](https://user-images.githubusercontent.com/14041622/40295659-bafc3b14-5d0c-11e8-9a1d-ddfa0c4295d5.png)
 
