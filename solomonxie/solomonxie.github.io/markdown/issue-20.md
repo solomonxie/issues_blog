@@ -278,7 +278,7 @@ Facebook、twitter、微信、等一切社交媒体上通过@此系统id号的�
 
 
 
-# Algorithm: 配对消除法
+# (已实现✔) Algorithm: 配对消除法
 两个json列表，new和old，
 双层循环，每次遇到完全相同的，同id且更新时间也一样，就同时把两个列表里的这一项都删除。
 最后剩下的，在new列表里剩下的就是需要更新的项目，old列表里剩下的就是需要删除的项目。
@@ -286,7 +286,7 @@ Facebook、twitter、微信、等一切社交媒体上通过@此系统id号的�
 就达到了网络和本地的同步对应。
 
 
-# Project: 制作github图片储存器，python或shell脚本都行
+# (已实现✔) Project: 制作github图片储存器，python或shell脚本都行
 将粘贴板里的图片或指定位置的图片自动上传到自己的某个repo中，然后返回图片raw链接供粘贴。
 这样就可以在任意地方如简书等随意引用。
 
@@ -341,7 +341,7 @@ Facebook、twitter、微信、等一切社交媒体上通过@此系统id号的�
 但是如果从博客上更改了文章，那么也可以去更新github上对应的issue。
 
 
-# Project: cmd工具自动同步issues到repo里
+# (✔已完成）Project: cmd工具自动同步issues到repo里 
 - 自动检测issues更新，生成md文件到指定repo中
 - 检测到issues内容变动（根据修改时间）则自动更新对应文件
 - 在本地后台python运行，或树莓派等
