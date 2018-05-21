@@ -103,7 +103,7 @@ TODO:
 和极光词典一样
 
 
-# Project: 制作命令行版资源搜索引擎
+# Project: CLI命令行版资源搜索引擎
 
 - 一开始主要是根据关键词来展现piratebay的搜索结果
 - 并且添加磁性连接的复制、种子下载到本地的功能。
@@ -148,13 +148,15 @@ Scan and analyse all my photos and create a vivid biography of mine
 如果可以连结服务器，能做的事就更多了
 
 
-# Project: Oct 30 2017
+# Project: Chrome 插件，超越google keep的网络内容保存插件 @Oct 30 2017
 Chrome 插件，超越google keep的网络内容保存插件
 具有逻辑性和线索性
 能够记录自己搜索一个问题解答的全部相关文章，按线索性整理排列，并能一键转换为可下载的离线archive（网页PDF或全文截图）
 
 
 # Project: Oct 22 2017
+
+`#ai #machinelearning #cv #图像识别 #人工智能`
 
 技术上主要研修AI领域中的图像分析技术。
 不是识别照片中的各种事物，而是识别从图片中识别电脑的各种事物…
