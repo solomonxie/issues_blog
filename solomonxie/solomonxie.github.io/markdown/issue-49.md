@@ -10,8 +10,8 @@
 - [x] [Limits and continuity](https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-continuity/modal/test/ab-limits-continuity-unit-test)
 - [x] [Derivatives introduction](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-intro/modal/test/ab-derivative-intro-unit-test)
 - [x] [Derivative rules](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-rules/modal/test/ab-derivative-rules-unit-test)
-- [ ] [Advanced derivatives](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-advanced/modal/test/ab-derivatives-advanced-unit-test)
-- [ ] Existence theorems
+- [x] [Advanced derivatives](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-advanced/modal/test/ab-derivatives-advanced-unit-test)
+- [ ] [Existence theorems](https://www.khanacademy.org/math/ap-calculus-ab/ab-existence-theorems/modal/test/ab-existence-theorems-unit-test)
 - [ ] Using derivatives to analyze functions
 - [ ] Applications of derivatives
 - [ ] Accumulation and Riemann sums
