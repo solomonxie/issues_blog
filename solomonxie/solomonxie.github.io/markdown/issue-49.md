@@ -603,7 +603,8 @@ Solve:
 - So according to the Intermediate Value Theorem, there IS a root between `[3,5]`.
 - Calculate `f(c)=0` get the root `c=4`.
 
-
 ## `Extreme Value Theorem (EVT)`
+![image](https://user-images.githubusercontent.com/14041622/40359648-16501adc-5df6-11e8-87df-67f066ec8235.png)
+
 
 ## `Mean Value Theorem (MVT)`
