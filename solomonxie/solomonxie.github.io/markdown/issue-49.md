@@ -580,15 +580,24 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40358703-b872e8f2-5df2-11e8-9230-88d5a5bb8059.png)
 
 ## `Intermediate Value Theorem (IVT)`
-`IVT` is often to find `roots` of a function, which means to find the `x value when f(x)=0`.
 
+The definition is quite simple:
+When we have 2 points **connected** by a **continuous** curve:
+one point **below** the line, the other point **above** the line,
+then there will be at least one place where the curve crosses the line!
+
+![image](https://user-images.githubusercontent.com/14041622/40359266-b30d756a-5df4-11e8-92be-474ac99a08d4.png)
+
+[Refer to Maths if fun: Intermediate Value Theorem](https://www.mathsisfun.com/algebra/intermediate-value-theorem.html)
 [Refer to video: Intermediate Value Theorem Explained](https://www.youtube.com/watch?v=9wEHwFrUyOU)
 
-For finding a root, the definition will be:
+### Find roots by using IVT
+`IVT` is often to find `roots` of a function, which means to find the `x value when f(x)=0`.
+So for finding a root, the definition will be:
 > If `f(x)` is continuous and has an interval `[a, b]`, which leads the function that `f(a)<0 & f(b)>0` , then it MUST has a point `f(c)=0` between interval `[a,b]`, which makes a root `c`.
 
 Example:
-Tell if the function `f(x) = x²-x-12` in interval `[3,5]` has a root.
+Tell whether the function `f(x) = x² - x - 12` in interval `[3,5]` has a root.
 Solve:
 - We got that at both sides of intervals: `f(3)=-6 < 0`, and `f(5)=8 > 0`
 - So according to the Intermediate Value Theorem, there IS a root between `[3,5]`.
