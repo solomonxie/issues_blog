@@ -574,9 +574,26 @@ Solve:
 
 # `Existence Theorems`
 > Existence theorems includes 3 theorems: `Intermediate Value Theorem`, `Extreme Value Theorem`, `Mean Value Theorem`.
+
+[Refer to Khan academy: Existence theorems intro](https://www.khanacademy.org/math/ap-calculus-ab/ab-existence-theorems/modal/v/existence-theorems)
+
 ![image](https://user-images.githubusercontent.com/14041622/40358703-b872e8f2-5df2-11e8-9230-88d5a5bb8059.png)
 
 ## `Intermediate Value Theorem (IVT)`
+`IVT` is often to find `roots` of a function, which means to find the `x value when f(x)=0`.
+
+[Refer to video: Intermediate Value Theorem Explained](https://www.youtube.com/watch?v=9wEHwFrUyOU)
+
+For finding a root, the definition will be:
+> If `f(x)` is continuous and has an interval `[a, b]`, which leads the function that `f(a)<0 & f(b)>0` , then it MUST has a point `f(c)=0` between interval `[a,b]`, which makes a root `c`.
+
+Example:
+Tell if the function `f(x) = x²-x-12` in interval `[3,5]` has a root.
+Solve:
+- We got that at both sides of intervals: `f(3)=-6 < 0`, and `f(5)=8 > 0`
+- So according to the Intermediate Value Theorem, there IS a root between `[3,5]`.
+- Calculate `f(c)=0` get the root `c=4`.
+
 
 ## `Extreme Value Theorem (EVT)`
 
