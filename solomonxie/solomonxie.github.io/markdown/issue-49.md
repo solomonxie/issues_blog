@@ -606,5 +606,7 @@ Solve:
 ## `Extreme Value Theorem (EVT)`
 ![image](https://user-images.githubusercontent.com/14041622/40359648-16501adc-5df6-11e8-87df-67f066ec8235.png)
 
+[Refer to Khan lecture: Extreme value theorem](https://www.khanacademy.org/math/ap-calculus-ab/ab-existence-theorems/modal/v/extreme-value-theorem)
+[Refer to video: Extreme Value Theorem](https://www.youtube.com/watch?v=Sx2lPZlnWfs)
 
 ## `Mean Value Theorem (MVT)`
