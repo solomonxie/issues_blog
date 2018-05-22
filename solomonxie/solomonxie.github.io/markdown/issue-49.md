@@ -569,3 +569,15 @@ Find the derivative of:
 Solve:
 
 ![image](https://user-images.githubusercontent.com/14041622/40298961-6157e9e0-5d17-11e8-8f73-56ca14655ccf.png)
+
+
+
+# `Existence Theorems`
+> Existence theorems includes 3 theorems: `Intermediate Value Theorem`, `Extreme Value Theorem`, `Mean Value Theorem`.
+![image](https://user-images.githubusercontent.com/14041622/40358703-b872e8f2-5df2-11e8-9230-88d5a5bb8059.png)
+
+## `Intermediate Value Theorem (IVT)`
+
+## `Extreme Value Theorem (EVT)`
+
+## `Mean Value Theorem (MVT)`
