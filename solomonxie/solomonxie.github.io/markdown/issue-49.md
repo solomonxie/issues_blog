@@ -610,6 +610,9 @@ Solve:
 [Refer to video: Extreme Value Theorem](https://www.youtube.com/watch?v=Sx2lPZlnWfs)
 
 ## `Mean Value Theorem (MVT)`
+
+[Refer to Khan academy article: Establishing differentiability for MVT](https://www.khanacademy.org/math/ap-calculus-ab/ab-existence-theorems/modal/a/review-establishing-differentiability-for-mvt)
+
 > The `MVT` is saying: 
 If your function is **CONTINUOUS** over `[a,b]` and **DIFFERENTIABLE** over `(a,b)`, 
 then there **MUST BE** a **tangent line** has the same slope with the **Secant line**.
