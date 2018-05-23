@@ -638,5 +638,5 @@ It's quite simple to apply and very convenient to solve some problems.
 Example:
 
 
-# `Analyzing a function with its derivative`
-
+# `Derivative analyze functions`
+It's a big deal in the purpose of studying Calculus.
