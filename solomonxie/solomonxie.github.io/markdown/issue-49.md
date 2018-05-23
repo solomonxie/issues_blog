@@ -628,7 +628,7 @@ Which also means that, if the conditions are satisfied, then there **MUST BE** a
 
 
 # `L'Hopital's Rule`
-`L`Hopital's Rule helps us find the limit of an `Undefined` limits, like `0/0`, `∞/∞` and such.
+`L`Hopital's Rule helps us to find the limit of an `Undefined` limits, like `0/0`, `∞/∞` and such.
 It's quite simple to apply and very convenient to solve some problems.
 
 [Refer to `L'Hôpital's rule`](https://en.wikipedia.org/wiki/L%27H%C3%B4pital%27s_rule)
