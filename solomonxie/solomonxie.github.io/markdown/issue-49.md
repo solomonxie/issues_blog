@@ -617,9 +617,11 @@ Solve:
 If your function is **CONTINUOUS** over `[a,b]` and **DIFFERENTIABLE** over `(a,b)`, 
 then there **MUST BE** a **tangent line** has the same slope with the **Secant line**.
 
-![image](https://user-images.githubusercontent.com/14041622/40409764-6e6c566a-5e9e-11e8-8d5a-42441f4bb351.png)
-
 Which also means that, if the conditions are satisfied, then there **MUST BE** a number `c` makes the **derivative** is equal to the **`Average Rate of Change`** between the two end points.
 ![image](https://user-images.githubusercontent.com/14041622/40409998-308d166c-5e9f-11e8-9871-829dc7f66658.png)
+
+
+![image](https://user-images.githubusercontent.com/14041622/40409764-6e6c566a-5e9e-11e8-8d5a-42441f4bb351.png)
+
 
 ![image](https://user-images.githubusercontent.com/14041622/40409012-13197ff6-5e9c-11e8-8d3b-b0933d62d2bb.png)
