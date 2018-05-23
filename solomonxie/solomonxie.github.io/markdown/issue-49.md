@@ -636,3 +636,7 @@ It's quite simple to apply and very convenient to solve some problems.
 ![image](https://user-images.githubusercontent.com/14041622/40418356-bb326906-5eb4-11e8-9255-c5987bc96b5e.png)
 
 Example:
+
+
+# `Analyzing a function with its derivative`
+
