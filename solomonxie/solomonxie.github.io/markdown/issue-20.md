@@ -360,6 +360,16 @@ Facebook、twitter、微信、等一切社交媒体上通过@此系统id号的�
 在总issue里，可以随便乱写，然后脚本根据每个issue的Milestone或label或某种设置，把它映射到不同的repo中的issues和markdown文件中去。
 
 
+# Project: 根据github笔记制作遗忘曲线邮件提醒
+
+利用github笔记的历史版本记录功能，
+在树莓派上建立`定期发送邮件脚本`，
+根据`遗忘曲线`的复习周期，定期将github的该篇笔记的markdown内容转为邮件富文本样式发送给指定邮箱。
+
+主要技术：
+- Linux的`sendmail`或`mail`命令设置
+- Python的Markdown转html或邮件富文本格式
+- github笔记的时间分析功能：以该笔记在git中记录的最早时间为记忆周期的starting point， 然后根据更新的时间点，判断last_updated时间处在记忆周期的哪个点上，然后排列出一个提醒日程表，根据日程发送邮件。
 
 
 # (✔已完成）Project: cmd工具自动同步issues到repo里 
