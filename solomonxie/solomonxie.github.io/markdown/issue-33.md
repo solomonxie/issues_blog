@@ -1,4 +1,4 @@
-# OS 操作杂疑症状
+# OS：Linux/MacOS/Win 操作杂疑症状
 > Linux等操作系统日常操作实在需要解决的问题太多了，在这里记录点滴再合适不过了。
 其它Unix类（包括Mac中与此相关都）也都在这里。
 与命令行学习有区分，这里只是针对Linux系统而言，即使有一些命令的运用但也只是针对某发行版或某种只在Linux上才会出现的问题
@@ -59,3 +59,11 @@ fcitx -d
 - `^`, **Caret**
 - `*`, **Asterisk**
 [More Details](https://user-images.githubusercontent.com/14041622/35766438-ab7f0fa6-0913-11e8-84a0-3f064dd87102.png)
+
+
+
+# Mac 打字时连续按两下就会打出`.`句号的问题
+这个功能是默认的，实际上很耽误事，尤其在编程时连续打4个空格时。
+取消很简单，如下图：
+
+![Add period with double-space](https://user-images.githubusercontent.com/14041622/35217554-abf43b1c-ffa6-11e7-9194-008c83bff8df.png)
