@@ -625,3 +625,14 @@ Which also means that, if the conditions are satisfied, then there **MUST BE** a
 
 
 ![image](https://user-images.githubusercontent.com/14041622/40409012-13197ff6-5e9c-11e8-8d3b-b0933d62d2bb.png)
+
+
+# `L'Hopital's Rule`
+`L`Hopital's Rule helps us find the limit of an `Undefined` limits, like `0/0`, `∞/∞` and such.
+It's quite simple to apply and very convenient to solve some problems.
+
+[Refer to `L'Hôpital's rule`](https://en.wikipedia.org/wiki/L%27H%C3%B4pital%27s_rule)
+
+![image](https://user-images.githubusercontent.com/14041622/40418356-bb326906-5eb4-11e8-9255-c5987bc96b5e.png)
+
+Example:
