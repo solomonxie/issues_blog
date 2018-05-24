@@ -379,11 +379,48 @@ https://api.github.com/graphql
 
 不像REST，你需要各种各有的URL去申请不同的内容。GraphQL一个URL全够了，而且一般不是很复杂的情况下，你几乎只要request一次这个地址，就能拿到你全部需要的数据了（能按照你的需求返回给你各种嵌套的、格式化的数据）
 
-## 初试GraphQL
-要说去了解一个API，最好的方式就是用`Postman`或`Insomnia`这种REST客户端去连接玩耍了，不需要任何编程，只是手动点一点就ok。
+## `初试GraphQL`
+
+> 要说去了解一个API，最好的方式就是用`Postman`或`Insomnia`这种REST客户端去连接玩耍了，不需要任何编程，只是手动点一点就ok。
 
 ”有意思“的是，因为GraphQL太新潮，这两大客户端对它的支持各不相同，使用的参数、格式也大相径庭。
 下面通过最简单的案例总结一下。
 
-### Postman访问Github GraphQL 案例
+### `Insomnia`访问Github GraphQL 的案例
+Insomnia对GraphQL的支持相当好，可以说已经领先别人一步。
+以下为操作步骤：
+- 新建request， 设置为POST方式访问`https://api.github.com/graphql`
+- 申请授权认证：
+Github的API v4不能陌生访问，必须使用自己的账号申请一个token密码串，然后在每次连接API时使用。
+操作很简单，登录Github后，找到`Settings -> Developer settings -> Personal access tokens -> Generate new token`，生成一个新的token授权密码串，复制保存到本地备份。
+- 添加授权认证：
+在Insomnia软件里，有两种授权方式都可以达到同样认证效果：明文的Query参数里设置（即在url后面加上参数），或者Header表头里设置。
+Query里设置的话，格式为：`?access_token=xxxxxxxxxxx`
+Header里设置的话，格式是：名称为`Authorization`，值为`token xxxxxxxxxx`。
+- 在栏目里面的Body位置选择`GraphQL`格式：
+![image](https://user-images.githubusercontent.com/14041622/40484136-2289977c-5f8d-11e8-9957-aa71b5af0d7d.png)
+- 输入Github指定格式的`查询语句`（看似JSON格式实则不是）：
+```
+query {
+  viewer {
+    login
+  }
+}
+```
+- 点击Send发送请求，如果一切正常，则会得到查询的返回值：
+![image](https://user-images.githubusercontent.com/14041622/40484234-770c035c-5f8d-11e8-96da-44e614821557.png)
+
+
+### `Postman`访问Github GraphQL 的案例
+不像Insomnia，Postman暂时没有支持GraphQL的选项，但是可以通过类似的操作达到一样的效果。流程是一样的，只是每个地方设置格式都不同，这也是我不断尝试才找到的总结方案（可惜网上相关教程太少）。
+
+这里只说不同的地方吧：
+- 授权比Insomnia多一种方式，可以在`Authorization`栏目里面直接选`OAuth 2.0`然后输入token密码串。
+- 最重要的是Body部分，`查询语句`完全不能使用Github指定的格式。只能这样操作才能查询：
+选择Body格式为`Raw -> JSON(application/json)`。然后查询语句格式如下**（必须完全符合JSON语法）**：
+```
+{ 
+  "query": "query {viewer { login } }"
+}
+```
 
