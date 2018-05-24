@@ -366,3 +366,24 @@ pm.response.to.have.status("状态名");
 
 ![image](https://user-images.githubusercontent.com/14041622/36188652-53291c34-1188-11e8-89ec-6501c26c5563.png)
 
+
+
+
+# `Github API v4: GraphQL`
+`GraphQL`势不可挡，有着即将取代REST的API架构。主要好处就是“你要什么，api就给你什么。而不是给你返回一大堆没用的。”
+
+而且：GraphQL只需要一个网址URL！
+```
+https://api.github.com/graphql
+```
+
+不像REST，你需要各种各有的URL去申请不同的内容。GraphQL一个URL全够了，而且一般不是很复杂的情况下，你几乎只要request一次这个地址，就能拿到你全部需要的数据了（能按照你的需求返回给你各种嵌套的、格式化的数据）
+
+## 初试GraphQL
+要说去了解一个API，最好的方式就是用`Postman`或`Insomnia`这种REST客户端去连接玩耍了，不需要任何编程，只是手动点一点就ok。
+
+”有意思“的是，因为GraphQL太新潮，这两大客户端对它的支持各不相同，使用的参数、格式也大相径庭。
+下面通过最简单的案例总结一下。
+
+### Postman访问Github GraphQL 案例
+
