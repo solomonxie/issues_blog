@@ -389,7 +389,7 @@ https://api.github.com/graphql
 ”有意思“的是，因为GraphQL太新潮，这两大客户端对它的支持各不相同，使用的参数、格式也大相径庭。
 下面通过最简单的案例总结一下。
 
-### `Insomnia`访问Github GraphQL 的案例
+### `Insomnia 访问Github GraphQL 的案例`
 Insomnia对GraphQL的支持相当好，可以说已经领先别人一步。
 以下为操作步骤：
 - 新建request， 设置为POST方式访问`https://api.github.com/graphql`
@@ -414,7 +414,7 @@ query {
 ![image](https://user-images.githubusercontent.com/14041622/40484234-770c035c-5f8d-11e8-96da-44e614821557.png)
 
 
-### `Postman`访问Github GraphQL 的案例
+### `Postman 访问Github GraphQL 的案例`
 不像Insomnia，Postman暂时没有支持GraphQL的选项，但是可以通过类似的操作达到一样的效果。流程是一样的，只是每个地方设置格式都不同，这也是我不断尝试才找到的总结方案（可惜网上相关教程太少）。
 
 这里只说不同的地方吧：
