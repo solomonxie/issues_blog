@@ -2,7 +2,7 @@
 > 目前是操作Github API获取自己的repo和issues数据，然后还会研究bitbucket等各种各样的网站API
 
 
-# Github API 文档学习
+# Github API v3 文档学习
 [v3版API的文档链接](https://developer.github.com/v3/)
 [v3版API的官方教程](https://developer.github.com/v3/guides/getting-started/)
 
