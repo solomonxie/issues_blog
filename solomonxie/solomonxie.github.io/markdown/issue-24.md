@@ -567,9 +567,6 @@ print str( date.today() )
 - 启动方法一：`python -m pdb PATH-TO-SCRIPT.py`
 - 启动方法二：代码中写入`import pdb;pdb.set_trace()`，即插入了一个断点。
 
-![image](https://user-images.githubusercontent.com/14041622/35992333-f5e0e544-0d44-11e8-868c-3722bbb24903.png)
-
-
 ## 常用命令
 ```shell
 # 退出循环
