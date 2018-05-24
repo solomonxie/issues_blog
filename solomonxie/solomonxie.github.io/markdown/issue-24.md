@@ -571,6 +571,18 @@ print str( date.today() )
 
 ![image](https://user-images.githubusercontent.com/14041622/35991850-77a2bb90-0d43-11e8-9aad-a46cb9869136.png)
 
+## 常用命令
+```shell
+# 退出循环
+until
+
+# 下一步
+next 或 n
+
+# 深入性下一步（进入每次调用的函数里面）
+step 或 s
+
+```
 
 
 # 用requests报错`requests.exceptions.SSLError`
