@@ -416,11 +416,11 @@ query {
 
 这里只说不同的地方吧：
 - 授权比Insomnia多一种方式，可以在`Authorization`栏目里面直接选`OAuth 2.0`然后输入token密码串。
-- 最重要的是Body部分，`查询语句`完全不能使用Github指定的格式。只能这样操作才能查询：
-选择Body格式为`Raw -> JSON(application/json)`。然后查询语句格式如下**（必须完全符合JSON语法）**：
+- 最重要的是Body部分，`查询语句`完全不能使用Github指定的格式。只能选择Body格式为`Raw -> JSON(application/json)`。然后加上`查询语句`，格式如下**（必须完全符合JSON语法）**：
 ```
 { 
   "query": "query {viewer { login } }"
 }
 ```
+![image](https://user-images.githubusercontent.com/14041622/40484631-dd98be52-5f8e-11e8-82ba-8f77648680ea.png)
 
