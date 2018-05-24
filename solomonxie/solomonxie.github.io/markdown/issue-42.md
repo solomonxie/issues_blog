@@ -401,7 +401,7 @@ Github的API v4不能陌生访问，必须使用自己的账号申请一个token
 Query里设置的话，格式为：`?access_token=xxxxxxxxxxx`
 Header里设置的话，格式是：名称为`Authorization`，值为`token xxxxxxxxxx`。
 - 在栏目里面的Body位置选择`GraphQL`格式：
-![image](https://user-images.githubusercontent.com/14041622/40484136-2289977c-5f8d-11e8-9957-aa71b5af0d7d.png)
+![image](https://user-images.githubusercontent.com/14041622/40486898-28ad1e5a-5f95-11e8-8491-98aab556e5b6.png)
 - 输入Github指定格式的`查询语句`（看似JSON格式实则不是）：
 ```
 query {
