@@ -431,5 +431,8 @@ query {
 ## `GitHub GraphQL Explorer`
 这个是Github制作的`网页练习机`，免去了一切授权等处理，让你只专注于`查询语句`的调用练习。每次点击运行，都会实时返回对应的数据。
 
+
+[GraphQL API Explorer | GitHub Developer Guide](https://developer.github.com/v4/explorer/)
+
 ![image](https://user-images.githubusercontent.com/14041622/40486963-53122aa0-5f95-11e8-9391-f134abcde80a.png)
 
