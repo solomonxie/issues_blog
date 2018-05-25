@@ -705,3 +705,12 @@ For find a decreasing interval, we assume `f'(x) < 0`, and by solving the inequa
 [Refer to Khan academy article: Absolute minima & maxima review](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/a/absolute-minima-and-maxima-review)
 [Refer to Khan academy lecture: Finding absolute extrema on a closed interval](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/using-extreme-value-theorem)
 
+
+
+
+# `Concavity`
+
+[Refer to Khan academy: Concavity introduction](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/concavity-concave-upwards-and-concave-downwards-intervals)
+
+## `Identify concavity by using Second Derivative`
+![image](https://user-images.githubusercontent.com/14041622/40534451-a64de72e-6038-11e8-9a03-f665509c404e.png)
