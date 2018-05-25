@@ -724,8 +724,15 @@ Two types of concavity: `Concave Up` & `Concave Down`.
 ![image](https://user-images.githubusercontent.com/14041622/40534585-0e744fc8-6039-11e8-802b-37a9a912fddf.png)
 
 
-## `Inflection Point`
+
+
+
+# `Inflection Point`
 It could be seen as a `Switching point`, which means the point that the `Slope` of function switch from increasing and decreasing. 
 e.g., the function might be **still going up**, but at such a point it suddenly increases slower and slower. And we call that point an `inflection point`.
+![image](https://user-images.githubusercontent.com/14041622/40535579-13277fba-603c-11e8-93e5-c09a446700e7.png)
 
-Algebraically, or Calculusilly, we identify the point by its `First Derivative` and `Second Derivative`.
+
+Algebraically, we identify and express this point by the function's `First Derivative` and `Second Derivative`.
+![image](https://user-images.githubusercontent.com/14041622/40535447-b9081cec-603b-11e8-812c-89d7c77ab6c3.png)
+
