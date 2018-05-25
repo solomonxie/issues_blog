@@ -638,11 +638,15 @@ It's quite simple to apply and very convenient to solve some problems.
 Example:
 
 
-# `Critical points`
+# Analyze function by Derivatives
+Analyzing function is one of the Core Purposes of studying Calculus.
+
+> **AND THE CORE PURPOSE OF ANALYZING FUNCTION, IS FOR COMPUTER TO UNDERSTAND IT `"BLINDLY"`! BECAUSE IT CAN'T BE LIKE HUMAN TO "EYE BALL" IT!**
+
+## `Critical points`
 
 [Refer to PennCalc Main/Optimization](http://calculus.seas.upenn.edu/?n=Main.Optimization)
 
-Analyzing function is one of the Core Purposes of studying Calculus.
 For analyzing a function, it's very efficient to have a look at its `Critical points`, which could be classified as `Extrema`, `Inflection`, `Corner`, and `Discontinuity`.
 
 ![image](https://user-images.githubusercontent.com/14041622/40529990-a0dc454c-6029-11e8-9ea0-d1c77536f227.png)
