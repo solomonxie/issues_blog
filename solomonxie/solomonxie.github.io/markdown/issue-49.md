@@ -696,3 +696,8 @@ For find a decreasing interval, we assume `f'(x) < 0`, and by solving the inequa
 [Refer to Khan Academy article: Finding relative extrema](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/a/applying-the-first-derivative-test-to-find-extrema)
 
 ![image](https://user-images.githubusercontent.com/14041622/40531186-21ecfd44-602e-11e8-8018-0409609a6167.png)
+
+## `How to find Absolute Extrema`
+[Refer to Khan academy article: Absolute minima & maxima review](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/a/absolute-minima-and-maxima-review)
+[Refer to Khan academy lecture: Finding absolute extrema on a closed interval](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/using-extreme-value-theorem)
+
