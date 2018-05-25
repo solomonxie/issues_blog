@@ -638,11 +638,61 @@ It's quite simple to apply and very convenient to solve some problems.
 Example:
 
 
-# `Critical points(Extrema): Maxima & Minima`
-Analyzing function is one of the Core Purposes of studying Calculus.
+# `Critical points`
 
 [Refer to PennCalc Main/Optimization](http://calculus.seas.upenn.edu/?n=Main.Optimization)
 
+Analyzing function is one of the Core Purposes of studying Calculus.
 For analyzing a function, it's very efficient to have a look at its `Critical points`, which could be classified as `Extrema`, `Inflection`, `Corner`, and `Discontinuity`.
 
 ![image](https://user-images.githubusercontent.com/14041622/40529990-a0dc454c-6029-11e8-9ea0-d1c77536f227.png)
+
+
+
+# `Extrema: Maxima & Minima`
+`Extrema` are one type of Critical points, which includes `Maxima` & `Minima`.
+And there're two types of Max and Min, `Global Max & Local Max`, `Global Min & Local Min`.
+We can all them `Global Extrema` or `Local Extrema`.
+
+And actually we can call them in different ways, e.g.:
+- `Global Max` & `Local Max` or in short of `glo max` & `loc max`
+- `Absolute Max` & `Relative Max` or in short of`abs max` & `rel max`
+
+![image](https://user-images.githubusercontent.com/14041622/40529128-14cde61c-6026-11e8-8ebc-3dadc933afac.png)
+
+### How to identify Extrema
+
+We need two kind of conditions to identify the Max or Min. 
+Now If we have a Non-Endpoint Minimum or Maximum point at `a`, then it must satisfies these conditions:
+- **Geometric condition:** (It should be understood in a more intuitive way)
+    - in the interval `[a-h, a+h]` there's no point above or below `f(a)` or
+    - `f'(a-h)` & `f'(a+h)` have different sign, one negative another positive.
+- **Derivative condition:**
+    - `f'(a) = 0` or 
+    - `f'(a) is undefined`
+
+### How to find Extrema
+[Refer to Khan academy lecture: Finding critical points](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/finding-critical-numbers)
+
+We just need to assume `f'(x) = 0` or `f'(x) is undefined`, and solve the equation to see what `x` value makes it then.
+
+
+## `Increasing & Decreasing Intervals`
+We can easily tell at a point of a function, it's at the trending of increasing or decreasing, by just looking at the `instantaneous slope` of the point, aka. the derivate. 
+If the derivative, the slope is positive, then it's increasing. Otherwise it's decreasing.
+
+### Finding the trending at a point
+Just been said above, we assume at point `a`, it's value is `f(a)`. So the slope of it is `f'(a)`.
+And if `f'(a) < 0`, then it's decreasing; If `f'(a) > 0`, then it's increasing.
+
+### Finding a decreasing or increasing interval
+[Refer to Khan lecture.](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/increasing-decreasing-intervals-given-the-function)
+
+It's just doing the same thing in the opposite way.
+For find a decreasing interval, we assume `f'(x) < 0`, and by solving the inequality equation we will get the interval.
+
+## `How to find Relative Extrema`
+[Refer to khan: Worked example: finding relative extrema](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/finding-relative-maximum-example)
+[Refer to Khan Academy article: Finding relative extrema](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/a/applying-the-first-derivative-test-to-find-extrema)
+
+![image](https://user-images.githubusercontent.com/14041622/40531186-21ecfd44-602e-11e8-8018-0409609a6167.png)
