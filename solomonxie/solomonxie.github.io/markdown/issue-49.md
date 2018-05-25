@@ -640,3 +640,5 @@ Example:
 
 # `Derivative analyze functions`
 It's a big deal in the purpose of studying Calculus.
+
+## `Critical points`
