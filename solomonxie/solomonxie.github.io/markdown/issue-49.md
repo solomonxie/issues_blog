@@ -732,7 +732,12 @@ It could be seen as a `Switching point`, which means the point that the `Slope` 
 e.g., the function might be **still going up**, but at such a point it suddenly increases slower and slower. And we call that point an `inflection point`.
 ![image](https://user-images.githubusercontent.com/14041622/40535579-13277fba-603c-11e8-93e5-c09a446700e7.png)
 
+[Refer to Khan academy video for more intuition rapidly: Inflection points from graphs of function & derivatives](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/identifying-inflection-points-from-graphs-of-function-and-derivatives)
 
-Algebraically, we identify and express this point by the function's `First Derivative` and `Second Derivative`.
+
+Algebraically, we identify and express this point by the function's `First Derivative` OR `Second Derivative`.
 ![image](https://user-images.githubusercontent.com/14041622/40535447-b9081cec-603b-11e8-812c-89d7c77ab6c3.png)
 
+## `Second Derivative Test`
+![image](https://user-images.githubusercontent.com/14041622/40536501-f6ff649e-603e-11e8-99bd-297a0b6e3b0c.png)
+![image](https://user-images.githubusercontent.com/14041622/40536521-064a846a-603f-11e8-8f68-ce6888cf68be.png)
