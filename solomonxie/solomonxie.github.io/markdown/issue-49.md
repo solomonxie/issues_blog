@@ -744,8 +744,9 @@ Algebraically, we identify and express this point by the function's `First Deriv
 
 
 # `Anti-derivative`
-Looks like a fancy word, but it just means: Use the **Derivative function** describe the **original function**.
-Notice that, there might be multiple possible anti-derivatives.
+Looks like a fancy word, but it just means: Use the **Derivative function** describe the **Original function**.
+
+Notice that: There might be multiple possible anti-derivatives.
 
 ## The graphical relationship between a function & its derivative
 
