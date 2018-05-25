@@ -638,8 +638,22 @@ It's quite simple to apply and very convenient to solve some problems.
 Example:
 
 
-# `Derivative analyze functions`
+# `Analyze functions by Derivatives`
 That's one of the Core Purposes of studying Calculus.
+
+## `Increasing & Decreasing`
+We can easily tell at a point of a function, it's at the trending of increasing or decreasing, by just looking at the `instantaneous slope` of the point, aka. the derivate. 
+If the derivative, the slope is positive, then it's increasing. Otherwise it's decreasing.
+
+### Finding the trending at a point
+Just been said above, we assume at point `a`, it's value is `f(a)`. So the slope of it is `f'(a)`.
+And if `f'(a) < 0`, then it's decreasing; If `f'(a) > 0`, then it's increasing.
+
+### Finding a decreasing or increasing interval
+[Refer to Khan lecture.](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/increasing-decreasing-intervals-given-the-function)
+
+It's just doing the same thing in the opposite way.
+For find a decreasing interval, we assume `f'(x) < 0`, and by solving the inequality equation we will get the interval.
 
 ## `Critical points(Extrema): Maxima & Minima`
 
@@ -669,4 +683,5 @@ Now If we have a Non-Endpoint Minimum or Maximum point at `a`, then it must sati
 - **Derivative condition:**
     - `f'(a) = 0` or `f'(a) is undefined`
 
-### How to calculate Extrema
+### How to find Extrema
+[Refer to Khan academy lecture: Finding critical points](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/finding-critical-numbers)
