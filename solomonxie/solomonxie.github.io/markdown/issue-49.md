@@ -639,7 +639,7 @@ Example:
 
 
 # `Derivative analyze functions`
-It's a big deal in the purpose of studying Calculus.
+That's one of the Core Purposes of studying Calculus.
 
 ## `Critical points(Extrema): Maxima & Minima`
 
@@ -660,7 +660,7 @@ And actually we can call them in different ways, e.g.:
 
 ![image](https://user-images.githubusercontent.com/14041622/40529128-14cde61c-6026-11e8-8ebc-3dadc933afac.png)
 
-### How to find Extrema
+### How to identify Extrema
 
 We need two kind of conditions to identify the Max or Min. 
 Now If we have a Non-Endpoint Minimum or Maximum point at `a`, then it must satisfies these conditions:
@@ -668,3 +668,5 @@ Now If we have a Non-Endpoint Minimum or Maximum point at `a`, then it must sati
     - in the interval `[a-h, a+h]` there's no point above or below `f(a)`.
 - **Derivative condition:**
     - `f'(a) = 0` or `f'(a) is undefined`
+
+### How to calculate Extrema
