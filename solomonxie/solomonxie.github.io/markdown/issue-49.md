@@ -712,5 +712,20 @@ For find a decreasing interval, we assume `f'(x) < 0`, and by solving the inequa
 
 [Refer to Khan academy: Concavity introduction](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/concavity-concave-upwards-and-concave-downwards-intervals)
 
-## `Identify concavity by using Second Derivative`
+Two types of concavity: `Concave Up` & `Concave Down`.
+![image](https://user-images.githubusercontent.com/14041622/40534558-f62ee1da-6038-11e8-9aa7-926099516f64.png)
+
+## `Understand function by 1st & 2nd Derivative`
 ![image](https://user-images.githubusercontent.com/14041622/40534451-a64de72e-6038-11e8-9a03-f665509c404e.png)
+
+
+## `Identify concavity by using Second Derivative`
+
+![image](https://user-images.githubusercontent.com/14041622/40534585-0e744fc8-6039-11e8-802b-37a9a912fddf.png)
+
+
+## `Inflection Point`
+It could be seen as a `Switching point`, which means the point that the `Slope` of function switch from increasing and decreasing. 
+e.g., the function might be **still going up**, but at such a point it suddenly increases slower and slower. And we call that point an `inflection point`.
+
+Algebraically, or Calculusilly, we identify the point by its `First Derivative` and `Second Derivative`.
