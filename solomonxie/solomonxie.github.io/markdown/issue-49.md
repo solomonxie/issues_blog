@@ -642,3 +642,7 @@ Example:
 It's a big deal in the purpose of studying Calculus.
 
 ## `Critical points`
+
+Two identical sets of names of the "Max"
+- `Global Max <-> Local Max`
+- `Absolute Max <-> Relative Max`
