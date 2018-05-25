@@ -638,10 +638,8 @@ It's quite simple to apply and very convenient to solve some problems.
 Example:
 
 
-# `Analyze functions by Derivatives`
-That's one of the Core Purposes of studying Calculus.
-
-## `Critical points(Extrema): Maxima & Minima`
+# `Critical points(Extrema): Maxima & Minima`
+Analyzing function is one of the Core Purposes of studying Calculus.
 
 [Refer to PennCalc Main/Optimization](http://calculus.seas.upenn.edu/?n=Main.Optimization)
 
@@ -649,7 +647,7 @@ For analyzing a function, it's very efficient to have a look at its `Critical po
 ![image](https://user-images.githubusercontent.com/14041622/40529990-a0dc454c-6029-11e8-9ea0-d1c77536f227.png)
 
 
-### `Extrema: Maxima & Minima`
+## `Extrema: Maxima & Minima`
 `Extrema` are one type of Critical points, which includes `Maxima` & `Minima`.
 And there're two types of Max and Min, `Global Max & Local Max`, `Global Min & Local Min`.
 We can all them `Global Extrema` or `Local Extrema`.
@@ -674,7 +672,7 @@ Now If we have a Non-Endpoint Minimum or Maximum point at `a`, then it must sati
 
 We just need to assume `f'(x) = 0` or `f'(x) is undefined`, and solve the equation to see what `x` value makes it then.
 
-## `Increasing & Decreasing Intervals`
+## Increasing & Decreasing Intervals
 We can easily tell at a point of a function, it's at the trending of increasing or decreasing, by just looking at the `instantaneous slope` of the point, aka. the derivate. 
 If the derivative, the slope is positive, then it's increasing. Otherwise it's decreasing.
 
