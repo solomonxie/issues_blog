@@ -641,9 +641,8 @@ Example:
 # `Derivative analyze functions`
 It's a big deal in the purpose of studying Calculus.
 
-## `Critical points`
+## `Critical points(Extrema): Maxima & Minima`
 
-### `"Extrema" - "Maxima" & "Minima"`
 We can call the two types the "Maximum" in either two ways:
 - `Global Max` & `Local Max`
 - `Absolute Max` & `Relative Max`
