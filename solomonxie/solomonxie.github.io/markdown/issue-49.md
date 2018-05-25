@@ -741,3 +741,11 @@ Algebraically, we identify and express this point by the function's `First Deriv
 ## `Second Derivative Test`
 ![image](https://user-images.githubusercontent.com/14041622/40536501-f6ff649e-603e-11e8-99bd-297a0b6e3b0c.png)
 ![image](https://user-images.githubusercontent.com/14041622/40536521-064a846a-603f-11e8-8f68-ce6888cf68be.png)
+
+
+## The graphical relationship between a function & its derivative
+
+[Refer to Khan academy: The graphical relationship between a function & its derivative](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/intuitively-drawing-the-derivative-of-a-function)
+
+![image](https://user-images.githubusercontent.com/14041622/40538009-040c93d8-6043-11e8-9b2b-2179a6bda6df.png)
+
