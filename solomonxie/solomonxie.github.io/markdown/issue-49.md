@@ -643,6 +643,16 @@ It's a big deal in the purpose of studying Calculus.
 
 ## `Critical points`
 
-Two identical sets of names of the "Max"
-- `Global Max <-> Local Max`
-- `Absolute Max <-> Relative Max`
+### `"Extrema" - "Maxima" & "Minima"`
+We can call the two types the "Maximum" in either two ways:
+- `Global Max` & `Local Max`
+- `Absolute Max` & `Relative Max`
+
+Same with Minimum or Minimum. And we call all these the **`Extrema`**. They could be either `Global Extrema` or `Global Extrema`.
+
+![image](https://user-images.githubusercontent.com/14041622/40529128-14cde61c-6026-11e8-8ebc-3dadc933afac.png)
+
+Definition:
+If we have a Non-Endpoint Minimum or Maximum at `a`, then:
+- `f'(a) = 0` or
+- `f'(a) is undefined`
