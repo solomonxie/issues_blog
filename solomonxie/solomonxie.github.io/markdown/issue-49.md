@@ -643,15 +643,24 @@ It's a big deal in the purpose of studying Calculus.
 
 ## `Critical points(Extrema): Maxima & Minima`
 
-We can call the two types the "Maximum" in either two ways:
-- `Global Max` & `Local Max`
-- `Absolute Max` & `Relative Max`
+[Refer to PennCalc Main/Optimization](http://calculus.seas.upenn.edu/?n=Main.Optimization)
 
-Same with Minimum or Minimum. And we call all these the **`Extrema`**. They could be either `Global Extrema` or `Global Extrema`.
+For analyzing a function, it's very efficient to have a look at its `Critical points`, which could be classified as `Extrema`, `Inflection`, `Corner`, and `Discontinuity`.
+![image](https://user-images.githubusercontent.com/14041622/40529990-a0dc454c-6029-11e8-9ea0-d1c77536f227.png)
+
+
+### `Extrema: Maxima & Minima`
+`Extrema` are one type of Critical points, which includes `Maxima` & `Minima`.
+And there're two types of Max and Min, `Global Max & Local Max`, `Global Min & Local Min`.
+We can all them `Global Extrema` or `Local Extrema`.
+
+And actually we can call them in different ways, e.g.:
+- `Global Max` & `Local Max` or in short of `glo max` & `loc max`
+- `Absolute Max` & `Relative Max` or in short of`abs max` & `rel max`
 
 ![image](https://user-images.githubusercontent.com/14041622/40529128-14cde61c-6026-11e8-8ebc-3dadc933afac.png)
 
-### How to identify Extrema
+### How to find Extrema
 
 We need two kind of conditions to identify the Max or Min. 
 Now If we have a Non-Endpoint Minimum or Maximum point at `a`, then it must satisfies these conditions:
