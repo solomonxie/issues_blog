@@ -760,3 +760,8 @@ Notice that: There might be multiple possible anti-derivatives.
 [Refer to Khan academy: The graphical relationship between a function & its derivative (part 2)](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/intuitively-drawing-the-anitderivative-of-a-function)
 
 ![image](https://user-images.githubusercontent.com/14041622/40538272-d9650844-6043-11e8-8e53-6e60b4207b86.png)
+
+
+Practice:
+Connecting `f, f', f''` graphically:
+![image](https://user-images.githubusercontent.com/14041622/40538854-813e5b00-6045-11e8-8b99-372fd849fb3c.png)
