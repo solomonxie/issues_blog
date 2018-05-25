@@ -651,13 +651,11 @@ Same with Minimum or Minimum. And we call all these the **`Extrema`**. They coul
 
 ![image](https://user-images.githubusercontent.com/14041622/40529128-14cde61c-6026-11e8-8ebc-3dadc933afac.png)
 
-### How to define Extrema
-We have two mathematics ways to define Max or Min:
+### How to identify Extrema
 
-- **Geometric way:** (It should be understood in a more intuitive way)
-If we have a Non-Endpoint Minimum or Maximum point at `a`, then:
+We need two kind of conditions to identify the Max or Min. 
+Now If we have a Non-Endpoint Minimum or Maximum point at `a`, then it must satisfies these conditions:
+- **Geometric condition:** (It should be understood in a more intuitive way)
     - in the interval `[a-h, a+h]` there's no point above or below `f(a)`.
-- **Derivative way:**
-If we have a Non-Endpoint Minimum or Maximum at `a`, then:
-    - `f'(a) = 0` or
-    - `f'(a) is undefined`
+- **Derivative condition:**
+    - `f'(a) = 0` or `f'(a) is undefined`
