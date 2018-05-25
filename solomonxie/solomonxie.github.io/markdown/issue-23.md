@@ -1,4 +1,4 @@
-# Chrome浏览器疑难杂症
+# Chrome Dev Tools 浏览器开发工具
 主要在这里记录Chrome为首的一些浏览器操作日常中的问题和经验
 
 
