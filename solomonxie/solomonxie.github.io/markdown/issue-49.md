@@ -635,7 +635,19 @@ It's quite simple to apply and very convenient to solve some problems.
 
 ![image](https://user-images.githubusercontent.com/14041622/40418356-bb326906-5eb4-11e8-9255-c5987bc96b5e.png)
 
-Example:
+### Example of `0/0`
+
+### Example of `∞/∞`
+1. Find the limit:
+![image](https://user-images.githubusercontent.com/14041622/40541839-161e29bc-6050-11e8-8847-f627079e4f7e.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/40541894-46865052-6050-11e8-8124-5bfac0cf2141.png)
+
+2. Find the limit:
+![image](https://user-images.githubusercontent.com/14041622/40541969-9f1617f2-6050-11e8-9a73-8fa268b14f35.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/40541992-b64715b6-6050-11e8-9627-bb49ea149954.png)
+
 
 
 # Analyze function by Derivatives
