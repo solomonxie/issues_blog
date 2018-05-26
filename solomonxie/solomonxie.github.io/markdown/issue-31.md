@@ -173,33 +173,34 @@ ssserver -c /etc/shadowsocks.json -d start
 
 
 # 服务器安装FTP
-一般都是用到`vsftpd`。
+> 需要说明下，Linux最常用的ftp服务器端就是`vsftpd`了。
+但是，配置起来非常麻烦，网上众说纷纭，怎么写的都有，怎么出错的也都有。
+下面我尽量小心的总结一些我使用通过的配置。
 
 [参考：Ubuntu 用vsftpd 配置FTP服务器](https://www.cnblogs.com/CSGrandeur/p/3754126.html)
 
-安装方法：
+安装很简单，一句话：
 ```
-# 安装
-sudo apt-get install vsftpd
-
-# 配置文件
-sudo vim 
+$ 
 ```
 
-## 配置文件 `/etc/vsftpd.conf`
-配置内容如下：
+主要步骤是：
+- 安装：很简单，`sudo apt-get install vsftpd`
+- 配置文件：`sudo vim /etc/vsftpd.conf`，然后按照自己的需求配置文件
+- 重启ftp服务：``
+
+## 最简单配置
+> 以下内容为我所知道的最简单配置：不允许匿名登录，使用默认的linux用户和密码登录，完全权限。
 ```shell
 #禁止匿名访问
 anonymous_enable=NO
-#接受本地用户
-local_enable=YES
+
 #允许上传
 write_enable=YES
-#用户只能访问限制的目录
-chroot_local_user=YES
-#设置固定目录，在结尾添加。如果不添加这一行，各用户对应自己的目录，当然这个文件夹自己建
-local_root=/home/ftp
 ```
+然后使用FileZilla这样的FTP客户端试着登录一下：输入ip地址，用户名和密码，选择快速登录：
+![image](https://user-images.githubusercontent.com/14041622/40574349-c9903348-6102-11e8-958b-56e6c7212818.png)
+
 
 
 # 利用`VNC`连接远程服务器桌面：使用`xfce`桌面
