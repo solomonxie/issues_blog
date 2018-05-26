@@ -177,20 +177,16 @@ ssserver -c /etc/shadowsocks.json -d start
 但是，配置起来非常麻烦，网上众说纷纭，怎么写的都有，怎么出错的也都有。
 下面我尽量小心的总结一些我使用通过的配置。
 
-[参考：Ubuntu 用vsftpd 配置FTP服务器](https://www.cnblogs.com/CSGrandeur/p/3754126.html)
-
-安装很简单，一句话：
-```
-$ 
-```
-
 主要步骤是：
 - 安装：很简单，`sudo apt-get install vsftpd`
 - 配置文件：`sudo vim /etc/vsftpd.conf`，然后按照自己的需求配置文件
-- 重启ftp服务：``
+- 重启ftp服务：`sudo /etc/init.d/vsftpd restart`
+
+以下是我尝试过的几种常用的`/etc/vsftpd.conf`配置方法：
 
 ## 最简单配置
 > 以下内容为我所知道的最简单配置：不允许匿名登录，使用默认的linux用户和密码登录，完全权限。
+
 ```shell
 #禁止匿名访问
 anonymous_enable=NO
@@ -201,6 +197,22 @@ write_enable=YES
 然后使用FileZilla这样的FTP客户端试着登录一下：输入ip地址，用户名和密码，选择快速登录：
 ![image](https://user-images.githubusercontent.com/14041622/40574349-c9903348-6102-11e8-958b-56e6c7212818.png)
 
+## 匿名用户配置
+> 如果是本地虚拟机或是自己家里的电脑的话，完全匿名就OK了，不需要设置那么麻烦的安全限制。
+
+完整配置如下：
+```shell
+#
+```
+
+## 单独ftp用户配置
+> 这种方式的好处在于，可以专门创建一个user用户，限制它能访问的目录和权限。
+但是就是这种配置，是最麻烦最容易访问失败的。做好心理准备。
+
+完整配置方案如下：
+```shell
+# 
+```
 
 
 # 利用`VNC`连接远程服务器桌面：使用`xfce`桌面
