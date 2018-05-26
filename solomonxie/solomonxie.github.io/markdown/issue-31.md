@@ -174,7 +174,8 @@ ssserver -c /etc/shadowsocks.json -d start
 
 # 服务器安装FTP
 一般都是用到`vsftpd`。
-[参考文章。](http://blog.csdn.net/wxlguitar/article/details/52162748)
+
+[参考：Ubuntu 用vsftpd 配置FTP服务器](https://www.cnblogs.com/CSGrandeur/p/3754126.html)
 
 安装方法：
 ```
@@ -182,11 +183,22 @@ ssserver -c /etc/shadowsocks.json -d start
 sudo apt-get install vsftpd
 
 # 配置文件
-sudo vim /etc/vsftpd.conf
+sudo vim 
+```
 
-#配置如下：
-
-
+## 配置文件 `/etc/vsftpd.conf`
+配置内容如下：
+```shell
+#禁止匿名访问
+anonymous_enable=NO
+#接受本地用户
+local_enable=YES
+#允许上传
+write_enable=YES
+#用户只能访问限制的目录
+chroot_local_user=YES
+#设置固定目录，在结尾添加。如果不添加这一行，各用户对应自己的目录，当然这个文件夹自己建
+local_root=/home/ftp
 ```
 
 
