@@ -215,6 +215,19 @@ write_enable=YES
 # 
 ```
 
+## `本地FTP客户端命令工具：sftp`
+除了FileZilla这种GUI工具外，我们在命令行里也能轻松登录远程的FTP服务器。Mac和一些Linux上都自带`ftp`和`sftp`工具，操作很简单。
+比如上述`最简单配置`，我们就可以用`sftp`工具来登录ftp服务器，方便的上传和下载文件。
+
+命令很简单：
+- 进入sftp的互动shell： `$ sftp USER@IP`，如：
+![image](https://user-images.githubusercontent.com/14041622/40578181-4e68fb38-6142-11e8-9c40-05b85b4fc699.png)
+- 上传：`$ put LOCAL-FILE-PATH`
+- 下载：`$ get REMOTE-FILE-PATH`
+
+![image](https://user-images.githubusercontent.com/14041622/40578198-9ed8f85c-6142-11e8-8aae-47bd5097b981.png)
+
+
 
 # 利用`VNC`连接远程服务器桌面：使用`xfce`桌面
 实际上可以在服务器上安装桌面，然后用`VNC`服务从Linux、Mac和Windows等各种地方连接远程桌面。
