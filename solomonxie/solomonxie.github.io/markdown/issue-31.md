@@ -190,11 +190,12 @@ ssserver -c /etc/shadowsocks.json -d start
 ```shell
 #禁止匿名访问
 anonymous_enable=NO
-
 #允许上传
 write_enable=YES
 ```
-然后使用FileZilla这样的FTP客户端试着登录一下：输入ip地址，用户名和密码，选择快速登录：
+然后使用FileZilla这样的FTP客户端试着登录一下：输入ip地址，用户名和密码，选择快速登录。
+注意，要选择`sftp`而不是`ftp`，否则无法成功登录。
+
 ![image](https://user-images.githubusercontent.com/14041622/40574349-c9903348-6102-11e8-958b-56e6c7212818.png)
 
 ## 匿名用户配置
