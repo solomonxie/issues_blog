@@ -149,6 +149,11 @@ Mac上，直接在IDE中`Ctrl+,`打开用户配置文件，在适当位置加入
 完成。
 ![image](https://user-images.githubusercontent.com/14041622/40293113-e472c3d8-5d01-11e8-8fa0-97304cb04413.png)
 
+## 推荐颜色主题：
+
+### `Cobalt2`
+![image](https://user-images.githubusercontent.com/14041622/40586949-7a3b3a00-61fb-11e8-908f-947f444bec44.png)
+
 
 
 # VSCode为python指定运行环境
