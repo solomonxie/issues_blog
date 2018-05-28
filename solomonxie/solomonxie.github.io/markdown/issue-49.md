@@ -811,7 +811,6 @@ Solve:
 [Refer to Khan academy: Concavity introduction](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/concavity-concave-upwards-and-concave-downwards-intervals)
 
 Two types of concavity: `Concave Up` & `Concave Down`.
-![image](https://user-images.githubusercontent.com/14041622/40534558-f62ee1da-6038-11e8-9aa7-926099516f64.png)
 
 ## `Understand function by 1st & 2nd Derivative`
 ![image](https://user-images.githubusercontent.com/14041622/40534451-a64de72e-6038-11e8-9a03-f665509c404e.png)
@@ -819,8 +818,6 @@ Two types of concavity: `Concave Up` & `Concave Down`.
 
 ## `Identify concavity by using Second Derivative`
 
-![image](https://user-images.githubusercontent.com/14041622/40620340-0a3a3866-62cb-11e8-9c76-8ab9969bfa52.png)
-![image](https://user-images.githubusercontent.com/14041622/40619900-6e9fb24c-62c9-11e8-80a2-bd1db62163ef.png)
 ![image](https://user-images.githubusercontent.com/14041622/40619904-73253d6e-62c9-11e8-8e2d-96b755d9e3f5.png)
 
 Example:
