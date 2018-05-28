@@ -834,6 +834,8 @@ Solve:
 
 
 # `Inflection Point`
+> An inflection point is a point where the graph of the function **changes** CONCAVITY (from up to down or vice versa).
+
 It could be seen as a `Switching point`, which means the point that the `Slope` of function switch from increasing and decreasing. 
 e.g., the function might be **still going up**, but at such a point it suddenly increases slower and slower. And we call that point an `inflection point`.
 ![image](https://user-images.githubusercontent.com/14041622/40535579-13277fba-603c-11e8-93e5-c09a446700e7.png)
@@ -844,9 +846,14 @@ e.g., the function might be **still going up**, but at such a point it suddenly 
 Algebraically, we identify and express this point by the function's `First Derivative` OR `Second Derivative`.
 ![image](https://user-images.githubusercontent.com/14041622/40535447-b9081cec-603b-11e8-812c-89d7c77ab6c3.png)
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/40620305-e8f336b2-62ca-11e8-94b1-1d03ac18651a.png)
+Solve:
+
+
 ## `Second Derivative Test`
-![image](https://user-images.githubusercontent.com/14041622/40536501-f6ff649e-603e-11e8-99bd-297a0b6e3b0c.png)
-![image](https://user-images.githubusercontent.com/14041622/40536521-064a846a-603f-11e8-8f68-ce6888cf68be.png)
+![image](https://user-images.githubusercontent.com/14041622/40620456-72ca82a0-62cb-11e8-96a8-e362bb2d32b8.png)
+
 
 
 # `Anti-derivative`
