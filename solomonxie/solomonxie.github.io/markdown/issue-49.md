@@ -734,7 +734,7 @@ For find a decreasing interval, we assume `f'(x) < 0`, and by solving the inequa
 
 Strategy:
 - Get Critical points.
-- Separate intervals according to critical points.
+- Separate intervals according to `critical points`, `undefined points` and `endpoints`.
 - Try easy numbers in EACH intervals, to decide its TRENDING (going up/down):
     - If `f'(x) > 0` then the trending of this interval is **Increasing**.
     - If `f'(x) < 0` then the trending of this interval is **Decreasing**.
@@ -758,7 +758,7 @@ Solve:
 
 Strategy:
 - Get Critical points.
-- Separate intervals according to critical points.
+- Separate intervals according to `critical points`, `undefined points` and `endpoints`.
 - Try easy numbers in EACH intervals, to decide its TRENDING (going up/down).
 - Decide each critical point is Max, Min or Not Extreme.
 
@@ -780,7 +780,7 @@ Solve:
 Strategy:
 - Find all `Relative extrema`
     - Get Critical points.
-    - Separate intervals according to critical points.
+    - Separate intervals according to critical points & endpoints.
     - Try easy numbers in EACH intervals, to decide its TRENDING (going up/down).
     - Decide each critical point is Max, Min or Not Extreme.
 - Input all the extreme point into original function `f(x)` and get extreme value.
@@ -789,11 +789,10 @@ Example:
 ![image](https://user-images.githubusercontent.com/14041622/40609657-e09e250e-62a1-11e8-9e43-f1a69c217231.png)
 Solve:
 - Set `g'(x) = 0 or undefined` get `x=0`
-- Separate intervals to `(-∞, 0, ∞)`
-- Try some easy numbers of each interval `-1, 1` into `g'(x)`
-- Get the trending of each interval: `(-, +)`
-- So it's a Minimum.
-- Input the point back to function `g(x)` get `g(0) = 1`
+- Separate intervals to `(-2, 0, 3)` according to the critical point & endpoints of the given condition.
+- Try some easy numbers of each interval `-1, 2` into `g'(x)`
+- Get the trending of each interval: `(+, +)`
+- So the minimum must be the left endpoint of the given condition, which is `x=-2`.
 
 
 
