@@ -732,6 +732,21 @@ And if `f'(a) < 0`, then it's decreasing; If `f'(a) > 0`, then it's increasing.
 It's just doing the same thing in the opposite way.
 For find a decreasing interval, we assume `f'(x) < 0`, and by solving the inequality equation we will get the interval.
 
+Example:
+![image](https://user-images.githubusercontent.com/14041622/40606233-51aa251e-6297-11e8-901f-1956022486c5.png)
+Solve:
+- First need to get some critical points:
+    - `f'(x)=0` when `x=0 or 2`
+    - `f'(x) is never undefined for real number x`
+- Seperate function intervals by critical points:
+![image](https://user-images.githubusercontent.com/14041622/40606351-b1ffd76a-6297-11e8-8e64-864a324ae692.png)
+- **TRY** some values at **both sides** of **EACH** critical points, to figure out wether it's `Concave Up` or `Concave Down`:
+    - For critical point `x=0`, try left & right values of it, e.g. `f'(-1)=-9` & `f'(1)=3`. So it's `Concave Up`.
+    - For critical point `x=2`, try left & right values of it, e.g. `f'(1)=3` & `f'(3)=-9`. So it's `Concave Down`
+- Or to set up a table for these separated intervals:
+![image](https://user-images.githubusercontent.com/14041622/40606558-515556be-6298-11e8-9692-406332231f1c.png)
+- Get that `f(x)` is decreasing over interval `(-∞,0) & (2,∞)`
+
 ## `How to find Relative Extrema`
 [Refer to khan: Worked example: finding relative extrema](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/finding-relative-maximum-example)
 [Refer to Khan Academy article: Finding relative extrema](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/a/applying-the-first-derivative-test-to-find-extrema)
