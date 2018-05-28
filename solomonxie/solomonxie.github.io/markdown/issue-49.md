@@ -824,6 +824,12 @@ Two types of concavity: `Concave Up` & `Concave Down`.
 ![image](https://user-images.githubusercontent.com/14041622/40619900-6e9fb24c-62c9-11e8-80a2-bd1db62163ef.png)
 ![image](https://user-images.githubusercontent.com/14041622/40619904-73253d6e-62c9-11e8-8e2d-96b755d9e3f5.png)
 
+Example:
+![image](https://user-images.githubusercontent.com/14041622/40620047-ef5a6486-62c9-11e8-90cc-8ab64633f1ff.png)
+Solve:
+- `f'(x) > 0` means we're to find the INCREASING interval on the graph
+- `f''(x) < 0` means we'll be focusing on the CONCAVE UP shape only
+- So it's about the interval of`(-4, -3)` and `(3, 4)`.
 
 
 
