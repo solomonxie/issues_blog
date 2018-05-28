@@ -795,6 +795,16 @@ Solve:
 - So the minimum must be the left endpoint of the given condition, which is `x=-2`.
 
 
+Example:
+![image](https://user-images.githubusercontent.com/14041622/40618317-bbc9bb7c-62c3-11e8-9723-962c727c7d4d.png)
+Solve:
+- Differentiate to set `f'(x)=0` and got `x=0, -1, 1`
+- Separate intervals to `(-∞, -1, 0, 1, +∞)`
+- Try some easy numbers in each interval for `f'(x)` and got the signs: `-, +, -, +`
+- According to the signs we know that `-, +` gives us a `Relative maximum`
+- But at the end it's `+` again, and the interval is going up to `+∞`, means `f(x)` will go infinitely high.
+- So there's NO Absolute maximum.
+
 
 # `Concavity`
 
