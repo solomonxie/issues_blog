@@ -788,7 +788,12 @@ Strategy:
 Example:
 ![image](https://user-images.githubusercontent.com/14041622/40609657-e09e250e-62a1-11e8-9e43-f1a69c217231.png)
 Solve:
-
+- Set `g'(x) = 0 or undefined` get `x=0`
+- Separate intervals to `(-∞, 0, ∞)`
+- Try some easy numbers of each interval `-1, 1` into `g'(x)`
+- Get the trending of each interval: `(-, +)`
+- So it's a Minimum.
+- Input the point back to function `g(x)` get `g(0) = 1`
 
 
 
