@@ -744,6 +744,14 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40606558-515556be-6298-11e8-9692-406332231f1c.png)
 - Get that `f(x)` is decreasing over interval `(-∞,0) & (2,∞)`
 
+Example:
+![image](https://user-images.githubusercontent.com/14041622/40607451-28fe4bd2-629b-11e8-82b9-8d3b1119444c.png)
+Solve:
+- Set `h'(x) =0` and get critical point `x=-3`. Remember `x=0` is excluded.
+- According to the critical point and undefined point, we separate intervals: `(-∞, -3, 0, ∞)`
+- For each `gap` of these intervals, we pick some **easy numbers** to get `h'(-4)=-1/16`, `h'(-1)=2`, `h'(1)=4`.
+- Concludes that `h(x)` is decreasing only over interval `(-∞, -3)`.
+
 ## `How to find Relative Extrema`
 [Refer to khan: Worked example: finding relative extrema](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/finding-relative-maximum-example)
 [Refer to Khan Academy article: Finding relative extrema](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/a/applying-the-first-derivative-test-to-find-extrema)
