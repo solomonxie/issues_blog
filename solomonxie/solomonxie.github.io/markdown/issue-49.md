@@ -739,6 +739,15 @@ Strategy:
     - If `f'(x) > 0` then the trending of this interval is **Increasing**.
     - If `f'(x) < 0` then the trending of this interval is **Decreasing**.
 
+Example:
+![image](https://user-images.githubusercontent.com/14041622/40609152-624738b8-62a0-11e8-8725-509e4e5a78a3.png)
+Solve:
+- Set `f'(x) = 0 or undefined`, get `x = -2 or -1/3`
+- Separate intervals to `(-∞, -2, -1/3, ∞)`
+![image](https://user-images.githubusercontent.com/14041622/40609259-ad80e068-62a0-11e8-81cd-f4bdb5070dbe.png)
+- Try some easy numbers in each interval: `-3, -1, 0`:
+![image](https://user-images.githubusercontent.com/14041622/40609319-ddc615cc-62a0-11e8-90e5-8829f92d6e04.png)
+
 ## `How to find Relative Extrema`
 > Remember that an `Absolute extreme` is also a `Relative extreme`.
 
