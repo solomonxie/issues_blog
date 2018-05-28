@@ -740,10 +740,7 @@ Solve:
     - `f'(x) is never undefined for real number x`
 - Seperate function intervals by critical points:
 ![image](https://user-images.githubusercontent.com/14041622/40606351-b1ffd76a-6297-11e8-8e64-864a324ae692.png)
-- **TRY** some values at **both sides** of **EACH** critical points, to figure out wether it's `Concave Up` or `Concave Down`:
-    - For critical point `x=0`, try left & right values of it, e.g. `f'(-1)=-9` & `f'(1)=3`. So it's `Concave Up`.
-    - For critical point `x=2`, try left & right values of it, e.g. `f'(1)=3` & `f'(3)=-9`. So it's `Concave Down`
-- Or to set up a table for these separated intervals:
+- **TRY** some easy numbers in separated intervals:
 ![image](https://user-images.githubusercontent.com/14041622/40606558-515556be-6298-11e8-9692-406332231f1c.png)
 - Get that `f(x)` is decreasing over interval `(-∞,0) & (2,∞)`
 
