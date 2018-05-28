@@ -744,7 +744,16 @@ Strategy:
 - Try easy numbers in EACH intervals, to decide its TRENDING (going up/down).
 - Decide each critical point is Max, Min or Not Extreme.
 
-E
+Example:
+![image](https://user-images.githubusercontent.com/14041622/40608781-3c071840-629f-11e8-90b1-0225538eb324.png)
+Solve:
+- Set `f'(x)=0 or undefined`, get `x=0 or -2 or 1`
+- Separate intervals to `(-∞, -2, 0, 1, ∞)`
+![image](https://user-images.githubusercontent.com/14041622/40608852-752ce6ea-629f-11e8-8b65-d15ac105fb52.png)
+- Try easy number in each interval: `-3, -1, 0.5, 2` and get the trendings:
+![image](https://user-images.githubusercontent.com/14041622/40608921-af3594c2-629f-11e8-9cc4-a39b476a14e4.png)
+- Identify critical points' **concavity**:
+![image](https://user-images.githubusercontent.com/14041622/40608947-c1bfb44c-629f-11e8-9e7b-b4e38185c1ec.png)
 
 ## `How to find Absolute Extrema`
 [Refer to Khan academy article: Absolute minima & maxima review](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/a/absolute-minima-and-maxima-review)
