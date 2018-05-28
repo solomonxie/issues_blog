@@ -732,31 +732,19 @@ And if `f'(a) < 0`, then it's decreasing; If `f'(a) > 0`, then it's increasing.
 It's just doing the same thing in the opposite way.
 For find a decreasing interval, we assume `f'(x) < 0`, and by solving the inequality equation we will get the interval.
 
-Example:
-![image](https://user-images.githubusercontent.com/14041622/40606233-51aa251e-6297-11e8-901f-1956022486c5.png)
-Solve:
-- First need to get some critical points:
-    - `f'(x)=0` when `x=0 or 2`
-    - `f'(x) is never undefined for real number x`
-- Seperate function intervals by critical points:
-![image](https://user-images.githubusercontent.com/14041622/40606351-b1ffd76a-6297-11e8-8e64-864a324ae692.png)
-- **TRY** some easy numbers in separated intervals:
-![image](https://user-images.githubusercontent.com/14041622/40606558-515556be-6298-11e8-9692-406332231f1c.png)
-- Get that `f(x)` is decreasing over interval `(-∞,0) & (2,∞)`
-
-Example:
-![image](https://user-images.githubusercontent.com/14041622/40607451-28fe4bd2-629b-11e8-82b9-8d3b1119444c.png)
-Solve:
-- Set `h'(x) =0` and get critical point `x=-3`. Remember `x=0` is excluded.
-- According to the critical point and undefined point, we separate intervals: `(-∞, -3, 0, ∞)`
-- For each `gap` of these intervals, we pick some **easy numbers** to get `h'(-4)=-1/16`, `h'(-1)=2`, `h'(1)=4`.
-- Concludes that `h(x)` is decreasing only over interval `(-∞, -3)`.
-
 ## `How to find Relative Extrema`
 [Refer to khan: Worked example: finding relative extrema](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/finding-relative-maximum-example)
 [Refer to Khan Academy article: Finding relative extrema](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/a/applying-the-first-derivative-test-to-find-extrema)
 
 ![image](https://user-images.githubusercontent.com/14041622/40531186-21ecfd44-602e-11e8-8018-0409609a6167.png)
+
+Strategy:
+- Get Critical points.
+- Separate intervals according to critical points.
+- Try easy numbers in EACH intervals, to decide its TRENDING (going up/down).
+- Decide each critical point is Max, Min or Not Extreme.
+
+E
 
 ## `How to find Absolute Extrema`
 [Refer to Khan academy article: Absolute minima & maxima review](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/a/absolute-minima-and-maxima-review)
