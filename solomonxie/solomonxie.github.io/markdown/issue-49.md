@@ -777,6 +777,18 @@ Solve:
 [Refer to Khan academy article: Absolute minima & maxima review](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/a/absolute-minima-and-maxima-review)
 [Refer to Khan academy lecture: Finding absolute extrema on a closed interval](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/using-extreme-value-theorem)
 
+Strategy:
+- Find all `Relative extrema`
+    - Get Critical points.
+    - Separate intervals according to critical points.
+    - Try easy numbers in EACH intervals, to decide its TRENDING (going up/down).
+    - Decide each critical point is Max, Min or Not Extreme.
+- Input all the extreme point into original function `f(x)` and get extreme value.
+
+Example:
+![image](https://user-images.githubusercontent.com/14041622/40609657-e09e250e-62a1-11e8-9e43-f1a69c217231.png)
+Solve:
+
 
 
 
