@@ -726,13 +726,22 @@ If the derivative, the slope is positive, then it's increasing. Otherwise it's d
 Just been said above, we assume at point `a`, it's value is `f(a)`. So the slope of it is `f'(a)`.
 And if `f'(a) < 0`, then it's decreasing; If `f'(a) > 0`, then it's increasing.
 
-### Finding a decreasing or increasing interval
+### `Finding a decreasing or increasing interval`
 [Refer to Khan lecture.](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/increasing-decreasing-intervals-given-the-function)
 
 It's just doing the same thing in the opposite way.
 For find a decreasing interval, we assume `f'(x) < 0`, and by solving the inequality equation we will get the interval.
 
+Strategy:
+- Get Critical points.
+- Separate intervals according to critical points.
+- Try easy numbers in EACH intervals, to decide its TRENDING (going up/down):
+    - If `f'(x) > 0` then the trending of this interval is **Increasing**.
+    - If `f'(x) < 0` then the trending of this interval is **Decreasing**.
+
 ## `How to find Relative Extrema`
+> Remember that an `Absolute extreme` is also a `Relative extreme`.
+
 [Refer to khan: Worked example: finding relative extrema](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/finding-relative-maximum-example)
 [Refer to Khan Academy article: Finding relative extrema](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/a/applying-the-first-derivative-test-to-find-extrema)
 
