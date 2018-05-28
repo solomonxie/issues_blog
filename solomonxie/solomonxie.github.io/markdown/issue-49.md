@@ -664,11 +664,12 @@ For analyzing a function, it's very efficient to have a look at its `Critical po
 ![image](https://user-images.githubusercontent.com/14041622/40529990-a0dc454c-6029-11e8-9ea0-d1c77536f227.png)
 
 ### `How to find critical points`
-Steps:
+Strategy:
 - Knowing that `f(x)` has critical point `c` when `f'(c) = 0` or `f'(c) is undefined`
 - Differentiate `f(x)` to get `f'(x)`
 - Solve `c` for `f'(c)=0 & f'(c) undefined`
 
+[Refer to Symbolab's step-by-step solution.](https://www.symbolab.com/solver/step-by-step/critical%20points%2C%20f%5Cleft(x%5Cright)%3Dx%5Ccdot%20sqrt%5Cleft(4-x%5Cright))
 
 Example:
 ![image](https://user-images.githubusercontent.com/14041622/40605709-d4ec9d1e-6295-11e8-9706-4348337b8bb6.png)
