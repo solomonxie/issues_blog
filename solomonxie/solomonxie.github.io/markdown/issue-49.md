@@ -834,7 +834,7 @@ Solve:
 > An inflection point is a point where the graph of the function **changes** CONCAVITY (from up to down or vice versa).
 
 It could be seen as a `Switching point`, which means the point that the `Slope` of function switch from increasing and decreasing. 
-e.g., the function might be **still going up**, but at such a point it suddenly increases slower and slower. And we call that point an `inflection point`.
+e.g., the function might be **still going up**, but at such a point **it suddenly increases slower and slower**. And we call that point an `inflection point`.
 ![image](https://user-images.githubusercontent.com/14041622/40535579-13277fba-603c-11e8-93e5-c09a446700e7.png)
 
 [Refer to Khan academy video for more intuition rapidly: Inflection points from graphs of function & derivatives](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/v/identifying-inflection-points-from-graphs-of-function-and-derivatives)
