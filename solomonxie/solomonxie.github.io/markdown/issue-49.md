@@ -789,7 +789,7 @@ Example:
 ![image](https://user-images.githubusercontent.com/14041622/40609657-e09e250e-62a1-11e8-9e43-f1a69c217231.png)
 Solve:
 - Set `g'(x) = 0 or undefined` get `x=0`
-- Separate intervals to `(-2, 0, 3)` according to the critical point & endpoints of the given condition.
+- Separate intervals to `[-2, 0, 3]` according to the critical point & endpoints of the given condition.
 - Try some easy numbers of each interval `-1, 2` into `g'(x)`
 - Get the trending of each interval: `(+, +)`
 - So the minimum must be the left endpoint of the given condition, which is `x=-2`.
