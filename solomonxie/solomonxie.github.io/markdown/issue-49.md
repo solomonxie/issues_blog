@@ -845,18 +845,21 @@ Algebraically, we identify and express this point by the function's `First Deriv
 
 ### Example:
 ![image](https://user-images.githubusercontent.com/14041622/40620823-de14fa26-62cc-11e8-9584-b4d2adf1b774.png)
-Solve:
+Intuitive way to solve:
 - Draw a **tangent line** in imagination and move it on the function from left to right
 - Notice the tangent line's slope, does it go faster or slower or suddenly change its pace at a point?
 - We found it suddenly changed at point `c`.
 
+More definitional way to solve:
+- Looking for the `parts of concavity shapes`
+- Seems that `B-C` is a part of `Concave Down`, and `C-D` is a part of `Concave Up`
+- So `C` is a SWITCHING POINT, it's a `inflection point`.
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/40620305-e8f336b2-62ca-11e8-94b1-1d03ac18651a.png)
 Solve:
-- Draw a **tangent line** in imagination and move it on the function from left to right
-- Notice the tangent line's slope, does it go faster or slower or suddenly change its pace at a point?
-- We found the slope in does not change direction at all, only keep decreasing.
-- So there's no switching point, no inflection.
+- Looking for the `parts of concavity shapes`
+- There's no changing of concavity shapes, there's only one shape: Concave down.
 
 ## `Second Derivative Test`
 ![image](https://user-images.githubusercontent.com/14041622/40620456-72ca82a0-62cb-11e8-96a8-e362bb2d32b8.png)
