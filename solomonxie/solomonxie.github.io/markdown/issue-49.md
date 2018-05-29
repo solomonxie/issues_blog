@@ -971,3 +971,8 @@ Analyzing function's behaviors is one of the Core Purposes of studying Calculus.
 
 
 # `Applications of Derivatives`
+
+## Lose of bears
+![image](https://user-images.githubusercontent.com/14041622/40659562-2f88308a-6381-11e8-8f0d-8c2253a56bb2.png)
+Solve:
+- Just take the derivative `B'(t)` and input `t=2` to get the value.
