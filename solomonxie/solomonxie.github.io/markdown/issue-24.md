@@ -1020,3 +1020,720 @@ pip freeze > requirements.txt
 ```
 pip install -r requirements.txt
 ```
+
+
+# Python运行`matplotlib`时报错：`Python is not installed as a framework.`
+
+[参考这篇回答](https://stackoverflow.com/questions/21784641/installation-issue-with-matplotlib-python)。
+即使我的matplotlib是在virtualenv虚拟环境里安装的，它还是会在用户目录下生成一个`~/.matplotlib`目录。
+然后我们在创建一个文件并填入一句话：
+```
+touch vim ~/.matplotlib/matplotlibrc
+echo "backend: TkAgg" > ~/.matplotlib/matplotlibrc
+```
+![image](https://user-images.githubusercontent.com/14041622/36632771-c3775e02-19c5-11e8-9987-819cd66d3e2a.png)
+
+
+
+# Virtualenv虚拟环境的正确使用方法
+之前当真以为是每个小项目都配置一个virtualenv环境，就每个文件夹都分别用`virtualenv`命令生成一个环境，还出现了一大堆文件夹，而且每次都要`pip install`重新安装一系列东西。
+再加上很多小项目都有git配置，两者冲突，所以必须在`.gitignore`文件里屏蔽virtualenv都一切文件夹。
+
+后来发现：
+virtualenv虚拟环境不是只在这一个文件夹里生效的，它是那种只要开启了，你就带着这个虚拟都帽子到哪里哪个文件夹哪个项目都生效。
+所以我就想，直接配置一个单独的文件夹专门放置virtualenv环境，然后每次都开启着它然后`cd`到项目文件夹去操作就行了。
+这样既不会搞乱系统python环境，又不会每次都创建环境那么麻烦，毕竟不是什么大项目嘛。
+如果是大型的项目，再单独在项目其中创建一个虚拟环境就好了。绝大多数时候，我只需要一个虚拟环境代替系统的python环境就足够了。
+
+步骤是这样的：
+1. 随便建一个位置，比如`cd ~/`，然后`virtualenv venv`，创建了一个叫`venv`的文件夹并且在里面配置了虚拟python环境。
+2. 配置命令行别名：`alias venv="source ~/venv/bin/activate"`，这样就能一键开启虚拟空间，带上小帽子。
+3. 安装自己所有需要的包，代替系统环境：`pip install PACKAGE-1 PACKAGE-2...`，或者`pip install -r PATH/requirements.txt`从之前的备份列表中一键恢复安装。
+
+
+# Python requests返回`Max retries exceeded`错误
+经常在脚本访问API时接受到这个反馈，这个可以理解因为一般一个ip太频繁访问某个网址就会被服务器拒绝。
+但是比如我访问Github的API，明明已经通过认证且每小时5000次访问量了，怎么会没消费掉访问量就被返回`Max retires`呢。
+查了很多文章，大家只是说让requests去sleep一会儿再访问，但是这不是正确的解决方案。
+最后通过这个回答，真的一键解决了：
+![snip20180225_61](https://user-images.githubusercontent.com/14041622/36638698-06b33364-1a37-11e8-9f06-b4a472e10c82.png)
+
+
+也就是，安装这个包就好了：`pip install pyopenssl`或`pip install -U pyopenssl`。也就是当时报错里提示的关于`SSL`的什么东西，这样就解决了。
+
+
+# `crontab`和`virtualenv`搭配使用
+`crontab`是linux系统下定时执行任务的命令，`virtualenv`是python虚拟环境。
+那么，怎么让crontab定时执行某个python脚本时是保证在virtualenv的虚拟环境中运行的呢？
+答案是：
+~在crontab执行shell命令时，不是用系统默认的python如`python PATH-TO-SCRIPT.py`这样的，而是指定运行虚拟环境中的python，如`~/venv/bin/python PATH-TO-SCRIPT.py`这样的。~
+参考[这篇文章](https://stackoverflow.com/questions/4150671/how-to-set-virtualenv-for-a-crontab)。
+
+
+# `pip uninstall`卸载包或`pip install`时发生`Operation not permitted`错误
+在Mac上，无论是pip uninstall还是`sudo pip uninstall`，都会发生这个错误。
+实际上，是Mac装机自带python的固有问题，包括如果不`sudo pip`就不能用的问题，都是这里的原因。
+解决方法很简单：
+只要`brew reinstall python`就全解决了！
+注意，重装python意味着很多之前装的packages包都会丢失，请用`pip freeze requirements.txt`备份。
+
+当然，我目的就是为了清楚所有系统python环境下的包才重装的，结果发现重装python之后还顺便解决了之前的各种权限问题。现在不用sudo也能`pip install`和`pip uninstall`了。
+删除了系统python中所有的packages后，感觉轻松了很多。
+之后就可以无忧无干扰的在virtualenv下安心编程了。
+
+
+
+# 研究Python某些库附带安装的一些packages包
+> 卸载系统python的安装包时，由于需要手输几十个包的名称，发现了一些有意思的。后来知道这些包是安装Jupyter Notebook时附带安装的，看起来可以作为以后自己使用的包，以下列一些参考。
+
+- [`bleach`](https://bleach.readthedocs.io/en/latest/) 强大的HTML净化库，可以将html标签编码为安全的url格式，也可以将url生成A标签等。
+- [`gitdb2`](https://github.com/gitpython-developers/gitdb) 纯python实现的git 对象数据库
+- [`MarkupSafe`](https://pypi.python.org/pypi/MarkupSafe/1.0) HTML的处理工具
+- [`modulegraph`](https://pypi.python.org/pypi/modulegraph/0.16) Python modules倚赖分析
+- [`mistune`](https://pypi.python.org/pypi/mistune/0.8.3) 纯python实现的Markdown渲染引擎
+- [`pathlib2`](https://docs.python.org/dev/library/pathlib.html) 处理文件路径的库 升级版
+- [`pathtools`](http://pythonhosted.org/pathtools/) 文件路径相关的处理库
+- [`prompt-toolkit`](https://pypi.python.org/pypi/prompt_toolkit/1.0.15) 纯python实现，开发命令行软件的强大库。
+- `PyGithub`简单的操作github的库。
+- `python-dateutil`强大的补充系统datetime的库
+- [`requests-toolbelt`](https://pypi.python.org/pypi/requests-toolbelt/0.8.0)强化requests的库
+- `scandir`更快速循环读取目录文件的库，代替os.walker()
+- [`Send2Trash`](https://pypi.python.org/pypi/Send2Trash/1.5.0)跨平台实现原生删除文件到回收站。
+- `six`python2和3兼容的库
+- `testpath`检验目录文件的库
+- `watchdog`监控系统事件和文件变动
+- [`webencodings` ](https://pythonhosted.org/webencodings/) 处理上古网页遗留的编码问题
+
+
+
+# Python 批量卸载packages包
+不像`pip install -r requirements.txt`可以批量安装包，卸载就没有原生方法了，需要用巧劲。
+目前Stackoverflow有这么一种用法：
+`pip freeze | grep pyobjc-framework | xargs pip uninstall -y`
+其中`pyobjc-framework` 是搜索关键字，搜索包含这些字的包然后批量卸载。
+如果不是指定某些关键字，直接`pip freeze | xargs pip uninstall -y`，那么就是卸载所有的包了。
+不出所料的话，应该是执行不了的，总有哪个包的卸载会出错，然后中断进程。
+
+如果想达到`恢复出厂设置`的感觉，那么直接类似`brew reinstall python`这样的重装python就可以了罢。不过我再重装后，虽然很多删掉了，但还是会有些遗留，需要手动清除。
+
+
+
+# `Python List Comprehension`
+指的Python单行循环:
+```python
+a = [n for n in alist if n>0]
+```
+
+## 进阶
+如果在单行循环中，想获得某个item的序号，那么就需要用到python自带的`enumerate()`函数
+```python
+# Python "List Comprehension" method
+old = ['zero', 'one', 'two', 'three', 'four', 'five', 'six']
+new = [item for index, item in enumerate(list1) if index < 4]
+print new
+
+# Output:
+['one', 'two', 'three']
+```
+注意：使用`enumerate()`时，必须用2个变量承接它的返回值，第一个是index序号，第二个是item本身。
+
+
+
+
+# Python去除空白字符
+Python里面不是trim，而是strip.
+```
+# 去除两边所有空白字符
+string.strip()
+
+# 去除两边指定的字符 (不分顺序)
+string.strip('\r\t\n')
+
+# 只去除左边、右边，用法同上
+string.lstrip(s)
+string.rstrip(s)
+```
+
+
+# 升级`pip`报错：`ImportError: module 'pip' has no attribute 'main'`
+[参考：解决 ImportError: module 'pip' has no attribute 'main'](https://blog.csdn.net/Jiaach/article/details/80188262)
+
+正在用pip（没有在虚拟环境中，直接在系统里操作的），提示我可以将9.9升级到10.0，然后就`sudo pip install --upgrade pip`了，结果就报这个错误，导致所有的pip操作都无法进行。找到解决方案如下：
+
+![image](https://user-images.githubusercontent.com/14041622/39810142-823a9474-53b6-11e8-92f0-81bcd49d1798.png)
+
+
+```shell
+## 如果报权限错误 则加上sudo
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py;python get-pip.py
+```
+完成。
+
+
+
+
+# `BeautifulSoup`
+> BeautifulSoup是Python包里最有名的HTML parser分解工具之一。简单易用
+
+## 安装：
+```shell
+pip install beautifulsoup4
+``` 
+注意大小写，而且不要安装`BeautifulSoup`，因为`BeautifulSoup`代表3.0，已经停止更新。
+
+## 常用语法
+[参考我之前的文章：BeautifulSoup ：一些常用功能的使用和测试](https://www.jianshu.com/p/55fc16eebea4)
+
+```py
+# 创建实例
+soup = BeautifulSoup(html, 'html5lib')
+```
+
+## 选择器
+根据不同的网页，选择器的使用会很不同：
+- 绝大部分下使用CSS选择器`select()`就足够了
+- 如果按照标签属性名查找，而属性名中有`-`等特殊字符，那么就**只能**使用`find()`选择器了。
+
+```py
+# 最佳选择器: CSS选择器（返回tag list）
+results = soup.select('div[class*=hello_world] ~ div')
+
+for tag in results:
+    print tag.string       #print the tag's html string
+    # print tag.get_text()     #print its inner text
+
+#单TAG精确选择器：返回单个tag. 
+tag = soup.find('div', attrs={'class': 'detail-block'})
+print tag.get_text()
+
+# 多Tag精确选择器: 返回的是text，不是tag
+results = soup.find_all()
+```
+
+## 对象类型
+在我们使用选择器搜索各类tag标签时，BeautifulSoup会根据使用的函数而返回不同类型的变量。而不同的变量的使用方法也需要注意。
+
+- Tag类型（`<class 'bs4.element.Tag'>`）:
+    - `tag.string`
+    - `tag.get_text()`
+    
+- 可遍历字符串类型（`bs4.element.NavigableString`）:
+- Comment类型（`<class 'bs4.element.Comment'>`）:
+
+## 增删改标签
+[参考：使用BeautifulSoup改变网页内容](https://blog.csdn.net/abclixu123/article/details/39754799)
+
+```py
+# 修改标签内容
+tag = soup.find('title')
+tag.string = 'New Title'
+```
+
+
+# Python 对url的操作
+Python原生带有url的切割、组合、识别等包，可以很轻松引用。
+[参考官方文档： urlparse](https://docs.python.org/2/library/urlparse.html)
+
+## Url parse （解析）
+![image](https://user-images.githubusercontent.com/14041622/39822297-c629a000-53dc-11e8-9c18-528416007562.png)
+
+
+## Url join （组合）
+
+![image](https://user-images.githubusercontent.com/14041622/39822351-ecaf83de-53dc-11e8-9421-208e646bd501.png)
+
+
+
+# Virtualenv创建Python3环境
+
+## Mac安装Python3
+> 注意，一般没什么人会完全删除Python2.7而只用Python3， 所以几乎都是同时安装Python2.7和Python3.
+
+[参考官方文档：在Mac OS X上安装Python 3](http://pythonguidecn.readthedocs.io/zh/latest/starting/install3/osx.html)
+
+一般Ubuntu或Mac默认是Python2.7， 所以需要先安装系统的Python3环境，Virtualenv才能够通过它来创建虚拟环境。需要注意的是，不同系统和不同包管理器的安装方式不一样，注意你选择的安装方法一定不能和Python2.7冲突。
+Mac的话，需要麻烦一点，
+`brew install python3`是行不通的，因为会提示`Error: python 2.7.14_3 is already installed. To upgrade to 3.6.5, run `brew upgrade python.`
+具体操作如下：
+```shell
+$ brew upgrade python
+
+#==> Upgrading 1 outdated package, with result:
+#python 2.7.14_3 -> 3.6.5
+```
+然后很快就安装成果，并显示如下：
+![image](https://user-images.githubusercontent.com/14041622/39858130-39e72d56-5468-11e8-9c7e-2804077921bd.png)
+
+这个时候在命令行里输入`python`，就会直接跳入python3的编程环境了。
+![image](https://user-images.githubusercontent.com/14041622/39858088-151357fc-5468-11e8-9308-dba3d3c4d421.png)
+
+然后我们通过`which`命令，得知两种版本python的位置，便于之后virtualenv的设置：
+![image](https://user-images.githubusercontent.com/14041622/39858273-a0c8e938-5468-11e8-893c-b001038f23c6.png)
+
+## 安装Python3环境的Virtualenv
+这个时候已经保证了本机同时存在Python2.7和Python3，那么安装虚拟环境就简单多了：
+```shell
+# 创建虚拟环境
+$ virtualenv -p python3 ~/FOLDER-PATH/venv3
+# 或更具体的指定路径（同样适用于Python2的安装）
+$ virtualenv -p /usr/local/opt/python/libexec/bin/python ~/FOLDER-PATH/venv3
+
+# 进入虚拟环境
+$ source ~/FOLDER-PATH/venv3/bin/activate
+
+# 退出环境
+deactivate
+```
+然后就在你自己定义路径下添加了一个`venv3`文件夹，这就是你的虚拟环境啦。
+每次只需要`source ~/FOLDER-PATH/venv3/bin/activate`就可以进入Python3的虚拟环境了。
+当然，为了简单，我把这么长的一句话设置成为alias，一句`venv3`就可以简单进入环境。
+
+## Python3虚拟环境下安装包
+Python3的环境下，是需要用`pip3`来安装各种包的。
+
+## 升级至Python3后Python2的异常
+Mac中升级到Python3后，原本的`python`命令行关键字被直接指定为`python3`，而原有的python2需要通过`python2.7`来进入python2.
+
+### 原来Virtualvenv的Python2环境下无法用pip安装包
+![image](https://user-images.githubusercontent.com/14041622/39987342-112e22fc-5797-11e8-9c8d-2dec0981da57.png)
+错误原文如下：
+```shell
+$ pip install requests
+Collecting requests
+  Could not fetch URL https://pypi.python.org/simple/requests/: There was a problem confirming the ssl certificate: [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:590) - skipping
+  Could not find a version that satisfies the requirement requests (from versions: )
+No matching distribution found for requests
+```
+
+解决方案：在这个虚拟环境下，重新安装一下pip就好了：
+```shell
+$ curl https://bootstrap.pypa.io/get-pip.py >> get-pip.py
+
+$ python get-pip.py
+```
+完成，顺利安装好后就能顺利install包了。
+
+
+
+
+
+
+
+# Python2 乱码解决方案(Anti-TLDR)
+
+```py
+# 首先把所有相关字符串变量检查一遍
+print type(s1)
+print type(s2)
+print type(s3)
+
+# 然后把所有"unicode"格式的字符串转换成"str"格式
+s1 = str(s1)
+```
+完成！
+
+
+# Python文件遍历
+> 学习文件遍历，最最最重要的是了解这种遍历方法的逻辑，它的路径！！不了解的话，永远也学不会。
+
+## `os.walk()`
+解释：
+```py
+os.walk(顶级目录地址, topdown=True, onerror=None, followlinks=False) 
+```
+函数返回一个三元Tupple: `(目录路径(字符串), 子目录名(列表), 文件名(列表))`
+
+![image](https://user-images.githubusercontent.com/14041622/40161575-cdfbb2f2-59e3-11e8-8efd-8db59fe88c96.png)
+
+## 遍历路径
+`os.walk()`是**逐层扫描**的，一层一层来。
+比如上图中，从`Root`根目录下开始扫，
+- 先扫第一层，获得`pics1.jpg`, `pic2.jpg`, 然后是一个目录`New`和目录`Old`。
+- 这个时候还不深入每个子目录，现在算完成一个循环，返回一个子目录列表: `[pics1.jpg, pics2.jpg, New, Old]`
+- 然后在从上面的第一个子目录开始，往下扫，如同上面的过程。
+- 完成第一个目录后，再继续第二个子目录。
+
+记住，它不会无穷尽深入每一个目录一直到底，而是逐层扫。
+**扫完一层后，再跳出来需要遍历的目录深入下一层。**
+
+
+# Python 文件基本I/O操作
+
+## 操作模式 Mode
+
+- `r`
+> Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode.
+
+- `rb`
+> Opens a file for reading only in binary format. The file pointer is placed at the beginning of the file. This is the default mode.
+
+- `r+`
+> Opens a file for both reading and writing. The file pointer will be at the beginning of the file.
+
+- `rb+`
+> Opens a file for both reading and writing in binary format. The file pointer will be at the beginning of the file.
+- `w`
+> Opens a file for writing only. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.
+
+- `wb`
+> Opens a file for writing only in binary format. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.
+
+- `w+`
+> Opens a file for both writing and reading. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.
+
+- `wb+`
+> Opens a file for both writing and reading in binary format. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.
+- `a `
+> Opens a file for appending. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.
+
+- `ab`
+> Opens a file for appending in binary format. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.
+
+- `a+`
+>Opens a file for both appending and reading. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.
+
+- `ab+`
+> Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.
+
+
+# Python3 编码乱码问题
+> 没想到从Python2升级到3，还是有编码问题-_-!
+
+## 小技巧
+在txt等文本文件读取时，如果遇到打开文件乱码，那么最简单的方法是把文件拖到Chrome浏览器里，然后在Chrome开发工具的Console里检查文件的编码格式：
+```js
+>>> document.charset
+'UTF-16LE'
+```
+检查好了，然后再到python里针对其进行解码。
+
+
+
+# Jupyter Notebook 安装插件
+
+## Jupyter Nbextensions Configurator 插件管理器
+[Refer to Github page.](https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator)
+首先需要安装Configurator：
+强烈建议在Virtualenv虚拟环境下使用pip安装：
+```shell
+# 安装Jupyter的配置器
+$ pip install jupyter_nbextensions_configurator
+
+# 启动配置器
+$ jupyter nbextensions_configurator enable --user
+```
+装好后，输入`jupyter notebook`命令打开网页，就会发现多出一个栏目：
+![image](https://user-images.githubusercontent.com/14041622/40265819-32308d76-5b72-11e8-824d-0bedec50cb24.png)
+
+## 
+
+
+# Python 安装Mysql模块及安装中错误的解决 (Windows)
+
+初试爬虫之后，各种快感。然后进入到Python练习的下一阶段了——把抓取到的数据存到数据库中。
+再三考虑，还是决定从MySQL开始入手。虽然评论区很多倾向于SQLite及MongoDB等新潮玩意，但是MySQL还是占有决定性的市场。为了适应以后生存，这方面必须得会，就拿它先练手吧。
+
+> 我的开发环境是中文win7系统32位， Python 2.7, MySQL 14.4。（Linux在虚拟机里呢，熟练之前先不挑战开发环境了-_-!）
+> 注意：这里是安装python的`mysql模块`，而不是mysql, 到了这一步它应该是已经安装好了的（包括`MySQL Server`和`MySQL python connector`）。
+
+**先检查自己是不是已经安装了这个模块**
+极其简单：在Python的命令行中输入`import MySQLdb`，如果没有报错，那就已经安装了。
+## 最简单的安装方法
+
+其实就是随便找个地方按下`win+R`，输入`cmd`回车——打开windows命令行，进行著名的`pip安装大法`：  
+
+> pip install mysql-python
+
+按理来说，这一步足够了。但是我这出现了据说在windows环境下python安装模块的痛：命令行里返回了错误：
+
+> error: Unable to find vcvarsall.bat
+
+然后我想到，是不是在windows用`pip`不太合适？所以还是循规蹈矩地到[Python官网下载](https://pypi.python.org/pypi/MySQL-python/1.2.5#downloads)了MySQLdb的_源文件_，即[MySQL-python-1.2.5.zip](https://pypi.python.org/packages/source/M/MySQL-python/MySQL-python-1.2.5.zip#md5=654f75b302db6ed8dc5a898c625e030c) ([md5](https://pypi.python.org/pypi?:action=show_md5&digest=654f75b302db6ed8dc5a898c625e030c))这个压缩包。
+随便找个地方解压缩，然后以最快的速度在cmd命令行中进入这个目录，输入：
+
+> python setup.py build
+> python setup.py install
+
+按理来说，到这一步就完全成功了。不过，返回的结果是一毛一样的。。。
+
+> error: Unable to find vcvarsall.bat
+
+然后我就知道了：其实`pip`安装，和我自己下载源码用`python setup.py build` 、 `python setup.py install`是一样的效果。
+问题源头还是在`vcvarsall.bat`这个东西上。一看文件名就知道是和vc相关。
+查询相关资料，说是[凡是安装和操作系统底层密切相关的Python扩展，几乎都会遇到这个错误。](http://blog.csdn.net/secretx/article/details/17472107)
+经过搜索，绝大多数的回答都是：需要安装`Microsoft Visual Studio`2008或者2010版本，才能满足Python在windows系统上安装各种底层扩展的需要。
+正在下载2G的VS中。。。
+**不过趁着下载等待时间，我在评论区发现了更easy的方法。。。。**
+![image](https://cloud.githubusercontent.com/assets/14041622/11773086/c79be226-a25f-11e5-891a-ea4c73d5e1c9.png)
+打开页面，http://www.lfd.uci.edu/~gohlke/pythonlibs/ 是这个模样：
+![image](https://cloud.githubusercontent.com/assets/14041622/11773088/cf7ba4a4-a25f-11e5-8e8c-9212c424267a.png)
+
+满屏幕毫无美感的英文，连排版都没有，真有点不太好接受。不过趁着VS还没下载完，就简单读了读，发现了第二行关键词：`University of California, Irvine.`，原来是加大的作品啊，一看就是科学家制作，比较大气，耐着心读了读说明段落——好像是专门针对windows对python支持性差做的工作——把python扩展都制作成了**二进制文件**，即`.whl`文件。
+## 安装二进制的Python扩展包
+
+看起来好像是个好东西，就`ctrl+f`查找mysql，还真找到了！
+
+> MySQL-python, a Python database API 2.0 interface for the MySQL database
+> Mysqlclient is a Python 3 compatible fork of MySQL-python.
+> MySQL_python-1.2.5-cp27-none-win32.whl
+> MySQL_python-1.2.5-cp27-none-win_amd64.whl
+
+选择`win32.whl`这个文件下载，才772k。
+但是这个`whl`文件格式怎么安装呢？回到网页上面，发现说了是用pip安装，于是我在这个目录打开cmd命令行，输入：
+
+哈哈，献丑了！`whl`文件的安装方法，在`pip`的官方文档里说明的很清楚([看这里](https://pip.pypa.io/en/latest/user_guide/#installing-from-wheels))
+所以再来了一遍：
+输入：
+
+> pip install MySQL_python-1.2.5-cp27-none-win32.whl
+> 返回：
+> Processing c:\tdownload\mysql\mysql_python-1.2.5-cp27-none-win32.whl
+> Installing collected packages: MySQL-python
+> Successfully installed MySQL-python-1.2.5
+
+安装成功！
+
+到Python里面试了一下`import MySQLdb`，也正常！
+于是乎，我觉得写文章的这个功夫，已经下载好的Microsoft Visual Studio也没必要了。。。。
+
+
+
+# Python 发送邮件
+> 程序人员对于`邮件自动化`的日常需求还是很高的。但是入过了Linux的命令行邮件客户端如`Sendmail`, `Mutt`, `Alpine`等坑之后，发现现代其实很少人真的在用它们实现邮件自动化，根据搜索引擎里相关文章的数量就可知一二。取而代之的是，现代都在用Python或PHP等编程语言直接实现。Python更是自带一套模块实现邮件发送。
+
+先上示例代码，之后再详解。
+
+注：全部代码在Python3环境下测试通过，正常使用，正常显示，无需任何外置模块。
+
+[参考：菜鸟教程 - Python SMTP发送邮件](http://www.runoob.com/python/python-email.html)
+[参考：简单三步，用 Python 发邮件](https://zhuanlan.zhihu.com/p/24180606)
+
+## `发送HTML格式的漂亮邮件`
+```py
+import smtplib
+from email.mime.text import MIMEText
+
+# Settings of sender's server
+host = 'smtp.aliyun.com'
+sender = 'Jason@aliyun.com'
+user = 'Jason@aliyun.com'
+password = input('Please type your password: ')
+to = ['Jason@outlook.com']
+
+# Content of email
+subject = 'Python send html email test'
+with open('./test.html', 'r') as f:
+    content = f.read()
+
+# Settings of the email string
+email = MIMEText(content,'html','utf-8')
+email['Subject'] = subject
+email['From'] = sender
+email['To'] = to[0]
+msg = email.as_string()
+
+# Login the sender's server
+print('Logging with server...')
+smtpObj = smtplib.SMTP() 
+smtpObj.connect(host, 25)
+smtpObj.login(user, password)
+print('Login successful.')
+
+# Send email
+smtpObj.sendmail(sender, to, msg) 
+smtpObj.quit() 
+print('Email has been sent')
+```
+
+## `发送带附件的邮件`
+```py
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.mime.image import MIMEImage
+
+# Settings of sender's server
+host = 'smtp.aliyun.com'
+sender = 'Jason@aliyun.com'
+user = 'Jason@aliyun.com'
+password = input('Please type your password: ')
+to = ['Jason@outlook.com']
+
+# Make content of email
+subject = 'Python send email with attachments'
+with open('./test.html', 'r') as f:
+    content = MIMEText(f.read(),'html','utf-8')
+    content['Content-Type'] = 'text/html'
+    print('Loaded content.')
+
+# Make txt attachment
+with open('./txt.md', 'r') as f:
+    txt = MIMEText(f.read(),'plain','utf-8')
+    txt['Content-Type'] = 'application/octet-stream'
+    txt['Content-Disposition'] = 'attachment;filename="txt.md"'
+    print('Loaded txt attachment file.')
+
+# Make image attachment
+with open('./pic.png', 'rb') as f:
+    img = MIMEImage(f.read())
+    img['Content-Type'] = 'application/octet-stream'
+    img['Content-Disposition'] = 'attachment;filename="pic.png"'
+    print('Loaded image attachment file.')
+
+# Attach content & attachments to email
+email = MIMEMultipart()
+email.attach(content)
+email.attach(txt)
+email.attach(img)
+
+# Settings of the email string
+email['Subject'] = subject
+email['From'] = sender
+email['To'] = to[0]
+msg = email.as_string()
+
+# Login the sender's server
+print('Logging with server...')
+smtpObj = smtplib.SMTP() 
+smtpObj.connect(host, 25)
+smtpObj.login(user, password)
+print('Login successful.')
+
+# Send email
+smtpObj.sendmail(sender, to, msg) 
+smtpObj.quit() 
+print('Email has been sent')
+```
+
+
+# `pipenv虚拟环境`
+> 2018的PyCon把最新型最先进的Python虚拟环境`pipenv`吵得火热。看了下介绍感觉真的很好用，它在`virtualenv`的基础上包装了一些更便捷的功能，解决了很多很多`virtualenv`欠缺的事情。
+
+[参考pipenv的前世今生：PyCon 2018 之 Python 未来的依赖管理工具 pipenv](https://juejin.im/post/5b07620a518825389f5f4bb5)
+[参考：pipenv 更优雅的管理你的python开发环境](https://segmentfault.com/a/1190000012837890)
+[直接参考创造者Kenneth的官方说明](https://github.com/pypa/pipenv)
+
+简单说，`pipenv`就是把`pip`和`virtualenv`包装起来的一个便携工具。
+
+它不会在你的项目文件夹里生成一大堆东西，只有两个文本文件：
+- `Pipfile`, 简明地显示项目环境和依赖包。
+- `Pipfile.lock`, 详细记录环境依赖，并且利用了hash算法保证了它完整对应关系。只在你使用`pipenv lock`命令后才出现。
+
+### 安装
+安装很简单，Mac上输入：
+```shell
+$ brew install pipenv
+```
+
+## 创建虚拟环境
+在某个文件夹创建一个Python3环境：
+```shell
+# 泛指python的版本
+$ pipenv --three
+
+# 或者，特指某个python版本
+$ pipenv --python 3.5
+
+# 或者，特指某个位置的python
+$ pipenv --python <path/to/python>
+```
+然后就会显示如下动态，可以看出来，`pipenv`调用了`virtualenv`，从本机把Python3环境拷贝一份到某个本机位置，然后在你的项目文件夹里只创建了两个文件`Pipfile`和`Pipfile.lock`，记录了所有你这个项目需要的环境配置，内容极其简单易懂：
+
+![image](https://user-images.githubusercontent.com/14041622/40583975-943a9c14-61cb-11e8-8248-96d13523e246.png)
+
+### 显示当前虚拟环境的储存位置
+```sh
+$ pipenv --venv
+```
+
+### 运行环境
+运行虚拟环境(无需进入特定shell即可按照该环境运行脚本)：
+```sh
+$ pipenv run python xxx.py
+```
+
+### 进入环境
+进入虚拟环境：
+```shell
+# 进入虚拟环境
+$ pipenv shell
+
+# 退出虚拟环境
+$ exit
+```
+其实进入`pipenv`虚拟环境，本质上就是`virtualenv`的`source ./bin/activate`动作，只是使用不一样。进入后，你会发现用`deactivate`也是能生效的。但是：
+
+注意：进入`pipenv`环境后千万不要用`deactivate`退出，而应该用`exit`退出。否则你再进去这个环境就会产生错误：
+```
+Shell for UNKNOWN_VIRTUAL_ENVIRONMENT already activated. 
+No action taken to avoid nested environments.
+```
+
+### 安装packages包
+```shell
+$ pipenv install <包名>
+```
+
+你需要知道的是，进入pipenv虚拟环境后，你还是可以用`pip install`来安装包的，也能正常使用，因为virtualenv就是这样做的。
+但是，这样你就不算使用了`pipenv策略`了，如果你要在项目文件夹里的`Pipfile`记录所有项目需要的依赖环境，就应该放弃使用`pip install`而使用`pipenv install`，这样你的`Pipfile`就会精确记录所有需要的依赖。
+
+重新安装所有packages：
+有时候需要冲github上clone项目，下载好后，只需要一句话就可以完成创建环境：
+```sh
+# 根据Pipfile中的描述安装所有依赖
+$ pipenv install
+
+# 或者，根据Pipfile.lock中的描述安装所有依赖
+$ pipenv install --ignore-pipfile
+
+# 或者，只安装dev组的依赖
+$ pipenv install --dev
+
+# 或者，根据曾经在pip上导出requirements.txt安装依赖
+$ pipenv install -r <path-to-requirements.txt>
+```
+
+### 按照树形结构显示当前环境的依赖关系：
+```sh
+$ pipenv graph
+```
+然后就会显示出如下效果：
+![image](https://user-images.githubusercontent.com/14041622/40592932-210992d6-6257-11e8-8901-e4dba397f21c.png)
+
+### 删除虚拟环境：
+```sh
+# 删除某个包
+pipenv uninstall <包名>
+
+# 删除整个环境
+$ pipenv --rm
+```
+
+## `pipenv lock`时遇到的SSL Error
+错误反馈如下：
+```
+Pipfile.lock not found, creating…
+Locking [dev-packages] dependencies…
+Locking [packages] dependencies…
+usr/local/Cellar/pipenv/2018.5.18/libexec/lib/python3.6/site-packages/pipenv/vendor/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/Cellar/pipenv/2018.5.18/libexec/lib/python3.6/site-packages/pipenv/vendor/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/Cellar/pipenv/2018.5.18/libexec/lib/python3.6/site-packages/pipenv/vendor/requests/adapters.py", line 506, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /pypi/pyobjc-framework-netfs/json (Caused by SSLError(SSLError(1, u'[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:590)'),))
+```
+[参考`pipenv`的issue解答。](https://github.com/pypa/pipenv/issues/836)
+
+最佳解决方案是：
+```sh
+$ pip install pyopenssl
+```
+因为这种SSL Error在其他地方也常见，一般都是没有在环境里安装`pyopenssl`的问题。所以不管你在哪个环境，如果出现这个SSL问题，就先装`pyopenssl`解决。
+注意：不要用`pipenv install pyopenssl`，因为你真的不想在每个环境里都重新装一遍这个，干脆把它撞到本机：`$ pip install pyopenssl`.
+
+## 常见错误操作
+
+### 不要在`pipenv shell`里面运行`pipenv install`
+
+### 不要在`pipenv shell`里面运行`deactivate`
