@@ -960,3 +960,7 @@ Analyzing function's behaviors is one of the Core Purposes of studying Calculus.
 - Function has `inflection points` when `f''(x)=0` and `f''(x)` **crosses** X-axis.
 - It's `concave up` if `f''(x) > 0`
 - It's `concave down` if `f''(x) < 0`
+
+`1st & 2nd Derivative`
+- It's a relative maximum when `f'(x)=0` & `f''(x) < 0`
+- It's a relative minimum when `f'(x)=0` & `f''(x) > 0`
