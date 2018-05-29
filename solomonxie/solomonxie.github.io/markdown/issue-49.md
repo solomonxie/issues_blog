@@ -821,7 +821,7 @@ Two types of concavity: `Concave Up` & `Concave Down`.
 
 ![image](https://user-images.githubusercontent.com/14041622/40619904-73253d6e-62c9-11e8-8e2d-96b755d9e3f5.png)
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40620047-ef5a6486-62c9-11e8-90cc-8ab64633f1ff.png)
 Solve:
 - `f'(x) > 0` means we're to find the INCREASING interval on the graph
