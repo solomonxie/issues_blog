@@ -1308,8 +1308,10 @@ No matching distribution found for requests
 解决方案：在这个虚拟环境下，重新安装一下pip就好了：
 ```shell
 $ curl https://bootstrap.pypa.io/get-pip.py >> get-pip.py
-
 $ python get-pip.py
+
+# 必要的时候升级下pip
+$ pip install --upgrade pip
 ```
 完成，顺利安装好后就能顺利install包了。
 
