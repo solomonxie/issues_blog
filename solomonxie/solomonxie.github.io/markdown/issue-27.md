@@ -854,12 +854,16 @@ Both the standard output and standard error streams will be copied to the file w
 
 
 # Linux查看文件及文件夹大小
-`du 文件或目录名`
-比如`du ~/`会显示用户目录下所有文件、文件夹的大小，包括所有的子文件夹。不过这样不是很方便看，一字排开太多了。
-所以一般用 `du -d 0 ~/`来看特地这个文件夹的总大小，`-d  0`代表max depth为0.
+```sh
+# 查看某目录或文件的大小(目录的话默认显示里面所有文件的大小)
+$ du <file-or-folder>
 
-更人性化的设置是加上`-h`，这样就会显示k, M , G等大小单位，更方便看。
-如`du -h ~/movie.mp4`，就会显示`200M`这样的。
+# 只查看某文件夹自身的总大小("-d  0"代表max depth为0)
+$ du -d 0 <folder>
+
+# 指定size单位查看（如k, M, G等）
+$ du -d 0 -h <folder>
+```
 
 
 # Linux说明书/手册 `man page`
@@ -895,3 +899,483 @@ sudo pip install tldr
 # Mac homebrew医生 `brew doctor`
 
 用来检测当前环境问题。
+
+
+# Linux查看本机`Public IP`地址
+用不着什么命令行工具，直接用`curl`访问一些ip检测的网页就ok了。
+比如：
+```
+curl ipinfo.io/ip
+```
+或者更常用的httpbin：`curl httpbin.org/ip`
+
+
+# 用SSH免密码登录服务器或树莓派
+
+[参考文章。](http://blog.csdn.net/permike/article/details/52386868)
+
+1. 首先在本机器生成密钥对 key pair:
+输入`ssh-keygen`，然后一路回车。这样就成功的在`~/.ssh/`下创建了`id_rsa`私钥和`id_rsa.pub`公钥，且没有passphrase密码。
+2. 连接到服务器。一般也是通过SSH连接，因为没配置好ssh呢，所以先用户密码登录。
+3. 将本地的`id_rsa.pub`公钥内容复制到服务器的`~/.ssh/authorized_keys`文件中，这个文件支持多个公钥设置，每一行写一个：
+```shell
+echo "刚刚复制的本机公钥内容" >> ~/.ssh/authorized_keys
+``` 
+4. 一般来说，到了这里，就可以直接通过ssh登录服务器了。
+5. 有的服务器的ssh默认设置，没有允许别人通过密钥登录等等，所以需要在设置文件里修改下：
+```shell
+vim /etc/ssh/sshd_config
+
+#然后找到以下几样内容，改成一样的：
+# 开启密钥登录功能
+RSAAuthentication yes
+PubkeyAuthentication yes
+
+#  root 用户也可以通过 SSH 登录
+PermitRootLogin yes
+
+# 禁用密码登录
+PasswordAuthentication no
+
+# 编辑完后，保存退出，然后重启ssh
+service sshd restart
+```
+
+
+# Linux更改服务器的默认Shell
+因为老登录服务器和树莓派什么的，默认bash实在太难看，tab补全也不好用，所以希望一连接就直接用zsh。
+方法很简单：更改`/etc/passwd`这个文件。
+看样子那个文件是保存密码似的，其实真不是，就一堆明文的各用户配置，其实也看不懂每行什么意思，如下：
+![image](https://user-images.githubusercontent.com/14041622/36644332-7e27217e-1a93-11e8-8734-7bb0f7058bfb.png)
+因为是系统文件，所以需要root权限，这时用`sudo vim /etc/passwd`打开文件进行编辑，找到自己当前的用户名那一行，把最后的`/bin/bash`改成`/bin/zsh`即可。保存退出，重新登录连接服务器，哒哒！完成。
+
+
+
+# Linux用`sudo apt-get install`安装时报错`Could not get lock /var/lib/dpkg/lock` 
+之前因为`sudo apt-get install`安装什么东西，然后按键终止掉了安装，结果就一直被锁住。
+[解决方案参考文章。](https://askubuntu.com/questions/15433/unable-to-lock-the-administration-directory-var-lib-dpkg-is-another-process)
+
+1. 删除文件锁：`sudo rm /var/lib/dpkg/lock`
+2. 然后虽然没有被锁住了，但是还报错误`E: dpkg was interrupted, you must manually run 'sudo dpkg --configure -a' to correct the problem.`
+于是按照系统提示的解决方法输入命令，如下：
+```shell
+sudo dpkg --configure -a
+```
+3.这时虽然可以启动安装程序了，但是运行到最后往往还是会报这个错误：
+```
+Errors were encountered while processing:
+ cups
+ ssl-cert
+ sudo
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+```
+尝试了网上无数种apt-get purge, clean, -f install等等等等，都不行。
+于是看到了[一篇中文文章](https://www.cnblogs.com/anpengapple/p/5098960.html)两句话解决：
+```shell
+sudo mv /var/lib/dpkg/info/ /var/lib/dpkg/info_backup/
+sudo mkdir /var/lib/dpkg/info/
+```
+意思是，主要出错原因在于`/var/lib/dpkg/info/`文件夹，把它备份或删掉就好了，然后再创建一个同名文件夹。
+之后`sudo apt-get upgrade`升级试试，一切完好！
+
+
+# 树莓派挂载U盘
+[参考文章](https://segmentfault.com/a/1190000014173634)
+
+```shell
+# 检查设备名字
+sudo fdisk -l
+
+# 设定映射目录
+sudo mkdir /mnt/udisk
+# 将指定设备映射到刚刚创建到目录
+sudo mount -o uid=pi,gid=pi /dev/sda1 /mnt/udisk/
+
+# 开机自动执行
+sudo vim /etc/rc.local
+# 将下面这句加到文件内容中(rc.local最后的exit 0之前都行)
+mount -o uid=pi,gid=pi /dev/sda1 /mnt/udisk/
+
+# 弹出优盘方法
+sudo umount /mnt/udisk
+
+# 如果提示device is busy
+ps -ef | grep /mnt/udisk
+sudo kill -9 xxx
+```
+
+
+
+# `Exiftool` 命令行操作图片元信息(Megadata)
+> Exiftool 是命令行操作exif最强大的工具。
+
+[官方网址。](https://www.sno.phy.queensu.ca/~phil/exiftool/)
+
+```shell
+# 安装
+$ sudo apt-get install exiftool
+
+# 查看图片exif信息
+$ exiftool 图片位置
+
+# 常用操作
+
+# Remove all EXIF metadata from the given files:
+$ exiftool -All= file
+
+# Increase time photo taken by 1 hour in directory:
+$ exiftool "-AllDates+=0:0:0 1:0:0" directory
+
+# Decrease time photo taken by 1 day and 2 hours on JPEGs only:
+$ exiftool "-AllDates-=0:0:1 2:0:0" -ext jpg
+
+# Change only DateTimeOriginal by -1.5 hours & do not keep backups:
+$ exiftool -DateTimeOriginal-=1.5 -overwrite_original
+
+# Rename all JPEGs according to a DateTimeOriginal recursively:
+$ exiftool '-filename<DateTimeOriginal' -d %Y-%m-%d_%H-%M-%S%%lc.%%e directory -r -ext jpg
+```
+
+## 常用标签名(Tags)
+> 因为编辑exif信息需要知道图片里内置的各种标签名才能修改，所以下面为标签名参考。
+
+[ExifTool Tag Names](https://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/index.html)
+
+![screenshot-www sno phy queensu ca-2018 04 21-12-29-03](https://user-images.githubusercontent.com/14041622/39080383-a9b40cc0-455f-11e8-9baf-6ac0b12cf350.png)
+
+
+
+# `Pandoc文件转化工具`
+
+[参考 Pandoc Demos](https://pandoc.org/demos.html)
+[官方收集的各种模板： User contributed templates](https://github.com/jgm/pandoc/wiki/User-contributed-templates)
+
+![image](https://user-images.githubusercontent.com/14041622/39826697-1239deaa-53e8-11e8-8511-a6d30bbd53af.png)
+
+## 常用转换
+
+```shell
+# Markdown to Microsoft word .docx
+$ pandoc FILENAME --to docx -o FILENAME.docx
+```
+
+## Markdown转HTML
+一般来说，简单一句就够了：
+```shell
+$ pandoc in.md -o out.html
+```
+
+但是，页面丑爆了！所以我们必须加上模板来渲染出漂亮的页面，比如Github风格的markdown页面。
+但是这就有一些些复杂了。
+
+这里我们采用`GitHub Pandoc HTML5 Template`模板，地址在此：
+https://github.com/tajmone/pandoc-goodies/tree/master/templates/html5/github
+
+需要把这个目录中所有文件复制到`~/.pandoc/templates/`文件夹下:
+![image](https://user-images.githubusercontent.com/14041622/40443379-ac41e270-5ef8-11e8-90d9-567fc3b9f072.png)
+
+如果本地没有这个文件夹，就自己创建一个。复制好之后，就可以直接引用名字来生成渲染过的markdown网页了:
+```shell
+$ pandoc --template=Github.html5 in.md -o out.html
+```
+
+
+
+# Linux 常用命令101集合
+
+## `mv`
+
+### 移动多文件
+[参考。](https://askubuntu.com/questions/214560/how-to-move-multiple-files-at-once-to-a-specific-destination-directory)
+```shell
+# 移动指定的多文件 (最后一个即终点)
+mv file1 file2 file3 DESTINATION
+
+# 根据查找结果移动多文件
+mv  `ls|grep IDENTIFIER` DESTINATION
+# or
+mv *.doc /path/to/dest/folder/
+```
+
+### 重命名文件、文件夹
+```shell
+# 重命名文件夹
+mv old_folder_name new_folder_name
+
+# 重命名文件
+mv old_file_name new_file_name
+```
+
+
+# Mac上ZSH每次打开都会显示`You have new mail`
+查了下才知道，原来不是我的邮箱，而是另一种新建，一种叫`mail`的命令保存的信件。
+它的创建应该是和创建的`crontab`任务有关系。
+
+输入`mail`命令，一条一条看完，就不会再显示了。
+
+![image](https://user-images.githubusercontent.com/14041622/40096487-a943a842-5903-11e8-9732-aaeca20046db.png)
+
+
+
+# 让命令行终端使用Vi模式
+> 命令行里输入长命令时，真是个pain。不能跳词，不能用鼠标，只能按左右键一个字母一个字母移动，实在是挺费劲的。
+
+[参考文章。](https://dougblack.io/words/zsh-vi-mode.html)
+
+实际上非常非常简单，完全无需额外下载什么插件，都是内置功能。
+如果Bash终端的话，只要在`~/.bash_profile`或`~/.bashrc`中加入这个命令：
+```vim
+set -o vi
+```
+
+如果是Zsh，则在`~/.zshrc`中加入：
+```vim
+bindkey -v
+export KEYTIMEOUT=1
+```
+
+[参考视频：TFW You Learn There's a Vim Mode in Bash...](https://www.youtube.com/watch?v=GqoJQft5R2E)
+
+具体使用：
+
+我使用的iTerm2+Zsh终端，已经进入了vi模式。但是屏幕上没有任何显示当前是`Normal`模式还是`Insert`模式。所以经常不知道自己在什么模式，还是有点不习惯。
+使用上，完全和vi相同。
+
+
+
+# Linux 文件检索
+
+## `Find`根据内容查找文件
+在某目录下查找所有含有某关键字的文件：
+```shell
+find 路径 * | xargs grep '关键字'
+
+# 指定某种文件名或某种文件类型
+find 路径 -name '*.txt' | xargs grep '关键字'
+```
+
+
+# Linux发送邮件的命令行应用
+先说明下：不管是什么邮件客户端，都是可以直接发邮件的。但是，因为默认的话，发件人是很随便地设置成你本机地名字。并且**100%**会被邮箱当成垃圾邮件处理。如果你去垃圾箱里找，还是可以看到的。这就是为什么，我们还是需要配置它，让它登录某个邮箱来使用它的身份发邮件了，比如gmail邮箱或阿里云邮箱。（国内的163和qq邮箱都已经屏蔽第三方客户端登录了）
+
+> 另注：为什么如今这么电子技术这么发达的年代，命令行邮件终端相关的应用和文章还这么少几乎都是很多年前的？我想是因为：python等都已经能很好很方便支持发邮件了，没必要折腾命令行版本。
+事实上，试过就知道：为什么这些客户端会被抛弃了。。。请看下面我入的坑：
+
+## ~`Mail`和`Sendmail`~
+> 注：Mail的配置相当麻烦，网上找文章也寥寥无几，有也都是十几年前的东西。所以建议放弃，使用更先进的客户端。
+
+## `Mutt`
+> Mutt是Linux邮箱客户端榜上有名的利器了。
+
+先不说什么界面操作之类的，因为我们用命令行的邮箱客户端都是用来自动化的，不想用什么界面。
+
+[参考：Linux使用mutt发送邮件](http://blog.51cto.com/wzlinux/2043647)
+
+### 安装
+其中`mutt`是软件本身，`msmtp`是用来帮助发件的工具。
+```shell
+# Linux
+$ sudo apt-get install mutt msmtp
+
+# 或Mac
+$ brew install mutt msmtp
+```
+
+### 配置
+你需要配置两个文件，一个是`~/.muttrc`用来配置Mutt本身，一个是`~/.msmtprc`用来配置发件人的，需要写入密码一类的。
+
+[参考：Linux下使用mutt,msmtp发信](http://coolnull.com/82.html)
+
+配置`~/.msmtprc`:
+```shell
+account     Aliyun
+host        smtp.aliyun.com
+from        jason@aliyun.com
+auth        login
+user        jason@aliyun.com
+password    abcde123123123
+account default : Aliyun
+logfile ~/.msmtp.log
+```
+然后必须修改`~/.msmtprc`文件的权限，否则程序无法读取，发邮件时会报错。修改如下：
+```shell
+chmod 600 ~/.msmtprc
+```
+
+配置`~/.muttrc`：
+```shell
+set sendmail="/usr/bin/msmtp"
+set use_from=yes
+set realname="Jason"
+set from="Jason@aliyun.com"
+set envelope_from=yes
+set editor="vim -nw"
+```
+注意：第一条`set sendmail`中的位置不一定是这样的，在Mac和Linux上都会不同，所以需要用`which msmtp`来找到它的真实位置，再填进去。
+
+关于配置的解释可以看这里：
+![image](https://user-images.githubusercontent.com/14041622/40438772-8415e3da-5eeb-11e8-8733-83b6aadab2b4.png)
+
+
+### 发送邮件命令格式
+注意：收件人的地址前一定要明确指定参数名`--`，如下所示。否则无法正确发送附件。
+
+```shell
+# 常用格式如下 -s   “标题”  -c    抄送  -a  附件
+$ echo “HELLO WORLD” | mutt -s “TITLE” -- RECIPIENT@gmail.com
+
+# 发送HTML格式漂亮的邮件
+$ mutt -- RECIPIENT@gmail.com -e 'set content_type="text/html"' -s "TITLE" < out.html
+
+# 发送给多人，抄送，添加附件
+$ echo "hello" | mutt -s "TITLE" aaa@gmail.com, bbb@gmail.com -c ccc@gmail.com -a /home/pi/pic.jpg address="RECIPIENT@gmail.com"
+
+# 发送邮件时设置邮件的文本类型为：html格式，邮件的等级为:重要
+$ echo $content | mutt  -s "${subject}" -e 'set content_type="text/html"' -e 'send-hook . "my_hdr  X-Priority: 1"' $address
+```
+
+语法：
+![image](https://user-images.githubusercontent.com/14041622/40440006-455fbfa4-5eef-11e8-93b2-3b405e0215fb.png)
+
+参数：
+![image](https://user-images.githubusercontent.com/14041622/40440013-4b1cc57c-5eef-11e8-943b-d2bb7e762fe5.png)
+
+
+### Mutt发送HTML漂亮富文本邮件
+默认语法是：
+```shell
+$ mutt -- RECIPIENT@gmail.com -e 'set content_type="text/html"' -s "TITLE" < out.html
+```
+但是，值得注意的是，语法虽然简单，可一旦你本机的`mutt`版本不对，邮件将无法显示出正确的格式，而只是无尽的html源代码。
+通过`mutt -v`可以看到，发送出显示正常的邮件的mutt版本是在树莓派上安装的`Mutt 1.5.23 (2014-03-12)`。而不成功的是在Mac上的`Mutt 1.9.5 (2018-04-13)`，反而是最新的版本！
+
+
+## 邮箱配置
+- [阿里云邮箱](https://help.aliyun.com/knowledge_detail/36576.html)
+![image](https://user-images.githubusercontent.com/14041622/40422684-b1df8542-5ec2-11e8-96e1-8e8ad4045a98.png)
+- 163邮箱
+![image](https://user-images.githubusercontent.com/14041622/40435788-12ad41ea-5ee4-11e8-838d-4969e6224c92.png)
+- 新浪邮箱
+```
+- 新浪@sina.com邮箱，
+接收服务器地址为：pop.sina.com或pop3.sina.com，
+发送服务器地址为：smtp.sina.com
+
+- 新浪@sina.cn邮箱，
+接收服务器地址为：pop.sina.cn或pop3.sina.cn，
+发送服务器地址为：smtp.sina.cn
+
+- 端口号设置：
+POP协议：pop端口：110、smtp端口：25 
+IMAP协议：IMAP 端口：143、smtp端口：25
+
+- 加密设置：
+pop是995、imap的是993
+smtp是587或465，如465不能正常使用，
+可以更换587试试，但不同的国家有可能只支持
+一个端口(并非所有客户端都支持加密码) 。
+```
+
+
+
+
+
+
+# Ubuntu和树莓派更新源方法
+
+两步搞定：
+```shell
+$ sudo vim /etc/apt/sources.list
+
+# 然后把源的一条一条的地址复制进去 保存即可
+
+# 更新索引清单
+$ sudo apt-get update
+
+# 更新依赖关系
+sudo apt-get upgrade -y
+```
+
+## 树莓派的中国源
+```
+deb http://mirrors.aliyun.com/raspbian/raspbian/ jessie main non-free contrib rpi
+deb-src http://mirrors.aliyun.com/raspbian/raspbian/ jessie main non-free contrib rpi
+```
+
+## Ubuntu的中国源
+```
+#sohu shangdong
+deb http://mirrors.sohu.com/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ trusty-backports main restricted universe multiverse
+
+#163 guangdong
+deb http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse
+
+#aliyun
+deb-src http://archive.ubuntu.com/ubuntu xenial main restricted
+deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial main restricted multiverse universe
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted multiverse universe
+deb http://mirrors.aliyun.com/ubuntu/ xenial universe
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates universe
+deb http://mirrors.aliyun.com/ubuntu/ xenial multiverse
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates multiverse
+deb http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
+deb http://archive.canonical.com/ubuntu xenial partner
+deb-src http://archive.canonical.com/ubuntu xenial partner
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted multiverse universe
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security universe
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse
+
+
+#tsinghua.edu
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates main restricted
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial universe
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates universe
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial multiverse
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates multiverse
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security main restricted
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security universe
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security multiverse
+
+#neu.edu
+deb-src http://mirror.neu.edu.cn/ubuntu/ xenial main restricted #Added by software-properties
+deb http://mirror.neu.edu.cn/ubuntu/ xenial main restricted
+deb-src http://mirror.neu.edu.cn/ubuntu/ xenial restricted multiverse universe #Added by software-properties
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-updates main restricted
+deb-src http://mirror.neu.edu.cn/ubuntu/ xenial-updates main restricted multiverse universe
+deb http://mirror.neu.edu.cn/ubuntu/ xenial universe
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-updates universe
+deb http://mirror.neu.edu.cn/ubuntu/ xenial multiverse
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-updates multiverse
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+deb-src http://mirror.neu.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+deb http://archive.canonical.com/ubuntu xenial partner
+deb-src http://archive.canonical.com/ubuntu xenial partner
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-security main restricted
+deb-src http://mirror.neu.edu.cn/ubuntu/ xenial-security main restricted multiverse universe
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-security universe
+deb http://mirror.neu.edu.cn/ubuntu/ xenial-security multiverse
+```
