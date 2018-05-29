@@ -888,6 +888,16 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40636008-899e2cca-632f-11e8-9d10-08f56c81631f.png)
 - So it didn't change the concavity at point `-3`, means there's no inflection point for function.
 
+### Example: Finding Inflection points
+![image](https://user-images.githubusercontent.com/14041622/40636182-71f4ce5c-6330-11e8-9fc1-93e94a01c93b.png)
+Solve:
+- Function has **POSSIBLE** inflection points when `f''(x)` is positive/negative, but never Zero.
+- Set `f''(x) =0 ` and solve for `x`, got `x=0 or 6`. 
+[Refer to Symbolab for `f''(x)`.](https://www.symbolab.com/solver/step-by-step/%5Cfrac%7Bd%5E%7B2%7D%7D%7Bdx%5E%7B2%7D%7D%5Cleft(3x%5E%7B5%7D-30x%5E%7B4%7D%5Cright))
+[Refer to Symbolab for `f''(x)=0`.](https://www.symbolab.com/solver/step-by-step/60x%5E%7B3%7D-360x%5E%7B2%7D%3D0)
+- Let's see if the POSSIBLE points `0 or 6` are the inflection point:
+![image](https://user-images.githubusercontent.com/14041622/40636258-bfbf09ae-6330-11e8-962e-3b9f5f4d6a19.png)
+- So it didn't change the concavity at point `0`, means only `6` is the inflection point.
 
 
 # `Second Derivative Test`
