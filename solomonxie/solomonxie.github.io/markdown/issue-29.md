@@ -495,3 +495,9 @@ $ git branch -d <branch-name>
 
 ## 远程分支操作
 本地不管怎么push，如果不指定push的分支的话，远程是没有变化的。
+```sh
+# 语法非常奇怪 但就是这么操作的
+$ git push origin <local-branch-name>:<remote-branch-name>
+
+# 如 $ git push origin :dev
+```
