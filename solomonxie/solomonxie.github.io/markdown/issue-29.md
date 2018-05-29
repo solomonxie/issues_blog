@@ -481,6 +481,7 @@ $ git checkout <new-branch-name>
 
 # Git merge 合并分支
 
+## 本地分支操作
 ```sh
 # 先切换到主分支（或即将被覆盖的分支）
 $ git checkout master
@@ -491,3 +492,6 @@ $ git merge <branch-name>
 # 删除之前的分支 (已经没用了)
 $ git branch -d <branch-name>
 ```
+
+## 远程分支操作
+本地不管怎么push，如果不指定push的分支的话，远程是没有变化的。
