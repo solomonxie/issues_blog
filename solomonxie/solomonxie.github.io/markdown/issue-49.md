@@ -845,7 +845,7 @@ Algebraically, we identify and express this point by the function's `First Deriv
 ![image](https://user-images.githubusercontent.com/14041622/40535447-b9081cec-603b-11e8-812c-89d7c77ab6c3.png)
 
 
-### Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40620823-de14fa26-62cc-11e8-9584-b4d2adf1b774.png)
 Intuitive way to solve:
 - Draw a **tangent line** in imagination and move it on the function from left to right
@@ -876,6 +876,13 @@ Solve:
 - Mind that this is the graph of **`f''(x)`**, which is the Second derivative.
 - Checking `inflection points` from 2nd derivative is even easier: just to look at when it changes its sign, or say crosses the X-axis.
 - Obviously, it crosses the X-axis 5 times. So there're 5 inflection points of `f(x)`.
+
+
+
+### Example: Finding Inflection points
+![image](https://user-images.githubusercontent.com/14041622/40635712-eeff2dfa-632d-11e8-935a-8dea7bc2e62d.png)
+Solve:
+- Set `f''(x) =0 ` and solve for `x`. Because function has inflection points when 2nd derivative is Zero.
 
 
 # `Second Derivative Test`
