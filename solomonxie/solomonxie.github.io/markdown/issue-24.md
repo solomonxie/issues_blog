@@ -1626,6 +1626,7 @@ print('Email has been sent')
 ```shell
 $ brew install pipenv
 ```
+Ubuntu的话：`$ pip install --user pipenv`
 
 ## 创建虚拟环境
 在某个文件夹创建一个Python3环境：
