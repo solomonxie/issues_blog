@@ -881,7 +881,12 @@ Solve:
 ## `Second Derivative Test`
 ![image](https://user-images.githubusercontent.com/14041622/40632918-6eb231ba-631e-11e8-89f6-68f3c347ac24.png)
 
-
+Example:
+![image](https://user-images.githubusercontent.com/14041622/40633285-589b4a8a-6321-11e8-8d8d-f0564c51e91d.png)
+Solve:
+- `f'(c) = 0` means `c` is a critical point, could be max, min, inflection.
+- `f''(c) < 0` means around point `c` it's a Downward Concave.
+- Conclusion then is that `c` is a maximum point.
 
 
 # `Anti-derivative`
