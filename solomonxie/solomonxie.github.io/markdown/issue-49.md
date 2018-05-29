@@ -844,6 +844,10 @@ e.g., the function might be **still going up**, but at such a point **it suddenl
 Algebraically, we identify and express this point by the function's `First Derivative` OR `Second Derivative`.
 ![image](https://user-images.githubusercontent.com/14041622/40535447-b9081cec-603b-11e8-812c-89d7c77ab6c3.png)
 
+## `Second Derivative Test`
+![image](https://user-images.githubusercontent.com/14041622/40632918-6eb231ba-631e-11e8-89f6-68f3c347ac24.png)
+
+
 ### Example:
 ![image](https://user-images.githubusercontent.com/14041622/40620823-de14fa26-62cc-11e8-9584-b4d2adf1b774.png)
 Intuitive way to solve:
@@ -862,8 +866,11 @@ Solve:
 - Looking for the `parts of concavity shapes`
 - There's no changing of concavity shapes, there's only one shape: Concave down.
 
-## `Second Derivative Test`
-![image](https://user-images.githubusercontent.com/14041622/40620456-72ca82a0-62cb-11e8-96a8-e362bb2d32b8.png)
+### Example
+![image](https://user-images.githubusercontent.com/14041622/40632882-29c5d444-631e-11e8-9bd6-986593b53471.png)
+
+
+
 
 
 
