@@ -1622,11 +1622,28 @@ print('Email has been sent')
 - `Pipfile.lock`, 详细记录环境依赖，并且利用了hash算法保证了它完整对应关系。只在你使用`pipenv lock`命令后才出现。
 
 ### 安装
-安装很简单，Mac上输入：
+Mac安装很简单，只要用Homebrew：
 ```shell
 $ brew install pipenv
 ```
-Ubuntu的话：`$ pip install --user pipenv`
+
+Linux的话，是用pip安装：
+```
+$ pip install --user pipenv
+```
+安装好后，终端里还调取不了命令，因为它现在只是个包。
+需要先找到它的真是路径，然后为了方便把它加到bash或zsh等shell里面：
+```sh
+# 先获取python包的位置
+$ python -m site --user-base
+```
+比如我的显示在`/home/pi/.local`，那么pipenv就藏在`/home/pi/.local/bin`里。
+所以需要打开shell的设置文件，比如bash的话就编辑`~/.bash_profile`, zsh的话就编辑`~/.zshrc`，在里面把刚才查到的包路径存进去：
+```
+alias pipenv="home/pi/.local/bin/pipenv"
+```
+注意：我没有像其他人一样整个export进去，因为不知道为什么树莓派里面的zsh使用不来这个。
+
 
 ## 创建虚拟环境
 在某个文件夹创建一个Python3环境：
