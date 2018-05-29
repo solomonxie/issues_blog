@@ -943,6 +943,12 @@ Notice that: There might be multiple possible anti-derivatives.
 ![image](https://user-images.githubusercontent.com/14041622/40538272-d9650844-6043-11e8-8e53-6e60b4207b86.png)
 
 
-Practice:
+### Example
 Connecting `f, f', f''` graphically:
+[Refer to Khan academy.](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/e/connecting-function-and-derivatives)
 ![image](https://user-images.githubusercontent.com/14041622/40538854-813e5b00-6045-11e8-8b99-372fd849fb3c.png)
+
+
+### Example
+[Refer to Khan academy.](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/e/connecting-function-and-derivatives)
+![image](https://user-images.githubusercontent.com/14041622/40636642-a22ebce8-6332-11e8-9194-b35ef6cfab16.png)
