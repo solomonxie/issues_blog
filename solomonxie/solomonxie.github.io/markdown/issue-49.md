@@ -962,5 +962,5 @@ Analyzing function's behaviors is one of the Core Purposes of studying Calculus.
 - It's `concave down` if `f''(x) < 0`
 
 `1st & 2nd Derivative`
-- It's a relative maximum when `f'(x)=0` & `f''(x) < 0`
-- It's a relative minimum when `f'(x)=0` & `f''(x) > 0`
+- ~It's a relative maximum when `f'(x)=0` & `f''(x) < 0`~
+- ~It's a relative minimum when `f'(x)=0` & `f''(x) > 0`~
