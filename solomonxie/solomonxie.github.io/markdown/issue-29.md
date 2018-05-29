@@ -476,3 +476,15 @@ $ git checkout <new-branch-name>
 - 如果在一个分支进行修改，而没有`add`和`commit`，那么即使另一个分支，文件也一样是改变了的。
 - 如果修改后commit了，那么切换分支时，则会体现出不同。
 
+
+
+
+# Git merge 合并分支
+
+```sh
+# 先切换到主分支（或即将被覆盖的分支）
+$ git checkout master
+
+# 将某个指定分支覆盖到当前分支
+$ git merge <branch-name>
+```
