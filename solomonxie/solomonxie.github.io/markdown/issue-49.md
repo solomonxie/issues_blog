@@ -528,7 +528,16 @@ Btw, at Khan academy it's called the `Differentiate related functions`.
 [Refer to video by KristaKingMath: Related rates](https://www.youtube.com/watch?v=Vi5KBiXg0Co)
 [Refer to video by The Organic Chemistry Tutor: Introduction to Related Rates](https://www.youtube.com/watch?v=I9mVUo-bhM8&t=0s&index=78&list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv)
 
+## `Example: Change of volumes`
+[Refer to previous note of Implicit Differentiation.](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-390174936)
 
+![image](https://user-images.githubusercontent.com/14041622/40665369-a652e8b4-638f-11e8-915f-976d5a502d45.png)
+Solve:
+- From the given conditions, we got that `r'(t)=-12`, `r(t)=40` and `h=2.5`.
+- We know the equation of cylinder's volume is: `V= π·[r(t)]²·h`
+- Differentiate both side of the equation to get:
+![image](https://user-images.githubusercontent.com/14041622/40665972-3bbf6e12-6391-11e8-96cd-487f1b108583.png)
+- Take back all the known values into the equation get `V'(t)=-2400π`
 
 
 
