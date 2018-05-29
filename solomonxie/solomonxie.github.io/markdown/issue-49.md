@@ -452,10 +452,10 @@ Assume you are to differentiate `Y` **WITH RESPECT** to `X`, written as `dy/dx`:
 - Differentiate terms with `Y` as the same to `X`, BUT multiply by `(dy/dx)`
 - Differentiate terms **MIXED** with `X & Y` by using `Product Rule`, then differentiate each term.
 
-### How to differentiate `Y` with respect to `X`
+### `How to differentiate Y with respect to X`
 ![image](https://user-images.githubusercontent.com/14041622/40266769-864f311c-5b83-11e8-9f35-f6087c87e85d.png)
 
-### How to differentiate term MIXED with both `X & Y`
+### `How to differentiate term MIXED with both X & Y`
 ![image](https://user-images.githubusercontent.com/14041622/40266809-34b13dfe-5b84-11e8-8981-cd6b0349fb80.png)
 
 
