@@ -877,8 +877,8 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40632978-e07bc612-631e-11e8-96ed-7cab4ca16c84.png)
 Solve:
 - Mind that this is the graph of **`f''(x)`**, which is the Second derivative.
-- Checking `inflection points` from 2nd derivative is even easier: just to look at when it changes its sign, or say across the X-axis.
-- Obviously, it across the X-axis 5 times. So there're 5 inflection points of `f(x)`.
+- Checking `inflection points` from 2nd derivative is even easier: just to look at when it changes its sign, or say crosses the X-axis.
+- Obviously, it crosses the X-axis 5 times. So there're 5 inflection points of `f(x)`.
 
 
 # `Anti-derivative`
