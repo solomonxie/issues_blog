@@ -880,11 +880,14 @@ Solve:
 
 
 ### Example: Finding Inflection points
-![image](https://user-images.githubusercontent.com/14041622/40635712-eeff2dfa-632d-11e8-935a-8dea7bc2e62d.png)
+![image](https://user-images.githubusercontent.com/14041622/40635878-dd2785ae-632e-11e8-914e-73cee5899f50.png)
 Solve:
-- Set `f''(x) =0 ` and solve for `x`. Because function has inflection points when 2nd derivative is Zero.
+- Function has **POSSIBLE** inflection points when `f''(x)` is positive/negative, but never Zero.
+- Set `f''(x) =0 ` and solve for `x`, got `x=-3`. 
+- Let's see if the POSSIBLE point `-3` is the inflection point:
+![image](https://user-images.githubusercontent.com/14041622/40636008-899e2cca-632f-11e8-9d10-08f56c81631f.png)
+- So it didn't change the concavity at point `-3`, means there's no inflection point for function.
 
-[Refer to Symbolab step-by-step solution.](https://www.symbolab.com/solver/step-by-step/%5Cfrac%7Bd%5E%7B2%7D%7D%7Bdx%5E%7B2%7D%7D%5Cleft(x%5E%7B4%7D%2B4x%5E%7B3%7D-18x%5E%7B2%7D%5Cright))
 
 
 # `Second Derivative Test`
