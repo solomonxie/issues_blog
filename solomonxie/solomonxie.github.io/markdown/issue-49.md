@@ -873,6 +873,13 @@ Solve:
 - Checking `Inflection point` from 1st Derivative is easy: just to look at the change of direction.
 - Obviously there're only two points changed direction: -1 & 2
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/40632978-e07bc612-631e-11e8-96ed-7cab4ca16c84.png)
+Solve:
+- Mind that this is the graph of **`f''(x)`**, which is the Second derivative.
+- Checking `inflection points` from 2nd derivative is even easier: just to look at when it changes its sign, or say across the X-axis.
+- Obviously, it across the X-axis 5 times. So there're 5 inflection points of `f(x)`.
+
 
 # `Anti-derivative`
 Looks like a fancy word, but it just means: Use the **Derivative function** describe the **Original function**.
