@@ -888,6 +888,13 @@ Solve:
 - `f''(c) < 0` means around point `c` it's a Downward Concave.
 - Conclusion then is that `c` is a maximum point.
 
+Example:
+![image](https://user-images.githubusercontent.com/14041622/40633351-c39c421c-6321-11e8-8e23-0137876de182.png)
+Solve:
+- `f'(c) = 0` means `c` is a critical point, could be max, min, inflection.
+- `f''(c) = 0` means it's either a Concave up or down, we don't know yet.
+- So the answer is "No enough information to tell."
+
 
 # `Anti-derivative`
 Looks like a fancy word, but it just means: Use the **Derivative function** describe the **Original function**.
