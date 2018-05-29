@@ -884,6 +884,8 @@ Solve:
 Solve:
 - Set `f''(x) =0 ` and solve for `x`. Because function has inflection points when 2nd derivative is Zero.
 
+[Refer to Symbolab step-by-step solution.](https://www.symbolab.com/solver/step-by-step/%5Cfrac%7Bd%5E%7B2%7D%7D%7Bdx%5E%7B2%7D%7D%5Cleft(x%5E%7B4%7D%2B4x%5E%7B3%7D-18x%5E%7B2%7D%5Cright))
+
 
 # `Second Derivative Test`
 ![image](https://user-images.githubusercontent.com/14041622/40632918-6eb231ba-631e-11e8-89f6-68f3c347ac24.png)
