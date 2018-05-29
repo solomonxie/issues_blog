@@ -480,7 +480,19 @@ alias gc = "git add . && git commit -m \"`date`\" "
 
 # 每天执行
 ** 
+```
 
+## 动态修改Crontab
+我们可以用Python或Shell脚本动态修改crontab：
+```sh
+# 先导出crontab设置
+$ crontab > ./tasks.txt
+
+# 输入新的crontab设置到文件中 (也可以直接修改txt文件)
+$ echo '# some new command' >> ./tasks.txt
+
+# 导入(覆盖)到crontab中
+$ crontab ./tasks.txt
 ```
 
 ## `Crontab创建任务时报错：crontab: no crontab - using an empty one crontab: "/usr/bin/vi" exited with status 1`
