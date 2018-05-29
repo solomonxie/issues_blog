@@ -487,4 +487,7 @@ $ git checkout master
 
 # 将某个指定分支覆盖到当前分支
 $ git merge <branch-name>
+
+# 删除之前的分支 (已经没用了)
+$ git branch -d <branch-name>
 ```
