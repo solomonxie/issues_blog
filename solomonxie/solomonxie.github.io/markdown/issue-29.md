@@ -459,3 +459,19 @@ git config push.default simple
 更多参考：
 [Github Help: Adding a remote](https://help.github.com/articles/adding-a-remote/)
 [Github Help: Changing a remote's URL](https://help.github.com/articles/changing-a-remote-s-url/)
+
+
+# Git branch 分支
+
+## 新建分支
+```sh
+$ git checkout <new-branch-name>
+
+# 以上一句话等同于以下两句话：
+$ git branch <new-branch-name>
+$ git checkout <new-branch-name>
+```
+
+## 不同分支的修改状况
+- 如果在一个分支进行修改，而没有`add`和`commit`，那么即使另一个分支，文件也一样是改变了的。
+- 如果修改后commit了，那么切换分支时，则会体现出不同。
