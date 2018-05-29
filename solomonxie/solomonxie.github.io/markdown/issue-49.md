@@ -868,10 +868,10 @@ Solve:
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/40632882-29c5d444-631e-11e8-9bd6-986593b53471.png)
-
-
-
-
+Solve:
+- Notice that's the graph of **`f'(x)`**, which is the First Derivative.
+- Checking `Inflection point` from 1st Derivative is easy: just to look at the change of direction.
+- Obviously there're only two points changed direction: -1 & 2
 
 
 # `Anti-derivative`
