@@ -546,7 +546,8 @@ Solve:
     - `h(t)=8`
     - `V(t) = π·r²·h`
 - So they're asking for `V'(t)`, it then becomes `V'(t) = π·d/dt (r²·h)`
-- Apply `Product rule` & `Chain rule` then substitute: `V'(t) = π·(2r'·r + r²·h'·1) = -20π`
+- Apply `Product rule` & `Chain rule` then substitute: `V'(t) = π((r²)'·h + r²h') = π(2r'·r + r²·h') = -20π`
+Notice that: `(r²)'` is a composite function, so you want to apply the Chain rule, `=2r·r'`
 
 ## `Example: Change of volumes`
 ![image](https://user-images.githubusercontent.com/14041622/40665369-a652e8b4-638f-11e8-915f-976d5a502d45.png)
@@ -557,6 +558,32 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40665972-3bbf6e12-6391-11e8-96cd-487f1b108583.png)
 - Take back all the known values into the equation get `V'(t)=-2400π`
 
+## `Example: Change of area`
+![image](https://user-images.githubusercontent.com/14041622/40703993-8cdf0e3c-6419-11e8-8f8d-25d67ef5d7f6.png)
+Solve:
+- Write out all conditions algebraically:
+    - `d₁'(t) = -7`
+    - `d₁(t) = 4`
+    - `d₂'(t) = 10`
+    - `d₂(t) = 6`
+    - `A(t) = (d₁·d₂)/2`
+- So it's asking for instantaneous rate of change, then it is `A'(t) = (d₁'·d₂ + d₁·d₂')/2`
+- Apply the Product rule only, to get `A'(t) = -1`.
+
+## `Example: Pythagorean Theorem`
+![image](https://user-images.githubusercontent.com/14041622/40705392-5be7534e-641d-11e8-9345-72a75f6f0715.png)
+![image](https://user-images.githubusercontent.com/14041622/40705558-c2df246e-641d-11e8-86a5-bf109c95ec45.png)
+[Refer to Khan academy lecture: Related rates: Approaching cars](https://www.khanacademy.org/math/ap-calculus-ab/ab-applications-derivatives/ab-related-rates/v/rate-of-change-of-distance-between-approaching-cars)
+
+Solve:
+- It's a problem to calculate two objects' dynamic absolute distance: it's getting closer and closer until distance become `0`, which means they crashes at `0`.
+- Write down all the conditions algebraically:
+    - `c₁'(t) = -10`
+    - `c₁(t) = 4`
+    - `c₂'(t) = -6`
+    - `c₂(t) = 3`
+    - `D(t) = √(d₁²+d₂²)`
+- So 
 
 
 # `Second derivatives`
