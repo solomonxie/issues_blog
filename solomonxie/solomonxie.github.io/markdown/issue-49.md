@@ -1053,10 +1053,11 @@ Solve:
 - So the critical point `a/2` is a maximum.
 
 ### `Example: Max Area of Trapezoid Inscribed in a Semicircle`
-Q: What is the area of the largest rectangle that can be inscribed in a semicircle with radius `r = 1`?
-
 [Refer to Kristaking's video: Largest area of a rectangle inscribed in a semicircle](https://www.youtube.com/watch?v=wNMK92GVTO8&t=10s)
-![image](https://user-images.githubusercontent.com/14041622/40725639-831bf616-6456-11e8-8b02-d7e63a765397.png)
+[Refer to Gegebra for Animated tool for this problem I created.](https://ggbm.at/runpCeja)
+
+Q: What is the area of the largest trapezoid that can be inscribed in a semicircle with radius `r = 1`?
+![image](https://user-images.githubusercontent.com/14041622/40726512-7bd76ad2-6458-11e8-8f1a-24c55cb95ab8.png)
 
 
 

@@ -3073,6 +3073,8 @@ Types of studies:
 # `Trapezoid`
 > Definition: A trapezoid is a quadrilateral with **two parallel sides**.
 
+[To play with trapezoid, Refer to GeoGebra](https://ggbm.at/runpCeja)
+
 ![image](https://user-images.githubusercontent.com/14041622/40727180-ec7b92c6-6459-11e8-9951-557b33bdd838.png)
 
 
