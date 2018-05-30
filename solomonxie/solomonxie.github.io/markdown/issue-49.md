@@ -1059,6 +1059,8 @@ What is the area of the largest trapezoid that can be inscribed in a semicircle 
 [Refer to Kristaking's video: Largest area of a rectangle inscribed in a semicircle](https://www.youtube.com/watch?v=wNMK92GVTO8&t=10s)
 
 
+
+
 # `Applications of Derivatives`
 
 ## Lose of bears
