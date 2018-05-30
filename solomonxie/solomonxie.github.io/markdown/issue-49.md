@@ -1042,7 +1042,7 @@ Analyzing function's behaviors is one of the Core Purposes of studying Calculus.
 Once you've mastered the Derivatives, you would know the `optimization problems` are easy.
 It's just a progress to get **the Maximum or Minimum points of a given function.** 
 
-### Example
+### `Example: Max product`
 ![image](https://user-images.githubusercontent.com/14041622/40716539-ed6c3942-643b-11e8-82e5-da4411eecf7a.png)
 Solve:
 - It's bit tricky to understand the question.
@@ -1051,6 +1051,13 @@ Solve:
 - Set `P'(x) = 0` then get `x = a/2`.
 - To perform a 2nd Derivative Test: `P''(x) = -2`, means it's Concave Down
 - So the critical point `a/2` is a maximum.
+
+### `Example: Max Area of Trapezoid Inscribed in a Semicircle`
+```
+What is the area of the largest trapezoid that can be inscribed in a semicircle with radius `r = 1`?
+```
+[Refer to Kristaking's video: Largest area of a rectangle inscribed in a semicircle](https://www.youtube.com/watch?v=wNMK92GVTO8&t=10s)
+
 
 
 # `Applications of Derivatives`
