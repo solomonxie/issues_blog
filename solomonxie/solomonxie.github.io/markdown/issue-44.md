@@ -2064,6 +2064,8 @@ By slicing through a double cone, it can create these 2D shapes:
 
 
 ## Standard Equation of circle
+Since the definition of circle is the set of all points with same distance to the center,
+so we assume any point `(x, y)` on this circle can satisfy this equation:
 ```py
 x² + y² = r²
 ```
