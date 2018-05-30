@@ -572,7 +572,7 @@ Solve:
 
 ## `Example: Pythagorean Theorem`
 ![image](https://user-images.githubusercontent.com/14041622/40705392-5be7534e-641d-11e8-9345-72a75f6f0715.png)
-![image](https://user-images.githubusercontent.com/14041622/40705558-c2df246e-641d-11e8-86a5-bf109c95ec45.png)
+![image](https://user-images.githubusercontent.com/14041622/40707585-abdd4fce-6423-11e8-9343-1fac520bb809.png)
 [Refer to Khan academy lecture: Related rates: Approaching cars](https://www.khanacademy.org/math/ap-calculus-ab/ab-applications-derivatives/ab-related-rates/v/rate-of-change-of-distance-between-approaching-cars)
 
 Solve:
