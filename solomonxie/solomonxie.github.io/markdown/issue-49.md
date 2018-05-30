@@ -1042,6 +1042,16 @@ Analyzing function's behaviors is one of the Core Purposes of studying Calculus.
 Once you've mastered the Derivatives, you would know the `optimization problems` are easy.
 It's just a progress to get **the Maximum or Minimum points of a given function.** 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/40716539-ed6c3942-643b-11e8-82e5-da4411eecf7a.png)
+Solve:
+- It's bit tricky to understand the question.
+- Form a function: `P(x) = x(a-x) = ax - x²`
+- To get a maximum, need to find the critical points first.
+- Set `P'(x) = 0` then get `x = a/2`.
+- To perform a 2nd Derivative Test: `P''(x) = -2`, means it's Concave Down
+- So the critical point `a/2` is a maximum.
+
 
 # `Applications of Derivatives`
 
