@@ -1058,13 +1058,13 @@ Q: What is the area of the largest trapezoid that can be inscribed in a semicirc
 
 [Refer to Kristaking's video: Largest area of a rectangle inscribed in a semicircle](https://www.youtube.com/watch?v=wNMK92GVTO8)
 
-![image](https://user-images.githubusercontent.com/14041622/40730681-cfffe6bc-6461-11e8-88f0-55d2362e49de.png)
+![image](https://user-images.githubusercontent.com/14041622/40733499-5cd7e570-6468-11e8-9568-cc49fa4568e0.png)
 
-
-Strategy:
+Understanding:
 - For this `Trapezoid inscribed in circle` problem, you really want to draw it out before anything else.Refer to this [animated tool](https://ggbm.at/runpCeja) from Geogebra that I created for this problem.
 - Remember that a `trapezoid` has to have **TWO BASES** to be parallel.
 - Know that, a `quadrilateral` CAN be inscribed in a circle or even a semicircle, which means 4 vertices  are all on the circle. 
+- **A trapezoid of maximum area inscribed in the semicircle will have its base on the X-axis.** Which means the length of `bottom base` should be twice radius: `b₁ = 2·r`
 - Since it's a `trapezoid`, and inscribed in a circle, then **IT HAS TO BE A ISOSCELES TRAPEZOID.** No matter its side crosses the centre or not.
 - 
 
