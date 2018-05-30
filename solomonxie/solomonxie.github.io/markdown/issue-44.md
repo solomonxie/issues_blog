@@ -3073,9 +3073,11 @@ Types of studies:
 # `Trapezoid`
 > Definition: A trapezoid is a quadrilateral with **two parallel sides**.
 
-![image](https://user-images.githubusercontent.com/14041622/40727009-8879f9c0-6459-11e8-8f5f-9915527ae0c9.png)
+![image](https://user-images.githubusercontent.com/14041622/40727180-ec7b92c6-6459-11e8-9951-557b33bdd838.png)
+
 
 Trapezoid
 - Scalene trapezoid: No equal sides.
 - Isosceles trapezoid: Two legs are equal.
+![image](https://user-images.githubusercontent.com/14041622/40727155-e20df95a-6459-11e8-9891-46a3c1ccacb0.png)
 
