@@ -3068,3 +3068,14 @@ Types of studies:
 - `Correlation` is WEAKER than `causation`
 - To answer a question about a causal relationship, we need to perform an experiment with a `treatment group` and a `control group`.
 - While `sample study` need a part of relative members, `Observational study` need ALL members.
+
+
+# `Trapezoid`
+> Definition: A trapezoid is a quadrilateral with **two parallel sides**.
+
+![image](https://user-images.githubusercontent.com/14041622/40727009-8879f9c0-6459-11e8-8f5f-9915527ae0c9.png)
+
+Trapezoid
+- Scalene trapezoid: No equal sides.
+- Isosceles trapezoid: Two legs are equal.
+
