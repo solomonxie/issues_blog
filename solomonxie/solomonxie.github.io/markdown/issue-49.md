@@ -585,9 +585,18 @@ Solve:
     - `D(t) = √(c₁²+c₂²)`
 - So `D'(t) = d/dt · (√(c₁²+c₂²)) = (2c₁'c₁+2c₂'c₂)/(2√(c₁²+c₂²))`
 
-### `Example: Sliding ladder`
+## `Example: Sliding ladder`
 ![image](https://user-images.githubusercontent.com/14041622/40710951-8ac86086-642c-11e8-88ff-3e82a4425acc.png)
 
+## `Example: multiple composite`
+![image](https://user-images.githubusercontent.com/14041622/40711519-f2d9e6c6-642d-11e8-9cc7-b5c0812fd899.png)
+Solve:
+- Write down all the conditions algebraically:
+    - `S'(t) = π/2`
+    - `S(t) = 12π`
+    - `S = 2π·r`, which means `r = S/2π`
+    - `A(t) = π·r²`
+- So `A'(t) = d/dt · (π·r²) = 2π·r·r' = 2π·6·(S/2π)' = 6S' = 3π`
 
 
 # `Second derivatives`
