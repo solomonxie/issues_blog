@@ -3083,6 +3083,10 @@ Trapezoid
 - Isosceles trapezoid: Two legs are equal.
 ![image](https://user-images.githubusercontent.com/14041622/40727155-e20df95a-6459-11e8-9891-46a3c1ccacb0.png)
 
+## `Area of trapezoid`
+
+![image](https://user-images.githubusercontent.com/14041622/40730074-6cfda30c-6460-11e8-8011-cda118e0dcc4.png)
+
 
 ## `Trapezoid inscribed in a circle`
 ![image](https://user-images.githubusercontent.com/14041622/40729999-41c4663a-6460-11e8-8c25-3eb4cd5bb24c.png)
