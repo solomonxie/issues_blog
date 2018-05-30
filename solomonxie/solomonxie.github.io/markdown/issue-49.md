@@ -582,8 +582,12 @@ Solve:
     - `c₁(t) = 4`
     - `c₂'(t) = -6`
     - `c₂(t) = 3`
-    - `D(t) = √(d₁²+d₂²)`
-- So 
+    - `D(t) = √(c₁²+c₂²)`
+- So `D'(t) = d/dt · (√(c₁²+c₂²)) = (2c₁'c₁+2c₂'c₂)/(2√(c₁²+c₂²))`
+
+### `Example: Sliding ladder`
+![image](https://user-images.githubusercontent.com/14041622/40710951-8ac86086-642c-11e8-88ff-3e82a4425acc.png)
+
 
 
 # `Second derivatives`
