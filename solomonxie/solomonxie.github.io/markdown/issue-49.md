@@ -528,9 +528,27 @@ Btw, at Khan academy it's called the `Differentiate related functions`.
 [Refer to video by KristaKingMath: Related rates](https://www.youtube.com/watch?v=Vi5KBiXg0Co)
 [Refer to video by The Organic Chemistry Tutor: Introduction to Related Rates](https://www.youtube.com/watch?v=I9mVUo-bhM8&t=0s&index=78&list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv)
 
+Strategy:
+- Abstract every given condition algebraically, e.g. `s(t), s'(t), V(t), V'(t)...`
+- Find a proper equation to **CONNECT** all these given conditions
+- Differentiate both sides of equation, with using the Chain rule.
+- Take back the given values to the Differentiated equation to get the result.
+
 ## `Example: Change of volumes`
 [Refer to previous note of Implicit Differentiation.](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-390174936)
+![image](https://user-images.githubusercontent.com/14041622/40703294-441a0802-6417-11e8-9486-7eacddd51c9f.png)
 
+Solve:
+- Write out all conditions algebraically:
+    - `r'(t)=1`
+    - `r(t)=5`
+    - `h'(t)=-4`
+    - `h(t)=8`
+    - `V(t) = π·r²·h`
+- So they're asking for `V'(t)`, it then becomes `V'(t) = π·d/dt (r²·h)`
+- Apply `Product rule` & `Chain rule` then substitute: `V'(t) = π·(2r'·r + r²·h'·1) = -20π`
+
+## `Example: Change of volumes`
 ![image](https://user-images.githubusercontent.com/14041622/40665369-a652e8b4-638f-11e8-915f-976d5a502d45.png)
 Solve:
 - From the given conditions, we got that `r'(t)=-12`, `r(t)=40` and `h=2.5`.
