@@ -1060,6 +1060,8 @@ What is the area of the largest trapezoid that can be inscribed in a semicircle 
 
 
 
+
+
 # `Applications of Derivatives`
 
 ## Lose of bears
