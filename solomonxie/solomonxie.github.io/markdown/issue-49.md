@@ -1058,7 +1058,8 @@ Q: What is the area of the largest trapezoid that can be inscribed in a semicirc
 
 [Refer to Kristaking's video: Largest area of a rectangle inscribed in a semicircle](https://www.youtube.com/watch?v=wNMK92GVTO8)
 
-![image](https://user-images.githubusercontent.com/14041622/40729582-428eea46-645f-11e8-8914-d218efe70de1.png)
+![image](https://user-images.githubusercontent.com/14041622/40730681-cfffe6bc-6461-11e8-88f0-55d2362e49de.png)
+
 
 Strategy:
 - For this `Trapezoid inscribed in circle` problem, you really want to draw it out before anything else.Refer to this [animated tool](https://ggbm.at/runpCeja) from Geogebra that I created for this problem.
