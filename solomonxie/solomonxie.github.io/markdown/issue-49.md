@@ -1123,7 +1123,7 @@ Solve:
 
 
 
-# `Motion problems (differential calc)`
+# `Motion problems (Differential calc)`
 
 `Motion Problems` are all about this relationships: 
 `Moving position -> Velocity(or speed) -> Acceleration`.
