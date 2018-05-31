@@ -1198,3 +1198,7 @@ Solve:
 - It's easier to do `implicit differentiation` than explicit one: 
 `(x²y²)'=(16)' -> 2x·x'·y² + x²·2y·y' = 0 -> -4xy² + x²·2y·y' = 0 -> y' = 2y/x`
 - Substitute `(1,4)` to the `y`'s rate of change to get `y' = 2*4/1 = 8`
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/40778585-3caf138a-6504-11e8-9cd3-702bb06630e3.png)
+Solve:
