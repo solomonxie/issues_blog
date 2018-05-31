@@ -1120,3 +1120,17 @@ Solve:
 Solve:
 - Just take the derivative `B'(t)` and input `t=2` to get the value `B'(2) ≈ -361 bears/year`.
 
+
+
+
+# `Motion problems (differential calc)`
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/40774169-79fafe00-64f7-11e8-9ee6-86f09c752560.png)
+Solve:
+- The tricky part here is the relationships: `Position -> Velocity -> Acceleration`
+    - Position:  `p(t) = x(t)`
+    - Velocity: `v(t) = x'(t)`
+    - Acceleration: `a(t) = v'(t) = x''(t)`
+- To conclude, the Max velocity should satisfy this: `a(t) = 0` & `a'(t) < 0`
+- Differentiate `x(t)` twice and set `x''(t) = 0`, get `t = 1`.
