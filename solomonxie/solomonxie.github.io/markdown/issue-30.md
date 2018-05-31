@@ -5,7 +5,7 @@
 
 ## 已收集IDE
 - [x] Sublime Text
-- [x] VSCODE
+- [x] VS Code
 
 
 # Sublime Text 开启vim模式
