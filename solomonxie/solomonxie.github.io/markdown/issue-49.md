@@ -1171,3 +1171,11 @@ Solve:
     - Velocity: `v(t) = P'(t) = (x', y') = (-2t+10, 3t²-10)`
     - `t=4`
 - Substitute to get `v(4) = (2, 38)`
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/40777143-89a29586-64ff-11e8-98c2-cb8f75130b2a.png)
+Solve:
+- `P(t) = (2t²-6t, -t³+10t)`
+- `v(t) = P'(t) = (4t-6, -3t²+10)`
+- `v(2) = (2, -2)`
+- `|v(2)| = √(4+4) = 2√2`
