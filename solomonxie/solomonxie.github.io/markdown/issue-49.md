@@ -18,7 +18,7 @@
 - [x] [Advanced derivatives](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-advanced/modal/test/ab-derivatives-advanced-unit-test)
 - [x] [Existence theorems](https://www.khanacademy.org/math/ap-calculus-ab/ab-existence-theorems/modal/test/ab-existence-theorems-unit-test)
 - [x] [Using derivatives to analyze functions](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/test/ab-derivatives-analyze-functions-unit-test)
-- [ ] [Applications of derivatives](https://www.khanacademy.org/math/ap-calculus-ab/ab-applications-derivatives/modal/test/ab-applications-derivatives-unit-test)
+- [x] [Applications of derivatives](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-derivatives/modal/test/bc-applications-derivatives-unit-test)
 - [ ] Accumulation and Riemann sums
 - [ ] Antiderivatives and the fundamental theorem of calculus
 - [ ] Differential equations
