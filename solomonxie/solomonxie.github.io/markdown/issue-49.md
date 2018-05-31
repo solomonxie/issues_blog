@@ -1154,3 +1154,11 @@ Solve:
 - The velocity is `v(t) = x'(t)`
 - The Acceleration is `a(t) = v'(t) = x''(t) = 0`, and get `t=1`
 - Substitute to `v(1) = 3`
+
+
+# `Planar motion (Differential Calc of vectors)`
+
+It's still the `Motion problem` but the object not only moves on the X-axis but move in a **PLANE**, with X-coordinate and Y-coordinate.
+The differentiation is almost the same.
+
+### Example
