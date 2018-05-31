@@ -1052,7 +1052,7 @@ Solve:
 - To perform a 2nd Derivative Test: `P''(x) = -2`, means it's Concave Down
 - So the critical point `a/2` is a maximum.
 
-### `Example: Max Area of Trapezoid Inscribed in a Semicircle`
+### `Example: Largest Area of Trapezoid Inscribed in a Semicircle`
 Q: What is the area of the largest trapezoid that can be inscribed in a semicircle with radius `r = 1`?
 
 
@@ -1102,6 +1102,15 @@ Solve:
 - For getting the area's smallest value, we need to find the critical points first:
 - Set `A'(w) = 0`, and differentiate the function to get: `A'(w) = 3 - 300/w²`, and `w=10`.
 - Substitute the value back to get `h=15`, So the paper should be `(10+2) wide, and (15+3) high`.
+
+### `Example: Largest area of rectangle inscribed in triangle`
+![image](https://user-images.githubusercontent.com/14041622/40772345-49dae21c-64f2-11e8-9322-a746358709e8.png)
+![image](https://user-images.githubusercontent.com/14041622/40772541-cfff360e-64f2-11e8-9b06-97d2e433b089.png)
+Solve:
+- Form the equation of area of the rectangle: `A = w · h`
+- Apply the `Similar triangle` property from Geometry lessons, telling that the ratio between two sides are the same with its similar triangle's. So use any of the small triangle there, to form the equation: `h/(8-w) = 10/8`.
+- And we make `h = 5(8-w)/4`, and the area equation then be `A(w) = 5/4 (8w - w²)`
+- ....
 
 
 # `Applications of Derivatives`
