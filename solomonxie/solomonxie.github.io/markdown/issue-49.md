@@ -1067,9 +1067,24 @@ Understanding:
 - **A trapezoid of maximum area inscribed in the semicircle will have its base on the X-axis.** Which means the length of `bottom base` should be twice radius: `b₁ = 2·r`
 - Since it's a `trapezoid`, and inscribed in a circle, then **IT HAS TO BE A ISOSCELES TRAPEZOID.** And it means it's absolute **symmetric** about the X-axis.
 - With knowing all these conditions above, you could start to abstract the information into equations.
+- Get some clue from the result first, then see what's missing and find a way to get it.
 
 Solve:
-
+- First form the equation of trapezoid's area: `A = 1/2 · (b₁+b₂) · h`
+- `b₁` is the bottom base, which is equal to `2r = 2`, because the largest-area-trapezoid inscribed in circle MUST:
+    - lay its base on X-axis
+    - equal to the Diameter (because it's the longest base's length)
+    - symmetric about the Y-axis (because two bases are parallel)
+- Assume one of the `vertex` on the Top base is `(x, y)`.
+- Since the two bases are parallel, so the Top Base is symmetric as well, means it has equal distance to both sides' vertices, which could conclude that:
+    - The other `vertex` on the Top base should be`(-x, y)`.
+    - The length of Top Base should be `b₂ = x - (-x) = 2x`
+- The `h` is hight of the trapezoid, which is equal to the top vertex's `y` value.
+- So the equation then becomes: `A = 1/2 · (2r + 2x) · y`.
+- We need to form a function as `Area in term of x`, means the Area would change with the change of `x`. So the `y` has to transform to the term of `x`.
+- Since `(x, y)` is a point of the circle, so the circle's `Standard formula` should work: `x² + y² = r²`
+- Then we get: `y = √(r²-x²) = √(1-x²)`
+- So the final function looks like this: `A(x) = 1/2 · (2r + 2x) · √(r²-x²) = (1+x)·√(1-x²)`
 
 
 
