@@ -1,4 +1,4 @@
-# Python中文字符的理解：str()、repr()、print
+# Ebbinghaus' Forgetting Curve 艾宾浩斯遗忘曲线
 # Python中文字符的理解：str()、repr()、print
 
 都说Python人不把文字编码这块从头到尾、从古至今全研究通透的话是完全玩不转的。我终于深刻的理解到了。通宵了好几夜，各种试验，print、print再print，中文还是既得不到也输不出。
