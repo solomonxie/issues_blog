@@ -1156,10 +1156,11 @@ Solve:
 - Substitute to `v(1) = 3`
 
 
-# `Planar motion (Differential Calc of vectors)`
+# `Planar motion (Derivative of vectors)`
 
 It's still the `Motion problem` but the object not only moves on the X-axis but move in a **PLANE**, with X-coordinate and Y-coordinate.
-The differentiation is almost the same.
+So it becomes **differentiation of vectors**.
+But the differentiation steps are almost the same.
 
 [Jump to do the Khan academy practice.](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-derivatives/modal/e/planar-motion-differential-calc)
 
