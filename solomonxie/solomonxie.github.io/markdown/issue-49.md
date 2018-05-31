@@ -1091,7 +1091,17 @@ Solve:
 - Do the `Second derivative test` to make sure it's a maximum: `A''(x) < 0`.
 - Substitute the values back to the area equation, we get `A = 3√3 / 4`
 
-
+### `Example: Smallest paper`
+![image](https://user-images.githubusercontent.com/14041622/40769171-e15c9396-64e9-11e8-9cd0-2abb88442152.png)
+![image](https://user-images.githubusercontent.com/14041622/40769508-bcdd2cdc-64ea-11e8-8253-eb30c8b51960.png)
+Solve:
+- Assume the area of the inside rectangle (the texts) is `T = w · h = 150`
+- So the area of paper should be `A = (w+2)·(h+3)`
+- Let `h = T/w = 150/w`
+- So the function of area should be `A(w) = (w+2)·(150/w +3)`
+- For getting the area's smallest value, we need to find the critical points first:
+- Set `A'(w) = 0`, and differentiate the function to get: `A'(w) = 3 - 300/w²`, and `w=10`.
+- Substitute the value back to get `h=15`, So the paper should be `(10+2) wide, and (15+3) high`.
 
 
 # `Applications of Derivatives`
