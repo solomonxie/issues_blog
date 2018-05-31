@@ -1125,6 +1125,8 @@ Solve:
 
 # `Motion problems (differential calc)`
 
+`Motion Problems` are all about this relationships: `Moving position -> Velocity(or speed) -> Acceleration`.
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/40774169-79fafe00-64f7-11e8-9ee6-86f09c752560.png)
 Solve:
