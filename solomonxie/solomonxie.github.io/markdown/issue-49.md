@@ -1162,6 +1162,11 @@ It's still the `Motion problem` but the object not only moves on the X-axis but 
 So it becomes **differentiation of vectors**.
 But the differentiation steps are almost the same.
 
+Here are some algebraical expressions:
+- Position: `P(t) = (x, y)`
+- Velocity: `v(t) = P'(t) = (x', y')`
+- Acceleration: `a(t) = v'(t) = P''(t) = (x'', y'')`
+
 [Jump to do the Khan academy practice.](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-derivatives/modal/e/planar-motion-differential-calc)
 
 ### Example
