@@ -1135,6 +1135,7 @@ These terms are constantly confusing people, especially the follow parts:
 - Furthest Position means `Velocity = 0`
 - Max or Min velocity means `Acceleration = 0`
 
+[Jump over here for Khan academy's quizzes.](https://www.khanacademy.org/math/ap-calculus-ab/ab-applications-derivatives/modal/e/applications-of-derivatives--motion-along-a-line)
 
 ### `Example`
 ![image](https://user-images.githubusercontent.com/14041622/40774169-79fafe00-64f7-11e8-9ee6-86f09c752560.png)
