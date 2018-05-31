@@ -1085,7 +1085,10 @@ Solve:
 - Since `(x, y)` is a point of the circle, so the circle's `Standard formula` should work: `x² + y² = r²`
 - Then we get: `y = √(r²-x²) = √(1-x²)`
 - So the final function looks like this: `A(x) = 1/2 · (2r + 2x) · √(r²-x²) = (1+x)·√(1-x²)`
-
+- Back to the beginning, since we are to find the largest area, so it's saying we are to find the Maximum value of the function `A(x)`.
+- Set `A'(x) = 0` to find the critical point first. After solve the first derivative by applying product rule, we get: `x=-1 or 1/2`.
+- Since `x` is a length, so it's a positive value, so `x = 1/2`. Then `y = √(1-x²) = √3/2`
+- Substitute the values back to the area equation, we get `A = 3√3 / 4`
 
 
 
