@@ -1125,16 +1125,18 @@ Solve:
 
 # `Motion problems (differential calc)`
 
-`Motion Problems` are all about this relationships: `Moving position -> Velocity(or speed) -> Acceleration`.
+`Motion Problems` are all about this relationships: 
+`Moving position -> Velocity(or speed) -> Acceleration`.
+
 These terms are constantly confusing people, especially the follow parts:
-- Velocity is only the speed with a direction, and is NOT the derivative of speed.
-- Velocity IS the **derivative** of Position.
-- Acceleration is the **derivative** of the Velocity.
+- Velocity is NOT the derivative of speed, but only the speed with a direction: `s(t) = |v(t)|`.
+- Velocity IS the **derivative** of Position: `v(t) = p'(t)`
+- Acceleration is the **derivative** of the Velocity: `a(t) = v'(t)`
 - Furthest Position means `Velocity = 0`
 - Max or Min velocity means `Acceleration = 0`
 
 
-### Example
+### `Example`
 ![image](https://user-images.githubusercontent.com/14041622/40774169-79fafe00-64f7-11e8-9ee6-86f09c752560.png)
 Solve:
 - The tricky part here is the relationships: `Position -> Velocity -> Acceleration`
@@ -1144,7 +1146,7 @@ Solve:
 - To conclude, the Max velocity should satisfy this: `a(t) = 0` & `a'(t) < 0`
 - Differentiate `x(t)` twice and set `x''(t) = 0`, get `t = 1`.
 
-### Example
+### `Example`
 ![image](https://user-images.githubusercontent.com/14041622/40774946-721e4820-64f9-11e8-9fc6-6c86bfc10e25.png)
 Solve:
 - The velocity is `v(t) = x'(t)`
