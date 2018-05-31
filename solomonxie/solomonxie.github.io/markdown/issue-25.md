@@ -530,6 +530,16 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 ```
 
+## Nerdtree隐藏某些指定文件
+Vim经常产生swp缓存文件，还有一些python产生的pyc文件，Nerdtree显示出来很不好看，最好屏蔽掉。
+在vimrc中配置这几句话可以达到效果：
+```vim
+" 不显示隐藏文件
+let g:NERDTreeHidden=0
+" 过滤: 所有指定文件和文件夹不显示
+let NERDTreeIgnore = ['\.pyc$', '\.swp', '\.swo', '\.vscode', '__pycache__']  
+```
+
 ## Nerdtree的配色
 
 
