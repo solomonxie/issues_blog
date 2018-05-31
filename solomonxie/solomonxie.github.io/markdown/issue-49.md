@@ -1180,3 +1180,9 @@ Solve:
 - `v(t) = P'(t) = (4t-6, -3t²+10)`
 - `v(2) = (2, -2)`
 - `|v(2)| = √(4+4) = 2√2`
+
+
+### `Example: Motion along a curve`
+![image](https://user-images.githubusercontent.com/14041622/40777645-0ed31d74-6501-11e8-8f76-9ff44d293efd.png)
+[Refer to Khan academy's quizzes for these practices](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-derivatives/modal/e/motion-along-a-curve-differential-calc)
+Solve:
