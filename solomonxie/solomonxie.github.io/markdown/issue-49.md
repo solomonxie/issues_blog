@@ -1191,3 +1191,10 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40777645-0ed31d74-6501-11e8-8f76-9ff44d293efd.png)
 [Refer to Khan academy's quizzes for these practices](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-derivatives/modal/e/motion-along-a-curve-differential-calc)
 Solve:
+- Position: `P(t) = (x, y)`
+- The rate of change means velocity: `v(t) = P'(t) = (x', y')`
+- Since `x' = -2`, so it becomes `v(t) = (-2, y')`. How to get the `y'`?
+- We could find an equation `x²y²=16` helps us to get `y'`.
+- It's easier to do `implicit differentiation` than explicit one: 
+`(x²y²)'=(16)' -> 2x·x'·y² + x²·2y·y' = 0 -> -4xy² + x²·2y·y' = 0 -> y' = 2y/x`
+- Substitute `(1,4)` to the `y`'s rate of change to get `y' = 2*4/1 = 8`
