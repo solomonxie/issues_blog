@@ -1202,3 +1202,10 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/40778585-3caf138a-6504-11e8-9cd3-702bb06630e3.png)
 Solve:
+- `P(t) = (x, y)`
+- `x' = 1/2`
+- `v(t) = P'(t) = (x', y') = (1/2, y')`
+- `y'(t) = d/dt (-2x⁴+10) = -2·4·x³·x' = -4x³`
+- `y'(x=-1, y=8) = -4(-1)³ = 4`
+- So `v(t) = (1/2, 4)`
+- `|v(x=-1, y=8)| = √(1/4 + 16)`
