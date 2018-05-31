@@ -1126,6 +1126,13 @@ Solve:
 # `Motion problems (differential calc)`
 
 `Motion Problems` are all about this relationships: `Moving position -> Velocity(or speed) -> Acceleration`.
+These terms are constantly confusing people, especially the follow parts:
+- Velocity is only the speed with a direction, and is NOT the derivative of speed.
+- Velocity IS the **derivative** of Position.
+- Acceleration is the **derivative** of the Velocity.
+- Furthest Position means `Velocity = 0`
+- Max or Min velocity means `Acceleration = 0`
+
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/40774169-79fafe00-64f7-11e8-9ee6-86f09c752560.png)
