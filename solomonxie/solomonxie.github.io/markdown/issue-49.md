@@ -1065,8 +1065,11 @@ Understanding:
 - Remember that a `trapezoid` has to have **TWO BASES** to be parallel.
 - Know that, a `quadrilateral` CAN be inscribed in a circle or even a semicircle, which means 4 vertices  are all on the circle. 
 - **A trapezoid of maximum area inscribed in the semicircle will have its base on the X-axis.** Which means the length of `bottom base` should be twice radius: `b₁ = 2·r`
-- Since it's a `trapezoid`, and inscribed in a circle, then **IT HAS TO BE A ISOSCELES TRAPEZOID.** No matter its side crosses the centre or not.
-- 
+- Since it's a `trapezoid`, and inscribed in a circle, then **IT HAS TO BE A ISOSCELES TRAPEZOID.** And it means it's absolute **symmetric** about the X-axis.
+- With knowing all these conditions above, you could start to abstract the information into equations.
+
+Solve:
+
 
 
 
