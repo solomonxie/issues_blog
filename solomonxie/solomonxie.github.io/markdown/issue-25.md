@@ -472,7 +472,7 @@ map <F3> :NERDTreeToggle<CR>
 ```
 
 
-### 切换工作台和目录
+## 切换工作台和目录
 ```
 ctrl + w + h    光标 focus 左侧树形目录
 ctrl + w + l    光标 focus 右侧文件显示窗口
@@ -492,7 +492,7 @@ O       递归打开选中 结点下的所有目录
 m    文件操作：复制、删除、移动等
 ```
 
-### 切换标签页
+## 切换标签页
 ```
 :tabnew [++opt选项] ［＋cmd］ 文件      建立对指定文件新的tab
 :tabc   关闭当前的 tab
@@ -511,7 +511,11 @@ gt      后一个 tab
 解决方案：
 文件都在新tab打开，这样就可以保持各自状态了。
 
-### NerdTree 在 .vimrc 中的常用配置
+## 常用键盘映射
+![image](https://user-images.githubusercontent.com/14041622/40790652-1391d6b2-6528-11e8-8088-902418cf5de3.png)
+
+
+## NerdTree 在 .vimrc 中的常用配置
 ```
 autocmd vimenter * NERDTree  "自动开启Nerdtree
 "let g:NERDTreeWinSize = 25 "设定 NERDTree 视窗大小
