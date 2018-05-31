@@ -456,6 +456,9 @@ Mac下，Vim支持鼠标滚动光标，通过光标移动上下翻动页面。�
 # Vim的NerdTree插件
 > 一个项目文件多起来时，左边的文件树菜单是必要的。
 
+[参考：常用文件树快捷键](https://yang3wei.github.io/blog/2013/01/29/nerdtree-kuai-jie-jian-ji-lu/)
+[所有命令及推荐键盘映射：官方](https://github.com/scrooloose/nerdtree/blob/master/doc/NERDTree.txt)
+
 ![image](https://user-images.githubusercontent.com/14041622/40785675-c52d07fa-651b-11e8-82d7-c6520ce91e4f.png)
 
 在vundle插件管理的方式，直接在`~/.vimrc`中的Plugin段落中加入`Plugin "scrooloose/nerdtree
@@ -468,7 +471,7 @@ map <F3> :NERDTreeMirror<CR>
 map <F3> :NERDTreeToggle<CR>
 ```
 
-常用文件树快捷键：（[参考文章](https://yang3wei.github.io/blog/2013/01/29/nerdtree-kuai-jie-jian-ji-lu/)）
+
 ### 切换工作台和目录
 ```
 ctrl + w + h    光标 focus 左侧树形目录
