@@ -1134,3 +1134,10 @@ Solve:
     - Acceleration: `a(t) = v'(t) = x''(t)`
 - To conclude, the Max velocity should satisfy this: `a(t) = 0` & `a'(t) < 0`
 - Differentiate `x(t)` twice and set `x''(t) = 0`, get `t = 1`.
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/40774946-721e4820-64f9-11e8-9fc6-6c86bfc10e25.png)
+Solve:
+- The velocity is `v(t) = x'(t)`
+- The Acceleration is `a(t) = v'(t) = x''(t) = 0`, and get `t=1`
+- Substitute to `v(1) = 3`
