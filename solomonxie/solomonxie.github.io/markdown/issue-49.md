@@ -1161,4 +1161,13 @@ Solve:
 It's still the `Motion problem` but the object not only moves on the X-axis but move in a **PLANE**, with X-coordinate and Y-coordinate.
 The differentiation is almost the same.
 
+[Jump to do the Khan academy practice.](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-derivatives/modal/e/planar-motion-differential-calc)
+
 ### Example
+![image](https://user-images.githubusercontent.com/14041622/40776908-c04916d8-64fe-11e8-82a6-821223e6f35c.png)
+Solve:
+- Write down all the conditions algebraically:
+    - Position: `P(t) = (x, y) = (-t²+10t, t³-10t)`
+    - Velocity: `v(t) = P'(t) = (x', y') = (-2t+10, 3t²-10)`
+    - `t=4`
+- Substitute to get `v(4) = (2, 38)`
