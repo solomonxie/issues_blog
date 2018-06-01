@@ -2,7 +2,7 @@
 > Mainly some basic Calculus knowledges for Machine Learning
 
 ## Study resources
-- [ ] [Khan academy: AP Calculus AB](https://www.khanacademy.org/mission/ap-calculus-ab)
+- [ ] [Khan academy: AP Calculus BC](https://www.khanacademy.org/math/ap-calculus-bc)
 - [ ] [Kristan King: Calculus I](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BOYyyC-Gunxrh-jYnSfsQy0)
 - [ ] [Kristan King: Calculus II](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMdeuQfJDVRJ5DPMduSzVow)
 - [ ] [Kristan King: Calculus III](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMObozItpbiZ8f2pjf3qS9M)
