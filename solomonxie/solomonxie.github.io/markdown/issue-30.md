@@ -232,6 +232,9 @@ Vim等编辑器经常会产生`.swp`等缓存文件，所以在Vs code的文件�
 - `tasks.json` 设置python在vscode中Run运行的配置
 - `settings.json` 当前工作环境的所有配置
 
+## `settings.json`
+
+
 ## `launch.json`
 如果在项目文件夹中的`.vscode/`中存在这个文件，那么就直接编辑。如果不存在，则需要在vscode的左侧栏的`Debug`栏目中，点击代表`设置`的小按钮，创建一个`launch.json`。然后点击`add configuration`，输入`python`，根据提示创建python相关的配置行。
 
