@@ -124,7 +124,7 @@ defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false
 参考这个系统设置的其它设置，看[这篇文章](https://zhuanlan.zhihu.com/p/20234659)。
 
 
-# VS Code
+# VScode
 > VS Code 叫 "Visual Studio Code"，但是完全不同于"Visual Studio"，可以不用害怕。实际上相当轻量、可定制、好看。被称为`The last editor you'll ever need`.
 
 [参考Youtube：VS Code: The Last Editor You'll Ever Need](https://www.youtube.com/watch?v=anvYeA1pWlk)
