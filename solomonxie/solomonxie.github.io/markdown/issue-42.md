@@ -449,3 +449,27 @@ https://api.github.com/users/solomonxie/repos?page=2&per_page=3
 
 如果没有传送任何分页数字，那么默认为`per_page=0`。大概30条数据。
 做程序时不要忽视分页，否则漏掉数据很难发现。
+
+
+# 百度云图片识别API
+
+[参考：文字识别API参考](https://cloud.baidu.com/doc/OCR/OCR-API.html)
+
+## 可用服务列表
+![image](https://user-images.githubusercontent.com/14041622/40853715-a9d46bce-6601-11e8-87f6-6a444515f89b.png)
+
+## API地址列表
+![screenshot 007 - - _ - https___console bce baidu com_ai_](https://user-images.githubusercontent.com/14041622/40853989-7f10ee34-6602-11e8-8abe-bf2ba3f752cc.png)
+
+常用地址：
+
+API | 状态 | 请求地址 | 调用量限制
+-- | -- | -- | --
+通用文字识别 | 免费使用 | https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic | 50000次/天免费
+通用文字识别（含位置信息版） | 免费使用 | https://aip.baidubce.com/rest/2.0/ocr/v1/general | 500次/天免费
+通用文字识别（高精度版） | 免费使用 | https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic | 500次/天免费
+通用文字识别（高精度含位置版） | 免费使用 | https://aip.baidubce.com/rest/2.0/ocr/v1/accurate | 50次/天免费
+网络图片文字识别 | 免费使用 | https://aip.baidubce.com/rest/2.0/ocr/v1/webimage | 500次/天免费
+
+
+
