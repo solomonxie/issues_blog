@@ -467,7 +467,7 @@ API | 状态 | 请求地址 | 调用量限制
 ## `Access Token`
 `Access Token`永远是调用API最重要也最麻烦的地方了：每个公司都不一样，各种设置安全问题让你的Token复杂化。而百度云的Token，真的是麻烦到一定地步了。
 
-[参考：百度API的Token格式](http://ai.baidu.com/docs#/Auth/top)
+[参考：百度API的鉴权认证机制](http://ai.baidu.com/docs#/Auth/top)
 
 主要流程是：先给百度的一个URL链接按照指定格式发送POST请求，然后等它返还给你一个token字符串，在把这个token用来访问具体的API。
 
