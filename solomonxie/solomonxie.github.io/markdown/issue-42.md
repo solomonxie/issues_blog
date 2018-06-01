@@ -463,6 +463,8 @@ https://api.github.com/users/solomonxie/repos?page=2&per_page=3
 
 # 百度云 OCR 图片文字识别 API
 
+这里用Postman客户端进行测试和演示。
+
 [参考百度云官方文档：文字识别API参考](https://cloud.baidu.com/doc/OCR/OCR-API.html)
 
 ## API常用地址
@@ -477,9 +479,9 @@ API | 状态 | 请求地址 | 调用量限制
 ## `Access Token`
 `Access Token`永远是调用API最重要也最麻烦的地方了：每个公司都不一样，各种设置安全问题让你的Token复杂化。而百度云的Token，真的是麻烦到一定地步了。
 
-[参考：百度API的鉴权认证机制](http://ai.baidu.com/docs#/Auth/top)
+[参考：百度API的鉴权认证机制](http://ai.baidu.com/docs#/Auth/top) (建议你不要参考，因为它的流程图会先把你镇住的)
 
-主要流程是：先给百度的一个URL链接按照指定格式发送POST请求，然后等它返还给你一个token字符串，在把这个token用来访问具体的API。
+简单说，主要流程就是：先给百度的一个URL链接按照指定格式发送POST请求，然后等它返还给你一个token字符串，在把这个token字符串用来访问具体的API。
 
 授权地址为：`https://aip.baidubce.com/oauth/2.0/token`
 
@@ -497,28 +499,32 @@ Postman中的设置如下图所示：
 然后你用你的程序(Python, PHP, Node.js等，随便)，获取这个JSON中的`access_token`，
 即可用来放到正式的API请求中，做为授权认证。
 
-## 调用方式一：直接在URL填写信息
-这里用Postman客户端进行测试和演示。
+## 正式调用API： 以"通用文字识别"为例
 
+提交方式：`POST`
+
+调用方式有两种：
+- 方式一：直接在URL填写信息
 直接把API所需的认证信息放在URL里是最简单最方便的。
+- ~方式二：Headers填写信息方式~
+建议忽略这种方式，需要填写很多request的标准headers，太麻烦。
+
+Headers设置：
+- `Content-Type = application/x-www-form-urlencoded`
+只要填这一项就够了。
+
+Body数据传送的各项参数：
+- `access_token = xxx` 把之前获取到的token字符串填到这里来
+- `image = xxx` 把图片转成base64字符串填到这里，不需要开头的`data:image/png;base64,`
+- `url = xxx` 也可以不用传图片而是传一个图片的链接。**但是百年无效，不要用！**
+- `language_type  = CHN_ENG` 识别语言类型。默认中英。
+
+Body的数据如图所示：
+![image](https://user-images.githubusercontent.com/14041622/40858659-a49e59ac-6611-11e8-81d8-48ff3113b7ea.png)
 
 
+然后就可以点Send发送请求了。
+成功后，可以得到百度云返回的一个JSON数据，类似下图：
+![image](https://user-images.githubusercontent.com/14041622/40858687-baa3a5b8-6611-11e8-9834-4dbb3e6cb1a1.png)
 
-## 调用方式二：Headers填写信息方式
-### 提交方式
-首先需要采用POST方式提交，
-然后需要将授权认证等信息都放在Headers表头里。
-
-可以打开Postman， 直接在Headers里面的`Bulk Edit`中粘贴进去就完成了Headers设置了。
-注意，下面只是个示例信息，具体的是需要
-```
-POST /rest/2.0/face/v1/detect HTTP/1.1
-accept-encoding: gzip, deflate
-x-bce-date: 2015-03-24T13:02:00Z
-connection: keep-alive
-accept: */*
-host: aip.baidubce.com
-x-bce-request-id: 73c4e74c-3101-4a00-bf44-fe246959c05e
-content-type: application/x-www-form-urlencoded
-authorization: bce-auth-v1/46bd9968a6194b4bbdf0341f2286ccce/2015-03-24T13:02:00Z/1800/host;x-bce-date/994014d96b0eb26578e039fa053a4f9003425da4bfedf33f4790882fb4c54903
-```
+返回的是一行一行的识别字符。百度云的识别率是相当高的，几乎100%吧。毕竟是国内本土的机器训练出来的。
