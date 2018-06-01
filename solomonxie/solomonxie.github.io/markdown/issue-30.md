@@ -225,6 +225,8 @@ Vim等编辑器经常会产生`.swp`等缓存文件，所以在Vs code的文件�
 # VScode为Python添加Debug调试环境(Pipenv)
 是时候更新virtualenv环境为pipenv环境了，比较方便。但是vscode中配置就麻烦了一点。
 
+[参考：使用VS Code调试Python代码](https://plytools.github.io/2017/04/29/VSCode-Debug-Python/)
+
 还是主要配置这三个文件让python正常的在vscode中达到差错、调试、运行的功能：
 - `launch.json` 设置python的调试功能
 - `tasks.json` 设置python在vscode中Run运行的配置
