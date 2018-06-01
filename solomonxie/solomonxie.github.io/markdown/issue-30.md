@@ -236,3 +236,6 @@ Vim等编辑器经常会产生`.swp`等缓存文件，所以在Vs code的文件�
 - 找到`pythonPath`变量，可以用两种方式修改其内容：
     - 指定python的绝对路径，如：`"pythonPath": "/Users/Jason/.local/share/virtualenvs/test-venv/bin/python"`
     - 使用`settings.json`里配置的python位置：`"pythonPath": "${config:python.pythonPath}"`
+
+编辑好后，vscode会提示你安装`pylint`的python包，确定后它会自动用`pip install pylint`安装到你指定的python环境里，这样它就可以随时检查你的文件语法错误了。
+
