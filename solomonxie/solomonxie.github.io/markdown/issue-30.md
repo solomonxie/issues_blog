@@ -156,7 +156,7 @@ Mac上，直接在IDE中`Ctrl+,`打开用户配置文件，在适当位置加入
 
 
 
-# VSCode为python指定运行环境
+# VSCode为Python配置Debug调试(virtualenv环境)
 因为python自身的版本原因，环境是个非常重要的因素。我们经常需要多种环境，所以必须要配置好才能在vscode里面进行调试和运行。
 
 vscode会在每个项目文件夹下创建一个`.vscode`文件夹，保存当前项目的运行环境的配置文件。
