@@ -228,5 +228,11 @@ Vim等编辑器经常会产生`.swp`等缓存文件，所以在Vs code的文件�
 还是主要配置这三个文件让python正常的在vscode中达到差错、调试、运行的功能：
 - `launch.json` 设置python的调试功能
 - `tasks.json` 设置python在vscode中Run运行的配置
-- `settings.json` 主要配置工作环境（几乎没有涉及特指python的内容）
+- `settings.json` 当前工作环境的所有配置
 
+## `launch.json`
+如果在项目文件夹中的`.vscode/`中存在这个文件，那么就直接编辑。如果不存在，则需要在vscode的左侧栏的`Debug`栏目中，点击代表`设置`的小按钮，然后点击`add configuration`，创建一个`launch.json`。
+打开文件以后，主要需要修改的内容如下：
+- 找到`pythonPath`变量，可以用两种方式修改其内容：
+    - 指定python的绝对路径，如：`"pythonPath": "${config:python.pythonPath}"`
+    - 使用`settings.json`里配置的python位置：`"pythonPath": "/Users/Jason/.local/share/virtualenvs/test-venv/bin/python"`
