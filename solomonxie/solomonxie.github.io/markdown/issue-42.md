@@ -451,18 +451,11 @@ https://api.github.com/users/solomonxie/repos?page=2&per_page=3
 做程序时不要忽视分页，否则漏掉数据很难发现。
 
 
-# 百度云图片识别API
+# 百度云 OCR 图片文字识别 API
 
-[参考：文字识别API参考](https://cloud.baidu.com/doc/OCR/OCR-API.html)
+[参考百度云官方文档：文字识别API参考](https://cloud.baidu.com/doc/OCR/OCR-API.html)
 
-## 可用服务列表
-![image](https://user-images.githubusercontent.com/14041622/40853715-a9d46bce-6601-11e8-87f6-6a444515f89b.png)
-
-## API地址列表
-![screenshot 007 - - _ - https___console bce baidu com_ai_](https://user-images.githubusercontent.com/14041622/40853989-7f10ee34-6602-11e8-8abe-bf2ba3f752cc.png)
-
-常用地址：
-
+## API常用地址
 API | 状态 | 请求地址 | 调用量限制
 -- | -- | -- | --
 通用文字识别 | 免费使用 | https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic | 50000次/天免费
@@ -471,5 +464,51 @@ API | 状态 | 请求地址 | 调用量限制
 通用文字识别（高精度含位置版） | 免费使用 | https://aip.baidubce.com/rest/2.0/ocr/v1/accurate | 50次/天免费
 网络图片文字识别 | 免费使用 | https://aip.baidubce.com/rest/2.0/ocr/v1/webimage | 500次/天免费
 
+## `Access Token`
+`Access Token`永远是调用API最重要也最麻烦的地方了：每个公司都不一样，各种设置安全问题让你的Token复杂化。而百度云的Token，真的是麻烦到一定地步了。
+
+[参考：百度API的Token格式](http://ai.baidu.com/docs#/Auth/top)
+
+主要流程是：先给百度的一个URL链接按照指定格式发送POST请求，然后等它返还给你一个token字符串，在把这个token用来访问具体的API。
+
+授权地址为：`https://aip.baidubce.com/oauth/2.0/token`
+
+然后向这个地址显示的传送三个参数：
+- `grant_type = client_credentials` 这个是固定的
+- `client_id = xxx` 这个是你在百度云管理后台创建OCR应用的时候，那个应用的`API Key`
+- `client_secret = xxx` 这个是你的应用的`Secret Key`
+
+Postman中的设置如下图所示：
+![image](https://user-images.githubusercontent.com/14041622/40855123-2b83dac0-6606-11e8-8a38-604c95742ac8.png)
+
+然后点击发送，就会获得一个JSON数据，如下图：
+![image](https://user-images.githubusercontent.com/14041622/40855254-b0b88038-6606-11e8-8a33-389b361e6ffc.png)
+
+然后你用你的程序(Python, PHP, Node.js等，随便)，获取这个JSON中的`access_token`，
+即可用来放到正式的API请求中，做为授权认证。
+
+## 调用方式一：直接在URL填写信息
+这里用Postman客户端进行测试和演示。
+
+直接把API所需的认证信息放在URL里是最简单最方便的。
 
 
+
+## 调用方式二：Headers填写信息方式
+### 提交方式
+首先需要采用POST方式提交，
+然后需要将授权认证等信息都放在Headers表头里。
+
+可以打开Postman， 直接在Headers里面的`Bulk Edit`中粘贴进去就完成了Headers设置了。
+注意，下面只是个示例信息，具体的是需要
+```
+POST /rest/2.0/face/v1/detect HTTP/1.1
+accept-encoding: gzip, deflate
+x-bce-date: 2015-03-24T13:02:00Z
+connection: keep-alive
+accept: */*
+host: aip.baidubce.com
+x-bce-request-id: 73c4e74c-3101-4a00-bf44-fe246959c05e
+content-type: application/x-www-form-urlencoded
+authorization: bce-auth-v1/46bd9968a6194b4bbdf0341f2286ccce/2015-03-24T13:02:00Z/1800/host;x-bce-date/994014d96b0eb26578e039fa053a4f9003425da4bfedf33f4790882fb4c54903
+```
