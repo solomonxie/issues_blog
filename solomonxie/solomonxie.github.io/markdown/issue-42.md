@@ -237,7 +237,17 @@ JSON填写如下图：
 - 无传输数据
 
 
-# 先留一个空位介绍API调试客户端Insomnia和Postman
+# Postman
+
+## Postman变量使用
+
+首先要创建一个`Environment`，然后创建各种`key-value`对儿。
+然后在你的项目中，找到右上角的选择框，选择一个`Environment`名称。然后你的项目里就可以使用这个环境里面的变量了。
+![image](https://user-images.githubusercontent.com/14041622/40857142-d6acfde0-660c-11e8-9ee2-4a94be0d56c3.png)
+
+引用方法：在各种需要填写信息的地方直接写`{{变量名}}`引用它的值。一般打`{{`就会自动弹出可以选择的变量名。
+![image](https://user-images.githubusercontent.com/14041622/40857194-08a29d14-660d-11e8-85da-c9c0999d7918.png)
+
 
 
 # Insomnia 客户端添加插件
