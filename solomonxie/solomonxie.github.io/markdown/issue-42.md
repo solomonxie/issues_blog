@@ -250,6 +250,12 @@ JSON填写如下图：
 引用方法：在各种需要填写信息的地方直接写`{{变量名}}`引用它的值。一般打`{{`就会自动弹出可以选择的变量名。
 ![image](https://user-images.githubusercontent.com/14041622/40857194-08a29d14-660d-11e8-85da-c9c0999d7918.png)
 
+## 随机数
+以下三种变量可以产生不同风格的随机数：
+
+整数随机数：{{randomint}}
+时间随机数：{{timestamp}}
+GUID风格随机数：{{guid}}
 
 
 # Insomnia 客户端添加插件
@@ -564,12 +570,3 @@ API | 请求地址 | 调用量限制
 ## 
 API地址：
 `http://api.fanyi.baidu.com/api/trans/private/translate`
-
-
-
-# Postman使用随机数
-
-以下三种变量可以产生不同风格的随机数：
-- 整数随机数：`{{randomint}}`
-- 时间随机数：`{{timestamp}}`
-- GUID风格随机数：`{{guid}}`
