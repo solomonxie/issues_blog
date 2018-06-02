@@ -446,7 +446,7 @@ query {
 ![image](https://user-images.githubusercontent.com/14041622/40484234-770c035c-5f8d-11e8-96da-44e614821557.png)
 
 
-### `Postman 访问Github GraphQL 的案例`
+### `Postman访问GraphQL失败`
 不像Insomnia，Postman暂时没有支持GraphQL的选项，但是可以通过类似的操作达到一样的效果。流程是一样的，只是每个地方设置格式都不同，这也是我不断尝试才找到的总结方案（可惜网上相关教程太少）。
 
 这里只说不同的地方吧：
