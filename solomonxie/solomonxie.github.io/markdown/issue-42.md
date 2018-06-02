@@ -583,4 +583,5 @@ API | 请求地址 | 调用量限制
 
 ## 
 API地址：
-`http://api.fanyi.baidu.com/api/trans/private/translate`
+`https://fanyi-api.baidu.com/api/trans/vip/translate`
+千万要看清楚这个地址中的`vip`，而不是官方文档里的`private`。真是个大坑呢。
