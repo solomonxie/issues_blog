@@ -546,3 +546,12 @@ API | 请求地址 | 调用量限制
 通用文字识别（高精度版） | https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic | 500次/天免费
 通用文字识别（高精度含位置版） | https://aip.baidubce.com/rest/2.0/ocr/v1/accurate | 50次/天免费
 网络图片文字识别 | https://aip.baidubce.com/rest/2.0/ocr/v1/webimage | 500次/天免费
+
+
+
+# 百度翻译API实战
+
+[参考官方文档：定制化翻译API技术文档](http://api.fanyi.baidu.com/api/trans/product/apidoc#cusjoinFile)
+
+API地址：
+`http://api.fanyi.baidu.com/api/trans/private/translate`
