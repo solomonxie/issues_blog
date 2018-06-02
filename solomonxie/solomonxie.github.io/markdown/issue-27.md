@@ -1440,3 +1440,32 @@ $ convert -density 300 -trim -quality 100 sample.pdf sample.jpg
 # geometry 转换：100%还原，文件增大7倍
 $ convert -geometry 1600x1600 -density 200x200 -quality 100 sample.pdf sample.jpg
 ```
+
+总结：经过各种考察，中外网友对`convert`转换图片的清晰度设置，也全都在猜的阶段。而且设置都太固定，并不能稳定保证所有的PDF都转换成一样的清晰度。
+所以问题需要转换另一个思路去解决：
+直接提取PDF中的原画，这样就100%是原画质了。
+
+这个需要另一个命令行工具`pdfimages`来做到。
+
+## 利用`poppler`工具包中的`pdfimage`工具来提取PDF中的图片
+
+`pdfimage`是`poppler-utils`工具的一个子集，所以需要安装`poppler-utils`或`poppler`才能使用。Mac上，直接homebrew：
+```sh
+$ brew install poppler
+```
+
+安装好后就可以用`pdfimages`命令了，用法如下：
+```sh
+# 提取出来的图片保存为默认的. ppm格式文件
+$ pdfimages sample.pdf img_name
+
+# 设定提取的图片保存为jpg格式
+$ pdfimages -j sample.pdf img_name
+
+# 提取指定页码上的图片
+$ pdfimages -f 2 sample.pdf img_name
+```
+
+提取的图片，会按照指定的位置和名字生成如`img_name-000, img_name-001, img_name-002`这样的文件，每一个图片都对应着PDF中原始的图片。
+
+一般来讲，对于扫描书籍的PDF来说，全页只有一个图片，所以用`pdfimages`就比较好解决。
