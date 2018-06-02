@@ -1525,7 +1525,7 @@ $ pdftk input.pdf cat 1-3 5 6-10 output output.pdf
 #合并(concatenate) 前面所有的pdf为output.pdf
 $ pdftk file1.pdf file2.pdf ... cat output output.pdf
 
-#ttern:
+#拆分PDF的每一页为一个新文件 并按照指定格式设定文件名
 $ pdftk input.pdf burst output out_%d.pdf
 
 #按180°旋转所有页面
