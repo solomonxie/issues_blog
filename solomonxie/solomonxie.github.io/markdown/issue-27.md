@@ -1379,3 +1379,36 @@ deb-src http://mirror.neu.edu.cn/ubuntu/ xenial-security main restricted multive
 deb http://mirror.neu.edu.cn/ubuntu/ xenial-security universe
 deb http://mirror.neu.edu.cn/ubuntu/ xenial-security multiverse
 ```
+
+
+# ImageMagick与Ghostscript配合转换PDF
+`ImageMagick`是Linux上超强大、功能超丰富的图片处理的命令行工具。
+而`ImageMagick`在做PDF相关的工作时，是基于`Ghostscript`进行处理的。所以两个都要安装。
+
+首先确保本机已经安装ImageMagick与Ghostscript, 以Mac为例：
+```sh
+brew install ghostscript imagemagick
+```
+
+安装好后，命令行里就可以调用ImageMagick的一系列命令了。
+
+## PDF与图片互相转换
+
+常用命令有：
+```sh
+#Convert an image from JPG to PNG:
+$ convert image.jpg image.png
+
+#Scale an image 50% its original size:
+$ convert image.png -resize 50% image2.png
+
+#Scale an image keeping the original aspect ratio to a maximum dimension of 640x480:
+$ convert image.png -resize 640x480 image2.png
+
+#Horizontally append images:
+$ convert image1.png image2.png image3.png +append image123.png
+```
+
+命令非常简单，速度也极快。但是在PDF转图片的过程中，如果不加任何设置直接`convert xx.pdf xx.png`这样的转换，效果可是**非常之差**，如下图：
+
+![image](https://user-images.githubusercontent.com/14041622/40873821-1fdacbf4-669a-11e8-94bb-d256c69ad744.png)
