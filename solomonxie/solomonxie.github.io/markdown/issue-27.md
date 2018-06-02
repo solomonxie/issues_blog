@@ -1445,8 +1445,12 @@ $ convert -geometry 1600x1600 -density 200x200 -quality 100 sample.pdf sample.jp
 
 # `pdfimage`提取PDF中的图片
 
-`pdfimage`是`poppler-utils`工具的一个子产品，所以需要安装`poppler-utils`或`poppler`。Mac上，直接homebrew：
-```
+`pdfimage`是`poppler-utils`工具的一个子集，所以需要安装`poppler-utils`或`poppler`才能使用。Mac上，直接homebrew：
+```sh
 $ brew install poppler
 ```
 
+安装好后就可以用`pdfimages`命令了，用法如下：
+```sh
+$ pdfimages sample.pdf imageFolder/
+```
