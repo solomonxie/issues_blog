@@ -6,7 +6,7 @@
 
 
 
-# Git Workflow: No.1 Beginner's flow
+# Git Workflow 1: Beginner's flow
 > 最简单的Git工作流--即给初学者的工作流，尽量避免多分支，现在master分支上把常用指令学明白，然后再开启分支合流模式。
 
 ### 第一步 建立仓库 (Init | Clone)
@@ -42,7 +42,7 @@ $ git commit -m "变动描述"
 如果远程也是自己的repo拥有完全权限，那么直接`git pull`即可完成一切同步。
 
 
-## 初次运行Git的配置
+# 初次运行Git的配置
 > Linux和Mac的git安装都很方便很多是自带的，Windows则强烈推荐安装Git Bash整个终端，包括了git本身以及所有常用的linux指令。
 
 初始配置不是必要的。
