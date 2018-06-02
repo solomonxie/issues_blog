@@ -1454,8 +1454,11 @@ $ convert -geometry 1600x1600 -density 200x200 -quality 100 sample.pdf sample.jp
 
 这个需要另一个命令行工具`pdfimages`来做到。
 
-## 利用`poppler`工具包中的`pdfimage`工具来提取PDF中的图片
+## 利用命令行工具`pdfimages`来提取PDF中的图片
+`pdfimages`是一个非常简便好用的PDF图片提取工具，很简单的一个命令就可以提取出PDF指定页面里的所有图片。但是，
+注意：它只能`提取`PDF中的图片，和`imagemagick`的`生成`图片有本质上的不同！也就是说，如果PDF中的内容不是图片的话，那么就提取不出来。
 
+安装：
 `pdfimage`是`poppler-utils`工具的一个子集，所以需要安装`poppler-utils`或`poppler`才能使用。Mac上，直接homebrew：
 ```sh
 $ brew install poppler
