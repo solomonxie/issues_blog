@@ -1212,6 +1212,7 @@ Solve:
 
 
 # `Integral Calculus basics`
+Integral calculus is a process to calculate the **`AREA`** between a function and the X-axis.
 
 ## Core idea of Integral Calculus
 
