@@ -266,7 +266,7 @@ JSON填写如下图：
 `var hash = CryptoJS.MD5("hello hello.").toString();`
 - 转换为URL编码格式的字符串：
 `var url = encodeURI("http://baidu.com/?q=hello i'm solomon.");`
-- 转换成base64码：
+- 字符串转base64编码：
 ``
 
 
