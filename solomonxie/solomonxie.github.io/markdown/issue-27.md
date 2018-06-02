@@ -1452,5 +1452,12 @@ $ brew install poppler
 
 安装好后就可以用`pdfimages`命令了，用法如下：
 ```sh
-$ pdfimages sample.pdf imageFolder/
+# 提取出来的图片保存为默认的. ppm格式文件
+$ pdfimages sample.pdf img_name
+
+# 设定提取的图片保存为jpg格式
+$ pdfimages -j sample.pdf img_name
+
+# 提取指定页码上的图片
+$ pdfimages -f 2 sample.pdf img_name
 ```
