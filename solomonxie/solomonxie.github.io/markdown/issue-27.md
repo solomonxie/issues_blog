@@ -1484,4 +1484,27 @@ $ pdfimages -f 2 sample.pdf img_name
 
 
 # 利用命令行工具`pdftk`对PDF进行切割、合并、提取
+`pdftk`是非常好用的PDF页面操作工具，能够切割、合并、提取指定页面等。
 
+Mac上安装（Linux也差不多）：
+```sh
+$ brew install pdftk
+```
+
+常用命令：
+```sh
+#Extract pages 1-3, 5 and 6-10 from a PDF file and save them as another one:
+$ pdftk input.pdf cat 1-3 5 6-10 output output.pdf
+
+#Merge (concatenate) a list of PDF files and save the result as another one:
+$ pdftk file1.pdf file2.pdf ... cat output output.pdf
+
+#ttern:
+$ pdftk input.pdf burst output out_%d.pdf
+
+#Rotate all pages by 180 degrees clockwise:
+$ pdftk input.pdf cat 1-endsouth output output.pdf
+
+#Rotate third page by 90 degrees clockwise and leave others unchanged:
+$ pdftk input.pdf cat 1-2 3east 4-end output output.pdf
+```
