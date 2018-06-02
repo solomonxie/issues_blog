@@ -1015,7 +1015,7 @@ sudo kill -9 xxx
 # Mac上安装
 $ brew install exiftool
 
-# Linux上安装
+# 或Linux上安装
 $ sudo apt-get install exiftool
 
 # 查看图片exif信息
