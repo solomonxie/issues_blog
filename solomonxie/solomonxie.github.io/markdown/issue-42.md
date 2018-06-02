@@ -251,9 +251,9 @@ JSON填写如下图：
 ## 随机数
 以下三种变量可以产生不同风格的随机数：
 
-- 整数随机数：`{{randomint}}`
-- 时间随机数：`{{timestamp}}`
-- GUID风格随机数：`{{guid}}`
+- 整数随机数：`{{randomint}}`，例如：`576`
+- 时间随机数：`{{timestamp}}`，例如：`1527920516 `
+- GUID风格随机数：`{{guid}}`，例如：`9018e49d-3138-472c-bb62-8f65b4ab7dc1`
 
 ![image](https://user-images.githubusercontent.com/14041622/40871083-7c67c7f6-6667-11e8-95c6-e32def9266fd.png)
 
