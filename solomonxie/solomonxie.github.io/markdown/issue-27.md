@@ -1381,7 +1381,7 @@ deb http://mirror.neu.edu.cn/ubuntu/ xenial-security multiverse
 ```
 
 
-# ImageMagick与Ghostscript配合转换PDF
+# ImageMagick转换PDF
 `ImageMagick`是Linux上超强大、功能超丰富的图片处理的命令行工具。
 而`ImageMagick`在做PDF相关的工作时，是基于`Ghostscript`进行处理的。所以两个都要安装。
 
