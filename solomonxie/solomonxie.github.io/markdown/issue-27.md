@@ -1023,8 +1023,6 @@ $ exiftool 图片位置
 
 # 常用操作
 
-#添加Description描述
-
 # Remove all EXIF metadata from the given files:
 $ exiftool -All= file
 
