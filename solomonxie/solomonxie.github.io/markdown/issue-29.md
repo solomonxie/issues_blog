@@ -344,7 +344,7 @@ git branch -u origin/master
 
 
 
-# 让git记住密码
+# 如何让git记住密码
 全局的话：
 ```shell
 git config --global credential.helper cache
