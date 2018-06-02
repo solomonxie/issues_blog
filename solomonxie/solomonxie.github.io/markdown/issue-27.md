@@ -1440,3 +1440,13 @@ $ convert -density 300 -trim -quality 100 sample.pdf sample.jpg
 # geometry 转换：100%还原，文件增大7倍
 $ convert -geometry 1600x1600 -density 200x200 -quality 100 sample.pdf sample.jpg
 ```
+
+
+
+# `pdfimage`提取PDF中的图片
+
+`pdfimage`是`poppler-utils`工具的一个子产品，所以需要安装`poppler-utils`或`poppler`。Mac上，直接homebrew：
+```
+$ brew install poppler
+```
+
