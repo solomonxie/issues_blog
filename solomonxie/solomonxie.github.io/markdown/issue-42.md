@@ -475,6 +475,8 @@ query {
 为了增强阅读性，节省文字长度，返回值就先不粘上来了。而且返回值几乎就是查询语句的结构，没什么特别新鲜的。
 
 ### 查询指定的repo中的issues和comments
+其中指定了某一个repo（通过owner和name指定），也指定了某一条issue（通过number指定），并要求返回最近的10条comments。
+
 ![image](https://user-images.githubusercontent.com/14041622/40872982-8597e432-668a-11e8-96ff-5f5420769b7d.png)
 
 
