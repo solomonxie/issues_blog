@@ -1483,12 +1483,23 @@ $ pdfimages -f 2 sample.pdf img_name
 
 
 
-# 利用命令行工具`pdftk`对PDF进行切割、合并、提取
+# 利用命令行工具`pdftk`对PDF进行合并分割
 `pdftk`是非常好用的PDF页面操作工具，能够切割、合并、提取指定页面等。
 
-Mac上安装（Linux也差不多）：
+[参考：PDF 合并和分割工具--PDFtk](https://blog.seisman.info/pdftk/)
+[参考官网：PDFtk server:  the pdf tool kit](https://www.pdflabs.com/tools/pdftk-server/)
+
+Linux上安装：
 ```sh
-$ brew install pdftk
+$ sudo apt-get install pdftk
+```
+Mac上安装，因为它对Mac的支持还不算特别好，
+所以需要到官网上去看最新的安装方式。
+如果用Homebrew的话，可能要用`brew search pdftk`来查找最合适的版本再安装：
+```sh
+$ brew search pdftk
+
+$ brew install pdftk-server
 ```
 
 常用命令：
