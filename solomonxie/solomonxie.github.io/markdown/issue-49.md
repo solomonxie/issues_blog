@@ -1209,3 +1209,12 @@ Solve:
 - `y'(x=-1, y=8) = -4(-1)³ = 4`
 - So `v(t) = (1/2, 4)`
 - `|v(x=-1, y=8)| = √(1/4 + 16)`
+
+
+# `Integral Calculus basics`
+
+## Core idea of Integral Calculus
+
+[Refer to Khan academy: Introduction to integral calculus](https://www.khanacademy.org/math/ap-calculus-bc/bc-accumulation-riemann-sums/modal/v/introduction-to-integral-calculus)
+
+![image](https://user-images.githubusercontent.com/14041622/40873054-ed0e9f42-668b-11e8-8860-0e4778f2c041.png)
