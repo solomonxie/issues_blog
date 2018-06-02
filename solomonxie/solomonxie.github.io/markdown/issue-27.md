@@ -1493,14 +1493,9 @@ Linux上安装：
 ```sh
 $ sudo apt-get install pdftk
 ```
-Mac上安装，因为它对Mac的支持还不算特别好，
-所以需要到官网上去看最新的安装方式。
-如果用Homebrew的话，可能要用`brew search pdftk`来查找最合适的版本再安装：
-```sh
-$ brew search pdftk
-
-$ brew install pdftk-server
-```
+Mac上安装，因为它对Mac的Homebrew支持还不算特别好，
+所以需要到官网上去下载pkg安装包，然后安装包会把程序安装在`/opt/pdflabs/pdftk/bin/`这个位置。
+需要你用绝对路径去引用，或者建立`alias`别名。
 
 常用命令：
 ```sh
