@@ -255,6 +255,9 @@ JSON填写如下图：
 - 时间随机数：`{{timestamp}}`
 - GUID风格随机数：`{{guid}}`
 
+![image](https://user-images.githubusercontent.com/14041622/40871083-7c67c7f6-6667-11e8-95c6-e32def9266fd.png)
+
+
 
 # Insomnia 客户端添加插件
 Insomnia是带我入门API且我认为最棒最棒的入门工具，正如其标语: `Debug APIs like a human, not a robot`. 不过在接触更多的API时，会发现有些不便利，比如百度翻译api的权限验证需要各种随机码和MD5，github的api需要文件的base64等。Insomnia本身暂时不具备这么多功能。所以需要给它安装插件。
