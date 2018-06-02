@@ -3,6 +3,8 @@
 
 
 # Github API v3 文档学习
+> 对于常用Github的用户来说，经常有一些自动化的需求。比如我的需求是定时备份Github的issues和comments到本地。以下为Github的API的使用参考。
+
 [v3版API的文档链接](https://developer.github.com/v3/)
 [v3版API的官方教程](https://developer.github.com/v3/guides/getting-started/)
 
