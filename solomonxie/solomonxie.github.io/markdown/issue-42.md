@@ -564,3 +564,10 @@ API | 请求地址 | 调用量限制
 ## 
 API地址：
 `http://api.fanyi.baidu.com/api/trans/private/translate`
+
+
+
+# Postman使用随机数
+
+只需要在需要变量的地方填入以下变量名即可：
+- 整数随机数：`{{randomint}}`
