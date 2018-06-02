@@ -260,6 +260,8 @@ JSON填写如下图：
 脚本中使用随机数和加密串就没有那么简单了，需要自己手动写代码生成随机数，常用的如下：
 - 生成1000以内的随机数：
 `var random = Math.floor(Math.random() * 1000);`
+- 生成时间随机数：
+`var timestamp = (new Date).getTime();`
 - 加密字符串生成MD5：
 `var hash = CryptoJS.MD5("hello hello.").toString();`
 - 转换为URL编码格式的字符串：
