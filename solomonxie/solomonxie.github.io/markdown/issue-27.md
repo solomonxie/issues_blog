@@ -1394,16 +1394,16 @@ brew install ghostscript imagemagick
 
 常用命令有：
 ```sh
-#Convert an image from JPG to PNG:
+#JPG图片转为PNG图片
 $ convert image.jpg image.png
 
-#Scale an image 50% its original size:
+#将图片缩放为50%大小
 $ convert image.png -resize 50% image2.png
 
-#Scale an image keeping the original aspect ratio to a maximum dimension of 640x480:
+#将图片缩放为指定长宽
 $ convert image.png -resize 640x480 image2.png
 
-#Horizontally append images:
+#横向合并图片
 $ convert image1.png image2.png image3.png +append image123.png
 ```
 
