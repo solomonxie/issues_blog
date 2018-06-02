@@ -251,9 +251,9 @@ JSON填写如下图：
 ## 随机数
 以下三种变量可以产生不同风格的随机数：
 
-整数随机数：{{randomint}}
-时间随机数：{{timestamp}}
-GUID风格随机数：{{guid}}
+- 整数随机数：`{{randomint}}`
+- 时间随机数：`{{timestamp}}`
+- GUID风格随机数：`{{guid}}`
 
 
 # Insomnia 客户端添加插件
