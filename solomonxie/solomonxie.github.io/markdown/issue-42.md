@@ -262,6 +262,8 @@ JSON填写如下图：
 `var random = Math.floor(Math.random() * 1000);`
 - 加密字符串生成MD5：
 `var hash = CryptoJS.MD5("hello hello.").toString();`
+- 转换为URL编码格式的字符串：
+`var url = encodeURI("http://baidu.com/?q=hello i'm solomon.");`
 
 
 # Insomnia 客户端添加插件
