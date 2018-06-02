@@ -467,39 +467,39 @@ https://api.github.com/users/solomonxie/repos?page=2&per_page=3
 
 [参考百度云官方文档：文字识别API参考](https://cloud.baidu.com/doc/OCR/OCR-API.html)
 
-## API常用地址
-API | 状态 | 请求地址 | 调用量限制
--- | -- | -- | --
-通用文字识别 | 免费使用 | https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic | 50000次/天免费
-通用文字识别（含位置信息版） | 免费使用 | https://aip.baidubce.com/rest/2.0/ocr/v1/general | 500次/天免费
-通用文字识别（高精度版） | 免费使用 | https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic | 500次/天免费
-通用文字识别（高精度含位置版） | 免费使用 | https://aip.baidubce.com/rest/2.0/ocr/v1/accurate | 50次/天免费
-网络图片文字识别 | 免费使用 | https://aip.baidubce.com/rest/2.0/ocr/v1/webimage | 500次/天免费
 
-## `Access Token`
+## `授权字符串 Access Token`
+`Token字符串`是你使用别人API的第一步，简单说，就是只有你自己知道的密码，在你每次向服务器发送的请求里面加上这个字符串，就相当于完成了一次登录。
+
 `Access Token`永远是调用API最重要也最麻烦的地方了：每个公司都不一样，各种设置安全问题让你的Token复杂化。而百度云的Token，真的是麻烦到一定地步了。
 
 [参考：百度API的鉴权认证机制](http://ai.baidu.com/docs#/Auth/top) (建议你不要参考，因为它的流程图会先把你镇住的)
 
-简单说，主要流程就是：先给百度的一个URL链接按照指定格式发送POST请求，然后等它返还给你一个token字符串，在把这个token字符串用来访问具体的API。
+简单说，获取百度云token字符串的主要流程就是：
+- 创建一个应用，获得只有自己知道的id和密码
+- 用POST方式把id和密码发给百度的一个链接：
+`https://aip.baidubce.com/oauth/2.0/token`
+- 其中，需要你向这个地址传送三个参数：
+    - `grant_type = client_credentials` 这个是固定的
+    - `client_id = xxx` 这个是你在百度云管理后台创建OCR应用的时候，那个应用的`API Key`
+    - `client_secret = xxx` 这个是你的应用的`Secret Key`
+- 等待服务器返还给你一个包含token字符串的数据
+- 记住这个token字符串，并用来访问每一次的API
 
-授权地址为：`https://aip.baidubce.com/oauth/2.0/token`
-
-然后向这个地址显示的传送三个参数：
-- `grant_type = client_credentials` 这个是固定的
-- `client_id = xxx` 这个是你在百度云管理后台创建OCR应用的时候，那个应用的`API Key`
-- `client_secret = xxx` 这个是你的应用的`Secret Key`
-
-Postman中的设置如下图所示：
+来看看怎么利用Postman操作，如下图所示：
 ![image](https://user-images.githubusercontent.com/14041622/40855123-2b83dac0-6606-11e8-8a38-604c95742ac8.png)
 
-然后点击发送，就会获得一个JSON数据，如下图：
+填好以后点击Send发送，就会获得一个JSON数据，如下图：
 ![image](https://user-images.githubusercontent.com/14041622/40855254-b0b88038-6606-11e8-8a33-389b361e6ffc.png)
 
 然后你用你的程序(Python, PHP, Node.js等，随便)，获取这个JSON中的`access_token`，
-即可用来放到正式的API请求中，做为授权认证。
+即可用到正式的API请求中，做为授权认证。
 
-## 正式调用API： 以"通用文字识别"为例
+
+
+## `正式调用API： 以"通用文字识别"为例`
+
+API链接：`https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic`
 
 提交方式：`POST`
 
@@ -528,3 +528,12 @@ Body的数据如图所示：
 ![image](https://user-images.githubusercontent.com/14041622/40858687-baa3a5b8-6611-11e8-9834-4dbb3e6cb1a1.png)
 
 返回的是一行一行的识别字符。百度云的识别率是相当高的，几乎100%吧。毕竟是国内本土的机器训练出来的。
+
+## API常用地址
+API | 请求地址 | 调用量限制
+-- | -- | --
+通用文字识别 | https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic | 50000次/天免费
+通用文字识别（含位置信息版） | https://aip.baidubce.com/rest/2.0/ocr/v1/general | 500次/天免费
+通用文字识别（高精度版） | https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic | 500次/天免费
+通用文字识别（高精度含位置版） | https://aip.baidubce.com/rest/2.0/ocr/v1/accurate | 50次/天免费
+网络图片文字识别 | https://aip.baidubce.com/rest/2.0/ocr/v1/webimage | 500次/天免费
