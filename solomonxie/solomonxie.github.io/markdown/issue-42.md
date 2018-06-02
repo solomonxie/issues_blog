@@ -463,11 +463,12 @@ https://api.github.com/users/solomonxie/repos?page=2&per_page=3
 
 # 百度云 OCR 图片文字识别 API
 
-这里用Postman客户端进行测试和演示。
+研究百度OCR的API，主要是向做对扫描版的各种PDF进行文字识别并转Word文档的需求。
+
+这里用Postman客户端进行测试和演示。因为Postman是对各种API操作的最佳入门方式。一旦在Postman里实现了正确的调用，剩下的就只是一键生成代码，和一些细节的修改了。
 
 [参考百度云官方文档：文字识别API参考](https://cloud.baidu.com/doc/OCR/OCR-API.html)
 [下载官方文档PDF：OCR.zh.pdf](https://github.com/solomonxie/solomonxie.github.io/files/2064546/OCR.zh.pdf)
-
 
 
 ## `授权字符串 Access Token`
