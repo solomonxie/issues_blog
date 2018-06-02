@@ -466,6 +466,8 @@ https://api.github.com/users/solomonxie/repos?page=2&per_page=3
 这里用Postman客户端进行测试和演示。
 
 [参考百度云官方文档：文字识别API参考](https://cloud.baidu.com/doc/OCR/OCR-API.html)
+[下载官方文档PDF：OCR.zh.pdf](https://github.com/solomonxie/solomonxie.github.io/files/2064546/OCR.zh.pdf)
+
 
 
 ## `授权字符串 Access Token`
