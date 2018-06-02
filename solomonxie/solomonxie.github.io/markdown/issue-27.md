@@ -1011,6 +1011,7 @@ sudo kill -9 xxx
 
 [官方网址。](https://www.sno.phy.queensu.ca/~phil/exiftool/)
 
+安装：
 ```shell
 # Mac上安装
 $ brew install exiftool
@@ -1020,9 +1021,22 @@ $ sudo apt-get install exiftool
 
 # 查看图片exif信息
 $ exiftool 图片位置
+```
 
-# 常用操作
+## 语法
+每种格式的图片都有自己不同的一堆Tags，比如时间、日期、地理位置等，jpg和png都很不一样。
+所以到官网参考每种图片的不同tags，才能确定自己要怎么改这个信息。
 
+[ExifTool Tag Names](https://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/index.html)
+
+基本语法是一样的，`-Tag=Value`，如下
+
+```sh
+$ exiftool -TAG=VALUE
+```
+
+## 常用操作
+```
 # Remove all EXIF metadata from the given files:
 $ exiftool -All= file
 
@@ -1041,8 +1055,6 @@ $ exiftool '-filename<DateTimeOriginal' -d %Y-%m-%d_%H-%M-%S%%lc.%%e directory -
 
 ## 常用标签名(Tags)
 > 因为编辑exif信息需要知道图片里内置的各种标签名才能修改，所以下面为标签名参考。
-
-[ExifTool Tag Names](https://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/index.html)
 
 ![screenshot-www sno phy queensu ca-2018 04 21-12-29-03](https://user-images.githubusercontent.com/14041622/39080383-a9b40cc0-455f-11e8-9baf-6ac0b12cf350.png)
 
