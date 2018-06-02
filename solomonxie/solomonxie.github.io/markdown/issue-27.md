@@ -1012,7 +1012,10 @@ sudo kill -9 xxx
 [官方网址。](https://www.sno.phy.queensu.ca/~phil/exiftool/)
 
 ```shell
-# 安装
+# Mac上安装
+$ brew install exiftool
+
+# Linux上安装
 $ sudo apt-get install exiftool
 
 # 查看图片exif信息
