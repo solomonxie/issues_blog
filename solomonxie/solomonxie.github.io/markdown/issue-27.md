@@ -1528,6 +1528,12 @@ $ pdftk file1.pdf file2.pdf ... cat output output.pdf
 #拆分PDF的每一页为一个新文件 并按照指定格式设定文件名
 $ pdftk input.pdf burst output out_%d.pdf
 
+#按照通配符，合并大量PDF文件
+$ pdftk *.pdf cat output combined.pdf
+
+#去除第 13 页,其余的保存为新PDF
+$ pdftk in.pdf cat 1-12 14-end output out1.pdf
+
 #扫描一本书，odd.pdf 为书的全部奇数页，even.pdf 为书的全部偶数页，下面的命令可以将两个 pdf 合并成页码正常的书
 $ pdftk A=odd.pdf B=even.pdf shuffle A B output collated.pdf
 
