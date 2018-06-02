@@ -1501,18 +1501,18 @@ $ brew install https://raw.githubusercontent.com/turforlag/homebrew-cervezas/mas
 ## 常用命令
 
 ```sh
-#Extract pages 1-3, 5 and 6-10 from a PDF file and save them as another one:
+#提取第1至3，第5，第6至10页，并合并为一个pdf文件
 $ pdftk input.pdf cat 1-3 5 6-10 output output.pdf
 
-#Merge (concatenate) a list of PDF files and save the result as another one:
+#合并(concatenate) 前面所有的pdf为output.pdf
 $ pdftk file1.pdf file2.pdf ... cat output output.pdf
 
 #ttern:
 $ pdftk input.pdf burst output out_%d.pdf
 
-#Rotate all pages by 180 degrees clockwise:
+#按180°旋转所有页面
 $ pdftk input.pdf cat 1-endsouth output output.pdf
 
-#Rotate third page by 90 degrees clockwise and leave others unchanged:
+#按顺时针90°旋转第三页，其他页不变
 $ pdftk input.pdf cat 1-2 3east 4-end output output.pdf
 ```
