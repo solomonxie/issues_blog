@@ -1412,3 +1412,31 @@ $ convert image1.png image2.png image3.png +append image123.png
 命令非常简单，速度也极快。但是在PDF转图片的过程中，如果不加任何设置直接`convert xx.pdf xx.png`这样的转换，效果可是**非常之差**，如下图：
 
 ![image](https://user-images.githubusercontent.com/14041622/40873821-1fdacbf4-669a-11e8-94bb-d256c69ad744.png)
+
+而且程序会提出警告：
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG sample-default-convert.png' @ warning/png.c/MagickPNGWarningHandler/1744.
+这是因为程序没有很好支持`PNG`格式图片的问题。简单点的话，
+解决方案就是改成`JPG`格式图片就好了。
+
+### PDF转图片：清晰度设置
+`convert`命令将PDF转图片的最大难度在于清晰度问题。网上有很多种解决方案，各有优缺。以下为一些尝试的总结：
+
+```sh
+# 默认转换：图片大小几乎与pdf相同
+$ convert sample.pdf sample.jpg
+
+# resize设置：无论resize 100还是3000，都没有清晰化
+$ convert -resize 3000 sample.pdf sample.jpg
+
+# quality设置：完全没有作用
+$ convert -quality 100% sample.pdf sample.jpg
+
+# verbose+density+quality+flatten+sharpen转换：也就大概还原了80%的清晰度
+$ convert -verbose -density 150 -trim -quality 100 -flatten -sharpen 0x1.0 sample.pdf sample.jpg
+
+# density 300转换：100%还原，但是文件增大10倍
+$ convert -density 300 -trim -quality 100 sample.pdf sample.jpg
+
+# geometry 转换：100%还原，文件增大7倍
+$ convert -geometry 1600x1600 -density 200x200 -quality 100 sample.pdf sample.jpg
+```
