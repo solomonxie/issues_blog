@@ -1480,3 +1480,8 @@ $ pdfimages -f 2 sample.pdf img_name
 
 提取的图片，会按照指定的位置和名字生成如`img_name-000.jpg, img_name-001.jpg, img_name-002.jpg`这样的文件，每一个图片都对应着PDF中原始的图片。
 
+
+
+
+# 利用命令行工具`pdftk`对PDF进行切割、合并、提取
+
