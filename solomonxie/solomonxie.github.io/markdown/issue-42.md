@@ -435,7 +435,7 @@ Header里设置的话，格式是：名称为`Authorization`，值为`token xxxx
 - 在栏目里面的Body位置选择`GraphQL`格式：
 ![image](https://user-images.githubusercontent.com/14041622/40486898-28ad1e5a-5f95-11e8-8491-98aab556e5b6.png)
 - 输入Github指定格式的`查询语句`（看似JSON格式实则不是）：
-```
+```graphql
 query {
   viewer {
     login
@@ -452,7 +452,7 @@ query {
 这里只说不同的地方吧：
 - 授权比Insomnia多一种方式，可以在`Authorization`栏目里面直接选`OAuth 2.0`然后输入token密码串。
 - 最重要的是Body部分，`查询语句`完全不能使用Github指定的格式。只能选择Body格式为`Raw -> JSON(application/json)`。然后加上`查询语句`，格式如下**（必须完全符合JSON语法）**：
-```
+```json
 { 
   "query": "query {viewer { login } }"
 }
@@ -469,6 +469,13 @@ query {
 [GraphQL API Explorer | GitHub Developer Guide](https://developer.github.com/v4/explorer/)
 
 ![image](https://user-images.githubusercontent.com/14041622/40872747-2e6030ba-6686-11e8-847a-6025b92ef333.png)
+
+## 常用查询结构
+下面展示一些我测试过的查询结构，希望能起到帮助作用。
+为了增强阅读性，节省文字长度，返回值就先不粘上来了。而且返回值几乎就是查询语句的结构，没什么特别新鲜的。
+
+### 查询指定的repo中的issues和comments
+![image](https://user-images.githubusercontent.com/14041622/40872982-8597e432-668a-11e8-96ff-5f5420769b7d.png)
 
 
 
