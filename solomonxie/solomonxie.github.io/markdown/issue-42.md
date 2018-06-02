@@ -239,9 +239,7 @@ JSON填写如下图：
 - 无传输数据
 
 
-# Postman
-
-## Postman变量使用
+# Postman变量使用
 
 首先要创建一个`Environment`，然后创建各种`key-value`对儿。
 然后在你的项目中，找到右上角的选择框，选择一个`Environment`名称。然后你的项目里就可以使用这个环境里面的变量了。
