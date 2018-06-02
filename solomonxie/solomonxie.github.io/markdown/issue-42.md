@@ -553,5 +553,14 @@ API | 请求地址 | 调用量限制
 
 [参考官方文档：定制化翻译API技术文档](http://api.fanyi.baidu.com/api/trans/product/apidoc#cusjoinFile)
 
+
+## 所需传输参数
+百度翻译的API所需的除了需要翻译的内容和指定语言外，比较麻烦的是需要制作3个授权认证相关的参数。
+
+![image](https://user-images.githubusercontent.com/14041622/40870954-4a89986a-6665-11e8-9c71-7c0cfbee9520.png)
+
+
+
+## 
 API地址：
 `http://api.fanyi.baidu.com/api/trans/private/translate`
