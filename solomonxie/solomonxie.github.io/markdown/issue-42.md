@@ -298,9 +298,13 @@ Insomnia是带我入门API且我认为最棒最棒的入门工具，正如其标
 如果要看已经设置的Enviroment变量的话，可以点开右上方小眼睛看到，如下图，我设置了3个环境变量：
 ![image](https://user-images.githubusercontent.com/14041622/35856730-d226466e-0b71-11e8-9d3a-849d4886044a.png)
 
-调试时要打印的话，一般都是用`console.log(...)`，这样就能在console中看到。
-如果你的Postman是Chrome app的话，直接在chrome浏览器的开发者工具里调试就行。如果是Mac等桌面软件，则需要打开内置的console才能看到调试信息。位置在左下角，如下图：
-![image](https://user-images.githubusercontent.com/14041622/35856605-7ec4f15a-0b71-11e8-8167-a4d7e52ca206.png)
+## 打印变量
+调试时要打印的话，一般都是用`console.log(...)`，这样就能在console中看到：
+- 如果你的Postman是Chrome app的话，直接在chrome浏览器的开发者工具里调试就行。
+- 如果是Mac等桌面软件，则需要打开内置的console才能看到调试信息。
+位置在左下角，如下图：
+![image](https://user-images.githubusercontent.com/14041622/40871649-15f7257e-6672-11e8-8d0f-6fdc9da4e03f.png)
+
 
 ## 常用语句 Code Snippets
 一般会在脚本编写栏的右边都会有常用语句片段，点击以下就会出来代码，但是一开始不太了解的话点出来其实也看不懂。如下图：
