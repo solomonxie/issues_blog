@@ -1583,7 +1583,10 @@ $ pdfimages sample.pdf img_name
 # 设定提取的图片保存为png格式 (图片大小是3倍左右）
 $ pdfimages -png sample.pdf img_name
 
-# 提取前2页的图片(first 2 pages)
+# 提取某一页的图片 (last one page)
+$ pdfimages -l 3 sample.pdf img_name
+
+# 提取前几页的图片(first number of pages)
 $ pdfimages -f 2 sample.pdf img_name
 ```
 
