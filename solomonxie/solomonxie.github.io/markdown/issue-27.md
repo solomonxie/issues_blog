@@ -1392,8 +1392,6 @@ brew install ghostscript imagemagick
 
 安装好后，命令行里就可以调用ImageMagick的一系列命令了。
 
-## PDF与图片互相转换
-
 常用命令有：
 ```sh
 #Convert an image from JPG to PNG:
@@ -1409,17 +1407,25 @@ $ convert image.png -resize 640x480 image2.png
 $ convert image1.png image2.png image3.png +append image123.png
 ```
 
+## PDF转图片
+
+用`imagemagick`将pdf转成图片（不是提取图片）的命令是：
+```sh
+$ convert sample.pdf sample.jpg
+```
+
 命令非常简单，速度也极快。但是在PDF转图片的过程中，如果不加任何设置直接`convert xx.pdf xx.png`这样的转换，效果可是**非常之差**，如下图：
 
 ![image](https://user-images.githubusercontent.com/14041622/40873821-1fdacbf4-669a-11e8-94bb-d256c69ad744.png)
 
-而且程序会提出警告：
+注意：一般如果设置输出为png的话，程序会提出警告：
 convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG sample-default-convert.png' @ warning/png.c/MagickPNGWarningHandler/1744.
-这是因为程序没有很好支持`PNG`格式图片的问题。简单点的话，
-解决方案就是改成`JPG`格式图片就好了。
+这是因为程序没有很好支持`PNG`格式图片的问题。虽然报错，但是png文件也能正常生成。如果不喜欢的话，就改成`JPG`格式输出好了。
 
-### PDF转图片：清晰度设置
-`convert`命令将PDF转图片的最大难度在于清晰度问题。网上有很多种解决方案，各有优缺。以下为一些尝试的总结：
+### `清晰度设置`
+`convert`命令将PDF转图片的最大难度在于清晰度问题。网上有很多种解决方案，各有优缺。
+
+以下为一些尝试的总结：
 
 ```sh
 # 默认转换：图片大小几乎与pdf相同
