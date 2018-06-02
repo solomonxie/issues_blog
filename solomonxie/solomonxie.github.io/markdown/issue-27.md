@@ -1489,6 +1489,24 @@ $ pdfimages -f 2 sample.pdf img_name
 [参考：PDF 合并和分割工具--PDFtk](https://blog.seisman.info/pdftk/)
 [参考官网：PDFtk server:  the pdf tool kit](https://www.pdflabs.com/tools/pdftk-server/)
 
+具体包括的功能如下：
+- 合并 PDF；
+- 分割 PDF 页面；
+- 旋转 PDF 文档或页面；
+- PDF 解密；（不是破解）
+- PDF 加密；
+- 用 X/FDF 填写 PDF 表格；
+- 从 PDF 表格中生成 PDF Data Stencils；
+- 加背景水印或前景印章；
+- 报告 PDF Metrics，书签和元数据；
+- 增加 / 更新 PDF 书签或元数据；
+- 给 PDF 页面或文档加附件；
+- 解压 PDF 附件；
+- 分解 PDF 文档为多个单页；
+- 解压缩和重压缩页面流；
+- 修复受损的 PDF 文档；
+
+## 安装
 Linux上安装：
 ```sh
 $ sudo apt-get install pdftk
