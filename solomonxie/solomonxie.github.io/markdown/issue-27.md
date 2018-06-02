@@ -1528,9 +1528,16 @@ $ pdftk file1.pdf file2.pdf ... cat output output.pdf
 #拆分PDF的每一页为一个新文件 并按照指定格式设定文件名
 $ pdftk input.pdf burst output out_%d.pdf
 
+#扫描一本书，odd.pdf 为书的全部奇数页，even.pdf 为书的全部偶数页，下面的命令可以将两个 pdf 合并成页码正常的书
+$ pdftk A=odd.pdf B=even.pdf shuffle A B output collated.pdf
+
 #按180°旋转所有页面
 $ pdftk input.pdf cat 1-endsouth output output.pdf
 
 #按顺时针90°旋转第三页，其他页不变
 $ pdftk input.pdf cat 1-2 3east 4-end output output.pdf
+
+#输入密码转换成无密码PDF
+pdftk secured.pdf input_pw foopass output unsecured.pdf
+
 ```
