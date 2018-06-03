@@ -1227,3 +1227,8 @@ Integral calculus is a process to calculate the **`AREA`** between a function an
 - `Right Riemann Sum`: take the Right boundary value of `Δx` to be the rectangle's **height**.
 
 ![image](https://user-images.githubusercontent.com/14041622/40884539-ed5aff60-6747-11e8-80ee-d1139810c0c2.png)
+
+As you can see, they would be either Over-estimated or Under-estimated. Neither of these approximations would be called a good one, normally.
+
+## Midpoint Sums Approximation
+It's an enhancement to the Left sums and Right sums, it takes the midpoint value
