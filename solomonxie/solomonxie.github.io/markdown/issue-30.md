@@ -234,14 +234,22 @@ Vim等编辑器经常会产生`.swp`等缓存文件，所以在Vs code的文件�
 
 
 ## `settings.json`
-vscode管理项目文件夹最重要的配置文件。
+`settings.json`是vscode管理项目文件夹最重要的配置文件。
+
 需要配置的变量有两个：`python.venvPath`用来指定pipenv存放虚拟环境的文件夹（不是这个repo的bin文件夹）；`python.pythonPath`用来指定具体执行`python`命令的位置。如下所示：
 ```json
     "python.venvPath": "/Users/Jason/.local/share/virtualenvs",
     "python.pythonPath": "/Users/Jason/.local/share/virtualenvs/repository-QDdBvXzX/bin/python"
 ```
+注意，一般大家经常忽略这点，但是如果没有指定`venvPath`，那么就会弹出这样的错误：
+Workspace contains pipfile but attempt to run 'pipenv --venv' failed with Traceback (most recent call last): File "/usr/local/Cellar/pipenv/2018.5.18/libexec/bin/pipenv", line 11, in <module> 
+
+重启软件以后生效。
 
 ## `launch.json`
+如果没有`launch.json`这个配置文件，vscode就不会自动帮你查错。
+
+生成方法：
 如果在项目文件夹中的`.vscode/`中存在这个文件，那么就直接编辑。如果不存在，则需要在vscode的左侧栏的`Debug`栏目中，点击代表`设置`的小按钮，创建一个`launch.json`。然后点击`add configuration`，输入`python`，根据提示创建python相关的配置行。
 
 打开文件以后，主要需要修改的内容如下：
