@@ -1667,7 +1667,7 @@ pdftk secured.pdf input_pw foopass output unsecured.pdf
 $ wget -i List.txt
 
 # 下载到指定目录
-$ wget <url> -P ./LOCAL
+$ wget <url> -P ./folder
 
 # 每次下载都等待3秒
 $ wget <url> -wait=3
