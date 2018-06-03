@@ -1688,13 +1688,13 @@ $ wget <url> -O filename
 $ wget <url> --limit-rate 300k
 
 # 每次下载都等待3秒
-$ wget <url> -wait 3
+$ wget <url> --wait 3
 
-# 每次下载随机等待0~2秒之间
-$ wget <url> -random-wait
+# 每次下载随机等待0~2秒之间 (注意它会默认静默模式，且自动按照url结构生成层级文件夹）
+$ wget <url> --random-wait
 
 # 每次重新连接retry时等待1秒
-$ wget <url> -waitretry 1
+$ wget <url> --waitretry 1
 
 # 响应超时为5秒 --timeout
 $ wget <url> -T 5
