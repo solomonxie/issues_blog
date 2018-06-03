@@ -231,6 +231,16 @@ $ git checkout -- .
 ```
 
 ## Git 撤销commit
+**一旦commit，就不能撤销！会永远留在历史里面。**
+
+## Git 修改commit
+一般流程如下：
+```sh
+$ git commit -m '首次提交'
+
+$ git add forgotten_file
+$ git commit --amend
+```
 
 
 ![image](https://user-images.githubusercontent.com/14041622/36060082-b951bb6a-0e7c-11e8-9a66-b69e1ebe0091.png)
