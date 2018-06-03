@@ -1659,3 +1659,9 @@ $ pdftk input.pdf cat 1-2 3east 4-end output output.pdf
 pdftk secured.pdf input_pw foopass output unsecured.pdf
 
 ```
+
+
+# wget 下载多个链接
+```sh
+$ wget -i List.txt
+```
