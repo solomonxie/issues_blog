@@ -1699,4 +1699,8 @@ $ wget <url> -waitretry 1
 # 响应超时为5秒 --timeout
 $ wget <url> -T 5
 
+# 打印调试输出 --debug
+$ wget <url> -d
+# 不输出信息 --quiet
+$ wget <url> -q
 ```
