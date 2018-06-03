@@ -589,9 +589,11 @@ Body的数据如图所示：
 },
 ```
 
-经过测试，这些位置是`像素点`位置。
-
-
+经过测试，这些位置是`像素点`位置。其中：
+- `vertexes_location`，以这整行为一个Box的4顶点坐标
+- `min_finegrained_vertexes_location`，和旋转有关的坐标
+- `finegrained_vertexes_location`，非常详细，以每一个字为一个Box的4顶点坐标
+- `location`，以整行为一个Box的绘制数据：起点、宽、高。
 
 为了证明，我利用Python根据它提供的位置信息框住它所对应的文字，真的是非常准确，如下图：
 ![image](https://user-images.githubusercontent.com/14041622/40889314-02fad7c4-6797-11e8-8785-34679000493a.png)
