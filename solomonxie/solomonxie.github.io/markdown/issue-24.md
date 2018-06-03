@@ -157,9 +157,9 @@ import os
 #只返回结果
 os.system(command)
 
-#返回结果与终端显示信息
+#或者，返回结果与终端显示信息
 with os.popen(command, mode) as f: 
-    print f.read()
+    print(f.read())
 
 ```
 
