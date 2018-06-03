@@ -1220,7 +1220,7 @@ Integral calculus is a process to calculate the **`AREA`** between a function an
 
 ![image](https://user-images.githubusercontent.com/14041622/40873054-ed0e9f42-668b-11e8-8860-0e4778f2c041.png)
 
-## Left & right Riemann sums
+## Left & Right Riemann sums
 [Refer to Maths is fun: Integral Approximations](https://www.mathsisfun.com/calculus/integral-approximations.html)
 
 - `Left Riemann Sum`: take the Left boundary value of `Δx` to be the rectangle's **height**.
