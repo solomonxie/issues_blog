@@ -1704,3 +1704,10 @@ $ wget <url> -d
 # 不输出信息 --quiet
 $ wget <url> -q
 ```
+
+
+# 用pdftohtml将PDF转成HTML
+`pdftohtml`同样是超强命令行工具集`poppler`的一个子集，和`pdfimages`等优秀的子集一样。用好了是非常便利的。
+
+参考：
+
