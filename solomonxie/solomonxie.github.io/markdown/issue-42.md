@@ -294,7 +294,8 @@ Insomnia是带我入门API且我认为最棒最棒的入门工具，正如其标
 # Postman 脚本语法总结
 > Postman的强大之处在于其允许在对某一个request访问的之前和之后分别运行自定义的一段Javascript脚本，这样直接就完成了一个`chain request`的效果，可以将数条request连结成一个流程完成一体化测试。这在很多的API操作中都是极其有用的，所以这里有必要总结一些常用语句。
 
-[参考：Postman官方脚本可引用库说明。](https://www.getpostman.com/docs/v6/postman/scripts/postman_sandbox)
+[参考：Postman Sandbox 官方脚本可引用库说明](https://www.getpostman.com/docs/v6/postman/scripts/postman_sandbox)
+[参考：Postman Sandbox API 官方引用的脚本库详解](https://www.getpostman.com/docs/v6/postman/scripts/postman_sandbox_api_reference)
 
 ## 脚本执行流程
 ![image](https://user-images.githubusercontent.com/14041622/35856198-39f1e052-0b70-11e8-80e4-08341126a2b1.png)
