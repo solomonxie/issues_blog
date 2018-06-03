@@ -1,4 +1,4 @@
-# Git 及所有相关学习
+# Git Workflow
 > 主要记录Git从零开始学习的一些常用流程和指令 
 
 ## Online Courses
