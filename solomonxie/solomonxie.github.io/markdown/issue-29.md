@@ -210,6 +210,20 @@ git mv 1.txt ./src/1.txt
 自己做的话无所谓其实，但是如果是团队合作的话，每次commit都是一次公开。
 其实形容的话，就相当于老板让你做个项目，你肯定不可能做了一点东西就跑到老板办公室去送一趟文件，应该会先把做好的放在桌子的上那个小文件架上。然后那个文件架就叫`index`。
 
+[参考：Git 基础 - 撤消操作](https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E6%92%A4%E6%B6%88%E6%93%8D%E4%BD%9C)
+
+## Git 撤销add
+```sh
+$ git reset HEAD file.txt
+```
+
+## Git撤销修改
+```sh
+git checkout -- file.txt
+```
+
+## Git 撤销commit
+
 
 ![image](https://user-images.githubusercontent.com/14041622/36060082-b951bb6a-0e7c-11e8-9a66-b69e1ebe0091.png)
 
