@@ -214,12 +214,20 @@ git mv 1.txt ./src/1.txt
 
 ## Git 撤销add
 ```sh
+# 指定文件
 $ git reset HEAD file.txt
+
+# 全部撤销
+$ git reset HEAD .
 ```
 
 ## Git撤销修改
 ```sh
-git checkout -- file.txt
+# 指定文件
+$ git checkout -- file.txt
+
+# 全部撤销
+$ git checkout -- .
 ```
 
 ## Git 撤销commit
