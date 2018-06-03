@@ -1672,7 +1672,7 @@ $ wget -i List.txt
 # 下载到指定目录 --directory-prefix
 $ wget <url> -P ./folder
 
-# 强制创建目录 --force-directories
+# 强制按照url的层级结构，创建多层目录 --force-directories
 $ wget <url> -x
 
 # 不覆盖已有文件 --no-clobber
@@ -1690,7 +1690,7 @@ $ wget <url> --limit-rate 300k
 # 每次下载都等待3秒
 $ wget <url> --wait 3
 
-# 每次下载随机等待0~2秒之间 (注意它会默认静默模式，且自动按照url结构生成层级文件夹）
+# 每次下载随机等待0~2秒之间
 $ wget <url> --random-wait
 
 # 每次重新连接retry时等待1秒
