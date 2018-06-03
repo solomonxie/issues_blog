@@ -1661,7 +1661,22 @@ pdftk secured.pdf input_pw foopass output unsecured.pdf
 ```
 
 
-# wget 下载多个链接
+# wget 常用命令
 ```sh
+# 下载多个链接
 $ wget -i List.txt
+
+# 下载到指定目录
+$ wget <url> -P ./LOCAL
+
+# 每次下载都等待3秒
+$ wget <url> -wait=3
+
+# 每次下载随机等待0~2秒之间
+$ wget <url> -random-wait
+
+# 每次重新连接retry时等待1秒
+$ wget <url> -waitretry=1
+
+
 ```
