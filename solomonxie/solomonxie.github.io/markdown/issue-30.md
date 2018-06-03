@@ -246,6 +246,12 @@ Workspace contains pipfile but attempt to run 'pipenv --venv' failed with Traceb
 
 重启软件以后生效。
 
+吐槽下：
+这个配置唯一麻烦一点点的就是，不是每个项目文件夹都通用的，因为`python.pythonPath`是需要指明绝对路径的，所以你的每个项目里，都要自己去执行`pipenv --venv`去查询当前项目的虚拟环境的存储位置，然后拷贝到这个settings里来。
+如果不喜欢这样，那就干脆在生成pipenv环境时，指定存储位置为当前目录。那么就可以用`./.venv`这样的相对路径来指定位置了。
+
+
+
 ## `launch.json`
 如果没有`launch.json`这个配置文件，vscode就不会自动帮你查错。
 
