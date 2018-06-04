@@ -1243,3 +1243,6 @@ As you can see, they would be either Over-estimated or Under-estimated. Neither 
 ### Midpoint Sums Approximation
 It's an enhancement to the Left sums and Right sums, it takes the midpoint value, and sometimes makes better approximation.
 
+## `How to calculate Riemann Sums`
+
+![image](https://user-images.githubusercontent.com/14041622/40902699-810e7538-6807-11e8-93bd-78c9da47b96a.png)
