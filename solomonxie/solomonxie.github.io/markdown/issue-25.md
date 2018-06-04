@@ -782,14 +782,21 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
 # 把这几句配置加到函数外面任意地方：
+" @airline
 set t_Co=256      "在windows中用xshell连接打开vim可以显示色彩
+let g:airline#extensions#tabline#enabled = 1   " 是否打开tabline
+"这个是安装字体后 必须设置此项" 
+let g:airline_powerline_fonts = 1
 set laststatus=2  "永远显示状态栏
 let g:airline_theme='bubblegum' "选择主题
 let g:airline#extensions#tabline#enabled=1    "Smarter tab line: 显示窗口tab和buffer
-let g:airline#extensions#tabline#left_sep = ' '  "separater
-let g:airline#extensions#tabline#left_alt_sep = '|'  "separater
-let g:airline#extensions#tabline#formatter = 'default'  "formater
-
+"let g:airline#extensions#tabline#left_sep = ' '  "separater
+"let g:airline#extensions#tabline#left_alt_sep = '|'  "separater
+"let g:airline#extensions#tabline#formatter = 'default'  "formater
+let g:airline_left_sep = '▶'
+let g:airline_left_alt_sep = '❯'
+let g:airline_right_sep = '◀'
+let g:airline_right_alt_sep = '❮'
 ```
 
 默认安装好后是这样的：
