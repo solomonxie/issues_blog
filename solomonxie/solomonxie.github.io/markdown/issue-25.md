@@ -733,7 +733,7 @@ set directory=/tmp    "set swp file directory.
 # Vim配置状态栏 Status line
 Vim里一个好看的状态栏是非常加分的。
 
-### `lightline`
+### `lightline` 简单好安装的状态栏
 
 安装方法：
 Vundle管理器的话，在`~/.vimrc`中的插件函数中加上：
@@ -741,7 +741,7 @@ Vundle管理器的话，在`~/.vimrc`中的插件函数中加上：
 然后在函数外写上：
 ```vim
 # 把这句加到vundle函数里：
-`Plugin 'itchyny/lightline.vim'`
+Plugin 'itchyny/lightline.vim'
 
 # 把这两句加到函数外面任意地方：
 set laststatus=2
@@ -749,3 +749,20 @@ let g:lightline = { 'colorscheme': 'powerline', }
 ```
 
 ![image](https://user-images.githubusercontent.com/14041622/40912076-2532cc3e-6823-11e8-9e55-17e3a73c3c09.png)
+
+## `Powerline` 强大且难安装的状态栏
+和其它插件一样用Vundle安装：
+```vim
+# 把这句加到vundle函数里：
+Plugin 'Lokaltog/vim-powerline'
+
+# 把这两句加到函数外面任意地方：
+set laststatus=2
+set t_Co=256
+let g:Powerline_symbols= 'unicode'
+set encoding=utf8
+```
+
+但是安装完了会变成这个样子：
+
+![image](https://user-images.githubusercontent.com/14041622/40912706-eb7aa168-6824-11e8-828b-3a9a70ec4903.png)
