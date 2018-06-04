@@ -819,19 +819,30 @@ Buffer是Vim自带的多文件编辑方式，有了它其实你不用单装Nerdt
 set hidden
 ```
 
+怎样开启buffer？
+实际上，buffer一直在开启着。这是你每次用`:e file`切换文件，或者在Nerdtree上按`o`打开文件，都是把当前的画面切换成了新文件你没有注意到而已。
+实际上背后的buffer一直都在，你只要打开过一次的，都可以切换回去。
+
+其实在没有安装`vim-airline`状态栏之前是没有注意到的，但是airline好心的有功能在最上方显示buffer，才让我觉得其实buffer有时候可能会比tab标签更好用。
+
 ## 常用命令
 ```vim
 " List Buffers 查看当前所有的buffer 
 :ls b
 
 " Buffer Next 下一个buffer
-:b n
+:bn
 
 " Buffer Previous 上一个buffer
-:b p
+:bp
+
+" Buffer Down 关闭当前buffer
+:bd
 
 " Buffer number 指定第二个buffer
 :b 2
+
+
 ```
 
 ## 快捷键设计
