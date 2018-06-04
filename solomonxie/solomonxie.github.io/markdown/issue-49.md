@@ -1221,7 +1221,7 @@ Integral calculus is a process to calculate the **`AREA`** between a function an
 ![image](https://user-images.githubusercontent.com/14041622/40873054-ed0e9f42-668b-11e8-8860-0e4778f2c041.png)
 
 ## `Riemann Sums`
-A Riemann sum is an approximation of the area under a curve by dividing it into multiple simple shapes (like rectangles or trapezoids).
+A Riemann sum is an **approximation** of the area under a curve by dividing it into multiple simple shapes (like rectangles or trapezoids).
 
 ### `Riemann Sums Notation`
 
