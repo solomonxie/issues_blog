@@ -852,6 +852,8 @@ set hidden
 nnoremap <C-h> :bp<CR>
 "按Ctrl+l 向右移动一个buffer
 nnoremap <C-l> :bn<CR>
+"按Ctrl+6 关闭当前buffer
+nnoremap <C-6> :bd<CR>
 ```
 
 
