@@ -10,5 +10,14 @@
 技巧：
 - comment里面加上`<b><!-- {"time": xxx, "updated_time": xxx} --></b>`这样的隐形标签，保存json数据，达到传达指令和记录更新数据的功能。
 - 遗忘曲线的起点设定为该comment的`created_time`。
+- 
+<b><!-- hello /--></b>
+
+隐形标签JSON数据：
+```html
+<b><!--
+
+--></b>
+```
 
 
