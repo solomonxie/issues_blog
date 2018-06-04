@@ -31,7 +31,11 @@ mkdir ~/.vim/colors
 ```
 然后把下载好的色彩主题包中`/colors/`文件夹全部拷贝到`~/.vim/colors/`中就可以使用了。具体操作如下：
 ### 下载主题包
-这个网址是vim官方收集的各种主题包：[Vim.org色彩主题集](http://www.vim.org/scripts/script_search_results.php?keywords=&script_type=color+scheme&order_by=creation_date&direction=descending&search=search)。我比较喜欢的[gruvbox主题](https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim)。
+
+[参考：vim官方收集的各种主题包：Vim.org色彩主题集](http://www.vim.org/scripts/script_search_results.php?keywords=&script_type=color+scheme&order_by=creation_date&direction=descending&search=search)
+[下载：Vim colorschemes - one colorscheme pack to rule them all!](https://github.com/flazz/vim-colorschemes)
+[下载：我比较喜欢的gruvbox主题](https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim)
+
 我这里下载了一个badwolf主题，是zip文件。解压后将主题包里`colors`文件夹内的`.vim`文件直接拷贝到`~/.vim/colors/`中即可。
 然后在vim或`.vimrc`文件中输入这两句句话配置就成功了：
 ```vimrc
