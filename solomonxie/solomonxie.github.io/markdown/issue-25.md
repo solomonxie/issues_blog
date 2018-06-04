@@ -806,9 +806,39 @@ let g:airline_right_alt_sep = '❮'
 
 
 # Vim Buffer缓冲区：多文件编辑方案
+> Buffer听起来很高大尚，实际上的功能和Tab、window是一模一样的。只是这些东西的内在实现不一样而已了。
 
 Buffer是Vim自带的多文件编辑方式，有了它其实你不用单装Nerdtree插件来实现多标签编辑。
 这是看个人习惯吧。
 虽然我已经习惯了用Nerdtree做多文件多标签编辑，但是学习一下Vim自带的buffer方式也不错。
 
+[参考：Vim 多文件编辑：缓冲区](https://harttle.land/2015/11/17/vim-buffer.html)
 
+注意：默认来讲，如果你修改了文件但还没保存，是不能切换buffer的。但是这样会很不方便，不像切换tab一样。我们可以在vimrc中设置来取消这个限制：
+```vim
+set hidden
+```
+
+## 常用命令
+```vim
+" List Buffers 查看当前所有的buffer 
+:ls b
+
+" Buffer Next 下一个buffer
+:b n
+
+" Buffer Previous 上一个buffer
+:b p
+
+" Buffer number 指定第二个buffer
+:b 2
+```
+
+## 快捷键设计
+如果要保证buffer的切换像tab一样方便，肯定是要设置快捷键的，要不然总输入命令太慢了。
+```vim
+"按Ctrl+h 向左移动一个buffer
+nnoremap <C-h> :bp<CR>
+"按Ctrl+l 向右移动一个buffer
+nnoremap <C-l> :bn<CR>
+```
