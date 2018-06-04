@@ -1223,6 +1223,13 @@ Integral calculus is a process to calculate the **`AREA`** between a function an
 ## `Riemann Sums`
 A Riemann sum is an approximation of the area under a curve by dividing it into multiple simple shapes (like rectangles or trapezoids).
 
+### `Riemann Sums Notation`
+
+![image](https://user-images.githubusercontent.com/14041622/40902169-a17a49a2-6805-11e8-9214-bae6f044caa0.png)
+
+The letter `ʃ` (reads as "esh" or just "integral") is called `the Integral symbol/sign`.
+
+
 ### Left & Right Riemann Sums Approximation
 [Refer to Maths is fun: Integral Approximations](https://www.mathsisfun.com/calculus/integral-approximations.html)
 
