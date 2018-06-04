@@ -33,6 +33,7 @@ mkdir ~/.vim/colors
 ### 下载主题包
 
 [参考：vim官方收集的各种主题包：Vim.org色彩主题集](http://www.vim.org/scripts/script_search_results.php?keywords=&script_type=color+scheme&order_by=creation_date&direction=descending&search=search)
+[参考：Vim Colors - Online Preview](http://vimcolors.com/)
 [下载：Vim colorschemes - one colorscheme pack to rule them all!](https://github.com/flazz/vim-colorschemes)
 [下载：我比较喜欢的gruvbox主题](https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim)
 
