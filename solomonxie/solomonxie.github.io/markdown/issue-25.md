@@ -734,6 +734,7 @@ set directory=/tmp    "set swp file directory.
 Vim里一个好看的状态栏是非常加分的。
 
 ### `lightline`
+
 安装方法：
 Vundle管理器的话，在`~/.vimrc`中的插件函数中加上：
 
@@ -746,3 +747,5 @@ Vundle管理器的话，在`~/.vimrc`中的插件函数中加上：
 set laststatus=2
 let g:lightline = { 'colorscheme': 'powerline', }
 ```
+
+![image](https://user-images.githubusercontent.com/14041622/40912076-2532cc3e-6823-11e8-9e55-17e3a73c3c09.png)
