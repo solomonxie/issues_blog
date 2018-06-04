@@ -728,3 +728,21 @@ set directory=/tmp    "set swp file directory.
 "+p
 ```
 这样速度就超快了，一瞬间完成。
+
+
+# Vim配置状态栏 Status line
+Vim里一个好看的状态栏是非常加分的。
+
+### `lightline`
+安装方法：
+Vundle管理器的话，在`~/.vimrc`中的插件函数中加上：
+
+然后在函数外写上：
+```vim
+# 把这句加到vundle函数里：
+`Plugin 'itchyny/lightline.vim'`
+
+# 把这两句加到函数外面任意地方：
+set laststatus=2
+let g:lightline = { 'colorscheme': 'powerline', }
+```
