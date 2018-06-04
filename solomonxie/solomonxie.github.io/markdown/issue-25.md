@@ -768,3 +768,25 @@ set encoding=utf8
 ![image](https://user-images.githubusercontent.com/14041622/40912706-eb7aa168-6824-11e8-828b-3a9a70ec4903.png)
 
 看了很多网上文章，没什么简单有效的方法。先放一放看看有没有别的代替品吧。
+
+## `vim-airline` 最佳状态栏
+虽说是powerline的fork，但是照我看比powerline强大的多。而且配置简单，效果多样，官方文档很清洗。一步到位。
+
+[参考：Vim-airline 官方文档](https://github.com/vim-airline/vim-airline)
+
+安装：
+```vim
+# 把这句加到vundle函数里：
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+# 把这几句配置加到函数外面任意地方：
+let g:airline#extensions#tabline#enabled=1    "enable display buffer
+let g:airline#extensions#tabline#left_sep = ' '  "separater
+let g:airline#extensions#tabline#left_alt_sep = '|'  "separater
+let g:airline#extensions#tabline#formatter = 'default'  "formater
+```
+
+默认安装好后是这样的：
+
+![image](https://user-images.githubusercontent.com/14041622/40913065-01d7c44e-6826-11e8-803e-3a656e01ebf2.png)
