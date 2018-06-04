@@ -781,12 +781,20 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
 # 把这几句配置加到函数外面任意地方：
-let g:airline#extensions#tabline#enabled=1    "enable display buffer
+set t_Co=256      "在windows中用xshell连接打开vim可以显示色彩
+set laststatus=2  "永远显示状态栏
+let g:airline_theme='bubblegum' "选择主题
+let g:airline#extensions#tabline#enabled=1    "Smarter tab line: 显示窗口tab和buffer
 let g:airline#extensions#tabline#left_sep = ' '  "separater
 let g:airline#extensions#tabline#left_alt_sep = '|'  "separater
 let g:airline#extensions#tabline#formatter = 'default'  "formater
+
 ```
 
 默认安装好后是这样的：
 
 ![image](https://user-images.githubusercontent.com/14041622/40913065-01d7c44e-6826-11e8-803e-3a656e01ebf2.png)
+
+然后可以修改状态的栏的主题：
+[参考：vim-airline-themes-screenshots](https://github.com/vim-airline/vim-airline/wiki/Screenshots)
+
