@@ -818,6 +818,7 @@ Buffer是Vim自带的多文件编辑方式，有了它其实你不用单装Nerdt
 ```vim
 set hidden
 ```
+但是要知道，没有保存的话，是不能关闭buffer的。
 
 怎样开启buffer？
 实际上，buffer一直在开启着。这是你每次用`:e file`切换文件，或者在Nerdtree上按`o`打开文件，都是把当前的画面切换成了新文件你没有注意到而已。
