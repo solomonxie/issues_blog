@@ -1437,7 +1437,11 @@ $ jupyter nbextensions_configurator enable --user
 装好后，输入`jupyter notebook`命令打开网页，就会发现多出一个栏目：
 ![image](https://user-images.githubusercontent.com/14041622/40265819-32308d76-5b72-11e8-824d-0bedec50cb24.png)
 
-## 
+## 安装颜色主题 Jupyterthemes
+
+```sh
+$ pip install jupyterthemes
+```
 
 
 # Python 安装Mysql模块及安装中错误的解决 (Windows)
