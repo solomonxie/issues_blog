@@ -773,6 +773,7 @@ set encoding=utf8
 虽说是powerline的fork，但是照我看比powerline强大的多。而且配置简单，效果多样，官方文档很清洗。一步到位。
 
 [参考：Vim-airline 官方文档](https://github.com/vim-airline/vim-airline)
+[参考：vim-airline-themes-screenshots](https://github.com/vim-airline/vim-airline/wiki/Screenshots)
 
 安装：
 ```vim
@@ -794,7 +795,3 @@ let g:airline#extensions#tabline#formatter = 'default'  "formater
 默认安装好后是这样的：
 
 ![image](https://user-images.githubusercontent.com/14041622/40913065-01d7c44e-6826-11e8-803e-3a656e01ebf2.png)
-
-然后可以修改状态的栏的主题：
-[参考：vim-airline-themes-screenshots](https://github.com/vim-airline/vim-airline/wiki/Screenshots)
-
