@@ -1220,7 +1220,10 @@ Integral calculus is a process to calculate the **`AREA`** between a function an
 
 ![image](https://user-images.githubusercontent.com/14041622/40873054-ed0e9f42-668b-11e8-8860-0e4778f2c041.png)
 
-## Left & Right Riemann Sums Approximation
+## `Riemann Sums`
+A Riemann sum is an approximation of the area under a curve by dividing it into multiple simple shapes (like rectangles or trapezoids).
+
+### Left & Right Riemann Sums Approximation
 [Refer to Maths is fun: Integral Approximations](https://www.mathsisfun.com/calculus/integral-approximations.html)
 
 - `Left Riemann Sum`: take the Left boundary value of `Δx` to be the rectangle's **height**.
@@ -1230,5 +1233,6 @@ Integral calculus is a process to calculate the **`AREA`** between a function an
 
 As you can see, they would be either Over-estimated or Under-estimated. Neither of these approximations would be called a good one, normally.
 
-## Midpoint Sums Approximation
-It's an enhancement to the Left sums and Right sums, it takes the midpoint value
+### Midpoint Sums Approximation
+It's an enhancement to the Left sums and Right sums, it takes the midpoint value, and sometimes makes better approximation.
+
