@@ -1258,3 +1258,12 @@ It's an enhancement to the Left sums and Right sums, it takes the midpoint value
 [Refer to Khan academy article: Definite integrals properties review](https://www.khanacademy.org/math/ap-calculus-bc/bc-accumulation-riemann-sums/modal/a/definite-integrals-properties-review)
 
 ![image](https://user-images.githubusercontent.com/14041622/40904743-47305e6a-680e-11e8-8518-1102d6922508.png)
+
+
+
+# `Antiderivatives` & `Indefinite integrals`
+
+![image](https://user-images.githubusercontent.com/14041622/40905946-fef4155c-6811-11e8-87da-f91a398a073f.png)
+
+![image](https://user-images.githubusercontent.com/14041622/40905957-07a579ca-6812-11e8-9c65-f365e525d87d.png)
+
