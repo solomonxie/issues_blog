@@ -1454,7 +1454,11 @@ $ pip install --upgrade jupyterthemes
 # 查看所有颜色主题 --list
 $ jt -l
 
+# 选择主题 --theme
+$ jt -t 主题名称
 
+# 恢复默认主题 --recover
+$ jt -r
 ```
 
 
