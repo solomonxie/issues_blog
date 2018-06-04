@@ -750,7 +750,7 @@ let g:lightline = { 'colorscheme': 'powerline', }
 
 ![image](https://user-images.githubusercontent.com/14041622/40912076-2532cc3e-6823-11e8-9e55-17e3a73c3c09.png)
 
-## `Powerline` 强大且难安装的状态栏
+## `Powerline` 从入门到放弃
 和其它插件一样用Vundle安装：
 ```vim
 # 把这句加到vundle函数里：
@@ -766,3 +766,5 @@ set encoding=utf8
 但是安装完了会变成这个样子：
 
 ![image](https://user-images.githubusercontent.com/14041622/40912706-eb7aa168-6824-11e8-828b-3a9a70ec4903.png)
+
+看了很多网上文章，没什么简单有效的方法。先放一放看看有没有别的代替品吧。
