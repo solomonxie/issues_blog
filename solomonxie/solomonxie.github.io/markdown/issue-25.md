@@ -802,3 +802,13 @@ let g:airline_right_alt_sep = '❮'
 默认安装好后是这样的：
 
 ![image](https://user-images.githubusercontent.com/14041622/40913065-01d7c44e-6826-11e8-803e-3a656e01ebf2.png)
+
+
+
+# Vim Buffer缓冲区：多文件编辑方案
+
+Buffer是Vim自带的多文件编辑方式，有了它其实你不用单装Nerdtree插件来实现多标签编辑。
+这是看个人习惯吧。
+虽然我已经习惯了用Nerdtree做多文件多标签编辑，但是学习一下Vim自带的buffer方式也不错。
+
+
