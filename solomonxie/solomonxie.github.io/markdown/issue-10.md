@@ -10,7 +10,7 @@
 技巧：
 - comment里面加上`<data><!-- {"time": xxx, "updated_time": xxx} --></data>`这样的隐形标签，保存json数据，达到传达指令和记录更新数据的功能。
 - 遗忘曲线的起点设定为该comment的`created_time`。
-- 
+- comment里面不要完全复制粘贴过来其它位置的笔记过来。这样不容易更新和维护。最好只是引用一个笔记的url，然后自动去获取原笔记内容。这样就总能保持在最新。
 
 隐形标签JSON数据：
 ```html
