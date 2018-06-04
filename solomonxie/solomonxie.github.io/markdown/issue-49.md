@@ -1225,6 +1225,8 @@ A Riemann sum is an **approximation** of the area under a curve by dividing it i
 
 ### `Riemann Sums Notation`
 
+[Refer to Khan academy: Definite integral as the limit of a Riemann sum](https://www.khanacademy.org/math/ap-calculus-bc/bc-accumulation-riemann-sums/modal/v/riemann-sums-and-integrals)
+
 ![image](https://user-images.githubusercontent.com/14041622/40902169-a17a49a2-6805-11e8-9214-bae6f044caa0.png)
 
 The letter `ʃ` (reads as "esh" or just "integral") is called `the Integral symbol/sign`.
@@ -1244,5 +1246,7 @@ As you can see, they would be either Over-estimated or Under-estimated. Neither 
 It's an enhancement to the Left sums and Right sums, it takes the midpoint value, and sometimes makes better approximation.
 
 ## `How to calculate Riemann Sums`
+
+[Refer to Khan academy:  Rewriting definite integral as limit of Riemann sum](https://www.khanacademy.org/math/ap-calculus-bc/bc-accumulation-riemann-sums/modal/v/rewriting-definite-integral-as-limit-of-riemann-sum)
 
 ![image](https://user-images.githubusercontent.com/14041622/40902699-810e7538-6807-11e8-93bd-78c9da47b96a.png)
