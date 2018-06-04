@@ -1250,3 +1250,11 @@ It's an enhancement to the Left sums and Right sums, it takes the midpoint value
 [Refer to Khan academy:  Rewriting definite integral as limit of Riemann sum](https://www.khanacademy.org/math/ap-calculus-bc/bc-accumulation-riemann-sums/modal/v/rewriting-definite-integral-as-limit-of-riemann-sum)
 
 ![image](https://user-images.githubusercontent.com/14041622/40902699-810e7538-6807-11e8-93bd-78c9da47b96a.png)
+
+
+
+# `Definite integrals properties`
+
+[Refer to Khan academy article: Definite integrals properties review](https://www.khanacademy.org/math/ap-calculus-bc/bc-accumulation-riemann-sums/modal/a/definite-integrals-properties-review)
+
+![image](https://user-images.githubusercontent.com/14041622/40904743-47305e6a-680e-11e8-8518-1102d6922508.png)
