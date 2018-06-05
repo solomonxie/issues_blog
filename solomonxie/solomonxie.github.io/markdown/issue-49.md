@@ -1281,4 +1281,6 @@ And further more, it could be extended in two forms:
 
 
 ## `How to solve Integrals`
-By using the `fundamental theorem of calculus`, we could **CONVERT** the `integral formula` to `Differential formula`, and use the Rules we've learnt to solve it.
+We could **CONVERT** the `integral formula` to `Differential formula`, by using the `fundamental theorem of calculus`, and use the Rules we've learnt to solve the differential equations.
+
+[Refer to video from Krista King: PART 2 OF THE FUNDAMENTAL THEOREM OF CALCULUS!](https://www.youtube.com/watch?v=T-J7SkiE39Y&list=PLJ8OrXpbC-BMObozItpbiZ8f2pjf3qS9M&index=16)
