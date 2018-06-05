@@ -556,7 +556,8 @@ shutil.make_archive(base_name, format, root_dir, base_dir)
 # Python 日期和时间
 ```
 from datetime import date
-print str( date.today() )
+d = str(date.today())
+print(d)
 ```
 
 
