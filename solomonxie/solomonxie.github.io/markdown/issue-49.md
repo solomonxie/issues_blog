@@ -1267,8 +1267,7 @@ Just make it easier being said,
 **THE ANTIDERIVATIVES IS THE SAME WITH INDEFINITE INTEGRALS.**
 
 ## `Fundamental Theorem of Calculus`
+![image](https://user-images.githubusercontent.com/14041622/40960644-f9f50d6a-68d2-11e8-8341-706157cefb32.png)
 
-![image](https://user-images.githubusercontent.com/14041622/40905946-fef4155c-6811-11e8-87da-f91a398a073f.png)
-
-![image](https://user-images.githubusercontent.com/14041622/40905957-07a579ca-6812-11e8-9c65-f365e525d87d.png)
+[Refer to Khan academy: Fundamental theorem of calculus review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/a/fundamental-theorem-of-calculus-review)
 
