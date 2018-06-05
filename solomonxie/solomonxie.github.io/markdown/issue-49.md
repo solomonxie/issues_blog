@@ -1283,7 +1283,7 @@ Here are a few examples to quick review what is antiderivative:
 
 ![image](https://user-images.githubusercontent.com/14041622/40964276-45f36c52-68dd-11e8-8e46-cc8fc947b5ed.png)
 
-### How to understand this process
+### How to understand this reverse process
 
 Doing an `Integration`, is actually to find the `antiderivative`.
 
@@ -1291,6 +1291,8 @@ At the example below, you will find it makes so much sense if you **FIX YOUR EYE
 
 ![image](https://user-images.githubusercontent.com/14041622/40964653-3d241602-68de-11e8-8f3a-6e4a5963b363.png)
 
+### Review of Indefinite integrals
+![image](https://user-images.githubusercontent.com/14041622/40965816-5ad03da4-68e1-11e8-871a-4da4b9eef13c.png)
 
 ## `Fundamental Theorem of Calculus`
 > This is somehow dreaded and mind-blowing.  But it's the **only** thing to relate the `Differential Calculus` & `Integral Calculus`.
@@ -1299,9 +1301,14 @@ At the example below, you will find it makes so much sense if you **FIX YOUR EYE
 
 [Refer to Khan academy: Fundamental theorem of calculus review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/a/fundamental-theorem-of-calculus-review)
 
-And further more, it could be extended in two forms:
+And further more, it could be extended in two forms (**Notice that boundaries & terms are different**):
 
 ![image](https://user-images.githubusercontent.com/14041622/40960792-65fa4638-68d3-11e8-990d-d46cc4eed17d.png)
+
+## `Simplify the integrals`
+> Simplify the **hairy crazy dreaded** integral formula is the 1st move to make sense of everything.
+
+![image](https://user-images.githubusercontent.com/14041622/40966624-88758a5a-68e3-11e8-8e1c-8212b9befe04.png)
 
 
 ## `How to solve Integrals`
