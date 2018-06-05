@@ -1345,11 +1345,12 @@ s1 = str(s1)
 完成！
 
 
-# Python文件遍历
-> 学习文件遍历，最最最重要的是了解这种遍历方法的逻辑，它的路径！！不了解的话，永远也学不会。
+# `os.walk() 文件遍历`
+> 学习os.walk文件遍历，最最最重要的是了解这种遍历方法的逻辑，它的路径！！不了解的话，永远也学不会。
 
-## `os.walk()`
-解释：
+os.walk()是Python原生的遍历文件夹方法，但是表现出来的逻辑真的不是很好记忆。
+
+用法：
 ```py
 os.walk(顶级目录地址, topdown=True, onerror=None, followlinks=False) 
 ```
@@ -1367,6 +1368,29 @@ os.walk(顶级目录地址, topdown=True, onerror=None, followlinks=False)
 
 记住，它不会无穷尽深入每一个目录一直到底，而是逐层扫。
 **扫完一层后，再跳出来需要遍历的目录深入下一层。**
+
+## 指定深度
+os.walk默认是深入到底的，遍历所有的位置。有时候我们只需要一层或两层。
+抱歉，os.walk()没这个功能，只能自己写。
+方法就是：声明一个`depth`变量记录当前深度，循环到一定深度后，用`break`语句退出循环。
+以下为示例代码：
+```py
+depth = 1
+for root, subdir, filenames in os.walk():
+    if depth is 2:
+        break
+    depth += 1
+```
+
+
+## 示例：只看文件
+```py
+search_dir = '/home/me/`
+for root, subdir, filenames in os.walk(search_dir):
+    print(root, subdir)
+    for fn in filenames:
+        print(fn)
+```
 
 
 # Python 文件基本I/O操作
