@@ -1275,7 +1275,7 @@ Btw, just for refreshing:
 - `Anti-derivatives`: Means the **Original function** where the derivative is from.
 
 ### Review of Antiderivatives
-> Before move on to the core, you really want figure out completely what an `antiderivative` means with respect to the `Integration`.
+> Before you proceed to the next, you really want figure out completely what an `antiderivative` means with respect to the `Integration`.
 
 [Refer to video from The Organic Chemistry Tutor: Antiderivatives](https://www.youtube.com/watch?v=Smp1WJjfUvM&list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv&t=0s&index=108)
 
