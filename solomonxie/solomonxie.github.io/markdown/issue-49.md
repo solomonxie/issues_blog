@@ -1266,6 +1266,8 @@ It's an enhancement to the Left sums and Right sums, it takes the midpoint value
 Just make it easier being said, 
 **THE ANTIDERIVATIVES IS THE SAME WITH INDEFINITE INTEGRALS.**
 
+## `Fundamental Theorem of Calculus`
+
 ![image](https://user-images.githubusercontent.com/14041622/40905946-fef4155c-6811-11e8-87da-f91a398a073f.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/40905957-07a579ca-6812-11e8-9c65-f365e525d87d.png)
