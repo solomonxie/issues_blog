@@ -1254,7 +1254,10 @@ It's an enhancement to the Left sums and Right sums, it takes the midpoint value
 
 
 
-# `Definite integrals properties`
+# `Definite Integrals`
+Calling it **DEFINITE** is because the two **boundaries** are **constant numbers**.
+
+## `Definite integrals properties`
 
 [Refer to Khan academy article: Definite integrals properties review](https://www.khanacademy.org/math/ap-calculus-bc/bc-accumulation-riemann-sums/modal/a/definite-integrals-properties-review)
 
