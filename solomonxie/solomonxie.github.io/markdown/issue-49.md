@@ -1255,7 +1255,7 @@ It's an enhancement to the Left sums and Right sums, it takes the midpoint value
 
 
 # `Definite Integrals`
-Calling it **DEFINITE** is because the two **boundaries** are **constant numbers**.
+Calling it **DEFINITE** is because it's `defined`, means both two **boundaries** are **constant numbers**.
 
 ## `Definite integrals properties`
 
