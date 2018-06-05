@@ -23,6 +23,7 @@
 - [ ] Antiderivatives and the fundamental theorem of calculus
 - [ ] Differential equations
 - [ ] Applications of definite integrals
+- [ ] Series
 
 ## Study goals 
 - [ ] Limits
