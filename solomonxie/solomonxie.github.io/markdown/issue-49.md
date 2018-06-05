@@ -1278,3 +1278,7 @@ But it's the only thing to connect the `Differential Calculus` & `Integral Calcu
 And further more, it could be extended in two forms:
 
 ![image](https://user-images.githubusercontent.com/14041622/40960792-65fa4638-68d3-11e8-990d-d46cc4eed17d.png)
+
+
+## `How to solve Integrals`
+By using the `fundamental theorem of calculus`, we could **CONVERT** the `integral formula` to `Differential formula`, and use the Rules we've learnt to solve it.
