@@ -1274,6 +1274,16 @@ Btw, just for refreshing:
 - `Indefinite integrals`: **Indefinite**  means `not-defined`,  means `variables`, means at least one of the **boundaries** of integration is a **VARIABLE**, not as a defined constant number anymore.
 - `Anti-derivatives`: Means the **Original function** where the derivative is from.
 
+## Refresher of Antiderivatives
+> Before move on to the core, you really want figure out completely what an `antiderivative` means with respect to the `Integration`.
+
+[Refer to video from The Organic Chemistry Tutor: Antiderivatives](https://www.youtube.com/watch?v=Smp1WJjfUvM&list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv&t=0s&index=108)
+
+Here are a few examples to quick review what is antiderivative:
+
+![image](https://user-images.githubusercontent.com/14041622/40964276-45f36c52-68dd-11e8-8e46-cc8fc947b5ed.png)
+
+
 ## `Fundamental Theorem of Calculus`
 > This is somehow dreaded and mind-blowing.  But it's the **only** thing to relate the `Differential Calculus` & `Integral Calculus`.
 
