@@ -1267,12 +1267,15 @@ Calling it **DEFINITE** is because it's `defined`, means both two **boundaries**
 
 # `Antiderivatives` & `Indefinite integrals`
 
-Just make it easier being said, 
+That's easier being said, 
 **THE ANTIDERIVATIVES IS THE SAME WITH INDEFINITE INTEGRALS.**
 
+Btw, just for refreshing:
+- `Indefinite integrals`: **Indefinite**  means `not-defined`,  means `variables`, means at least one of the **boundaries** of integration is a **VARIABLE**, not as a defined constant number anymore.
+- `Anti-derivatives`: Means the **Original function** where the derivative is from.
+
 ## `Fundamental Theorem of Calculus`
-The fundamental theorem of Calculus, is somehow dreaded and mind-blowing. 
-But it's the only thing to connect the `Differential Calculus` & `Integral Calculus`.
+> This is somehow dreaded and mind-blowing.  But it's the **only** thing to relate the `Differential Calculus` & `Integral Calculus`.
 
 ![image](https://user-images.githubusercontent.com/14041622/40960644-f9f50d6a-68d2-11e8-8341-706157cefb32.png)
 
