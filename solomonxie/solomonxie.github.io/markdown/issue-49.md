@@ -1263,6 +1263,8 @@ It's an enhancement to the Left sums and Right sums, it takes the midpoint value
 
 
 # `Antiderivatives` & `Indefinite integrals`
+Just make it easier being said, 
+**THE ANTIDERIVATIVES IS THE SAME WITH INDEFINITE INTEGRALS.**
 
 ![image](https://user-images.githubusercontent.com/14041622/40905946-fef4155c-6811-11e8-87da-f91a398a073f.png)
 
