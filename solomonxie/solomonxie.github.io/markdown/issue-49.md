@@ -1311,7 +1311,7 @@ And further more, it could be extended in two forms (**Notice that boundaries & 
 The idea to simply an integral, is to **extract** the function out, to become a **derivative** in form of `F'(x)`, and then it's much easier to reverse the derivative to its original function.
 
 ### Simplify integral with both boundaries indefinite
-![image](https://user-images.githubusercontent.com/14041622/40966760-f688ec8a-68e3-11e8-977e-e125c59792c9.png)
+![image](https://user-images.githubusercontent.com/14041622/40967223-1f4014a4-68e5-11e8-8240-8868e9b829c1.png)
 
 
 ## `How to solve Integrals`
