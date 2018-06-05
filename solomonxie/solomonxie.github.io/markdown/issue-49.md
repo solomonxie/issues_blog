@@ -1277,11 +1277,19 @@ Btw, just for refreshing:
 ### Review of Antiderivatives
 > Before you proceed to the next, you really want figure out completely what an `antiderivative` means with respect to the `Integration`.
 
-[Refer to video from The Organic Chemistry Tutor: Antiderivatives](https://www.youtube.com/watch?v=Smp1WJjfUvM&list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv&t=0s&index=108)
+[!! Refer to video from The Organic Chemistry Tutor: Antiderivatives](https://www.youtube.com/watch?v=Smp1WJjfUvM&list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv&t=0s&index=108)
 
 Here are a few examples to quick review what is antiderivative:
 
 ![image](https://user-images.githubusercontent.com/14041622/40964276-45f36c52-68dd-11e8-8e46-cc8fc947b5ed.png)
+
+### How to understand this process
+
+Doing an `Integration`, is actually to find the `antiderivative`.
+
+At the example below, you will find it makes so much sense if you **FIX YOUR EYES** only onto the **MIDDLE** part of the integration formula, the part between `ʃ` & `d/dx`.
+
+![image](https://user-images.githubusercontent.com/14041622/40964653-3d241602-68de-11e8-8f3a-6e4a5963b363.png)
 
 
 ## `Fundamental Theorem of Calculus`
