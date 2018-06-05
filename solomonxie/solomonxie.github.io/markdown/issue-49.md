@@ -1268,6 +1268,9 @@ Just make it easier being said,
 **THE ANTIDERIVATIVES IS THE SAME WITH INDEFINITE INTEGRALS.**
 
 ## `Fundamental Theorem of Calculus`
+The fundamental theorem of Calculus, is somehow dreaded and mind-blowing. 
+But it's the only thing to connect the `Differential Calculus` & `Integral Calculus`.
+
 ![image](https://user-images.githubusercontent.com/14041622/40960644-f9f50d6a-68d2-11e8-8341-706157cefb32.png)
 
 [Refer to Khan academy: Fundamental theorem of calculus review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/a/fundamental-theorem-of-calculus-review)
