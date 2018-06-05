@@ -18,7 +18,7 @@ sys.argv[1]
 # Define a class 定义类
 
 ```
-class Person():
+class Person:
     self.name = ''
     self.id = 0
     self.father = 1
@@ -32,7 +32,7 @@ class Person():
         self.id = self.father + self.mother
 
 me = Person('Solomon')
-print me.id
+print(me.id)
 ```
 
 
@@ -1209,12 +1209,12 @@ soup = BeautifulSoup(html, 'html5lib')
 results = soup.select('div[class*=hello_world] ~ div')
 
 for tag in results:
-    print tag.string       #print the tag's html string
-    # print tag.get_text()     #print its inner text
+    print(tag.string)       #print the tag's html string
+    # print(tag.get_text())     #print its inner text
 
 #单TAG精确选择器：返回单个tag. 
 tag = soup.find('div', attrs={'class': 'detail-block'})
-print tag.get_text()
+print(tag.get_text())
 
 # 多Tag精确选择器: 返回的是text，不是tag
 results = soup.find_all()
