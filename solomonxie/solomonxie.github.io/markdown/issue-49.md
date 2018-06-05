@@ -1263,6 +1263,7 @@ It's an enhancement to the Left sums and Right sums, it takes the midpoint value
 
 
 # `Antiderivatives` & `Indefinite integrals`
+
 Just make it easier being said, 
 **THE ANTIDERIVATIVES IS THE SAME WITH INDEFINITE INTEGRALS.**
 
@@ -1271,3 +1272,6 @@ Just make it easier being said,
 
 [Refer to Khan academy: Fundamental theorem of calculus review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/a/fundamental-theorem-of-calculus-review)
 
+And further more, it could be extended in two forms:
+
+![image](https://user-images.githubusercontent.com/14041622/40960792-65fa4638-68d3-11e8-990d-d46cc4eed17d.png)
