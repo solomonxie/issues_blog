@@ -3,9 +3,9 @@
 
 ## Study resources
 - [ ] [Khan academy: AP Calculus BC](https://www.khanacademy.org/math/ap-calculus-bc)
-- [ ] [Kristan King: Calculus I](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BOYyyC-Gunxrh-jYnSfsQy0)
-- [ ] [Kristan King: Calculus II](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMdeuQfJDVRJ5DPMduSzVow)
-- [ ] [Kristan King: Calculus III](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMObozItpbiZ8f2pjf3qS9M)
+- [ ] [Kristan King: Calculus I (Differential Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BOYyyC-Gunxrh-jYnSfsQy0)
+- [ ] [Kristan King: Calculus II (Integra Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMdeuQfJDVRJ5DPMduSzVow)
+- [ ] [Kristan King: Calculus III (Multivariable Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMObozItpbiZ8f2pjf3qS9M)
 - [ ] [The Organic Chemistry Tutor: New Calculus Playlist](https://www.youtube.com/playlist?list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv)
 - [ ] [Mathispower4u: Calculus playlist](http://www.mathispower4u.com/calculus.php)
 - [ ] [MIT OCW 18.01SC: Single Variable Calculus](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/index.htm)
