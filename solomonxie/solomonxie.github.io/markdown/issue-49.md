@@ -1,5 +1,5 @@
 # Calculus Basics 微积分基础
-> Mainly some basic Calculus knowledges for Machine Learning
+> Notes on basic Calculus concepts.
 
 ## Study resources
 - [ ] [Khan academy: AP Calculus BC](https://www.khanacademy.org/math/ap-calculus-bc)
