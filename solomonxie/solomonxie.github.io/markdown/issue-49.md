@@ -1308,7 +1308,10 @@ And further more, it could be extended in two forms (**Notice that boundaries & 
 ## `Simplify the integrals`
 > Simplify the **hairy crazy dreaded** integral formula is the 1st move to make sense of everything.
 
-![image](https://user-images.githubusercontent.com/14041622/40966624-88758a5a-68e3-11e8-8e1c-8212b9befe04.png)
+The idea to simply an integral, is to **extract** the function out, to become a **derivative** in form of `F'(x)`, and then it's much easier to reverse the derivative to its original function.
+
+### Simplify integral with both boundaries indefinite
+![image](https://user-images.githubusercontent.com/14041622/40966760-f688ec8a-68e3-11e8-977e-e125c59792c9.png)
 
 
 ## `How to solve Integrals`
