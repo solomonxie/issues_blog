@@ -1252,7 +1252,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41024853-ee9fcd30-69a2-11e8-9f9b-513e17902e34.png)
 
 - It's easy to find the `Δx=2`.
-- Then let's find the `f(x𝖎)`. It's actually a progress to find the `Arithmetic Series`.
+- Then let's find the `f(x𝖎)`. It's actually a progress to find the `Arithmetic Sequence`.
 - When `i=0`, `x` takes value `2`; When `i=1`, `x` takes value of `4`.
 - So the series is `S(𝖎) = 2 + 2𝖎`.
 - So `x𝖎 = S(𝖎) = 2+2𝖎`
