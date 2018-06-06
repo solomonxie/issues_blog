@@ -1270,6 +1270,18 @@ Solve:
 # `Definite Integrals`
 **DEFINITE** means it's `defined`, means both two **boundaries** are **constant numbers**.
 
+
+## `Definite integral Converted to Limit of Riemann Sum`
+
+Example:
+![image](https://user-images.githubusercontent.com/14041622/41026547-6ab438ee-69a7-11e8-8f03-0e9c498d8bd5.png)
+Solve:
+- It's easy to find `Δx = (π-0)/n = π/n`
+- And `x𝖎 = S(𝖎) = 𝖎(a+Δx) = 𝖎·(0+Δx) = 𝖎·π/n`
+- So the result is:
+![image](https://user-images.githubusercontent.com/14041622/41026881-3a592a1e-69a8-11e8-82ad-f4be0f877d20.png)
+
+
 ## `Definite integrals properties`
 
 [Refer to Khan academy article: Definite integrals properties review](https://www.khanacademy.org/math/ap-calculus-bc/bc-accumulation-riemann-sums/modal/a/definite-integrals-properties-review)
