@@ -1271,7 +1271,7 @@ Solve:
 **DEFINITE** means it's `defined`, means both two **boundaries** are **constant numbers**.
 
 
-## `Definite integral Converted to Limit of Riemann Sum`
+## `Convert Definite integral & Limit of Riemann Sum`
 
 Example:
 ![image](https://user-images.githubusercontent.com/14041622/41026547-6ab438ee-69a7-11e8-8f03-0e9c498d8bd5.png)
