@@ -1253,8 +1253,7 @@ Solve:
 
 - It's easy to find the `Δx=2`.
 - Then let's find the `f(x𝖎)`. It's actually a progress to find the `Arithmetic Sequence`.
-- When `i=0`, `x` takes value `2`; When `i=1`, `x` takes value of `4`.
-- So the sequnce is `S(𝖎) = a + 𝖎·Δx = 2 + 2𝖎`.
+- So the sequnce is `S(𝖎) = a + 𝖎·Δx = 2 + 2𝖎`, where `a` represents the first `x` value which is `2`.
 - So `x𝖎 = S(𝖎) = 2+2𝖎`
 - Takes it back to the function and gets: `f(x𝖎) = |2+2i-5| = |2i -3|`
 
