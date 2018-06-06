@@ -1246,6 +1246,10 @@ tag = soup.find('a', attrs={'class': 'detail-block'})
 tag['href'] = 'https://google.com'
 
 # 修改内容 <tag>..</tag>中间的内容
+tag.string = 'New Content'
+
+# 删除属性
+del tag['class']
 ```
 
 ## 对象类型
