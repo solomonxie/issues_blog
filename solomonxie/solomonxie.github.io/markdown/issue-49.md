@@ -1276,7 +1276,7 @@ Example:
 ![image](https://user-images.githubusercontent.com/14041622/41026547-6ab438ee-69a7-11e8-8f03-0e9c498d8bd5.png)
 Solve:
 - It's easy to find `Δx = (π-0)/n = π/n`
-- And `x𝖎 = S(𝖎) = 𝖎(a+Δx) = 𝖎·(0+Δx) = 𝖎·π/n`
+- And `x𝖎 = S(𝖎) = 𝖎(a+Δx) = 0+𝖎·Δx) = 𝖎·π/n`
 - So the result is:
 ![image](https://user-images.githubusercontent.com/14041622/41026881-3a592a1e-69a8-11e8-82ad-f4be0f877d20.png)
 
@@ -1287,10 +1287,21 @@ Solve:
 - So the `Δx` must be cut to `n` pieces, whereas `Δx = (5-0)/n = 5/n`
 - From the definition, We know the function `f(x) = x+1`
 - To fill in the `x𝖎` in `f(x𝖎)`, we need to figure out the sequence:
-- Sequence `x𝖎 = S(𝖎) = 𝖎(a+Δx)`, and since `a` represents the bottom boundary,
+- Sequence `x𝖎 = S(𝖎) = a+𝖎·Δx`, and since `a` represents the bottom boundary,
 - So `x𝖎 = 𝖎(0+Δx) = 𝖎·5/n`
 - Get `x𝖎` back in `f(x)` to have:
 ![image](https://user-images.githubusercontent.com/14041622/41027638-217c2d00-69aa-11e8-97dd-1bbcf6d7d205.png)
+
+
+Example:
+![image](https://user-images.githubusercontent.com/14041622/41027746-72e50522-69aa-11e8-88b8-5bdeddcf3aec.png)
+Solve:
+- We could easily get that the `Δx = 5/n`
+- And the function is `f(x) = ln(x)`
+- Since the `Δx` comes from Top & Bottom boundaries, 
+- So `Δx = (Top - Bottom)/n = 5/n = (Top - 2)/n`,
+- And we get the `Top = 7`, and the Definite Integral is:
+![image](https://user-images.githubusercontent.com/14041622/41028259-9960efc6-69ab-11e8-9f5b-4099a8976544.png)
 
 
 ## `Definite integrals properties`
