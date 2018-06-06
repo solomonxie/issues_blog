@@ -1865,3 +1865,10 @@ result = pattern.findall(s)
 print(result)
 #out>>>  ['83105']
 ```
+
+
+# Python字符串替换
+
+```py
+line = line.replace(';', ':')
+```
