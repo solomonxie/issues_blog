@@ -1732,3 +1732,15 @@ $ pdftohtml -f 1 -l 2 sample.pdf sample.html
 效果：
 效果还好，即使是中文的，排版也没有偏离很远。
 程序会自动生成很多很多很多的html和图片文件，全都在一个文件夹里面不分类。
+
+
+
+# Llinux 重复上一条命令
+
+[参考：History（历史）命令用法 15 例](https://linux.cn/article-1143-1.html)
+
+一般有这几种方法：
+- 按方向键⬆️
+- 按 `!!`和回车
+- 输入`!-1` 和回车
+- 按 Ctrl+P或Ctrl+N上下滚动
