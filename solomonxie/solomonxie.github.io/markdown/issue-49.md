@@ -1303,6 +1303,18 @@ Solve:
 - And we get the `Top = 7`, and the Definite Integral is:
 ![image](https://user-images.githubusercontent.com/14041622/41028259-9960efc6-69ab-11e8-9f5b-4099a8976544.png)
 
+Example:
+![image](https://user-images.githubusercontent.com/14041622/41029271-dba71250-69ad-11e8-9192-28d44462d192.png)
+Solve:
+- See the `i=1` means it's using `Right Riemann Sum`, so the integral would be:
+![image](https://user-images.githubusercontent.com/14041622/41029604-a5c3cb46-69ae-11e8-8bdc-c90f4a70f3f4.png)
+- The `Δx = 9/n` is easily seen.
+- And we need to get the Sequence `x𝖎 = S(𝖎) = a + (𝖎-1)·Δx = (𝖎-1)·9/n`
+- What we got there above, tells us `a=0`.
+- According to that`Δx = (b-a)/n = (b-0)/n = 9/n`, we get `b = 9`
+- So the answer is:
+![image](https://user-images.githubusercontent.com/14041622/41029902-8f99f254-69af-11e8-9b93-22f00d9f9b67.png)
+
 
 ## `Definite integrals properties`
 
