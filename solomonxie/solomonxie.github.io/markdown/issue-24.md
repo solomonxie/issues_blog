@@ -1220,15 +1220,13 @@ print(tag.get_text())
 # 多Tag精确选择器: 返回的是text，不是tag
 results = soup.find_all('div', attrs={'class': 'detail-block'})
 
-# 多class选择器(标签含有多个Class)
-tag = soup.find('div', attrs={'class': 'detail-block'})
-# 或
-results = soup.find_all('div', attrs={'class': 'detail-block'})
+# 多class选择器(标签含有多个Class)，重点是"class*="
+results = soup.select('div[class*=hello_world] ~ div')
 ```
 
 ## 获取值
 ```py
-tag = soup.find('a', attrs={'class': 'detail-block'})
+tag = soup.find('a')
 
 # 只获取标签的文本内容
 text = tag.get_text()
@@ -1238,6 +1236,16 @@ s = tag.string
 
 # 获取标签的属性
 link = tag['href']
+```
+
+## 修改值
+```py
+tag = soup.find('a', attrs={'class': 'detail-block'})
+
+#修改属性
+tag['href'] = 'https://google.com'
+
+# 修改内容 <tag>..</tag>中间的内容
 ```
 
 ## 对象类型
