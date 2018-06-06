@@ -1239,6 +1239,8 @@ link = tag['href']
 ```
 
 ## 修改值
+[参考：Beautiful Soup（四）--修改文档树](https://blog.csdn.net/yybmec/article/details/44426081)
+
 ```py
 tag = soup.find('a', attrs={'class': 'detail-block'})
 
@@ -1250,6 +1252,7 @@ tag.string = 'New Content'
 
 # 删除属性
 del tag['class']
+
 ```
 
 ## 对象类型
