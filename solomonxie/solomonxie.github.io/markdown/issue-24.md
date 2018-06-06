@@ -1218,10 +1218,12 @@ tag = soup.find('div', attrs={'class': 'detail-block'})
 print(tag.get_text())
 
 # 多Tag精确选择器: 返回的是text，不是tag
-results = soup.find_all()
+results = soup.find_all('div', attrs={'class': 'detail-block'})
 
-# 多class选择器
-
+# 多class选择器(标签含有多个Class)
+tag = soup.find('div', attrs={'class': 'detail-block'})
+# 或
+results = soup.find_all('div', attrs={'class': 'detail-block'})
 ```
 
 ## 获取值
