@@ -1250,8 +1250,13 @@ Example:
 ![image](https://user-images.githubusercontent.com/14041622/41024809-d75ede72-69a2-11e8-9238-504efa457e81.png)
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41024853-ee9fcd30-69a2-11e8-9f9b-513e17902e34.png)
-![image](https://user-images.githubusercontent.com/14041622/41024865-f63026ee-69a2-11e8-93db-923dbd1a97ac.png)
-![image](https://user-images.githubusercontent.com/14041622/41024875-fcbd2854-69a2-11e8-9817-8d9fc4d66fda.png)
+
+- It's easy to find the `Δx=2`.
+- Then let's find the `f(x𝖎)`. It's actually a progress to find the `Arithmetic Series`.
+- When `i=0`, `x` takes value `2`; When `i=1`, `x` takes value of `4`.
+- So the series is `S(𝖎) = 2 + 2𝖎`.
+- So `x𝖎 = S(𝖎) = 2+2𝖎`
+- Takes it back to the function and gets: `f(x𝖎) = |2+2i-5| = |2i -3|`
 
 
 ## `How to calculate Riemann Sums`
