@@ -1276,7 +1276,7 @@ Example:
 ![image](https://user-images.githubusercontent.com/14041622/41026547-6ab438ee-69a7-11e8-8f03-0e9c498d8bd5.png)
 Solve:
 - It's easy to find `Δx = (π-0)/n = π/n`
-- And `x𝖎 = S(𝖎) = 𝖎(a+Δx) = 0+𝖎·Δx) = 𝖎·π/n`
+- And `x𝖎 = S(𝖎) = a + 𝖎·Δx = 0+𝖎·Δx = 𝖎·π/n`
 - So the result is:
 ![image](https://user-images.githubusercontent.com/14041622/41026881-3a592a1e-69a8-11e8-82ad-f4be0f877d20.png)
 
