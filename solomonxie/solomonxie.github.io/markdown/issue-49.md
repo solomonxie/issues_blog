@@ -1281,6 +1281,18 @@ Solve:
 - So the result is:
 ![image](https://user-images.githubusercontent.com/14041622/41026881-3a592a1e-69a8-11e8-82ad-f4be0f877d20.png)
 
+Example:
+![image](https://user-images.githubusercontent.com/14041622/41027374-6bbab04a-69a9-11e8-9402-53c1b6dc6284.png)
+Solve:
+- Look at the boundaries, it's from `0 -> 5`,
+- So the `Δx` must be cut to `n` pieces, whereas `Δx = (5-0)/n = 5/n`
+- From the definition, We know the function `f(x) = x+1`
+- To fill in the `x𝖎` in `f(x𝖎)`, we need to figure out the sequence:
+- Sequence `x𝖎 = S(𝖎) = 𝖎(a+Δx)`, and since `a` represents the bottom boundary,
+- So `x𝖎 = 𝖎(0+Δx) = 𝖎·5/n`
+- Get `x𝖎` back in `f(x)` to have:
+![image](https://user-images.githubusercontent.com/14041622/41027638-217c2d00-69aa-11e8-97dd-1bbcf6d7d205.png)
+
 
 ## `Definite integrals properties`
 
