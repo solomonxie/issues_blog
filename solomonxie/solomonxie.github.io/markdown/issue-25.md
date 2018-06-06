@@ -556,6 +556,11 @@ let g:NERDTreeHidden=0
 let NERDTreeIgnore = ['\.pyc$', '\.swp', '\.swo', '\.vscode', '__pycache__']  
 ```
 
+## Nerdtree刷新
+正常下Nerdtree是不会自动刷新的，文件删除了，多了都不会自动显示。
+但是其实不用退出vim，
+按`r`就一下子刷新了。
+
 ## NerdTree的美化
 > 用多了Vim,就需要nerdtree树形菜单，用多了菜单，就像把它美化。
 
