@@ -1219,6 +1219,22 @@ print(tag.get_text())
 
 # 多Tag精确选择器: 返回的是text，不是tag
 results = soup.find_all()
+
+# 多class选择器
+
+```
+
+## 获取值
+```py
+tag = soup.find('div', attrs={'class': 'detail-block'})
+
+# 只获取标签的文本内容
+print( tag.get_text() )
+
+# 获取标签的全部内容(如<a href='sdfj'> asdfa</a>)
+print( tag.string )
+
+# 获取标签的属性
 ```
 
 ## 对象类型
