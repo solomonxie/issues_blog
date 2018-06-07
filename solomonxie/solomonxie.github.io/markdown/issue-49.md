@@ -1439,7 +1439,8 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41085593-15943f08-6a6a-11e8-9f71-1789074609b6.png)
 Solve:
-
+- According to the different `Boundary situation strategies`, here we apply the `A function & a number` strategy: `F'(x) = f[g(x)] · g'(x)`
+- So `F'(x) = √(15 - 2x) · (2x)' = 2√(15-2x)`
 
 ## `Simplify the integrals`
 > Simplify the **hairy crazy dreaded** integral formula is the 1st move to make sense of everything.
