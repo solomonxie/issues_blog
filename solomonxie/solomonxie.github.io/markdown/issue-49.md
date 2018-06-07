@@ -1471,7 +1471,7 @@ And for integration we need to reverse them.
 ## Reverse Logarithm Rule
 ![image](https://user-images.githubusercontent.com/14041622/41093076-f665e862-6a7c-11e8-80de-58a11062c4bc.png)
 
-## Reverse Exponential functions
+## Reverse Exponential Rules
 ![image](https://user-images.githubusercontent.com/14041622/41093350-a971aed2-6a7d-11e8-8501-5d77e79d323b.png)
 
 ## Reverse Radical Rules
