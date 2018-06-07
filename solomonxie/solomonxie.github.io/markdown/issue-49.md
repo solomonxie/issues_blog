@@ -1452,3 +1452,18 @@ Solve:
 Solve:
 - It's asking you to apply the FTC in form of `d/dx ʃ f'(x) dx = f(b) - f(a)`
 - So it becomes calculating `F(3) - F(0) = 125 - 1 = 124`
+
+
+
+# Reversed Rules for Integration
+Remember there're a bunch of `Differential Rules` for calculating derivatives.
+And for integration we need to reverse them.
+
+![image](https://user-images.githubusercontent.com/14041622/41091115-6d778640-6a78-11e8-89c9-2df4ba4ac59c.png)
+
+## Rules for Indefinite Integrals
+
+![image](https://user-images.githubusercontent.com/14041622/41091166-86c4a8ee-6a78-11e8-83dc-3bc3bd64b506.png)
+
+
+
