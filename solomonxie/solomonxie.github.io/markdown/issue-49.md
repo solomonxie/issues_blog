@@ -1471,13 +1471,14 @@ And for integration we need to reverse them.
 ## Reverse Logarithm Rule
 ![image](https://user-images.githubusercontent.com/14041622/41093076-f665e862-6a7c-11e8-80de-58a11062c4bc.png)
 
-## Reverse Radical Rules
-![image](https://user-images.githubusercontent.com/14041622/41093016-d6492f9e-6a7c-11e8-888a-3d3b132cb693.png)
-
 ## Reverse Exponential functions
-![image](https://user-images.githubusercontent.com/14041622/41093032-dcd11fca-6a7c-11e8-9d9a-62a59d2fcd9a.png)
+![image](https://user-images.githubusercontent.com/14041622/41093350-a971aed2-6a7d-11e8-8501-5d77e79d323b.png)
+
+## Reverse Radical Rules
+![image](https://user-images.githubusercontent.com/14041622/41093229-60372e72-6a7d-11e8-853c-2fe98f836c3d.png)
 
 ## Reverse Trig Rules
-![image](https://user-images.githubusercontent.com/14041622/41093051-e82e674c-6a7c-11e8-8e67-9103a477d6b3.png)
+![image](https://user-images.githubusercontent.com/14041622/41093314-92c8fd20-6a7d-11e8-8743-e29accf22578.png)
+
 
 
