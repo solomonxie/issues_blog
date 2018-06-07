@@ -1463,6 +1463,8 @@ Solve:
 Remember there're a bunch of `Differential Rules` for calculating derivatives.
 And for integration we need to reverse them.
 
+[Refer to Khan academy article: Common integrals review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/bc-common-indefinite-int/a/common-integrals-review)
+
 ## Reverse Power Rule
 ![image](https://user-images.githubusercontent.com/14041622/41092189-eb52c956-6a7a-11e8-8b70-c001dd7a0218.png)
 
