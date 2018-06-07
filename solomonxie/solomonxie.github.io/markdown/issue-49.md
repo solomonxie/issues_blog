@@ -1365,6 +1365,13 @@ Solve:
     - The function `f(x)` here is actually the derivative, which is `f'(x)` we've learned.
 - Just think it as matching function and its derivative, everything will be tackled real quick.
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41082951-862bab00-6a62-11e8-9264-820e22eda246.png)
+Solve:
+- First need to make sense of the terms:
+    - The function appears in the `Integral` expression, is actually the `derivative`
+    - The "result" is just the `Original function` where the derivative comes from, or you could call the result is the antiderivative.
+- Just think it as matching function and its derivative, everything will be tackled real quick.
 
 
 # `Fundamental Theorem of Calculus (FTC)`
