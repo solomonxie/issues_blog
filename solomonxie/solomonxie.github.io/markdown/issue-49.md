@@ -1442,6 +1442,12 @@ Solve:
 - According to the different `Boundary situation strategies`, here we apply the `A function & a number` strategy: `F'(x) = f[g(x)] · g'(x)`
 - So `F'(x) = √(15 - 2x) · (2x)' = 2√(15-2x)`
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41089874-75a2cefe-6a75-11e8-8ab7-68e7ef3b921d.png)
+Solve:
+- It's asking you to apply the FTC in form of `d/dx ʃ f'(x) dx = f(b) - f(a)`
+- So it becomes calculating `F(3) - F(0) = 125 - 1 = 124`
+
 ## `Simplify the integrals`
 > Simplify the **hairy crazy dreaded** integral formula is the 1st move to make sense of everything.
 
