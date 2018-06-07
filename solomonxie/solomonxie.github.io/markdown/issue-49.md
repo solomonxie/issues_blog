@@ -1466,9 +1466,16 @@ And for integration we need to reverse them.
 ## Reverse Power Rule
 ![image](https://user-images.githubusercontent.com/14041622/41092189-eb52c956-6a7a-11e8-8b70-c001dd7a0218.png)
 
-## Rules for Indefinite Integrals
+## Reverse Logarithm Rule
+![image](https://user-images.githubusercontent.com/14041622/41093076-f665e862-6a7c-11e8-80de-58a11062c4bc.png)
 
-![image](https://user-images.githubusercontent.com/14041622/41091166-86c4a8ee-6a78-11e8-83dc-3bc3bd64b506.png)
+## Reverse Radical Rules
+![image](https://user-images.githubusercontent.com/14041622/41093016-d6492f9e-6a7c-11e8-888a-3d3b132cb693.png)
 
+## Reverse Exponential functions
+![image](https://user-images.githubusercontent.com/14041622/41093032-dcd11fca-6a7c-11e8-9d9a-62a59d2fcd9a.png)
+
+## Reverse Trig Rules
+![image](https://user-images.githubusercontent.com/14041622/41093051-e82e674c-6a7c-11e8-8e67-9103a477d6b3.png)
 
 
