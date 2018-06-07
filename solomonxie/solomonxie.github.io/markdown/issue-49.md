@@ -1448,11 +1448,3 @@ Solve:
 Solve:
 - It's asking you to apply the FTC in form of `d/dx ʃ f'(x) dx = f(b) - f(a)`
 - So it becomes calculating `F(3) - F(0) = 125 - 1 = 124`
-
-## `Simplify the integrals`
-> Simplify the **hairy crazy dreaded** integral formula is the 1st move to make sense of everything.
-
-The idea to simply an integral, is to **extract** the function out, to become a **derivative** in form of `F'(x)`, and then it's much easier to reverse the derivative to its original function.
-
-### Simplify integral with both boundaries indefinite
-![image](https://user-images.githubusercontent.com/14041622/40967223-1f4014a4-68e5-11e8-8240-8868e9b829c1.png)
