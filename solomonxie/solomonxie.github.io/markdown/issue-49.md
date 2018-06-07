@@ -1512,3 +1512,5 @@ The key is to seperate the intervals and integrate them piece by piece.
 
 
 # `Improper Integral`
+
+[Refer to Khan academy: Introduction to improper integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/introduction-to-improper-integrals)
