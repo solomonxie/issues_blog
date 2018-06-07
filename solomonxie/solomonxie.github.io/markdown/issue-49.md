@@ -1399,13 +1399,16 @@ Solve:
 # `Fundamental Theorem of Calculus (FTC)`
 > This is somehow dreaded and mind-blowing.  But it's the **only** thing to relate the `Differential Calculus` & `Integral Calculus`.
 
-![image](https://user-images.githubusercontent.com/14041622/40960644-f9f50d6a-68d2-11e8-8341-706157cefb32.png)
+![image](https://user-images.githubusercontent.com/14041622/41084790-a86d984a-6a67-11e8-8eb9-488c493f081a.png)
+
+It's so much clearer if you see the function in the middle of integration as a `derivative`.
 
 [Refer to Khan academy: Fundamental theorem of calculus review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/a/fundamental-theorem-of-calculus-review)
 
-And further more, it could be extended in two forms (**Notice that boundaries & terms are different**):
+It actually could be used in two forms (**Notice that boundaries & terms are different**):
 
-![image](https://user-images.githubusercontent.com/14041622/40960792-65fa4638-68d3-11e8-990d-d46cc4eed17d.png)
+![image](https://user-images.githubusercontent.com/14041622/41085110-94375b3a-6a68-11e8-9434-b06ed6e6422e.png)
+
 
 ## `Simplify the integrals`
 > Simplify the **hairy crazy dreaded** integral formula is the 1st move to make sense of everything.
