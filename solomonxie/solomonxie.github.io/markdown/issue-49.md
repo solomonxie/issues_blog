@@ -1324,7 +1324,7 @@ Solve:
 
 
 
-# `Antiderivatives` & `Indefinite integrals`
+# `Indefinite integrals` & `Antiderivatives`
 
 That's easier being said, 
 **THE ANTIDERIVATIVES IS THE SAME WITH INDEFINITE INTEGRALS.**
