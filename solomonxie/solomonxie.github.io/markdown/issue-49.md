@@ -1428,5 +1428,6 @@ We could **CONVERT** the `integral formula` to `Differential formula`, by using 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41085306-2eab6b2a-6a69-11e8-9b79-9cf0cc691cc4.png)
 Solve:
+- Assume the function in the middle of integral is `f'(x) = 3t²+4t`
 - Since it's asking for `g'(x)`, so it's differentiate the Integral: `d/dx ʃ f'(x) dt` expression
 - So `g'(2) = f'(x) = 3t²+4t = 20`
