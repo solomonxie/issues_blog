@@ -1512,5 +1512,23 @@ The key is to seperate the intervals and integrate them piece by piece.
 
 
 # `Improper Integral`
+After learning `Definite Integral`, `Indefinite Integral`, now it's `Improper Integral`.
+The major difference between them is their **`Boundaries`**.
+
+> The `improper integral` means the integral's boundary or boundaries are **∞**, infinite.
 
 [Refer to Khan academy: Introduction to improper integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/introduction-to-improper-integrals)
+[Refer to Improper Integrals (KristaKingMath)](https://www.youtube.com/watch?v=DUowajlKIKA)
+
+It looks so fearful yet not too hard to understand.
+
+![image](https://user-images.githubusercontent.com/14041622/41109490-b6794e24-6aa9-11e8-8835-9ba1a704bfc6.png)
+
+
+Strategy:
+- Replace the `infinite` as a variable, etc. `t`
+- Rewrite the expression as taking the limit of the Integral, whereas the `t → ∞`
+- Calculate the Integral with a normal variable first, and gets the result function.
+- Calculate the limit of the function
+
+### Example
