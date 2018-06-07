@@ -1399,7 +1399,8 @@ Solve:
 # `Fundamental Theorem of Calculus (FTC)`
 > This is somehow dreaded and mind-blowing.  But it's the **only** thing to relate the `Differential Calculus` & `Integral Calculus`.
 
-![image](https://user-images.githubusercontent.com/14041622/41084790-a86d984a-6a67-11e8-8eb9-488c493f081a.png)
+![image](https://user-images.githubusercontent.com/14041622/41086683-5bd826a2-6a6d-11e8-8438-387c2e2de24e.png)
+
 
 It's so much clearer if you see the function in the middle of integration as a `derivative`.
 
@@ -1407,10 +1408,11 @@ It's so much clearer if you see the function in the middle of integration as a `
 
 It actually could be used in two forms (**Notice that boundaries & terms are different**):
 
-![image](https://user-images.githubusercontent.com/14041622/41085110-94375b3a-6a68-11e8-9434-b06ed6e6422e.png)
+![image](https://user-images.githubusercontent.com/14041622/41086642-395a2f12-6a6d-11e8-820e-ce315675b308.png)
 
 
-## `How to solve Integrals`
+
+## `How to Differentiate Integrals`
 We could **CONVERT** the `integral formula` to `Differential formula`, by using the `fundamental theorem of calculus`, and use the Rules we've learnt to solve the differential equations.
 
 [Refer to video from Krista King: PART 2 OF THE FUNDAMENTAL THEOREM OF CALCULUS!](https://www.youtube.com/watch?v=T-J7SkiE39Y&list=PLJ8OrXpbC-BMObozItpbiZ8f2pjf3qS9M&index=16)
