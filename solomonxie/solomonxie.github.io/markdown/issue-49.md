@@ -1502,3 +1502,9 @@ Solve:
 Don't get confused when you see the Upper boundary is smaller than the Lower one.
 
 ![image](https://user-images.githubusercontent.com/14041622/41094263-4493ee8c-6a80-11e8-8bcd-54ba5f991181.png)
+
+### Example (piecewise integration)
+![image](https://user-images.githubusercontent.com/14041622/41095081-ecd55c96-6a82-11e8-8315-45a3964a4bdd.png)
+Solve:
+The key is to seperate the intervals and integrate them piece by piece.
+![image](https://user-images.githubusercontent.com/14041622/41095104-f9dce378-6a82-11e8-9351-aa781b7c1691.png)
