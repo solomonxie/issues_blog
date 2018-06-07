@@ -1324,14 +1324,19 @@ Solve:
 
 
 
-# `Indefinite integrals` & `Antiderivatives`
+# `Indefinite integrals` = `Antiderivatives`
+> That's easier being said, **THE ANTIDERIVATIVES IS THE INDEFINITE INTEGRALS.**
 
-That's easier being said, 
-**THE ANTIDERIVATIVES IS THE SAME WITH INDEFINITE INTEGRALS.**
+Let's make it more intuitive (might not be accurate but good for learning):
 
-Btw, just for refreshing:
-- `Indefinite integrals`: **Indefinite**  means `not-defined`,  means both **BOUNDARIES** are not defined. That's why the **symbol** is without any number but `ʃ` alone.
-- `Anti-derivatives`: Means the **Original function** where the derivative is from.
+- **`Antiderivatives`** is the **RESULT**.
+- **`Indefinite integrals`** is the **OPERATION**.
+
+(They're saying the same thing)
+
+And, just for refreshing:
+- **`Indefinite integrals`**: **Indefinite**  means `not-defined`,  means both **BOUNDARIES** are not defined. That's why the **symbol** is without any number but `ʃ` alone.
+- **`Anti-derivatives`**: Means the **Original function** where the derivative is from.
 
 ### Review of Antiderivatives
 > Before you proceed to the next, you really want figure out completely what an `antiderivative` means with respect to the `Integration`.
