@@ -1357,6 +1357,14 @@ At the example below, you will find it makes so much sense if you **FIX YOUR EYE
 ![image](https://user-images.githubusercontent.com/14041622/40964653-3d241602-68de-11e8-8f3a-6e4a5963b363.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41082572-64fe8656-6a61-11e8-94ef-9f77ac4147b0.png)
+Solve:
+- First need to clear your mind, in this case:
+    - The antiderivative is the "original function" `f(x)` we have learned.
+    - The function `f(x)` here is actually the derivative, which is `f'(x)` we've learned.
+- Just think it as matching function and its derivative, everything will be tackled real quick.
+
 
 
 # `Fundamental Theorem of Calculus (FTC)`
