@@ -1463,6 +1463,9 @@ Solve:
 Remember there're a bunch of `Differential Rules` for calculating derivatives.
 And for integration we need to reverse them.
 
+## Reverse Power Rule
+![image](https://user-images.githubusercontent.com/14041622/41092189-eb52c956-6a7a-11e8-8b70-c001dd7a0218.png)
+
 ## Rules for Indefinite Integrals
 
 ![image](https://user-images.githubusercontent.com/14041622/41091166-86c4a8ee-6a78-11e8-83dc-3bc3bd64b506.png)
