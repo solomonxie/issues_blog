@@ -1432,10 +1432,10 @@ Here is formulas for different **boundaries** of integration:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41085306-2eab6b2a-6a69-11e8-9b79-9cf0cc691cc4.png)
 Solve:
-- It's to apply the `boundary situation strategy` of `A variable & a number`: `F'(x) = f(x)`
-- Assume the function in the middle of integral is `f'(x) = 3t²+4t`
-- Since it's asking for `g'(x)`, so it's differentiate the Integral: `d/dx ʃ f'(x) dt` expression
-- So `g'(2) = f'(x) = 3t²+4t = 20`
+- It's to apply the `boundary situation strategy` of `A variable & a number`: `G'(x) = g(x)`
+- Assume the function in the middle of integral is `G'(x) = 3x²+4x`
+- Since it's asking for `g'(x)`, so it's differentiate the Integral: `d/dx ʃ G'(x) dt` expression
+- So `g'(2) = G'(x) = 3x²+4x = 20`
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41085593-15943f08-6a6a-11e8-9f71-1789074609b6.png)
