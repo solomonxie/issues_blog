@@ -1330,7 +1330,7 @@ That's easier being said,
 **THE ANTIDERIVATIVES IS THE SAME WITH INDEFINITE INTEGRALS.**
 
 Btw, just for refreshing:
-- `Indefinite integrals`: **Indefinite**  means `not-defined`,  means `variables`, means at least one of the **boundaries** of integration is a **VARIABLE**, not as a defined constant number anymore.
+- `Indefinite integrals`: **Indefinite**  means `not-defined`,  means both **BOUNDARIES** are not defined. That's why the **symbol** is without any number but `ʃ` alone.
 - `Anti-derivatives`: Means the **Original function** where the derivative is from.
 
 ### Review of Antiderivatives
