@@ -1352,7 +1352,16 @@ So trust me, the world would be much nicer if you always see it as the expressio
 ![image](https://user-images.githubusercontent.com/14041622/41083446-cf7a6b6a-6a63-11e8-9b58-c6141679b285.png)
 
 
-### Review of Antiderivatives
+## Why is Antiderivative so confusing too
+Because your first impression of the antiderivative is that `is it anti- something?`
+`Anti-` is a reverse, `derivative` is also a transform of something, so putting them together is really a horrible idea because it seems leading to nowhere.
+
+Now here is the mojo, things would be much nicer if you see and call an `antiderivative` as:
+**The original function `f(x)`**
+
+It may not be accurate, but good enough to proceed to next stage of study.
+
+## Review of Antiderivatives
 > Before you proceed to the next, you really want figure out completely what an `antiderivative` means with respect to the `Integration`.
 
 [!! Refer to video from The Organic Chemistry Tutor: Antiderivatives](https://www.youtube.com/watch?v=Smp1WJjfUvM&list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv&t=0s&index=108)
@@ -1361,7 +1370,7 @@ Here are a few examples to quick review what is antiderivative:
 
 ![image](https://user-images.githubusercontent.com/14041622/40964276-45f36c52-68dd-11e8-8e46-cc8fc947b5ed.png)
 
-### How to understand this reverse process
+## How to understand this reverse process
 
 Doing an `Integration`, is actually to find the `antiderivative`.
 
