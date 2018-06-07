@@ -1419,7 +1419,9 @@ We could **CONVERT** the `integral formula` to `Differential formula`, by using 
 
 [Refer to video from Krista King: PART 2 OF THE FUNDAMENTAL THEOREM OF CALCULUS!](https://www.youtube.com/watch?v=T-J7SkiE39Y&list=PLJ8OrXpbC-BMObozItpbiZ8f2pjf3qS9M&index=16)
 
-![image](https://user-images.githubusercontent.com/14041622/41087939-b5266b8a-6a70-11e8-8ce6-06941e8e907e.png)
+Here is formulas for different **boundaries** of integration:
+
+![image](https://user-images.githubusercontent.com/14041622/41088861-1e53d35c-6a73-11e8-846a-a35dbaa888f5.png)
 
 
 ### Example
