@@ -1423,6 +1423,10 @@ Solve:
 - Since it's asking for `g'(x)`, so it's differentiate the Integral: `d/dx ʃ f'(x) dt` expression
 - So `g'(2) = f'(x) = 3t²+4t = 20`
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41085593-15943f08-6a6a-11e8-9f71-1789074609b6.png)
+Solve:
+
 
 ## `Simplify the integrals`
 > Simplify the **hairy crazy dreaded** integral formula is the 1st move to make sense of everything.
