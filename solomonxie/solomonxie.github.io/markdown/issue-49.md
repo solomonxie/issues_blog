@@ -1423,3 +1423,10 @@ The idea to simply an integral, is to **extract** the function out, to become a 
 We could **CONVERT** the `integral formula` to `Differential formula`, by using the `fundamental theorem of calculus`, and use the Rules we've learnt to solve the differential equations.
 
 [Refer to video from Krista King: PART 2 OF THE FUNDAMENTAL THEOREM OF CALCULUS!](https://www.youtube.com/watch?v=T-J7SkiE39Y&list=PLJ8OrXpbC-BMObozItpbiZ8f2pjf3qS9M&index=16)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41085306-2eab6b2a-6a69-11e8-9b79-9cf0cc691cc4.png)
+Solve:
+- Since it's asking for `g'(x)`, so it's differentiate the Integral: `d/dx ʃ f'(x) dt` expression
+- So `g'(2) = f'(x) = 3t²+4t = 20`
