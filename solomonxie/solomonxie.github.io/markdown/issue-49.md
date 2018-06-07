@@ -1401,15 +1401,17 @@ Solve:
 
 ![image](https://user-images.githubusercontent.com/14041622/41086683-5bd826a2-6a6d-11e8-8438-387c2e2de24e.png)
 
-
 It's so much clearer if you see the function in the middle of integration as a `derivative`.
+
+Notice that:
+In this theorem, the lower boundary `a` is "gone", 
+and the unknown `t` directly changed to `x`.
 
 [Refer to Khan academy: Fundamental theorem of calculus review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/a/fundamental-theorem-of-calculus-review)
 
 It actually could be used in two forms (**Notice that boundaries & terms are different**):
 
-![image](https://user-images.githubusercontent.com/14041622/41086642-395a2f12-6a6d-11e8-820e-ce315675b308.png)
-
+![image](https://user-images.githubusercontent.com/14041622/41086991-23674018-6a6e-11e8-99f1-91758ec39d38.png)
 
 
 ## `How to Differentiate Integrals`
