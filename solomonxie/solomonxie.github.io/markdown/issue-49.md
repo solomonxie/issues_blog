@@ -1459,8 +1459,6 @@ Solve:
 Remember there're a bunch of `Differential Rules` for calculating derivatives.
 And for integration we need to reverse them.
 
-![image](https://user-images.githubusercontent.com/14041622/41091115-6d778640-6a78-11e8-89c9-2df4ba4ac59c.png)
-
 ## Rules for Indefinite Integrals
 
 ![image](https://user-images.githubusercontent.com/14041622/41091166-86c4a8ee-6a78-11e8-83dc-3bc3bd64b506.png)
