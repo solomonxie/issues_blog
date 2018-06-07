@@ -1410,15 +1410,6 @@ It actually could be used in two forms (**Notice that boundaries & terms are dif
 ![image](https://user-images.githubusercontent.com/14041622/41085110-94375b3a-6a68-11e8-9434-b06ed6e6422e.png)
 
 
-## `Simplify the integrals`
-> Simplify the **hairy crazy dreaded** integral formula is the 1st move to make sense of everything.
-
-The idea to simply an integral, is to **extract** the function out, to become a **derivative** in form of `F'(x)`, and then it's much easier to reverse the derivative to its original function.
-
-### Simplify integral with both boundaries indefinite
-![image](https://user-images.githubusercontent.com/14041622/40967223-1f4014a4-68e5-11e8-8240-8868e9b829c1.png)
-
-
 ## `How to solve Integrals`
 We could **CONVERT** the `integral formula` to `Differential formula`, by using the `fundamental theorem of calculus`, and use the Rules we've learnt to solve the differential equations.
 
@@ -1431,3 +1422,12 @@ Solve:
 - Assume the function in the middle of integral is `f'(x) = 3t²+4t`
 - Since it's asking for `g'(x)`, so it's differentiate the Integral: `d/dx ʃ f'(x) dt` expression
 - So `g'(2) = f'(x) = 3t²+4t = 20`
+
+
+## `Simplify the integrals`
+> Simplify the **hairy crazy dreaded** integral formula is the 1st move to make sense of everything.
+
+The idea to simply an integral, is to **extract** the function out, to become a **derivative** in form of `F'(x)`, and then it's much easier to reverse the derivative to its original function.
+
+### Simplify integral with both boundaries indefinite
+![image](https://user-images.githubusercontent.com/14041622/40967223-1f4014a4-68e5-11e8-8240-8868e9b829c1.png)
