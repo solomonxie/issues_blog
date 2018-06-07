@@ -1340,7 +1340,7 @@ And, just for refreshing:
 - **`Indefinite integrals`**: **Indefinite**  means `not-defined`,  means both **BOUNDARIES** are not defined. That's why the **symbol** is without any number but `ʃ` alone.
 ![image](https://user-images.githubusercontent.com/14041622/41083178-1b730172-6a63-11e8-8dea-f0e3d6f8a78b.png)
 
-## The reason why Indefinite Integral is so confusing
+## Why is the Indefinite Integral so confusing
 It's a simple reason: 
 **Because they use the `f(x)` in the Integral expression, but actually it means `f'(x)`!**
 
