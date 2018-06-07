@@ -1508,3 +1508,7 @@ Don't get confused when you see the Upper boundary is smaller than the Lower one
 Solve:
 The key is to seperate the intervals and integrate them piece by piece.
 ![image](https://user-images.githubusercontent.com/14041622/41095104-f9dce378-6a82-11e8-9351-aa781b7c1691.png)
+
+
+
+# `Improper Integral`
