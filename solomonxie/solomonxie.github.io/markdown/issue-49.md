@@ -1409,13 +1409,11 @@ and the unknown `t` directly changed to `x`.
 
 [Refer to Khan academy: Fundamental theorem of calculus review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/a/fundamental-theorem-of-calculus-review)
 
-## `1st & 2nd Fundamental Theorem of Calculus`
+## `1st FTC & 2nd FTC`
 
-The Fundamental Theorem of Calculus could actually be used in two forms (**Notice that boundaries & terms are different**):
-- The 1st FTC
-- The 2nd FTC (FTC2)
+The Fundamental Theorem of Calculus could actually be used in two forms. They have different use for different situations.
 
-They have different use for different situations.
+ (**Notice that boundaries & terms are different**)
 
 ![image](https://user-images.githubusercontent.com/14041622/41086991-23674018-6a6e-11e8-99f1-91758ec39d38.png)
 
