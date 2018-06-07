@@ -1266,6 +1266,10 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40902699-810e7538-6807-11e8-93bd-78c9da47b96a.png)
 
 
+[Refer to the Map of Integration: mrozarka.com](http://stem.mrozarka.com/calculus-1/units/unit-4)
+![image](https://user-images.githubusercontent.com/14041622/41091509-474ef4f2-6a79-11e8-887e-d1de61f74aae.png)
+
+
 
 # `Definite Integrals`
 **DEFINITE** means it's `defined`, means both two **boundaries** are **constant numbers**.
