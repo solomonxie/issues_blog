@@ -1482,3 +1482,16 @@ And for integration we need to reverse them.
 
 
 
+
+
+
+# Calculate Indefinite Integrals
+
+
+
+# Calculate Definite Integrals
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41093922-21179cde-6a7f-11e8-8d39-a33d522dd6c4.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41093940-2c86bb36-6a7f-11e8-9b25-4c7c2fceba46.png)
