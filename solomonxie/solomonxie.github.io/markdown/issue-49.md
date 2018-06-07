@@ -1404,7 +1404,7 @@ Solve:
 It's so much clearer if you see the function in the middle of integration as a `derivative`.
 
 Notice that:
-In this theorem, the lower boundary `a` is "gone", 
+In this theorem, the lower boundary `a` is completely "ignored", 
 and the unknown `t` directly changed to `x`.
 
 [Refer to Khan academy: Fundamental theorem of calculus review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/a/fundamental-theorem-of-calculus-review)
