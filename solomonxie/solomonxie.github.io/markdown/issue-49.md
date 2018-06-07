@@ -1419,6 +1419,8 @@ We could **CONVERT** the `integral formula` to `Differential formula`, by using 
 
 [Refer to video from Krista King: PART 2 OF THE FUNDAMENTAL THEOREM OF CALCULUS!](https://www.youtube.com/watch?v=T-J7SkiE39Y&list=PLJ8OrXpbC-BMObozItpbiZ8f2pjf3qS9M&index=16)
 
+![image](https://user-images.githubusercontent.com/14041622/41087180-8cc2d87e-6a6e-11e8-9235-72ca66f07178.png)
+
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41085306-2eab6b2a-6a69-11e8-9b79-9cf0cc691cc4.png)
