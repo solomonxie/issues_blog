@@ -1497,6 +1497,8 @@ Solve:
 # Calculate Definite Integrals
 
 ### Example
-![image](https://user-images.githubusercontent.com/14041622/41093922-21179cde-6a7f-11e8-8d39-a33d522dd6c4.png)
+![image](https://user-images.githubusercontent.com/14041622/41094257-403e9ff8-6a80-11e8-8176-c1dc057215e6.png)
 Solve:
-![image](https://user-images.githubusercontent.com/14041622/41093940-2c86bb36-6a7f-11e8-9b25-4c7c2fceba46.png)
+Don't get confused when you see the Upper boundary is smaller than the Lower one.
+
+![image](https://user-images.githubusercontent.com/14041622/41094263-4493ee8c-6a80-11e8-8bcd-54ba5f991181.png)
