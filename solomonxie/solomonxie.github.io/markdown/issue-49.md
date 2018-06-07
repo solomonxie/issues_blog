@@ -1353,7 +1353,10 @@ At the example below, you will find it makes so much sense if you **FIX YOUR EYE
 ### Review of Indefinite integrals
 ![image](https://user-images.githubusercontent.com/14041622/40965816-5ad03da4-68e1-11e8-871a-4da4b9eef13c.png)
 
-## `Fundamental Theorem of Calculus (FTC)`
+
+
+
+# `Fundamental Theorem of Calculus (FTC)`
 > This is somehow dreaded and mind-blowing.  But it's the **only** thing to relate the `Differential Calculus` & `Integral Calculus`.
 
 ![image](https://user-images.githubusercontent.com/14041622/40960644-f9f50d6a-68d2-11e8-8341-706157cefb32.png)
