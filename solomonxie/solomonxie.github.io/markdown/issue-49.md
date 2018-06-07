@@ -1336,8 +1336,21 @@ Let's make it more intuitive (might not be accurate but good for learning):
 (They're saying the same thing)
 
 And, just for refreshing:
-- **`Indefinite integrals`**: **Indefinite**  means `not-defined`,  means both **BOUNDARIES** are not defined. That's why the **symbol** is without any number but `ʃ` alone.
 - **`Anti-derivatives`**: Means the **Original function** where the derivative is from.
+- **`Indefinite integrals`**: **Indefinite**  means `not-defined`,  means both **BOUNDARIES** are not defined. That's why the **symbol** is without any number but `ʃ` alone.
+![image](https://user-images.githubusercontent.com/14041622/41083178-1b730172-6a63-11e8-8dea-f0e3d6f8a78b.png)
+
+## The reason why Indefinite Integral is so confusing
+It's a simple reason: 
+**Because they use the `f(x)` in the Integral expression, but actually it means `f'(x)`!**
+
+You all know the expression of indefinite integral is `ʃ f(x) dx`, But actually it should be `ʃ f'(x) dx`, which means the function appears in the middle is a derivative, from somewhere.
+And the **mission** of that integral, is to find the `f(x)` the original function of the derivative!
+
+So trust me, the world would be much nicer if you always see it as the expression as below:
+
+![image](https://user-images.githubusercontent.com/14041622/41083446-cf7a6b6a-6a63-11e8-9b58-c6141679b285.png)
+
 
 ### Review of Antiderivatives
 > Before you proceed to the next, you really want figure out completely what an `antiderivative` means with respect to the `Integration`.
