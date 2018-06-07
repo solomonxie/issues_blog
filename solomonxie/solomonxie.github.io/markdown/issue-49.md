@@ -1487,6 +1487,11 @@ And for integration we need to reverse them.
 
 # Calculate Indefinite Integrals
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41094016-5f50cdb8-6a7f-11e8-9375-d21ffed56e2f.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41094031-6b987d6e-6a7f-11e8-8d38-b4fe86eb7d8e.png)
+
 
 
 # Calculate Definite Integrals
