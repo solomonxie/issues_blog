@@ -1281,9 +1281,9 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40904743-47305e6a-680e-11e8-8518-1102d6922508.png)
 
 
-## `Conversion Definite integral & Limit of Riemann Sum`
+## `Conversion of Definite integral & Limit of Riemann Sum`
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/41026547-6ab438ee-69a7-11e8-8f03-0e9c498d8bd5.png)
 Solve:
 - It's easy to find `Δx = (π-0)/n = π/n`
@@ -1291,7 +1291,7 @@ Solve:
 - So the result is:
 ![image](https://user-images.githubusercontent.com/14041622/41026881-3a592a1e-69a8-11e8-82ad-f4be0f877d20.png)
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/41027374-6bbab04a-69a9-11e8-9402-53c1b6dc6284.png)
 Solve:
 - Look at the boundaries, it's from `0 -> 5`,
@@ -1304,7 +1304,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41027638-217c2d00-69aa-11e8-97dd-1bbcf6d7d205.png)
 
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/41027746-72e50522-69aa-11e8-88b8-5bdeddcf3aec.png)
 Solve:
 - We could easily get that the `Δx = 5/n`
@@ -1314,7 +1314,7 @@ Solve:
 - And we get the `Top = 7`, and the Definite Integral is:
 ![image](https://user-images.githubusercontent.com/14041622/41028259-9960efc6-69ab-11e8-9f5b-4099a8976544.png)
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/41029271-dba71250-69ad-11e8-9192-28d44462d192.png)
 Solve:
 - See the `i=1` means it's using `Right Riemann Sum`, so the integral would be:
