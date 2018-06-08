@@ -1518,7 +1518,7 @@ Solve:
 - Evaluating each piece:
 ![image](https://user-images.githubusercontent.com/14041622/41145022-52bc83be-6b31-11e8-90bf-b63619f87bd1.png)
 ![image](https://user-images.githubusercontent.com/14041622/41145039-5c9f24d6-6b31-11e8-9f00-1549373580a0.png)
-- Answer is 16.
+- Answer is 20.
 
 
 
