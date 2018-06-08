@@ -1508,6 +1508,19 @@ The key is to seperate the intervals and integrate them piece by piece.
 ![image](https://user-images.githubusercontent.com/14041622/41095104-f9dce378-6a82-11e8-9351-aa781b7c1691.png)
 
 
+### Example (Absolute value)
+![image](https://user-images.githubusercontent.com/14041622/41144944-1f795f68-6b31-11e8-91bd-d523a212aee1.png)
+Solve:
+- Splitting up the absolute value, and notice that the absolute value function is a piecewise function. Here we have that:
+![image](https://user-images.githubusercontent.com/14041622/41144986-3af5a418-6b31-11e8-9a78-8fa06f63be0c.png)
+- Splitting up the definite integral:
+![image](https://user-images.githubusercontent.com/14041622/41145002-4606b770-6b31-11e8-8606-f3acaa3737ba.png)
+- Evaluating each piece:
+![image](https://user-images.githubusercontent.com/14041622/41145022-52bc83be-6b31-11e8-90bf-b63619f87bd1.png)
+![image](https://user-images.githubusercontent.com/14041622/41145039-5c9f24d6-6b31-11e8-9f00-1549373580a0.png)
+- Answer is 16.
+
+
 
 # `Improper Integral`
 After learning `Definite Integral`, `Indefinite Integral`, now it's `Improper Integral`.
