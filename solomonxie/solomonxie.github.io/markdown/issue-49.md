@@ -1604,6 +1604,7 @@ Solve:
 [Refer to Khan academy: 𝘶-substitution: defining 𝘶](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/u-substitution-defining-u)
 
 
-# Integration by Parts: The Reverse Product Rule
+# `Integration by Parts`
+> It's the `Reverse Product Rule`.
 
 [Refer to Khan academy: Integration by parts intro](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/deriving-integration-by-parts-formula)
