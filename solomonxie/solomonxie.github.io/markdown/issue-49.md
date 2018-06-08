@@ -1559,9 +1559,16 @@ Basic Strategy:
 - Calculate the limit of the function
 
 #### Example
-![image](https://user-images.githubusercontent.com/14041622/41143395-a64b112c-6b2b-11e8-9ee9-7b212d01899d.png)
+![image](https://user-images.githubusercontent.com/14041622/41143766-1e3a65ce-6b2d-11e8-831b-b4b0a34fb260.png)
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41143689-cf7ded34-6b2c-11e8-89d1-149ed496ac65.png)
+
+
+### Type 5
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41143759-15bde20e-6b2d-11e8-84a4-c0d5f18a6749.png)
+Solve:
 
 
 
