@@ -1596,3 +1596,7 @@ Solve:
 
 # `U-Substitution`
 
+> The `u-substitution` is really to **UNDO** the `Chain Rule`.
+
+- Taking the **derivative** of a COMPOSITE function, we apply the `Chain rule`.
+- Taking the **integral** of a COMPOSITE function, we apply the `u-substitution`.
