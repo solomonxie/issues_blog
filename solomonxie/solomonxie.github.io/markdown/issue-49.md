@@ -1525,10 +1525,27 @@ It looks so fearful yet not too hard to understand.
 ![image](https://user-images.githubusercontent.com/14041622/41109490-b6794e24-6aa9-11e8-8835-9ba1a704bfc6.png)
 
 
-Strategy:
+Basic Strategy:
 - Replace the `infinite` as a variable, etc. `t`
 - Rewrite the expression as taking the limit of the Integral, whereas the `t → ∞`
 - Calculate the Integral with a normal variable first, and gets the result function.
 - Calculate the limit of the function
 
-### Example
+## `Types of Improper Integral`
+[Refer to video from ProfRobBob: Improper Integrals 5 Examples](https://www.youtube.com/watch?v=dzOxbMnaZLo)
+
+There're 6 cases of different improper integral:
+- Case 1: From a `constant` to `positive infinity`.
+![image](https://user-images.githubusercontent.com/14041622/41142396-2457bd62-6b28-11e8-80c6-1f93eaed3c6e.png)
+- Case 2: From `negative infinity` to a `constant`.
+![image](https://user-images.githubusercontent.com/14041622/41142107-161669ac-6b27-11e8-8b6f-d45fb848351f.png)
+- Case 3: From `negative infinity` to `positive infinity`.
+![image](https://user-images.githubusercontent.com/14041622/41142432-3f663dd6-6b28-11e8-8ab0-10ce0f0474cb.png)
+- Case 4: From `0` to `e`.
+![image](https://user-images.githubusercontent.com/14041622/41142494-75b483d4-6b28-11e8-9985-9950ad73efe8.png)
+- Case 5: From a `constant` to a `constant`, but has an `infinite discontinuity`.
+![image](https://user-images.githubusercontent.com/14041622/41142565-b8ca0784-6b28-11e8-97a8-5040f5946000.png)
+- Case 6: 
+
+
+## `Convergent & Divergent`
