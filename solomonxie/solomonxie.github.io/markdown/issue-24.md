@@ -1874,7 +1874,7 @@ line = line.replace(';', ':')
 ```
 
 
-# Jupyter Notebook改变默认打开的浏览器
+# Jupyter Notebook改变默认打开的浏览器 (未完待续)
 
 因为有开双浏览器的习惯，不喜欢Jupyter默认打开Chrome。所以希望它默认打开Opera。
 
