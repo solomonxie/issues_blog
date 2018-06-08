@@ -1541,6 +1541,13 @@ There're 6 cases of different improper integral:
 ![image](https://user-images.githubusercontent.com/14041622/41142565-b8ca0784-6b28-11e8-97a8-5040f5946000.png)
 - Case 6: 
 
+## `Convergent` & `Divergent`
+
+We can call an `improper integral`:
+- `Divergent`: When the **limit** of the improper integral **DOES NOT EXIST**.
+- `Convergent`: When the **limit** of the improper **integral EXISTS**.
+
+
 ## Solve Improper Integrals
 
 ###  Type 1
@@ -1553,12 +1560,10 @@ Basic Strategy:
 
 #### Example
 ![image](https://user-images.githubusercontent.com/14041622/41143395-a64b112c-6b2b-11e8-9ee9-7b212d01899d.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41143689-cf7ded34-6b2c-11e8-89d1-149ed496ac65.png)
 
 
 
-## `Convergent` & `Divergent`
 
-We can call an `improper integral`:
-- `Divergent`: When the **limit** of the improper integral **DOES NOT EXIST**.
-- `Convergent`: When the **limit** of the improper **integral EXISTS**.
 
