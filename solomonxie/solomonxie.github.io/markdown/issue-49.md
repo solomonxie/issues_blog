@@ -1548,9 +1548,7 @@ We can call an `improper integral`:
 - `Convergent`: When the **limit** of the improper **integral EXISTS**.
 
 
-## Solve Improper Integrals
-
-###  Type 1
+## `Solve Improper Integrals`
 
 Basic Strategy:
 - Replace the `infinite` as a variable, etc. `t`
@@ -1558,15 +1556,13 @@ Basic Strategy:
 - Calculate the Integral with a normal variable first, and gets the result function.
 - Calculate the limit of the function
 
-#### Example
+###  Type 1
 ![image](https://user-images.githubusercontent.com/14041622/41143766-1e3a65ce-6b2d-11e8-831b-b4b0a34fb260.png)
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41143689-cf7ded34-6b2c-11e8-89d1-149ed496ac65.png)
 
 
 ### Type 5
-
-### Example
 ![image](https://user-images.githubusercontent.com/14041622/41143759-15bde20e-6b2d-11e8-84a4-c0d5f18a6749.png)
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41143923-ae356d40-6b2d-11e8-9dac-b3c5554a4e40.png)
