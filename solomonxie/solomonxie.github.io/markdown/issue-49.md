@@ -1548,4 +1548,9 @@ There're 6 cases of different improper integral:
 - Case 6: 
 
 
-## `Convergent & Divergent`
+## `Convergent & Divergent Improper integrals`
+
+We can call an `improper integral`:
+- `Divergent`: When the **limit** of the improper integral **DOES NOT EXIST**.
+- `Convergent`: When the **limit** of the improper **integral EXISTS**.
+
