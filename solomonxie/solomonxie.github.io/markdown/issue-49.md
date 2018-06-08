@@ -1562,11 +1562,20 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41143689-cf7ded34-6b2c-11e8-89d1-149ed496ac65.png)
 
 
+### Type 2
+![image](https://user-images.githubusercontent.com/14041622/41144173-95f24554-6b2e-11e8-9fc7-9b541e058192.png)
+Solve:
+- Rewrite the improper integral to limit form:
+![image](https://user-images.githubusercontent.com/14041622/41144216-bd090d76-6b2e-11e8-9518-4c0cfd1c0ccd.png)
+- Do the basic calculation.
+- The key point is:
+![image](https://user-images.githubusercontent.com/14041622/41144261-ecb0c5e6-6b2e-11e8-967d-924b37cf87da.png)
+
+
 ### Type 5
 ![image](https://user-images.githubusercontent.com/14041622/41143759-15bde20e-6b2d-11e8-84a4-c0d5f18a6749.png)
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41143923-ae356d40-6b2d-11e8-9dac-b3c5554a4e40.png)
-
 
 
 
