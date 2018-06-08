@@ -1591,3 +1591,8 @@ Solve:
 
 
 
+
+
+
+# `U-Substitution`
+
