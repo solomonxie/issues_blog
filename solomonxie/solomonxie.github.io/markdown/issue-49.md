@@ -1541,9 +1541,11 @@ There're 6 cases of different improper integral:
 ![image](https://user-images.githubusercontent.com/14041622/41142565-b8ca0784-6b28-11e8-97a8-5040f5946000.png)
 - Case 6: 
 
-## Strategies
+## Solve Improper Integrals
 
-### Basic Strategy (Type 1)
+###  Type 1
+
+Basic Strategy:
 - Replace the `infinite` as a variable, etc. `t`
 - Rewrite the expression as taking the limit of the Integral, whereas the `t → ∞`
 - Calculate the Integral with a normal variable first, and gets the result function.
