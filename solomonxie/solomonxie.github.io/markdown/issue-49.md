@@ -1525,12 +1525,6 @@ It looks so fearful yet not too hard to understand.
 ![image](https://user-images.githubusercontent.com/14041622/41109490-b6794e24-6aa9-11e8-8835-9ba1a704bfc6.png)
 
 
-Basic Strategy:
-- Replace the `infinite` as a variable, etc. `t`
-- Rewrite the expression as taking the limit of the Integral, whereas the `t → ∞`
-- Calculate the Integral with a normal variable first, and gets the result function.
-- Calculate the limit of the function
-
 ## `Types of Improper Integral`
 [Refer to video from ProfRobBob: Improper Integrals 5 Examples](https://www.youtube.com/watch?v=dzOxbMnaZLo)
 
@@ -1546,6 +1540,18 @@ There're 6 cases of different improper integral:
 - Case 5: From a `constant` to a `constant`, but has an `infinite discontinuity`.
 ![image](https://user-images.githubusercontent.com/14041622/41142565-b8ca0784-6b28-11e8-97a8-5040f5946000.png)
 - Case 6: 
+
+## Strategies
+
+### Basic Strategy (Type 1)
+- Replace the `infinite` as a variable, etc. `t`
+- Rewrite the expression as taking the limit of the Integral, whereas the `t → ∞`
+- Calculate the Integral with a normal variable first, and gets the result function.
+- Calculate the limit of the function
+
+#### Example
+![image](https://user-images.githubusercontent.com/14041622/41143395-a64b112c-6b2b-11e8-9ee9-7b212d01899d.png)
+
 
 
 ## `Convergent` & `Divergent`
