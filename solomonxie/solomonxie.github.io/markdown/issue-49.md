@@ -1515,7 +1515,7 @@ The key is to seperate the intervals and integrate them piece by piece.
 After learning `Definite Integral`, `Indefinite Integral`, now it's `Improper Integral`.
 The major difference between them is their **`Boundaries`**.
 
-> The `improper integral` means the integral's boundary or boundaries are **∞**, infinite.
+> The `improper integral` means the integral's boundary or boundaries are infinite, **∞** (or -∞).
 
 [Refer to Khan academy: Introduction to improper integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/introduction-to-improper-integrals)
 [Refer to Improper Integrals (KristaKingMath)](https://www.youtube.com/watch?v=DUowajlKIKA)
