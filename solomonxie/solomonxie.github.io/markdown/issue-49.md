@@ -1274,8 +1274,14 @@ Solve:
 # `Definite Integrals`
 **DEFINITE** means it's `defined`, means both two **boundaries** are **constant numbers**.
 
+## `Definite integrals properties`
 
-## `Convert Definite integral & Limit of Riemann Sum`
+[Refer to Khan academy article: Definite integrals properties review](https://www.khanacademy.org/math/ap-calculus-bc/bc-accumulation-riemann-sums/modal/a/definite-integrals-properties-review)
+
+![image](https://user-images.githubusercontent.com/14041622/40904743-47305e6a-680e-11e8-8518-1102d6922508.png)
+
+
+## `Conversion Definite integral & Limit of Riemann Sum`
 
 Example:
 ![image](https://user-images.githubusercontent.com/14041622/41026547-6ab438ee-69a7-11e8-8f03-0e9c498d8bd5.png)
@@ -1319,14 +1325,6 @@ Solve:
 - According to that`Δx = (b-a)/n = (b-0)/n = 9/n`, we get `b = 9`
 - So the answer is:
 ![image](https://user-images.githubusercontent.com/14041622/41029902-8f99f254-69af-11e8-9b93-22f00d9f9b67.png)
-
-
-## `Definite integrals properties`
-
-[Refer to Khan academy article: Definite integrals properties review](https://www.khanacademy.org/math/ap-calculus-bc/bc-accumulation-riemann-sums/modal/a/definite-integrals-properties-review)
-
-![image](https://user-images.githubusercontent.com/14041622/40904743-47305e6a-680e-11e8-8518-1102d6922508.png)
-
 
 
 # `Indefinite integrals` = `Antiderivatives`
