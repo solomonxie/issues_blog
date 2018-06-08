@@ -1594,9 +1594,11 @@ Solve:
 
 
 
-# `U-Substitution`
+# `U-Substitution: The Reverse Chain Rule`
 
 > The `u-substitution` is really to **UNDO** the `Chain Rule`.
 
 - Taking the **derivative** of a COMPOSITE function, we apply the `Chain rule`.
 - Taking the **integral** of a COMPOSITE function, we apply the `u-substitution`.
+
+[Refer to Khan academy: 𝘶-substitution: defining 𝘶](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/u-substitution-defining-u)
