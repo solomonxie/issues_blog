@@ -1569,6 +1569,7 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41143759-15bde20e-6b2d-11e8-84a4-c0d5f18a6749.png)
 Solve:
+![image](https://user-images.githubusercontent.com/14041622/41143923-ae356d40-6b2d-11e8-9dac-b3c5554a4e40.png)
 
 
 
