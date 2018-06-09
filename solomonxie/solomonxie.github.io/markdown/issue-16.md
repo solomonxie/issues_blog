@@ -4,6 +4,8 @@
 
 # iphone投影到Mac电脑
 
+[参考：How to Record your iPhone Screen on a MAC Computer](https://www.youtube.com/watch?v=TCsrsTUWHUc)
+
 一般来讲极其简单：
 - 直接把iphone用数据线连接到Mac上
 - 打开Quicktime Player
