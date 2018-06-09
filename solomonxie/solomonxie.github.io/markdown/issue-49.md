@@ -1281,7 +1281,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40904743-47305e6a-680e-11e8-8518-1102d6922508.png)
 
 
-## `Conversion of Definite integral & Limit of Riemann Sum`
+## `Definite integral ←→ Limit of Riemann Sum`
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41026547-6ab438ee-69a7-11e8-8f03-0e9c498d8bd5.png)
