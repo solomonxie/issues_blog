@@ -1613,3 +1613,9 @@ And here is the formula to solve the integration by parts:
 
 
 [Refer to Khan academy: Integration by parts intro](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/deriving-integration-by-parts-formula)
+
+Trick & Strategy:
+- Recognize it's an integral with functions' product:
+- Carefully choose one function as `f(x)` and the other as `g'(x)`.
+
+### Example
