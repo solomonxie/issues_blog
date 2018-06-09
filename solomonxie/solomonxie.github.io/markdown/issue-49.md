@@ -1625,5 +1625,5 @@ Trick & Strategy:
 
 
 
-# `Partial fraction expansion` → Quotient Rule
+# `Partial fraction` → Quotient Rule
 > A technique for integrating `Rational functions`.
