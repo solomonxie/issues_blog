@@ -1627,3 +1627,13 @@ Trick & Strategy:
 
 # `Partial fraction` → Quotient Rule
 > A technique for integrating `Rational functions`.
+
+[Refer to Khan academy: Partial fraction expansion to evaluate integral](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/partial-fraction-expansion-to-integrate)
+
+Example:
+![image](https://user-images.githubusercontent.com/14041622/41189233-0e9b8bfe-6bfd-11e8-94f0-88bae4d86f14.png)
+This process is to break down the `Rational Function` to some simple fractions, 
+which assume there are `A & B`  leads to a system of equation:
+- `(A+B)·x + (B-A) = 1·x + (-4)`
+- So `(A+B) = 1` and `(B-A) = -4`
+- And we get `A = 5/2` & `B = -3/2`
