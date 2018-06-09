@@ -1756,7 +1756,8 @@ $ mv -v ./src/* /tmp
 
 ## rm
 ```sh
-# 
+# -v 和-r参数 verbose & recursive
+$ rm -vr
 ```
 
 ## cp
