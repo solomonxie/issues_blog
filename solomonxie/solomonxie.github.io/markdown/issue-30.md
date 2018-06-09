@@ -311,4 +311,6 @@ vscode原生带有文件对比功能，而且不是单纯的同时滚动。
 
 直接在文件树上右键`compare file`就好了。
 
-![image](https://user-images.githubusercontent.com/14041622/41194797-eef154e4-6c53-11e8-8679-4f4fac0ebcc6.png)
+参考：https://github.com/Microsoft/vscode/issues/34762#issuecomment-331200325
+
+![30705993-612e6586-9ef7-11e7-80b8-086330da4320](https://user-images.githubusercontent.com/14041622/41194824-3a38b186-6c54-11e8-8450-5a8c83e46f9b.gif)
