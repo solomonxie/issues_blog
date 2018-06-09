@@ -1670,3 +1670,9 @@ Strategy:
 - Calculate the function's `integral`, which is the `Actual area of the function`
 - Calculate the `Interval`, which is the `imaginary rectangle's width`.
 - Divide the area by width to get the `Average value of function`, which is the height.
+
+
+# `Mean value theorem for integrals`
+> It actually IS the `Average Value of Functions`
+
+![image](https://user-images.githubusercontent.com/14041622/41189781-c5d16408-6c05-11e8-84b4-5027da337ced.png)
