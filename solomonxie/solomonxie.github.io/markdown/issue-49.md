@@ -1648,3 +1648,16 @@ Strategy:
 
 
 ### Example
+
+
+
+# `Average Value of Functions`
+
+![image](https://user-images.githubusercontent.com/14041622/41189454-cad460ae-6c00-11e8-9463-598e28d21f54.png)
+
+[Refer to Khan academy: Average value over a closed interval](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/average-function-value-closed-interval)
+
+![image](https://user-images.githubusercontent.com/14041622/41189465-ef7dd4b2-6c00-11e8-871c-1cbcdb077f99.png)
+
+Calculating `Favg` is just to get the actual area of the function, and then "reform" it to a rectangle, then divide it by its width, then you get the height.
+
