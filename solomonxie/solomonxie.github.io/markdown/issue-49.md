@@ -1607,8 +1607,6 @@ Solve:
 # `Integration by Parts → Product Rule`
 > It's the `Reverse Product Rule`.
 
-![image](https://user-images.githubusercontent.com/14041622/41188910-702ec4c6-6bf8-11e8-8ed4-9c632a5f874d.png)
-
+![image](https://user-images.githubusercontent.com/14041622/41188956-6cae866e-6bf9-11e8-9b90-1de7296630d8.png)
 
 [Refer to Khan academy: Integration by parts intro](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/deriving-integration-by-parts-formula)
-
