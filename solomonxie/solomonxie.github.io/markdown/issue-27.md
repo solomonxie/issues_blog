@@ -1750,6 +1750,7 @@ $ pdftohtml -f 1 -l 2 sample.pdf sample.html
 
 ## mv
 ```sh
+# -v参数verbose
 $ mv -v ./src/* /tmp
 ```
 
@@ -1760,6 +1761,9 @@ $ mv -v ./src/* /tmp
 
 ## cp
 ```sh
+# -v 和-r参数 verbose & recursive
+$ cp -vr <from> <to>
+
 # 使用rsync命令代替
 $ rsync -avP <FROM> <TO>
 ```
