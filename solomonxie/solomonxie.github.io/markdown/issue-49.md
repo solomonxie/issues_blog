@@ -1603,6 +1603,8 @@ Solve:
 
 [Refer to Khan academy: 𝘶-substitution: defining 𝘶](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/u-substitution-defining-u)
 
+### Example
+
 
 # `Integration by Parts → Product Rule`
 > It's the `Reverse Product Rule`. 
