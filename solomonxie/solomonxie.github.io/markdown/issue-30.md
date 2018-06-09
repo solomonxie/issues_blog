@@ -301,3 +301,14 @@ $ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool true
 "hot_exit": true
 ```
 保存后即生效。
+
+
+# VScode对比文件（同时滚动）
+网上查了好多VScode让两个分屏同时滚动的方法。
+结果找错了方向。
+vscode原生带有文件对比功能，而且不是单纯的同时滚动。
+而是`diff`命令的强化高亮显示，简直非常强大。
+
+直接在文件树上右键`compare file`就好了。
+
+![image](https://user-images.githubusercontent.com/14041622/41194797-eef154e4-6c53-11e8-8679-4f4fac0ebcc6.png)
