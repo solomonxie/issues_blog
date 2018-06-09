@@ -1605,8 +1605,11 @@ Solve:
 
 
 # `Integration by Parts → Product Rule`
-> It's the `Reverse Product Rule`.
+> It's the `Reverse Product Rule`. 
+And here is the formula to solve the integration by parts: 
+(just to simplify, it ignored the `dx` in the integral)
 
 ![image](https://user-images.githubusercontent.com/14041622/41188956-6cae866e-6bf9-11e8-9b90-1de7296630d8.png)
+
 
 [Refer to Khan academy: Integration by parts intro](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/deriving-integration-by-parts-formula)
