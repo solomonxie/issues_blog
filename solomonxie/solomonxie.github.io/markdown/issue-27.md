@@ -1774,6 +1774,8 @@ $ rsync -avP <FROM> <TO>
 
 一般Mac、Ubuntu等主流*nix系统，都原生搭配了这个命令，非常好用。但是命令比较复杂，需要学习。
 
+[参考：rsync中文Man Page](http://man.linuxde.net/rsync)
+
 注意事项：
 - 目录名后有或没有`/`是很不同的。
 `./source`代表整个文件夹，`./source/`代表这个文件夹下的所有文件。
@@ -1786,7 +1788,8 @@ $ rsync -avP <FROM> <TO>
 # 正常copy，同cp命令
 $ rsync <source>/ <target>/
 
-# 完全同步 --recursive --delete 如果source中没有的，target目录中有的会被删除
+# 完全同步 --recursive --delete 注意这两个是固定搭配
+# 如果source中没有的，target目录中有的会被删除
 $ rsync -r --delete <source>/ <target>/
 ```
 
