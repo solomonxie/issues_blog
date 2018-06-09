@@ -1658,7 +1658,7 @@ Strategy:
 [Refer to Khan academy: Average value over a closed interval](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/average-function-value-closed-interval)
 [Refer to video: Average Value of a Function on an Interval](https://www.youtube.com/watch?v=K-H86pxiBlk)
 
-Calculating `Favg` is just to get the actual area of the function, 
+> Calculating `Favg` is just to get the actual area of the function, 
 and then "reform" it to a rectangle, 
 then divide it by its width, then you get the height.
 
