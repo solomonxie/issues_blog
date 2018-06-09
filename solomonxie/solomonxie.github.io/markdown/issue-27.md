@@ -1744,3 +1744,22 @@ $ pdftohtml -f 1 -l 2 sample.pdf sample.html
 - 按 `!!`和回车
 - 输入`!-1` 和回车
 - 按 `Ctrl+P`或`Ctrl+N`上下滚动
+
+
+# Linux的cp, mv, rm等显示当前操作或进度的方法
+
+## mv
+```sh
+$ mv -v ./src/* /tmp
+```
+
+## rm
+```sh
+# 
+```
+
+## cp
+```sh
+# 使用rsync命令代替
+$ rsync -avP <FROM> <TO>
+```
