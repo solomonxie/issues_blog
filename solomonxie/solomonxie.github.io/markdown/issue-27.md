@@ -1768,3 +1768,28 @@ $ cp -vr <from> <to>
 # 使用rsync命令代替
 $ rsync -avP <FROM> <TO>
 ```
+
+
+# rsync 强大的远程、本地文件夹同步工具
+
+一般Mac、Ubuntu等主流*nix系统，都原生搭配了这个命令，非常好用。但是命令比较复杂，需要学习。
+
+注意事项：
+- 目录名后有或没有`/`是很不同的。
+`./source`代表整个文件夹，`./source/`代表这个文件夹下的所有文件。
+- 不是所有参数都能混合在一起用的，经常会互相冲突
+
+
+## 本地同步
+以下为常用的同步语句：
+```sh
+# 正常copy，同cp命令
+$ rsync <source>/ <target>/
+
+# 完全同步 --recursive --delete 如果source中没有的，target目录中有的会被删除
+$ rsync -r --delete <source>/ <target>/
+```
+
+
+## 远程同步
+
