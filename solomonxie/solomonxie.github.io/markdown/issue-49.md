@@ -1625,7 +1625,7 @@ Trick & Strategy:
 
 
 
-# `Partial fraction` → Quotient Rule
+# `Partial fractions` → Logarithm Rule
 > A technique for integrating `Rational functions`.
 
 [Refer to Khan academy: Partial fraction expansion to evaluate integral](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/partial-fraction-expansion-to-integrate)
