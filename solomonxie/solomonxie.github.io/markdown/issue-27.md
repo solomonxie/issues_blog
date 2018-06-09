@@ -1756,8 +1756,8 @@ $ mv -v ./src/* /tmp
 
 ## rm
 ```sh
-# -v 和-r参数 verbose & recursive
-$ rm -vr
+# -v 和-r参数 注意文件列表太多的话会不执行
+$ rm -vr <from> <to>
 ```
 
 ## cp
