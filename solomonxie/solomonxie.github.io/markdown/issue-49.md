@@ -1622,3 +1622,8 @@ Trick & Strategy:
 - Better to choose  the **easier** one as `f(x)` when taking derivative.
 
 ### Example
+
+
+
+# `Partial fraction expansion` → Quotient Rule
+> A technique for integrating `Rational functions`.
