@@ -1609,7 +1609,7 @@ Solve:
 # `Integration by Parts → Product Rule`
 > It's the `Reverse Product Rule`. 
 And here is the formula to solve the integration by parts: 
-(just to simplify, it ignored the `dx` in the integral)
+(just to simplify, I ignored the `dx` in the integral, you get the idea)
 
 ![image](https://user-images.githubusercontent.com/14041622/41188956-6cae866e-6bf9-11e8-9b90-1de7296630d8.png)
 
