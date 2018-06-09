@@ -1635,5 +1635,4 @@ Example:
 This process is to break down the `Rational Function` to some simple fractions, 
 which assume there are `A & B`  leads to a system of equation:
 - `(A+B)·x + (B-A) = 1·x + (-4)`
-- So `(A+B) = 1` and `(B-A) = -4`
-- And we get `A = 5/2` & `B = -3/2`
+- So `(A+B) = 1` and `(B-A) = -4`, which gets us `A = 5/2` & `B = -3/2`
