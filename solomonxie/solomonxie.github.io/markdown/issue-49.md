@@ -1594,7 +1594,7 @@ Solve:
 
 
 
-# `U-Substitution: The Reverse Chain Rule`
+# `U-substitution → Chain Rule`
 
 > The `u-substitution` is really to **UNDO** the `Chain Rule`.
 
@@ -1604,7 +1604,9 @@ Solve:
 [Refer to Khan academy: 𝘶-substitution: defining 𝘶](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/u-substitution-defining-u)
 
 
-# `Integration by Parts`
+# `Integration by Parts → Product Rule`
 > It's the `Reverse Product Rule`.
 
 [Refer to Khan academy: Integration by parts intro](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/deriving-integration-by-parts-formula)
+
+![image](https://user-images.githubusercontent.com/14041622/41188854-63f15d8c-6bf7-11e8-8120-e38e247e5911.png)
