@@ -1594,7 +1594,7 @@ Solve:
 
 
 
-# `U-substitution → Chain Rule`
+# `U-substitution` → Chain Rule
 
 > The `u-substitution` is to solve an integral of **composite function**, which is actually to **UNDO** the `Chain Rule`, .
 
@@ -1606,7 +1606,7 @@ Solve:
 ### Example
 
 
-# `Integration by Parts → Product Rule`
+# `Integration by Parts` → Product Rule
 > It's the `Reverse Product Rule`. 
 And here is the formula to solve the integration by parts: 
 (just to simplify, I ignored the `dx` in the integral, you get the idea)
