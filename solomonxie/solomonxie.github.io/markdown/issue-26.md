@@ -1,4 +1,4 @@
-# Raspberry Pi 疑难杂症
+# RPi & Hardware Engineering 树莓派及硬件工程师
 ## 记录学习树莓派过程中遇到的各种问题及解决方案
 
 
