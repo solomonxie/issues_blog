@@ -1619,6 +1619,6 @@ And here is the formula to solve the integration by parts:
 Trick & Strategy:
 - Recognize it's an integral with functions' product:
 - Carefully choose which function to be `f(x)` and the other to be `g'(x)`.
-- Better to choose the `f(x)` to be the **easier** one to take the derivative.
+- Better to choose  the **easier** one as `f(x)` when taking derivative.
 
 ### Example
