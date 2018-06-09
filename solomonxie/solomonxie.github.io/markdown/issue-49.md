@@ -1636,3 +1636,15 @@ This process is to break down the `Rational Function` to some simple fractions,
 which assume there are `A & B`  leads to a system of equation:
 - `(A+B)·x + (B-A) = 1·x + (-4)`
 - So `(A+B) = 1` and `(B-A) = -4`, which gets us `A = 5/2` & `B = -3/2`
+
+
+Strategy:
+- Look at the `Nominator` & `Dominator`'s degrees.
+- If the dominator's degrees are higher or equal than the nominator, we do `Long division of polynomial` to downgrade it.
+- Try to **`factorize`** the `dominator` if you can.
+    - Assume two variables `A & B`
+    - Apply the `Partial Fraction Expansion` technique.
+- Apply the basic `Logarithm Rule` to solve the parts.
+
+
+### Example
