@@ -651,9 +651,8 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40358703-b872e8f2-5df2-11e8-9230-88d5a5bb8059.png)
 
 ## `Intermediate Value Theorem (IVT)`
-
-The definition is quite simple:
-When we have 2 points **connected** by a **continuous** curve:
+The IVT is saying:
+> When we have 2 points **connected** by a **continuous** curve:
 one point **below** the line, the other point **above** the line,
 then there will be at least one place where the curve crosses the line!
 
@@ -675,6 +674,10 @@ Solve:
 - Calculate `f(c)=0` get the root `c=4`.
 
 ## `Extreme Value Theorem (EVT)`
+The EVT is saying:
+> There **MUST BE** a **`Max & Min`** value,
+if the function is continuous over the closed interval.
+
 ![image](https://user-images.githubusercontent.com/14041622/40359648-16501adc-5df6-11e8-87df-67f066ec8235.png)
 
 [Refer to Khan lecture: Extreme value theorem](https://www.khanacademy.org/math/ap-calculus-ab/ab-existence-theorems/modal/v/extreme-value-theorem)
@@ -684,9 +687,9 @@ Solve:
 
 [Refer to Khan academy article: Establishing differentiability for MVT](https://www.khanacademy.org/math/ap-calculus-ab/ab-existence-theorems/modal/a/review-establishing-differentiability-for-mvt)
 
-> The `MVT` is saying: 
-If your function is **CONTINUOUS** over `[a,b]` and **DIFFERENTIABLE** over `(a,b)`, 
-then there **MUST BE** a **tangent line** has the same slope with the **Secant line**.
+The MVT is saying: 
+> There **MUST BE** a `tangent line` that has the same slope with the `Secant line`,
+if the function is **CONTINUOUS** over `[a,b]` and **DIFFERENTIABLE** over `(a,b)`.
 
 Which also means that, if the conditions are satisfied, then there **MUST BE** a number `c` makes the **derivative** is equal to the **`Average Rate of Change`** between the two end points.
 ![image](https://user-images.githubusercontent.com/14041622/40409998-308d166c-5e9f-11e8-9871-829dc7f66658.png)
