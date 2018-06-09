@@ -230,7 +230,7 @@ $ git checkout -- file.txt
 $ git checkout -- .
 ```
 
-## Git 撤销commit
+## Git 删除commit
 **一旦commit，就不能撤销！会永远留在历史里面。**
 
 ## Git 修改commit
