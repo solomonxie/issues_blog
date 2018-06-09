@@ -1786,11 +1786,11 @@ $ rsync -avP <FROM> <TO>
 以下为常用的同步语句：
 ```sh
 # 正常copy，同cp命令
-$ rsync -r ~/src/* ~/target/
+$ rsync -r ./src/ .target/
 
 # 完全同步 --recursive --delete 注意这两个是固定搭配
 # 如果source中没有的，target目录中有的会被删除
-$ rsync -r --delete ~/src/* ~/target/
+$ rsync -r --delete ./src/ ./target/
 ```
 
 
@@ -1798,8 +1798,8 @@ $ rsync -r --delete ~/src/* ~/target/
 
 ```sh
 # 本地文件夹同步到远程 (通过SSH方式)
-$ rsync -r  ~/test/* pi@192.168.1.123:/home/pi/test
+$ rsync -r  ~/local/ pi@192.168.1.123:/home/pi/remote
 
 # 远程文件夹同步到本地 (SSH)
-$ rsync -r pi@192.168.1.123:/home/pi/test ~/test/
+$ rsync -r pi@192.168.1.123:/home/pi/remote ~/local/
 ```
