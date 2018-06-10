@@ -1620,7 +1620,7 @@ Strategy:
 
 
 
-## How to choose `u`
+## How to select u
 Selecting `u` is the most tricky part here.
 
 ### Example
@@ -1648,6 +1648,14 @@ Solve:
 - So with `u' · dx = du` we will get the simplified form `ʃ u⁶ · du = u⁷/7`
 - Back substitute function of u back to get the result:
 ![image](https://user-images.githubusercontent.com/14041622/41199726-ab98a69a-6cc9-11e8-8668-81af56546b56.png)
+
+
+## How to calculate Definite Integral with u-substitution
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41199835-b8df21e2-6ccb-11e8-9af1-8792a1246f7f.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41199860-0c9777bc-6ccc-11e8-82c8-fdd7f9cf2834.png)
 
 
 
