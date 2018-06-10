@@ -1604,7 +1604,13 @@ Solve:
 
 [Refer to Khan academy: 𝘶-substitution: defining 𝘶](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/u-substitution-defining-u)
 
+## How to choose `u`
+Selecting `u` is the most tricky part here.
+
 ### Example
+![image](https://user-images.githubusercontent.com/14041622/41199364-20690d4a-6cc3-11e8-8321-298f580942ff.png)
+Solve:
+
 
 
 # `Integration by Parts` → Product Rule
