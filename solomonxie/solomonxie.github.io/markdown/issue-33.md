@@ -253,5 +253,9 @@ $ ssh admin@192.168.1.111 -p 26
 ```
 
 关于Shell：
-主页面设定里，还有可以设定Shell的地方，默认是BitviseShell。不是很好用，命令很少。
-可以自己尝试一下别的shell。
+新版本的BitviseShell，是可以自定义Shell的，默认是BvShell。不是很好用，命令极少几乎没什么用处。
+还可以选择Bash、Powershell等。
+不过经过测试，选择Bash需要自己指定bash的路径，我用的是Git_bash，无法使用。
+所以还是老老实实选择Powershell或CMD吧。
+设置位置在：
+`Open easy settings -> 3.Virtual accounts -> Edit -> Shell access type`
