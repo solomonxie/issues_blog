@@ -1658,6 +1658,12 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41199860-0c9777bc-6ccc-11e8-82c8-fdd7f9cf2834.png)
 
 
+### Example (self-make u')
+![image](https://user-images.githubusercontent.com/14041622/41199875-4f21f616-6ccc-11e8-8345-88b87776b55e.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41199928-85363f5e-6ccd-11e8-90fa-85576c7644af.png)
+
+
 
 # `Integration by Parts` → Product Rule
 > It's the `Reverse Product Rule`. 
