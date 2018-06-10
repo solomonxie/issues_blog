@@ -1639,6 +1639,17 @@ Solve:
 - So that we can make `u'·dx = du` and the integral becomes `ʃ 1/u · du`
 - Quite nice, so the answer would be out of there.
 
+## How to calculate Indefinite Integral with u-substitution
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41199717-4f973988-6cc9-11e8-967d-2ff5c55edc27.png)
+Solve:
+- With a real quick eyeballing, we see it's in form of `ʃ u' · u⁶ · dx`
+- So with `u' · dx = du` we will get the simplified form `ʃ u⁶ · du = u⁷/7`
+- Back substitute function of u back to get the result:
+![image](https://user-images.githubusercontent.com/14041622/41199726-ab98a69a-6cc9-11e8-8668-81af56546b56.png)
+
+
 
 # `Integration by Parts` → Product Rule
 > It's the `Reverse Product Rule`. 
