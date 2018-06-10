@@ -1597,12 +1597,28 @@ Solve:
 
 # `U-substitution` → Chain Rule
 
-> The `u-substitution` is to solve an integral of **composite function**, which is actually to **UNDO** the `Chain Rule`, .
+> The `u-substitution` is to solve an integral of **composite function**, which is actually to **UNDO** the `Chain Rule`.
 
-- Taking the **derivative** of a COMPOSITE function, we apply the `Chain rule`.
-- Taking the **integral** of a COMPOSITE function, we apply the `u-substitution`.
+Compare how we handle the composite functions with derivatives & integrals:
+- For taking the **derivative** of a COMPOSITE function, we apply the `Chain rule`.
+- For taking the **integral** of a COMPOSITE function, we apply the `u-substitution`.
 
 [Refer to Khan academy: 𝘶-substitution: defining 𝘶](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/u-substitution-defining-u)
+
+We use `u-substitution` when we need to integrate an expression of the form of:
+![image](https://user-images.githubusercontent.com/14041622/41199461-2b25c604-6cc5-11e8-8f2a-d7437c60e9cc.png)
+
+
+Strategy:
+- Find a function as `u`
+- Find or **MAKE** an `u'` at the outside so that you can pair `u'` with `dx`
+- Replace `u' · dx` with `du`, because `u' = du/dx`
+- Rewrite the Integral in term of `u`, and calculate the integral
+- Back substitute the function of `u` back to the result.
+
+![image](https://user-images.githubusercontent.com/14041622/41199604-5e003a30-6cc7-11e8-807f-ee0c5f39673e.png)
+
+
 
 ## How to choose `u`
 Selecting `u` is the most tricky part here.
@@ -1610,7 +1626,11 @@ Selecting `u` is the most tricky part here.
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41199364-20690d4a-6cc3-11e8-8321-298f580942ff.png)
 Solve:
-
+- Apparently, we ignore the wrapper `sin()` here.
+- We notice that the derivative of `-x+2` is `-1` which we could find it at outside.
+- So let `u = -x+2` and `u' = -1`
+- So rewrite the integral to `ʃ sin(u) · u' · dx = ʃ sin(u) · du`
+- It looks quite neat, so the `u = -x+2` is alright.
 
 
 # `Integration by Parts` → Product Rule
