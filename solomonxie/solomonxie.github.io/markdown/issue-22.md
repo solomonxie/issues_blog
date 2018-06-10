@@ -29,3 +29,9 @@
 
 ## 公式
 ![image](https://user-images.githubusercontent.com/14041622/40412741-b9c88982-5ea6-11e8-9a7c-9201755e14be.png)
+
+
+
+# `Software Licensing`
+
+> GPL AGPL BSD MIT APACHE EULA
