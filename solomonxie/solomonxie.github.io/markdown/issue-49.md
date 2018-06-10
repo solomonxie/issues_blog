@@ -1632,6 +1632,13 @@ Solve:
 - So rewrite the integral to `ʃ sin(u) · u' · dx = ʃ sin(u) · du`
 - It looks quite neat, so the `u = -x+2` is alright.
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41199651-26c796b6-6cc8-11e8-9cc1-82c162bf71c0.png)
+Solve:
+- Apparently it's in form of `ʃ u'/u · dx`
+- So that we can make `u'·dx = du` and the integral becomes `ʃ 1/u · du`
+- Quite nice, so the answer would be out of there.
+
 
 # `Integration by Parts` → Product Rule
 > It's the `Reverse Product Rule`. 
