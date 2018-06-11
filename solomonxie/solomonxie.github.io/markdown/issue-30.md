@@ -349,7 +349,7 @@ vscode原生带有文件对比功能，而且不是单纯的同时滚动。
 
 网上看到别人的命令行右面竟然有个漂亮的时间戳，非常好奇。搜了下发现竟然是zsh的主题，叫`powerlevel9k`。
 
-![image](https://user-images.githubusercontent.com/14041622/41210540-0a67d7c2-6d65-11e8-99df-9dfcd0173407.png)
+![image](https://user-images.githubusercontent.com/14041622/41210885-b469a786-6d66-11e8-892d-d8e42d7228be.png)
 
 参考Github官方文档：https://github.com/bhilburn/powerlevel9k
 
@@ -373,5 +373,12 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 ```vim
 export TERM="xterm-256color"
 ```
-
 ![image](https://user-images.githubusercontent.com/14041622/41210748-15bf2228-6d66-11e8-8ccd-f18db9ef9021.png)
+
+
+## 常用配置
+```vim
+#新起一行显示命令 （推荐，极其方便）
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true  
+
+```
