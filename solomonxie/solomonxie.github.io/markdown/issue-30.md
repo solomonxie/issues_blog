@@ -361,3 +361,13 @@ $ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/the
 ```vim
 ZSH_THEME="powerlevel9k/powerlevel9k"
 ```
+
+安装后有可能会提示你的终端色彩不够256色问题，
+![image](https://user-images.githubusercontent.com/14041622/41210716-edfb60c6-6d65-11e8-96c0-bdc72de1bf08.png)
+
+可以找它建议的，直接在`~/.zshrc`中强制指定终端色彩来解决：
+```vim
+export TERM="xterm-256color"
+```
+
+![image](https://user-images.githubusercontent.com/14041622/41210748-15bf2228-6d66-11e8-8ccd-f18db9ef9021.png)
