@@ -1668,10 +1668,8 @@ Solve:
 # `Integration by Parts` → Product Rule
 > It's the `Reverse Product Rule`. 
 And here is the formula to solve the integration by parts: 
-(just to simplify, I ignored the `dx` in the integral, you get the idea)
 
-![image](https://user-images.githubusercontent.com/14041622/41188956-6cae866e-6bf9-11e8-9b90-1de7296630d8.png)
-
+![image](https://user-images.githubusercontent.com/14041622/41225631-d4517296-6da1-11e8-8bc7-1e7772fcea42.png)
 
 [Refer to Khan academy: Integration by parts intro](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/deriving-integration-by-parts-formula)
 
@@ -1681,6 +1679,9 @@ Trick & Strategy:
 - Better to choose  the **easier** one as `f(x)` when taking derivative.
 
 ### Example
+![image](https://user-images.githubusercontent.com/14041622/41225746-1df96be2-6da2-11e8-9cc4-4609c162e9f5.png)
+Solve:
+[Refer to Symbolab](https://www.symbolab.com/solver/step-by-step/%5Cint_%7B0%7D%5E%7B%5Cpi%7D%20x%5Ccdot%20sin%5Cleft(2x%5Cright)dx)
 
 
 
