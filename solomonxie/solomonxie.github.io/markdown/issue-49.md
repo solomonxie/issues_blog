@@ -1647,11 +1647,22 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41199860-0c9777bc-6ccc-11e8-82c8-fdd7f9cf2834.png)
 
 
-### Example (self-make u')
+### Example (self-made u')
 ![image](https://user-images.githubusercontent.com/14041622/41199875-4f21f616-6ccc-11e8-8345-88b87776b55e.png)
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41199928-85363f5e-6ccd-11e8-90fa-85576c7644af.png)
 
+
+### Example (Inverse Trig Rule)
+![image](https://user-images.githubusercontent.com/14041622/41222752-78c54b48-6d9a-11e8-899c-9e70e55541a4.png)
+Solve:
+- Notice this radical form should directly use the Reversed Inverse Trig Rule:
+![image](https://user-images.githubusercontent.com/14041622/41222912-dfe27530-6d9a-11e8-8d02-3c5f763c77e2.png)
+- So that we assume `a = 1 & u = 3x`.
+- Since `u' = 3` so we need to make a `3` from nowhere.
+- Rewrite the formula to: `1/3 ʃ 3/(1+u²) ·dx = 1/3 ʃ 1/(1+u²) ·du`
+- Apply the Reversed Inverse Trig Rule to get: `1/3 arctan(u) + C`
+- Back substitute `3x` to `u` and the boundaries back to `x` get the result `π/6`.
 
 
 # `Integration by Parts` → Product Rule
