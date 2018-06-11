@@ -387,7 +387,7 @@ export TERM="xterm-256color"
 # 左侧栏目显示的要素（指定的关键字参考官网）
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon context dir vcs)
 # 右侧栏目显示的要素
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time virtualenv)
 #新起一行显示命令 (推荐！极其方便）
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 #右侧状态栏与命令在同一行
@@ -395,7 +395,7 @@ POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
 #缩短目录层级
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 #缩短目录策略：隐藏上层目录中间的字
-POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
+#POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
 #添加连接上下连接箭头更方便查看
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="↱"
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="↳ "
@@ -419,9 +419,10 @@ POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='black'
 在`POWERLEVEL9K_LEFT_PROMPT_ELEMENTS`或者`POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS`中添加`virtualenv`要素，就能够显示了。
 如：
 ```vim
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv os_icon context dir vcs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon context dir vcs virtualenv)
 ```
-![image](https://user-images.githubusercontent.com/14041622/41213247-9d5b726c-6d76-11e8-9d39-9a28f2b9dff8.png)
+![image](https://user-images.githubusercontent.com/14041622/41213334-525aebac-6d77-11e8-8273-de67dabb660d.png)
+
 
 但是也有不能正常显示的时候，而且还会报错：
 ```sh
