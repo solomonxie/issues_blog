@@ -1905,7 +1905,7 @@ The rate WILL NOT going to boost to infinite but only approaching to `2.72` but 
 
 The larger `n` is, the closer it is to `2.72`.
 
-## `Natural Logarithm (ln)`
+## `Natural Log (ln)`
 > The natural logarithm of a number is its logarithm to the **base** of the math constant 𝗲.
 
 [Refer to wiki.](https://en.wikipedia.org/wiki/Natural_logarithm)
@@ -1913,7 +1913,7 @@ The larger `n` is, the closer it is to `2.72`.
 ![image](https://user-images.githubusercontent.com/14041622/39976635-67c27b02-5767-11e8-9255-3c75eb7e916d.png)
 
 
-## `Common Logarithm ((log₁₀𝒙)`
+## `Common Log ((log₁₀𝒙)`
 > The common logarithm is the logarithm with base 10.
 
 [Refer to Wiki.](https://en.wikipedia.org/wiki/Common_logarithm)
@@ -1921,33 +1921,33 @@ The larger `n` is, the closer it is to `2.72`.
 ![image](https://user-images.githubusercontent.com/14041622/39976614-50b80b84-5767-11e8-91a7-d1adaadf2274.png)
 
 
-## `Logarithm` properties
+## `Log Rules & Properties`
 
 [Khan note.](https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/properties-of-logarithms/a/properties-of-logarithms)
 
 ![image](https://user-images.githubusercontent.com/14041622/37765404-fd4f09f2-2dfe-11e8-98c0-7a696dd8e923.png)
 
 
-## `Product rule`
+## `Product Rule`
 ![image](https://user-images.githubusercontent.com/14041622/37764343-6b788b04-2dfc-11e8-9136-cd86addc6386.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/37764460-b70b77ca-2dfc-11e8-8f8b-317223d3b34a.png)
 ![image](https://user-images.githubusercontent.com/14041622/37764440-a9cfb86e-2dfc-11e8-986c-ba58345b66fc.png)
 
-## `Quotient rule`
+## `Quotient Rule`
 ![image](https://user-images.githubusercontent.com/14041622/37764379-8875d8f6-2dfc-11e8-91df-829b5b731dd6.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/37764393-8dd79424-2dfc-11e8-8b5c-31d04b6c06d4.png)
 ![image](https://user-images.githubusercontent.com/14041622/37764488-c59ade2a-2dfc-11e8-866e-8e87ee9cef1e.png)
 
-## `Power rule`
+## `Power Rule`
 ![image](https://user-images.githubusercontent.com/14041622/37764506-d35ee808-2dfc-11e8-9fd9-519e6600c8c4.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/37764516-d90fe676-2dfc-11e8-9955-2ccccfbfc2cb.png)
 ![image](https://user-images.githubusercontent.com/14041622/37764519-dd92b796-2dfc-11e8-9faa-c42f57c1ed96.png)
 
 
-## `Change of base rule`
+## `Change of Base Rule`
 ![image](https://user-images.githubusercontent.com/14041622/37765285-c3289ad6-2dfe-11e8-93d1-933b69559eb8.png)
 ![image](https://user-images.githubusercontent.com/14041622/37765305-d7863dbc-2dfe-11e8-82e7-4f4067c3031e.png)
 
@@ -1955,6 +1955,8 @@ The larger `n` is, the closer it is to `2.72`.
 
 ## Other rules
 ![image](https://user-images.githubusercontent.com/14041622/41223876-9ae8b090-6d9d-11e8-8414-05fc9062cd1b.png)
+
+![image](https://user-images.githubusercontent.com/14041622/41223936-b955c392-6d9d-11e8-86cb-f8f62980b9bc.png)
 
 
 
