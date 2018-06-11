@@ -338,6 +338,8 @@ Inverse Trig Rules | sin⁻¹(x) | 1/√(1−x²)
                                      | tan⁻¹(x) | 1/(1+x²)
 
 
+> [`Jump over to Basic Integral Rules`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-395356656)
+
 
 # `Chain Rule`
 > One of the **core principles** in Calculus is the Chain Rule.
