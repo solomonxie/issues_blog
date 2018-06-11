@@ -1447,7 +1447,7 @@ Solve:
 
 
 
-# Reversed Rules for Integration
+# Basic Integral Rules
 Remember there're a bunch of `Differential Rules` for calculating derivatives.
 And for integration we need to reverse them.
 
