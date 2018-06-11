@@ -1454,6 +1454,8 @@ And for integration we need to reverse them.
 [Refer to Lamar's math book: Common Derivatives and Integrals [PDF]](https://github.com/solomonxie/solomonxie.github.io/files/2088979/Common_Derivatives_Integrals.pdf)
 [Refer to Khan academy article: Common integrals review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/bc-common-indefinite-int/a/common-integrals-review)
 
+[Jump back to review the basic differential rules](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-390102382)
+
 ## Reversed Polynomial Rules
 ![image](https://user-images.githubusercontent.com/14041622/41217568-d778948e-6d8a-11e8-9246-a8aec6914947.png)
 
