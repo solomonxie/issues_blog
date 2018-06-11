@@ -315,6 +315,8 @@ Solve:
 
 [Refer to Math is fun: Derivative Rules](https://www.mathsisfun.com/calculus/derivatives-rules.html)
 
+> [`Jump over to Basic Integral Rules`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-395356656)
+
 Rules | Function | Derivative
 -- | -- | --
 Constant | c | 0
@@ -337,8 +339,6 @@ Inverse Trig Rules | sin⁻¹(x) | 1/√(1−x²)
                                      | cos⁻¹(x) | −1/√(1−x²)
                                      | tan⁻¹(x) | 1/(1+x²)
 
-
-> [`Jump over to Basic Integral Rules`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-395356656)
 
 
 # `Chain Rule`
@@ -1456,7 +1456,7 @@ And for integration we need to reverse them.
 [Refer to Lamar's math book: Common Derivatives and Integrals [PDF]](https://github.com/solomonxie/solomonxie.github.io/files/2088979/Common_Derivatives_Integrals.pdf)
 [Refer to Khan academy article: Common integrals review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/bc-common-indefinite-int/a/common-integrals-review)
 
-[Jump back to review the basic differential rules](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-390102382)
+> [`Jump back to review the basic differential rules`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-390102382)
 
 ## Reversed Polynomial Rules
 ![image](https://user-images.githubusercontent.com/14041622/41217568-d778948e-6d8a-11e8-9246-a8aec6914947.png)
