@@ -315,19 +315,9 @@ Solve:
 
 [Refer to Math is fun: Derivative Rules](https://www.mathsisfun.com/calculus/derivatives-rules.html)
 
-## Easy Derivatives
-Functions | Function | Derivative
--- | -- | --
-Constant | c | 0
-Line | x | 1
-        | ax | a
-Square | x² | 2x
-Square Root | √x | ![image](https://user-images.githubusercontent.com/14041622/40228460-eca5310c-5ac3-11e8-91c1-1ef393f60202.png)
-
-
-## Common Rules for multiple functions
 Rules | Function | Derivative
 -- | -- | --
+Constant | c | 0
 With constant | c·f | c·f’
 Power Rule | xⁿ | n·xⁿ⁻¹
 Sum Rule | f + g | f’ + g’
