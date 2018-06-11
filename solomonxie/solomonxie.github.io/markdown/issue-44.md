@@ -1905,16 +1905,16 @@ The rate WILL NOT going to boost to infinite but only approaching to `2.72` but 
 
 The larger `n` is, the closer it is to `2.72`.
 
-## `Natural Logarithm (Ln)`
-> The natural logarithm of a number is its logarithm to the **base** of the math constant _e_.
+## `Natural Logarithm (ln)`
+> The natural logarithm of a number is its logarithm to the **base** of the math constant 𝗲.
 
 [Refer to wiki.](https://en.wikipedia.org/wiki/Natural_logarithm)
 
 ![image](https://user-images.githubusercontent.com/14041622/39976635-67c27b02-5767-11e8-9255-3c75eb7e916d.png)
 
 
-## `Common Logarithm`
-> The common logarithm (Log₁₀X) is the logarithm with base 10.
+## `Common Logarithm ((log₁₀𝒙)`
+> The common logarithm is the logarithm with base 10.
 
 [Refer to Wiki.](https://en.wikipedia.org/wiki/Common_logarithm)
 
@@ -1953,6 +1953,8 @@ The larger `n` is, the closer it is to `2.72`.
 
 ![image](https://user-images.githubusercontent.com/14041622/37765295-c96c2d0e-2dfe-11e8-94ec-ba24a20222a6.png)
 
+## Other rules
+![image](https://user-images.githubusercontent.com/14041622/41223876-9ae8b090-6d9d-11e8-8414-05fc9062cd1b.png)
 
 
 
