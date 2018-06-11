@@ -377,7 +377,9 @@ export TERM="xterm-256color"
 
 
 ## 常用配置
-参考官方推荐的各种用户配置（带各种截图）：https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config
+
+默认配置参考官方说明：https://github.com/bhilburn/powerlevel9k/wiki/Stylizing-Your-Prompt
+官方推荐的各种用户配置（带各种截图）：https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config
 
 ```vim
 # ==== Theme Settings ====
