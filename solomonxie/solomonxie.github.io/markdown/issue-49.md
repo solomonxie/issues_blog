@@ -315,7 +315,7 @@ Solve:
 
 [Refer to Math is fun: Derivative Rules](https://www.mathsisfun.com/calculus/derivatives-rules.html)
 
-## Derivative of Single Common Functions
+## Easy Derivatives
 Functions | Function | Derivative
 -- | -- | --
 Constant | c | 0
@@ -323,17 +323,6 @@ Line | x | 1
         | ax | a
 Square | x² | 2x
 Square Root | √x | ![image](https://user-images.githubusercontent.com/14041622/40228460-eca5310c-5ac3-11e8-91c1-1ef393f60202.png)
-Exponential Rules | eˣ | eˣ
-                     | aˣ | aˣ · ln(a)
-Logarithm Rules | ln(x) | 1/x
-                    | loga(x) | 1 / (x·ln(a))
-Trig Rules    | sin(x) | cos(x)
-                                                   | cos(x) | −sin(x)
-                                                   | tan(x) | sec²(x)
-Inverse Trig Rules | sin⁻¹(x) | 1/√(1−x²)
-                                     | cos⁻¹(x) | −1/√(1−x²)
-                                     | tan⁻¹(x) | 1/(1+x²)
-
 
 
 ## Common Rules for multiple functions
@@ -347,6 +336,16 @@ Product Rule | f · g | fg’ + f’ g
 Quotient Rule | f / g | (f’g − g’f ) / g²
 Reciprocal Rule | 1 / f | −f’ / f²
 Chain Rule | f(g(x)) | f’(g(x)) · g’(x)
+Exponential Rules | eˣ | eˣ
+                     | aˣ | aˣ · ln(a)
+Logarithm Rules | ln(x) | 1/x
+                    | loga(x) | 1 / (x·ln(a))
+Trig Rules    | sin(x) | cos(x)
+                                                   | cos(x) | −sin(x)
+                                                   | tan(x) | sec²(x)
+Inverse Trig Rules | sin⁻¹(x) | 1/√(1−x²)
+                                     | cos⁻¹(x) | −1/√(1−x²)
+                                     | tan⁻¹(x) | 1/(1+x²)
 
 
 
