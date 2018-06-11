@@ -314,3 +314,22 @@ vscode原生带有文件对比功能，而且不是单纯的同时滚动。
 参考：https://github.com/Microsoft/vscode/issues/34762#issuecomment-331200325
 
 ![30705993-612e6586-9ef7-11e7-80b8-086330da4320](https://user-images.githubusercontent.com/14041622/41194824-3a38b186-6c54-11e8-8450-5a8c83e46f9b.gif)
+
+
+
+# Vscode终端Terminal无法显示zsh的字体问题
+
+一般ZSH字体都很漂亮，不是`Meslo`就是`DroidSansMono`，但是vscode的终端显示不出来，如下：
+![image](https://user-images.githubusercontent.com/14041622/41209638-58d41390-6d5f-11e8-9302-7e35fca7fdb4.png)
+
+这点需要在vscode的用户设定里设置字体才可以。
+打开用户设置，加上这两句话：
+```json
+# 指定终端的字体
+"terminal.integrated.fontFamily": "Meslo LG M Regular for Powerline",
+
+# 指定终端字大小
+"terminal.integrated.fontSize": 14
+```
+
+注意要检查你本地系统里有没有同名的字体，只有存在时才能正常显示。
