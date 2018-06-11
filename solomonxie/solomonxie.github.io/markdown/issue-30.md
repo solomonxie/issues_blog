@@ -377,8 +377,33 @@ export TERM="xterm-256color"
 
 
 ## 常用配置
-```vim
-#新起一行显示命令 （推荐，极其方便）
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true  
+参考官方推荐的各种用户配置（带各种截图）：https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config
 
+```vim
+# ==== Theme Settings ====
+# PowerLevel9k
+# 左侧栏目显示的要素（指定的关键字参考官网）
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon context dir vcs)
+# 右侧栏目显示的要素
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time)
+#新起一行显示命令 (推荐！极其方便）
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+#右侧状态栏与命令在同一行
+POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
+#缩短目录层级
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+#缩短目录策略：隐藏上层目录中间的字
+POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
+#添加连接上下连接箭头更方便查看
+POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="↱"
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="↳ "
+# 新的命令与上面的命令隔开一行
+#POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+# Git仓库状态的色彩指定
+POWERLEVEL9K_VCS_CLEAN_FOREGROUND='blue'
+POWERLEVEL9K_VCS_CLEAN_BACKGROUND='black'
+POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND='yellow'
+POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='black'
+POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='red'
+POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='black'
 ```
