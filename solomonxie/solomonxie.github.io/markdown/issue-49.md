@@ -1708,7 +1708,9 @@ Strategy:
 
 
 ### Example
-
+![image](https://user-images.githubusercontent.com/14041622/41226173-55f8981e-6da3-11e8-8acc-626aef8cef42.png)
+Solve:
+[Refer to Symbolab.](https://www.symbolab.com/solver/step-by-step/%5Cint%20%5Cfrac%7Bx-1%7D%7B2x%2B4%7Ddx)
 
 
 # `Average Value of Functions`
