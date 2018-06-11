@@ -409,3 +409,28 @@ POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='black'
 POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='red'
 POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='black'
 ```
+
+## Python的Virtualenv和Pipenv虚拟环境显示问题
+一般命令行里，进入虚拟环境的shell时会显示如`(venv) ~$ `这样的。
+但是安装这个主题后，默认是没有的。
+你必须手动设置添加才行。
+
+方法是：
+在`POWERLEVEL9K_LEFT_PROMPT_ELEMENTS`或者`POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS`中添加`virtualenv`要素，就能够显示了。
+如：
+```vim
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv os_icon context dir vcs)
+```
+![image](https://user-images.githubusercontent.com/14041622/41213247-9d5b726c-6d76-11e8-9d39-9a28f2b9dff8.png)
+
+但是也有不能正常显示的时候，而且还会报错：
+```sh
+$ pipenv shell
+Shell for UNKNOWN_VIRTUAL_ENVIRONMENT already activated.
+No action taken to avoid nested environments.
+```
+这个不是主题的问题，测试后发现换了主题还是这样显示，所以这是ZSH的问题。
+找了半天都没有结果怎么解决。
+结果发现，不需任何修改，
+
+只要关闭当前的终端窗口，重新打开就好了。
