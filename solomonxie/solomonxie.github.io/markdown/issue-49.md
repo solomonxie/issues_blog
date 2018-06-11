@@ -1710,6 +1710,7 @@ Strategy:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41226555-69edc06e-6da4-11e8-88e7-59a1c0cacf78.png)
 Solve:
+![image](https://user-images.githubusercontent.com/14041622/41226940-a442378a-6da5-11e8-9d67-66a8dc735ecd.png)
 
 
 ### Example
