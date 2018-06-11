@@ -343,3 +343,21 @@ vscode原生带有文件对比功能，而且不是单纯的同时滚动。
 
 根据众多vscode的issues，基本上都是通过这一个解决的。如果没有解决，只能是字体名字没写对或没有这个字体。
 一定要先检查自己的Terminal设置里的字体是不是一样的。
+
+
+# ZSH安装超酷的powerlevel9k主题
+
+网上看到别人的命令行右面竟然有个漂亮的时间戳，非常好奇。搜了下发现竟然是zsh的主题，叫`powerlevel9k`。
+
+![image](https://user-images.githubusercontent.com/14041622/41210540-0a67d7c2-6d65-11e8-99df-9dfcd0173407.png)
+
+有了Oh my zsh的话就安装非常简单，
+如下两步：
+- 下载主题
+```sh
+$ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+```
+- 在`~/.zshrc`的首行处引入主题（真的需要写在首行才能保证不出问题，所有主题都一样）：
+```vim
+ZSH_THEME="powerlevel9k/powerlevel9k"
+```
