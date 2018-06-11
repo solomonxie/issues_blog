@@ -351,6 +351,9 @@ vscode原生带有文件对比功能，而且不是单纯的同时滚动。
 
 ![image](https://user-images.githubusercontent.com/14041622/41210540-0a67d7c2-6d65-11e8-99df-9dfcd0173407.png)
 
+参考Github官方文档：https://github.com/bhilburn/powerlevel9k
+
+## 安装
 有了Oh my zsh的话就安装非常简单，
 如下两步：
 - 下载主题
@@ -362,6 +365,7 @@ $ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/the
 ZSH_THEME="powerlevel9k/powerlevel9k"
 ```
 
+## 色彩问题
 安装后有可能会提示你的终端色彩不够256色问题，
 ![image](https://user-images.githubusercontent.com/14041622/41210716-edfb60c6-6d65-11e8-96c0-bdc72de1bf08.png)
 
