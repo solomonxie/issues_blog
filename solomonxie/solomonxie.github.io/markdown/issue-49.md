@@ -1462,6 +1462,8 @@ Solve:
 Remember there're a bunch of `Differential Rules` for calculating derivatives.
 And for integration we need to reverse them.
 
+[Refer to Lamar's math book: Common Derivatives and Integrals [PDF]](https://github.com/solomonxie/solomonxie.github.io/files/2088979/Common_Derivatives_Integrals.pdf)
+
 [Refer to Khan academy article: Common integrals review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/bc-common-indefinite-int/a/common-integrals-review)
 
 ## Reverse Power Rule
@@ -1479,6 +1481,8 @@ And for integration we need to reverse them.
 ## Reverse Trig Rules
 ![image](https://user-images.githubusercontent.com/14041622/41093314-92c8fd20-6a7d-11e8-8743-e29accf22578.png)
 
+## Reversed Inverse Trig Rules
+![image](https://user-images.githubusercontent.com/14041622/41217269-f8ed1334-6d89-11e8-90f1-4dd4c6040a65.png)
 
 
 
