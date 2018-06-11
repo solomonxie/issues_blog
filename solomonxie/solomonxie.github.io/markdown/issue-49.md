@@ -20,7 +20,7 @@
 - [x] [Using derivatives to analyze functions](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/test/ab-derivatives-analyze-functions-unit-test)
 - [x] [Applications of derivatives](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-derivatives/modal/test/bc-applications-derivatives-unit-test)
 - [x] [Accumulation and Riemann sums](https://www.khanacademy.org/math/ap-calculus-bc/bc-accumulation-riemann-sums/modal/test/bc-accumulation-riemann-sums-unit-test)
-- [ ] [Antiderivatives and the fundamental theorem of calculus](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/test/bc-antiderivatives-ftc-unit-test)
+- [x] [Antiderivatives and the fundamental theorem of calculus](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/test/bc-antiderivatives-ftc-unit-test)
 - [ ] Differential equations
 - [ ] Applications of definite integrals
 - [ ] Series
