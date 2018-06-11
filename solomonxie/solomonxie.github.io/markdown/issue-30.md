@@ -435,3 +435,25 @@ No action taken to avoid nested environments.
 结果发现，不需任何修改，
 
 只要关闭当前的终端窗口，重新打开就好了。
+
+
+## 显示主机型号图标问题
+像这种显示当前主机（如Mac）图标和Git图标的问题，是需要字体支持的。
+
+![image](https://user-images.githubusercontent.com/14041622/41213569-b917bf4a-6d78-11e8-8d34-cadb7d3a74b2.png)
+
+默认是不开启的，必须要在`~/.zshrc`中指定使用这种方式显示：
+
+```vim
+#字体设定 (注意，字体设定必须放在主题之前）
+POWERLEVEL9K_MODE='nerdfont-complete'
+#主题设定
+ZSH_THEME="powerlevel9k/powerlevel9k"
+```
+
+上面的字体模式可选的有：
+- `nerdfont-complete`
+- `awesome-fontconfig`
+- `awesome-patched`
+
+根据你的情况来尝试，因为不是每个都能完美无乱码显示出来。
