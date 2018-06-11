@@ -1708,9 +1708,17 @@ Strategy:
 
 
 ### Example
+![image](https://user-images.githubusercontent.com/14041622/41226555-69edc06e-6da4-11e8-88e7-59a1c0cacf78.png)
+Solve:
+
+
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/41226173-55f8981e-6da3-11e8-8acc-626aef8cef42.png)
 Solve:
 [Refer to Symbolab.](https://www.symbolab.com/solver/step-by-step/%5Cint%20%5Cfrac%7Bx-1%7D%7B2x%2B4%7Ddx)
+![image](https://user-images.githubusercontent.com/14041622/41226547-5ee07d6a-6da4-11e8-906f-6f1c80876de9.png)
+
+
 
 
 # `Average Value of Functions`
