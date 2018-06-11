@@ -322,6 +322,8 @@ vscode原生带有文件对比功能，而且不是单纯的同时滚动。
 一般ZSH字体都很漂亮，不是`Meslo`就是`DroidSansMono`，但是vscode的终端显示不出来，如下：
 ![image](https://user-images.githubusercontent.com/14041622/41209638-58d41390-6d5f-11e8-9302-7e35fca7fdb4.png)
 
+参考：https://github.com/Microsoft/vscode/issues/15119#issuecomment-259248159
+
 这点需要在vscode的用户设定里设置字体才可以。
 打开用户设置，加上这两句话：
 ```json
