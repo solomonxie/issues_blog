@@ -1251,12 +1251,17 @@ export KEYTIMEOUT=1
 # Linux 文件搜索检索
 
 ## `Find`根据内容查找文件
-在某目录下查找所有含有某关键字的文件：
-```shell
-find 路径 * | xargs grep '关键字'
+`find`命令可以在指定目录及里面所有子文件夹的文件里搜索。不光可以按文件名搜索，还可以结合`grep`根据内容搜索。
 
-# 指定某种文件名或某种文件类型
-find 路径 -name '*.txt' | xargs grep '关键字'
+```shell
+# 根据文件名搜索
+find 路径 '*.jpg'
+
+# 根据文件名搜索 并且只显示内容中包括关键字的结果
+$ find 路径 -name '*.txt' | xargs grep '关键字'
+
+# 查找所有含有某关键字的文件：
+$ find 路径 * | xargs grep '关键字'
 ```
 
 
