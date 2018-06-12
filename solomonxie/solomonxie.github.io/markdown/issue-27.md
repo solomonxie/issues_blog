@@ -1250,12 +1250,12 @@ export KEYTIMEOUT=1
 
 # Linux 文件搜索检索
 
-## `Find`根据内容查找文件
+## `Find`查找文件
 `find`命令可以在指定目录及里面所有子文件夹的文件里搜索。不光可以按文件名搜索，还可以结合`grep`根据内容搜索。
 
 ```shell
 # 根据文件名搜索
-find 路径 '*.jpg'
+find 路径 -name '*.jpg'
 
 # 根据文件名搜索 并且只显示内容中包括关键字的结果
 $ find 路径 -name '*.txt' | xargs grep '关键字'
