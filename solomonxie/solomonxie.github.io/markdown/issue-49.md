@@ -1806,7 +1806,7 @@ It's using additional information to get the `C` in antiderivatives.
 
 
 # `Logistic Growth Model`
-`#LogisticGrowth #LogisticGrowthModel #LogisticEquation #LogisticModel #LogisticDifferentialEquation`
+> `#LogisticGrowth #LogisticGrowthModel #LogisticEquation #LogisticModel #LogisticDifferentialEquation`
 
 This is a very famous example of Differential Equation, and has been applied to numerous of real life problems as a model.
 It's originally a `Population Model` created by `Verhulst`, as studying the `population's growth`.
