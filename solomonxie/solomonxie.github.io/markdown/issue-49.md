@@ -204,6 +204,8 @@ And `the derivative of` is commonly written as:
 
 ### `How to understand dy/dx`
 
+[Refer to Khan academy from Differential Equation section: Addressing treating differentials algebraically](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/v/addressing-treating-differentials-algebraically)
+
 This is a review from "the future", which means while studying Calculus, you have to come back constantly to review what the `dy/dx` means.  ---- It's just so confusing.
 Without fully understanding the `dy/dx`, you will be lost at topics like `Differentiate Implicit functions`, `Related Rates` and such.
 
@@ -591,7 +593,12 @@ Solve:
 - So `A'(t) = d/dt · (π·r²) = 2π·r·r' = 2π·6·(S/2π)' = 6S' = 3π`
 
 
-# `Second derivatives`
+# Higher Order Derivatives
+- First order derivative: `f'(x)` or `dy/dx`, also called "First Derivative"
+- Second order derivative: `f''(x)` or `d²y/dx²`, also called "Second Derivative"
+- ...
+
+## `Second derivatives`
 The second derivative of a function is simply the derivative of the function's derivative.
 
 Notation:
