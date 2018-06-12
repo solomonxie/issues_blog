@@ -1823,3 +1823,6 @@ Refer to lectures: [▶Khan academy](https://www.youtube.com/watch?v=oiDvNs15tkE
 > population size ( N ), growth rate ( r ), exponential growth, carrying capacity ( K )
 
 It explains how density dependent limiting factors eventually decrease the growth rate until a population reaches a carrying capacity ( K ).
+
+
+## Solving Logistic Model Problems
