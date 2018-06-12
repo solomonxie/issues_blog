@@ -1807,3 +1807,5 @@ It's using additional information to get the `C` in antiderivatives.
 
 # `Logistic Differential Equation`
 
+The keywords below could be referring to the same topic:
+`#LogisticGrowth #LogisticGrowthModel #LogisticEquation #LogisticModel #LogisticDifferentialEquation`
