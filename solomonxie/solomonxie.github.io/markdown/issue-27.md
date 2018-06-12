@@ -1271,7 +1271,7 @@ $ find /dir/ -name "hello.jpg" |xargs -I '{}' mv  {} /target/
 
 结合`xargs`和`grep`根据文件内容搜索：
 ```sh
-$ find /dir/ 
+$ 
 ```
 
 
