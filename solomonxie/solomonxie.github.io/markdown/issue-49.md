@@ -1805,9 +1805,12 @@ It's using additional information to get the `C` in antiderivatives.
 # `Euler's Method`
 
 
-# `Logistic Equation`
-This is a very famous example of Differential Equation, and has been applied to numerous of real life problems as a model.
-It's originally a `Population Model`, as studying the `population's growth`.
-
-The keywords below could be referring to the same topic:
+# `Logistic Growth Model`
 `#LogisticGrowth #LogisticGrowthModel #LogisticEquation #LogisticModel #LogisticDifferentialEquation`
+
+This is a very famous example of Differential Equation, and has been applied to numerous of real life problems as a model.
+It's originally a `Population Model` created by `Verhulst`, as studying the `population's growth`.
+
+
+
+Refer to lectures: [MIT Gilbert Strang's](https://www.youtube.com/watch?v=TCkLSYxx21c), [The Organic Chemistry Tutor](https://www.youtube.com/watch?v=JgMvB22XQs0), [Krista King](https://www.youtube.com/watch?v=uemhtqZHnak)
