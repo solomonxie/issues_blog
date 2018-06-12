@@ -1255,14 +1255,25 @@ export KEYTIMEOUT=1
 
 ```shell
 # 根据文件名搜索
-find 路径 -name '*.jpg'
+$ find /dir/ -name '*.jpg'
 
 # 根据文件名搜索 并且只显示内容中包括关键字的结果
-$ find 路径 -name '*.txt' | xargs grep '关键字'
+$ find /dir/ -name '*.txt' | xargs grep 'KEYWORD'
 
 # 查找所有含有某关键字的文件：
-$ find 路径 * | xargs grep '关键字'
+$ find /dir/ * | xargs grep '关键字'
 ```
+
+结合`xargs`移动文件：
+```sh
+$ find /dir/ -name "hello.jpg" |xargs -I '{}' mv  {} /target/
+```
+
+结合`xargs`和`grep`根据文件内容搜索：
+```sh
+$ find /dir/ 
+```
+
 
 
 # Linux发送邮件的命令行应用
