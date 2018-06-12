@@ -1786,7 +1786,7 @@ Solve:
 
 
 
-# Separable Equations
+# `Separable Equations`
 
 ## Specific antiderivatives
 It's using additional information to get the `C` in antiderivatives.
@@ -1794,8 +1794,12 @@ It's using additional information to get the `C` in antiderivatives.
 ### Example
 
 
-# Slope Field
+# `Slope Field`
 
 ![image](https://user-images.githubusercontent.com/14041622/41281238-746b311a-6e63-11e8-8b36-997f706f2377.png)
 
 
+
+
+
+# `Euler's Method`
