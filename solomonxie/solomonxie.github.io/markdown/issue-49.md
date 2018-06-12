@@ -1788,3 +1788,6 @@ Solve:
 
 # Separable Equations
 
+## Finding specific antiderivatives
+
+### Example
