@@ -590,6 +590,17 @@ Or it's a version of linear equation `y=mx +b`, only the b=0, then `y=mx`.
 At the showing image above, only first one shows a proportional relationship. The other two are not linear and going through origin.
 
 
+## Directly Proportional & Inversely Proportional
+
+[Refer to Maths is fun.](https://www.mathsisfun.com/algebra/directly-inversely-proportional.html)
+
+- `Directly proportional`: As one amount **increases**, another amount **increases** at the same rate.
+![image](https://user-images.githubusercontent.com/14041622/41274973-f2ac0322-6e51-11e8-8d5d-0dcda570f710.png)
+- `Inversely Proportional`: when one value **decreases** at the same rate that the other **increases**.
+![image](https://user-images.githubusercontent.com/14041622/41274962-eafd4a78-6e51-11e8-9ace-61731b51e6c4.png)
+
+
+
 # `Three Terms ratio problem`
 ```c
 It takes 54 minutes for 4 people to paint 6 walls.
