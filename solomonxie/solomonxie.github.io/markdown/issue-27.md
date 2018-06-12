@@ -1248,7 +1248,7 @@ export KEYTIMEOUT=1
 
 
 
-# Linux 文件检索
+# Linux 文件搜索检索
 
 ## `Find`根据内容查找文件
 在某目录下查找所有含有某关键字的文件：
