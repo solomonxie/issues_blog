@@ -1932,6 +1932,23 @@ The larger `n` is, the closer it is to `2.72`.
 ![image](https://user-images.githubusercontent.com/14041622/39976614-50b80b84-5767-11e8-91a7-d1adaadf2274.png)
 
 
+## `Very useful trick for Inverse Functions`
+
+### Example 1
+![image](https://user-images.githubusercontent.com/14041622/41280025-8a02301c-6e60-11e8-8a9f-e6097e3cd9e0.png)
+Solve:
+- We take Natural log of **both sides**:
+![image](https://user-images.githubusercontent.com/14041622/41280048-96b16602-6e60-11e8-9d9a-5dd7f401e4cd.png)
+
+
+### Example 2
+![image](https://user-images.githubusercontent.com/14041622/41279878-2fc8d114-6e60-11e8-961a-2b3a059ad0e3.png)
+Solve:
+- We let **both sides** to be the power of `e`:
+![image](https://user-images.githubusercontent.com/14041622/41279810-06d652ae-6e60-11e8-85f9-09d2e7deb977.png)
+
+
+
 ## `Log Rules & Properties`
 
 [Khan note.](https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/properties-of-logarithms/a/properties-of-logarithms)
