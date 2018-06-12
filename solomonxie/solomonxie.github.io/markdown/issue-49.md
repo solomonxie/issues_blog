@@ -332,7 +332,7 @@ Reciprocal Rule | 1 / f | −f’ / f²
 Chain Rule | f(g(x)) | f’(g(x)) · g’(x)
 Exponential Rules | eˣ | eˣ
                      | aˣ | aˣ · ln(a)
-Logarithm Rules | ln(x) | 1/x
+Log Rules | ln(x) | 1/x
                     | loga(x) | 1 / (x·ln(a))
 Trig Rules    | sin(x) | cos(x)
                                                    | cos(x) | −sin(x)
@@ -629,7 +629,7 @@ Reminder: **Don't forget it's a `composite function` and you need to apply the c
 
 ![image](https://user-images.githubusercontent.com/14041622/40298682-8ae4c95a-5d16-11e8-8115-1363d8ae637c.png)
 
-## `Derivative of logarithm functions`
+## `Derivative of log functions`
 ![image](https://user-images.githubusercontent.com/14041622/40300440-d3893a06-5d1b-11e8-9103-4461535d8023.png)
 
 ## Examples
@@ -1469,7 +1469,7 @@ And for integration we need to reverse them.
 ![image](https://user-images.githubusercontent.com/14041622/41217568-d778948e-6d8a-11e8-9246-a8aec6914947.png)
 
 
-## Reversed Exponential / Logarithm Rules
+## Reversed Exponential / Log Rules
 ![image](https://user-images.githubusercontent.com/14041622/41217505-afa4b726-6d8a-11e8-8c63-79bec06ef620.png)
 
 ## Reversed Trig Rules
@@ -1694,7 +1694,7 @@ Solve:
 
 
 
-# `Partial fractions` → Logarithm Rule
+# `Partial fractions` → Log Rule
 > A technique for integrating `Rational functions`.
 
 [Refer to Khan academy: Partial fraction expansion to evaluate integral](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/partial-fraction-expansion-to-integrate)
@@ -1713,7 +1713,7 @@ Strategy:
 - Try to **`factorize`** the `dominator` if you can.
     - Assume two variables `A & B`
     - Apply the `Partial Fraction Expansion` technique.
-- Apply the basic `Logarithm Rule` to solve the parts.
+- Apply the basic `Log Rule` to solve the parts.
 
 
 ### Example
