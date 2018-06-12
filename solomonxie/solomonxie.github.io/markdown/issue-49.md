@@ -1748,3 +1748,13 @@ Strategy:
 > It actually IS the `Average Value of Functions`
 
 ![image](https://user-images.githubusercontent.com/14041622/41189781-c5d16408-6c05-11e8-84b4-5027da337ced.png)
+
+
+
+# Differential Equations Intro
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41274428-ea93aeda-6e4f-11e8-86c7-197824db7ff2.png)
+Solve:
+- Answer is NO. Because:
+![image](https://user-images.githubusercontent.com/14041622/41274550-635f6f70-6e50-11e8-8ccd-f475192f2f1e.png)
