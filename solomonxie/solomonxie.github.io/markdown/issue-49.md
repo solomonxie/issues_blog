@@ -1803,3 +1803,7 @@ It's using additional information to get the `C` in antiderivatives.
 
 
 # `Euler's Method`
+
+
+# `Logistic Differential Equation`
+
