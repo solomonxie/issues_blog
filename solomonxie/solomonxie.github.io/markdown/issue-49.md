@@ -1753,6 +1753,8 @@ Strategy:
 
 # Differential Equations Intro
 
+![image](https://user-images.githubusercontent.com/14041622/41277037-9cfcd670-6e58-11e8-8002-50737f26ff57.png)
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41274688-e8fe7a5e-6e50-11e8-9681-9a5cf3e27c3b.png)
 Solve:
