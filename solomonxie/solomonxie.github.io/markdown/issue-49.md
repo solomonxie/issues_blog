@@ -202,12 +202,12 @@ And `the derivative of` is commonly written as:
 
 ![image](https://user-images.githubusercontent.com/14041622/40102277-a5ba5b26-591c-11e8-9d8f-ecdb59db5b69.png)
 
-### `How to understand dy/dx`
+## `How to understand dy/dx`
 
 [Refer to Khan academy from Differential Equation section: Addressing treating differentials algebraically](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/v/addressing-treating-differentials-algebraically)
 
 This is a review from "the future", which means while studying Calculus, you have to come back constantly to review what the `dy/dx` means.  ---- It's just so confusing.
-Without fully understanding the `dy/dx`, you will be lost at topics like `Differentiate Implicit functions`, `Related Rates` and such.
+Without fully understanding the `dy/dx`, you will be lost at topics like `Differentiate Implicit functions`, `Related Rates`, `Differential Equations` and such.
 
 ![image](https://user-images.githubusercontent.com/14041622/40266233-1868f164-5b7a-11e8-9516-712cd539fd91.png)
 
