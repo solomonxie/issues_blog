@@ -1813,4 +1813,4 @@ It's originally a `Population Model` created by `Verhulst`, as studying the `pop
 
 
 
-Refer to lectures: [MIT Gilbert Strang's](https://www.youtube.com/watch?v=TCkLSYxx21c), [The Organic Chemistry Tutor](https://www.youtube.com/watch?v=JgMvB22XQs0), [Krista King](https://www.youtube.com/watch?v=uemhtqZHnak)
+Refer to lectures: [▶Khan academy](https://www.youtube.com/watch?v=oiDvNs15tkE), [▶MIT Gilbert Strang's](https://www.youtube.com/watch?v=TCkLSYxx21c), [▶The Organic Chemistry Tutor](https://www.youtube.com/watch?v=JgMvB22XQs0), [▶Krista King](https://www.youtube.com/watch?v=uemhtqZHnak), [▶Bozeman Science](https://www.youtube.com/watch?v=rXlyYFXyfIM)
