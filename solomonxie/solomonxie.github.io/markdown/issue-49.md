@@ -1805,7 +1805,9 @@ It's using additional information to get the `C` in antiderivatives.
 # `Euler's Method`
 
 
-# `Logistic Differential Equation`
+# `Logistic Equation`
+This is a very famous example of Differential Equation, and has been applied to numerous of real life problems as a model.
+It's originally a `Population Model`, as studying the `population's growth`.
 
 The keywords below could be referring to the same topic:
 `#LogisticGrowth #LogisticGrowthModel #LogisticEquation #LogisticModel #LogisticDifferentialEquation`
