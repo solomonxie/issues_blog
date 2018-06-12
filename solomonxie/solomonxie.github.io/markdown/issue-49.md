@@ -1812,5 +1812,10 @@ This is a very famous example of Differential Equation, and has been applied to 
 It's originally a `Population Model` created by `Verhulst`, as studying the `population's growth`.
 
 
-
 Refer to lectures: [▶Khan academy](https://www.youtube.com/watch?v=oiDvNs15tkE), [▶MIT Gilbert Strang's](https://www.youtube.com/watch?v=TCkLSYxx21c), [▶The Organic Chemistry Tutor](https://www.youtube.com/watch?v=JgMvB22XQs0), [▶Krista King](https://www.youtube.com/watch?v=uemhtqZHnak), [▶Bozeman Science](https://www.youtube.com/watch?v=rXlyYFXyfIM)
+
+## Intuition & Origin of Logistic Growth Model
+
+> population size ( N ), growth rate ( r ), exponential growth, carrying capacity ( K )
+
+It explains how density dependent limiting factors eventually decrease the growth rate until a population reaches a carrying capacity ( K ).
