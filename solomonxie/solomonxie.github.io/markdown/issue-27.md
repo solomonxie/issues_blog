@@ -1255,7 +1255,10 @@ export KEYTIMEOUT=1
 
 ```shell
 # 根据文件名搜索
-$ find /dir/ -name '*.jpg'
+$ find root_path -name '*.jpg'
+
+# 移动搜索到的文件
+$ find root_path -name '*.jpg' -exec mv -l {} target_path \;
 
 # 根据文件名搜索 并且只显示内容中包括关键字的结果
 $ find /dir/ -name '*.txt' | xargs grep 'KEYWORD'
@@ -1264,10 +1267,6 @@ $ find /dir/ -name '*.txt' | xargs grep 'KEYWORD'
 $ find /dir/ * | xargs grep '关键字'
 ```
 
-结合`xargs`移动文件：
-```sh
-$ find /dir/ -name "hello.jpg" |xargs -I '{}' mv  {} /target/
-```
 
 结合`xargs`和`grep`根据文件内容搜索：
 ```sh
