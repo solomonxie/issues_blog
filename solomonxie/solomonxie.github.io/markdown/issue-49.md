@@ -1811,8 +1811,12 @@ It's using additional information to get the `C` in antiderivatives.
 This is a very famous example of Differential Equation, and has been applied to numerous of real life problems as a model.
 It's originally a `Population Model` created by `Verhulst`, as studying the `population's growth`.
 
+![image](https://user-images.githubusercontent.com/14041622/41285214-1baf01ea-6e6e-11e8-87a3-7770b2c1bb19.png)
+
+
 
 Refer to lectures: [▶Khan academy](https://www.youtube.com/watch?v=oiDvNs15tkE), [▶MIT Gilbert Strang's](https://www.youtube.com/watch?v=TCkLSYxx21c), [▶The Organic Chemistry Tutor](https://www.youtube.com/watch?v=JgMvB22XQs0), [▶Krista King](https://www.youtube.com/watch?v=uemhtqZHnak), [▶Bozeman Science](https://www.youtube.com/watch?v=rXlyYFXyfIM)
+
 
 ## Intuition & Origin of Logistic Growth Model
 
