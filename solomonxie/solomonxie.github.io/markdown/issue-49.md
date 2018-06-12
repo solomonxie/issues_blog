@@ -1788,6 +1788,7 @@ Solve:
 
 # Separable Equations
 
-## Finding specific antiderivatives
+## Specific antiderivatives
+It's using additional information to get the `C` in antiderivatives.
 
 ### Example
