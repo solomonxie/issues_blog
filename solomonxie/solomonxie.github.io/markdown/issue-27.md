@@ -1258,7 +1258,7 @@ export KEYTIMEOUT=1
 $ find root_path -name '*.jpg'
 
 # 移动搜索到的文件
-$ find root_path -name '*.jpg' -exec mv -l {} target_path \;
+$ find root_path -name '*.jpg' -exec mv {} target_path \;
 
 # 根据文件名搜索 并且只显示内容中包括关键字的结果
 $ find /dir/ -name '*.txt' | xargs grep 'KEYWORD'
