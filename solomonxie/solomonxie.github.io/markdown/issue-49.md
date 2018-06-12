@@ -333,7 +333,7 @@ Chain Rule | f(g(x)) | f’(g(x)) · g’(x)
 Exponential Rules | eˣ | eˣ
                      | aˣ | aˣ · ln(a)
 Log Rules | ln(x) | 1/x
-                    | loga(x) | 1 / (x·ln(a))
+                    | log[a(x)] | 1 / (x·ln(a))
 Trig Rules    | sin(x) | cos(x)
                                                    | cos(x) | −sin(x)
                                                    | tan(x) | sec²(x)
