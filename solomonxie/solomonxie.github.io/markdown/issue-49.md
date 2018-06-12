@@ -1774,3 +1774,9 @@ Solve:
 - Assume the function of distance is `S(t) = v · t`.
 - So the speed must be the rate of change of **distance**, so the speed is `v = S'(t)`
 - Since the speed is inversely proportional to distance's square, so it means `v = S'(t) = k/S²`
+
+
+# Why can we operate `dy/dx` algebraically?
+
+[Refer to Khan academy: Addressing treating differentials algebraically](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/v/addressing-treating-differentials-algebraically)
+
