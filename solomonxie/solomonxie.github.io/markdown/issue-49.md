@@ -1826,3 +1826,9 @@ It explains how density dependent limiting factors eventually decrease the growt
 
 
 ## Solving Logistic Model Problems
+
+
+
+## Logistic Regression
+
+
