@@ -1754,7 +1754,6 @@ Strategy:
 # Differential Equations Intro
 
 ### Example
-![image](https://user-images.githubusercontent.com/14041622/41274428-ea93aeda-6e4f-11e8-86c7-197824db7ff2.png)
+![image](https://user-images.githubusercontent.com/14041622/41274688-e8fe7a5e-6e50-11e8-9681-9a5cf3e27c3b.png)
 Solve:
-- Answer is NO. Because:
-![image](https://user-images.githubusercontent.com/14041622/41274550-635f6f70-6e50-11e8-8ccd-f475192f2f1e.png)
+![image](https://user-images.githubusercontent.com/14041622/41274709-031255d2-6e51-11e8-92ca-f3be8097572f.png)
