@@ -1783,3 +1783,8 @@ Solve:
 > [Jump back to previous note: How to understand `dy/dx`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-389389887)
 
 ![image](https://user-images.githubusercontent.com/14041622/41278167-c1f8eace-6e5b-11e8-8a74-680783300059.png)
+
+
+
+# Separable Equations
+
