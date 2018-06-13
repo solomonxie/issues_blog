@@ -1808,8 +1808,9 @@ Solve:
 
 
 # `Specific antiderivatives`
-It's using additional information to get the `C` in antiderivatives.
 
+Normally the antiderivative is in form of `f(x) +C`.
+But actually we could use some additional information to get the `C` and get the function only in terms of `x`.
 And we often call the "additional information" as **`Initial Conditions`**, or `f₀(x)`.
 
 
