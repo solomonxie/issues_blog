@@ -1931,6 +1931,19 @@ But we still have a constant `C` in the `antiderivative`, which required us to i
 ![image](https://user-images.githubusercontent.com/14041622/41281238-746b311a-6e63-11e8-8b36-997f706f2377.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41345702-001de13e-6f37-11e8-99a7-87d34b4b78ea.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41345708-05092a1e-6f37-11e8-8dae-1ac8a3fdd75d.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41345806-3d336102-6f37-11e8-971d-90bbf826f467.png)
+Solve:
+Hint: Try a point or points in each quadrant, like Q1: (2,2), Q2: (-2,2), Q3: (-2,-2), Q4: (2,-2)
+- Let's only try the point `(2, 2)`, we will get `y' = 0`, which means the line in Q1 would be horizontal.
+
+![image](https://user-images.githubusercontent.com/14041622/41345924-920199ce-6f37-11e8-9ec1-0ee21bcf2dcf.png)
 
 
 
