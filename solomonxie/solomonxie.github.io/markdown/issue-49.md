@@ -1806,23 +1806,32 @@ It's using additional information to get the `C` in antiderivatives.
 
 
 # `Logistic Growth Model`
-> `#LogisticGrowth #LogisticGrowthModel #LogisticEquation #LogisticModel #LogisticRegression`
+```
+#LogisticGrowth #LogisticGrowthModel #LogisticEquation #LogisticModel #LogisticRegression
+```
 
 This is a very famous example of Differential Equation, and has been applied to numerous of real life problems as a model.
 It's originally a `Population Model` created by `Verhulst`, as studying the `population's growth`.
-
-![image](https://user-images.githubusercontent.com/14041622/41285214-1baf01ea-6e6e-11e8-87a3-7770b2c1bb19.png)
-
-
 
 Refer to lectures: [▶Khan academy](https://www.youtube.com/watch?v=oiDvNs15tkE), [▶MIT Gilbert Strang's](https://www.youtube.com/watch?v=TCkLSYxx21c), [▶The Organic Chemistry Tutor](https://www.youtube.com/watch?v=JgMvB22XQs0), [▶Krista King](https://www.youtube.com/watch?v=uemhtqZHnak), [▶Bozeman Science](https://www.youtube.com/watch?v=rXlyYFXyfIM)
 
 
 ## Intuition & Origin of Logistic Growth Model
+It was originally saying that, the population's growth is a **exponential growth**, but **NOT ALWAYS** 
+, there is a **LIMIT** or an `asymptote` to the **exponential growth**.
+And combining the `exponential growth` with a `limit`, it's then called the **`Logistic Growth`**.
 
-> population size ( N ), growth rate ( r ), exponential growth, carrying capacity ( K )
+And the logistic growth got its equation:
 
-It explains how density dependent limiting factors eventually decrease the growth rate until a population reaches a carrying capacity ( K ).
+![image](https://user-images.githubusercontent.com/14041622/41333641-1f0e7c6a-6f15-11e8-839b-ee22a799810b.png)
+
+Where `P` is the "Population Size" (N is often used instead), `t` is "Time", `r` is the "Growth Rate", `K` is the **"Carrying Capacity"**.
+
+> "It explains how density dependent limiting factors eventually decrease the growth rate until a population reaches a Carrying Capacity ( K )."
+
+![image](https://user-images.githubusercontent.com/14041622/41333555-d064b0ac-6f14-11e8-9bb4-51df158b18ac.png)
+
+
 
 
 ## Solving Logistic Model Problems
