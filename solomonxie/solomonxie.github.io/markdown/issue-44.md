@@ -2361,7 +2361,7 @@ sin(60°) = cos(30°) = √3/2
 cos(60°) = sin(30°) = 1/2
 ```
 
-## `Trigonometric Identities`
+## `Trig Identities`
 Definition as below:
 
 ```py
