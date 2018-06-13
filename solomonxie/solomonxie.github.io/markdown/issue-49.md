@@ -1792,6 +1792,12 @@ This section is an essential method for solving differential equations.
 Especially about the `initial condition`, it is the critical information for getting the original function.
 
 ### Example
+![image](https://user-images.githubusercontent.com/14041622/41338107-c03e6402-6f23-11e8-9937-be3a9bbd66b9.png)
+Solve:
+- No we can't. Because:
+![image](https://user-images.githubusercontent.com/14041622/41338122-cc733806-6f23-11e8-9ac7-2cda32325030.png)
+
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/41337076-c1600df2-6f20-11e8-9453-aa6e2e90fc4d.png)
 Solve:
 - First to transfer same terms to the same side.
