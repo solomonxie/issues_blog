@@ -1825,6 +1825,8 @@ Refer to lectures: [▶Khan academy](https://www.youtube.com/watch?v=oiDvNs15tkE
 
 Refer to Khan academy: [▶Logistic models & differential equations (Part 1)](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/v/modeling-population-with-differential-equations)
 
+Let's let `P(t)` as the population's size in term of time `t`, and `dP/dt` represents the Population's growth. 
+
 ### Malthus' Exponential growth theory of population
 Mr. Malthus first introduced the exponential growth theory for the population by using a fairly simple equation:
 ![image](https://user-images.githubusercontent.com/14041622/41335333-06282114-6f1b-11e8-8535-a4c28551be02.png)
