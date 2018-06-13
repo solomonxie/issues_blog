@@ -1815,6 +1815,15 @@ And we often call the "additional information" as **`Initial Conditions`**, or `
 
 
 ### Example
+![image](https://user-images.githubusercontent.com/14041622/41338371-90d5b214-6f24-11e8-975c-a6a0dea50ebd.png)
+Solve:
+- We could Integrate the `f'(x)` to get `f(x) = 9eˣ + C`.
+- Since `f(8) = 9e⁸ - 8`, we could easily see that `C = -8`
+- So the function under this condition would be: `f(x) = 9eˣ -8`
+- Then we will get the result `f(0) = 9*1 - 8 = 1`.
+
+
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/41338590-3647b8b4-6f25-11e8-81cb-80d62422d566.png)
 Solve:
 - We could integrate `f'(x)` to get `f(x) = x³ - x² + 7x +C`
@@ -1822,6 +1831,7 @@ Solve:
 - `f(6) = 6³ - 6² + 7*6 +C = 200` which results `C = -22`
 - So the function under this condition should be `f(x) = x³ - x² + 7x - 22`
 - And `f(1) = 1³ - 1² + 7*1 - 22 = -15`
+
 
 
 #
