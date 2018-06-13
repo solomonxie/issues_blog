@@ -1955,3 +1955,8 @@ Solve:
 
 
 # `Euler's Method`
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41346357-df3aa5ae-6f38-11e8-8f67-f1ba276baccc.png)
+Solve:
