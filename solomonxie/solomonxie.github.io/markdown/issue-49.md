@@ -1965,7 +1965,7 @@ Solve:
 - The table above is the Euler's Method of approximation.
 - As the `Euler's Method`, we need to figure out how to get each **column** value, and iterate every row.
 - Let's see the Initial row (R₀):
-    - We have the `Initial Condition`, so for the first row, We know the `x=-1, y=3`
+    - We have the `Initial Condition`, so for the **initial row**, We know the `x=-1, y=3`
     - And for iteration, we really need to know how much will the `x & y` change, and they change differently.
     - We've given that `x` is from -1 to 2 in 3 steps, so `Δx = (2 - -1)/3 = 1`
     - Most tricky part is how to get `Δy`. We know `dy/dx ≃ Δy/Δx`, so `Δy ≃ dy/dx · Δx`.
