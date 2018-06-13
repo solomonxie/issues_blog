@@ -1821,7 +1821,7 @@ It's originally a `Population Model` created by `Verhulst`, as studying the `pop
 Refer to lectures: [▶Khan academy](https://www.youtube.com/watch?v=oiDvNs15tkE), [▶MIT Gilbert Strang's](https://www.youtube.com/watch?v=TCkLSYxx21c), [▶The Organic Chemistry Tutor](https://www.youtube.com/watch?v=JgMvB22XQs0), [▶Krista King](https://www.youtube.com/watch?v=uemhtqZHnak), [▶Bozeman Science](https://www.youtube.com/watch?v=rXlyYFXyfIM)
 
 
-## Intuition & Origin of Logistic Growth Model
+## `Intuition & Origin of Logistic Growth Model`
 
 Refer to Khan academy: [▶Logistic models & differential equations (Part 1)](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/v/modeling-population-with-differential-equations)
 
@@ -1838,7 +1838,7 @@ And the logistic growth got its equation:
 
 ![image](https://user-images.githubusercontent.com/14041622/41333641-1f0e7c6a-6f15-11e8-839b-ee22a799810b.png)
 Where `P` is the "Population Size" (N is often used instead), `t` is "Time", `r` is the "Growth Rate", `K` is the **"Carrying Capacity"**.
-And the `(1 - P/K)` determines how close is the Population Size to the Limit `K`, which means as the population gets closer and closer to the limit, the growth gets slower and slower.
+And the **`(1 - P/K)`** determines how close is the Population Size to the Limit `K`, which means as the population gets closer and closer to the limit, the growth gets slower and slower.
 
 > "It explains how density dependent limiting factors eventually decrease the growth rate until a population reaches a Carrying Capacity ( K )."
 
@@ -1857,10 +1857,10 @@ And the `(1 - P/K)` determines how close is the Population Size to the Limit `K`
 
 
 
-## Solving Logistic Model Problems
+## `Solving Logistic Model Problems`
 
 
 
-## Logistic Regression
+## `Logistic Regression`
 
 
