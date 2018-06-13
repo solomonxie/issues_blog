@@ -1814,6 +1814,15 @@ But actually we could use some additional information to get the `C` and get the
 And we often call the "additional information" as **`Initial Conditions`**, or `f₀(x)`.
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41338371-90d5b214-6f24-11e8-975c-a6a0dea50ebd.png)
+Solve:
+- We could Integrate the `f'(x)` to get `f(x) = 9eˣ + C`.
+- Since `f(8) = 9e⁸ - 8`, we could easily see that `C = -8`
+- So the function under this condition would be: `f(x) = 9eˣ -8`
+- Then we will get the result `f(0) = 9*1 - 8 = 1`.
+
+
 
 # `Euler's Method`
 
