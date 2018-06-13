@@ -1850,7 +1850,7 @@ And the **`(1 - P/K)`** determines how close is the Population Size to the Limit
 ![image](https://user-images.githubusercontent.com/14041622/41334348-e75e1b88-6f17-11e8-99b7-6c46a3a60d01.png)
 
 
-### Get the Original Population Function
+### Get the Original Population Function P(t)
 
 > It's gonna use the method `Separable Equations`, which introduced the `initial condition` as `P₀` in this case.
 
