@@ -1806,18 +1806,11 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41337445-d270bfb4-6f21-11e8-81dd-aa63e137cc14.png)
 
 
-## `Specific antiderivatives`
+
+# `Specific antiderivatives`
 It's using additional information to get the `C` in antiderivatives.
 
 And we often call the "additional information" as **`Initial Conditions`**, or `f₀(x)`.
-
-
-
-# `Slope Field`
-
-![image](https://user-images.githubusercontent.com/14041622/41281238-746b311a-6e63-11e8-8b36-997f706f2377.png)
-
-
 
 
 
@@ -1884,3 +1877,15 @@ But we still have a constant `C` in the `antiderivative`, which required us to i
 ## `Logistic Regression`
 
 
+
+
+
+# `Slope Field`
+
+![image](https://user-images.githubusercontent.com/14041622/41281238-746b311a-6e63-11e8-8b36-997f706f2377.png)
+
+
+
+
+
+# `Euler's Method`
