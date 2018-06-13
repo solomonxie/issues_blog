@@ -1827,7 +1827,7 @@ Refer to Khan academy: [▶Logistic models & differential equations (Part 1)](ht
 
 ### Malthus' Exponential growth theory of population
 Mr. Malthus first introduced the exponential growth theory for the population by using a fairly simple equation:
-![image](https://user-images.githubusercontent.com/14041622/41334730-30a3cfda-6f19-11e8-9e54-95aaa5281cea.png)
+![image](https://user-images.githubusercontent.com/14041622/41335333-06282114-6f1b-11e8-8535-a4c28551be02.png)
 Where `P` is the "Population Size", `t` is the "Time", `r` is the "Growth Rate".
 
 ### Verhulst's Logistic growth theory of population
