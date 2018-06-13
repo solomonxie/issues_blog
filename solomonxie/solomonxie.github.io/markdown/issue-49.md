@@ -1788,6 +1788,9 @@ Solve:
 
 # `Separable Equations`
 
+This section is an essential method for solving differential equations.
+Especially about the `initial condition`, it is the critical information for getting the original function.
+
 ## Specific antiderivatives
 It's using additional information to get the `C` in antiderivatives.
 
