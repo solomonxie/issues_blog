@@ -1837,6 +1837,10 @@ Where `P` is the "Population Size" (N is often used instead), `t` is "Time", `r`
 
 > "It explains how density dependent limiting factors eventually decrease the growth rate until a population reaches a Carrying Capacity ( K )."
 
+### Get the Original Population Function
+
+> It's gonna use the method `Separable Equations`, which introduced the `initial condition` as `P₀` in this case.
+
 ![image](https://user-images.githubusercontent.com/14041622/41333555-d064b0ac-6f14-11e8-9bb4-51df158b18ac.png)
 
 
