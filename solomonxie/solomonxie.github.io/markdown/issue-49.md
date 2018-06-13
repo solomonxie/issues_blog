@@ -1826,7 +1826,7 @@ Refer to lectures: [▶Khan academy](https://www.youtube.com/watch?v=oiDvNs15tkE
 Refer to Khan academy: [▶Logistic models & differential equations (Part 1)](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/v/modeling-population-with-differential-equations)
 
 It was originally saying that, the population's growth is a **exponential growth**, but **NOT ALWAYS** 
-, there is a **LIMIT** or an `asymptote` to the **exponential growth**.
+, because there is a **LIMIT** or a `Carrying Capacity` to the **exponential growth**.
 And combining the `exponential growth` with a `limit`, it's then called the **`Logistic Growth`**.
 
 And the logistic growth got its equation:
@@ -1836,6 +1836,12 @@ And the logistic growth got its equation:
 Where `P` is the "Population Size" (N is often used instead), `t` is "Time", `r` is the "Growth Rate", `K` is the **"Carrying Capacity"**.
 
 > "It explains how density dependent limiting factors eventually decrease the growth rate until a population reaches a Carrying Capacity ( K )."
+
+### Carrying Capacity
+`Carrying Capacity` means the "celling", the "limit", the "asymptote".
+
+![image](https://user-images.githubusercontent.com/14041622/41334348-e75e1b88-6f17-11e8-99b7-6c46a3a60d01.png)
+
 
 ### Get the Original Population Function
 
