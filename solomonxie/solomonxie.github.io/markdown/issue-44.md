@@ -2542,7 +2542,7 @@ csc(θ) = sec(π/2 - θ)
 
 
 
-# `Inverse Trigonometric equations`
+# `Inverse Trig equations`
 > Probably it's the most tricky and difficult topic throughout all High School Math.
 
 Prerequisites:
