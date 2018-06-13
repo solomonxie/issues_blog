@@ -1946,5 +1946,12 @@ Hint: Try a point or points in each quadrant, like Q1: (2,2), Q2: (-2,2), Q3: (-
 ![image](https://user-images.githubusercontent.com/14041622/41345924-920199ce-6f37-11e8-9ec1-0ee21bcf2dcf.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41346042-e9249486-6f37-11e8-9843-13eedb3ad4c8.png)
+Solve:
+- Since `6` is the initial condition, so we make `6` as a boundary.
+- The slope at `(0,6)` is a negative slope, which seems keeps negative until `4`.
+- So the Range would be `(4, 6]`.
+
 
 # `Euler's Method`
