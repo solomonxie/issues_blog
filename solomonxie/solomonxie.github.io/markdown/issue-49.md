@@ -1848,6 +1848,13 @@ Solve:
 Solve:
 Hint: `f(0) = 2`
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41340656-777620b4-6f2a-11e8-9275-83f808374b9e.png)
+Solve
+Hint: Don't need to solve `y` completely.
+![image](https://user-images.githubusercontent.com/14041622/41340755-b0147768-6f2a-11e8-8be8-2622a2b25597.png)
+
+
 
 #
 
