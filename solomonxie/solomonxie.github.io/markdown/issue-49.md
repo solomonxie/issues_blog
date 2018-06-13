@@ -1823,6 +1823,15 @@ Solve:
 - Then we will get the result `f(0) = 9*1 - 8 = 1`.
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41338590-3647b8b4-6f25-11e8-81cb-80d62422d566.png)
+Solve:
+- We could integrate `f'(x)` to get `f(x) = x³ - x² + 7x +C`
+- Since `f(6)=200`, so we could substitute `6` into `f(x)`:
+- `f(6) = 6³ - 6² + 7*6 +C = 200`
+- That will result `C = -22`, so the function is `f(x) = x³ - x² + 7x - 22`
+- `f(1) = 1³ - 1² + 7*1 - 22 = -15`
+
 
 # `Euler's Method`
 
