@@ -1843,6 +1843,12 @@ Solve:
 - Then `f(4) = e³`, which means `m=1, n=3`
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41340351-b422c446-6f29-11e8-84a5-df398a07954a.png)
+Solve:
+Hint: `f(0) = 2`
+
+
 #
 
 
