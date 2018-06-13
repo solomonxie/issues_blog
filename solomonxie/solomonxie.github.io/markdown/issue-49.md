@@ -1845,14 +1845,18 @@ And the **`(1 - P/K)`** determines how close is the Population Size to the Limit
 > "It explains how density dependent limiting factors eventually decrease the growth rate until a population reaches a Carrying Capacity ( K )."
 
 ### Carrying Capacity
-`Carrying Capacity` means the "celling", the "limit", the "asymptote".
+Carrying Capacity means the "celling", the "limit", the "asymptote".
 
 ![image](https://user-images.githubusercontent.com/14041622/41334348-e75e1b88-6f17-11e8-99b7-6c46a3a60d01.png)
 
 
 ### Get the Original Population Function P(t)
-
 > It's gonna use the method `Separable Equations`, which introduced the `initial condition` as `P₀` in this case.
+
+We could directly solve the Logistic Equation as solving differential equation to get the `antiderivative`:
+![image](https://user-images.githubusercontent.com/14041622/41335635-0711f95a-6f1c-11e8-8d4d-46ebb50874de.png)
+
+But we still have a constant `C` in the `antiderivative`, which required us to introduce an `Initial Condition` to get rid of `C` and get the specific function:
 
 ![image](https://user-images.githubusercontent.com/14041622/41333555-d064b0ac-6f14-11e8-9bb4-51df158b18ac.png)
 
