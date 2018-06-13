@@ -1817,6 +1817,9 @@ Refer to lectures: [▶Khan academy](https://www.youtube.com/watch?v=oiDvNs15tkE
 
 
 ## Intuition & Origin of Logistic Growth Model
+
+Refer to Khan academy: [▶Logistic models & differential equations (Part 1)](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/v/modeling-population-with-differential-equations)
+
 It was originally saying that, the population's growth is a **exponential growth**, but **NOT ALWAYS** 
 , there is a **LIMIT** or an `asymptote` to the **exponential growth**.
 And combining the `exponential growth` with a `limit`, it's then called the **`Logistic Growth`**.
