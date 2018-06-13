@@ -1797,6 +1797,13 @@ It's using additional information to get the `C` in antiderivatives.
 And we often call the "additional information" as **`Initial Conditions`**, or `f₀(x)`.
 
 ### Example
+![image](https://user-images.githubusercontent.com/14041622/41337076-c1600df2-6f20-11e8-9453-aa6e2e90fc4d.png)
+Solve:
+- First to transfer same terms to the same side.
+- Then take integral of each side
+- Operate to get `y`
+![image](https://user-images.githubusercontent.com/14041622/41337445-d270bfb4-6f21-11e8-81dd-aa63e137cc14.png)
+
 
 
 # `Slope Field`
