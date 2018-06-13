@@ -1791,6 +1791,8 @@ Solve:
 ## Specific antiderivatives
 It's using additional information to get the `C` in antiderivatives.
 
+And we often call the "additional information" as **`Initial Conditions`**, or `f₀(x)`.
+
 ### Example
 
 
