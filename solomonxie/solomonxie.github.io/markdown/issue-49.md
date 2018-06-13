@@ -1833,14 +1833,18 @@ Solve:
 - And `f(1) = 1³ - 1² + 7*1 - 22 = -15`
 
 
+
 ### Example (Separable equations with specific solutions)
-![image](https://user-images.githubusercontent.com/14041622/41339804-59f1d85a-6f28-11e8-9a60-7b5252891d26.png)
+![image](https://user-images.githubusercontent.com/14041622/41343153-71ade49a-6f30-11e8-9e64-c2f214cf2a37.png)
 Solve:
-- It looks confusing, but let's assume `f(x) = y` so `f'(x) = dy/dx = y`
-- Take integral of both sides to get `ln|y| = x + C` and leads to `f(x) = y = e^(x+C)`
-- Since `f(3) = e²`, so `x+C = 3 + C = 2`, which will get `C = -1`
-- So the function under condition will be `f(x) = e^(x-1)`
-- Then `f(4) = e³`, which means `m=1, n=3`
+- It looks confusing, but let's assume `f(x)` as `y` so `dy/dx = 2y`
+- Separate differential equations to get `dy/y = 2dx`
+- Take integral of both sides: 
+![image](https://user-images.githubusercontent.com/14041622/41343558-8c8cd0f4-6f31-11e8-9f28-f841778abb02.png)
+- Since `f(1) = 5`, so:
+![image](https://user-images.githubusercontent.com/14041622/41343760-fb1c1de0-6f31-11e8-840a-5b09e5d788ee.png)
+- And `f(3) = 5e⁴`, which means `m = 5, n = 4`
+
 
 
 ### Example
