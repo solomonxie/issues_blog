@@ -42,7 +42,7 @@ Security Groups -> Inbound -> Edit -> All traffic, All, All, 0.0.0.0/0
 1.创建服务器
 2.创建时选择SSH Key，上传本地制作的密钥文件，如`~/.ssh/id_rsa.pub`
 3.记住本地SSH Key密钥的访问密码，这样每次登录服务器只要输入它就行了。
-4.打开终端, 利用SSH连接,`ssh root@ip-address`
+4.打开终端, 利用SSH连接,如DigitalOcean是`$ ssh root@ip-address`，Lightsails就是`$ ssh ubuntu@ip-address`
 ```shell
 sudo apt-get update
 sudo apt-get install python-pip -y
