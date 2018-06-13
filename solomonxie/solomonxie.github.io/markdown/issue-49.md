@@ -1833,7 +1833,7 @@ Solve:
 - And `f(1) = 1³ - 1² + 7*1 - 22 = -15`
 
 
-# `Euler's Method`
+#
 
 
 # `Logistic Growth Model`
