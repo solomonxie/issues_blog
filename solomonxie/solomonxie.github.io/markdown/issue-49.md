@@ -1828,9 +1828,9 @@ Solve:
 Solve:
 - We could integrate `f'(x)` to get `f(x) = x³ - x² + 7x +C`
 - Since `f(6)=200`, so we could substitute `6` into `f(x)`:
-- `f(6) = 6³ - 6² + 7*6 +C = 200`
-- That will result `C = -22`, so the function is `f(x) = x³ - x² + 7x - 22`
-- `f(1) = 1³ - 1² + 7*1 - 22 = -15`
+- `f(6) = 6³ - 6² + 7*6 +C = 200` which results `C = -22`
+- So the function is `f(x) = x³ - x² + 7x - 22`
+- And `f(1) = 1³ - 1² + 7*1 - 22 = -15`
 
 
 # `Euler's Method`
