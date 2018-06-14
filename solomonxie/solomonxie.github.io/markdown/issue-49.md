@@ -1957,6 +1957,15 @@ Solve:
 # `Euler's Method`
 Euler's method means an approximation by writing down every critical value in a **table**, and **iterate** many many times until it get closer to the target value.
 
+[Refer to Wiki: Euler method](https://en.wikipedia.org/wiki/Euler_method)
+
+Approximation:
+![image](https://user-images.githubusercontent.com/14041622/41395536-a6d81b94-6fe0-11e8-8238-115b5ae8799b.png)
+
+Iterate table:
+![image](https://user-images.githubusercontent.com/14041622/41395561-c69e35d0-6fe0-11e8-9b09-cf3b30780412.png)
+
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41346357-df3aa5ae-6f38-11e8-8f67-f1ba276baccc.png)
 Solve:
