@@ -1928,6 +1928,14 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41399720-a8dc6ba4-6fed-11e8-9329-89113ec3d7c4.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41399831-eddc319e-6fed-11e8-948a-f9c68c3efb03.png)
+Solve:
+- It's asking "growing fastest", means the Max value of Sale's function `S(c)`.
+- For the max value of function, we let `S'(c) = dS/dc = 0`
+- And we get `S = 0 or 20,000,000`
+- So at two points they are getting fastest growing. 
+- Yet we have to take the **AVERAGE** of the two points, which is `(0+20,000,000)/2 = 10,000,000`.
 
 ## `Logistic Regression`
 
