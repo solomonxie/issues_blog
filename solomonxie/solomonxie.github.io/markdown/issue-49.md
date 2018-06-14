@@ -1242,7 +1242,7 @@ As you can see, they would be either Over-estimated or Under-estimated. Neither 
 ### Midpoint Sums Approximation
 It's an enhancement to the Left sums and Right sums, it takes the midpoint value, and sometimes makes better approximation.
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/41024809-d75ede72-69a2-11e8-9238-504efa457e81.png)
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41024853-ee9fcd30-69a2-11e8-9f9b-513e17902e34.png)
@@ -1695,7 +1695,7 @@ Solve:
 
 [Refer to Khan academy: Partial fraction expansion to evaluate integral](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/partial-fraction-expansion-to-integrate)
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/41189233-0e9b8bfe-6bfd-11e8-94f0-88bae4d86f14.png)
 This process is to break down the `Rational Function` to some simple fractions, 
 which assume there are `A & B`  leads to a system of equation:
