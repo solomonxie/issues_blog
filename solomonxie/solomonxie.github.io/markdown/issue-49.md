@@ -1919,6 +1919,15 @@ But we still have a constant `C` in the `antiderivative`, which required us to i
 ## `Solving Logistic Model Problems`
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41399634-62ad394c-6fed-11e8-83d3-fbd99e345644.png)
+Solve:
+- We know the Logistic Equation is `dP/dt = r·P(1-P/K)`.
+- So twist the given derivative to the logistic form: `dy/dt = 10·y(1-y/600)`.
+- Then we could see the `K = 600`, which is the limit, the Carrying capacity.
+![image](https://user-images.githubusercontent.com/14041622/41399720-a8dc6ba4-6fed-11e8-9329-89113ec3d7c4.png)
+
+
 
 ## `Logistic Regression`
 
