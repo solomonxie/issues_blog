@@ -62,7 +62,7 @@ Just the same with `Finding the Asymptote`.
 
 ![image](https://user-images.githubusercontent.com/14041622/40049084-5303489a-5866-11e8-9ba5-d2ffe6045955.png)
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40048425-c4959c30-5864-11e8-947d-cd5c59375f72.png)
 Solve:
 
@@ -70,7 +70,7 @@ Solve:
 ## `Quotients with square roots`
 > The KEY point is to calculate both `numerator & dominator`, then calculate the limit of EACH term with in the square root.
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40047707-c2a05052-5862-11e8-805a-5d8c6ca98d47.png)
 Solve:
 [Refer to Symbolab step-by-step solution.](https://www.symbolab.com/solver/limit-calculator/%5Clim_%7Bx%5Cto%5Cinfty%7D%5Cleft(%5Cfrac%7B6x%5E%7B2%7D-x%7D%7B%5Csqrt%7B9x%5E%7B4%7D%2B7x%5E%7B3%7D%7D%7D%5Cright))
@@ -87,7 +87,7 @@ Solve:
 ## `Quotients with trig`
 > The KEY point is to apply the **`Squeeze theorem`**, and it is a MUST.
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40047015-e86fb63a-5860-11e8-9f72-b97d62f785c2.png)
 Solve:
 - Know that `-1 ≦ cos(x) ≦ 1`, so we can tweak it to apply the `squeeze theorem` to get its limit.
@@ -101,7 +101,7 @@ Solve:
 - Calculate limits of two sides.
 - If the results are exactly the same, then the limit is the result; Otherwise the limit doesn't exist.
 
-Example 2:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40047463-2181c778-5862-11e8-8658-d439cdcecf65.png)
 Solve:
 - Know that `-1 ≦ sin(x) ≦ 1`
@@ -150,7 +150,7 @@ We see that clearly:
 
 At a point `a`, for `f(x)` to be continuous at `x=a`, we need `lim(x→a)f(x) = f(a)`.
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40051602-eb4faf88-586d-11e8-91d8-504937405601.png)
 Solve:
 - Got the limit of left side is `-1/2`
@@ -160,7 +160,7 @@ Solve:
 
 # Application of Removable Discontinuities
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40052537-b4a9ec66-5870-11e8-8451-89d2e640f220.png)
 Solve:
 It's just the same with calculating the limits of both sides.
