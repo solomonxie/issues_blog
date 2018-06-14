@@ -1785,6 +1785,7 @@ Solve:
     - `M(0) = 150`
     - `M(13) = 150/2 = 75`
     - `M' = dM/dt = k · M` because they're **Proportional**.
+    - The problem is asking `M(8) = ?`.
 - So change a bit of `M'` to `1/M · dM = k · dt`.
 - Take integral of each side to get `ln(M) = k · t +C`, and further `M = C · eᵏᵗ`
 - By introduce the initial condition, we get `M(0) = 150 = C · e⁰ = C`
