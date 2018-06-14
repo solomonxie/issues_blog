@@ -267,7 +267,7 @@ Strategy:
     - Apply Derivative equation to get both RIGHT SIDE LIMIT and LEFT SIDE LIMIT.
     - If two sides' limits are the same, then that value is the **Derivative** at the point. If not, then it's NOT DIFFERENTIABLE.
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40156524-990fb1fe-59cc-11e8-939c-104e910309ab.png)
 Solve:
 - See that the point `3` is defined in the interval.
@@ -278,7 +278,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40156768-197072c4-59ce-11e8-9a2f-d9e09cd354c7.png)
 - Both sides' limits exists but not that same, so it's not differentiable.
 
-Example2:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40156269-fa328364-59ca-11e8-97fa-af21bfa10de9.png)
 Solve:
 - See that the point `-1` is defined in the interval.
@@ -299,7 +299,7 @@ Just think of a curve, a good way to approximate its Y-value, is to find another
 ![image](https://user-images.githubusercontent.com/14041622/40158363-b07acc02-59d6-11e8-8d62-76ab8643c7c9.png)
 
 
-Example: 
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40158643-2fb7a9da-59d8-11e8-9ca0-956bf405ff79.png)
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/40158702-81d93242-59d8-11e8-87ad-9622f18ddbc7.png)
@@ -367,7 +367,7 @@ It tells us how to differentiate `Composite functions`.
 
 The core principle to identify it, is trying to re-write the function into a nested one: `f(g(x))`. If you could do this, it's composite, if not, then it's not one.
 
-Examples:
+### Examples
 ![image](https://user-images.githubusercontent.com/14041622/40226233-add7f910-5abd-11e8-8522-853ca335a2a1.png)
 It's a composite function, which the inner is `cos(x)` and outer is `x²`.
 
@@ -390,7 +390,7 @@ It's just some people find the first form makes sense, some more people find the
 
 
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40268880-38210900-5ba8-11e8-8e45-3691ad3b5163.png)
 Solve:
 [Refer to Symbolab worked example.](https://www.symbolab.com/solver/step-by-step/%5Cfrac%7Bd%7D%7Bdx%7D%5Cleft(sqrt%5Cleft(3cos%5E%7B3%7D%5Cleft(x%5Cright)%5Cright)%5Cright))
