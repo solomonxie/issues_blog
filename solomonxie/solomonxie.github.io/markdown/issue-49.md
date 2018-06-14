@@ -1776,6 +1776,21 @@ Solve:
 - Since the speed is inversely proportional to distance's square, so it means `v = S'(t) = k/S²`
 
 
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41400988-33df07fe-6ff1-11e8-9ed6-a1d13333005e.png)
+Solve:
+- Assume the amount of medication is `M(t)`.
+- We've given that `M' = dM/dt = k · M` because they're **Proportional**.
+- So change a bit of it to `1/M · dM = k · dt`.
+- Take integral of each side to get `ln(M) = k · t +C`, and further `M = C · eᵏᵗ`
+- By introduce the initial condition, we get `M(0) = 150 = C · e⁰ = C`
+- By another information, we get `M(13) = 150 · e¹³ᵏ = 150/2`
+- And further, `13k = ln(1/2)`, so `k = ln(0.5)/13`
+- And now we get everything of the function `M(t)`, let's solve for `M(8)`
+- `M(8) = 150 · e^(8 · ln(0.5)/13) ≃ 97.9  
+
+
 # Why can we operate `dy/dx` algebraically?
 
 [Refer to Khan academy: Addressing treating differentials algebraically](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/v/addressing-treating-differentials-algebraically)
