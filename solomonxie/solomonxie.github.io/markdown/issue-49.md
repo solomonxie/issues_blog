@@ -25,10 +25,6 @@
 - [ ] Applications of definite integrals
 - [ ] Series
 
-## Study goals 
-- [ ] Limits
-- [ ] Derivatives
-
 
 
 
