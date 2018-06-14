@@ -273,3 +273,42 @@ $ vncserver
 # 服务器安装`gnome`桌面供vnc远程访问
 上面写了xfce桌面，不过样子比较丑，所以想试一试Ubuntu的gnome桌面。
 [参考阿里云官方参考文章。](https://help.aliyun.com/knowledge_detail/59330.html)
+
+
+# 远程服务器一键安装开启Shadowsocks脚本
+
+AWS的Lightsails在创建服务器时允许运行初始脚本，这个非常方便，省的我一个一个去敲代码了。
+
+以下为脚本内容：
+```sh
+#! /bin/bash
+# ---UBUNTU SERVER INITIAL SETUP---
+# Notice: 
+#    This script should be run by "$ sudo bash xxx.sh"
+
+# Update server & install essentials
+sudo apt-get update -y
+#sudo apt-get upgrade -y
+sudo apt-get install htop
+
+# Install Shadowsocks & create config file
+sudo pip install shadowsocks
+sudo cat>/etc/shadowsocks.json<<EOF
+{
+    "server":"0.0.0.0",
+    "server_port": 1111,
+    "password":"abc123",
+    "local_address":"127.0.0.1",
+    "method":"aes-256-cfb",
+    "local_port":1080,
+    "timeout":300,
+    "fast_open":false
+}
+EOF
+# Auto start Shadowsocks service when system starts
+#sudo echo "ssserver -c /etc/shadowsocks.json -d start" >> /etc/rc.local
+
+# Start Shadowsocks server
+sudo ssserver -c /etc/shadowsocks.json -d start
+```
+
