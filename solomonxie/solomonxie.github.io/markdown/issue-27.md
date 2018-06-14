@@ -1826,14 +1826,17 @@ $ rsync -r pi@192.168.1.123:/home/pi/remote ~/local/
 
 示例` test.sh`：
 ```sh
-cat>text.txt<<EOF
+cat>~/text.txt<<EOF
 第一行文字
 第二行文字
 第三行文字
 EOF
 ```
 
-执行bash脚本：
+执行bash脚本:
 ```sh
 $ bash test.sh
+
+# 查看生成到脚本
+$ cat ~/text.txt
 ```
