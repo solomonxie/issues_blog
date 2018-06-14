@@ -1264,6 +1264,8 @@ $ find root_path -name '*.jpg' -exec mv {} target_path \;
 $ find /dir/ -name '*.txt' | xargs grep 'KEYWORD'
 
 # 查找所有含有某关键字的文件：
+$ find /dir/ -name "*" |grep -rn "keyword" *
+
 $ find /dir/ * | xargs grep '关键字'
 ```
 
