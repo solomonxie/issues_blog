@@ -660,7 +660,7 @@ then there will be at least one place where the curve crosses the line!
 So for finding a root, the definition will be:
 > If `f(x)` is continuous and has an interval `[a, b]`, which leads the function that `f(a)<0 & f(b)>0` , then it MUST has a point `f(c)=0` between interval `[a,b]`, which makes a root `c`.
 
-Example:
+### Example
 Tell whether the function `f(x) = x² - x - 12` in interval `[3,5]` has a root.
 Solve:
 - We got that at both sides of intervals: `f(3)=-6 < 0`, and `f(5)=8 > 0`
@@ -801,7 +801,7 @@ Strategy:
     - If `f'(x) > 0` then the trending of this interval is **Increasing**.
     - If `f'(x) < 0` then the trending of this interval is **Decreasing**.
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40609152-624738b8-62a0-11e8-8725-509e4e5a78a3.png)
 Solve:
 - Set `f'(x) = 0 or undefined`, get `x = -2 or -1/3`
@@ -824,7 +824,7 @@ Strategy:
 - Try easy numbers in EACH intervals, to decide its TRENDING (going up/down).
 - Decide each critical point is Max, Min or Not Extreme.
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40608781-3c071840-629f-11e8-90b1-0225538eb324.png)
 Solve:
 - Set `f'(x)=0 or undefined`, get `x=0 or -2 or 1`
@@ -847,7 +847,7 @@ Strategy:
     - Decide each critical point is Max, Min or Not Extreme.
 - Input all the extreme point into original function `f(x)` and get extreme value.
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40609657-e09e250e-62a1-11e8-9e43-f1a69c217231.png)
 Solve:
 - Set `g'(x) = 0 or undefined` get `x=0`
@@ -857,7 +857,7 @@ Solve:
 - So the minimum must be the left endpoint of the given condition, which is `x=-2`.
 
 
-Example:
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40618317-bbc9bb7c-62c3-11e8-9723-962c727c7d4d.png)
 Solve:
 - Differentiate to set `f'(x)=0` and got `x=0, -1, 1`
