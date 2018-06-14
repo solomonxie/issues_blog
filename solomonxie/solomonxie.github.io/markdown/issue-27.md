@@ -1833,6 +1833,15 @@ cat>~/text.txt<<EOF
 EOF
 ```
 
+如果需要追加文本，那就变成`cat>>`：
+```sh
+cat>>~/text.txt<<EOF
+第一行文字
+第二行文字
+第三行文字
+EOF
+```
+
 执行bash脚本:
 ```sh
 $ bash test.sh
