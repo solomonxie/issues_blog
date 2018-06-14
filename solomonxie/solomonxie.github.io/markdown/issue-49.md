@@ -1781,11 +1781,14 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41400988-33df07fe-6ff1-11e8-9ed6-a1d13333005e.png)
 Solve:
 - Assume the amount of medication is `M(t)`.
-- We've given that `M' = dM/dt = k · M` because they're **Proportional**.
-- So change a bit of it to `1/M · dM = k · dt`.
+- Now all the informations we have are:
+    - `M(0) = 150`
+    - `M(13) = 150/2 = 75`
+    - `M' = dM/dt = k · M` because they're **Proportional**.
+- So change a bit of `M'` to `1/M · dM = k · dt`.
 - Take integral of each side to get `ln(M) = k · t +C`, and further `M = C · eᵏᵗ`
 - By introduce the initial condition, we get `M(0) = 150 = C · e⁰ = C`
-- By another information, we get `M(13) = 150 · e¹³ᵏ = 150/2`
+- By another information, we get `M(13) = 150 · e¹³ᵏ = 75`
 - And further, `13k = ln(1/2)`, so `k = ln(0.5)/13`
 - And now we get everything of the function `M(t)`, let's solve for `M(8)`
 - `M(8) = 150 · e^(8 · ln(0.5)/13) ≃ 97.9  
