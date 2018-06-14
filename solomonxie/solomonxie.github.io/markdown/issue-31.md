@@ -315,7 +315,7 @@ EOF
 sudo ssserver -c /etc/shadowsocks.json -d start
 ```
 
-不要忘记ssh登录的设置，把本地`~/.ssh/id_rsa.pub`的内容复制到里面。
+不要忘记ssh登录的设置，把本地`~/.ssh/id_rsa.pub`的内容复制到`SSH Keypair`里面，这样之后就不需要登录密码了。
 
 注意，生成好服务器后，一定要去开启端口才能生效。
 方法是：
