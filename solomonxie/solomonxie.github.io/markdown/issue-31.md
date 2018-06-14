@@ -84,6 +84,7 @@ sudo /usr/local/bin/ssserver -c /etc/shadowsocks.json -d start
 ![image](https://user-images.githubusercontent.com/14041622/35667037-20aa38cc-0767-11e8-814e-504fae373de4.png)
 或者谨慎点，在默认配置的基础上，添加自己连接的端口：
 ![image](https://user-images.githubusercontent.com/14041622/35765788-323cf50c-0906-11e8-8031-897d4264767f.png)
+(注意：这里的1111是你在设置/etc/shadowsocks.json时候里面的端口)
 
 2. 还不行的话，就在命令行里主动添加防火墙设置：
 ```shell
