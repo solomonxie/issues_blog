@@ -1253,18 +1253,13 @@ export KEYTIMEOUT=1
 
 [参考：[linux命令] find使用梳理](https://juejin.im/entry/59abc4436fb9a0249a414cc3)
 
+基本查找与找到后的操作：
 ```shell
 # 根据文件名搜索
 $ find ./ -name '*.jpg'
 
 # 移动搜索到的文件
 $ find ./ -name '*.jpg' -exec mv {} target_path \;
-
-# 根据文件名搜索 并且只显示内容中包括关键字的结果
-$ find ./ -name '*.txt' | xargs grep 'KEYWORD'
-
-# 查找所有含有某关键字的文件：
-$ find ./ -name "*" |grep -rn "KEYWORD" *
 
 # 只查找文件
 $ find ./ -type f
@@ -1291,9 +1286,13 @@ $ find ./ -name "fileA" -o \( -name "fileB" \)
 ```
 
 
-结合`xargs`和`grep`根据文件内容搜索：
+根据文件内容搜索：
 ```sh
-$ 
+# 根据文件名搜索 并且只显示内容中包括关键字的结果
+$ find ./ -name '*.txt' | xargs grep 'KEYWORD'
+
+# 查找所有含有某关键字的文件：
+$ find ./ -name "*" |grep -rn "KEYWORD" *
 ```
 
 
