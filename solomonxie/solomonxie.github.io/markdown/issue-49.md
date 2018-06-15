@@ -2032,4 +2032,6 @@ Solve:
 Even if you've been travelling all the time without stops, 
 but your `DISPLACEMENT` still can be 0:
 
-![image](https://user-images.githubusercontent.com/14041622/41458551-7ac08c42-70b9-11e8-941c-412ef8abc1da.png)
+![image](https://user-images.githubusercontent.com/14041622/41458843-527045f6-70ba-11e8-8f87-0dd35b9076c9.png)
+
+
