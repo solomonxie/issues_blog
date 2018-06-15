@@ -1846,7 +1846,7 @@ and you can draw a VERTICAL LINE through each `x` value, that would become a `Ve
 ### Finding `Horizontal asymptote` and `Oblique/Slant asymptote`
 > It depends on the `degree` of the `top` vs `bottom` polynomial.
 
-![image](https://user-images.githubusercontent.com/14041622/37707859-9121e5c0-2d3f-11e8-90b0-2ce65259af16.png)
+![image](https://user-images.githubusercontent.com/14041622/40049051-45773d08-5866-11e8-8beb-c81deacd4b91.png)
 
 There're FOUR possible cases need to discuss differently:
 
@@ -1875,7 +1875,7 @@ For example, the rational function is `f(x) = (3x²+1)/(4x+1)`, and we do long d
 
 Ignore the remainder, we gets the `Oblique asymptote` is `y = (3/4)x - (3/16)`
 
-![image](https://user-images.githubusercontent.com/14041622/40049051-45773d08-5866-11e8-8beb-c81deacd4b91.png)
+
 
 
 
