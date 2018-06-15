@@ -1248,25 +1248,46 @@ export KEYTIMEOUT=1
 
 
 
-# Linux 文件搜索检索
-
-## `Find`查找文件
+# `Find`查找文件
 `find`命令可以在指定目录及里面所有子文件夹的文件里搜索。不光可以按文件名搜索，还可以结合根据内容搜索。
+
+[参考：[linux命令] find使用梳理](https://juejin.im/entry/59abc4436fb9a0249a414cc3)
 
 ```shell
 # 根据文件名搜索
-$ find root_path -name '*.jpg'
+$ find ./ -name '*.jpg'
 
 # 移动搜索到的文件
-$ find root_path -name '*.jpg' -exec mv {} target_path \;
+$ find ./ -name '*.jpg' -exec mv {} target_path \;
 
 # 根据文件名搜索 并且只显示内容中包括关键字的结果
-$ find /dir/ -name '*.txt' | xargs grep 'KEYWORD'
+$ find ./ -name '*.txt' | xargs grep 'KEYWORD'
 
 # 查找所有含有某关键字的文件：
-$ find /dir/ -name "*" |grep -rn "keyword" *
+$ find ./ -name "*" |grep -rn "KEYWORD" *
 
-$ find /dir/ * | xargs grep '关键字'
+# 只查找文件
+$ find ./ -type f
+
+# 只查找目录
+$ find ./ -type d
+
+# 查找空文件或目录
+$ find ./ -empty
+
+# 限制查找深度
+$ find ./ -name "*.txt" -maxdepth 2
+
+# 从指定目录里查找
+$ find ./ -path "*folder*"
+
+# 按文件大小查找 (b, k, M, G）
+$ find ./ -size +1M
+$ find ./ -size -100k
+
+# OR / AND条件判断组合查找 (-a是AND，-o是OR，然后用括号扩起来）
+$ find ./ -name "fileA" -o \( -name "fileB" \)
+
 ```
 
 
