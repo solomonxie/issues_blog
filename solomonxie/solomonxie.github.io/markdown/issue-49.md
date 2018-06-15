@@ -2026,3 +2026,5 @@ Solve:
 `Displacement` literally means "the change in position", but actually it means the **SHORTCUT** of two points, the shortest distance between two points.
 
 ![image](https://user-images.githubusercontent.com/14041622/41458177-6d1a2b26-70b8-11e8-886b-128d9424e22b.png)
+
+[▶Jump over to previous note in Linear Algebra: Displacement is a vector, distance is a scalar.](https://github.com/solomonxie/solomonxie.github.io/issues/48#issuecomment-383118285)
