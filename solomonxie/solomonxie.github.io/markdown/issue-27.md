@@ -1287,12 +1287,11 @@ $ find ./ -name "fileA" -o \( -name "fileB" \)
 
 
 根据文件内容搜索：
+[参考：Linux查找目录下的所有文件中是否含有某个字符串](https://ifhw.github.io/2016/03/25/find-the-file-contains-certain-strings/)
+
 ```sh
 # 根据文件名搜索 并且只显示内容中包括关键字的结果
-$ find ./ -name '*.txt' | xargs grep 'KEYWORD'
-
-# 查找所有含有某关键字的文件：
-$ find ./ -name "*" |grep -rn "KEYWORD" *
+$ find ./ -name '*.txt' | xargs grep -ri 'KEYWORD'
 ```
 
 
