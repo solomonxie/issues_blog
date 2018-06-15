@@ -2028,3 +2028,8 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41458177-6d1a2b26-70b8-11e8-886b-128d9424e22b.png)
 
 [▶Jump over to previous note in Linear Algebra: Displacement is a vector, distance is a scalar.](https://github.com/solomonxie/solomonxie.github.io/issues/48#issuecomment-383118285)
+
+Even if you've been travelling all the time without stops, 
+but your `DISPLACEMENT` still can be 0:
+
+![image](https://user-images.githubusercontent.com/14041622/41458551-7ac08c42-70b9-11e8-941c-412ef8abc1da.png)
