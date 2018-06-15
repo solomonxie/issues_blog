@@ -2018,3 +2018,11 @@ Solve:
     - So in this round, `Δy = dy/dx · Δx = 1 × 1 = 1`
 - And let's get into the second round..
 - Third round...
+
+
+# Motion problems (Integral calc)
+
+### Displacement vs. Distance
+`Displacement` literally means "the change in position", but actually it means the **SHORTCUT** of two points, the shortest distance between two points.
+
+![image](https://user-images.githubusercontent.com/14041622/41458177-6d1a2b26-70b8-11e8-886b-128d9424e22b.png)
