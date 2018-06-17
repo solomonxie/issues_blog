@@ -159,3 +159,4 @@ gem update --system
 # Install latest version of bundler system-wide
 gem install bundler
 ```
+更新时间会很长，等全部安装好后，就可以正常的使用jekyll了。
