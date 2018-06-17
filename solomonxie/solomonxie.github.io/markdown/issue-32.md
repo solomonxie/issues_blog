@@ -190,6 +190,9 @@ $ jekyll server --watch
 - `_posts`文件夹：存放所有的Markdown格式文件。你所有的Markdown博客内容，都放在这里。文件命名也是有规定的，比如必须是`data-title.markdown`这种。
 
 
+注意：
+- `_site`文件夹需要你在`.gitignore`中加入屏蔽，因为这个动态生成的东西，完全不需要在git里面进行追踪。而且放在Github Pages上的话，Github引擎也不会在你的目录里面生成这个文件夹，而是在后台直接给你生成页面。之所以会有它，主要是本地设计时候用。
+
 ### `Front-Matter 文件头信息`
 文件头信息在这里被叫做`front-matter`,或`yml-header`，它是写在每个Markdown文件头部的设置信息。主要是指明这篇文章标题、日期、使用的模板、样式、标签、分类等，这样Jekyll就可以根据这些设置把markdown文件转换成你想要的最终HTML网页了。
 ![image](https://user-images.githubusercontent.com/14041622/41506335-74900244-724e-11e8-8784-e699b4ebb8e9.png)
