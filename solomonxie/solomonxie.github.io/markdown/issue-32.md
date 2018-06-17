@@ -76,7 +76,10 @@ create database 数据库名;
 ```
 
 
-# Github Pages建立网站
+# Github Pages建立静态网站
+Github Pages对于建立静态网站来说真的是超级方便，概念方便，配置方便。
+只要你不超出HTML+Javascript+CSS的范围，一切都好说。
+如果为了漂亮，可以使用Bootstrap等各种技术加强页面显示，只要是静态的，一切都好说。
 
 ## 个人主页vs项目主页
 
