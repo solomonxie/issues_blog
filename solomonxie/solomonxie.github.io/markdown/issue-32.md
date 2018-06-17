@@ -130,9 +130,25 @@ $ jekyll serve
 ```
 然后jekyll会将网站映射到本机的一个端口，你可以打开命令行里提示的url链接察看网站效果。
 
+![image](https://user-images.githubusercontent.com/14041622/41506042-66022d84-7248-11e8-9254-34f109bc4781.png)
+
+
+
 ### Jekyll new时发送错误：`Bundler: ruby: No such file or directory`
 我的Mac机上从来没做过任何Ruby项目，也不懂gem使用方法。全部原始配置后，使用`gem install jekyll`没问题，但是在`jekyll new ..`时，就发送这个错误：
 ```
 Bundler: ruby: No such file or directory -- /usr/local/lib/ruby/gems/2.5.0/gems/bundler-1.16.1/exe/bundle (LoadError)
 ```
 发生错误后，项目文件夹是生成了，但是不完整，也不能执行。
+
+问题在于本机的gem和bundler都不是很新，需要更新一下。
+参考：https://github.com/rubygems/rubygems/issues/2180#issuecomment-369423426
+
+更新如下：
+```sh
+# Install latest version of Rubygems
+gem update --system
+
+# Install latest version of bundler system-wide
+gem install bundler
+```
