@@ -78,12 +78,14 @@ create database 数据库名;
 
 # Github Pages建立网站
 
-## 用户域名和子域名
-Github Pages有两种建站方案。
-一种是你可以用自己的用户名为域名访问，如我的solomonxie.github.io。这是最简单的方法，网页放在master分支就可以显示。但是这种方法会有比较多限制：
-- 放网页的repo必须命名为`user.github.io`这种形式，user必须与自己的用户名完全相同。
-- 一个用户只能有一个这种域名
+## 个人主页vs项目主页
 
-另一种是，你可以使用任意repo，但是域名就不是`user.github.io`这么简单的形式了。而是``这种形式。
+[参考：单个GitHub帐号下添加多个GitHub Pages的相关问题](http://chitanda.me/2015/11/03/multiple-git-pages-in-one-github-account/)
+
+Github Pages有两种建站方案，一种叫个人主页，一种叫项目主页:
+- 个人主页：这种是你可以用自己的用户名为域名访问，如我的`solomonxie.github.io`。这是最简单的方法，网页放在master分支就可以显示。但是这种方法会有比较多限制：
+    - 放网页的repo必须命名为`user.github.io`这种形式，user必须与自己的用户名完全相同。
+    - 一个用户只能有一个这种域名。
+- 项目主页：这一种是，你可以使用任意repo，但是域名就不是`user.github.io`这么简单的形式了。而是`user.github.io/repo`这种形式。
 同时，你必须要把网页放在这个repo的`gh-pages`分支里，才能显示出来。
 
