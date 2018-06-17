@@ -117,12 +117,17 @@ Jekyll是一个基于Ruby语言的静态网站制作工具，它可以
 $ gem install jekyll
 ```
 
-用Jekyll创建一个blog或项目：
+用Jekyll创建一个网站（自动生成名为test_blog的文件夹和一系列文件）：
 ```sh
-$ cd ~
-$ jekyll new blog
+$ jekyll new test_blog
 ```
 
+本机运行网站：
+```sh
+$ cd test_blog
+$ jekyll serve
+```
+然后jekyll会将网站映射到本机的一个端口，你可以打开命令行里提示的url链接察看网站效果。
 
 ### Jekyll new时发送错误：`Bundler: ruby: No such file or directory`
 我的Mac机上从来没做过任何Ruby项目，也不懂gem使用方法。全部原始配置后，使用`gem install jekyll`没问题，但是在`jekyll new ..`时，就发送这个错误：
