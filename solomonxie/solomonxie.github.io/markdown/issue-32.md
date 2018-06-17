@@ -133,17 +133,6 @@ $ jekyll new test_blog
 这里面是完整的一个网站，可以直接运行浏览。
 然后你就可以根据自己的主页、其它网页什么的，在这个基础上修改了。
 
-
-本机运行网站：
-```sh
-$ cd test_blog
-$ jekyll serve
-```
-然后jekyll会将网站映射到本机的一个端口，你可以打开命令行里提示的url链接察看网站效果。
-
-![image](https://user-images.githubusercontent.com/14041622/41506042-66022d84-7248-11e8-9254-34f109bc4781.png)
-
-
 ### Jekyll new时发送错误：`Bundler: ruby: No such file or directory`
 我的Mac机上从来没做过任何Ruby项目，也不懂gem使用方法。全部原始配置后，使用`gem install jekyll`没问题，但是在`jekyll new ..`时，就发送这个错误：
 ```
@@ -165,11 +154,31 @@ gem install bundler
 更新时间会很长，等全部安装好后，就可以正常的使用jekyll了。
 
 
+
+## 生成网站
+
+渲染网站
+```sh
+$ cd test_blog
+$ jekyll serve
+```
+或实时渲染网站：
+```sh
+$ jekyll server --watch
+```
+如果加上了`--watch`参数，jekyll就会实时监控你的文件，只要那个文件有变动了，比如新增了markdown文件，或修改了layout模板，它都会即时渲染生成网站，总保持更新。
+
+运行渲染的命令后，jekyll就会把你的Markdown根据指定的模板渲染为静态网站，
+同时还会把网站映射到本机的一个端口，你可以打开命令行里提示的url链接察看网站效果。
+
+![image](https://user-images.githubusercontent.com/14041622/41506042-66022d84-7248-11e8-9254-34f109bc4781.png)
+
+
 ## Jekyll Workflow 工作流程
 
 
 
-## 制作网站
+## Jekyll自定义网站
 `Jekyll new`命令新建一个网站结构后，文件夹里面有很多文件。这些文件结构都是什么作用，是我们必须要学习的。
 
 ### `Jekyll文件夹结构`
