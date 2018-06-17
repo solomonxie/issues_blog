@@ -115,6 +115,7 @@ Jekyll是一个基于Ruby语言的静态博客网站制作工具，它可以把M
 
 > 另注：Jekyll虽然经常和Github Pages搭配，但其实是完全独立的产品。可以在任何地方使用。
 
+## 安装Jekyll
 
 安装Jekyll需要用Ruby的包管理器gem下载，像Python的pip一样：
 ```sh
@@ -141,11 +142,6 @@ $ jekyll serve
 ![image](https://user-images.githubusercontent.com/14041622/41506042-66022d84-7248-11e8-9254-34f109bc4781.png)
 
 
-
-
-
-
-
 ### Jekyll new时发送错误：`Bundler: ruby: No such file or directory`
 我的Mac机上从来没做过任何Ruby项目，也不懂gem使用方法。全部原始配置后，使用`gem install jekyll`没问题，但是在`jekyll new ..`时，就发送这个错误：
 ```
@@ -165,3 +161,6 @@ gem update --system
 gem install bundler
 ```
 更新时间会很长，等全部安装好后，就可以正常的使用jekyll了。
+
+
+## 制作网站
