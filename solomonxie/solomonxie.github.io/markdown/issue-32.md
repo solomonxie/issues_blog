@@ -175,7 +175,8 @@ $ jekyll server --watch
 
 
 ## Jekyll Workflow 工作流程
-
+使用Jekyll，主要难就在一开始，需要设计网页样式，设置全站的规则等等。
+但是一旦这些基本设置都完成了，以后更新就只需要专注的写Markdown文件即可。
 
 
 ## Jekyll自定义网站
