@@ -168,7 +168,7 @@ gem install bundler
 ## 制作网站
 `Jekyll new`命令新建一个网站结构后，文件夹里面有很多文件。这些文件结构都是什么作用，是我们必须要学习的。
 
-### Jekyll文件夹结构
+### `Jekyll文件夹结构`
 - `_config.yml`文件：这是你第一个需要修改的东西。全网站的通用设置都保存在这里，比如网站主题，名称，介绍，域名，Github用户名等。`.yml`是像`.ini`一样的配置文件类型。
 - `_site`文件夹：这个存放你的完整静态网站的文件夹，但是这是不需要你去碰的文件夹，它是Jekyll根据你的设置和模板之类的内容，自动生成的静态网站。
 - `_layout`文件夹：是存放各种网页模板的地方，主页什么样子，列表页什么样子，博客内容页面什么样子，这些分别的页面模板都是放在这里的。
@@ -176,7 +176,7 @@ gem install bundler
 - `_posts`文件夹：存放所有的Markdown格式文件。你所有的Markdown博客内容，都放在这里。文件命名也是有规定的，比如必须是`data-title.markdown`这种。
 
 
-### `Front-Matter`文件头信息
+### `Front-Matter 文件头信息`
 文件头信息在这里被叫做`front-matter`，它是写在每个Markdown文件头部的信息。主要是指明这篇文章标题、日期、使用的模板、样式、标签、分类等，这样Jekyll就可以根据这些设置把markdown文件转换成你想要的最终HTML网页了。
 ![image](https://user-images.githubusercontent.com/14041622/41506335-74900244-724e-11e8-8784-e699b4ebb8e9.png)
 
