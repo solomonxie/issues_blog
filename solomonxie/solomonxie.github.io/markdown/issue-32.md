@@ -121,10 +121,15 @@ Jekyll是一个基于Ruby语言的静态博客网站制作工具，它可以把M
 $ gem install jekyll
 ```
 
-用Jekyll创建一个网站（自动生成名为test_blog的文件夹和一系列文件）：
+用Jekyll创建一个网站（自动生成名为test_blog的文件夹和一个完整的Demo网站）：
 ```sh
 $ jekyll new test_blog
 ```
+目录里面内容如下：
+![image](https://user-images.githubusercontent.com/14041622/41506105-dcfb6dbe-7249-11e8-8ab0-7f24eaedf69d.png)
+这里面是完整的一个网站，可以直接运行浏览。
+然后你就可以根据自己的主页、其它网页什么的，在这个基础上修改了。
+
 
 本机运行网站：
 ```sh
