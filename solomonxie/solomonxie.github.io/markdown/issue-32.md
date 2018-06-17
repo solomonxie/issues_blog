@@ -92,3 +92,9 @@ Github Pages有两种建站方案，一种叫个人主页，一种叫项目主�
 - 项目主页：这一种是，你可以使用任意repo，但是域名就不是`user.github.io`这么简单的形式了。而是`user.github.io/repo`这种形式。
 同时，你必须要把网页放在这个repo的`gh-pages`分支里，才能显示出来。
 
+
+
+
+# Github Pages + Jekyll 建立动态网站
+之所以把Jekyll独立出来，是为了将Github Pages对静态网站支持的简单性凸显出来。
+动态的内容放在这里来详细讲解
