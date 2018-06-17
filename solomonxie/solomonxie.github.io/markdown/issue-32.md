@@ -134,6 +134,10 @@ $ jekyll serve
 
 
 
+
+
+
+
 ### Jekyll new时发送错误：`Bundler: ruby: No such file or directory`
 我的Mac机上从来没做过任何Ruby项目，也不懂gem使用方法。全部原始配置后，使用`gem install jekyll`没问题，但是在`jekyll new ..`时，就发送这个错误：
 ```
