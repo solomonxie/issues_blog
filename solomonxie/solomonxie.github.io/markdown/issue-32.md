@@ -109,3 +109,24 @@ Github Pages有两种建站方案，一种叫个人主页，一种叫项目主�
 > 之所以把涉及Jekyll部分独立出来，是为了把简单的东西和复杂的东西分开来，思路会比较清晰。
 所以，动态的内容放在这里来详细讲解。
 
+Jekyll是一个建立静态网站的工具，它可以
+
+
+安装Jekyll需要用Ruby的包管理器gem下载，像Python的pip一样：
+```sh
+$ gem install jekyll
+```
+
+用Jekyll创建一个blog或项目：
+```sh
+$ cd ~
+$ jekyll new blog
+```
+
+
+### Jekyll new时发送错误：`Bundler: ruby: No such file or directory`
+我的Mac机上从来没做过任何Ruby项目，也不懂gem使用方法。全部原始配置后，使用`gem install jekyll`没问题，但是在`jekyll new ..`时，就发送这个错误：
+```
+Bundler: ruby: No such file or directory -- /usr/local/lib/ruby/gems/2.5.0/gems/bundler-1.16.1/exe/bundle (LoadError)
+```
+发生错误后，项目文件夹是生成了，但是不完整，也不能执行。
