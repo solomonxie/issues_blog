@@ -2071,6 +2071,5 @@ Solve:
 
 
 ### Example
-![image](https://user-images.githubusercontent.com/14041622/41586737-126c2302-73e0-11e8-9978-8ceb5e7c94c8.png)
+![image](https://user-images.githubusercontent.com/14041622/41586824-44429ba4-73e0-11e8-8f8d-edeae8f8c29a.png)
 Solve:
-![image](https://user-images.githubusercontent.com/14041622/41586762-20237ad6-73e0-11e8-8654-e42d1120bf48.png)
