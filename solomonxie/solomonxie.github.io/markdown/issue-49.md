@@ -2068,3 +2068,9 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41586012-44e8dd2c-73de-11e8-8c84-aa25fd0ed5e5.png)
 - So the answer is:
 ![image](https://user-images.githubusercontent.com/14041622/41586022-4aa48c20-73de-11e8-8235-76956e409a1a.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41586737-126c2302-73e0-11e8-9978-8ceb5e7c94c8.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41586762-20237ad6-73e0-11e8-8654-e42d1120bf48.png)
