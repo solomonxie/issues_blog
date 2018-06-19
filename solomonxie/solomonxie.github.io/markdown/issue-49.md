@@ -2073,3 +2073,4 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41586824-44429ba4-73e0-11e8-8f8d-edeae8f8c29a.png)
 Solve:
+![image](https://user-images.githubusercontent.com/14041622/41587058-dbbab7f0-73e0-11e8-96bc-994c23fc03bb.png)
