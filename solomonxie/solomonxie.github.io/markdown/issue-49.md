@@ -2020,24 +2020,6 @@ Solve:
 - Third round...
 
 
-# `Motion problems (Integral calc)`
-
-### Displacement vs. Distance
-`Displacement` literally means "the change in position", but actually it means the **SHORTCUT** of two points, the shortest distance between two points.
-
-![image](https://user-images.githubusercontent.com/14041622/41458177-6d1a2b26-70b8-11e8-886b-128d9424e22b.png)
-
-[▶Jump over to previous note in Linear Algebra: Displacement is a vector, distance is a scalar.](https://github.com/solomonxie/solomonxie.github.io/issues/48#issuecomment-383118285)
-
-Even if you've been travelling all the time without stops, 
-but your `DISPLACEMENT` still can be 0:
-
-![image](https://user-images.githubusercontent.com/14041622/41458843-527045f6-70ba-11e8-8f87-0dd35b9076c9.png)
-
-
-
-
-
 # Area under Rate function
 
 [Refer to Khan academy: Area under rate function gives the net change](Area under rate function gives the net change)
@@ -2085,7 +2067,19 @@ Solve:
 
 
 
-# Motion Problems (Integral Calc)
+# `Motion problems (Integral calc)`
+
+### Displacement vs. Distance
+`Displacement` literally means "the change in position", but actually it means the **SHORTCUT** of two points, the shortest distance between two points.
+
+![image](https://user-images.githubusercontent.com/14041622/41458177-6d1a2b26-70b8-11e8-886b-128d9424e22b.png)
+
+[▶Jump over to previous note in Linear Algebra: Displacement is a vector, distance is a scalar.](https://github.com/solomonxie/solomonxie.github.io/issues/48#issuecomment-383118285)
+
+Even if you've been travelling all the time without stops, 
+but your `DISPLACEMENT` still can be 0:
+
+![image](https://user-images.githubusercontent.com/14041622/41458843-527045f6-70ba-11e8-8f87-0dd35b9076c9.png)
 
 
 ### Example
