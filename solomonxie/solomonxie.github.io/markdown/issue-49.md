@@ -2101,3 +2101,16 @@ Solve:
 - Incorrect answer:
 ![image](https://user-images.githubusercontent.com/14041622/41589588-7e162524-73e7-11e8-8303-2b8aae387caf.png)
 
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41590573-e5df17c2-73e9-11e8-921d-b0b1ed9e3387.png)
+Solve:
+- First to know the relationships between `s(t), v(t) and a(t)`:
+    - `v(t) = s'(t)` or `s(t) = ʃ v(t) dt`
+    - `a(t) = v'(t)` or `v(t) = ʃ a(t) dt`
+- Since `a(t) = 1`, so `v(t) = ʃ a(t) dt = ʃ 1 dt = t + C`.
+- Substitute: `v(3) = -3 = t + C = 3+C`, so `C=-6` which makes `v(t) = t - 6`
+- `s(t) = ʃ v(t) dt = ʃ (t-6) dt = 0.5t² - 6t + C`
+- Substitute: `s(2) = 0.5*2² - 6*2 + C = -10`, so `C=0`, which makes `s(t) = 0.5t² - 6t`
+- Substitute: `s(4) = 0.5 * 4² - 6*4 = -16`
