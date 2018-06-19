@@ -2114,3 +2114,8 @@ Solve:
 - `s(t) = ʃ v(t) dt = ʃ (t-6) dt = 0.5t² - 6t + C`
 - Substitute: `s(2) = 0.5*2² - 6*2 + C = -10`, so `C=0`, which makes `s(t) = 0.5t² - 6t`
 - Substitute: `s(4) = 0.5 * 4² - 6*4 = -16`
+
+
+# Planar motion (with integrals)
+
+### Example
