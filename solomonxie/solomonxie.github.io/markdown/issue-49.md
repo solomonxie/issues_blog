@@ -2117,3 +2117,12 @@ Solve:
 Solve:
 - The displacement is calculated as below:
 ![image](https://user-images.githubusercontent.com/14041622/41591794-545e9c60-73ed-11e8-8822-e882c533010b.png)
+
+
+
+# Function Area between curve & axes
+
+## With X-axis
+
+
+## With Y-axis
