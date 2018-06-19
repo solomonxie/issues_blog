@@ -2140,10 +2140,14 @@ Solve:
 ## `Area Between Two curves`
 
 Strategy:
-- Subtract smaller area from bigger area: `ʃ f(x) dx - ʃ g(x) dx`
+- Subtract smaller area from bigger area (must be positive): `ʃ |f(x)-g(x)| dx`
 
 
 ### Example
+![image](https://user-images.githubusercontent.com/14041622/41597493-314bc514-7400-11e8-8f84-04ac08653266.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41597717-d38df6da-7400-11e8-9224-06a2a4644cd2.png)
+
 
 
 
