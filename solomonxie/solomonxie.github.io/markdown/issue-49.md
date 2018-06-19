@@ -2035,3 +2035,14 @@ but your `DISPLACEMENT` still can be 0:
 ![image](https://user-images.githubusercontent.com/14041622/41458843-527045f6-70ba-11e8-8f87-0dd35b9076c9.png)
 
 
+
+
+
+# Area under Rate function
+
+[Refer to Khan academy: Area under rate function gives the net change](Area under rate function gives the net change)
+
+We're used to the function graph that using ordinary `X-Y axes`. But it's also very often we use the `X-R axes` (where Rate of the function as the vertical axis) for real problems.
+
+![image](https://user-images.githubusercontent.com/14041622/41585015-6663d4f0-73db-11e8-8ca1-5f65bf4474f2.png)
+
