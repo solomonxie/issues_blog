@@ -2052,4 +2052,8 @@ Instead of showing the function graph of `D(t)`, we're showing the Rate function
 Based on the distance formula `Distance  = speed × time`, we could know that `D(t) = r(t) × Δt`
 By using a more calculus based term: The distance it traveled in a period of time is `D(t) = ʃ r(t) dt`
 
-So in the graph above, the 
+So in the graph above, the **AREA** of rate function actually means **THE DISTANCE TRAVELED IN A PERIOD OF TIME.**
+
+Try to intuitively understand this in mind, then problems will be solved.
+
+### Example
