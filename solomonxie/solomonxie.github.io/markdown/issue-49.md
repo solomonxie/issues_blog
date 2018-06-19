@@ -2058,6 +2058,7 @@ Try to intuitively understand this in mind, then problems will be solved.
 
 **Strategy**:
 - Imagine the `Rate function graph`.
+- Take the conditions of problem into this graph.
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41585935-049cb0ae-73de-11e8-8062-6e6f1883ed75.png)
