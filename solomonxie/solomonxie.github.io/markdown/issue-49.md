@@ -2056,4 +2056,14 @@ So in the graph above, the **AREA** of `rate function` actually means **THE DIST
 
 Try to intuitively understand this in mind, then problems will be solved.
 
+**Strategy**:
+- Imagine the `Rate function graph`.
+
 ### Example
+![image](https://user-images.githubusercontent.com/14041622/41585935-049cb0ae-73de-11e8-8062-6e6f1883ed75.png)
+Solve:
+- The question is `What is the temperature.` This means we are looking for an **actual value**.
+- Actual value is expressed as the **SUM** of an `initial condition` and a `definite integral`:
+![image](https://user-images.githubusercontent.com/14041622/41586012-44e8dd2c-73de-11e8-8c84-aa25fd0ed5e5.png)
+- So the answer is:
+![image](https://user-images.githubusercontent.com/14041622/41586022-4aa48c20-73de-11e8-8235-76956e409a1a.png)
