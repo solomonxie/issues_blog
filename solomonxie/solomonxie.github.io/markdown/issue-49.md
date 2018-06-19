@@ -2122,7 +2122,7 @@ Solve:
 
 # Function Area between curve & axes
 
-## With X-axis
+## Between X-axis & Curve
 
 Strategy:
 - Figure out the interval (boundaries) for the definite integral.
@@ -2137,4 +2137,7 @@ Solve:
 - The area then is `ʃ (2+2cosx) dx` over the interval `[0, π]`
 - The result is `2π` from the definite integral .
 
-## With Y-axis
+## Between Two curves
+
+## Between Y-axis & Curve
+
