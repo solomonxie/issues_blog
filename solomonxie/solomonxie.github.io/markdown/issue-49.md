@@ -2160,3 +2160,21 @@ Solve:
 
 ## `Area Between Y-axis & Curve`
 
+Strategy:
+- Inverse the function to make it in term of `y`.
+- Instead of integrate in term of `x`, we need to integrate in term of `y`.
+- Integrate: `ʃ f(y) dy`
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41611868-c86d34b4-7423-11e8-9a0b-94d052cd9bb8.png)
+Solve:
+- Now we have the function `f(y) = 15/y`
+- Integrate the function in term of `y`:
+![image](https://user-images.githubusercontent.com/14041622/41612030-3d01b6f6-7424-11e8-9d98-a6e2beef690a.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41612164-a7d4a31c-7424-11e8-8525-9883de006e31.png)
+Solve:
