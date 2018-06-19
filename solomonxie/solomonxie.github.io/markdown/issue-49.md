@@ -2071,6 +2071,16 @@ Solve:
 - So the answer is:
 ![image](https://user-images.githubusercontent.com/14041622/41586022-4aa48c20-73de-11e8-8235-76956e409a1a.png)
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41587550-106a89c0-73e2-11e8-89f7-85ff6dda36cf.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41587594-259c1476-73e2-11e8-8f1b-769b1325b3cf.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41589291-be2bd2e0-73e6-11e8-9632-612f5afa266c.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41589299-c3056088-73e6-11e8-8c62-c2972a6e12d3.png)
+
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41586824-44429ba4-73e0-11e8-8f8d-edeae8f8c29a.png)
