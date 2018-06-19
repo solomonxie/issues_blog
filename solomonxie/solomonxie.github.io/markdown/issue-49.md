@@ -2056,7 +2056,7 @@ So in the graph above, the **AREA** of `rate function` actually means **THE DIST
 
 > **THE DISTANCE IS THE ACCUMULATED SPEED.**
 
-Try to intuitively understand this in mind, then problems will be solved.
+Try to intuitively understand this in mind, then problems will be solved easily.
 
 **Strategy**:
 - Imagine the `Rate function graph`.
