@@ -2044,5 +2044,12 @@ but your `DISPLACEMENT` still can be 0:
 
 We're used to the function graph that using ordinary `X-Y axes`. But it's also very often we use the `X-R axes` (where Rate of the function as the vertical axis) for real problems.
 
+Assume there's a function of a car's distance: `D(t)`, and the car's speed is represented as a function `r(t)`.
+Instead of showing the function graph of `D(t)`, we're showing the Rate function's graph:
+
 ![image](https://user-images.githubusercontent.com/14041622/41585015-6663d4f0-73db-11e8-8ca1-5f65bf4474f2.png)
 
+Based on the distance formula `Distance  = speed × time`, we could know that `D(t) = r(t) × Δt`
+By using a more calculus based term: The distance it traveled in a period of time is `D(t) = ʃ r(t) dt`
+
+So in the graph above, the 
