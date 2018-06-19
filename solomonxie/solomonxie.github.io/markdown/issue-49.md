@@ -2085,7 +2085,7 @@ Solve:
 
 
 
-# Motion Problems with Integral
+# Motion Problems (Integral Calc)
 
 
 ### Example
@@ -2116,7 +2116,7 @@ Solve:
 - Substitute: `s(4) = 0.5 * 4² - 6*4 = -16`
 
 
-# Planar motion (with integrals)
+# Planar motion (Integral Calc)
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41591423-46154510-73ec-11e8-9b14-6f9fa97f654e.png)
