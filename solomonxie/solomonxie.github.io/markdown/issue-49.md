@@ -2124,5 +2124,17 @@ Solve:
 
 ## With X-axis
 
+Strategy:
+- Figure out the interval (boundaries) for the definite integral.
+- Directly Integrate the function: `ʃ f(x) dx` over the interval.
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41593733-9cebe77a-73f3-11e8-91bf-8a8d9d6e89a6.png)
+Solve:
+- The interval is between `0 & x when f(x)=0`.
+- Set `f(x) = 0 = 2 + 2cos(x)` -> `cos(x)=-1` -> `x = arccos(-1) = π`
+- So the interval is `[0, π]`.
+- The area then is `ʃ (2+2cosx) dx` over the interval `[0, π]`
+- The result is `2π` from the definite integral .
 
 ## With Y-axis
