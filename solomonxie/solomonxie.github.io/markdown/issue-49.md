@@ -2082,3 +2082,22 @@ Solve:
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41587058-dbbab7f0-73e0-11e8-96bc-994c23fc03bb.png)
 
+
+
+
+# Motion Problems with Integral
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41589291-be2bd2e0-73e6-11e8-9632-612f5afa266c.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41589299-c3056088-73e6-11e8-8c62-c2972a6e12d3.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41589559-5ced7a32-73e7-11e8-8757-13870756a30d.png)
+Solve:
+- Correct answer:
+![image](https://user-images.githubusercontent.com/14041622/41589565-6398b25c-73e7-11e8-9ddd-2fd969115f99.png)
+- Incorrect answer:
+![image](https://user-images.githubusercontent.com/14041622/41589588-7e162524-73e7-11e8-8303-2b8aae387caf.png)
+
