@@ -2149,6 +2149,13 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41597717-d38df6da-7400-11e8-9224-06a2a4644cd2.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41599531-17b0a880-7406-11e8-882a-9f8d33632974.png)
+Solve:
+- The graph is as below:
+![image](https://user-images.githubusercontent.com/14041622/41599539-1e41565e-7406-11e8-9fb8-45b2bcc20dd5.png)
+- We can actually ignore the graph to calculate:
+![image](https://user-images.githubusercontent.com/14041622/41599704-8e9d6e38-7406-11e8-90a6-a095e8d5a3e9.png)
 
 
 ## `Area Between Y-axis & Curve`
