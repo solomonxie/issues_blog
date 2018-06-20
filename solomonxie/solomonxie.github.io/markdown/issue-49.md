@@ -2231,8 +2231,7 @@ There're a few notable differences for calculating `Area of Polar Curves`:
 
 [Refer to Khan Academy: Area bounded by polar curves](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-polar-graphs-area/v/formula-area-polar-graph)
 
-![image](https://user-images.githubusercontent.com/14041622/41645985-366adbac-74a5-11e8-8702-06f9527e3814.png)
-
+![image](https://user-images.githubusercontent.com/14041622/41646053-67cd08d2-74a5-11e8-9cee-e3c0aa7bb438.png)
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41644776-af30e224-74a1-11e8-8627-7f65e035aaae.png)
