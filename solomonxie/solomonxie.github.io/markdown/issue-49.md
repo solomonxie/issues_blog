@@ -2280,3 +2280,8 @@ Solve:
 
 
 ### Example
+![image](https://user-images.githubusercontent.com/14041622/41652310-44e68612-74b5-11e8-8df9-2c631cb9b83f.png)
+Solve:
+- `f'(x) = 1/x`
+- According to the formula:
+![image](https://user-images.githubusercontent.com/14041622/41652352-61393576-74b5-11e8-8dd5-15b79c8a850d.png)
