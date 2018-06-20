@@ -2315,7 +2315,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41669963-a1adf684-74e5-11e8-98b6-386133ee7591.png)
 Solve:
 - First, we really really need to graph this out before anything else:
-![image](https://user-images.githubusercontent.com/14041622/41670621-60e63f9c-74e7-11e8-9465-511459f4827f.png)
+![image](https://user-images.githubusercontent.com/14041622/41671669-62aa232c-74ea-11e8-94da-44a557b43586.png)
 - So imagine we're slicing the `cylinder` from top to bottom in infinite many discs (of course it's rectangle). So the mission is to find out the rectangle's area, and integrate them.
 - Let's figure out the boundaries first:
     - Since the base is a circle, and it's a fixed certain circle. 
@@ -2328,6 +2328,8 @@ Solve:
     - (Btw, the `depth` of the box is infinitely thin as `dx`.)
     - So the area of the standing rectangle is: `A(x) = 2y · 4y = 8y² = 8(16 - x²)²`
 - Let's integrate those rectangles over the interval `[-4, 4]`:
+![image](https://user-images.githubusercontent.com/14041622/41671925-1d4d01ae-74eb-11e8-8853-b6f03550e771.png)
+
 
 
 
