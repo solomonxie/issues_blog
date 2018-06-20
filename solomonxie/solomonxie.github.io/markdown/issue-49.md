@@ -2160,3 +2160,18 @@ Solve:
 Solve:
 - Integral the function in term of `y`:
 ![image](https://user-images.githubusercontent.com/14041622/41641800-0df347a6-7499-11e8-86d9-6c740140d81e.png)
+
+
+## `Horizontal areas between curves`
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41641877-477e6c4e-7499-11e8-95e2-46ff645b4429.png)
+Solve:
+- Clearly, it's bit harder to find the x-axis boundaries for the area.
+- And the y-axis boundaries could be easily found where as the point two curves intersect.
+- So let two equations equal to get two intersect points:
+![image](https://user-images.githubusercontent.com/14041622/41642038-c1e4a0b6-7499-11e8-8332-3ee37c8c2415.png)
+- And since it's area between two functions, we subtract one from another `f(y) - g(y)` to get:
+![image](https://user-images.githubusercontent.com/14041622/41642128-07ba1b8e-749a-11e8-9fb4-412ef88537c4.png)
+- So the result would be:
+![image](https://user-images.githubusercontent.com/14041622/41642160-1c56d532-749a-11e8-9608-cf55bc24300b.png)
