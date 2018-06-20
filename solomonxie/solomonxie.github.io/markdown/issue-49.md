@@ -2221,3 +2221,14 @@ Solve:
 
 # Area bounded by polar curves
 
+[Refer to Khan Academy: Area bounded by polar curves](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-polar-graphs-area/v/formula-area-polar-graph)
+
+![image](https://user-images.githubusercontent.com/14041622/41645059-721b522e-74a2-11e8-907f-49382861c03a.png)
+
+
+Strategy:
+- It's not using `rectangles`  to calculate the area anymore, but using `triangles`.
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41644776-af30e224-74a1-11e8-8627-7f65e035aaae.png)
+Solve:
