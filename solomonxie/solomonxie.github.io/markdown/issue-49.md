@@ -2290,7 +2290,7 @@ Solve:
 
 # `Parametric Curve Arc Length`
 
-`Parametric Curves` means both `x` and `y` are functions, in terms of t: `x(t)` and `y(t)`.
+`Parametric Curves` are from `Parametric Equations`, means both `x` and `y` are functions, in terms of t: `x(t)` and `y(t)`.
 
 [Refer to Khan academy: Parametric curve arc length](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-arc-length/v/parametric-curve-arc-length)
 
