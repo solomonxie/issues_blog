@@ -2253,3 +2253,9 @@ Solve:
 - So the area is:
 ![image](https://user-images.githubusercontent.com/14041622/41647828-f1be1118-74a9-11e8-9b3d-92282a59bae0.png)
 
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41648691-31bbe1e4-74ac-11e8-9d30-3fb49ab35b8e.png)
+Solve:
+- It's bit tricky to find the boundaries.
