@@ -2299,3 +2299,8 @@ Solve:
 ## `Formula`
 
 ![image](https://user-images.githubusercontent.com/14041622/41652532-ea2aa0ea-74b5-11e8-9082-850603d79a86.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41652845-eb936aa6-74b6-11e8-828a-eadc1107c8aa.png)
+Solve:
