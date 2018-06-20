@@ -2297,8 +2297,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41652496-c6e08d66-74b5-11e8-8bd0-27b6746e382d.png)
 
 ## `Formula`
-
-![image](https://user-images.githubusercontent.com/14041622/41652532-ea2aa0ea-74b5-11e8-9082-850603d79a86.png)
+![image](https://user-images.githubusercontent.com/14041622/41653406-8b46d898-74b8-11e8-9861-b764b3715994.png)
 
 
 ### Example
