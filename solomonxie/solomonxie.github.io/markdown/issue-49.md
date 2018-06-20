@@ -2221,13 +2221,13 @@ Solve:
 
 # Area bounded by polar curves
 
+Calculating area for `polar curves`, means we're now under the `Polar Coordinate` to do integration.
+And instead of using `rectangles`  to calculate the area, we are to use `triangles` to integrate the area for a curve.
+
 [Refer to Khan Academy: Area bounded by polar curves](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-polar-graphs-area/v/formula-area-polar-graph)
 
 ![image](https://user-images.githubusercontent.com/14041622/41645169-beb3585c-74a2-11e8-8683-dc696a4bd8fb.png)
 
-
-Strategy:
-- It's not using `rectangles`  to calculate the area anymore, but using `triangles`.
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41644776-af30e224-74a1-11e8-8627-7f65e035aaae.png)
