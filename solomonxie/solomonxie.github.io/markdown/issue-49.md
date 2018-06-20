@@ -2271,7 +2271,13 @@ Solve:
 
 # Arc Length (Integral Calc)
 
+[Refer to Khan academy: Arc length intro](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-arc-length/v/arc-length-formula)
+
+![image](https://user-images.githubusercontent.com/14041622/41651690-bd619282-74b3-11e8-847f-08ab868971c0.png)
+
 ![image](https://user-images.githubusercontent.com/14041622/41651418-1d9a343e-74b3-11e8-8096-3d69c17563aa.png)
+
+![image](https://user-images.githubusercontent.com/14041622/41651679-b6b5c002-74b3-11e8-8e35-f0d1d42f3499.png)
 
 
 ### Example
