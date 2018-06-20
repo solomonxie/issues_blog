@@ -2269,7 +2269,7 @@ Solve:
 
 
 
-# Arc Length (Integral Calc)
+# `Arc Length (Integral Calc)`
 
 [Refer to Khan academy: Arc length intro](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-arc-length/v/arc-length-formula)
 
@@ -2288,7 +2288,12 @@ Solve:
 
 
 
-# `Parametric Curve Arc Length (Integral Calc)`
+# `Parametric Curve Arc Length`
 
+[Refer to Khan academy: Parametric curve arc length](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-arc-length/v/parametric-curve-arc-length)
 
 ![image](https://user-images.githubusercontent.com/14041622/41652496-c6e08d66-74b5-11e8-8bd0-27b6746e382d.png)
+
+## `Formula`
+
+![image](https://user-images.githubusercontent.com/14041622/41652532-ea2aa0ea-74b5-11e8-9082-850603d79a86.png)
