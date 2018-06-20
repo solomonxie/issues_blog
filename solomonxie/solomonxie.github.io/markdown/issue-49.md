@@ -2158,3 +2158,5 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41641168-f89115de-7496-11e8-808a-1094a9034dd5.png)
 Solve:
+- Integral the function in term of `y`:
+![image](https://user-images.githubusercontent.com/14041622/41641800-0df347a6-7499-11e8-86d9-6c740140d81e.png)
