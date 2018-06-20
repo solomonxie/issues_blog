@@ -2224,6 +2224,11 @@ Solve:
 Calculating area for `polar curves`, means we're now under the `Polar Coordinate` to do integration.
 And instead of using `rectangles`  to calculate the area, we are to use `triangles` to integrate the area for a curve.
 
+There're a few notable differences for calculating `Area of Polar Curves`:
+- It's now under the **`Polar Coordinate`**.
+- It's using infinite small **`Triangles`** to integral the area.
+- It's the area between the function graph and a **`RAY`** or two **`RAYS`** from the origin.
+
 [Refer to Khan Academy: Area bounded by polar curves](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-polar-graphs-area/v/formula-area-polar-graph)
 
 ![image](https://user-images.githubusercontent.com/14041622/41645169-beb3585c-74a2-11e8-8683-dc696a4bd8fb.png)
