@@ -2285,3 +2285,10 @@ Solve:
 - `f'(x) = 1/x`
 - According to the formula:
 ![image](https://user-images.githubusercontent.com/14041622/41652352-61393576-74b5-11e8-8dd5-15b79c8a850d.png)
+
+
+
+# `Parametric Curve Arc Length (Integral Calc)`
+
+
+![image](https://user-images.githubusercontent.com/14041622/41652496-c6e08d66-74b5-11e8-8bd0-27b6746e382d.png)
