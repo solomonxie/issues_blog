@@ -2137,26 +2137,6 @@ Solve:
 - The area then is `ʃ (2+2cosx) dx` over the interval `[0, π]`
 - The result is `2π` from the definite integral .
 
-## `Area Between Two curves`
-
-Strategy:
-- Subtract smaller area from bigger area (must be positive): `ʃ |f(x)-g(x)| dx`
-
-
-### Example
-![image](https://user-images.githubusercontent.com/14041622/41597493-314bc514-7400-11e8-8f84-04ac08653266.png)
-Solve:
-![image](https://user-images.githubusercontent.com/14041622/41597717-d38df6da-7400-11e8-9224-06a2a4644cd2.png)
-
-
-### Example
-![image](https://user-images.githubusercontent.com/14041622/41599531-17b0a880-7406-11e8-882a-9f8d33632974.png)
-Solve:
-- The graph is as below:
-![image](https://user-images.githubusercontent.com/14041622/41599539-1e41565e-7406-11e8-9fb8-45b2bcc20dd5.png)
-- We can actually ignore the graph to calculate:
-![image](https://user-images.githubusercontent.com/14041622/41599704-8e9d6e38-7406-11e8-90a6-a095e8d5a3e9.png)
-
 
 ## `Area Between Y-axis & Curve`
 
@@ -2176,5 +2156,5 @@ Solve:
 
 
 ### Example
-![image](https://user-images.githubusercontent.com/14041622/41612164-a7d4a31c-7424-11e8-8525-9883de006e31.png)
+![image](https://user-images.githubusercontent.com/14041622/41641168-f89115de-7496-11e8-808a-1094a9034dd5.png)
 Solve:
