@@ -2266,3 +2266,12 @@ Solve:
 - So the shaded region is:
 ![image](https://user-images.githubusercontent.com/14041622/41650221-1a691436-74b0-11e8-86ec-397a7541f0ed.png)
 
+
+
+
+# Arc Length (Integral Calc)
+
+![image](https://user-images.githubusercontent.com/14041622/41651418-1d9a343e-74b3-11e8-8096-3d69c17563aa.png)
+
+
+### Example
