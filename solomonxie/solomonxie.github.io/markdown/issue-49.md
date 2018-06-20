@@ -2216,3 +2216,8 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41642128-07ba1b8e-749a-11e8-9fb4-412ef88537c4.png)
 - So the result would be:
 ![image](https://user-images.githubusercontent.com/14041622/41642160-1c56d532-749a-11e8-9608-cf55bc24300b.png)
+
+
+
+# Area bounded by polar curves
+
