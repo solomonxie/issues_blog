@@ -2223,7 +2223,7 @@ Solve:
 
 [Refer to Khan Academy: Area bounded by polar curves](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-polar-graphs-area/v/formula-area-polar-graph)
 
-![image](https://user-images.githubusercontent.com/14041622/41645059-721b522e-74a2-11e8-907f-49382861c03a.png)
+![image](https://user-images.githubusercontent.com/14041622/41645169-beb3585c-74a2-11e8-8683-dc696a4bd8fb.png)
 
 
 Strategy:
