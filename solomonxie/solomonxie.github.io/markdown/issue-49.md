@@ -2240,3 +2240,4 @@ There're a few notable differences for calculating `Area of Polar Curves`:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41644776-af30e224-74a1-11e8-8627-7f65e035aaae.png)
 Solve:
+![image](https://user-images.githubusercontent.com/14041622/41646691-11cf8b1a-74a7-11e8-982d-76739ef477c4.png)
