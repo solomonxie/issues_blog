@@ -2241,3 +2241,15 @@ There're a few notable differences for calculating `Area of Polar Curves`:
 ![image](https://user-images.githubusercontent.com/14041622/41644776-af30e224-74a1-11e8-8627-7f65e035aaae.png)
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41646691-11cf8b1a-74a7-11e8-982d-76739ef477c4.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41647586-5740493a-74a9-11e8-9024-236434d97861.png)
+Solve:
+- First to notice, the boundaries are at two function's intersects.
+- So let `3sinθ = 1+sinθ`, to get `θ = π/6 and 5π/6`, which are the boundaries.
+- Within the boundaries, the area asked could be calculated by subtracting the smaller area form bigger one.
+- So the area is:
+![image](https://user-images.githubusercontent.com/14041622/41647828-f1be1118-74a9-11e8-9b3d-92282a59bae0.png)
+
