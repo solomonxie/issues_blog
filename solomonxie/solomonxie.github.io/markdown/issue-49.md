@@ -2226,7 +2226,7 @@ And instead of using `rectangles`  to calculate the area, we are to use `triangl
 
 There're a few notable differences for calculating `Area of Polar Curves`:
 - It's now under the **`Polar Coordinate`**.
-- It's using infinite small **`Circle Sectors`** to integral the area.
+- It's using **`Circle Sectors`** with infinite small angles to integral the area.
 - It's the area between the function graph and a **`RAY`** or two **`RAYS`** from the origin.
 
 [Refer to Khan Academy: Area bounded by polar curves](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-polar-graphs-area/v/formula-area-polar-graph)
