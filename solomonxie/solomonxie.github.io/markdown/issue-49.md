@@ -2303,3 +2303,8 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41652845-eb936aa6-74b6-11e8-828a-eadc1107c8aa.png)
 Solve:
+
+
+
+# `Volumes of 3D Solids (Integral Calc)`
+
