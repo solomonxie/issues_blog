@@ -2259,7 +2259,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41648691-31bbe1e4-74ac-11e8-9d30-3fb49ab35b8e.png)
 Solve:
 - It's bit tricky to find the boundaries.
-- In this case, it's not subtracting one area from another, but adding two small areas:
+- In this case, it's **not subtracting** one area from another, but **adding two small areas**:
 ![image](https://user-images.githubusercontent.com/14041622/41649970-7bfc2784-74af-11e8-84f9-30f5b52d7e66.png)
 - As showed above, for the `cosθ` shape, its boundaries are same with Quadrant-1: `[0, π/2]`
 - For the `1+sinθ` shape, its boundaries are same with Quadrant-4: `[3π/2, 2π]`
