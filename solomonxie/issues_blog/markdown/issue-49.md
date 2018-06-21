@@ -2234,6 +2234,8 @@ There're a few notable differences for calculating `Area of Polar Curves`:
 - It's using **`Circle Sectors`** with infinite small angles to integral the area.
 - It's the area between the function graph and a **`RAY`** or two **`RAYS`** from the origin.
 
+[►Jump to Khan academy for some practice: Area bounded by polar curves](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/area-enclosed-by-polar-graphs)
+
 [Refer to Khan Academy: Area bounded by polar curves](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-polar-graphs-area/v/formula-area-polar-graph)
 
 ![image](https://user-images.githubusercontent.com/14041622/41646649-f894721e-74a6-11e8-8f27-1b43183bdb99.png)
@@ -2276,7 +2278,8 @@ Solve:
 
 # `Arc Length (Integral Calc)`
 
-[Refer to Khan academy: Arc length intro](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-arc-length/v/arc-length-formula)
+[►Jump to Khan academy for some practice: Arc Length.](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/arc-length-of-functions-in-one-variable)
+[▼Refer to Khan academy: Arc length intro](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-arc-length/v/arc-length-formula)
 
 ![image](https://user-images.githubusercontent.com/14041622/41651418-1d9a343e-74b3-11e8-8096-3d69c17563aa.png)
 ![image](https://user-images.githubusercontent.com/14041622/41651679-b6b5c002-74b3-11e8-8e35-f0d1d42f3499.png)
