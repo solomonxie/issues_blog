@@ -2364,6 +2364,11 @@ The strategy of this method is:
 - Calculate the **AREA** of this `Rotated Circle`, or so called `disc`.
 - Integrate all the discs.
 
+[Refer to the article: Finding volumes of 3-D objects with circular symmetry in at least one dimension](http://xaktly.com/VolumesDisk.html)
+
+![image](https://user-images.githubusercontent.com/14041622/41714577-576f9408-7583-11e8-9527-486cf6e31ed9.png)
+
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41706686-fb877624-756e-11e8-883a-c52a4e8568b1.png)
 Solve:
