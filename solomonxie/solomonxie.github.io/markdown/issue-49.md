@@ -2375,4 +2375,11 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41708102-42dcd264-7572-11e8-9291-ed1bbc0e88a2.png)
 Solve:
+- The radius of the disc is exactly equal to `y` value, means `r = y = eˣ`
+- The area of the disc then be `Area(x) = πr² = π · e²ˣ`
+- Since We're integrating `Horizontally` along X-axis, so the integral should be `ʃ A(x) dx`
+- Integral all the discs: `Volume = ʃ A(x) dx = ʃ π · e²ˣ dx`
+- Calculate the integral.
 
+
+### Example
