@@ -2330,6 +2330,8 @@ So that you could sense what is this problem asking for. And once you know what 
 
 ## `Volumes of solids of known shapes cross-section`
 
+[►Jump to Khan academy for some practice: Volumes of solids of known cross-section](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/volumes-of-solids-of-known-cross-section)
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41669963-a1adf684-74e5-11e8-98b6-386133ee7591.png)
 Solve:
@@ -2371,6 +2373,7 @@ The strategy of this method is:
 - Calculate the **AREA** of this `Rotated Circle`, or so called `disc`.
 - Integrate all the discs.
 
+[►Jump to Khan academy for some practice: Disc Method](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/the-disk-method)
 [▼Refer to the article: Finding volumes of 3-D objects with circular symmetry in at least one dimension](http://xaktly.com/VolumesDisk.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/41714591-62213a3c-7583-11e8-82a1-c0967491172d.png)
