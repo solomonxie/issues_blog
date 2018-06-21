@@ -2441,7 +2441,10 @@ Imagine there is a **`CYLINDER`**, and we're to calculate the surface area of th
 
 
 [Refer to Khan academy: Shell method for rotating around vertical line](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-shell-method/v/shell-method-for-rotating-around-vertical-line)
-[►Refer to Desmos Animation: Solids of Revolution (about y-axis)](https://www.desmos.com/calculator/oiwkngzdl1)
+[▼Refer to Desmos Animation: Solids of Revolution (about y-axis)](https://www.desmos.com/calculator/oiwkngzdl1)
+![screencast 2018-06-22 00-46-21](https://user-images.githubusercontent.com/14041622/41733232-d665cb2e-75b5-11e8-909a-a005749a8bba.gif)
+
+
 [▼Refer to the awesome article: The shell method of finding volumes of revolution](http://xaktly.com/VolumesShell.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/41714416-e4b8c344-7582-11e8-94ca-abdfcc828a47.png)
