@@ -2074,6 +2074,8 @@ Solve:
 
 # `Motion problems (Integral calc)`
 
+[►Jump to Khan academy for some practice: Motion problems (with integrals)](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/particle-motion)
+
 ### Displacement vs. Distance
 `Displacement` literally means "the change in position", but actually it means the **SHORTCUT** of two points, the shortest distance between two points.
 
