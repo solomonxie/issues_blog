@@ -2386,7 +2386,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41709868-e077eac8-7576-11e8-9605-e3b4bacd0502.png)
 Solve:
 - The 2D shape is like this one:
-![image](https://user-images.githubusercontent.com/14041622/41709900-ef85337c-7576-11e8-8fc9-1c993b250bcd.png)
+![image](https://user-images.githubusercontent.com/14041622/41710275-d8b1b5f2-7577-11e8-85e1-8c0b4c517af6.png)
 - So we are to integrate discs along X-axis: `ʃ Area(x) dx`
 - The interval is `[0, 4]`.
 - It's tricky to get the radius of the disc: `r = y - 1 = √x +1 -1 = √x`
