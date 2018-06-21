@@ -2371,7 +2371,7 @@ The strategy of this method is:
 - Calculate the **AREA** of this `Rotated Circle`, or so called `disc`.
 - Integrate all the discs.
 
-[Refer to the article: Finding volumes of 3-D objects with circular symmetry in at least one dimension](http://xaktly.com/VolumesDisk.html)
+[▼Refer to the article: Finding volumes of 3-D objects with circular symmetry in at least one dimension](http://xaktly.com/VolumesDisk.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/41714591-62213a3c-7583-11e8-82a1-c0967491172d.png)
 ![image](https://user-images.githubusercontent.com/14041622/41715073-e242afe2-7584-11e8-9a75-ca2e4682d75d.png)
@@ -2417,7 +2417,7 @@ Strategy:
 ![image](https://user-images.githubusercontent.com/14041622/41711367-8e785f92-757a-11e8-9d55-0f0470a2d27b.png)
 - And integrate the disc's area.
 
-[Refer to the article: The washer method of calculating volumes of revolution](http://xaktly.com/VolumesWasher.html)
+[▼Refer to the article: The washer method of calculating volumes of revolution](http://xaktly.com/VolumesWasher.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/41714829-25f0db7a-7584-11e8-8549-7b92841142fe.png)
 
@@ -2441,11 +2441,11 @@ Imagine there is a **`CYLINDER`**, and we're to calculate the surface area of th
 
 
 [Refer to Khan academy: Shell method for rotating around vertical line](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-shell-method/v/shell-method-for-rotating-around-vertical-line)
-[Refer to the awesome article: The shell method of finding volumes of revolution](http://xaktly.com/VolumesShell.html)
+[▼Refer to the awesome article: The shell method of finding volumes of revolution](http://xaktly.com/VolumesShell.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/41714416-e4b8c344-7582-11e8-94ca-abdfcc828a47.png)
 
-[Refer to mathdemos.org for more intuitive animations: SHELL METHOD DEMO GALLERY](http://www.mathdemos.org/mathdemos/shellmethod/gallery/gallery.html)
+[▼Refer to mathdemos.org for more intuitive animations: SHELL METHOD DEMO GALLERY](http://www.mathdemos.org/mathdemos/shellmethod/gallery/gallery.html)
 
 ![2curves1_shellsmovie](https://user-images.githubusercontent.com/14041622/41715933-75451c10-7587-11e8-87e2-1ec6694fda96.gif)
 ![cone_shellsmovie](https://user-images.githubusercontent.com/14041622/41715934-7589e49e-7587-11e8-8447-3bfd63ac4722.gif)
