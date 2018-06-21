@@ -2318,6 +2318,8 @@ Strategy:
 - Simplify the problem to variables and equations.
 - That's all.
 
+Anyways, the key to solve these problems, is to **HAVE STRONG SENSE OF 3D SHAPES.**
+
 ## Volumes of solids of known cross-section
 
 ### Example
