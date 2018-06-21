@@ -2355,8 +2355,20 @@ Solve:
 
 ## `Disc Method`
 
+`Disc Method` is a method for calculating the **`Volume of a 3D shape by rotating a 2D shape`**.
 
+The strategy of this method is:
+- First to **ROTATE** an infinitely small piece of the whole graph
+- Calculate the **AREA** of this `Rotated Circle`, or so called `disc`.
+- Integrate all the discs.
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41706686-fb877624-756e-11e8-883a-c52a4e8568b1.png)
+Solve:
+- First need to completely understand the question and visualize it using `Disc Method`:
+![image](https://user-images.githubusercontent.com/14041622/41707154-12c95f04-7570-11e8-9b82-15a00ec77033.png)
+- Calculate the **area of disc** and integrate them:
+![image](https://user-images.githubusercontent.com/14041622/41707593-0c8352e8-7571-11e8-970f-da84649b55fc.png)
 
 
 
