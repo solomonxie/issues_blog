@@ -2409,6 +2409,11 @@ Strategy:
 ![image](https://user-images.githubusercontent.com/14041622/41711367-8e785f92-757a-11e8-9d55-0f0470a2d27b.png)
 - And integrate the disc's area.
 
+[Refer to the article: The washer method of calculating volumes of revolution](http://xaktly.com/VolumesWasher.html)
+
+![image](https://user-images.githubusercontent.com/14041622/41714829-25f0db7a-7584-11e8-8549-7b92841142fe.png)
+
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41711090-da583622-7579-11e8-8e50-a6776d63a197.png)
 Solve:
