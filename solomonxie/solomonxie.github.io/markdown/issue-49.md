@@ -2331,6 +2331,13 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41701892-bab95116-7560-11e8-8949-1eb70c7da611.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41702399-9e2ff2e6-7562-11e8-8285-5499bf621e1f.png)
+Solve:
+- First need to graph it as below (you can get help with Desmos or GeoGebra):
+![image](https://user-images.githubusercontent.com/14041622/41702448-c3c3aef8-7562-11e8-8caf-ad736733d922.png)
+- Then we know the radius of the semi circle is `x`, so:
+![image](https://user-images.githubusercontent.com/14041622/41702558-21a4e60e-7563-11e8-8850-c37361d65d9c.png)
 
 
 
