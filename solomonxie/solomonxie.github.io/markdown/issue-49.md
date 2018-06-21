@@ -2326,9 +2326,9 @@ Solve:
     - So the `width` of rectangle is always `2y`.
     - And we're told the height of the rectangle is doubled than base, so `height = 4y`
     - (Btw, the `depth` of the box is infinitely thin as `dx`.)
-    - So the area of the standing rectangle is: `A(x) = 2y · 4y = 8y² = 8(16 - x²)²`
+    - So the area of the standing rectangle is: `A(x) = 2y · 4y = 8y² = 8(16 - x²)`
 - Let's integrate those rectangles over the interval `[-4, 4]`:
-![image](https://user-images.githubusercontent.com/14041622/41671925-1d4d01ae-74eb-11e8-8853-b6f03550e771.png)
+![image](https://user-images.githubusercontent.com/14041622/41701892-bab95116-7560-11e8-8949-1eb70c7da611.png)
 
 
 
