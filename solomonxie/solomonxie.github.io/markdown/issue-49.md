@@ -2383,3 +2383,12 @@ Solve:
 
 
 ### Example
+![image](https://user-images.githubusercontent.com/14041622/41709868-e077eac8-7576-11e8-9605-e3b4bacd0502.png)
+Solve:
+- The 2D shape is like this one:
+![image](https://user-images.githubusercontent.com/14041622/41709900-ef85337c-7576-11e8-8fc9-1c993b250bcd.png)
+- So we are to integrate discs along X-axis: `ʃ Area(x) dx`
+- The interval is `[0, 4]`.
+- It's tricky to get the radius of the disc: `r = y - 1 = √x +1 -1 = √x`
+- So the area of each disc is: `Area(x) = πr² = πx`
+- Integrate those discs over inteval `[0, 4]`: `Volume = ʃ Area(x) dx = ʃ πx dx = 8π`.
