@@ -2230,7 +2230,7 @@ Solve:
 
 
 
-# Area bounded by polar curves
+# `Area of Polar Curves`
 
 Calculating area for `polar curves`, means we're now under the `Polar Coordinate` to do integration.
 And instead of using `rectangles`  to calculate the area, we are to use `triangles` to integrate the area for a curve.
