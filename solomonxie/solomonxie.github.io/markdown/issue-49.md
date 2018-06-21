@@ -2441,10 +2441,15 @@ Imagine there is a **`CYLINDER`**, and we're to calculate the surface area of th
 
 
 [Refer to Khan academy: Shell method for rotating around vertical line](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-shell-method/v/shell-method-for-rotating-around-vertical-line)
-
 [Refer to the awesome article: The shell method of finding volumes of revolution](http://xaktly.com/VolumesShell.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/41714416-e4b8c344-7582-11e8-94ca-abdfcc828a47.png)
+
+[Refer to mathdemos.org for more intuitive animations: SHELL METHOD DEMO GALLERY](http://www.mathdemos.org/mathdemos/shellmethod/gallery/gallery.html)
+
+![2curves1_shellsmovie](https://user-images.githubusercontent.com/14041622/41715933-75451c10-7587-11e8-87e2-1ec6694fda96.gif)
+![cone_shellsmovie](https://user-images.githubusercontent.com/14041622/41715934-7589e49e-7587-11e8-8447-3bfd63ac4722.gif)
+![sin2_shellsmovie](https://user-images.githubusercontent.com/14041622/41715935-75ceb560-7587-11e8-9cbb-f45deffa4e5e.gif)
 
 
 ### Example
