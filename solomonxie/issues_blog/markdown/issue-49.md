@@ -2280,6 +2280,15 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41650221-1a691436-74b0-11e8-86ec-397a7541f0ed.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41737392-c1542544-75c1-11e8-9e8b-54ad8b923160.png)
+Solve:
+- Another tricky one to **combine** areas.
+- Figure out the combination areas as below:
+![image](https://user-images.githubusercontent.com/14041622/41737442-e4cf9cb0-75c1-11e8-8ea0-26126559c8f4.png)
+- So the total area is:
+![image](https://user-images.githubusercontent.com/14041622/41737460-f602bf30-75c1-11e8-8cc8-b35f73befb04.png)
+
 
 
 # `Arc Length (Integral Calc)`
