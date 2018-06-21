@@ -1,0 +1,181 @@
+# TL;DR. Archive Link  疑惑调研杂项长文汇总
+# Group all the long texts in multiple topics.
+
+
+# why do I need to learn Linear Algebra?
+
+![image](https://user-images.githubusercontent.com/14041622/35739336-3c34b4fe-086c-11e8-9d2b-4977444a9381.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35739713-77c687bc-086d-11e8-9846-dff7c996257c.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35740953-614256de-0871-11e8-92b6-17a21e355b93.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35745443-4524bc8c-087e-11e8-8919-d9011106320e.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35745578-b1c34a52-087e-11e8-80f5-adab00e699c7.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35745712-3d76e0b8-087f-11e8-8713-31faf23686f3.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35745729-4963b036-087f-11e8-8287-de6e091c1317.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35746374-881fa68e-0881-11e8-8140-3f4de885a47e.png)
+
+# To know what is a Linear Algebra, have to know what is the opposite "Non-Linear Algebra"
+![image](https://user-images.githubusercontent.com/14041622/35747277-a3586528-0884-11e8-9318-c17b8d9b7bb2.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35767257-05f9b1ec-0924-11e8-8fcd-26d64fbb7af1.png)
+![image](https://user-images.githubusercontent.com/14041622/35767258-0d63d91c-0924-11e8-90dc-003a1f5e66c5.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35767261-15955f20-0924-11e8-8051-973dcedbc501.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35767264-22b33b28-0924-11e8-94ec-c767113c880f.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35767288-8cb6bd38-0924-11e8-9a09-bcebcfda191c.png)
+![image](https://user-images.githubusercontent.com/14041622/35767305-f2e5bf00-0924-11e8-8da7-2762e0f5c657.png)
+
+![image](https://user-images.githubusercontent.com/14041622/36578002-b2a19fec-1895-11e8-9d24-46a8517490fd.png)
+
+![image](https://user-images.githubusercontent.com/14041622/36579498-60dfa33a-189e-11e8-91d9-4b1f7db1bdb5.png)
+
+
+
+# Before starting Machine Learning
+> Just want to know what is a real ML engineer, is it being a programmer, or more likely being a data scientist?
+
+### 参考文章：[成为一名 AI 工程师永远都不晚](http://geek.csdn.net/news/detail/248479)
+
+
+![image](https://user-images.githubusercontent.com/14041622/35769008-7ccd7586-093f-11e8-87fc-4b59dafba609.png)
+![image](https://user-images.githubusercontent.com/14041622/35769030-c012b982-093f-11e8-921b-253113f5c97b.png)
+![image](https://user-images.githubusercontent.com/14041622/35769033-e1cb20be-093f-11e8-87bb-9fd9c4fca830.png)
+![image](https://user-images.githubusercontent.com/14041622/35769042-feb37a82-093f-11e8-99fc-d46e92a90adb.png)
+![image](https://user-images.githubusercontent.com/14041622/35769055-368080ea-0940-11e8-9016-e2e547175dfc.png)
+![image](https://user-images.githubusercontent.com/14041622/35769074-8e0f4666-0940-11e8-9143-2052ebd21789.png)
+![image](https://user-images.githubusercontent.com/14041622/35769095-b9eb6602-0940-11e8-9a1d-1040b21024d7.png)
+![image](https://user-images.githubusercontent.com/14041622/35769108-090d9db8-0941-11e8-9c6e-2e039c799883.png)
+![image](https://user-images.githubusercontent.com/14041622/35769120-3b49dd0a-0941-11e8-9dee-8c3e9a98ee00.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35769151-aeab6eb2-0941-11e8-8e18-c44250901dbc.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35769184-0bdb442c-0942-11e8-8978-3ac6ffbc125d.png)
+![image](https://user-images.githubusercontent.com/14041622/35769199-714dcb9a-0942-11e8-8691-3ed9e3874852.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35769695-9cc7bc5c-0949-11e8-82f6-5d86fd95ed69.png)
+![image](https://user-images.githubusercontent.com/14041622/35769776-4198f0ba-094b-11e8-8188-982f6948ebd4.png)
+![image](https://user-images.githubusercontent.com/14041622/35769788-7b970fc2-094b-11e8-948c-f0571bd3b4b8.png)
+![image](https://user-images.githubusercontent.com/14041622/35769871-de9e0bc4-094c-11e8-9126-5497e2292539.png)
+![image](https://user-images.githubusercontent.com/14041622/35769892-27e558d2-094d-11e8-9807-13a62258caf7.png)
+![image](https://user-images.githubusercontent.com/14041622/35770082-1873cd0e-0950-11e8-8c0e-f44efac18ab7.png)
+![image](https://user-images.githubusercontent.com/14041622/35775317-933480e4-09c1-11e8-846d-91e3fcaea8f3.png)
+![image](https://user-images.githubusercontent.com/14041622/35775365-69e1c2dc-09c2-11e8-826b-0080d9ce5089.png)
+![image](https://user-images.githubusercontent.com/14041622/35775369-79ac1b68-09c2-11e8-9637-b0e47404069f.png)
+![image](https://user-images.githubusercontent.com/14041622/35775372-82ce1552-09c2-11e8-905b-b56a915a079d.png)
+![image](https://user-images.githubusercontent.com/14041622/35775400-e2068536-09c2-11e8-8c5b-e5a0e4bba2c5.png)
+
+
+
+
+# `Essence Linear Algebra` : `Vector` section notes
+> Wherever you learn LA, which always the first to mention is the VECTOR.
+
+![image](https://user-images.githubusercontent.com/14041622/35763026-d9a39fea-08dd-11e8-840e-5ad4c28cef40.png)
+
+![image](https://user-images.githubusercontent.com/14041622/36588863-69edc828-18c4-11e8-9aa6-f2f3a85ba623.png)
+
+Put the coordinate, or say, the position indicator, on a axis, and put a narrow from the origin to it, It becomes a VECTOR.
+So a vector contains a meaning of movement, from origin to the position, rather than just a position itself.
+
+## Why does it have to be `x, y` on Axis and why is it 90° rather than other?
+![image](https://user-images.githubusercontent.com/14041622/36589539-9a928d54-18c6-11e8-8402-7e0ea6c3d6bc.png)
+
+The official name for it is **Cartesian coordinate system**(笛卡尔坐标体系) according to [the wikipedia page](https://en.wikipedia.org/wiki/Cartesian_coordinate_system).
+It doesn't have to be perpendicular, actually there's a `Oblique Coordinates System` that axes use angles, but it's only applied to early systems. 
+Nowadays theories are most commonly take perpendicular axes as module for its convenience and applicablility to other systems. 
+Wikipedia explains:
+
+![image](https://user-images.githubusercontent.com/14041622/36591419-f0bc98fe-18cc-11e8-939b-49181e6af569.png)
+
+For simply distinguishing, can read [this page in madarine](https://baike.baidu.com/item/%E7%AC%9B%E5%8D%A1%E5%B0%94%E5%9D%90%E6%A0%87%E7%B3%BB?fr=aladdin).
+
+
+
+## FOUR-STEP PATH (Vector + Vector)
+Perfectly explains why two coordination(list, or say, vector) can be added! 
+Literally means how much distance to walk, how much walk horizontally and vertically. 
+Since two vectors were added together means how much we move on the axis(on x and on y), instead of taking 4 steps we can just make it one step directly to the final point, the same final place. 
+And draw an arrow from origin to it, then everything construct a beautiful triangle. 
+
+![image](https://user-images.githubusercontent.com/14041622/36588757-098a820a-18c4-11e8-9f32-62c4a66702a5.png)
+
+
+And two lists(vectors, coordinates)  much contain exact the same amount of distance indicator(number), otherwise it doesn’t make sense at all.
+2D, here it simply just means there’re two distance number in the list, like (2,-3). 
+So 3D means three distance number in the list, (2,-3, 5). 
+No matter how many dimensions are represented here, all we need to care about is how many pair of numbers we need to operate(add or multiply).
+
+
+## SCALING  (Multiplication of vector by a number)
+`SCALING` is what we say multiplication of a vector. 
+Literally just stretching, squishing or reversing direction of the vector(the position).
+
+![image](https://user-images.githubusercontent.com/14041622/35763036-f0b92970-08dd-11e8-8686-2f7b3bfe2d87.png)
+
+![image](https://user-images.githubusercontent.com/14041622/35763039-f918bd4c-08dd-11e8-9df0-69780a52b0ec.png)
+
+And the number(multiplier) besides the vector(position), we call it `SCALARS`, 
+Literally means how much we scale the vector(scale the movement from origin to the position, closer or further, forward or backward). 
+The scalar we also just call it `number` sometimes.
+
+## VECTOR ADDITION & SCALAR MULPIPLICATION.
+It's the two Fundamental operation of vectors.
+
+![image](https://user-images.githubusercontent.com/14041622/36589168-6302cfda-18c5-11e8-8381-79fe699dbf20.png)
+
+
+Addition means moving the tip of an arrow to another position, multiplication means to scale the arrow line itself bigger or smaller.
+
+## BASIS OF VECTORS
+`i-hat` is a unit-vector (1 unit), only indicate x-distance. 
+When it’s with a number(scalar), `i-hat` can be stretched or squished. 
+Same with `j-hat`.  
+
+And i-hat and j-hat are called a pair of `BASIS VECTORS`.
+When adding two vectors(both with scalars) together, it becomes like this.
+
+![image](https://user-images.githubusercontent.com/14041622/35763044-086c60a0-08de-11e8-9c3a-3942b8332a13.png)
+
+## LINEAR COMBINATION 
+The combination of two vectors(the result), is the 3rd line from the triangle. It’s a direct line from this tail to that tip, so it’s linear result(combination).
+![image](https://user-images.githubusercontent.com/14041622/35763049-19499690-08de-11e8-8300-ec0762101da4.png)
+
+## SPAN
+with two vectors, depends on situation(is one’s value already set up, or both aren’t set up and can be anywhere), and we scale them to all possible places, and what places it covers, is the SPAN of the two vectors.
+If one is settled scaling rate, like -1.44, so no matter how much the other one move, all the movement will only draw a single line.
+
+![image](https://user-images.githubusercontent.com/14041622/35767628-fe157ee6-092a-11e8-9d3a-53c48284621a.png)
+
+## `LINEARLY DEPENDENT` and `LINEARLY INDEPENDENT`
+![image](https://user-images.githubusercontent.com/14041622/35767629-09e9c128-092b-11e8-9a80-d007b6a61849.png)
+In the case two-dimension, if two vectors line up then it makes no space but a line, in three-dimension no sphere but a sheet. 
+So if any vector lines up with another, we call it `LINEARLY DEPENDENT`. Vice versa, if it makes space then we call it `LINEARLY INDEPENDENT`.
+![image](https://user-images.githubusercontent.com/14041622/35767632-11aef59a-092b-11e8-9fd8-a5feda75ee80.png)
+## VECTOR SPACE
+Only when vectors are linearly independent (not collapse with any other vector), its span can draw a space.
+![image](https://user-images.githubusercontent.com/14041622/35767635-171fca2c-092b-11e8-8834-39affa91e746.png)
+
+
+
+
+# `MIT OpenCourseWare Linear Algebra` 18.06/18.06c/18.07/18.2....
+There are a bunch of different version of courses on Linear Algebra on MIT OpenCourseWare with the same lecturer Gilbert Strang. 
+It could be quite confusing, but everything became clear after read [this answer on Quora](https://www.quora.com/What-is-the-difference-among-MIT-opencourseware-Linear-Algebra-18-06SC-Linear-Algebra-18-06-Linear-Algebra-18-06CI-Linear-Algebra-18-700).
+
+![image](https://user-images.githubusercontent.com/14041622/36984701-742d91b0-20d0-11e8-8a93-e7a21be03086.png)
+
+This list below is [a section of page from MIT OCW](https://ocw.mit.edu/courses/mathematics/):
+![image](https://user-images.githubusercontent.com/14041622/36985159-7efc60de-20d1-11e8-8f43-2dcc263ae287.png)
+
+
+
+# `How to learn Linear Algebra`
+
