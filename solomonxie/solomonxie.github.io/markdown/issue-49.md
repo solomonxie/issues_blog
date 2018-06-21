@@ -2297,9 +2297,11 @@ Solve:
 
 `Parametric Curves` are from `Parametric Equations`, means both `x` and `y` are functions, in terms of t: `x(t)` and `y(t)`.
 
+[Refer to xaktly: Parametric Equations](http://xaktly.com/ParametricEquations.html)
 [Refer to Khan academy: Parametric curve arc length](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-arc-length/v/parametric-curve-arc-length)
 
 ![image](https://user-images.githubusercontent.com/14041622/41652496-c6e08d66-74b5-11e8-8bd0-27b6746e382d.png)
+
 
 ## `Formula`
 ![image](https://user-images.githubusercontent.com/14041622/41653406-8b46d898-74b8-11e8-9861-b764b3715994.png)
