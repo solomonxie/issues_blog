@@ -2392,3 +2392,11 @@ Solve:
 - It's tricky to get the radius of the disc: `r = y - 1 = √x +1 -1 = √x`
 - So the area of each disc is: `Area(x) = πr² = πx`
 - Integrate those discs over inteval `[0, 4]`: `Volume = ʃ Area(x) dx = ʃ πx dx = 8π`.
+
+
+# `Washer Method`
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41711090-da583622-7579-11e8-8e50-a6776d63a197.png)
+Solve:
