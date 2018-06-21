@@ -824,6 +824,11 @@ Strategy:
 - Try easy numbers in EACH intervals, to decide its TRENDING (going up/down).
 - Decide each critical point is Max, Min or Not Extreme.
 
+[Refer to an awesome article: Using calculus to learn more about the shapes of functions](http://xaktly.com/CurveSketching.html)
+
+![image](https://user-images.githubusercontent.com/14041622/41715223-51a450b6-7585-11e8-82bf-69c81598989f.png)
+
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/40608781-3c071840-629f-11e8-90b1-0225538eb324.png)
 Solve:
