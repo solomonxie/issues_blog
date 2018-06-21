@@ -2321,7 +2321,7 @@ Strategy:
 Anyways, the key to solve these problems, is to **HAVE STRONG SENSE OF 3D SHAPES.**
 So that you could sense what is this problem asking for. And once you know what it's saying, you could easily solve it.
 
-## Volumes of solids of known cross-section
+## `Volumes of solids of known shapes cross-section`
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41669963-a1adf684-74e5-11e8-98b6-386133ee7591.png)
