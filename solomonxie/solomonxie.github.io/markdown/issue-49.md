@@ -2435,7 +2435,10 @@ Solve:
 # `Shell Method`
 
 `Shell Method` is particularly good for calculating volume of a 3D shape by **rotating** a 2D shape around a **VERTICAL LINE**.
-Imagine there is a **CYLINDER**, and we're to calculate the surface area of the cylinder, and integrate the surface areas when the cylinder gets **thiner and thiner**.
+Imagine there is a **`CYLINDER`**, and we're to calculate the surface area of the cylinder, and integrate the surface areas when the cylinder gets **thiner and thiner**.
+
+![image](https://user-images.githubusercontent.com/14041622/41715543-5c2e053a-7586-11e8-9b30-3edbeabed6e2.png)
+
 
 [Refer to Khan academy: Shell method for rotating around vertical line](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-shell-method/v/shell-method-for-rotating-around-vertical-line)
 
