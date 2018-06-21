@@ -2319,6 +2319,7 @@ Strategy:
 - That's all.
 
 Anyways, the key to solve these problems, is to **HAVE STRONG SENSE OF 3D SHAPES.**
+So that you could sense what is this problem asking for. And once you know what it's saying, you could easily solve it.
 
 ## Volumes of solids of known cross-section
 
