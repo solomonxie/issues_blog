@@ -2367,6 +2367,7 @@ The strategy of this method is:
 [Refer to the article: Finding volumes of 3-D objects with circular symmetry in at least one dimension](http://xaktly.com/VolumesDisk.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/41714591-62213a3c-7583-11e8-82a1-c0967491172d.png)
+![image](https://user-images.githubusercontent.com/14041622/41715073-e242afe2-7584-11e8-9a75-ca2e4682d75d.png)
 
 
 
