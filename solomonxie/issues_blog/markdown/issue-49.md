@@ -2417,6 +2417,7 @@ Strategy:
 ![image](https://user-images.githubusercontent.com/14041622/41711367-8e785f92-757a-11e8-9d55-0f0470a2d27b.png)
 - And integrate the disc's area.
 
+[►Jump to Khan academy for some practice: Washer method](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/the-washer-method)
 [▼Refer to the article: The washer method of calculating volumes of revolution](http://xaktly.com/VolumesWasher.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/41714829-25f0db7a-7584-11e8-8549-7b92841142fe.png)
