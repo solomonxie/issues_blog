@@ -2308,6 +2308,15 @@ Solve:
 
 # `Volumes of 3D Solids (Integral Calc)`
 
+Strategy:
+- Notice this is a complete graphical problem, so:
+**YOU HAVE TO USE TOOLS TO BUILD GRAPHICS BEFORE SOLVING PROBLEM!!!**
+- Using these graphic calculators:
+    - [▶Desmos](https://www.desmos.com/calculator), for instantly building function graphs on XY-axes
+    - [▶Geogebra-3D](https://www.geogebra.org/3d?lang=en), for building 3D graphs
+    - [▶Symbolab](https://www.symbolab.com), for solving hairy equations
+- Simplify the problem to variables and equations.
+- That's all.
 
 ## Volumes of solids of known cross-section
 
