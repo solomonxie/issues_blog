@@ -28,9 +28,7 @@
 
 
 
-# `Limits`
-> Limits are all about approaching.
-And the entire Calculus is built upon this concept.
+[]()
 
 
 # `Function's Continuity`
@@ -39,7 +37,11 @@ Pencil Definition:
 **IF YOU CAN DRAW THE FUNCTION WITH A PENCIL WITHOUT PICKING UP THE PENCIL, THEN THE FUNCTION IS A CONTINUOUS FUNCTION**
 
 
-# Strategy in finding Limits
+# `Limits`
+> Limits are all about approaching.
+And the entire Calculus is built upon this concept.
+
+## Strategy in finding Limits
 
 [Refer to Khan academy.](https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-continuity/ab-limit-strategy/a/limit-strategies-flow-chart)
 
