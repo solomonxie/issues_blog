@@ -217,6 +217,18 @@ $ jekyll server --watch
 
 > 我相信所有坚持学习jekyll的人，都有自己非学不可的理由吧。
 
+
+## 包管理器的理解
+Jekyll是用Ruby语言构建的，且每个主题都会有超多的Ruby依赖包。在这里需要先理解一些基本概念才能进行下去。
+
+- `Ruby`：是语言。这就不说了
+- `Gem`：全称`RubyGems`，是Ruby的包管理器。相当于Python的pip。每一个包都叫`a gem`，在Python里叫`package`.
+- `Bundler`：是管理gem管理器的管理器……相当于Python的pipenv，管理每个项目的gem包依赖。
+
+简单说，gem主要管理整个系统的Ruby包，下载安装卸载之类。而Bundler只负责管理每个项目的Ruby包依赖。
+
+
+## 一般安装方法
 先讲讲一般通用的模板安装方法：
 - 首先到模版的Github网页里clone下来全部文件。
 - 在命令行里打开这个模版的文件夹（其实它就是一个完整的Jekyll文件夹结构）
