@@ -2492,8 +2492,8 @@ Solve:
 
 
 
-# Series
-[►Jump back to previous note: Series](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-375569163)
+# Series (Calculus level)
+[►Jump back to previous note: Series (High school level)](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-375569163)
 
 Explicit Sequence vs. Recursive Sequence:
 > Explicit sequence would be presented as: `a𝓃 = a₁ · kⁿ⁻¹`.
