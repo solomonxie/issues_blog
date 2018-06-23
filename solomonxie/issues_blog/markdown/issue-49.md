@@ -2554,3 +2554,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41806716-de76dede-76f5-11e8-9bdc-b6929d0a45f4.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806785-a0e2be7a-76f6-11e8-8f53-f3d1213d1379.png)
+Solve:
+
