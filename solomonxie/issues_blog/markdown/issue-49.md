@@ -2495,6 +2495,10 @@ Solve:
 # Series
 [►Jump back to previous note: Series](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-375569163)
 
+Explicit Sequence vs. Recursive Sequence:
+> Explicit sequence would be presented as: `a𝓃 = a₁ · kⁿ⁻¹`.
+Recursive sequence would be presented as: `a₁ = 3, a𝓃 = k · a𝓃₋₁`
+
 Sequence vs. Series:
 > Sequence is a **_LIST_** of numbers, 
 Series is **_a NUMBER_**: the SUM of a sequence.
