@@ -2629,6 +2629,7 @@ It includes:
 > It's also called the `nth term divergence test`.
 The test can only tell if the series is divergent or not. It CAN NOT tell if it converges.
 
+[Jump over to Khan academy practice: nth term test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/nth-term-test)
 [Refer to Khan academy: nth term divergence test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/divergence-test)
 
 Here is the divergent test.
