@@ -2564,3 +2564,24 @@ Evaluate the series, is actually to evaluate the **LIMIT** of the `series functi
 ![image](https://user-images.githubusercontent.com/14041622/41806785-a0e2be7a-76f6-11e8-8f53-f3d1213d1379.png)
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41806802-e754757e-76f6-11e8-974e-f54ace0e7191.png)
+
+
+## `Geometric Series in 𝚺 Notation`
+
+[▼Refer to Cool Math: Geometric Series](http://www.coolmath.com/algebra/19-sequences-series/08-geometic-series-02
+![image](https://user-images.githubusercontent.com/14041622/41806975-05a66fac-76fa-11e8-80c4-dd9cacb3dc10.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806978-167f350c-76fa-11e8-91a3-4ce9d734ec15.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806961-972678ec-76f9-11e8-9726-2f364a5e5350.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41807023-f78b607a-76fa-11e8-810f-c5c6029a050e.png)
+
+
+## `Determine the Infinite Series Converges or Diverges`
+
+There are two basic rules for infinite geometric series:
+![image](https://user-images.githubusercontent.com/14041622/41807088-b999b338-76fb-11e8-804d-835f2a3e5a62.png)
