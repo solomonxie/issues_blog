@@ -2612,3 +2612,42 @@ Solve:
     - Common Ratio: `r = 0.75`
 - So the Infinite series would be:
 ![image](https://user-images.githubusercontent.com/14041622/41807199-867cdafa-76fd-11e8-8382-cf206dece606.png)
+
+
+
+# `Convergence Test`
+
+`Convergence test` are a set of tests to determine wether the series **CONVERGENT** or **DIVERGENT**.
+It includes:
+- Divergent Test: Only to test if the series is divergent.
+- Integral Test: To test the series convergent or divergent.
+
+## `Divergent Test`
+
+
+
+## `Integral Test`
+
+[Refer to article from tkiryl: The Integral Test](http://www.tkiryl.com/Calculus/Section_8.3--The_Integral_and_Comparison_Tests/The_Integral_and_Comparison_Tests.html)
+
+`Integral test` has introduced the idea of calculating the total area under the function:
+- The series has step of 1, which means `Δx = 1`
+- We can sum the areas (which equals the series itself): 
+![image](https://user-images.githubusercontent.com/14041622/41808077-d6a26876-770a-11e8-9ef7-18558302e24f.png)
+- But when we are to **INTEGRATE** the function area under the function:
+![image](https://user-images.githubusercontent.com/14041622/41808108-5fd348ea-770b-11e8-9a54-09729ac28dc1.png)
+- The `dx` is infinitely small rather than a fixed number `Δx = 1`.
+- As result, the **INTEGRAL** is almost always greater than the **SERIES AREAS**.
+
+As been said above, we got this conclusion:
+![image](https://user-images.githubusercontent.com/14041622/41807976-ae338b00-7709-11e8-8ab9-5cdde0e5f4b3.png)
+
+> **Notice: DO NOT use the `Integral Test` to EVALUATE series, because in general they are NOT equal.** 
+
+
+[▼Refer to awesome article from xaktly: Integral Test](http://xaktly.com/IntegralTest.html)
+![image](https://user-images.githubusercontent.com/14041622/41808008-1f857dc2-770a-11e8-903e-0db037158421.png)
+![image](https://user-images.githubusercontent.com/14041622/41807997-0eb9a946-770a-11e8-923e-7763b9e6a769.png)
+
+
+
