@@ -142,3 +142,9 @@ Windows上可能需要安装个软件来连接，可以自己查一查。
 [参考回答。](https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=23405)
 
 可以用`sudo ifconfig`,或直接指定位置`/sbin/ifconfig`，或者先设置别名`alias ifconfig="/sbin/ifconfg`，然后再正常使用。
+
+
+# 树莓派用HDMI连接电视显示"无信号"问题
+
+试了很多次，用HDMI线把树莓派连接电视机，但每次都显示“无信号”。所以搜索了一圈，下面是解决方案。
+
