@@ -2624,9 +2624,10 @@ It includes:
 
 ## `Divergent Test`
 
-[▼Here is the Divergence Test Flowchart](http://blogs.ubc.ca/infiniteseriesmodule/units/unit-2/the-divergence-test/the-divergence-test-flowchart/)
+[▼Refer to the site Infinite Series Module (ISM): The Divergence Test](http://blogs.ubc.ca/infiniteseriesmodule/units/unit-2/the-divergence-test/the-divergence-test-flowchart/)
 
-![image](https://user-images.githubusercontent.com/14041622/41808279-b679ddb0-770d-11e8-9c66-c42b5aac46bf.png)
+![image](https://user-images.githubusercontent.com/14041622/41808411-a6d64522-770f-11e8-807f-9f72b04b3738.png)
+
 
 
 ## `Integral Test`
