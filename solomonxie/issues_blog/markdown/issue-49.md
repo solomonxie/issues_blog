@@ -2622,41 +2622,6 @@ It includes:
 - `Divergent Test`: Only to test if the series is divergent.
 - `Integral Test`: To test the series convergent or divergent.
 
-## `Divergent Test`
-
-[▼Refer to the site Infinite Series Module (ISM): The Divergence Test](http://blogs.ubc.ca/infiniteseriesmodule/units/unit-2/the-divergence-test/the-divergence-test-flowchart/)
-
-![image](https://user-images.githubusercontent.com/14041622/41808411-a6d64522-770f-11e8-807f-9f72b04b3738.png)
-
-
-
-## `Integral Test`
-
-![image](https://user-images.githubusercontent.com/14041622/41808444-2587fc26-7710-11e8-8e30-393223a7cb0e.png)
-
-[Refer to article from tkiryl: The Integral Test](http://www.tkiryl.com/Calculus/Section_8.3--The_Integral_and_Comparison_Tests/The_Integral_and_Comparison_Tests.html)
-
-The `Integral test` has introduced the idea of calculating the total area under the function:
-- The series has step of 1, which means `Δx = 1`
-- We can sum the areas (which equals the series itself): 
-![image](https://user-images.githubusercontent.com/14041622/41808077-d6a26876-770a-11e8-9ef7-18558302e24f.png)
-- But when we are to **INTEGRATE** the function area under the function:
-![image](https://user-images.githubusercontent.com/14041622/41808108-5fd348ea-770b-11e8-9a54-09729ac28dc1.png)
-- The `dx` is infinitely small rather than a fixed number `Δx = 1`.
-- As result, the **INTEGRAL** is almost always greater than the **SERIES AREAS**.
-
-As been said above, we got this conclusion:
-![image](https://user-images.githubusercontent.com/14041622/41807976-ae338b00-7709-11e8-8ab9-5cdde0e5f4b3.png)
-
-> **Notice: DO NOT use the `Integral Test` to EVALUATE series, because in general they are NOT equal.** 
-
-[▼Refer to awesome article from xaktly: Integral Test](http://xaktly.com/IntegralTest.html)
-
-![image](https://user-images.githubusercontent.com/14041622/41808008-1f857dc2-770a-11e8-903e-0db037158421.png)
-
-![image](https://user-images.githubusercontent.com/14041622/41807997-0eb9a946-770a-11e8-923e-7763b9e6a769.png)
-
-
 
 
 # `Divergent Test`
@@ -2694,3 +2659,9 @@ As been said above, we got this conclusion:
 ![image](https://user-images.githubusercontent.com/14041622/41807997-0eb9a946-770a-11e8-923e-7763b9e6a769.png)
 
 
+
+
+
+# `p-series Test`
+
+![image](https://user-images.githubusercontent.com/14041622/41808577-3a0c56b8-7712-11e8-8cb3-5c3a81c93822.png)
