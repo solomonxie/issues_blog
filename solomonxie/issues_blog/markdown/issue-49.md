@@ -2619,8 +2619,8 @@ Solve:
 
 `Convergence test` are a set of tests to determine wether the series **CONVERGENT** or **DIVERGENT**.
 It includes:
-- Divergent Test: Only to test if the series is divergent.
-- Integral Test: To test the series convergent or divergent.
+- `Divergent Test`: Only to test if the series is divergent.
+- `Integral Test`: To test the series convergent or divergent.
 
 ## `Divergent Test`
 
