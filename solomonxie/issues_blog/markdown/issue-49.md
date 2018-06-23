@@ -2655,12 +2655,10 @@ Solve:
 # `Integral Test`
 
 [`►Jump over to have practice at Khan academy: Integral test.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/integral-test)
-
+[Refer to article from tkiryl: The Integral Test](http://www.tkiryl.com/Calculus/Section_8.3--The_Integral_and_Comparison_Tests/The_Integral_and_Comparison_Tests.html)
 [Refer to Khan academy: Integral Test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/integral-test-intuition)
 
-![image](https://user-images.githubusercontent.com/14041622/41808444-2587fc26-7710-11e8-8e30-393223a7cb0e.png)
-
-[Refer to article from tkiryl: The Integral Test](http://www.tkiryl.com/Calculus/Section_8.3--The_Integral_and_Comparison_Tests/The_Integral_and_Comparison_Tests.html)
+## Intuition of Integral test
 
 The `Integral test` has introduced the idea of calculating the total area under the function:
 - The series has step of 1, which means `Δx = 1`
@@ -2683,6 +2681,23 @@ As been said above, we got this conclusion:
 ![image](https://user-images.githubusercontent.com/14041622/41807997-0eb9a946-770a-11e8-923e-7763b9e6a769.png)
 
 
+
+## Conditions of Integral test
+
+Assume the series `a𝖓` can be represented as a function `f(x)`.
+There are a few limitations for it to use the Integral test:
+- `f(x)` MUST BE continuous.
+- `f(x) > 0`. It MUST BE a **positive** function.
+- `f'(x) < 0`. It's MUST BE **decreasing**.
+
+
+## Using Integral test
+![image](https://user-images.githubusercontent.com/14041622/41809149-128605fe-771b-11e8-8627-cc64ed8df4ab.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41809122-78b3cb96-771a-11e8-887a-8347e04b0fc1.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41809128-a32d5932-771a-11e8-8b97-699ab6287861.png)
 
 
 
