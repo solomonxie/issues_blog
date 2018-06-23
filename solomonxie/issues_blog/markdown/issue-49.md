@@ -2654,6 +2654,8 @@ Solve:
 
 # `Integral Test`
 
+[`►Jump over to have practice at Khan academy: Integral test.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/integral-test)
+
 [Refer to Khan academy: Integral Test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/integral-test-intuition)
 
 ![image](https://user-images.githubusercontent.com/14041622/41808444-2587fc26-7710-11e8-8e30-393223a7cb0e.png)
