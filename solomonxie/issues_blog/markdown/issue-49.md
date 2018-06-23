@@ -2596,6 +2596,11 @@ There are two basic rules for infinite **geometric** series:
 ![image](https://user-images.githubusercontent.com/14041622/41807088-b999b338-76fb-11e8-804d-835f2a3e5a62.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41807280-57378090-76ff-11e8-8736-4d7a5bb983f7.png)
+Solve:
+- Yes. Because `|-0.8| < 1`, satisfies the basic converge rules.
+
 
 ## Evaluate Infinite Geometric Series
 
