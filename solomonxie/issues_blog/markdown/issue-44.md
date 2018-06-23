@@ -2024,7 +2024,7 @@ Solve:
 
 
 
-# Series
+# `Series`
 
 ## `Arithmetic Series`
 
