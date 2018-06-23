@@ -22,15 +22,13 @@
 - [x] [Accumulation and Riemann sums](https://www.khanacademy.org/math/ap-calculus-bc/bc-accumulation-riemann-sums/modal/test/bc-accumulation-riemann-sums-unit-test)
 - [x] [Antiderivatives and the fundamental theorem of calculus](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/test/bc-antiderivatives-ftc-unit-test)
 - [x] [Differential equations](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/test/bc-diff-equations-unit-test)
-- [ ] [Applications of definite integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/test/bc-applications-definite-integrals-unit-test)
+- [x] [Applications of definite integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/test/bc-applications-definite-integrals-unit-test)
 - [ ] [Series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/test/bc-series-unit-test)
 
 
 
 
-# `Limits`
-> Limits are all about approaching.
-And the entire Calculus is built upon this concept.
+[]()
 
 
 # `Function's Continuity`
@@ -39,7 +37,11 @@ Pencil Definition:
 **IF YOU CAN DRAW THE FUNCTION WITH A PENCIL WITHOUT PICKING UP THE PENCIL, THEN THE FUNCTION IS A CONTINUOUS FUNCTION**
 
 
-# Strategy in finding Limits
+# `Limits`
+> Limits are all about approaching.
+And the entire Calculus is built upon this concept.
+
+## Strategy in finding Limits
 
 [Refer to Khan academy.](https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-continuity/ab-limit-strategy/a/limit-strategies-flow-chart)
 
@@ -698,6 +700,10 @@ Which also means that, if the conditions are satisfied, then there **MUST BE** a
 It's quite simple to apply and very convenient to solve some problems.
 
 [Refer to `L'Hôpital's rule`](https://en.wikipedia.org/wiki/L%27H%C3%B4pital%27s_rule)
+
+From my experience, the L'Hopital's Rule is so often been used that we didn't even realize. Actually it's been used almost every time when we are to evaluate the **LIMITS OF RATIONAL EXPRESSIONS**.
+[►Jump back to review the previous note: Asymptote of Rational Expressions](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-374894945)
+
 
 ![image](https://user-images.githubusercontent.com/14041622/40418356-bb326906-5eb4-11e8-9255-c5987bc96b5e.png)
 
@@ -2074,6 +2080,8 @@ Solve:
 
 # `Motion problems (Integral calc)`
 
+[►Jump to Khan academy for some practice: Motion problems (with integrals)](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/particle-motion)
+
 ### Displacement vs. Distance
 `Displacement` literally means "the change in position", but actually it means the **SHORTCUT** of two points, the shortest distance between two points.
 
@@ -2117,6 +2125,8 @@ Solve:
 
 # Planar motion (Integral Calc)
 
+[►Jump to Khan academy for some practice: Planar motion (with integrals)](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/planar-motion-integral-calc)
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41591423-46154510-73ec-11e8-9b14-6f9fa97f654e.png)
 Solve:
@@ -2126,6 +2136,8 @@ Solve:
 
 
 # Function Area between curve & axes
+
+[►Jump to Khan academy for some practice: Curve areas](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/quiz/bc-horizontal-area-quiz)
 
 ## `Area Between X-axis & Curve`
 
@@ -2224,7 +2236,7 @@ Solve:
 
 
 
-# Area bounded by polar curves
+# `Area of Polar Curves`
 
 Calculating area for `polar curves`, means we're now under the `Polar Coordinate` to do integration.
 And instead of using `rectangles`  to calculate the area, we are to use `triangles` to integrate the area for a curve.
@@ -2233,6 +2245,8 @@ There're a few notable differences for calculating `Area of Polar Curves`:
 - It's now under the **`Polar Coordinate`**.
 - It's using **`Circle Sectors`** with infinite small angles to integral the area.
 - It's the area between the function graph and a **`RAY`** or two **`RAYS`** from the origin.
+
+[►Jump to Khan academy for some practice: Area bounded by polar curves](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/area-enclosed-by-polar-graphs)
 
 [Refer to Khan Academy: Area bounded by polar curves](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-polar-graphs-area/v/formula-area-polar-graph)
 
@@ -2272,11 +2286,21 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41650221-1a691436-74b0-11e8-86ec-397a7541f0ed.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41737392-c1542544-75c1-11e8-9e8b-54ad8b923160.png)
+Solve:
+- Another tricky one to **combine** areas.
+- Figure out the combination areas as below:
+![image](https://user-images.githubusercontent.com/14041622/41737442-e4cf9cb0-75c1-11e8-8ea0-26126559c8f4.png)
+- So the total area is:
+![image](https://user-images.githubusercontent.com/14041622/41737460-f602bf30-75c1-11e8-8cc8-b35f73befb04.png)
+
 
 
 # `Arc Length (Integral Calc)`
 
-[Refer to Khan academy: Arc length intro](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-arc-length/v/arc-length-formula)
+[►Jump to Khan academy for some practice: Arc Length.](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/arc-length-of-functions-in-one-variable)
+[▼Refer to Khan academy: Arc length intro](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-arc-length/v/arc-length-formula)
 
 ![image](https://user-images.githubusercontent.com/14041622/41651418-1d9a343e-74b3-11e8-8096-3d69c17563aa.png)
 ![image](https://user-images.githubusercontent.com/14041622/41651679-b6b5c002-74b3-11e8-8e35-f0d1d42f3499.png)
@@ -2298,6 +2322,7 @@ Solve:
 `Parametric Curves` are from `Parametric Equations`, means both `x` and `y` are functions, in terms of t: `x(t)` and `y(t)`.
 
 [Refer to xaktly: Parametric Equations](http://xaktly.com/ParametricEquations.html)
+[►Jump to Khan academy for some practice: Arc Length.](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/arc-length-of-functions-in-one-variable)
 [▼Refer to Khan academy: Parametric curve arc length](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-arc-length/v/parametric-curve-arc-length)
 
 ![image](https://user-images.githubusercontent.com/14041622/41652496-c6e08d66-74b5-11e8-8bd0-27b6746e382d.png)
@@ -2329,6 +2354,8 @@ Anyways, the key to solve these problems, is to **HAVE STRONG SENSE OF 3D SHAPES
 So that you could sense what is this problem asking for. And once you know what it's saying, you could easily solve it.
 
 ## `Volumes of solids of known shapes cross-section`
+
+[►Jump to Khan academy for some practice: Volumes of solids of known cross-section](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/volumes-of-solids-of-known-cross-section)
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41669963-a1adf684-74e5-11e8-98b6-386133ee7591.png)
@@ -2371,6 +2398,7 @@ The strategy of this method is:
 - Calculate the **AREA** of this `Rotated Circle`, or so called `disc`.
 - Integrate all the discs.
 
+[►Jump to Khan academy for some practice: Disc Method](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/the-disk-method)
 [▼Refer to the article: Finding volumes of 3-D objects with circular symmetry in at least one dimension](http://xaktly.com/VolumesDisk.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/41714591-62213a3c-7583-11e8-82a1-c0967491172d.png)
@@ -2417,6 +2445,7 @@ Strategy:
 ![image](https://user-images.githubusercontent.com/14041622/41711367-8e785f92-757a-11e8-9d55-0f0470a2d27b.png)
 - And integrate the disc's area.
 
+[►Jump to Khan academy for some practice: Washer method](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/the-washer-method)
 [▼Refer to the article: The washer method of calculating volumes of revolution](http://xaktly.com/VolumesWasher.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/41714829-25f0db7a-7584-11e8-8549-7b92841142fe.png)
@@ -2441,6 +2470,11 @@ Imagine there is a **`CYLINDER`**, and we're to calculate the surface area of th
 
 
 [Refer to Khan academy: Shell method for rotating around vertical line](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-shell-method/v/shell-method-for-rotating-around-vertical-line)
+[►Jump to Khan academy for some practice: Shell method](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/volumes-of-solids-of-revolution-by-shells)
+[▼Refer to Desmos Animation: Solids of Revolution (about y-axis)](https://www.desmos.com/calculator/oiwkngzdl1)
+![screencast 2018-06-22 00-46-21](https://user-images.githubusercontent.com/14041622/41733232-d665cb2e-75b5-11e8-909a-a005749a8bba.gif)
+
+
 [▼Refer to the awesome article: The shell method of finding volumes of revolution](http://xaktly.com/VolumesShell.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/41714416-e4b8c344-7582-11e8-94ca-abdfcc828a47.png)
@@ -2459,3 +2493,228 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41716222-57cd2da2-7588-11e8-948e-14c1be8e7302.png)
 - Based on the `Shell method` of integrating `Cylinder's shells`, we got the equation:
 ![image](https://user-images.githubusercontent.com/14041622/41716325-a45a89a8-7588-11e8-952b-0f46b3b8ba68.png)
+
+
+
+# `Series basics (Calculus level)`
+[►Jump back to previous note: Series (High school level)](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-375569163)
+
+Explicit Sequence vs. Recursive Sequence:
+> Explicit sequence would be presented as: `a𝓃 = a₁ · kⁿ⁻¹`.
+Recursive sequence would be presented as: `a₁ = 3, a𝓃 = k · a𝓃₋₁`
+
+Sequence vs. Series:
+> Sequence is a **_LIST_** of numbers, 
+Series is **_a NUMBER_**: the SUM of a sequence.
+
+Convergence vs. Divergence:
+> Convergence means the **limit** of a function **EXISTS**.
+Divergence means the limit **DOES NOT EXISTS**.
+
+
+## `Geometric Series in 𝚺 Notation`
+
+[▼Refer to Cool Math: Geometric Series](http://www.coolmath.com/algebra/19-sequences-series/08-geometic-series-02
+![image](https://user-images.githubusercontent.com/14041622/41806975-05a66fac-76fa-11e8-80c4-dd9cacb3dc10.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806978-167f350c-76fa-11e8-91a3-4ce9d734ec15.png)
+
+
+## `Infinite Sequence (convergence | divergence)`
+[►Jump to practice: Sequence convergence/divergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/convergence-and-divergence-of-sequences)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806326-79e751d0-76ee-11e8-8daf-5305147d0c65.png)
+- Easiest way: Apply the `L'hopital's Rule, take both Top's & Bottom's derivatives until both of them become numbers.
+- So we get: `1/3`.
+
+## `Finite Geometric Series`
+[►Jump to practice: Finite geometric series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/geometric-series--1)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806346-fffbf8fc-76ee-11e8-96f7-f9f05cbd081d.png)
+Solve:
+- By using the `Geometric Series formula`, we get the informations as below:
+    - **Common ratio**: `r = -2`
+    - **Amount of items**: `n = 20`. Because `k` starts from 0, so there're 20 terms.
+    - **Initial term**: `a₀ = -4`
+- We calculate and get the result as below:
+![image](https://user-images.githubusercontent.com/14041622/41806402-f872cd58-76ef-11e8-8d02-297df7f4f81d.png)
+
+
+## `Partial Sums`
+
+`Partial sums` is just a fancy word for `Finite series`, because it's a a **part** of infinite series.
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806657-ab1c858a-76f4-11e8-9f6c-dabd7dfbced4.png)
+Solve:
+- The tricky part is **how to count the amount of terms**.
+- Since `n` starts from 1, so there're 11 terms, which means we're to calculate `S₁₁`.
+- `S₁₁ = 88/16 = 11/2`
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806687-839d74e6-76f5-11e8-8f60-bcde99c82811.png)
+Solve:
+- The tricky here is that: `a𝓃 = S𝓃 - S𝓃-1`, because `S𝓃 = a₁ + a₂ + a₃ +.... + a𝓃-1 + a𝓃`.
+- So the result is:
+![image](https://user-images.githubusercontent.com/14041622/41806716-de76dede-76f5-11e8-9bdc-b6929d0a45f4.png)
+
+
+
+
+# `Infinite Seires`
+Evaluate the series, is actually to evaluate the **LIMIT** of the `series function`.
+
+## `Evaluate Infinite Series`
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806785-a0e2be7a-76f6-11e8-8f53-f3d1213d1379.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41806802-e754757e-76f6-11e8-974e-f54ace0e7191.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806961-972678ec-76f9-11e8-9726-2f364a5e5350.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41807023-f78b607a-76fa-11e8-810f-c5c6029a050e.png)
+
+
+
+# Infinite Geometric Series
+
+### Common Formula (Finite & Infinite)
+![image](https://user-images.githubusercontent.com/14041622/41807143-89e212a6-76fc-11e8-9d7d-6d3bc7cb80dd.png)
+
+### Infintite Formula
+![image](https://user-images.githubusercontent.com/14041622/41807292-9bc31fb2-76ff-11e8-850e-ba958f2a4644.png)
+
+
+## Determine the Infinite Geometric Series Converges or Diverges
+There are two basic rules for infinite **geometric** series:
+![image](https://user-images.githubusercontent.com/14041622/41807088-b999b338-76fb-11e8-804d-835f2a3e5a62.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41807280-57378090-76ff-11e8-8736-4d7a5bb983f7.png)
+Solve:
+- Yes. Because `|-0.8| < 1`, satisfies the basic converge rules.
+
+
+## Evaluate Infinite Geometric Series
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41807153-ce600af0-76fc-11e8-85d4-9a85f577cedd.png)
+Solve:
+- First off, we need to find the essential information for the geometric series:
+    - Initial term: `a₀ = 1`
+    - Common Ratio: `r = 0.75`
+- So the Infinite series would be:
+![image](https://user-images.githubusercontent.com/14041622/41807199-867cdafa-76fd-11e8-8382-cf206dece606.png)
+
+
+
+# `Convergence Test`
+
+`Convergence test` are a set of tests to determine wether the series **CONVERGENT** or **DIVERGENT**.
+It includes:
+- `Divergent Test`: Only to test if the series is divergent.
+- `Integral Test`: To test the series convergent or divergent.
+- `p-series Test`: To test the specified form of series convergent or divergent.
+- `Comparison Test`: 
+- `Ratio Test`:
+
+
+# `Divergent Test`
+> It's also called the `nth term divergence test`.
+The test can only tell if the series is divergent or not. It CAN NOT tell if it converges.
+
+[Jump over to Khan academy practice: nth term test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/nth-term-test)
+[Refer to Khan academy: nth term divergence test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/divergence-test)
+
+Here is the divergent test.
+For an infinite series:
+![image](https://user-images.githubusercontent.com/14041622/41808714-36a0a8ec-7714-11e8-8dca-f3c2e8ac32bd.png)
+
+Take the **LIMIT** of the nth term:
+![image](https://user-images.githubusercontent.com/14041622/41808753-dea2299e-7714-11e8-983b-5316d3f434ba.png)
+
+if:
+- `Limit DOES NOT exists`: The series is **Divergent**.
+- `Limit = nonzero number`: The series is **Divergent**.
+- `Limit = 0`: We can't conclude anything.
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41808673-9aae097a-7713-11e8-8f44-693b74490e6e.png)
+Solve:
+- Take the limit of the `nth term` we get that the `limit = 0`.
+- According to `divergent test` rules, we can't conclude anything about it.
+
+
+# `Integral Test`
+
+[`►Jump over to have practice at Khan academy: Integral test.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/integral-test)
+[Refer to article from tkiryl: The Integral Test](http://www.tkiryl.com/Calculus/Section_8.3--The_Integral_and_Comparison_Tests/The_Integral_and_Comparison_Tests.html)
+[Refer to Khan academy: Integral Test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/integral-test-intuition)
+
+## Intuition of Integral test
+
+The `Integral test` has introduced the idea of calculating the total area under the function:
+- The series has step of 1, which means `Δx = 1`
+- We can sum the areas (which equals the series itself): 
+![image](https://user-images.githubusercontent.com/14041622/41808077-d6a26876-770a-11e8-9ef7-18558302e24f.png)
+- But when we are to **INTEGRATE** the function area under the function:
+![image](https://user-images.githubusercontent.com/14041622/41808108-5fd348ea-770b-11e8-9a54-09729ac28dc1.png)
+- The `dx` is infinitely small rather than a fixed number `Δx = 1`.
+- As result, the **INTEGRAL** is almost always greater than the **SERIES AREAS**.
+
+As been said above, we got this conclusion:
+![image](https://user-images.githubusercontent.com/14041622/41807976-ae338b00-7709-11e8-8ab9-5cdde0e5f4b3.png)
+
+> **Notice: DO NOT use the `Integral Test` to EVALUATE series, because in general they are NOT equal.** 
+
+[▼Refer to awesome article from xaktly: Integral Test](http://xaktly.com/IntegralTest.html)
+
+![image](https://user-images.githubusercontent.com/14041622/41808008-1f857dc2-770a-11e8-903e-0db037158421.png)
+
+![image](https://user-images.githubusercontent.com/14041622/41807997-0eb9a946-770a-11e8-923e-7763b9e6a769.png)
+
+
+
+## Conditions of Integral test
+
+Assume the series `a𝖓` can be represented as a function `f(x)`.
+There are a few limitations for it to use the Integral test:
+- `f(x)` MUST BE continuous.
+- `f(x) > 0`. It MUST BE a **positive** function.
+- `f'(x) < 0`. It's MUST BE **decreasing**.
+
+
+## Using Integral test
+![image](https://user-images.githubusercontent.com/14041622/41809149-128605fe-771b-11e8-8627-cc64ed8df4ab.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41809122-78b3cb96-771a-11e8-887a-8347e04b0fc1.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41809128-a32d5932-771a-11e8-8b97-699ab6287861.png)
+
+
+
+# `p-series Test`
+
+For the the series in form of `1/nᴾ`, 
+the easiest way to determine its convergence is using the `p-series` test:
+
+![image](https://user-images.githubusercontent.com/14041622/41808619-db6bd6d2-7712-11e8-9f44-e11199e72941.png)
+
+[▼Refer to xaktly: p-series test/harmonic series](http://www.xaktly.com/pSeries.html)
+![image](https://user-images.githubusercontent.com/14041622/41808857-8cfbfdb6-7716-11e8-937d-2b81e39df339.png)
+
+
+
+# `Comparison Test`
+
+
+# `Ratio Test`

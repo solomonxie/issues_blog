@@ -2024,7 +2024,9 @@ Solve:
 
 
 
-# `Arithmetic Series`
+# `Series`
+
+## `Arithmetic Series`
 
 > `Arithmetic Series` is the **SUM** of `Arithmetic Sequence`. Like the sum of sequence `1, 3, 5, 7`.
 
@@ -2038,7 +2040,7 @@ Because:
 ![image](https://user-images.githubusercontent.com/14041622/37816900-b87c0c74-2eaf-11e8-8c86-775bb593101c.png)
 
 
-# `Geometric Series`
+## `Geometric Series`
 
 > `Geometric Series` is the **SUM** of the `Geometric Sequence`. Like the sum of `1, 3, 6, 18, 54`.
 
