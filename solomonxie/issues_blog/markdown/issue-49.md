@@ -2568,13 +2568,6 @@ Solve:
 # `Infinite Seires`
 Evaluate the series, is actually to evaluate the **LIMIT** of the `series function`.
 
-## Determine the Infinite Geometric Series Converges or Diverges
-![image](https://user-images.githubusercontent.com/14041622/41807143-89e212a6-76fc-11e8-9d7d-6d3bc7cb80dd.png)
-
-There are two basic rules for infinite **geometric** series:
-![image](https://user-images.githubusercontent.com/14041622/41807088-b999b338-76fb-11e8-804d-835f2a3e5a62.png)
-
-
 ## `Evaluate Infinite Series`
 
 ### Example
@@ -2588,7 +2581,23 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41807023-f78b607a-76fa-11e8-810f-c5c6029a050e.png)
 
 
-## `Evaluate Infinite Geometric Series`
+
+# Infinite Geometric Series
+
+### Common Formula
+![image](https://user-images.githubusercontent.com/14041622/41807143-89e212a6-76fc-11e8-9d7d-6d3bc7cb80dd.png)
+
+### Advanced Formula
+![image](https://user-images.githubusercontent.com/14041622/41807252-86a7fc84-76fe-11e8-9956-d3c45640762a.png)
+
+
+## Determine the Infinite Geometric Series Converges or Diverges
+There are two basic rules for infinite **geometric** series:
+![image](https://user-images.githubusercontent.com/14041622/41807088-b999b338-76fb-11e8-804d-835f2a3e5a62.png)
+
+
+
+## Evaluate Infinite Geometric Series
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41807153-ce600af0-76fc-11e8-85d4-9a85f577cedd.png)
