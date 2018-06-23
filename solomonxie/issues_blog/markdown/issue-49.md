@@ -2536,6 +2536,8 @@ Solve:
 
 ## `Partial Sums`
 
+`Partial sums` is just a fancy word for `Finite series`, because it's a a **part** of infinite series.
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41806657-ab1c858a-76f4-11e8-9f6c-dabd7dfbced4.png)
 Solve:
