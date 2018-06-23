@@ -2509,7 +2509,7 @@ Divergence means the limit **DOES NOT EXISTS**.
 
 
 
-## Infinite Sequence (convergence | divergence)
+## `Infinite Sequence (convergence | divergence)`
 [►Jump to practice: Sequence convergence/divergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/convergence-and-divergence-of-sequences)
 
 ### Example
@@ -2517,12 +2517,11 @@ Divergence means the limit **DOES NOT EXISTS**.
 - Easiest way: take both Top's & Bottom's derivatives until both of them become numbers.
 - So we get: `1/3`.
 
-## Finite Geometric Series
+## `Finite Geometric Series`
 [►Jump to practice: Finite geometric series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/geometric-series--1)
 
 > Geometric Series Formula:
 ![image](https://user-images.githubusercontent.com/14041622/41806363-5419a06a-76ef-11e8-83ae-dfb6204935da.png)
-
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41806346-fffbf8fc-76ee-11e8-96f7-f9f05cbd081d.png)
@@ -2534,5 +2533,7 @@ Solve:
 - We calculate and get the result as below:
 ![image](https://user-images.githubusercontent.com/14041622/41806402-f872cd58-76ef-11e8-8d02-297df7f4f81d.png)
 
+
+## `Partial Sums`
 
 
