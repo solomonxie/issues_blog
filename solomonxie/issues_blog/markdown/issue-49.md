@@ -701,6 +701,10 @@ It's quite simple to apply and very convenient to solve some problems.
 
 [Refer to `L'Hôpital's rule`](https://en.wikipedia.org/wiki/L%27H%C3%B4pital%27s_rule)
 
+From my experience, the L'Hopital's Rule is so often been used that we didn't even realize. Actually it's been used almost every time when we are to evaluate the **LIMITS OF RATIONAL EXPRESSIONS**.
+[►Jump back to review the previous note: Asymptote of Rational Expressions](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-374894945)
+
+
 ![image](https://user-images.githubusercontent.com/14041622/40418356-bb326906-5eb4-11e8-9255-c5987bc96b5e.png)
 
 ### Example of `0/0`
@@ -2492,7 +2496,7 @@ Solve:
 
 
 
-# `Series (Calculus level)`
+# `Series basics (Calculus level)`
 [►Jump back to previous note: Series (High school level)](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-375569163)
 
 Explicit Sequence vs. Recursive Sequence:
