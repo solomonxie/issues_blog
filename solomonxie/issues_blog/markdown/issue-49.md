@@ -2493,6 +2493,7 @@ Solve:
 
 
 # Series
+[►Jump back to previous note: Series](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-375569163)
 
 Sequence vs. Series:
 > Sequence is a **_LIST_** of numbers, 
