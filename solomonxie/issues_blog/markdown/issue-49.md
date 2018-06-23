@@ -2584,11 +2584,11 @@ Solve:
 
 # Infinite Geometric Series
 
-### Common Formula
+### Common Formula (Finite & Infinite)
 ![image](https://user-images.githubusercontent.com/14041622/41807143-89e212a6-76fc-11e8-9d7d-6d3bc7cb80dd.png)
 
-### Advanced Formula
-![image](https://user-images.githubusercontent.com/14041622/41807252-86a7fc84-76fe-11e8-9956-d3c45640762a.png)
+### Infintite Formula
+![image](https://user-images.githubusercontent.com/14041622/41807292-9bc31fb2-76ff-11e8-850e-ba958f2a4644.png)
 
 
 ## Determine the Infinite Geometric Series Converges or Diverges
