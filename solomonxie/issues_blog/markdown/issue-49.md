@@ -2536,4 +2536,9 @@ Solve:
 
 ## `Partial Sums`
 
-
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806657-ab1c858a-76f4-11e8-9f6c-dabd7dfbced4.png)
+Solve:
+- The tricky part is **how to count the amount of terms**.
+- Since `n` starts from 1, so there're 11 terms, which means we're to calculate `S₁₁`.
+- `S₁₁ = 88/16 = 11/2`
