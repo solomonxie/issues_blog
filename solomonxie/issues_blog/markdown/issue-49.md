@@ -2494,7 +2494,17 @@ Solve:
 
 # Series
 
-## Infinite  convergence/divergence sequences
+Sequence vs. Series:
+> Sequence is a **_LIST_** of numbers, 
+Series is **_a NUMBER_**: the SUM of a sequence.
+
+Convergence vs. Divergence:
+> Convergence means the **limit** of a function **EXISTS**.
+Divergence means the limit **DOES NOT EXISTS**.
+
+
+
+## Infinite Sequence (convergence | divergence)
 [►Jump to practice: Sequence convergence/divergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/convergence-and-divergence-of-sequences)
 
 ### Example
@@ -2502,7 +2512,7 @@ Solve:
 - Easiest way: take both Top's & Bottom's derivatives until both of them become numbers.
 - So we get: `1/3`.
 
-## Finite geometric series
+## Finite Geometric Series
 [►Jump to practice: Finite geometric series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/geometric-series--1)
 
 > Geometric Series Formula:
