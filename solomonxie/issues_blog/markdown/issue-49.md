@@ -2544,3 +2544,13 @@ Solve:
 - The tricky part is **how to count the amount of terms**.
 - Since `n` starts from 1, so there're 11 terms, which means we're to calculate `S₁₁`.
 - `S₁₁ = 88/16 = 11/2`
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806687-839d74e6-76f5-11e8-8f60-bcde99c82811.png)
+Solve:
+- The tricky here is that: `a𝓃 = S𝓃 - S𝓃-1`, because `S𝓃 = a₁ + a₂ + a₃ +.... + a𝓃-1 + a𝓃`.
+- So the result is:
+![image](https://user-images.githubusercontent.com/14041622/41806716-de76dede-76f5-11e8-9bdc-b6929d0a45f4.png)
+
+
