@@ -2626,6 +2626,8 @@ It includes:
 
 
 # `Divergent Test`
+It's also called the `nth term divergence test`.
+The test can only tell if the series is divergent or not. It CAN NOT tell if it converges.
 
 [▼Refer to the site Infinite Series Module (ISM): The Divergence Test](http://blogs.ubc.ca/infiniteseriesmodule/units/unit-2/the-divergence-test/the-divergence-test-flowchart/)
 
