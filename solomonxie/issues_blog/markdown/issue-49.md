@@ -2565,16 +2565,22 @@ Solve:
 
 
 
-## `Infinite Seires`
+# `Infinite Seires`
 Evaluate the series, is actually to evaluate the **LIMIT** of the `series function`.
+
+## Determine the Infinite Geometric Series Converges or Diverges
+![image](https://user-images.githubusercontent.com/14041622/41807143-89e212a6-76fc-11e8-9d7d-6d3bc7cb80dd.png)
+
+There are two basic rules for infinite **geometric** series:
+![image](https://user-images.githubusercontent.com/14041622/41807088-b999b338-76fb-11e8-804d-835f2a3e5a62.png)
+
+
+## Evaluate Infinite Series
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41806785-a0e2be7a-76f6-11e8-8f53-f3d1213d1379.png)
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41806802-e754757e-76f6-11e8-974e-f54ace0e7191.png)
-
-
-
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41806961-972678ec-76f9-11e8-9726-2f364a5e5350.png)
@@ -2582,7 +2588,13 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41807023-f78b607a-76fa-11e8-810f-c5c6029a050e.png)
 
 
-## `Determine the Infinite Series Converges or Diverges`
+## Evaluate Infinite Geometric Series
 
-There are two basic rules for infinite geometric series:
-![image](https://user-images.githubusercontent.com/14041622/41807088-b999b338-76fb-11e8-804d-835f2a3e5a62.png)
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41807153-ce600af0-76fc-11e8-85d4-9a85f577cedd.png)
+Solve:
+- First off, we need to find the essential information for the geometric series:
+    - Initial term: `a₀ = 1`
+    - Common Ratio: `r = 0.75`
+- So the Infinite series would be:
+![image](https://user-images.githubusercontent.com/14041622/41807199-867cdafa-76fd-11e8-8382-cf206dece606.png)
