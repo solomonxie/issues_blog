@@ -2710,3 +2710,7 @@ the easiest way to determine its convergence is using the `p-series` test:
 
 [▼Refer to xaktly: p-series test/harmonic series](http://www.xaktly.com/pSeries.html)
 ![image](https://user-images.githubusercontent.com/14041622/41808857-8cfbfdb6-7716-11e8-937d-2b81e39df339.png)
+
+
+
+# `Comparison Test`
