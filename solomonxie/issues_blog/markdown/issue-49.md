@@ -2629,6 +2629,7 @@ It includes:
 It's also called the `nth term divergence test`.
 The test can only tell if the series is divergent or not. It CAN NOT tell if it converges.
 
+[Refer to Khan academy: nth term divergence test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/divergence-test)
 [▼Refer to the site Infinite Series Module (ISM): The Divergence Test](http://blogs.ubc.ca/infiniteseriesmodule/units/unit-2/the-divergence-test/the-divergence-test-flowchart/)
 
 ![image](https://user-images.githubusercontent.com/14041622/41808411-a6d64522-770f-11e8-807f-9f72b04b3738.png)
