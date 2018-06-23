@@ -2626,17 +2626,28 @@ It includes:
 
 
 # `Divergent Test`
-It's also called the `nth term divergence test`.
+> It's also called the `nth term divergence test`.
 The test can only tell if the series is divergent or not. It CAN NOT tell if it converges.
 
 [Refer to Khan academy: nth term divergence test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/divergence-test)
-[▼Refer to the site Infinite Series Module (ISM): The Divergence Test](http://blogs.ubc.ca/infiniteseriesmodule/units/unit-2/the-divergence-test/the-divergence-test-flowchart/)
 
-![image](https://user-images.githubusercontent.com/14041622/41808411-a6d64522-770f-11e8-807f-9f72b04b3738.png)
+Here is the divergent test.
+For an infinite series:
+![image](https://user-images.githubusercontent.com/14041622/41808714-36a0a8ec-7714-11e8-8dca-f3c2e8ac32bd.png)
 
-[▼Here is the Divergence Test Flowchart](http://blogs.ubc.ca/infiniteseriesmodule/units/unit-2/the-divergence-test/the-divergence-test-flowchart/)
+Take the **LIMIT** of the nth term:
+![image](https://user-images.githubusercontent.com/14041622/41808753-dea2299e-7714-11e8-983b-5316d3f434ba.png)
 
-![image](https://user-images.githubusercontent.com/14041622/41808279-b679ddb0-770d-11e8-9c66-c42b5aac46bf.png)
+if:
+- `Limit DOES NOT exists`: The series is **Divergent**.
+- `Limit = nonzero number`: The series is **Divergent**.
+- `Limit = 0`: We can't conclude anything.
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41808673-9aae097a-7713-11e8-8f44-693b74490e6e.png)
+Solve:
+
 
 
 # `Integral Test`
