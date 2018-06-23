@@ -2495,11 +2495,29 @@ Solve:
 # Series
 
 ## Infinite  convergence/divergence sequences
-
 [►Jump to practice: Sequence convergence/divergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/convergence-and-divergence-of-sequences)
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41806326-79e751d0-76ee-11e8-8daf-5305147d0c65.png)
 - Easiest way: take both Top's & Bottom's derivatives until both of them become numbers.
 - So we get: `1/3`.
+
+## Finite geometric series
+[►Jump to practice: Finite geometric series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/geometric-series--1)
+
+> Geometric Series Formula:
+![image](https://user-images.githubusercontent.com/14041622/41806363-5419a06a-76ef-11e8-83ae-dfb6204935da.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806346-fffbf8fc-76ee-11e8-96f7-f9f05cbd081d.png)
+Solve:
+- By using the `Geometric Series formula`, we get the informations as below:
+    - **Common ratio**: `r = -2`
+    - **Amount of items**: `n = 20`. Because `k` starts from 0, so there're 20 terms.
+    - **Initial term**: `a₀ = -4`
+- We calculate and get the result as below:
+![image](https://user-images.githubusercontent.com/14041622/41806402-f872cd58-76ef-11e8-8d02-297df7f4f81d.png)
+
+
 
