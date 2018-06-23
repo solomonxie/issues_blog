@@ -2489,3 +2489,17 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41716222-57cd2da2-7588-11e8-948e-14c1be8e7302.png)
 - Based on the `Shell method` of integrating `Cylinder's shells`, we got the equation:
 ![image](https://user-images.githubusercontent.com/14041622/41716325-a45a89a8-7588-11e8-952b-0f46b3b8ba68.png)
+
+
+
+# Series
+
+## Infinite  convergence/divergence sequences
+
+[►Jump to practice: Sequence convergence/divergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/convergence-and-divergence-of-sequences)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806326-79e751d0-76ee-11e8-8daf-5305147d0c65.png)
+- Easiest way: take both Top's & Bottom's derivatives until both of them become numbers.
+- So we get: `1/3`.
+
