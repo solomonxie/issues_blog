@@ -2508,7 +2508,6 @@ Convergence vs. Divergence:
 Divergence means the limit **DOES NOT EXISTS**.
 
 
-
 ## `Infinite Sequence (convergence | divergence)`
 [►Jump to practice: Sequence convergence/divergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/convergence-and-divergence-of-sequences)
 
@@ -2554,7 +2553,10 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41806716-de76dede-76f5-11e8-9bdc-b6929d0a45f4.png)
 
 
+## `Infinite Seires`
+Evaluate the series, is actually to evaluate the **LIMIT** of the `series function`.
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41806785-a0e2be7a-76f6-11e8-8f53-f3d1213d1379.png)
 Solve:
-
+![image](https://user-images.githubusercontent.com/14041622/41806802-e754757e-76f6-11e8-974e-f54ace0e7191.png)
