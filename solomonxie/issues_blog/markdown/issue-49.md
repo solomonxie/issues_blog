@@ -2575,7 +2575,7 @@ There are two basic rules for infinite **geometric** series:
 ![image](https://user-images.githubusercontent.com/14041622/41807088-b999b338-76fb-11e8-804d-835f2a3e5a62.png)
 
 
-## Evaluate Infinite Series
+## `Evaluate Infinite Series`
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41806785-a0e2be7a-76f6-11e8-8f53-f3d1213d1379.png)
@@ -2588,7 +2588,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41807023-f78b607a-76fa-11e8-810f-c5c6029a050e.png)
 
 
-## Evaluate Infinite Geometric Series
+## `Evaluate Infinite Geometric Series`
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41807153-ce600af0-76fc-11e8-85d4-9a85f577cedd.png)
