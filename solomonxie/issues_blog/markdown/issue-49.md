@@ -2513,7 +2513,7 @@ Divergence means the limit **DOES NOT EXISTS**.
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41806326-79e751d0-76ee-11e8-8daf-5305147d0c65.png)
-- Easiest way: take both Top's & Bottom's derivatives until both of them become numbers.
+- Easiest way: Apply the `L'hopital's Rule, take both Top's & Bottom's derivatives until both of them become numbers.
 - So we get: `1/3`.
 
 ## `Finite Geometric Series`
