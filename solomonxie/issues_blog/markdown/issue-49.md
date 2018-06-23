@@ -2647,7 +2647,8 @@ if:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41808673-9aae097a-7713-11e8-8f44-693b74490e6e.png)
 Solve:
-
+- Take the limit of the `nth term` we get that the `limit = 0`.
+- According to `divergent test` rules, we can't conclude anything about it.
 
 
 # `Integral Test`
