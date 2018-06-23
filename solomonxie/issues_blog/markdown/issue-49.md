@@ -2641,6 +2641,8 @@ The test can only tell if the series is divergent or not. It CAN NOT tell if it 
 
 # `Integral Test`
 
+[Refer to Khan academy: Integral Test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/integral-test-intuition)
+
 ![image](https://user-images.githubusercontent.com/14041622/41808444-2587fc26-7710-11e8-8e30-393223a7cb0e.png)
 
 [Refer to article from tkiryl: The Integral Test](http://www.tkiryl.com/Calculus/Section_8.3--The_Integral_and_Comparison_Tests/The_Integral_and_Comparison_Tests.html)
