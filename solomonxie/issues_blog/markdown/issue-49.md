@@ -2668,4 +2668,8 @@ As been said above, we got this conclusion:
 
 # `p-series Test`
 
-![image](https://user-images.githubusercontent.com/14041622/41808577-3a0c56b8-7712-11e8-8cb3-5c3a81c93822.png)
+For the the series in form of `1/nᴾ`, 
+the easiest way to determine its convergence is using the `p-series` test:
+
+![image](https://user-images.githubusercontent.com/14041622/41808619-db6bd6d2-7712-11e8-9f44-e11199e72941.png)
+
