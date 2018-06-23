@@ -2512,6 +2512,15 @@ Convergence vs. Divergence:
 Divergence means the limit **DOES NOT EXISTS**.
 
 
+## `Geometric Series in 𝚺 Notation`
+
+[▼Refer to Cool Math: Geometric Series](http://www.coolmath.com/algebra/19-sequences-series/08-geometic-series-02
+![image](https://user-images.githubusercontent.com/14041622/41806975-05a66fac-76fa-11e8-80c4-dd9cacb3dc10.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41806978-167f350c-76fa-11e8-91a3-4ce9d734ec15.png)
+
+
 ## `Infinite Sequence (convergence | divergence)`
 [►Jump to practice: Sequence convergence/divergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/convergence-and-divergence-of-sequences)
 
@@ -2522,9 +2531,6 @@ Divergence means the limit **DOES NOT EXISTS**.
 
 ## `Finite Geometric Series`
 [►Jump to practice: Finite geometric series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/geometric-series--1)
-
-> Geometric Series Formula:
-![image](https://user-images.githubusercontent.com/14041622/41806363-5419a06a-76ef-11e8-83ae-dfb6204935da.png)
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41806346-fffbf8fc-76ee-11e8-96f7-f9f05cbd081d.png)
@@ -2557,6 +2563,8 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41806716-de76dede-76f5-11e8-9bdc-b6929d0a45f4.png)
 
 
+
+
 ## `Infinite Seires`
 Evaluate the series, is actually to evaluate the **LIMIT** of the `series function`.
 
@@ -2566,13 +2574,6 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41806802-e754757e-76f6-11e8-974e-f54ace0e7191.png)
 
 
-## `Geometric Series in 𝚺 Notation`
-
-[▼Refer to Cool Math: Geometric Series](http://www.coolmath.com/algebra/19-sequences-series/08-geometic-series-02
-![image](https://user-images.githubusercontent.com/14041622/41806975-05a66fac-76fa-11e8-80c4-dd9cacb3dc10.png)
-
-### Example
-![image](https://user-images.githubusercontent.com/14041622/41806978-167f350c-76fa-11e8-91a3-4ce9d734ec15.png)
 
 
 ### Example
