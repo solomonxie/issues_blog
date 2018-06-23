@@ -172,6 +172,4 @@ If you see a problem with the red colour - either absent, or interference - then
 如果还是有问题，那么可以试着这么操作（不推荐）：
 - 找到`#hdmi_group=1`这句话，把前面的`#`注释符号去掉，把数字改成`2`，强行指定显示器类型：`1`是连接老式电视，`2`代表连接新电视。
 
-
-
-用HDMI插上电视后，就连声音都有啦！（不用插音频线，HDMI自带音频传输）
+> 用HDMI插上电视后，就连声音都有啦！（不用插音频线，HDMI自带音频传输）
