@@ -494,7 +494,8 @@ Class People( ):
 
 
 
-# Project: 极简主义设计的手机:无屏幕智能手机 Created at `2013-11-07 21:29`
+# （✘已废除）Project: 极简主义设计的手机:无屏幕智能手机 
+Created at `2013-11-07 21:29`
 
 `#极简主义 #手机 #minimalism #phone`  
 
