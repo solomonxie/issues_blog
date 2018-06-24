@@ -113,6 +113,9 @@ Can’t say God is not `the first and the best doctor and biologist`.
 # `The First Man's fall` Genesis 3
 Genesis three is the start of `Human's Fall`.
 
+![image](https://user-images.githubusercontent.com/14041622/41820637-9e23ebca-7807-11e8-9095-22f4482e8069.png)
+
+
 ### Gen 3:1
 > "Now" the serpent...
 Q: `Now` emphasise the time moving or the nature of a living creature’s changing? 
