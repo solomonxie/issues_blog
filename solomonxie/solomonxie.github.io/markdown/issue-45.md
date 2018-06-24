@@ -174,6 +174,9 @@ Answered: Cain was set to the east.
 
 # `Cain’s psychology, biology and genealogy` Genesis 4
 
+![Giovanni Domenico Ferretti, Cain and Abel, 1740](https://user-images.githubusercontent.com/14041622/41817112-182d27a6-77c7-11e8-858a-fa764d6e57e2.png)
+
+
 ### Genesis 4:1
 > Q: `Know his wife` is only meaning `making sex`? 
 Or there’s something else more deep meaning in it? 
