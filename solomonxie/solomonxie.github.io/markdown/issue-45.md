@@ -294,3 +294,19 @@ And animals **Might Not** be as various as now, since it’s just a few hundreds
 ### Genesis 6:22
 > Says so easy, but God knows how hard Noah achieve all those missions. 
 Each single one might be a `world class challenge`.
+
+
+# Genesis 7
+
+### Genesis 7:2
+> Noah had already had all kinds of animal, what does it mean to take 7 seven pairs ?
+
+Genesis 7:11
+Regards to this date so detailed , we could easily conduct what exact day did the great Flood came.
+
+Genesis 7:11
+How did it look like or it referred to the window was opened
+
+Genesis 7:14
+Since then they’ve got the knowledge of categorise all creatures What’s the term for that ? Biology?
+
