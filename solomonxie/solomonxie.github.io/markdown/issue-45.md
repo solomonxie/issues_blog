@@ -296,19 +296,19 @@ And animals **Might Not** be as various as now, since it’s just a few hundreds
 Each single one might be a `world class challenge`.
 
 
-# Genesis 7
+# `Coming of the Great Flood` Genesis 7
 
 ### Genesis 7:2
-> Noah had already had all kinds of animal, what does it mean to take 7 seven pairs ?
+> "Take with you seven pairs of all clean animals, the male and his mate, and a pair of the animals that are not clean, the male and his mate"
+Q: Noah had already had all kinds of animal, what does it mean to take 7 pairs ?
 
-Genesis 7:11
-Regards to this date so detailed , we could easily conduct what exact day did the great Flood came.
+### Genesis 7:11
+> In regard to this date so detailed , we could easily conduct what exact day did the great Flood came.
 
-Genesis 7:11
-How did it look like or it referred to the window was opened
+> Q: How did it look like that the window was opened?
 
-Genesis 7:14
-Since then they’ve got the knowledge of categorise all creatures What’s the term for that ? Biology?
+### Genesis 7:14
+> Since then they’ve got the knowledge of categorise all creatures What’s the term for that ? Biology?
 
 Genesis 7:17
 Rose high above the earth, Means it’s higher than the highest point of any mountain on earth
