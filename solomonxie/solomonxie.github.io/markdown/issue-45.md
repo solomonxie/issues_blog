@@ -308,10 +308,10 @@ Q: Noah had already had all kinds of animal, what does it mean to take 7 pairs ?
 > Q: How did it look like that the window was opened?
 
 ### Genesis 7:14
-> Since then they’ve got the knowledge of categorise all creatures What’s the term for that ? Biology?
+> Q: Since then they’ve got the knowledge of categorise all creatures, what’s the term for that ? Biology?
 
-Genesis 7:17
-Rose high above the earth, Means it’s higher than the highest point of any mountain on earth
+### Genesis 7:17
+> Rose high above the earth, Means it’s higher than the highest point of any mountain on earth
 
 Genesis 7:20
 Exact number ! It’s good for researching
