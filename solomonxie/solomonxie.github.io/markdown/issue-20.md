@@ -211,6 +211,9 @@ Facebook、twitter、微信、等一切社交媒体上通过@此系统id号的�
 7. 
 
 
+## Update：
+
+或者直接通过SSH的public key连接来聊天。双方只要互存了对方的SSH public key，就可以随时聊天。完全不需要输密码，或确认之类。
 
 
 
