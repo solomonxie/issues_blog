@@ -408,7 +408,8 @@ Facebook、twitter、微信、等一切社交媒体上通过@此系统id号的�
 postman实际上可以实现很多完整项目，没必要全部重新做一个纯python项目之类去实现一些小功能。
 
 
-# Project: "风魅科企业咨询有限公司" Created at `2014-12-22 1:11`  
+# （✘已废除）Project: "风魅科企业咨询有限公司" 
+Created at `2014-12-22 1:11`  
 `#Filemaker #database #cms`
 
 利用`Filemaker`为各类企业或个人提供流程优化  
