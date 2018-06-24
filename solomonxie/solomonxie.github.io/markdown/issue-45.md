@@ -310,3 +310,20 @@ How did it look like or it referred to the window was opened
 Genesis 7:14
 Since then they’ve got the knowledge of categorise all creatures What’s the term for that ? Biology?
 
+Genesis 7:17
+Rose high above the earth, Means it’s higher than the highest point of any mountain on earth
+
+Genesis 7:20
+Exact number ! It’s good for researching
+
+Genesis 7:19
+Probably the waters in the ancient time waters were not THAT deep like now. But because this Flood, many mountains were still hidden in waters, that human haven’t fully discovered yet
+
+Genesis 7:21
+Clearly said “sweaming creatures” died, so even fish shark whales
+
+Genesis 7:23
+Birds died because nowhere to stand to rest and to eat
+
+Genesis 7:24
+How to calculate or stimulate the situation for earth with these number
