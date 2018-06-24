@@ -237,6 +237,9 @@ And Nosh could have directed instruct Noah about everything.
 
 # `Chaos before The Flood` Genesis 6
 
+![The Sons of God and the Daughters of Men](https://user-images.githubusercontent.com/14041622/41817079-74ad3896-77c6-11e8-9db5-b5029380110a.png)
+[▲Refer to The Sons of God and the Daughters of Men](http://digestinggod.blogspot.com/2011/07/sons-of-god-and-daughters-of-men.html)
+
 ### Genesis 6:2
 > Does `sons of God` refer to Angels? 
 Corrupted angles
