@@ -299,16 +299,16 @@ Each single one might be a `world class challenge`.
 # `Coming of the Great Flood` Genesis 7
 
 ### Genesis 7:2
-> "Take with you seven pairs of all clean animals, the male and his mate, and a pair of the animals that are not clean, the male and his mate"
-Q: Noah had already had all kinds of animal, what does it mean to take 7 pairs ?
+> (✔︎) Q: Noah had already had all kinds of animal, what does it mean to take 7 pairs ?
+A: It actually can be translated as "7 pairs of each kind", that makes more sense.
 
 ### Genesis 7:11
 > In regard to this date so detailed , we could easily conduct what exact day did the great Flood came.
 
-> Q: How did it look like that the window was opened?
+> Graph: How did it look like that the window was opened?
 
 ### Genesis 7:14
-> Q: Since then they’ve got the knowledge of categorise all creatures, what’s the term for that ? Biology?
+> Research: Since then they’ve got the knowledge of categorise all creatures, what’s the term for that ? Biology?
 
 ### Genesis 7:17
 > "Rose high above the earth", means the flood was higher than the highest point of any mountain on earth.
