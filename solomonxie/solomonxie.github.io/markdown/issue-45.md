@@ -8,6 +8,9 @@
 
 # `The creation` Genesis 1~2
 
+![Cover of 1534 Luther Bible, showing the created world of Genesis 1](https://user-images.githubusercontent.com/14041622/41820741-fa5e2e36-7808-11e8-9709-d5facc8b54d4.png)
+
+
 ## Gen 1
 Genesis one is all about how the universe and all creatures were created. 
 
