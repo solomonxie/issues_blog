@@ -229,9 +229,23 @@ $ sudo vim /etc/motion/motion.conf
 
 关闭`motion`的daemon：
 ```sh
-$ sudo service motion stop
-
-# OR
-
 $ sudo killall -TERM motion
 ```
+
+## 修改分辨率
+默认的显示大小是`320*240`的，非常小，不清楚。所以我们可以把它改大。
+
+还是到`motion`的配置文件里，找到`width`和`height`，改成`800`和`600`，如下：
+![image](https://user-images.githubusercontent.com/14041622/41847550-e24a32fa-78ac-11e8-91de-4cfc120aee99.png)
+
+然后关闭重启`motion`：
+```sh
+$ sudo killall -TERM motion
+$ sudo motion
+```
+
+就会看到改大了的显示了：
+
+![image](https://user-images.githubusercontent.com/14041622/41847820-fd2fdda8-78ad-11e8-81a2-91f37674d113.png)
+
+注意，每次修改如果不显示，或者不成功。可能需要重启下树莓派，或者你的设置比例有问题。
