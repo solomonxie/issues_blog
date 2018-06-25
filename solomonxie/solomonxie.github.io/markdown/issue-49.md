@@ -2740,7 +2740,7 @@ It's so much easier if you think it graphically.
 [Refer to xaktly: Comparison Test](http://www.xaktly.com/ComparisonTest.html)
 [▼Refer to video: Comparison Test (KristaKingMath)](https://www.youtube.com/watch?v=ctJGrBzGoss&index=22&list=PLJ8OrXpbC-BPaXEPecIAS_ddViV2_gcYL&t=0s)
 ![image](https://user-images.githubusercontent.com/14041622/41836071-335c1832-788c-11e8-8370-883596b34704.png)
-![image](https://user-images.githubusercontent.com/14041622/41838575-5acb868a-7893-11e8-8913-81150ccf14b0.png)
+![image](https://user-images.githubusercontent.com/14041622/41839502-fbe6ede6-7895-11e8-994d-cba3b1663e4b.png)
 
 
 ### Example
