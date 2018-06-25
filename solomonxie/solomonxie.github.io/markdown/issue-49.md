@@ -2729,7 +2729,7 @@ the easiest way to determine its convergence is using the `p-series` test:
 # `Comparison Test`
 > You can understand `Comparison Test` intuitively as a `Sandwich Test`.
 
-**THIS TEST IS ESPECIALLY GOOD TO TEST RATIONAL EXPRESSIONS.**
+**THIS TEST IS GOOD FOR `RATIONAL EXPRESSIONS`.**
 
 ## `Direct Comparison Test`
 
@@ -2791,5 +2791,7 @@ Solve:
 
 
 # `Ratio Test`
+
+**THIS TEST IS GOOD FOR `FACTORIALS`.**
 
 [Refer to xaktly: Ratio test / root test](http://www.xaktly.com/RatioTestRootTest.html)
