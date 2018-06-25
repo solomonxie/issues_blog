@@ -2764,13 +2764,15 @@ The logic is:
 - If the `Limit > 0`, then they **both converges** or **both diverges**.
 - If the `Limit ≤ 0`, then there's no conclusion.
 
+[►`Jump over to Khan academy for practice: Limit comparison test`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/limit-comparison-test)
+
 [▼Refer to video: Limit Comparison Test (KristaKingMath)](https://www.youtube.com/watch?v=PPTLtFhAp6c&list=PLJ8OrXpbC-BPaXEPecIAS_ddViV2_gcYL&index=22)
 ![image](https://user-images.githubusercontent.com/14041622/41836745-3b72364e-788e-11e8-9404-8f862092c188.png)
 
 [▼Refer to xaktly: Limit Comparison Test](http://www.xaktly.com/LimitComparisonTest.html)
 ![image](https://user-images.githubusercontent.com/14041622/41841689-87fb7fae-789b-11e8-928d-eb77f66245fa.png)
 
-[►Jump over to Khan academy for practice: Limit comparison test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/limit-comparison-test)
+
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41841203-43c74a30-789a-11e8-807e-8a03986e9276.png)
