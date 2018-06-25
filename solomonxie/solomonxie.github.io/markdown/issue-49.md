@@ -2723,7 +2723,7 @@ the easiest way to determine its convergence is using the `p-series` test:
 
 
 # `Comparison Test`
-> You can understand `Comparison Test` intuitively as a `Burger Test`.
+> You can understand `Comparison Test` intuitively as a `Sandwich Test`.
 
 
 
@@ -2732,7 +2732,16 @@ the easiest way to determine its convergence is using the `p-series` test:
 [Refer to xaktly: Comparison Test](http://www.xaktly.com/ComparisonTest.html)
 [▼Refer to video: Comparison Test (KristaKingMath)](https://www.youtube.com/watch?v=ctJGrBzGoss&index=22&list=PLJ8OrXpbC-BPaXEPecIAS_ddViV2_gcYL&t=0s)
 ![image](https://user-images.githubusercontent.com/14041622/41836071-335c1832-788c-11e8-8370-883596b34704.png)
+![image](https://user-images.githubusercontent.com/14041622/41838575-5acb868a-7893-11e8-8913-81150ccf14b0.png)
 
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41838143-27c14d48-7892-11e8-914b-3e656d97a16d.png)
+Solve:
+- Assume the asked series as `a_n`, and we make up a very similar series bigger than it, as `b_n`:
+![image](https://user-images.githubusercontent.com/14041622/41838411-f6f774e8-7892-11e8-9063-45c2a9285b83.png)
+- Apply the `p-series test` we get that the `b_n` **converges**.
+- Since `a_n < b_n`, so according to the `Sandwich test (Direct comparison test)`, `a_n` **converges** as well.
 
 ## `Limit Comparison Test`
 
