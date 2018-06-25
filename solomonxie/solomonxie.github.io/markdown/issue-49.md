@@ -2755,7 +2755,7 @@ Solve:
 
 ## `Limit Comparison Test`
 
-`Limit comparison test` is often to solve the convergence problem when the `Direct comparison test` won't work. 
+`Limit comparison test` is like an extension when the `Direct comparison test` **won't** work. 
 etc., when we compare `a` with `b`, although `b` converges but `a > b`, so we can't make any conclusion.
 And that's where the `limit comparison test` comes in place.
 
