@@ -2622,8 +2622,11 @@ It includes:
 - `Divergent Test`: Only to test if the series is divergent.
 - `Integral Test`: To test the series convergent or divergent.
 - `p-series Test`: To test the specified form of series convergent or divergent.
-- `Comparison Test`: 
+- `Comparison Test`: To test **rational expressions**.
 - `Ratio Test`:
+- `Alternating Test`:  
+- `Root Test`: 
+- 
 
 
 # `Divergent Test`
