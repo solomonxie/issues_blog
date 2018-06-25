@@ -2729,6 +2729,14 @@ the easiest way to determine its convergence is using the `p-series` test:
 
 ## `Direct Comparison Test`
 
+Assume that we have a series `a_n`, and we're to make up a similar series to it as `b_n`:
+
+The logic is:
+- If `b > a` & `b` **converges**, then `a` **converges** as well.
+- If `a > b` & `b` **diverges**, then `a` **diverges** as well.
+
+It's so much easier if you think it graphically.
+
 [Refer to xaktly: Comparison Test](http://www.xaktly.com/ComparisonTest.html)
 [▼Refer to video: Comparison Test (KristaKingMath)](https://www.youtube.com/watch?v=ctJGrBzGoss&index=22&list=PLJ8OrXpbC-BPaXEPecIAS_ddViV2_gcYL&t=0s)
 ![image](https://user-images.githubusercontent.com/14041622/41836071-335c1832-788c-11e8-8370-883596b34704.png)
