@@ -2737,7 +2737,9 @@ The logic is:
 
 It's so much easier if you think it graphically.
 
-[Refer to xaktly: Comparison Test](http://www.xaktly.com/ComparisonTest.html)
+[▼Refer to xaktly: Comparison Test](http://www.xaktly.com/ComparisonTest.html)
+![image](https://user-images.githubusercontent.com/14041622/41841750-b0fc8222-789b-11e8-80af-9d92d96c3faf.png)
+
 [▼Refer to video: Comparison Test (KristaKingMath)](https://www.youtube.com/watch?v=ctJGrBzGoss&index=22&list=PLJ8OrXpbC-BPaXEPecIAS_ddViV2_gcYL&t=0s)
 ![image](https://user-images.githubusercontent.com/14041622/41836071-335c1832-788c-11e8-8370-883596b34704.png)
 ![image](https://user-images.githubusercontent.com/14041622/41839502-fbe6ede6-7895-11e8-994d-cba3b1663e4b.png)
@@ -2753,9 +2755,26 @@ Solve:
 
 ## `Limit Comparison Test`
 
-[Refer to xaktly: Limit Comparison Test](http://www.xaktly.com/LimitComparisonTest.html)
+`Limit comparison test` is often to solve the convergence problem when the `Direct comparison test` won't work. 
+etc., when we compare `a` with `b`, although `b` converges but `a > b`, so we can't make any conclusion.
+And that's where the `limit comparison test` comes in place.
+
+The logic is:
+- Take the limit of the division `a/b`.
+- If the `Limit > 0`, then they **both converges** or **both diverges**.
+- If the `Limit ≤ 0`, then there's no conclusion.
+
+[▼Refer to xaktly: Limit Comparison Test](http://www.xaktly.com/LimitComparisonTest.html)
+![image](https://user-images.githubusercontent.com/14041622/41841689-87fb7fae-789b-11e8-928d-eb77f66245fa.png)
+
 [▼Refer to video: Limit Comparison Test (KristaKingMath)](https://www.youtube.com/watch?v=PPTLtFhAp6c&list=PLJ8OrXpbC-BPaXEPecIAS_ddViV2_gcYL&index=22)
 ![image](https://user-images.githubusercontent.com/14041622/41836745-3b72364e-788e-11e8-9404-8f862092c188.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41841203-43c74a30-789a-11e8-807e-8a03986e9276.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41841366-ab22aada-789a-11e8-9852-3a781fb63934.png)
 
 
 
