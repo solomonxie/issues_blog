@@ -2716,5 +2716,9 @@ the easiest way to determine its convergence is using the `p-series` test:
 
 # `Comparison Test`
 
+[Refer to xaktly: Comparison Test](http://www.xaktly.com/ComparisonTest.html)
+
 
 # `Ratio Test`
+
+[Refer to xaktly: Ratio test / root test](http://www.xaktly.com/RatioTestRootTest.html)
