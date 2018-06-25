@@ -181,3 +181,22 @@ If you see a problem with the red colour - either absent, or interference - then
 偶然看到了这篇文章，解决了这个大问题：
 [《让树莓派根据温度自动控制散热风扇的启停》WuSiYu Blog](https://wusiyu.me/%E8%AE%A9%E6%A0%91%E8%8E%93%E6%B4%BE%E6%A0%B9%E6%8D%AE%E6%B8%A9%E5%BA%A6%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E6%95%A3%E7%83%AD%E9%A3%8E%E6%89%87%E7%9A%84%E5%90%AF%E5%81%9C/)
 
+
+
+
+# 树莓派连接USB摄像头
+
+手头有一个闲置的USB摄像头，插在自己的笔记本上，能够正常使用，且不用装驱动。
+然后想把它插在树莓派上试试。
+
+[参考：树莓派基于motion的usb摄像头监控](https://blog.csdn.net/coolwriter/article/details/75568250)
+
+方法如下：
+- 进入树莓派`/dev/`目录，查看有没有`video0`这个文件。
+![image](https://user-images.githubusercontent.com/14041622/41845587-93a174fc-78a6-11e8-9c14-bed63a77173b.png)
+- 安装`motion`程序：
+```sh
+$ sudo apt-get install motion
+```
+- 修改`motion`配置文件，把`no`改成`yes`，开启motion的daemon一直检测设备：
+![image](https://user-images.githubusercontent.com/14041622/41845696-e9a7833c-78a6-11e8-920f-3eb9b13155bf.png)
