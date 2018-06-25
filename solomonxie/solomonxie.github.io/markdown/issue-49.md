@@ -2738,13 +2738,12 @@ The logic is:
 
 It's so much easier if you think it graphically.
 
-[▼Refer to xaktly: Comparison Test](http://www.xaktly.com/ComparisonTest.html)
-![image](https://user-images.githubusercontent.com/14041622/41841750-b0fc8222-789b-11e8-80af-9d92d96c3faf.png)
-
 [▼Refer to video: Comparison Test (KristaKingMath)](https://www.youtube.com/watch?v=ctJGrBzGoss&index=22&list=PLJ8OrXpbC-BPaXEPecIAS_ddViV2_gcYL&t=0s)
 ![image](https://user-images.githubusercontent.com/14041622/41836071-335c1832-788c-11e8-8370-883596b34704.png)
 ![image](https://user-images.githubusercontent.com/14041622/41839502-fbe6ede6-7895-11e8-994d-cba3b1663e4b.png)
 
+[▼Refer to xaktly: Comparison Test](http://www.xaktly.com/ComparisonTest.html)
+![image](https://user-images.githubusercontent.com/14041622/41841750-b0fc8222-789b-11e8-80af-9d92d96c3faf.png)
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41838143-27c14d48-7892-11e8-914b-3e656d97a16d.png)
@@ -2765,11 +2764,11 @@ The logic is:
 - If the `Limit > 0`, then they **both converges** or **both diverges**.
 - If the `Limit ≤ 0`, then there's no conclusion.
 
-[▼Refer to xaktly: Limit Comparison Test](http://www.xaktly.com/LimitComparisonTest.html)
-![image](https://user-images.githubusercontent.com/14041622/41841689-87fb7fae-789b-11e8-928d-eb77f66245fa.png)
-
 [▼Refer to video: Limit Comparison Test (KristaKingMath)](https://www.youtube.com/watch?v=PPTLtFhAp6c&list=PLJ8OrXpbC-BPaXEPecIAS_ddViV2_gcYL&index=22)
 ![image](https://user-images.githubusercontent.com/14041622/41836745-3b72364e-788e-11e8-9404-8f862092c188.png)
+
+[▼Refer to xaktly: Limit Comparison Test](http://www.xaktly.com/LimitComparisonTest.html)
+![image](https://user-images.githubusercontent.com/14041622/41841689-87fb7fae-789b-11e8-928d-eb77f66245fa.png)
 
 
 ### Example
