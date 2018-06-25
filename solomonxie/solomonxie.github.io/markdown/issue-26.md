@@ -173,3 +173,11 @@ If you see a problem with the red colour - either absent, or interference - then
 - 找到`#hdmi_group=1`这句话，把前面的`#`注释符号去掉，把数字改成`2`，强行指定显示器类型：`1`是连接老式电视，`2`代表连接新电视。
 
 > 用HDMI插上电视后，就连声音都有啦！（不用插音频线，HDMI自带音频传输）
+
+
+# 树莓派控制风扇自动开启关闭
+
+树莓派风扇一直开着确实很吵，所以即使会对cpu造成负担，我也不愿意插上风扇。
+偶然看到了这篇文章，解决了这个大问题：
+[《让树莓派根据温度自动控制散热风扇的启停》WuSiYu Blog](https://wusiyu.me/%E8%AE%A9%E6%A0%91%E8%8E%93%E6%B4%BE%E6%A0%B9%E6%8D%AE%E6%B8%A9%E5%BA%A6%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E6%95%A3%E7%83%AD%E9%A3%8E%E6%89%87%E7%9A%84%E5%90%AF%E5%81%9C/)
+
