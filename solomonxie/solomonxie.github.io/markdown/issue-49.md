@@ -2795,3 +2795,14 @@ Solve:
 **THIS TEST IS GOOD FOR `FACTORIALS`.**
 
 [Refer to xaktly: Ratio test / root test](http://www.xaktly.com/RatioTestRootTest.html)
+
+
+## Absolute vs. conditional convergence
+![image](https://user-images.githubusercontent.com/14041622/41852052-92aa3384-78bc-11e8-959e-d00f02be5ee2.png)
+
+
+![image](https://user-images.githubusercontent.com/14041622/41852085-b1ae495a-78bc-11e8-81c6-dbe8940303f2.png)
+
+## How to do Ratio test
+
+![image](https://user-images.githubusercontent.com/14041622/41852093-b5fa6214-78bc-11e8-8c7d-0a4e34c40fa5.png)
