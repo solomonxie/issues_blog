@@ -198,5 +198,24 @@ If you see a problem with the red colour - either absent, or interference - then
 ```sh
 $ sudo apt-get install motion
 ```
-- 修改`motion`配置文件，把`no`改成`yes`，开启motion的daemon一直检测设备：
+- 修改`motion`程序的daemon:
+```sh
+sudo vim /etc/default/motion
+```
+- 把`no`改成`yes`，开启motion的daemon一直检测设备：
 ![image](https://user-images.githubusercontent.com/14041622/41845696-e9a7833c-78a6-11e8-920f-3eb9b13155bf.png)
+- 打开`motion`程序的配置文件：
+```sh
+$ sudo vim /etc/motion/motion.conf
+```
+- 把`daemon off`改成`daemon on`:
+![image](https://user-images.githubusercontent.com/14041622/41845849-7a1d52c0-78a7-11e8-84ed-a32fae3d9c19.png)
+- 确认视频流的接口是`8081`：
+![image](https://user-images.githubusercontent.com/14041622/41845879-99d91220-78a7-11e8-82f1-aa17ac2798ee.png)
+- 把`stream_localhost on`改成`stream_localhost off`，关闭localhost本地的限制：
+![image](https://user-images.githubusercontent.com/14041622/41845929-bd5d1764-78a7-11e8-9931-fae1168bad84.png)
+- 把`sdl_threadnr`注释屏蔽掉：
+![image](https://user-images.githubusercontent.com/14041622/41845977-dfffc7da-78a7-11e8-9a20-f704c122c697.png)
+- 保存文件，退出。
+- 开启`motion`程序的daemon，`sudo motion`:
+![image](https://user-images.githubusercontent.com/14041622/41846068-257fd85e-78a8-11e8-89c7-dfdc750192c8.png)
