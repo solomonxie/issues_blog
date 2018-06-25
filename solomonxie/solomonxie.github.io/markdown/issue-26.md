@@ -219,3 +219,9 @@ $ sudo vim /etc/motion/motion.conf
 - 保存文件，退出。
 - 开启`motion`程序的daemon，`sudo motion`:
 ![image](https://user-images.githubusercontent.com/14041622/41846068-257fd85e-78a8-11e8-89c7-dfdc750192c8.png)
+- 打开浏览器查看树莓派的摄像头影像，地址是：`http://树莓派IP地址:8081`:
+![image](https://user-images.githubusercontent.com/14041622/41846176-777c95d4-78a8-11e8-90aa-a150c4bb4c01.png)
+
+然后会看到浏览器一直在刷新显示这个小图像（分辨率不高）
+
+
