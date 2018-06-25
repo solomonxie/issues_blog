@@ -2716,8 +2716,9 @@ the easiest way to determine its convergence is using the `p-series` test:
 ## `Harmonic Series`
 > Harmonic Series is `∑ 1/n`, and Harmonic Series **DIVERGES**. That's all you need to know.
 
-[▼Refer to Khan academy: harmonic series diverges](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/harmonic-series-divergent)
+![image](https://user-images.githubusercontent.com/14041622/41841842-e46c0876-789b-11e8-952f-54e9c074f391.png)
 
+[▼Refer to Khan academy: harmonic series diverges](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/harmonic-series-divergent)
 ![image](https://user-images.githubusercontent.com/14041622/41836289-d72c23c6-788c-11e8-977d-1bafe436c416.png)
 
 
