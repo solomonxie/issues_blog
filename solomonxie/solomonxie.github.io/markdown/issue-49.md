@@ -2729,7 +2729,7 @@ the easiest way to determine its convergence is using the `p-series` test:
 # `Comparison Test`
 > You can understand `Comparison Test` intuitively as a `Sandwich Test`.
 
-
+**THIS TEST IS ESPECIALLY GOOD TO TEST RATIONAL EXPRESSIONS.**
 
 ## `Direct Comparison Test`
 
