@@ -2715,8 +2715,19 @@ the easiest way to determine its convergence is using the `p-series` test:
 
 
 # `Comparison Test`
+> You can understand `Comparison Test` intuitively as a `Burger Test`.
 
 [Refer to xaktly: Comparison Test](http://www.xaktly.com/ComparisonTest.html)
+
+## `Direct Comparison Test`
+
+[Refer to video: Comparison Test (KristaKingMath)](https://www.youtube.com/watch?v=ctJGrBzGoss&index=22&list=PLJ8OrXpbC-BPaXEPecIAS_ddViV2_gcYL&t=0s)
+![image](https://user-images.githubusercontent.com/14041622/41836071-335c1832-788c-11e8-8370-883596b34704.png)
+
+
+## `Limit Comparison Test`
+
+
 
 
 # `Ratio Test`
