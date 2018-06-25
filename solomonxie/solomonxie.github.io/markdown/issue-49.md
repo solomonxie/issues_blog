@@ -2623,7 +2623,7 @@ It includes:
 - `Integral Test`: To test the series convergent or divergent.
 - `p-series Test`: To test the specified form of series convergent or divergent.
 - `Comparison Test`: To test **rational expressions**.
-- `Ratio Test`:
+- `Ratio Test`: To test **factorial fractions**.
 - `Alternating Test`:  
 - `Root Test`: 
 - 
