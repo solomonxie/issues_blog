@@ -2770,6 +2770,7 @@ The logic is:
 [▼Refer to xaktly: Limit Comparison Test](http://www.xaktly.com/LimitComparisonTest.html)
 ![image](https://user-images.githubusercontent.com/14041622/41841689-87fb7fae-789b-11e8-928d-eb77f66245fa.png)
 
+[►Jump over to Khan academy for practice: Limit comparison test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/limit-comparison-test)
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41841203-43c74a30-789a-11e8-807e-8a03986e9276.png)
