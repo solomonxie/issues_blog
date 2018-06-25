@@ -2776,6 +2776,11 @@ The logic is:
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41841366-ab22aada-789a-11e8-9852-3a781fb63934.png)
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41842613-e09c44ca-789d-11e8-894b-f12153b03232.png)
+Solve:
+- We can't easily tell in the comparison who's greater, so we decide to apply the `limit comparison test`:
+![image](https://user-images.githubusercontent.com/14041622/41842732-37c91160-789e-11e8-9352-d6cc241e898c.png)
 
 
 
