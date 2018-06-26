@@ -2912,5 +2912,14 @@ etc.,
 ![image](https://user-images.githubusercontent.com/14041622/41852458-c53e13fa-78bd-11e8-9fda-0847cc285a09.png)
 
 
-# `Remainder Estimating Infinite Series`
-It can be called `Error/Remainder Estimating Infinite Series`.
+# Error Estimation for Approximating Alternating Series
+> It can be called `Error / Remainder Estimation of Alternating Series`.
+
+The `Error Estimation Theorem` is to calculating (approximating) an `alternating series`. 
+
+For calculating an `alternating series`,  the logic is:
+- We first need to **test** the series' convergence.
+- Then we can express the series as the **`sum of partial sums & infinite remainder`**:
+![image](https://user-images.githubusercontent.com/14041622/41906143-af500b40-796f-11e8-8186-e7183b7c76dc.png)
+- If the series **CONVERGES**, it then will be satisfied with the **Error/Remainder Estimation Theorem**:
+![image](https://user-images.githubusercontent.com/14041622/41906204-dae38444-796f-11e8-9a24-033ec305b738.png)
