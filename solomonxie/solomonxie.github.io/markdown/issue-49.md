@@ -2938,13 +2938,14 @@ The logic is:
 ![image](https://user-images.githubusercontent.com/14041622/41923848-1f731eb4-799b-11e8-92a0-20369725ec8a.png)
 (▲Since the **Rn** is the **gap** between `S & Sn`, so we call it **`The Error`**)
 - ▼ And **`The Error`** or `The Remainder` **MUST** satisfy this Theorem:
-![image](https://user-images.githubusercontent.com/14041622/41923562-4a2d8398-799a-11e8-9977-9e93e09445c5.png)
+![image](https://user-images.githubusercontent.com/14041622/41925935-7e68704a-79a0-11e8-9642-32df2ae7eaea.png)
+
 
 
 ## `Error Control (accurcy)`
 
 First thing to know, in this theorem:
-![image](https://user-images.githubusercontent.com/14041622/41924984-eb628616-799d-11e8-9914-e1dcccb07660.png)
+![image](https://user-images.githubusercontent.com/14041622/41925974-9a2dac78-79a0-11e8-9fa1-f13d1c3dc193.png)
 ▲ **The Larger `n` → The smaller gap → The lesser Error → The more accurate.** 
 
 Therefore, before doing the math we want to point out **how accurate** we want it to be.
@@ -2958,12 +2959,12 @@ For pointing out accuracy, we have 2 ways to do so:
 Usually these would be told to point out the accuracy:
 - "Approximate the series to the **2 decimal places**",
 - "Let the error be **less than 0.01**",
+- "We want the accuracy within ±0.01"
 
 What they mean are the same:
-![image](https://user-images.githubusercontent.com/14041622/41925624-b546bc4e-799f-11e8-8b6d-c20c4555bc8c.png)
+![image](https://user-images.githubusercontent.com/14041622/41926104-fa4da216-79a0-11e8-8c69-14a8c7835bf6.png)
 
-
-And by solving the inequality `a_n ≤ 0.01`, 
+▲ And by solving the inequality `a_n ≤ 0.01`, 
 we will get the scope for `n`, 
 then get the **`Smallest Integer of n`** in that scope.
 
@@ -2976,15 +2977,11 @@ then get the **`Smallest Integer of n`** in that scope.
 ![image](https://user-images.githubusercontent.com/14041622/41906491-90aa26b6-7970-11e8-8042-cf8216b918fa.png)
 Solve:
 - It's clear this is a `alternating series`.
-- So we want to do the `alternating series test` first:
-    - Take away the `alternating sign`.
-    - The term becomes `1/√n`. It's **decreasing**, no doubt.
-    - The limit of `1/√n` is `0`.
-    - So the series passed the test, it **converges**.
+- So we want to do the `alternating series test` first, and it passed, which means it converges.
 - Since the series converges, it could apply the `Error Approximation Theorem`:
-![image](https://user-images.githubusercontent.com/14041622/41920767-f4586268-7993-11e8-853c-a089107b9dce.png)
-- Solve out the inequality to get `k ≥ 999,999`
-- And that's the smallest integer of `n` to make the series converges with 2 decimal accuracy.
+![image](https://user-images.githubusercontent.com/14041622/41925900-6ac33e62-79a0-11e8-8449-1e2fd0168c79.png)
+- Solve out the inequality to get `n ≥ 999,999`
+- And `999,999` the smallest integer of `n` to make the series converges with 2 decimal accuracy.
 
 
 
