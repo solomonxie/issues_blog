@@ -2871,7 +2871,7 @@ Strategy:
 
 
 
-## `Absolute vs. conditional convergence`
+# `Absolute vs. conditional convergence`
 
 [►Refer to Khan academy: Conditional & absolute convergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/conditional-and-absolute-convergence)
 
