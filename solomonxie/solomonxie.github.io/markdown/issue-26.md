@@ -249,3 +249,30 @@ $ sudo motion
 ![image](https://user-images.githubusercontent.com/14041622/41847820-fd2fdda8-78ad-11e8-81a2-91f37674d113.png)
 
 注意，每次修改如果不显示，或者不成功。可能需要重启下树莓派，或者你的设置比例有问题。
+
+
+
+# 树莓派挂载U盘
+[参考文章](https://segmentfault.com/a/1190000014173634)
+
+```shell
+# 检查设备名字
+sudo fdisk -l
+
+# 设定映射目录
+sudo mkdir /mnt/udisk
+# 将指定设备映射到刚刚创建到目录
+sudo mount -o uid=pi,gid=pi /dev/sda1 /mnt/udisk/
+
+# 开机自动执行
+sudo vim /etc/rc.local
+# 将下面这句加到文件内容中(rc.local最后的exit 0之前都行)
+mount -o uid=pi,gid=pi /dev/sda1 /mnt/udisk/
+
+# 弹出优盘方法
+sudo umount /mnt/udisk
+
+# 如果提示device is busy
+ps -ef | grep /mnt/udisk
+sudo kill -9 xxx
+```
