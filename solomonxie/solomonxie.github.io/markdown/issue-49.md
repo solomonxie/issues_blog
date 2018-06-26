@@ -2921,8 +2921,11 @@ etc.,
 The `Error Estimation Theorem` is to calculating (approximating) an `alternating series`. 
 
 [►Refer to The Organic Chemistry Tutor: Alternate Series Estimation Theorem](https://www.youtube.com/watch?v=FkUrAgBzAZo)
-[▼Refer to mathwords: Alternating Series Remainder](http://www.mathwords.com/a/alternating_series_remainder.htm)
+[►Refer to Mathonline: Error Estimation for Approximating Alternating Series](http://mathonline.wikidot.com/error-estimation-for-approximating-alternating-series)
+[►Refer to mathwords: Alternating Series Remainder](http://www.mathwords.com/a/alternating_series_remainder.htm)
 
+
+## Theorem
 For calculating an `alternating series`,  the logic is:
 - First to **test** the series' convergence.
 - Then we can express the series as the **`sum of partial sums & infinite remainder`**:
@@ -2937,7 +2940,9 @@ Let's make it simpler.
 
 ![image](https://user-images.githubusercontent.com/14041622/41907403-52d3fcd8-7973-11e8-8e07-17fc7443a9ba.png)
 
-## `Approximation's Accuracy`
+
+## `Error Control (accurcy)`
+
 Since this theorem is to **APPROXIMATING** the remainder of the series, 
 so before any calculating anything, 
 we really need to point out **how accurate** we want the **series** to be.
@@ -2946,6 +2951,7 @@ we really need to point out **how accurate** we want the **series** to be.
 In another word, for controlling accuracy, we always need to do either these things:
 - Control the `Error`, or
 - Control the amount of terms in the `Partial Sums`.
+
 
 ### Control the Error
 ![image](https://user-images.githubusercontent.com/14041622/41922224-302746bc-7997-11e8-978d-7b31c3b3bb67.png)
@@ -2959,6 +2965,10 @@ what it really means is:
 And by solving the inequality, 
 we will get the scope for `n`, 
 then get the **`Smallest Integer of n`** in that scope.
+
+### Control the terms
+
+
 
 
 ### Example
@@ -2976,8 +2986,4 @@ Solve:
 - And that's the smallest integer of `n` to make the series converges with 2 decimal accuracy.
 
 
-
-
-
-### Control the terms
 
