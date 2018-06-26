@@ -2823,19 +2823,12 @@ It's the test for `Alternating series`.
 
 [►Refer to xaktly: Alternating Series](http://www.xaktly.com/AlternatingSeries.html)
 
-## `Alternating Series`
+## Alternating Series
 It means,
 **Terms of the series "alternate"  between positive and negative.**
 
 etc., `The alternating harmonic series`:
 ![image](https://user-images.githubusercontent.com/14041622/41898616-16c165c0-795d-11e8-9da9-8b2cfed657e9.png)
-
-
-## `Absolute vs. conditional convergence`
-![image](https://user-images.githubusercontent.com/14041622/41852052-92aa3384-78bc-11e8-959e-d00f02be5ee2.png)
-
-![image](https://user-images.githubusercontent.com/14041622/41852458-c53e13fa-78bd-11e8-9fda-0847cc285a09.png)
-
 
 
 ## The Alternating Series Test
@@ -2862,3 +2855,9 @@ Solve:
 - Apply the `root test`:
 ![image](https://user-images.githubusercontent.com/14041622/41898382-78ae9678-795c-11e8-86d0-6a7d8df23fc6.png)
 - Since `L < 1`, so it converges.
+
+
+# `Absolute vs. conditional convergence`
+![image](https://user-images.githubusercontent.com/14041622/41852052-92aa3384-78bc-11e8-959e-d00f02be5ee2.png)
+
+![image](https://user-images.githubusercontent.com/14041622/41852458-c53e13fa-78bd-11e8-9fda-0847cc285a09.png)
