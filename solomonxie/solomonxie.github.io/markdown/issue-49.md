@@ -2937,17 +2937,25 @@ Let's make it simpler.
 
 ![image](https://user-images.githubusercontent.com/14041622/41907403-52d3fcd8-7973-11e8-8e07-17fc7443a9ba.png)
 
-### `Approximation's Accuracy`
+## `Approximation's Accuracy`
 Since this theorem is to **APPROXIMATING** the remainder of the series, 
 so before any calculating anything, 
 we really need to point out **how accurate** we want the **series** to be.
-
 **The larger the `n` is, the more accurate the series is.** 
 
+In another word, for controlling accuracy, we always need to do either these things:
+- Control the `Error`, or
+- Control the amount of terms in the `Partial Sums`.
+
+### Control the Error
+![image](https://user-images.githubusercontent.com/14041622/41922224-302746bc-7997-11e8-978d-7b31c3b3bb67.png)
+
 etc., 
-we'd like the series be accurate to **2 decimal places (0.01)**, 
-then what we are to do is to set the remainder less than `0.01`: 
-![image](https://user-images.githubusercontent.com/14041622/41908745-a29249ce-7977-11e8-9e65-127fcbead34a.png)
+When I say "we'd like the series be accurate to **2 decimal places (0.01)**",
+or "let the **error** to be less than 0.01",
+what it really means is:
+![image](https://user-images.githubusercontent.com/14041622/41922275-48cec852-7997-11e8-84c6-e93bdcf39f30.png)
+
 And by solving the inequality, 
 we will get the scope for `n`, 
 then get the **`Smallest Integer of n`** in that scope.
@@ -2966,3 +2974,10 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41920767-f4586268-7993-11e8-853c-a089107b9dce.png)
 - Solve out the inequality to get `k ≥ 999,999`
 - And that's the smallest integer of `n` to make the series converges with 2 decimal accuracy.
+
+
+
+
+
+### Control the terms
+
