@@ -2950,7 +2950,7 @@ then what we are to do is to set the remainder's inequality:
 ![image](https://user-images.githubusercontent.com/14041622/41908401-6880c1d0-7976-11e8-8cee-f6e5c3e6b41d.png)
 And by solving the inequality, 
 we will get the scope for `n`, 
-then get the **`least integer of n`** in that scope.
+then get the **`Smallest Integer of n`** in that scope.
 
 
 ### Example
