@@ -2918,35 +2918,39 @@ etc.,
 # `Error Estimation Theorem`
 > It can be called `Error or Remainder Estimation of Alternating Series`.
 
-The `Error Estimation Theorem` is to calculating (approximating) an `alternating series`. 
+This is to calculating (approximating) an **Infinite Alternating Series**:
+![image](https://user-images.githubusercontent.com/14041622/41924214-fca30d4e-799b-11e8-90f5-4d0e2bd39402.png)
+
+
+
 
 [►Refer to The Organic Chemistry Tutor: Alternate Series Estimation Theorem](https://www.youtube.com/watch?v=FkUrAgBzAZo)
 [►Refer to Mathonline: Error Estimation for Approximating Alternating Series](http://mathonline.wikidot.com/error-estimation-for-approximating-alternating-series)
 [►Refer to mathwords: Alternating Series Remainder](http://www.mathwords.com/a/alternating_series_remainder.htm)
 
-
-## Theorem
-For calculating an `alternating series`,  the logic is:
+The logic is:
 - First to **test** the series' convergence.
-- Then we can express the series as the **`sum of partial sums & infinite remainder`**:
-![image](https://user-images.githubusercontent.com/14041622/41906143-af500b40-796f-11e8-8186-e7183b7c76dc.png)
+- If the series **CONVERGES**, then we can proceed to calculate it by Error Estimation Theorem. Otherwise we aren't able to.
+- We can express the series as the **`sum of partial sums & infinite remainder`**:
+![image](https://user-images.githubusercontent.com/14041622/41923660-942ccc2e-799a-11e8-94ba-d082c0ba1aa1.png)
 (▲ `Sn` is the **first n terms**, and `Rn` is **from the n+1 term to the rest terms**.)
-- If the series **CONVERGES**, it then will be satisfied the **Error/Remainder Estimation Theorem**:
-![image](https://user-images.githubusercontent.com/14041622/41906204-dae38444-796f-11e8-9a24-033ec305b738.png)
-
-Let's make it simpler.
-
-▼ If the `Alternating Series` passes the `Alternating Series Test`, it MUST satisfies this theorem:
-
-![image](https://user-images.githubusercontent.com/14041622/41907403-52d3fcd8-7973-11e8-8e07-17fc7443a9ba.png)
+- With a little twist, we will get the whole idea:
+![image](https://user-images.githubusercontent.com/14041622/41923848-1f731eb4-799b-11e8-92a0-20369725ec8a.png)
+(▲Since the **Rn** is the **gap** between `S & Sn`, so we call it **`The Error`**)
+- ▼ And **`The Error`** or `The Remainder` MUST satisfy this Theorem:
+![image](https://user-images.githubusercontent.com/14041622/41923562-4a2d8398-799a-11e8-9977-9e93e09445c5.png)
 
 
 ## `Error Control (accurcy)`
 
+
+▲**The larger the `n` is, the more accurate the series is.** ▲
+
+
 Since this theorem is to **APPROXIMATING** the remainder of the series, 
 so before any calculating anything, 
 we really need to point out **how accurate** we want the **series** to be.
-**The larger the `n` is, the more accurate the series is.** 
+
 
 In another word, for controlling accuracy, we always need to do either these things:
 - Control the `Error`, or
