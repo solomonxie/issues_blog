@@ -2920,8 +2920,8 @@ etc.,
 
 The `Error Estimation Theorem` is to calculating (approximating) an `alternating series`. 
 
+[►Refer to The Organic Chemistry Tutor: Alternate Series Estimation Theorem](https://www.youtube.com/watch?v=FkUrAgBzAZo)
 [▼Refer to mathwords: Alternating Series Remainder](http://www.mathwords.com/a/alternating_series_remainder.htm)
-
 
 For calculating an `alternating series`,  the logic is:
 - First to **test** the series' convergence.
@@ -2930,6 +2930,11 @@ For calculating an `alternating series`,  the logic is:
 - If the series **CONVERGES**, it then will be satisfied the **Error/Remainder Estimation Theorem**:
 ![image](https://user-images.githubusercontent.com/14041622/41906204-dae38444-796f-11e8-9a24-033ec305b738.png)
 
+Let's make it simpler.
+
+▼ If the `Alternating Series` passes the `Alternating Series Test`, it MUST satisfies this theorem:
+
+![image](https://user-images.githubusercontent.com/14041622/41907403-52d3fcd8-7973-11e8-8e07-17fc7443a9ba.png)
 
 
 ### Example
