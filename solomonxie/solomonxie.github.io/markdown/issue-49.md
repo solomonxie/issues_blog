@@ -2794,7 +2794,7 @@ Solve:
 
 **THIS TEST IS GOOD FOR `FACTORIALS`.**
 
-[Refer to xaktly: Ratio test / root test](http://www.xaktly.com/RatioTestRootTest.html)
+[▼Refer to xaktly: Ratio test / root test](http://www.xaktly.com/RatioTestRootTest.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/41852093-b5fa6214-78bc-11e8-8c7d-0a4e34c40fa5.png)
 
