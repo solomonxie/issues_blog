@@ -2956,3 +2956,4 @@ then get the **`Smallest Integer of n`** in that scope.
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41906491-90aa26b6-7970-11e8-8042-cf8216b918fa.png)
 Solve:
+- 
