@@ -2842,3 +2842,11 @@ But when it works, it often cuts to convergence or divergence quickly.
 [▼Refer to xaktly: Ratio test / root test](http://www.xaktly.com/RatioTestRootTest.html)
 
 ![image](https://user-images.githubusercontent.com/14041622/41898160-d147e8c6-795b-11e8-9e9e-5c53918286a7.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41898303-45560054-795c-11e8-888f-67984ce1b423.png)
+Solve:
+- Apply the `root test`:
+![image](https://user-images.githubusercontent.com/14041622/41898382-78ae9678-795c-11e8-86d0-6a7d8df23fc6.png)
+- Since `L < 1`, so it converges.
