@@ -2842,6 +2842,7 @@ Solve:
 # `Alternating Series Test`
 It's the test for `Alternating series`.
 
+[►Refer to Khan academy: Alternating series test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/alternating-series-test)
 [►Refer to xaktly: Alternating Series](http://www.xaktly.com/AlternatingSeries.html)
 
 ## Alternating Series
@@ -2871,6 +2872,8 @@ Strategy:
 
 
 ## `Absolute vs. conditional convergence`
+
+[►Refer to Khan academy: Conditional & absolute convergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/conditional-and-absolute-convergence)
 
 ▼We can make a series in **Absolute form** and **Alternating form**:
 ![image](https://user-images.githubusercontent.com/14041622/41900472-66a19bc4-7961-11e8-810c-8209f0e97f96.png)
