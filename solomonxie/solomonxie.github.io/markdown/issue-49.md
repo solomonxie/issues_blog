@@ -2876,8 +2876,9 @@ Strategy:
 Solve:
 - Notice this is an `alternating series`, so we're to apply the `alternating series test`.
 - Take out the `alternating term`, and left with `(2/p)ⁿ`.
-- So the series only converges if `(2/p)ⁿ` is **decreasing**.
--  And the only way to make it decreasing is to make sure `(2/p) < 1`.
+- So the series only converges if `(2/p)ⁿ` is **decreasing** and its limit is `0`.
+- And the only way to make it decreasing is to make sure `(2/p) < 1`.
+- Based on that `p` value, the limit of `(2/p)ⁿ` is surely a `0`.
 - Therefore, `p > 2` makes the series converges.
 
 
@@ -2886,8 +2887,9 @@ Solve:
 Solve:
 - Notice this is an `alternating series`, so we're to apply the `alternating series test`.
 - Take out the `alternating term`, and left with `(2n)ᴾ`.
-- So the series only converges if `(2n)ᴾ` is **decreasing**.
--  And the only way to make it decreasing is to make sure `p < 0`.
+- So the series only converges if `(2n)ᴾ` is **decreasing** and its limit is `0`.
+- And the only way to make it decreasing is to make sure `p < 0`.
+- Based on that `p` value, the limit of `(2n)ᴾ` is surely a `0`.
 - Therefore, `p < 0` makes the series converges.
 
 
