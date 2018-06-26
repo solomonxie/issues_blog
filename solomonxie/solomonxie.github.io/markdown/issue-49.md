@@ -2962,5 +2962,7 @@ Solve:
     - The term becomes `1/√n`. It's **decreasing**, no doubt.
     - The limit of `1/√n` is `0`.
     - So the series passed the test, it **converges**.
-- Since the series converges, it could apply the `Error Approximation Theorem`.
-- 
+- Since the series converges, it could apply the `Error Approximation Theorem`:
+![image](https://user-images.githubusercontent.com/14041622/41920767-f4586268-7993-11e8-853c-a089107b9dce.png)
+- Solve out the inequality to get `k ≥ 999,999`
+- And that's the smallest integer of `n` to make the series converges with 2 decimal accuracy.
