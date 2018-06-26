@@ -2828,3 +2828,14 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41852052-92aa3384-78bc-11e8-959e-d00f02be5ee2.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/41852458-c53e13fa-78bd-11e8-9fda-0847cc285a09.png)
+
+
+
+# `Root Test`
+
+> The root test is used in situations where a series term or part of it is raised to the power of the index variable. If the root test isn't fairly easy to use, you probably shouldn't use it. But when it works, it often cuts to convergence or divergence quickly.
+The root test isn't a good choice if a series contains factorial terms. You'll notice some similarities between how we interpret the root test and the ratio test.
+
+[▼Refer to xaktly: Ratio test / root test](http://www.xaktly.com/RatioTestRootTest.html)
+
+![image](https://user-images.githubusercontent.com/14041622/41898160-d147e8c6-795b-11e8-9e9e-5c53918286a7.png)
