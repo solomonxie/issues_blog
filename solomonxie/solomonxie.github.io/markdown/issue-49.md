@@ -2863,7 +2863,7 @@ The very good example of this test is the `Alternating Harmonic Series`:
 ▲ It does **CONVERGES**. (But the Harmonic Series does NOT converge)
 
 Strategy:
-- Take OUT the `Alternating sign (-1)ⁿ`:
+- Take AWAY the `Alternating sign (-1)ⁿ`:
 ![image](https://user-images.githubusercontent.com/14041622/41907244-db137e44-7972-11e8-85e4-19fd7ac7a3cb.png)
 - Determine if the rest part is a decreasing series:
 ![image](https://user-images.githubusercontent.com/14041622/41907186-ae792816-7972-11e8-9adf-1c5f552dc39a.png)
@@ -2878,7 +2878,7 @@ Strategy:
 ![image](https://user-images.githubusercontent.com/14041622/41901083-a2a293f2-7962-11e8-9ec5-654279cdc398.png)
 Solve:
 - Notice this is an `alternating series`, so we're to apply the `alternating series test`.
-- Take out the `alternating term`, and left with `(2/p)ⁿ`.
+- Take away the `alternating term`, and left with `(2/p)ⁿ`.
 - So the series only converges if `(2/p)ⁿ` is **decreasing** and its **limit is `0`**.
 - And the only way to make it decreasing is to make sure `(2/p) < 1`.
 - Based on that `p` value, the limit of `(2/p)ⁿ` is surely a `0`.
@@ -2889,7 +2889,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41901342-3fafa5e0-7963-11e8-8f5d-103e42047757.png)
 Solve:
 - Notice this is an `alternating series`, so we're to apply the `alternating series test`.
-- Take out the `alternating term`, and left with `(2n)ᴾ`.
+- Take away the `alternating term`, and left with `(2n)ᴾ`.
 - So the series only converges if `(2n)ᴾ` is **decreasing** and its **limit is `0`**.
 - And the only way to make it decreasing is to make sure `p < 0`.
 - Based on that `p` value, the limit of `(2n)ᴾ` is surely a `0`.
