@@ -2912,4 +2912,5 @@ etc.,
 ![image](https://user-images.githubusercontent.com/14041622/41852458-c53e13fa-78bd-11e8-9fda-0847cc285a09.png)
 
 
-# Error Estimation for Approximating Alternating Series
+# `Remainder Estimating Infinite Series`
+It can be called `Error/Remainder Estimating Infinite Series`.
