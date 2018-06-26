@@ -2948,7 +2948,9 @@ etc.,
 we'd like the series be accurate to **2 decimal places (0.01)**, 
 then what we are to do is to set the remainder's inequality: 
 ![image](https://user-images.githubusercontent.com/14041622/41908401-6880c1d0-7976-11e8-8cee-f6e5c3e6b41d.png)
-
+And by solving the inequality, 
+we will get the scope for `n`, 
+then get the **`least integer of n`** in that scope.
 
 
 ### Example
