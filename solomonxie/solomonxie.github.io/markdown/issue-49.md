@@ -2946,8 +2946,8 @@ we really need to point out **how accurate** we want the **series** to be.
 
 etc., 
 we'd like the series be accurate to **2 decimal places (0.01)**, 
-then what we are to do is to set the remainder's inequality: 
-![image](https://user-images.githubusercontent.com/14041622/41908401-6880c1d0-7976-11e8-8cee-f6e5c3e6b41d.png)
+then what we are to do is to set the remainder less than `0.01`: 
+![image](https://user-images.githubusercontent.com/14041622/41908745-a29249ce-7977-11e8-9e65-127fcbead34a.png)
 And by solving the inequality, 
 we will get the scope for `n`, 
 then get the **`Smallest Integer of n`** in that scope.
