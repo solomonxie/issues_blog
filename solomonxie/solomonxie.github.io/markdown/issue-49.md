@@ -2861,6 +2861,13 @@ The very good example of this test is the `Alternating Harmonic Series`:
 
 ▲ It does **CONVERGES**. (But the Harmonic Series does NOT converge)
 
+Strategy:
+- Take OUT the `Alternating sign`: `(-1)ⁿ`
+- Determine if the rest part is a decreasing series.
+- Take limit of the rest part. 
+- If the `Limit = 0`, then the series **CONVERGES**.
+- Other than that, we can't conclude anything.
+
 
 # `Absolute vs. conditional convergence`
 ![image](https://user-images.githubusercontent.com/14041622/41852052-92aa3384-78bc-11e8-959e-d00f02be5ee2.png)
