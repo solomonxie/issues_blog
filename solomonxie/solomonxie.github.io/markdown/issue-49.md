@@ -2818,24 +2818,6 @@ Solve:
 - According to the ratio test, if `L = 1`, then there's no conclusion.
 
 
-# `Alternating Series Test`
-It's the test for `Alternating series`.
-
-[►Refer to xaktly: Alternating Series](http://www.xaktly.com/AlternatingSeries.html)
-
-## Alternating Series
-It means,
-**Terms of the series "alternate"  between positive and negative.**
-
-etc., `The alternating harmonic series`:
-![image](https://user-images.githubusercontent.com/14041622/41898616-16c165c0-795d-11e8-9da9-8b2cfed657e9.png)
-
-
-## The Alternating Series Test
-![image](https://user-images.githubusercontent.com/14041622/41899163-58a00fe0-795e-11e8-9e70-5266ec6a6377.png)
-
-
-
 # `Root Test`
 
 "The root test is used in situations where a series term or part of it is **raised to the power of the index variable**. "
@@ -2855,6 +2837,24 @@ Solve:
 - Apply the `root test`:
 ![image](https://user-images.githubusercontent.com/14041622/41898382-78ae9678-795c-11e8-86d0-6a7d8df23fc6.png)
 - Since `L < 1`, so it converges.
+
+
+# `Alternating Series Test`
+It's the test for `Alternating series`.
+
+[►Refer to xaktly: Alternating Series](http://www.xaktly.com/AlternatingSeries.html)
+
+## Alternating Series
+It means,
+**Terms of the series "alternate"  between positive and negative.**
+
+etc., `The alternating harmonic series`:
+![image](https://user-images.githubusercontent.com/14041622/41898616-16c165c0-795d-11e8-9da9-8b2cfed657e9.png)
+
+
+## The Alternating Series Test
+![image](https://user-images.githubusercontent.com/14041622/41899163-58a00fe0-795e-11e8-9e70-5266ec6a6377.png)
+
 
 
 # `Absolute vs. conditional convergence`
