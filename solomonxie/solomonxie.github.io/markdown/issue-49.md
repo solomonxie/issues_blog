@@ -2855,6 +2855,11 @@ etc., `The alternating harmonic series`:
 ## The Alternating Series Test
 ![image](https://user-images.githubusercontent.com/14041622/41899163-58a00fe0-795e-11e8-9e70-5266ec6a6377.png)
 
+The very good example of this test is the `Alternating Harmonic Series`:
+
+![image](https://user-images.githubusercontent.com/14041622/41899612-784553b8-795f-11e8-8422-eed1da1b7f9f.png)
+
+▲ It does **CONVERGES**. (But the Harmonic Series does NOT converge)
 
 
 # `Absolute vs. conditional convergence`
