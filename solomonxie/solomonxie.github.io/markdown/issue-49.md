@@ -2936,6 +2936,16 @@ Let's make it simpler.
 
 ![image](https://user-images.githubusercontent.com/14041622/41907403-52d3fcd8-7973-11e8-8e07-17fc7443a9ba.png)
 
+### `Remainders Accuracy`
+Since this theorem is to **APPROXIMATING** the remainder of the series, 
+so before any calculating anything, 
+we really need to point out **how accurate** we want it to be.
+
+**The more accurate the remainder is, the more terms are in the `partial sum`.** 
+
+etc., we'd like the remainder accurate to **2 decimal places (0.01)**, 
+then what we are to do is to 
+
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41906491-90aa26b6-7970-11e8-8042-cf8216b918fa.png)
