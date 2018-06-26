@@ -2869,8 +2869,18 @@ Strategy:
 - Other than that, we can't conclude anything.
 
 
-# `Absolute vs. conditional convergence`
-![image](https://user-images.githubusercontent.com/14041622/41852052-92aa3384-78bc-11e8-959e-d00f02be5ee2.png)
+
+## `Absolute vs. conditional convergence`
+
+▼We can make a series in **Absolute form** and **Alternating form**:
+![image](https://user-images.githubusercontent.com/14041622/41900472-66a19bc4-7961-11e8-810c-8209f0e97f96.png)
+
+We call the series:
+- `Absolute Convergent`: if the series converges in BOTH Absolute form & Alternating form.
+- `Conditional Convergent`: if the series converges ONLY in Alternating form.
+
+etc., 
+![image](https://user-images.githubusercontent.com/14041622/41900212-c265fa6e-7960-11e8-99bb-3585053f2686.png)
 
 [▼Refer to xaktly: Alternating Series](http://www.xaktly.com/AlternatingSeries.html)
 ![image](https://user-images.githubusercontent.com/14041622/41852458-c53e13fa-78bd-11e8-9fda-0847cc285a09.png)
