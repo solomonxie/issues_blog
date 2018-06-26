@@ -2917,6 +2917,9 @@ etc.,
 
 The `Error Estimation Theorem` is to calculating (approximating) an `alternating series`. 
 
+[▼Refer to mathwords: Alternating Series Remainder](http://www.mathwords.com/a/alternating_series_remainder.htm)
+
+
 For calculating an `alternating series`,  the logic is:
 - We first need to **test** the series' convergence.
 - Then we can express the series as the **`sum of partial sums & infinite remainder`**:
