@@ -2937,40 +2937,37 @@ The logic is:
 - With a little twist, we will get the whole idea:
 ![image](https://user-images.githubusercontent.com/14041622/41923848-1f731eb4-799b-11e8-92a0-20369725ec8a.png)
 (▲Since the **Rn** is the **gap** between `S & Sn`, so we call it **`The Error`**)
-- ▼ And **`The Error`** or `The Remainder` MUST satisfy this Theorem:
+- ▼ And **`The Error`** or `The Remainder` **MUST** satisfy this Theorem:
 ![image](https://user-images.githubusercontent.com/14041622/41923562-4a2d8398-799a-11e8-9977-9e93e09445c5.png)
 
 
 ## `Error Control (accurcy)`
 
+First thing to know, in this theorem:
+![image](https://user-images.githubusercontent.com/14041622/41924984-eb628616-799d-11e8-9914-e1dcccb07660.png)
+▲ **The Larger `n` → The smaller gap → The lesser Error → The more accurate.** 
 
-▲**The larger the `n` is, the more accurate the series is.** ▲
+Therefore, before doing the math we want to point out **how accurate** we want it to be.
 
-
-Since this theorem is to **APPROXIMATING** the remainder of the series, 
-so before any calculating anything, 
-we really need to point out **how accurate** we want the **series** to be.
-
-
-In another word, for controlling accuracy, we always need to do either these things:
-- Control the `Error`, or
-- Control the amount of terms in the `Partial Sums`.
+For pointing out accuracy, we have 2 ways to do so:
+- Set up **how small** we want the `error` to be, or
+- Set up **how many** terms we want to have in the partial sum `Sn`.
 
 
-### Control the Error
-![image](https://user-images.githubusercontent.com/14041622/41922224-302746bc-7997-11e8-978d-7b31c3b3bb67.png)
+### Set up the error
+Usually these would be told to point out the accuracy:
+- "Approximate the series to the **2 decimal places**",
+- "Let the error be **less than 0.01**",
 
-etc., 
-When I say "we'd like the series be accurate to **2 decimal places (0.01)**",
-or "let the **error** to be less than 0.01",
-what it really means is:
-![image](https://user-images.githubusercontent.com/14041622/41922275-48cec852-7997-11e8-84c6-e93bdcf39f30.png)
+What they mean are the same:
+![image](https://user-images.githubusercontent.com/14041622/41925624-b546bc4e-799f-11e8-8b6d-c20c4555bc8c.png)
 
-And by solving the inequality, 
+
+And by solving the inequality `a_n ≤ 0.01`, 
 we will get the scope for `n`, 
 then get the **`Smallest Integer of n`** in that scope.
 
-### Control the terms
+### Set up the terms
 
 
 
