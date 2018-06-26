@@ -2871,6 +2871,15 @@ Strategy:
 
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41901083-a2a293f2-7962-11e8-9ec5-654279cdc398.png)
+Solve:
+- Notice this is an `alternating series`, so we're to apply the `alternating series test`.
+- Take out the `alternating term`, and left with `(2/p)ⁿ`
+- So the series only converges if `(2/p) < 1` 
+- Therefore, `p > 2` makes the series converges.
+
+
 # `Absolute vs. Conditional Convergence`
 
 [►Refer to Khan academy: Conditional & absolute convergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/conditional-and-absolute-convergence)
