@@ -2838,8 +2838,9 @@ etc., `The alternating harmonic series`:
 
 
 
-## `Alternating Series Test`
-![image](https://user-images.githubusercontent.com/14041622/41852501-e4bdb0c8-78bd-11e8-9df8-9bbdbfbafdbb.png)
+## The Alternating Series Test
+![image](https://user-images.githubusercontent.com/14041622/41899163-58a00fe0-795e-11e8-9e70-5266ec6a6377.png)
+
 
 
 # `Root Test`
