@@ -2799,6 +2799,13 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41852093-b5fa6214-78bc-11e8-8c7d-0a4e34c40fa5.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41895543-e1542e02-7954-11e8-90f6-7d8cdcf82e4b.png)
+Solve:
+- Apply the `ratio test`:
+![image](https://user-images.githubusercontent.com/14041622/41895582-ff709358-7954-11e8-891f-c495c31c204b.png)
+- `L = 0`, so the series absolutely converges.
+
 
 # `Alternating Series & Alternating Test`
 
