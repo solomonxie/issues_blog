@@ -2958,4 +2958,9 @@ then get the **`Smallest Integer of n`** in that scope.
 Solve:
 - It's clear this is a `alternating series`.
 - So we want to do the `alternating series test` first:
-    - Take away the 
+    - Take away the `alternating sign`.
+    - The term becomes `1/√n`. It's **decreasing**, no doubt.
+    - The limit of `1/√n` is `0`.
+    - So the series passed the test, it **converges**.
+- Since the series converges, it could apply the `Error Approximation Theorem`.
+- 
