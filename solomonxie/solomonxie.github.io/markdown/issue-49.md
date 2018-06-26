@@ -2863,9 +2863,12 @@ The very good example of this test is the `Alternating Harmonic Series`:
 ▲ It does **CONVERGES**. (But the Harmonic Series does NOT converge)
 
 Strategy:
-- Take OUT the `Alternating sign`: `(-1)ⁿ`
-- Determine if the rest part is a decreasing series.
-- Take limit of the rest part. 
+- Take OUT the `Alternating sign (-1)ⁿ`:
+![image](https://user-images.githubusercontent.com/14041622/41907244-db137e44-7972-11e8-85e4-19fd7ac7a3cb.png)
+- Determine if the rest part is a decreasing series:
+![image](https://user-images.githubusercontent.com/14041622/41907186-ae792816-7972-11e8-9adf-1c5f552dc39a.png)
+- Take limit of the rest part:
+![image](https://user-images.githubusercontent.com/14041622/41907282-fa4a1a66-7972-11e8-86ef-b9f1b3bfe02a.png)
 - If the `Limit = 0`, then the series **CONVERGES**.
 - Other than that, we can't conclude anything.
 
