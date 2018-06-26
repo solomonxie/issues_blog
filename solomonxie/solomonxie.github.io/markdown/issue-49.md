@@ -2817,18 +2817,27 @@ Solve:
 - According to the ratio test, if `L = 1`, then there's no conclusion.
 
 
-# `Alternating Series & Alternating Test`
+# `Alternating Series Test`
 
-[▼Refer to xaktly: Alternating Series](http://www.xaktly.com/AlternatingSeries.html)
+[►Refer to xaktly: Alternating Series](http://www.xaktly.com/AlternatingSeries.html)
 
-![image](https://user-images.githubusercontent.com/14041622/41852501-e4bdb0c8-78bd-11e8-9df8-9bbdbfbafdbb.png)
+## `Alternating Series`
+It means,
+**Terms of the series "alternate"  between positive and negative.**
+
+etc., `The alternating harmonic series`:
+![image](https://user-images.githubusercontent.com/14041622/41898616-16c165c0-795d-11e8-9da9-8b2cfed657e9.png)
 
 
-## Absolute vs. conditional convergence
+## `Absolute vs. conditional convergence`
 ![image](https://user-images.githubusercontent.com/14041622/41852052-92aa3384-78bc-11e8-959e-d00f02be5ee2.png)
 
 ![image](https://user-images.githubusercontent.com/14041622/41852458-c53e13fa-78bd-11e8-9fda-0847cc285a09.png)
 
+
+
+## `Alternating Series Test`
+![image](https://user-images.githubusercontent.com/14041622/41852501-e4bdb0c8-78bd-11e8-9df8-9bbdbfbafdbb.png)
 
 
 # `Root Test`
