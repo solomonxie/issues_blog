@@ -2927,6 +2927,7 @@ For calculating an `alternating series`,  the logic is:
 - First to **test** the series' convergence.
 - Then we can express the series as the **`sum of partial sums & infinite remainder`**:
 ![image](https://user-images.githubusercontent.com/14041622/41906143-af500b40-796f-11e8-8186-e7183b7c76dc.png)
+(▲ `Sn` is the **first n terms**, and `Rn` is **from the n+1 term to the rest terms**.)
 - If the series **CONVERGES**, it then will be satisfied the **Error/Remainder Estimation Theorem**:
 ![image](https://user-images.githubusercontent.com/14041622/41906204-dae38444-796f-11e8-9a24-033ec305b738.png)
 
@@ -2936,15 +2937,18 @@ Let's make it simpler.
 
 ![image](https://user-images.githubusercontent.com/14041622/41907403-52d3fcd8-7973-11e8-8e07-17fc7443a9ba.png)
 
-### `Remainders Accuracy`
+### `Approximation's Accuracy`
 Since this theorem is to **APPROXIMATING** the remainder of the series, 
 so before any calculating anything, 
-we really need to point out **how accurate** we want it to be.
+we really need to point out **how accurate** we want the **series** to be.
 
-**The more accurate the remainder is, the more terms are in the `partial sum`.** 
+**The larger the `n` is, the more accurate the series is.** 
 
-etc., we'd like the remainder accurate to **2 decimal places (0.01)**, 
-then what we are to do is to 
+etc., 
+we'd like the series be accurate to **2 decimal places (0.01)**, 
+then what we are to do is to set the remainder's inequality: 
+![image](https://user-images.githubusercontent.com/14041622/41908401-6880c1d0-7976-11e8-8cee-f6e5c3e6b41d.png)
+
 
 
 ### Example
