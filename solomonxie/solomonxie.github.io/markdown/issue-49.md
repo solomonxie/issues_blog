@@ -2746,7 +2746,8 @@ It's so much easier if you think it graphically.
 ![image](https://user-images.githubusercontent.com/14041622/41839502-fbe6ede6-7895-11e8-994d-cba3b1663e4b.png)
 
 [▼Refer to xaktly: Comparison Test](http://www.xaktly.com/ComparisonTest.html)
-![image](https://user-images.githubusercontent.com/14041622/41841750-b0fc8222-789b-11e8-80af-9d92d96c3faf.png)
+![image](https://user-images.githubusercontent.com/14041622/41899041-01c26114-795e-11e8-99c5-10db043f4e49.png)
+
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41838143-27c14d48-7892-11e8-914b-3e656d97a16d.png)
@@ -2773,7 +2774,7 @@ The logic is:
 ![image](https://user-images.githubusercontent.com/14041622/41836745-3b72364e-788e-11e8-9404-8f862092c188.png)
 
 [▼Refer to xaktly: Limit Comparison Test](http://www.xaktly.com/LimitComparisonTest.html)
-![image](https://user-images.githubusercontent.com/14041622/41841689-87fb7fae-789b-11e8-928d-eb77f66245fa.png)
+![image](https://user-images.githubusercontent.com/14041622/41899002-e801b784-795d-11e8-8b03-9470d5322a47.png)
 
 
 
