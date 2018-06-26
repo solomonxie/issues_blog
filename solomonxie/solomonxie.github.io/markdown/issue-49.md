@@ -2818,6 +2818,7 @@ Solve:
 
 
 # `Alternating Series Test`
+It's the test for `Alternating series`.
 
 [►Refer to xaktly: Alternating Series](http://www.xaktly.com/AlternatingSeries.html)
 
