@@ -2924,7 +2924,7 @@ For calculating an `alternating series`,  the logic is:
 - First to **test** the series' convergence.
 - Then we can express the series as the **`sum of partial sums & infinite remainder`**:
 ![image](https://user-images.githubusercontent.com/14041622/41906143-af500b40-796f-11e8-8186-e7183b7c76dc.png)
-- If the series **CONVERGES**, it then will be satisfied with the **Error/Remainder Estimation Theorem**:
+- If the series **CONVERGES**, it then will be satisfied the **Error/Remainder Estimation Theorem**:
 ![image](https://user-images.githubusercontent.com/14041622/41906204-dae38444-796f-11e8-9a24-033ec305b738.png)
 
 
