@@ -979,33 +979,6 @@ sudo mkdir /var/lib/dpkg/info/
 之后`sudo apt-get upgrade`升级试试，一切完好！
 
 
-# 树莓派挂载U盘
-[参考文章](https://segmentfault.com/a/1190000014173634)
-
-```shell
-# 检查设备名字
-sudo fdisk -l
-
-# 设定映射目录
-sudo mkdir /mnt/udisk
-# 将指定设备映射到刚刚创建到目录
-sudo mount -o uid=pi,gid=pi /dev/sda1 /mnt/udisk/
-
-# 开机自动执行
-sudo vim /etc/rc.local
-# 将下面这句加到文件内容中(rc.local最后的exit 0之前都行)
-mount -o uid=pi,gid=pi /dev/sda1 /mnt/udisk/
-
-# 弹出优盘方法
-sudo umount /mnt/udisk
-
-# 如果提示device is busy
-ps -ef | grep /mnt/udisk
-sudo kill -9 xxx
-```
-
-
-
 # `Exiftool` 命令行操作图片元信息(Megadata)
 > Exiftool 是命令行操作exif最强大的工具。
 
