@@ -2682,7 +2682,7 @@ As been said above, we got this conclusion:
 
 ![image](https://user-images.githubusercontent.com/14041622/41808008-1f857dc2-770a-11e8-903e-0db037158421.png)
 
-![image](https://user-images.githubusercontent.com/14041622/41807997-0eb9a946-770a-11e8-923e-7763b9e6a769.png)
+![image](https://user-images.githubusercontent.com/14041622/41899074-19a5e2ce-795e-11e8-8b1a-1f20c7d4748c.png)
 
 
 
