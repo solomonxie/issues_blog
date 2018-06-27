@@ -2973,6 +2973,12 @@ We have 2 ways to bound the error in a range:
 ### Bound by terms
 **The Larger `n` → The smaller gap → The lesser Error → The more accurate.** 
 
+Strategy:
+- We could set the `partial sum` to include a certain number of terms, etc. `100 terms`
+- And the **first term** of Remainder should be the `101st term`.
+- The `error bound`, or the `error` is **dominated** by the **first term.**
+- So we say the `error bound` IS the value of the `101st term`.
+
 ### Bound the error
 To bound the error in a range, we often say:
 - "Approximate the series to the **2 decimal places**",
