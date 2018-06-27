@@ -2947,7 +2947,7 @@ Note that, `the error` can be either **POSITIVE** OR **NEGATIVE**:
 How does all these ideas make sense?
 [▼Refer to Khan academy: Series estimation with integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/integrals-estimating-p-series)
 
-![image](https://user-images.githubusercontent.com/14041622/41959615-16c3ced2-7a20-11e8-996e-ff4acf34b625.png)
+![image](https://user-images.githubusercontent.com/14041622/41959910-e19646e4-7a20-11e8-853f-bc0694ca441a.png)
 
 
 ## `Error Bound (accuracy control)`
