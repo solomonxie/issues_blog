@@ -2946,7 +2946,9 @@ Note that, `the error` can be either **POSITIVE** OR **NEGATIVE**:
 
 How does all these ideas make sense?
 [▼Refer to Khan academy: Series estimation with integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/integrals-estimating-p-series)
-![image](https://user-images.githubusercontent.com/14041622/41958387-79a8fb02-7a1c-11e8-855d-42f29b8af606.png)
+
+![image](https://user-images.githubusercontent.com/14041622/41959045-7fef730e-7a1e-11e8-8d6e-bf6941936223.png)
+
 
 
 
