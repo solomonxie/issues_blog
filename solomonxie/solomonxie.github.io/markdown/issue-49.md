@@ -2930,11 +2930,14 @@ The logic is:
 - We can express the series as the **`sum of partial sums & infinite remainder`**:
 ![image](https://user-images.githubusercontent.com/14041622/41923660-942ccc2e-799a-11e8-94ba-d082c0ba1aa1.png)
 (▲ `Sn` is the **first n terms**, and `Rn` is **from the n+1 term to the rest terms**.)
+- And the "structure" in the `partial sum` & `remainder` is:
+![image](https://user-images.githubusercontent.com/14041622/41963000-0d230af6-7a29-11e8-98d9-83fe12911fd9.png)
 - With a little twist, we will get the whole idea:
 ![image](https://user-images.githubusercontent.com/14041622/41957415-71c855a2-7a19-11e8-9c8f-9490e97c9e38.png)
 (▲Since the **Rn** is the **gap** between `S & Sn`, so we call it **`The Error`**)
-- ▼ And **`The Error`** or `The Remainder` **MUST** satisfy this Theorem:
-![image](https://user-images.githubusercontent.com/14041622/41957439-89ff2fd8-7a19-11e8-89f6-12efa26927be.png)
+- ▼ And the theorem is: `The Remainder` **MUST NOT** be greater than its **`first term`**:
+![image](https://user-images.githubusercontent.com/14041622/41963232-99460902-7a29-11e8-80fd-a81db1d3beb9.png)
+
 
 
 [▼Actual sum = Partial sum + Remainder: refer to Khan academy: Alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-error-estimation)
