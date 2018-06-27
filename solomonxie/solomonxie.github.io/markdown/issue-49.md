@@ -2941,11 +2941,12 @@ The logic is:
 
 
 
-## `Error Control (accurcy)`
+## `Error Bound (accurcy)`
+
+[Refer to Khan academy: Worked example: alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-remainder)
 
 First thing to know, in this theorem:
 ![image](https://user-images.githubusercontent.com/14041622/41925974-9a2dac78-79a0-11e8-9fa1-f13d1c3dc193.png)
-▲ **The Larger `n` → The smaller gap → The lesser Error → The more accurate.** 
 
 Therefore, before doing the math we want to point out **how accurate** we want it to be.
 
@@ -2953,6 +2954,9 @@ For pointing out accuracy, we have 2 ways to do so:
 - Set up **how small** we want the `error` to be, or
 - Set up **how many** terms we want to have in the partial sum `Sn`.
 
+
+### Set up the terms
+**The Larger `n` → The smaller gap → The lesser Error → The more accurate.** 
 
 ### Set up the error
 Usually these would be told to point out the accuracy:
@@ -2966,8 +2970,6 @@ What they mean are the same:
 ▲ And by solving the inequality `a_n ≤ 0.01`, 
 we will get the scope for `n`, 
 then get the **`Smallest Integer of n`** in that scope.
-
-### Set up the terms
 
 
 
