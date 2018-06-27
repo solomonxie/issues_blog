@@ -2997,7 +2997,7 @@ then get the **`Smallest Integer of n`** in that scope.
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41963692-cc4be5be-7a2a-11e8-890e-c45377eb3e08.png)
 Solve:
-- First to notice, the `partial sum` is already set to `100` terms.
+- First to notice, the `partial sum` is already set to `100` terms, so we're to **control accuracy** by `bound the terms`.
 - So the `error` should be from the `101st term` to infinity.
 - But the `error bound` is actually dominated by the first term of the error.
 - So the `error bound  = the value of 101st term`:
@@ -3010,7 +3010,10 @@ Solve:
 Solve:
 - It's clear this is a `alternating series`.
 - So we want to do the `alternating series test` first, and it passed, which means it converges.
-- Since the series converges, it could apply the `Error Approximation Theorem`:
+- Since the series converges, we can do further approximation.
+- See that we don't know how many terms are in the `partial sum`, and only know how much accurate we'd like.
+- So we're to approximate by `bound the error`, and find out the terms.
+- Apply the `Error Approximation Theorem`, assume the **first term of remainder** is `a_(n+1)`:
 ![image](https://user-images.githubusercontent.com/14041622/41925900-6ac33e62-79a0-11e8-8449-1e2fd0168c79.png)
 - Solve out the inequality to get `n ≥ 999,999`
 - And `999,999` the smallest integer of `n` to make the series converges with 2 decimal accuracy.
