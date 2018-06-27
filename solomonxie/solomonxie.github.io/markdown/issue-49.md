@@ -2946,7 +2946,7 @@ The logic is:
 [►Refer to Khan academy: Alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-error-estimation)
 
 For the `Remainder series`, its **`FIRST TERM`** is always **DOMINATING** the whole remainder:
-- It determines the remainder's **SIGN**: positive or negative.
+- It dominates the remainder's **SIGN**: positive or negative.
 - It dominates the remainder's **SIZE**: the whole remainder's absolute value **CAN'T BE** greater than the first term.
 
 
