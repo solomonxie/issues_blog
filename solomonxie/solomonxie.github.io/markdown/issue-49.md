@@ -2920,6 +2920,8 @@ etc.,
 This is to calculating (approximating) an **Infinite Alternating Series**:
 ![image](https://user-images.githubusercontent.com/14041622/41924214-fca30d4e-799b-11e8-90f5-4d0e2bd39402.png)
 
+[`►Jump over to Khan academy for practice: Alternating series remainder`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/alternating-series-remainder)
+
 [►Refer to The Organic Chemistry Tutor: Alternate Series Estimation Theorem](https://www.youtube.com/watch?v=FkUrAgBzAZo)
 [►Refer to Mathonline: Error Estimation for Approximating Alternating Series](http://mathonline.wikidot.com/error-estimation-for-approximating-alternating-series)
 [►Refer to mathwords: Alternating Series Remainder](http://www.mathwords.com/a/alternating_series_remainder.htm)
