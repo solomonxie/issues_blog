@@ -2914,14 +2914,11 @@ etc.,
 ![image](https://user-images.githubusercontent.com/14041622/41852458-c53e13fa-78bd-11e8-9fda-0847cc285a09.png)
 
 
-# `Error Estimation Theorem`
-> It can be called `Error or Remainder Estimation of Alternating Series`.
+# `Error Estimation of Alternating Series`
+> It's also called the `Remainder Estimation of Alternating Series`.
 
 This is to calculating (approximating) an **Infinite Alternating Series**:
 ![image](https://user-images.githubusercontent.com/14041622/41924214-fca30d4e-799b-11e8-90f5-4d0e2bd39402.png)
-
-
-
 
 [►Refer to The Organic Chemistry Tutor: Alternate Series Estimation Theorem](https://www.youtube.com/watch?v=FkUrAgBzAZo)
 [►Refer to Mathonline: Error Estimation for Approximating Alternating Series](http://mathonline.wikidot.com/error-estimation-for-approximating-alternating-series)
@@ -2940,24 +2937,12 @@ The logic is:
 ![image](https://user-images.githubusercontent.com/14041622/41957439-89ff2fd8-7a19-11e8-89f6-12efa26927be.png)
 
 
-How does all these ideas make sense?
-
 [▼Actual sum = Partial sum + Remainder: refer to Khan academy: Alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-error-estimation)
 
 ![image](https://user-images.githubusercontent.com/14041622/41960877-76546840-7a23-11e8-8e73-4790192ebf0c.png)
 
 
-[▼Boundary of estimating series: refer to Khan academy: Series estimation with integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/integrals-estimating-p-series)
-
-![image](https://user-images.githubusercontent.com/14041622/41959910-e19646e4-7a20-11e8-853f-bc0694ca441a.png)
-
-
 ## `Sign & Size of Error`
-
-`The Error` can be either **POSITIVE** OR **NEGATIVE**:
-- If `Error > 0`, then the approximated series is 
-- If `Error < 0`, then the approximated series is 
-
 [►Refer to Khan academy: Alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-error-estimation)
 
 For the `Remainder series`, its **`FIRST TERM`** is always **DOMINATING** the whole remainder:
@@ -2965,6 +2950,9 @@ For the `Remainder series`, its **`FIRST TERM`** is always **DOMINATING** the wh
 - It dominates the remainder's **SIZE**: the whole remainder's absolute value **CAN'T BE** greater than the first term.
 
 
+Since `The Error` can be either **POSITIVE** OR **NEGATIVE**:
+- If `Error > 0`, then the approximated series is 
+- If `Error < 0`, then the approximated series is 
 
 ## `Bound the Error (accuracy control)`
 
@@ -3008,3 +2996,11 @@ Solve:
 
 
 
+
+
+
+# `Error Estimation Theorem`
+
+[▼Boundary of estimating series: refer to Khan academy: Series estimation with integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/integrals-estimating-p-series)
+
+![image](https://user-images.githubusercontent.com/14041622/41959910-e19646e4-7a20-11e8-853f-bc0694ca441a.png)
