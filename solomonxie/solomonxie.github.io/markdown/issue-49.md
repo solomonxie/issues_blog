@@ -2952,13 +2952,18 @@ How does all these ideas make sense?
 ![image](https://user-images.githubusercontent.com/14041622/41959910-e19646e4-7a20-11e8-853f-bc0694ca441a.png)
 
 
-## `Positive & Negative Error`
+## `Sign & Size of Error`
 
 `The Error` can be either **POSITIVE** OR **NEGATIVE**:
 - If `Error > 0`, then the approximated series is 
 - If `Error < 0`, then the approximated series is 
 
 [►Refer to Khan academy: Alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-error-estimation)
+
+For the `Remainder series`, its **`FIRST TERM`** is always **DOMINATING** the whole remainder:
+- It determines the remainder's **SIGN**: positive or negative.
+- It dominates the remainder's **SIZE**: the whole remainder's absolute value **CAN'T BE** greater than the first term.
+
 
 
 ## `Bound the Error (accuracy control)`
