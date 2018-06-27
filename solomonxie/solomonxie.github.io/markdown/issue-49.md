@@ -2941,9 +2941,11 @@ The logic is:
 
 
 
-## `Error Bound (accurcy)`
+## `Error Bound (accuracy)`
 
-[Refer to Khan academy: Worked example: alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-remainder)
+The `error bound` regards to the accuracy of the approximated series.
+
+[►Refer to Khan academy: Worked example: alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-remainder)
 
 First thing to know, in this theorem:
 ![image](https://user-images.githubusercontent.com/14041622/41925974-9a2dac78-79a0-11e8-9fa1-f13d1c3dc193.png)
@@ -2955,10 +2957,10 @@ For pointing out accuracy, we have 2 ways to do so:
 - Set up **how many** terms we want to have in the partial sum `Sn`.
 
 
-### Set up the terms
+### Bound by terms
 **The Larger `n` → The smaller gap → The lesser Error → The more accurate.** 
 
-### Set up the error
+### Bound the error
 Usually these would be told to point out the accuracy:
 - "Approximate the series to the **2 decimal places**",
 - "Let the error be **less than 0.01**",
