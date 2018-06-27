@@ -2988,11 +2988,21 @@ To bound the error in a range, we often say:
 What they mean are the same:
 ![image](https://user-images.githubusercontent.com/14041622/41926104-fa4da216-79a0-11e8-8c69-14a8c7835bf6.png)
 
-▲ And by solving the inequality `a_n ≤ 0.01`, 
+▲ And by solving the inequality, 
 we will get the scope for `n`, 
 then get the **`Smallest Integer of n`** in that scope.
 
 
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41963692-cc4be5be-7a2a-11e8-890e-c45377eb3e08.png)
+Solve:
+- First to notice, the `partial sum` is already set to `100` terms.
+- So the `error` should be from the `101st term` to infinity.
+- But the `error bound` is actually dominated by the first term of the error.
+- So the `error bound  = the value of 101st term`:
+![image](https://user-images.githubusercontent.com/14041622/41963906-5337bde6-7a2b-11e8-833b-c8fc45fbecaa.png)
+- We could say that: The `error bound` is **negative**, and negative error causes **overestimation**.
 
 
 ### Example
