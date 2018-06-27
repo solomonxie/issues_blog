@@ -2956,8 +2956,8 @@ For the `Remainder series`, its **`FIRST TERM`** is always **DOMINATING** the wh
 
 Based on the error's **sign**, 
 we could tell the approximated series is **UNDERESTIMATED** or **OVERESTIMATED**:
-- If `Error > 0`, then the approximated series is 
-- If `Error < 0`, then the approximated series is 
+- If `Error > 0`, then the approximated series is **Underestimate**.
+- If `Error < 0`, then the approximated series is **Overestimate**.
 
 ## `Bound the Error (accuracy control)`
 
