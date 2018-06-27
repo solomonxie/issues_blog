@@ -2624,9 +2624,8 @@ It includes:
 - `p-series Test`: To test the specified form of series convergent or divergent.
 - `Comparison Test`: To test **rational expressions**.
 - `Ratio Test`: To test **factorial fractions**.
-- `Alternating Test`:  
 - `Root Test`: 
-- 
+- `Alternating Test`:  To test the alternating series.
 
 
 # `Divergent Test`
