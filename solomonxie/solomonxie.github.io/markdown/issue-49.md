@@ -2940,10 +2940,6 @@ The logic is:
 ![image](https://user-images.githubusercontent.com/14041622/41957439-89ff2fd8-7a19-11e8-89f6-12efa26927be.png)
 
 
-Note that, `the error` can be either **POSITIVE** OR **NEGATIVE**:
-- If `Error > 0`, then the 
-
-
 How does all these ideas make sense?
 
 [▼Actual sum = Partial sum + Remainder: refer to Khan academy: Alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-error-estimation)
@@ -2956,7 +2952,16 @@ How does all these ideas make sense?
 ![image](https://user-images.githubusercontent.com/14041622/41959910-e19646e4-7a20-11e8-853f-bc0694ca441a.png)
 
 
-## `Error Bound (accuracy control)`
+## `Positive & Negative Error`
+
+`The Error` can be either **POSITIVE** OR **NEGATIVE**:
+- If `Error > 0`, then the approximated series is 
+- If `Error < 0`, then the approximated series is 
+
+[►Refer to Khan academy: Alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-error-estimation)
+
+
+## `Bound the Error (accuracy control)`
 
 The `error bound` regards to the **accuracy** of the approximated series, and we want to control the accuracy before approximation.
 
