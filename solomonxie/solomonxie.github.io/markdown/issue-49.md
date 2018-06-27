@@ -2934,16 +2934,21 @@ The logic is:
 ![image](https://user-images.githubusercontent.com/14041622/41923660-942ccc2e-799a-11e8-94ba-d082c0ba1aa1.png)
 (▲ `Sn` is the **first n terms**, and `Rn` is **from the n+1 term to the rest terms**.)
 - With a little twist, we will get the whole idea:
-![image](https://user-images.githubusercontent.com/14041622/41923848-1f731eb4-799b-11e8-92a0-20369725ec8a.png)
+![image](https://user-images.githubusercontent.com/14041622/41957415-71c855a2-7a19-11e8-9c8f-9490e97c9e38.png)
 (▲Since the **Rn** is the **gap** between `S & Sn`, so we call it **`The Error`**)
 - ▼ And **`The Error`** or `The Remainder` **MUST** satisfy this Theorem:
-![image](https://user-images.githubusercontent.com/14041622/41925935-7e68704a-79a0-11e8-9642-32df2ae7eaea.png)
+![image](https://user-images.githubusercontent.com/14041622/41957439-89ff2fd8-7a19-11e8-89f6-12efa26927be.png)
 
 
+Note that, `the error` can be either **POSITIVE** OR **NEGATIVE**:
+- If `Error > 0`, then the 
 
-## `Error Bound (accuracy)`
 
-The `error bound` regards to the accuracy of the approximated series.
+## `Error Bound (accuracy control)`
+
+The `error bound` regards to the **accuracy** of the approximated series, and we want to control the accuracy before approximation.
+
+Notice that: the error is a distance, a difference, a gap, so it's always **POSITIVE**, always an **absolute value**.
 
 [►Refer to Khan academy: Worked example: alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-remainder)
 
@@ -2952,7 +2957,7 @@ First thing to know, in this theorem:
 
 Therefore, before doing the math we want to point out **how accurate** we want it to be.
 
-For pointing out accuracy, we have 2 ways to do so:
+For bounding the accuracy, we have 2 ways to do so:
 - Set up **how small** we want the `error` to be, or
 - Set up **how many** terms we want to have in the partial sum `Sn`.
 
@@ -2961,7 +2966,7 @@ For pointing out accuracy, we have 2 ways to do so:
 **The Larger `n` → The smaller gap → The lesser Error → The more accurate.** 
 
 ### Bound the error
-Usually these would be told to point out the accuracy:
+To bound the error in a range, we often say:
 - "Approximate the series to the **2 decimal places**",
 - "Let the error be **less than 0.01**",
 - "We want the accuracy within ±0.01"
