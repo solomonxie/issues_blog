@@ -2945,7 +2945,13 @@ Note that, `the error` can be either **POSITIVE** OR **NEGATIVE**:
 
 
 How does all these ideas make sense?
-[▼Refer to Khan academy: Series estimation with integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/integrals-estimating-p-series)
+
+[▼Actual sum = Partial sum + Remainder: refer to Khan academy: Alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-error-estimation)
+
+![image](https://user-images.githubusercontent.com/14041622/41960877-76546840-7a23-11e8-8e73-4790192ebf0c.png)
+
+
+[▼Boundary of estimating series: refer to Khan academy: Series estimation with integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/integrals-estimating-p-series)
 
 ![image](https://user-images.githubusercontent.com/14041622/41959910-e19646e4-7a20-11e8-853f-bc0694ca441a.png)
 
@@ -2953,8 +2959,6 @@ How does all these ideas make sense?
 ## `Error Bound (accuracy control)`
 
 The `error bound` regards to the **accuracy** of the approximated series, and we want to control the accuracy before approximation.
-
-Notice that: the error is a distance, a difference, a gap, so it's always **POSITIVE**, always an **absolute value**.
 
 [►Refer to Khan academy: Worked example: alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-remainder)
 
