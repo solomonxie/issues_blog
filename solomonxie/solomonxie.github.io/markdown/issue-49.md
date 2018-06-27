@@ -2944,6 +2944,7 @@ The logic is:
 
 ## `Sign & Size of Error`
 [►Refer to Khan academy: Alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-error-estimation)
+[►Refer to Khan academy: Worked example: alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-remainder)
 
 For the `Remainder series`, its **`FIRST TERM`** is always **DOMINATING** the whole remainder:
 - It dominates the remainder's **SIGN**: positive or negative.
