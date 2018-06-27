@@ -2944,6 +2944,12 @@ Note that, `the error` can be either **POSITIVE** OR **NEGATIVE**:
 - If `Error > 0`, then the 
 
 
+How does all these ideas make sense?
+[▼Refer to Khan academy: Series estimation with integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/integrals-estimating-p-series)
+![image](https://user-images.githubusercontent.com/14041622/41958387-79a8fb02-7a1c-11e8-855d-42f29b8af606.png)
+
+
+
 ## `Error Bound (accuracy control)`
 
 The `error bound` regards to the **accuracy** of the approximated series, and we want to control the accuracy before approximation.
@@ -2952,12 +2958,7 @@ Notice that: the error is a distance, a difference, a gap, so it's always **POSI
 
 [►Refer to Khan academy: Worked example: alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-remainder)
 
-First thing to know, in this theorem:
-![image](https://user-images.githubusercontent.com/14041622/41925974-9a2dac78-79a0-11e8-9fa1-f13d1c3dc193.png)
-
-Therefore, before doing the math we want to point out **how accurate** we want it to be.
-
-For bounding the accuracy, we have 2 ways to do so:
+We have 2 ways to bound the error in a range:
 - Set up **how small** we want the `error` to be, or
 - Set up **how many** terms we want to have in the partial sum `Sn`.
 
