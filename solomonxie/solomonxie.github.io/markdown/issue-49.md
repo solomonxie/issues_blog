@@ -2950,7 +2950,8 @@ For the `Remainder series`, its **`FIRST TERM`** is always **DOMINATING** the wh
 - It dominates the remainder's **SIZE**: the whole remainder's absolute value **CAN'T BE** greater than the first term.
 
 
-Since `The Error` can be either **POSITIVE** OR **NEGATIVE**:
+Based on the error's **sign**, 
+we could tell the approximated series is **UNDERESTIMATED** or **OVERESTIMATED**:
 - If `Error > 0`, then the approximated series is 
 - If `Error < 0`, then the approximated series is 
 
