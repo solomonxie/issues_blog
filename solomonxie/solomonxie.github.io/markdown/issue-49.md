@@ -3071,3 +3071,6 @@ Solve:
 
 ![image](https://user-images.githubusercontent.com/14041622/42085632-9348bce8-7bc3-11e8-990b-549961a7e916.png)
 
+In a more common form, it's expressed as:
+![image](https://user-images.githubusercontent.com/14041622/42085841-14883fae-7bc4-11e8-92bb-be381e423202.png)
+(x₀ is a real number)
