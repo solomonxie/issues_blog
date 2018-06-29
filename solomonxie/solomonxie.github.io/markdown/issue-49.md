@@ -3083,6 +3083,8 @@ In a more common form, it's expressed as:
 
 ## `Differentiate Power series`
 
+[►Refer to Khan academy: Differentiating power series](Differentiating power serieshttps://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/differentiating-power-series)
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42085947-62513c40-7bc4-11e8-8eb4-c6e87a26d5a6.png)
 Solve:
