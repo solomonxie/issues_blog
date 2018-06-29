@@ -2566,9 +2566,13 @@ Solve:
 
 
 # `Infinite Seires`
-Evaluate the series, is actually to evaluate the **LIMIT** of the `series function`.
+
+![image](https://user-images.githubusercontent.com/14041622/42086658-5c42d2f8-7bc6-11e8-9c7d-26176d38f730.png)
+
 
 ## `Evaluate Infinite Series`
+Evaluate the series, is actually to evaluate the **LIMIT** of the `series function`.
+
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41806785-a0e2be7a-76f6-11e8-8f53-f3d1213d1379.png)
