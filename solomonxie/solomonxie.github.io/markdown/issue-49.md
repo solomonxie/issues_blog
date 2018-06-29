@@ -3034,7 +3034,9 @@ The Error Estimation Theorem is not only for alternating series, but available f
 
 
 # `Interval of Convergence`
-We can actually specify an interval for a series that it certainly converges over this interval.
+When we see the series as a function, we can actually specify an interval for the function so that the series certainly converges over this interval.
+
+[`►Jump over to have practice at Khan academy: Interval of convergence`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/find-interval-of-convergence)
 
 The method is kind of like finding the interval of an ordinary function:
 - Take some `convergence tests`, etc. `ratio test`.
