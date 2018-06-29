@@ -3060,3 +3060,14 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42082232-0872485e-7bba-11e8-8baf-bd7423dde200.png)
 - In conclusion, the `interval of convergence` is:
 ![image](https://user-images.githubusercontent.com/14041622/42082258-1aa5ede6-7bba-11e8-9b71-68ab89885a47.png)
+
+
+
+# `Power Series`
+`Power series` is actually the `Geometric series` in a more general and abstract form.
+
+[▼Refer to Math24: Power series](https://www.math24.net/power-series/)
+> Definition: A series, terms of which are power functions of variable x, is called the power series:
+
+![image](https://user-images.githubusercontent.com/14041622/42085632-9348bce8-7bc3-11e8-990b-549961a7e916.png)
+
