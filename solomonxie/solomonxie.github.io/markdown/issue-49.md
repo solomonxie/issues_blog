@@ -3068,17 +3068,14 @@ Solve:
 
 
 # `Power Series`
+
 `Power series` is actually the `Geometric series` in a more general and abstract form.
 
-[▼Refer to Math24: Power series](https://www.math24.net/power-series/)
-> Definition: A series, terms of which are power functions of variable x, is called the power series:
+> A series, terms of which are power functions of variable x, is called the power series:
 
-![image](https://user-images.githubusercontent.com/14041622/42085632-9348bce8-7bc3-11e8-990b-549961a7e916.png)
+![image](https://user-images.githubusercontent.com/14041622/42087829-ff14e842-7bc9-11e8-9b39-6bc4bd2f1b57.png)
 
-In a more common form, it's expressed as:
-![image](https://user-images.githubusercontent.com/14041622/42085841-14883fae-7bc4-11e8-92bb-be381e423202.png)
-(x₀ is a real number)
-
+[►Refer to Math24: Power series](https://www.math24.net/power-series/)
 
 ## `Integrate Power series`
 
