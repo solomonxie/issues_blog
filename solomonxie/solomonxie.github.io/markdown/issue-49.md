@@ -3092,3 +3092,4 @@ In a more common form, it's expressed as:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42085947-62513c40-7bc4-11e8-8eb4-c6e87a26d5a6.png)
 Solve:
+![image](https://user-images.githubusercontent.com/14041622/42086848-f6848f28-7bc6-11e8-8d6f-d0d4304286e6.png)
