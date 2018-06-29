@@ -3031,3 +3031,18 @@ The Error Estimation Theorem is not only for alternating series, but available f
 [▼Boundary of estimating series: refer to Khan academy: Series estimation with integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/integrals-estimating-p-series)
 
 ![image](https://user-images.githubusercontent.com/14041622/41959910-e19646e4-7a20-11e8-853f-bc0694ca441a.png)
+
+
+# `Interval of Convergence`
+We can actually specify an interval for a series that it certainly converges over this interval.
+
+The method is kind of like finding the interval of an ordinary function:
+- Take some `convergence tests`, etc. `ratio test`.
+- Calculate to get the condition that makes the **test** passes.
+- Substitute the `endpoints` of the interval back in the function and see if it also converges.
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42081333-c02988b6-7bb7-11e8-90f0-1ba22b2c8610.png)
+Solve:
+- 
