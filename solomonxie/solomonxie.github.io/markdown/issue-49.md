@@ -3068,6 +3068,7 @@ Solve:
 
 
 # `Power Series`
+[►Refer to Math24: Power series](https://www.math24.net/power-series/)
 
 `Power series` is actually the `Geometric series` in a more general and abstract form.
 
@@ -3075,7 +3076,7 @@ Solve:
 
 ![image](https://user-images.githubusercontent.com/14041622/42087829-ff14e842-7bc9-11e8-9b39-6bc4bd2f1b57.png)
 
-[►Refer to Math24: Power series](https://www.math24.net/power-series/)
+
 
 ## `Integrate Power series`
 
@@ -3084,7 +3085,7 @@ Solve:
 
 ## `Differentiate Power series`
 
-[►Refer to Khan academy: Differentiating power series](Differentiating power series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/differentiating-power-series)
+[►Refer to Khan academy: Differentiating power series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/differentiating-power-series)
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42085947-62513c40-7bc4-11e8-8eb4-c6e87a26d5a6.png)
