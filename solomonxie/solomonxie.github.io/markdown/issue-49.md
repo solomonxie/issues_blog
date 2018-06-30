@@ -3070,16 +3070,11 @@ Solve:
 # `Power Series`
 [►Refer to Math24: Power series](https://www.math24.net/power-series/)
 
-`Power series` is actually the `Geometric series` in a more general and abstract form.
+`Power series` is actually a **FUNCTION**, that a normal series **multiplied by** a `ratio` which is a variable with powers.
 
-> A series, terms of which are power functions of variable x, is called the power series:
+And it's actually the `Geometric series` in a more general and abstract form.
 
 ![image](https://user-images.githubusercontent.com/14041622/42087829-ff14e842-7bc9-11e8-9b39-6bc4bd2f1b57.png)
-
-
-
-## `Integrate Power series`
-
 
 
 
