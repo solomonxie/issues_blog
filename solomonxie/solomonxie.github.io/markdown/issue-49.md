@@ -3153,6 +3153,13 @@ Solve:
 
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42154228-c8084e84-7e17-11e8-9388-1e4817228c0d.png)
+Solve:
+- First to know the formula of `Taylor Series` centred at `x=1`:
+![image](https://user-images.githubusercontent.com/14041622/42154259-d6b14404-7e17-11e8-9fb5-50deb8f09a15.png)
+- The problem is asking the coefficient of `(x-1)³`, means **all the rest part** in the formula, which is `f
+
 
 # `Maclaurin Series`
 > It's also called `Maclaurin polynomials`.
