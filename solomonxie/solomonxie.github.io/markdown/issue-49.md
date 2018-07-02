@@ -3149,14 +3149,20 @@ Solve:
 
 
 
+# `Taylor Series`
+
+
+
+
 # `Maclaurin Series`
 
-`Maclaurin series` is a series that **EACH TERM** is a **`Derivative`** of the function, which centred at `0`.
+`Maclaurin series` is a special case of `Taylor Series` which centres at `x=0`.
+
+![image](https://user-images.githubusercontent.com/14041622/42153499-e0a912fe-7e15-11e8-8e9b-7831fbba8f73.png)
 
 
 
-
-
-
-# `Taylor Series`
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42153599-21bb8b3c-7e16-11e8-8f9f-bae156b9cdb9.png)
+Solve:
 
