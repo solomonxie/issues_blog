@@ -3100,6 +3100,12 @@ Clearly it's so much easier to take the real number into the series and take **s
 
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42149557-49116f7e-7e09-11e8-90b2-71cc0dbb1755.png)
+Solve:
+- Let's organize this function to make it clear:
+![image](https://user-images.githubusercontent.com/14041622/42150204-99ab2d74-7e0b-11e8-8bbc-b40cd3b32c88.png)
+
 
 
 ### Example
