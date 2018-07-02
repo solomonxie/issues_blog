@@ -3113,4 +3113,10 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42148100-793b43ba-7e03-11e8-97e2-bca413c295e3.png)
 - And the **constant number `a_n`** in the function is:
 ![image](https://user-images.githubusercontent.com/14041622/42148159-aff276a8-7e03-11e8-8b22-deafe3cd3530.png)
-- 
+- Let's plug in the real number (0,1,2,3,4) for `n` to expand the series:
+![image](https://user-images.githubusercontent.com/14041622/42148679-c48ac622-7e05-11e8-9c4e-5807f084f9d5.png)
+- Based on that we can take the derivatives:
+![image](https://user-images.githubusercontent.com/14041622/42148867-6ef74446-7e06-11e8-9e2d-3ca70f8bff77.png)
+- Now we've got the `third derivative`, so let's plug in the `x=0` and see what we get:
+![image](https://user-images.githubusercontent.com/14041622/42148892-85613174-7e06-11e8-8236-744492cc4c0f.png)
+- And that's the answer.
