@@ -3121,3 +3121,23 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42148892-85613174-7e06-11e8-8236-744492cc4c0f.png)
 - And that's the answer.
 - And now you know **why in this case it's a waste to calculate more terms.**
+
+
+
+
+## `Integrate Power Series`
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42149117-8019f588-7e07-11e8-8750-2c113ca3cf64.png)
+Solve:
+- Knowing that `Integrate a series` can be turned to `a series of Integrations of terms`:
+![image](https://user-images.githubusercontent.com/14041622/42149518-fc263596-7e08-11e8-88e8-aa8e3c621a89.png)
+- Integrate the terms:
+![image](https://user-images.githubusercontent.com/14041622/42149394-89e7dcd2-7e08-11e8-846c-3099d9d9cba4.png)
+- And we get a simple `Geometric series`. So that we can apply the formula of calculating geometric series:
+![image](https://user-images.githubusercontent.com/14041622/42149454-b8a94d6c-7e08-11e8-9ff4-2cfbb182e18c.png)
+- Let's apply the formula:
+![image](https://user-images.githubusercontent.com/14041622/42149485-d97c50b6-7e08-11e8-9ed6-9004b48c2b98.png)
+
