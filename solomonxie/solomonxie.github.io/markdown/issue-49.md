@@ -3081,6 +3081,10 @@ For easier to remember it, that could be simplified as:
 ![image](https://user-images.githubusercontent.com/14041622/42147247-7517f930-7dff-11e8-8f11-e283a1ff377f.png)
 
 
+In this function it's critical to know that:
+**`a_n` IS A CONSTANT NUMBER! NOT A VARIABLE !**
+
+
 ## `Differentiate Power series`
 
 [►Refer to Khan academy: Differentiating power series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/differentiating-power-series)
@@ -3101,4 +3105,12 @@ Clearly it's so much easier to take the real number into the series and take **s
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42085947-62513c40-7bc4-11e8-8eb4-c6e87a26d5a6.png)
 Solve:
-![image](https://user-images.githubusercontent.com/14041622/42086848-f6848f28-7bc6-11e8-8d6f-d0d4304286e6.png)
+- Notice that: If we plug in the `x=0` at beginning, everything will be `0` and we don't have anything to calculate.
+- So Let's keep the `x` in the terms until the **last step**.
+- It's easier to `expand the series with real numbers`, and we're to try 3 or 4 terms in this case. 
+- Because at the end of it you'll notice, if we're doing `Third Derivative`, then more than 3 terms will just bring more `0`s.
+- First we're to organize the function in the standard **power series** form:
+![image](https://user-images.githubusercontent.com/14041622/42148100-793b43ba-7e03-11e8-97e2-bca413c295e3.png)
+- And the **constant number `a_n`** in the function is:
+![image](https://user-images.githubusercontent.com/14041622/42148159-aff276a8-7e03-11e8-8b22-deafe3cd3530.png)
+- 
