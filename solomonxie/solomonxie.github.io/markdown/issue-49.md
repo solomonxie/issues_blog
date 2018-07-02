@@ -3146,3 +3146,12 @@ Solve:
 - Let's apply the formula:
 ![image](https://user-images.githubusercontent.com/14041622/42149485-d97c50b6-7e08-11e8-9ed6-9004b48c2b98.png)
 
+
+
+
+# `Maclaurin Series`
+
+`Maclaurin series` is a series that **EACH TERM** is a **`Derivative`** of the function, which centred at `0`.
+
+
+
