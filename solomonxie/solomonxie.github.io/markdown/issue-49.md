@@ -3165,4 +3165,9 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42153599-21bb8b3c-7e16-11e8-8f9f-bae156b9cdb9.png)
 Solve:
-
+- We know the `Maclaurin series` is a Taylor series centred at `x=0`, and the formula is:
+![image](https://user-images.githubusercontent.com/14041622/42153779-bda67534-7e16-11e8-874e-9f4a0262ceb8.png)
+- It's told to list 4 terms, so we plug in the given value of `f', f'', f'''`  and get:
+![image](https://user-images.githubusercontent.com/14041622/42153857-d5ba9790-7e16-11e8-8d33-735a5e01e6dc.png)
+- And we get the answer:
+![image](https://user-images.githubusercontent.com/14041622/42153875-e24c1920-7e16-11e8-9eee-a744364fac76.png)
