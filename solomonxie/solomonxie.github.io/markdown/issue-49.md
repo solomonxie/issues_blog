@@ -3074,8 +3074,11 @@ Solve:
 
 And it's actually the `Geometric series` in a more general and abstract form.
 
-![image](https://user-images.githubusercontent.com/14041622/42087829-ff14e842-7bc9-11e8-9b39-6bc4bd2f1b57.png)
+![image](https://user-images.githubusercontent.com/14041622/42147291-a00d5af4-7dff-11e8-9bbf-7ae10b740788.png)
 
+For easier to remember it, that could be simplified as:
+
+![image](https://user-images.githubusercontent.com/14041622/42147247-7517f930-7dff-11e8-8f11-e283a1ff377f.png)
 
 
 ## `Differentiate Power series`
@@ -3083,8 +3086,15 @@ And it's actually the `Geometric series` in a more general and abstract form.
 [►Refer to Khan academy: Differentiating power series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/differentiating-power-series)
 
 We have 2 ways to differentiate series, they work same way:
-- xx
-- xx
+- One way is to expand the series with real numbers (1,2,3...) and take their derivatives:
+![image](https://user-images.githubusercontent.com/14041622/42147518-cfce3816-7e00-11e8-9aef-c9f12b5903ce.png)
+(▲Note that this is constantly true for power series.)
+- Another way is to expand the series with term numbers (n, n+1, n+2..) and take their derivatives:
+![image](https://user-images.githubusercontent.com/14041622/42147729-b3f903ae-7e01-11e8-80ea-656555cc0d78.png)
+
+Clearly it's so much easier to take the real number into the series and take **some** derivatives.
+
+
 
 
 
