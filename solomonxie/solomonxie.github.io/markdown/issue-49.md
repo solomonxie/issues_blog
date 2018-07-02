@@ -3151,7 +3151,9 @@ Solve:
 
 # `Taylor Series`
 
-[Refer to joseferrer: Mathematical explanation - Taylor series](https://steemit.com/mathematics/@joseferrer/mathematical-explanation-taylor-series)
+[►Refer to Khan academy: Taylor & Maclaurin polynomials intro (part 1)](https://www.khanacademy.org/math/old-ap-calculus-bc/bc-series/bc-taylor-series/v/maclaurin-and-taylor-series-intuition)
+
+[▼Refer to joseferrer: Mathematical explanation - Taylor series](https://steemit.com/mathematics/@joseferrer/mathematical-explanation-taylor-series)
 ![exp_series](https://user-images.githubusercontent.com/14041622/42157570-a41dffb0-7e20-11e8-9e13-017ad447eaac.gif)
 
 
