@@ -3155,6 +3155,7 @@ Solve:
 
 
 # `Maclaurin Series`
+> It's also called `Maclaurin polynomials`.
 
 `Maclaurin series` is a special case of `Taylor Series` which centres at `x=0`.
 
