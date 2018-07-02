@@ -3120,3 +3120,4 @@ Solve:
 - Now we've got the `third derivative`, so let's plug in the `x=0` and see what we get:
 ![image](https://user-images.githubusercontent.com/14041622/42148892-85613174-7e06-11e8-8236-744492cc4c0f.png)
 - And that's the answer.
+- And now you know **why in this case it's a waste to calculate more terms.**
