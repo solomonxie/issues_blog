@@ -3135,7 +3135,7 @@ Solve:
 - Knowing that `Integrate a series` can be turned to `a series of Integrations of terms`:
 ![image](https://user-images.githubusercontent.com/14041622/42149518-fc263596-7e08-11e8-88e8-aa8e3c621a89.png)
 - Integrate the terms:
-![image](https://user-images.githubusercontent.com/14041622/42149394-89e7dcd2-7e08-11e8-846c-3099d9d9cba4.png)
+![image](https://user-images.githubusercontent.com/14041622/42149534-1ca3bac8-7e09-11e8-95f4-9e52a6ca7c53.png)
 - And we get a simple `Geometric series`. So that we can apply the formula of calculating geometric series:
 ![image](https://user-images.githubusercontent.com/14041622/42149454-b8a94d6c-7e08-11e8-9ff4-2cfbb182e18c.png)
 - Let's apply the formula:
