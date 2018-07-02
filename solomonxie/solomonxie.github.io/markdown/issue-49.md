@@ -3158,7 +3158,15 @@ Solve:
 Solve:
 - First to know the formula of `Taylor Series` centred at `x=1`:
 ![image](https://user-images.githubusercontent.com/14041622/42154259-d6b14404-7e17-11e8-9fb5-50deb8f09a15.png)
-- The problem is asking the coefficient of `(x-1)³`, means **all the rest part** in the formula, which is `f
+- The problem is asking the coefficient of `(x-1)³`, means **all the rest part** in the formula, which is:
+![image](https://user-images.githubusercontent.com/14041622/42154421-4bfa9c24-7e18-11e8-91af-dfded4db92e9.png)
+- And it also means the `n=3`, so the coefficient becomes:
+![image](https://user-images.githubusercontent.com/14041622/42154540-9c099f26-7e18-11e8-8eb9-625771b3c88b.png)
+- Let's evaluate the `f'''(1)`:
+![image](https://user-images.githubusercontent.com/14041622/42154522-91a67d2e-7e18-11e8-878a-4324dd932448.png)
+- So the coefficient is:
+![image](https://user-images.githubusercontent.com/14041622/42154558-abe0a26e-7e18-11e8-8115-ef65f579cf0b.png)
+
 
 
 # `Maclaurin Series`
