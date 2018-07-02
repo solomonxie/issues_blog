@@ -3093,11 +3093,10 @@ We have 2 ways to differentiate series, they work same way:
 - One way is to expand the series with real numbers (1,2,3...) and take their derivatives:
 ![image](https://user-images.githubusercontent.com/14041622/42147518-cfce3816-7e00-11e8-9aef-c9f12b5903ce.png)
 (▲Note that this is constantly true for power series.)
-- Another way is to expand the series with term numbers (n, n+1, n+2..) and take their derivatives:
-![image](https://user-images.githubusercontent.com/14041622/42147729-b3f903ae-7e01-11e8-80ea-656555cc0d78.png)
+- Another way is to calculate the term's derivative and then plug in the real numbers (1,2,3):
+![image](https://user-images.githubusercontent.com/14041622/42150751-4df6968c-7e0d-11e8-8067-5478749a54b9.png)
 
-Clearly it's so much easier to take the real number into the series and take **some** derivatives.
-
+Either way will do, it depends on the actual equation for you to choose which way you're gonna use.
 
 
 ### Example
