@@ -3176,6 +3176,7 @@ Solve:
 
 ![image](https://user-images.githubusercontent.com/14041622/42153499-e0a912fe-7e15-11e8-8e9b-7831fbba8f73.png)
 
+![image](https://user-images.githubusercontent.com/14041622/42155112-0c2ab0b4-7e1a-11e8-86cd-98551cbd8191.png)
 
 
 ### Example
