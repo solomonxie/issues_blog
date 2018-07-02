@@ -3151,7 +3151,7 @@ Solve:
 
 # `Taylor Series`
 
-The whole purpose of using a `Taylor Polynomial` is to **REPLACE** the original function with a **polynomial**, which we're easy to deal with.
+The whole purpose of using a `Taylor Polynomial` is to **REPLACE** the original function with a **polynomial**, which it is **easy to work with**.
 
 
 [►Refer to Khan academy: Taylor & Maclaurin polynomials intro (part 1)](https://www.khanacademy.org/math/old-ap-calculus-bc/bc-series/bc-taylor-series/v/maclaurin-and-taylor-series-intuition)
