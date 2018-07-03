@@ -3254,4 +3254,4 @@ Solve:
 
 
 # `Taylor's Remainder Theorem`
-
+> It's also called the **`Lagrange Error Bound`**.
