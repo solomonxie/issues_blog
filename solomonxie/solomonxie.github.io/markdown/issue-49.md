@@ -3250,3 +3250,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42153857-d5ba9790-7e16-11e8-8d33-735a5e01e6dc.png)
 - And we get the answer:
 ![image](https://user-images.githubusercontent.com/14041622/42153875-e24c1920-7e16-11e8-9eee-a744364fac76.png)
+
+
+
+# `Taylor's Remainder Theorem`
