@@ -3208,6 +3208,22 @@ Solve:
 
 
 ### Example
+![image](https://user-images.githubusercontent.com/14041622/42205588-7f41afc2-7ed7-11e8-9e91-94416891c49a.png)
+Solve:
+- This problem is to test if you're familiar with the `Maclaurin Series Formula`.
+- Let's ignore all others and only see the asked `x⁴`.
+- `x⁴` means we're gonna find out the term of the `4th derivative`, and plug in 4 into the formula, we'll get the term:
+![image](https://user-images.githubusercontent.com/14041622/42205743-d63a03f6-7ed7-11e8-9267-15744a338ea7.png)
+- It's asking for the coefficient of `x⁴`, which is the rest part in that formula for the term:
+![image](https://user-images.githubusercontent.com/14041622/42205785-efa4d5be-7ed7-11e8-8b08-7c65ba9bdc0d.png)
+- And we only need to find out what is the value of the `4th derivative`.
+- By the given formula of `gᴺ(0)`, we can get: 
+![image](https://user-images.githubusercontent.com/14041622/42205922-4e1c14c2-7ed8-11e8-878b-eeaeb783fef8.png)
+- So the coefficient will be:
+![image](https://user-images.githubusercontent.com/14041622/42205985-8479b84e-7ed8-11e8-8309-200b4bc8d5b0.png)
+
+
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/42153599-21bb8b3c-7e16-11e8-8f9f-bae156b9cdb9.png)
 Solve:
 - We know the `Maclaurin series` is a Taylor series centred at `x=0`, and the formula is:
