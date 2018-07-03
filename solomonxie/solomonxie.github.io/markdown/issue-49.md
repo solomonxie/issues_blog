@@ -3152,6 +3152,7 @@ Solve:
 # `Taylor Series`
 `Taylor series`, or `Taylor polynomial` is a series that can **REPRESENT** a function, regardless what function it is.
 
+[▼Refer to 3Blue1Brown for animation & intuition: Taylor series | Chapter 10, Essence of calculus](https://www.youtube.com/watch?v=3d6DsjIBzJ4&t=56s)
 > "Taylor Series is one of the most powerful tools Math has to offer for **approximating functions.**" - 3Blue1Brown
 
 [►Refer to Khan academy: Taylor & Maclaurin polynomials intro (part 1)](https://www.khanacademy.org/math/old-ap-calculus-bc/bc-series/bc-taylor-series/v/maclaurin-and-taylor-series-intuition)
