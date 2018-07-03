@@ -3197,11 +3197,12 @@ Solve:
 - Let's express the Taylor polynomial to the `nth degree` as:
 ![image](https://user-images.githubusercontent.com/14041622/42206602-37675a1e-7eda-11e8-9560-07e69c826435.png)
 - Since it's asking for the series to the `3rd degree`, then it becomes:
-![image](https://user-images.githubusercontent.com/14041622/42206641-51672160-7eda-11e8-829b-4dcc256a61ae.png)
+![image](https://user-images.githubusercontent.com/14041622/42206807-c8dd4468-7eda-11e8-808e-a37f4e38d65f.png)
 - And we only need to find out every degree of derivatives, and we will get:
 ![image](https://user-images.githubusercontent.com/14041622/42206703-7bdcc7b0-7eda-11e8-8be3-7aa7591f902e.png)
 - So the Taylor polynomial then is:
-![image](https://user-images.githubusercontent.com/14041622/42206751-a4115174-7eda-11e8-82fa-32a6536c28e3.png)
+![image](https://user-images.githubusercontent.com/14041622/42206818-cdede50c-7eda-11e8-8c4c-0bff77d285d1.png)
+
 
 
 
