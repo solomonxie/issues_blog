@@ -3257,5 +3257,5 @@ Solve:
 
 
 
-# `Lagrange Error Theorem`
-> It's also called the **`Lagrange Error Bound`**, or **`Taylor's Remainder Theorem`**.
+# `Lagrange Error Bound`
+> It's also called the **`Lagrange Error Theorem`**, or **`Taylor's Remainder Theorem`**.
