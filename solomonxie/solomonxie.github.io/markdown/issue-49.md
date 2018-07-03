@@ -3159,7 +3159,9 @@ Solve:
 
 
 ![image](https://user-images.githubusercontent.com/14041622/42205070-f8bc7ffa-7ed5-11e8-851a-6ac45201b5ee.png)
-(▲ `C` represents the **centre** where we're approximating the function.)
+(▲ `C` represents the **centre** where we're centred at to approximate the function.)
+
+> ▲ Notice: The **`Taylor Series`** is a **`Power Series`**, which means we can use a lot of techniques of power series on this to operate it easily.
 
 We could expand it and make it clearer ▼:
 ![image](https://user-images.githubusercontent.com/14041622/42205239-73484920-7ed6-11e8-8f88-80b08440261a.png)
