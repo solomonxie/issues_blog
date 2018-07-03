@@ -3155,19 +3155,18 @@ Solve:
 
 ![image](https://user-images.githubusercontent.com/14041622/42203515-8e23a82a-7ed1-11e8-8efb-bf55d270a82d.png)
 
-
+[►Refer to Khan academy: Taylor & Maclaurin polynomials intro (part 1)](https://www.khanacademy.org/math/old-ap-calculus-bc/bc-series/bc-taylor-series/v/maclaurin-and-taylor-series-intuition)
 [▼Refer to xaktly: Taylor Series](http://www.xaktly.com/TaylorSeries.html)
 ![image](https://user-images.githubusercontent.com/14041622/42163236-5396c6a8-7e34-11e8-96df-6be1ea9b02dc.png)
 
 
-The **whole purpose** of using a `Taylor Polynomial` is to **REPLACE** the original function with a **polynomial**, which it is **easy to work with**.
+The **main purpose** of using a `Taylor Polynomial` is to **REPLACE** the original function with a **polynomial**, which it is **easy to work with**.
 
 etc., we can express the function `f(x) = eˣ` as ▼:
 ![image](https://user-images.githubusercontent.com/14041622/42203582-d55cde1e-7ed1-11e8-8eda-7f00d635e001.png)
 
+**More importantly**, by **adding more & more terms** into the polynomial, we can approximate the function more precisely.
 
-
-[►Refer to Khan academy: Taylor & Maclaurin polynomials intro (part 1)](https://www.khanacademy.org/math/old-ap-calculus-bc/bc-series/bc-taylor-series/v/maclaurin-and-taylor-series-intuition)
 [▼Refer to joseferrer: Mathematical explanation - Taylor series](https://steemit.com/mathematics/@joseferrer/mathematical-explanation-taylor-series)
 ![exp_series](https://user-images.githubusercontent.com/14041622/42157570-a41dffb0-7e20-11e8-9e13-017ad447eaac.gif)
 
