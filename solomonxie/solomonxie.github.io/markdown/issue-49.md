@@ -3196,8 +3196,14 @@ Solve:
 
 `Maclaurin series` is a special case of `Taylor Series` which centres at `x=0`.
 
-![image](https://user-images.githubusercontent.com/14041622/42153499-e0a912fe-7e15-11e8-8e9b-7831fbba8f73.png)
+![image](https://user-images.githubusercontent.com/14041622/42204966-b82bb906-7ed5-11e8-9c7b-45de2e3e1ee4.png)
 
+
+▼Expand it we'll understand it better:
+![image](https://user-images.githubusercontent.com/14041622/42204920-944b7e4a-7ed5-11e8-9b59-d4d2670fc7a5.png)
+
+
+▼Here is a graph we're trying to approximate a function centred at `x=0`:
 ![image](https://user-images.githubusercontent.com/14041622/42155112-0c2ab0b4-7e1a-11e8-86cd-98551cbd8191.png)
 
 
