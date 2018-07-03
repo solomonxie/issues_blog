@@ -3153,17 +3153,16 @@ Solve:
 
 `Taylor series`, or `Taylor polynomial` is a series that can **REPRESENT** a function, regardless what function it is.
 
+[►Refer to Khan academy: Taylor & Maclaurin polynomials intro (part 1)](https://www.khanacademy.org/math/old-ap-calculus-bc/bc-series/bc-taylor-series/v/maclaurin-and-taylor-series-intuition)
+[▼Refer to xaktly: Taylor Series](http://www.xaktly.com/TaylorSeries.html)
+![image](https://user-images.githubusercontent.com/14041622/42205356-d96aef1e-7ed6-11e8-8c2d-82b0b408bb4e.png)
+
+
 ![image](https://user-images.githubusercontent.com/14041622/42205070-f8bc7ffa-7ed5-11e8-851a-6ac45201b5ee.png)
 (▲ `C` represents the **centre** where we're approximating the function.)
 
 We could expand it and make it clearer ▼:
 ![image](https://user-images.githubusercontent.com/14041622/42205239-73484920-7ed6-11e8-8f88-80b08440261a.png)
-
-
-
-[►Refer to Khan academy: Taylor & Maclaurin polynomials intro (part 1)](https://www.khanacademy.org/math/old-ap-calculus-bc/bc-series/bc-taylor-series/v/maclaurin-and-taylor-series-intuition)
-[▼Refer to xaktly: Taylor Series](http://www.xaktly.com/TaylorSeries.html)
-![image](https://user-images.githubusercontent.com/14041622/42163236-5396c6a8-7e34-11e8-96df-6be1ea9b02dc.png)
 
 
 The **main purpose** of using a `Taylor Polynomial` is to **REPLACE** the original function with a **polynomial**, which it is **easy to work with**.
