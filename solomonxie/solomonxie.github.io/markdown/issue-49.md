@@ -3310,7 +3310,9 @@ Solve:
     - The approximation is centred at `0` because it's told as a `Maclaurin Series` , so `C = 0`.
     - The input of function is `-0.95`, so `x = -0.95`.
 - For The `M` value, since all the derivatives of `eˣ` is just `eˣ`, and `eˣ`  is unbounded at all, so we're to examine the Max value over the interval (C, x) or (x, C), which is `(-0.95, 0)`  in this case.
-- Over the interval `(-0.95, 0)`, the max value of `eˣ` is `e⁰ = 1`, so boundary is `M = 1`.
+- With the help from `Desmos Calculator`, we know that over the interval `(-0.95, 0)`, the max value of `eˣ` is `e⁰ = 1`:
+![image](https://user-images.githubusercontent.com/14041622/42287179-f78b7024-7fe7-11e8-9c9f-9f3a7d580301.png)
+- So boundary is `M = 1`.
 - Therefore, the formula of this theorem becomes:
 ![image](https://user-images.githubusercontent.com/14041622/42285962-c35262b2-7fe3-11e8-9862-a95cc085d15c.png)
 - In this case, we need to try some numbers for `n` to get the desired value:
