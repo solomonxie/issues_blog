@@ -3346,6 +3346,8 @@ Solve:
 - So the expression for `M` would be:
 - Let's directly plug in the `M` expression into the Remainder:
 ![image](https://user-images.githubusercontent.com/14041622/42289216-e1d10362-7ff0-11e8-970e-6cff6b9c507f.png)
-- With the help from `Desmos grapher` we know that when within the interval `2≤ z ≤ 2.5`, that `z=2` makes the formula to the max, so:
+- With the help from `Desmos grapher` we know that when within the interval `2≤ z ≤ 2.5`, that `z=2` makes the formula to the max:
+![image](https://user-images.githubusercontent.com/14041622/42289271-34ce8788-7ff1-11e8-94b3-b6cb43bb2651.png)
+- So let's set the inequality:
 ![image](https://user-images.githubusercontent.com/14041622/42289259-1c7ffe50-7ff1-11e8-917f-8841f2585e5d.png)
 - After trying out some number for `n`, we get that `n ≥ 3`.
