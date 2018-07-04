@@ -3280,7 +3280,7 @@ Simply saying, the theorem is:
 (▲ for `C` is the centre of approximation)
 - where the max value of **all derivatives** of the function is:
 ![image](https://user-images.githubusercontent.com/14041622/42287679-e5c2299e-7fe9-11e8-931d-6303f03cbeb1.png)
-(▲ for `z` is any value between `C` and `x`)
+(▲ for `z` is any value between `C` and `x` makes the derivative to the **max**)
 - then the **function's Remainder** MUST satisfy this theorem:
 ![image](https://user-images.githubusercontent.com/14041622/42278902-bc06c364-7fce-11e8-899f-a486f516ecc1.png)
 
@@ -3318,7 +3318,8 @@ Solve:
 - For those **unknowns** variables in the theorem, we know that:
     - The approximation is centred at `0` because it's told as a `Maclaurin Series` , so `C = 0`.
     - The input of function is `-0.95`, so `x = -0.95`.
-- For The `M` value, since all the derivatives of `eˣ` is just `eˣ`, and `eˣ`  is unbounded at all, so we're to examine the Max value over the interval (C, x) or (x, C), which is `(-0.95, 0)`  in this case.
+    - The interval is (C, x) or (x, C), which is `(-0.95, 0)`  in this case.
+- For The `M` value, since all the derivatives of `eˣ` is just `eˣ`, and `eˣ`  is unbounded at all, so we're to examine the Max value over the interval `(-0.95, 0)`
 - With the help from `Desmos Calculator`, we know that over the interval `(-0.95, 0)`, the max value of `eˣ` is `e⁰ = 1`:
 ![image](https://user-images.githubusercontent.com/14041622/42287179-f78b7024-7fe7-11e8-9c9f-9f3a7d580301.png)
 - So boundary is `M = 1`.
@@ -3328,3 +3329,23 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42286050-1b676380-7fe4-11e8-8f84-ecb0c91da588.png)
 - After tried `n=5` and `n=6`, we could see that only until `n=6`, which means the `6th derivative`, the `Error` is less than `0.001`.
 - So the answer is `6th derivative`.
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42288078-d5ba3de6-7feb-11e8-934d-9ebae98d116f.png)
+Solve:
+- Same with the problem above, we want to apply the `Lagrange Error Bound Theorem`, and bound it to `0.001`:
+![image](https://user-images.githubusercontent.com/14041622/42279497-859ddc34-7fd0-11e8-9b29-467cc3253085.png)
+- For those **unknowns** variables in the theorem, we know that:
+    - The approximation is centred at `2`, so `C = 2`.
+    - The input of function is `2.5`, so `x = 2.5`.
+    - The interval then is `(2, 2.5)`.
+- For the `M` value, it's not easy to figure out, but we've been told the formula for derivative.
+![image](https://user-images.githubusercontent.com/14041622/42288599-fe6e5b80-7fed-11e8-8066-456535489726.png)
+- Since the `z` value is within the interval `2 to 2.5`, let's find out what `z` value makes the derivative to the max.
+- With the help from `Desmos grapher`, we notice that the `z = 2` makes the derivative to the **max value**:
+![image](https://user-images.githubusercontent.com/14041622/42288633-1b90e37c-7fee-11e8-92a5-cc57b9f5123f.png)
+- So the expression for `M` would be:
+![image](https://user-images.githubusercontent.com/14041622/42288713-83dac2fe-7fee-11e8-9c81-e238e3070773.png)
+- Let's plug in the `M` express into the Remainder:
