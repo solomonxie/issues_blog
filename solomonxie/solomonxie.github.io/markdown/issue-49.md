@@ -3260,6 +3260,12 @@ Solve:
 # `Lagrange Error Bound`
 > It's also called the **`Lagrange Error Theorem`**, or **`Taylor's Remainder Theorem`**.
 
+To approximate a function more precisely, we'd like to express the function as a **sum of a Taylor Polynomial & a Remainder.**
+
+The tricky part of that expression is to "preset" the accuracy of the `Error`, aka. the `Remainder`.
+
+[`►Jump back to review the note on Error estimation Theorem.`](url)
+
 Simply saying:
 - If the **given degree derivative** of a function is bounded by **a number** over the interval `(C, x)`:
 ![image](https://user-images.githubusercontent.com/14041622/42265405-07cab3ce-7fa6-11e8-89ac-4ec06e9dfa50.png)
