@@ -3291,7 +3291,7 @@ Solve:
 - For those **unknowns** variables in the theorem, we know that:
     - The approximation is centred at `1.5π`, so `C = 1.5π`.
     - The input of function is `1.3π`, so `x = 1.3π`.
-    - For The `M` value, because the derivatives of the function `cos(x)`, are bounded to 1 even **without an interval** , so let's say the max value `M = 1`.
+    - For The `M` value, because **all the derivatives** of the function `cos(x)`, are bounded to 1 even **without an interval** , so let's say the max value `M = 1`.
 - Therefore, the formula of this theorem becomes:
 ![image](https://user-images.githubusercontent.com/14041622/42279703-423dd696-7fd1-11e8-8397-a176d420a69a.png)
 - Unfortunately, at this moment we don't have easier method to solve for `n` except trying some numbers in:
@@ -3309,7 +3309,7 @@ Solve:
 - For those **unknowns** variables in the theorem, we know that:
     - The approximation is centred at `0` because it's told as a `Maclaurin Series` , so `C = 0`.
     - The input of function is `-0.95`, so `x = -0.95`.
-- For The `M` value, since `eˣ` is unbounded at all, so we're to examine the Max value over the interval (C, x) or (x, C), which is `(-0.95, 0)`  in this case.
+- For The `M` value, since all the derivatives of `eˣ` is just `eˣ`, and `eˣ`  is unbounded at all, so we're to examine the Max value over the interval (C, x) or (x, C), which is `(-0.95, 0)`  in this case.
 - Over the interval `(-0.95, 0)`, the max value of `eˣ` is `e⁰ = 1`, so boundary is `M = 1`.
 - Therefore, the formula of this theorem becomes:
 ![image](https://user-images.githubusercontent.com/14041622/42285962-c35262b2-7fe3-11e8-9862-a95cc085d15c.png)
