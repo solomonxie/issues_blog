@@ -3278,3 +3278,6 @@ Simply saying, the theorem is:
 
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42278785-72735c3a-7fce-11e8-8ecf-50a11b37a51e.png)
+Solve:
