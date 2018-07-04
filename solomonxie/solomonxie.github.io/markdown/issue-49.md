@@ -3299,3 +3299,14 @@ Solve:
 - We could see that, with the degree gets larger and larger, the `Error` becomes smaller and smaller.
 - Only until `n=4`, which means the `4th derivative`, the `Error` is less than `0.001`.
 - So the answer is `4th derivative`.
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42285625-c4ce0746-7fe2-11e8-8e96-5043b22f65cf.png)
+Solve:
+- Same with the problem above, we want to apply the `Lagrange Error Bound Theorem`, and bound it to `0.001`:
+![image](https://user-images.githubusercontent.com/14041622/42279497-859ddc34-7fd0-11e8-9b29-467cc3253085.png)
+- For those **unknowns** variables in the theorem, we know that:
+    - The approximation is centred at `0` because it's told as a `Maclaurin Series` , so `C = 0`.
+    - The input of function is `-0.95`, so `x = -0.95`.
+    - For The `M` value, 
