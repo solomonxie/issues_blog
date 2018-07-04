@@ -3264,7 +3264,7 @@ To approximate a function more precisely, we'd like to express the function as a
 
 The tricky part of that expression is to "preset" the accuracy of the `Error`, aka. the `Remainder`.
 
-[`►Jump back to review the note on Error estimation Theorem.`](url)
+[`►Jump back to review the note on Error estimation Theorem.`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-400239322)
 
 Simply saying:
 - If the **given degree derivative** of a function is bounded by **a number** over the interval `(C, x)`:
