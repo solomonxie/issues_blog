@@ -3349,3 +3349,5 @@ Solve:
 - So the expression for `M` would be:
 ![image](https://user-images.githubusercontent.com/14041622/42288713-83dac2fe-7fee-11e8-9c81-e238e3070773.png)
 - Let's plug in the `M` express into the Remainder:
+![image](https://user-images.githubusercontent.com/14041622/42288845-27471c08-7fef-11e8-90de-7f19eb4f4539.png)
+- After trying out some number for `n`, we get that `n ≥ 3`.
