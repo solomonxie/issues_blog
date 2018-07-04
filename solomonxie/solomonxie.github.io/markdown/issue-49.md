@@ -3269,10 +3269,12 @@ The tricky part of that expression is to "preset" the accuracy of the `Error`, a
 And for **bounding** the `Error`, out strategy is to apply the `Lagrange Error Bound` theorem.
 
 Simply saying, the theorem is:
-- If the **given degree derivative** of a function is bounded by **a number** over the interval `(C, x)`:
+- If a function's **ALL DERIVATIVES** are bounded by **a number** over the interval `(C, x)`:
 ![image](https://user-images.githubusercontent.com/14041622/42265405-07cab3ce-7fa6-11e8-89ac-4ec06e9dfa50.png)
 (▲ `M` is the maximum boundary, `C` is the centre of Taylor polynomial)
 - then the **function's Remainder** MUST satisfy this theorem:
 ![image](https://user-images.githubusercontent.com/14041622/42265422-144949da-7fa6-11e8-92b7-e35cd0cc7eb5.png)
+
+
 
 
