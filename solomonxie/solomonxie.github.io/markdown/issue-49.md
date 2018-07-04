@@ -3291,7 +3291,11 @@ Solve:
 - For those **unknowns** variables in the theorem, we know that:
     - The approximation is centred at `1.5π`, so `C = 1.5π`.
     - The input of function is `1.3π`, so `x = 1.3π`.
-    - Over the interval `(1.3π, 1.5π)`, all the derivatives of the function `cos(x)`, are **no more than** `1`, so the max value (the boundary) is `M = 1`
+- For the `M` value, we're to find out the `Maximum value of cos(x)` over the interval `(1.3π, 1.5π)`:
+![image](https://user-images.githubusercontent.com/14041622/42281589-9705b86a-7fd6-11e8-91db-5be5960e0c9f.png)
+-  Let's use some help from `Desmos calculator`.
+- We find the max value of `cos(x)` over that interval at `cos(x) = 0`, where `x = 1.5π`
+all the derivatives of the function `cos(x)`, are **no more than** `1`, so the max value (the boundary) is `M = 1`
 - Therefore, the formula of this theorem becomes:
 ![image](https://user-images.githubusercontent.com/14041622/42279703-423dd696-7fd1-11e8-8397-a176d420a69a.png)
 - Unfortunately, at this moment we don't have easier method to solve for `n` except trying some numbers in:
