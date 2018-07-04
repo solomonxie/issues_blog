@@ -3345,7 +3345,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42288599-fe6e5b80-7fed-11e8-8066-456535489726.png)
 - Since the `z` value is within the interval `2 to 2.5`, let's find out what `z` value makes the derivative to the max.
 - With the help from `Desmos grapher`, we notice that the `z = 2` makes the derivative to the **max value**:
-![image](https://user-images.githubusercontent.com/14041622/42288633-1b90e37c-7fee-11e8-92a5-cc57b9f5123f.png)
+![image](https://user-images.githubusercontent.com/14041622/42289125-64e43f4a-7ff0-11e8-86d9-1881625a36a6.png)
 - So the expression for `M` would be:
 ![image](https://user-images.githubusercontent.com/14041622/42288713-83dac2fe-7fee-11e8-9c81-e238e3070773.png)
 - Let's plug in the `M` express into the Remainder:
