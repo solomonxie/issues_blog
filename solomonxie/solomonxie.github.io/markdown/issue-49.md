@@ -3262,18 +3262,23 @@ Solve:
 
 To approximate a function more precisely, we'd like to express the function as a **sum of a Taylor Polynomial & a Remainder.**
 
-The tricky part of that expression is to "preset" the accuracy of the `Error`, aka. the `Remainder`.
+![image](https://user-images.githubusercontent.com/14041622/42287774-50cf980c-7fea-11e8-8ecb-59c2d9730f02.png)
+(▲ For `T` is the **Taylor polynomial** with n terms, and `R` is the **Remainder** after n terms.)
 
 [`►Jump back to review the note on Error estimation Theorem.`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-400239322)
 
-And for **bounding** the `Error`, out strategy is to apply the `Lagrange Error Bound` theorem.
+
+The tricky part of that expression is to "preset" the accuracy of the `Error`, aka. the `Remainder`.
+
+For **bounding** the `Error`, out strategy is to apply the `Lagrange Error Bound` theorem.
 
 Simply saying, the theorem is:
 - If a function's **ALL DERIVATIVES** are bounded by **a number** over the interval `(C, x)`:
 ![image](https://user-images.githubusercontent.com/14041622/42287639-c4fdba20-7fe9-11e8-99dc-c3fd033459ed.png)
-(▲ `C` is the centre of approximation)
+(▲ for `C` is the centre of approximation)
 - where the max value of **all derivatives** of the function is:
 ![image](https://user-images.githubusercontent.com/14041622/42287679-e5c2299e-7fe9-11e8-931d-6303f03cbeb1.png)
+(▲ for `z` is any value between `C` and `x`)
 - then the **function's Remainder** MUST satisfy this theorem:
 ![image](https://user-images.githubusercontent.com/14041622/42278902-bc06c364-7fce-11e8-899f-a486f516ecc1.png)
 
