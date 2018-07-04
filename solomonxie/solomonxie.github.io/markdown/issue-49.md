@@ -3270,8 +3270,10 @@ And for **bounding** the `Error`, out strategy is to apply the `Lagrange Error B
 
 Simply saying, the theorem is:
 - If a function's **ALL DERIVATIVES** are bounded by **a number** over the interval `(C, x)`:
-![image](https://user-images.githubusercontent.com/14041622/42265405-07cab3ce-7fa6-11e8-89ac-4ec06e9dfa50.png)
-(▲ `M` is the maximum boundary, `C` is the centre of Taylor polynomial)
+![image](https://user-images.githubusercontent.com/14041622/42287639-c4fdba20-7fe9-11e8-99dc-c3fd033459ed.png)
+(▲ `C` is the centre of approximation)
+- where the max value of **all derivatives** of the function is:
+![image](https://user-images.githubusercontent.com/14041622/42287679-e5c2299e-7fe9-11e8-931d-6303f03cbeb1.png)
 - then the **function's Remainder** MUST satisfy this theorem:
 ![image](https://user-images.githubusercontent.com/14041622/42278902-bc06c364-7fce-11e8-899f-a486f516ecc1.png)
 
