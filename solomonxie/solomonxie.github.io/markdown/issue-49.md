@@ -3343,11 +3343,9 @@ Solve:
     - The interval then is `(2, 2.5)`.
 - For the `M` value, it's not easy to figure out, but we've been told the formula for derivative.
 ![image](https://user-images.githubusercontent.com/14041622/42288599-fe6e5b80-7fed-11e8-8066-456535489726.png)
-- Since the `z` value is within the interval `2 to 2.5`, let's find out what `z` value makes the derivative to the max.
-- With the help from `Desmos grapher`, we notice that the `z = 2` makes the derivative to the **max value**:
-![image](https://user-images.githubusercontent.com/14041622/42289125-64e43f4a-7ff0-11e8-86d9-1881625a36a6.png)
 - So the expression for `M` would be:
-![image](https://user-images.githubusercontent.com/14041622/42288713-83dac2fe-7fee-11e8-9c81-e238e3070773.png)
-- Let's plug in the `M` express into the Remainder:
-![image](https://user-images.githubusercontent.com/14041622/42288845-27471c08-7fef-11e8-90de-7f19eb4f4539.png)
+- Let's directly plug in the `M` expression into the Remainder:
+![image](https://user-images.githubusercontent.com/14041622/42289216-e1d10362-7ff0-11e8-970e-6cff6b9c507f.png)
+- With the help from `Desmos grapher` we know that when within the interval `2≤ z ≤ 2.5`, that `z=2` makes the formula to the max, so:
+![image](https://user-images.githubusercontent.com/14041622/42289259-1c7ffe50-7ff1-11e8-917f-8841f2585e5d.png)
 - After trying out some number for `n`, we get that `n ≥ 3`.
