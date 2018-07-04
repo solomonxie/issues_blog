@@ -3309,4 +3309,11 @@ Solve:
 - For those **unknowns** variables in the theorem, we know that:
     - The approximation is centred at `0` because it's told as a `Maclaurin Series` , so `C = 0`.
     - The input of function is `-0.95`, so `x = -0.95`.
-    - For The `M` value, 
+- For The `M` value, since `eˣ` is unbounded at all, so we're to examine the Max value over the interval (C, x) or (x, C), which is `(-0.95, 0)`  in this case.
+- Over the interval `(-0.95, 0)`, the max value of `eˣ` is `e⁰ = 1`, so boundary is `M = 1`.
+- Therefore, the formula of this theorem becomes:
+![image](https://user-images.githubusercontent.com/14041622/42285962-c35262b2-7fe3-11e8-9862-a95cc085d15c.png)
+- In this case, we need to try some numbers for `n` to get the desired value:
+![image](https://user-images.githubusercontent.com/14041622/42286050-1b676380-7fe4-11e8-8f84-ecb0c91da588.png)
+- After tried `n=5` and `n=6`, we could see that only until `n=6`, which means the `6th derivative`, the `Error` is less than `0.001`.
+- So the answer is `6th derivative`.
