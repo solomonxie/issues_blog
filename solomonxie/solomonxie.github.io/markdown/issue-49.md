@@ -3266,7 +3266,9 @@ The tricky part of that expression is to "preset" the accuracy of the `Error`, a
 
 [`►Jump back to review the note on Error estimation Theorem.`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-400239322)
 
-Simply saying:
+And for **bounding** the `Error`, out strategy is to apply the `Lagrange Error Bound` theorem.
+
+Simply saying, the theorem is:
 - If the **given degree derivative** of a function is bounded by **a number** over the interval `(C, x)`:
 ![image](https://user-images.githubusercontent.com/14041622/42265405-07cab3ce-7fa6-11e8-89ac-4ec06e9dfa50.png)
 (▲ `M` is the maximum boundary, `C` is the centre of Taylor polynomial)
