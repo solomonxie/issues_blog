@@ -3280,3 +3280,12 @@ Simply saying, the theorem is:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42278785-72735c3a-7fce-11e8-8ecf-50a11b37a51e.png)
 Solve:
+- This problem is to approximate a function with Taylor Polynomial.
+- To do so, we're to set use the `Error estimation` method, which first to set up the equation:
+![image](https://user-images.githubusercontent.com/14041622/42279513-9350909c-7fd0-11e8-8d3c-8ebf088665c5.png)
+- In this case, it is:
+![image](https://user-images.githubusercontent.com/14041622/42279412-4700f1c8-7fd0-11e8-9e21-0b07de93cd0e.png)
+- Since it's only asking for the `error bound`, so we **only focus** on the Error `Rn`.
+- We want to apply the `Lagrange Error Bound Theorem`, and bound it to `0.001`:
+![image](https://user-images.githubusercontent.com/14041622/42279497-859ddc34-7fd0-11e8-9b29-467cc3253085.png)
+
