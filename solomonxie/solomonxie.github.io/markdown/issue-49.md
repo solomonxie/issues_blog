@@ -3175,7 +3175,9 @@ etc., we can express the function `f(x) = eˣ` as ▼:
 ![image](https://user-images.githubusercontent.com/14041622/42203582-d55cde1e-7ed1-11e8-8eda-7f00d635e001.png)
 
 **More importantly**, by **adding more & more terms** into the polynomial, we can approximate the function more precisely:
+
 [►Refer to joseferrer: Mathematical explanation - Taylor series](https://steemit.com/mathematics/@joseferrer/mathematical-explanation-taylor-series)
+[►For More animation, visit Desmos: Taylor Series Visualization](https://www.desmos.com/calculator/oiexhzavjp)
 
 ![97f5384c9b8d6ceebf3b894efc106adb](https://user-images.githubusercontent.com/14041622/42213417-4083dc38-7eeb-11e8-91d8-1d7c90abc4dd.gif)
 
