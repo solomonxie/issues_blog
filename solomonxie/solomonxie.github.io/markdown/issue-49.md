@@ -3288,4 +3288,14 @@ Solve:
 - Since it's only asking for the `error bound`, so we **only focus** on the Error `Rn`.
 - We want to apply the `Lagrange Error Bound Theorem`, and bound it to `0.001`:
 ![image](https://user-images.githubusercontent.com/14041622/42279497-859ddc34-7fd0-11e8-9b29-467cc3253085.png)
-
+- For those **unknowns** variables in the theorem, we know that:
+    - All the derivatives of the function `cos(x)`, are bounded to `1`, so `M = 1`
+    - The approximation is centred at `1.5π`, so `C = 1.5π`.
+    - The input of function is `1.3π`, so `x = 1.3π`.
+- Therefore, the formula of this theorem becomes:
+![image](https://user-images.githubusercontent.com/14041622/42279703-423dd696-7fd1-11e8-8397-a176d420a69a.png)
+- Unfortunately, at this moment we don't have easier method to solve for `n` except trying some numbers in:
+![image](https://user-images.githubusercontent.com/14041622/42279842-a358b0cc-7fd1-11e8-94a4-c6d8697412fa.png)
+- We could see that, with the degree gets larger and larger, the `Error` becomes smaller and smaller.
+- Only until `n=4`, which means the `4th derivative`, the `Error` is less than `0.001`.
+- So the answer is `4th derivative`.
