@@ -3282,6 +3282,7 @@ Simply saying, the theorem is:
 - where the max value of **all derivatives** of the function is:
 ![image](https://user-images.githubusercontent.com/14041622/42287679-e5c2299e-7fe9-11e8-931d-6303f03cbeb1.png)
 (▲ for `z` is any value between `C` and `x` makes the derivative to the **max**)
+(▲ and note that: the **input** has to be `n+1` )
 - then the **function's Remainder** MUST satisfy this theorem:
 ![image](https://user-images.githubusercontent.com/14041622/42278902-bc06c364-7fce-11e8-899f-a486f516ecc1.png)
 
