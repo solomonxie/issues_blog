@@ -3267,8 +3267,9 @@ To approximate a function more precisely, we'd like to express the function as a
 ![image](https://user-images.githubusercontent.com/14041622/42287774-50cf980c-7fea-11e8-8ecb-59c2d9730f02.png)
 (▲ For `T` is the **Taylor polynomial** with n terms, and `R` is the **Remainder** after n terms.)
 
-[`►Jump back to review the note on Error estimation Theorem.`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-400239322)
+[`▲Jump back to review the note on Error estimation Theorem.`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-400239322)
 
+[`►Jump over to have practice at Khan academy: Lagrange Error Bound.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/taylor-polynomial-approximation)
 
 The tricky part of that expression is to "preset" the accuracy of the `Error`, aka. the `Remainder`.
 
