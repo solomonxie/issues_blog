@@ -1908,6 +1908,23 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41337445-d270bfb4-6f21-11e8-81dd-aa63e137cc14.png)
 
 
+## Exponential model equations
+
+[`►Jump to Khan academy for practice`](https://www.khanacademy.org/math/ap-calculus-ab/ab-differential-equations-new/ab-7-8/e/exponential-model-equations)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42394651-7b65fdf0-818d-11e8-9b12-5e6595b10b0d.png)
+Solve:
+- Rewrite the equation, and take integral of both side:
+![image](https://user-images.githubusercontent.com/14041622/42394806-0d49b310-818e-11e8-9c5c-73ce67fd8fa8.png)
+- And we get:
+![image](https://user-images.githubusercontent.com/14041622/42394852-2f595b90-818e-11e8-8df8-76ee6f286db5.png)
+- Let's plug in `g(3)=2` to solve for `C`:
+![image](https://user-images.githubusercontent.com/14041622/42394904-5daba2d2-818e-11e8-8222-253d51a82196.png)
+- Take `C` back and get the equation for `g(x)`:
+![image](https://user-images.githubusercontent.com/14041622/42394943-83bc49b8-818e-11e8-8306-078dcc0166ce.png)
+
+
 
 # `Specific antiderivatives`
 
