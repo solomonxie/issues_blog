@@ -2514,7 +2514,7 @@ Divergence means the limit **DOES NOT EXISTS**.
 
 ## `Geometric Series in 𝚺 Notation`
 
-[▼Refer to Cool Math: Geometric Series](http://www.coolmath.com/algebra/19-sequences-series/08-geometic-series-02
+[▼Refer to Cool Math: Geometric Series](http://www.coolmath.com/algebra/19-sequences-series/08-geometic-series-02)
 ![image](https://user-images.githubusercontent.com/14041622/41806975-05a66fac-76fa-11e8-80c4-dd9cacb3dc10.png)
 
 ### Example
