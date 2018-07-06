@@ -1927,6 +1927,21 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42394943-83bc49b8-818e-11e8-8306-078dcc0166ce.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42395147-5ed1d072-818f-11e8-9845-6c952b959803.png)
+Solve:
+- We are told that the rate of change of P is proportional to P, which means in Math is:
+![image](https://user-images.githubusercontent.com/14041622/42395276-e60d5c28-818f-11e8-9afc-7485136ec0ef.png)
+- It's clear that is a `Differential Equation`, and we rewrite them and take integral of both side to get:
+![image](https://user-images.githubusercontent.com/14041622/42395324-1970ce74-8190-11e8-94be-d834990a58bd.png)
+- Solve for `C`:
+![image](https://user-images.githubusercontent.com/14041622/42395375-44c5f09a-8190-11e8-8259-c20b80902ed7.png)
+- Solve the rest:
+![image](https://user-images.githubusercontent.com/14041622/42395386-53b9b9ce-8190-11e8-821b-8e7f93812530.png)
+
+
+
+
 
 # `Specific antiderivatives`
 
