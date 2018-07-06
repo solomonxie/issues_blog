@@ -2626,13 +2626,13 @@ It includes:
 
 Test | Description
 -- | --
-Divergent Test | Take nth term's limit. (only to test divergence)
-Integral Test | Take limit of the series function's integration.
-p-series Test | Examine at the `p` value of `1/nᴾ`.
-Comparison Test | To test **rational expressions**.
-Ratio Test | To test **factorial fractions**.
-Root Test | 
-Alternating Test |  To test the alternating series.
+► Divergent Test | Take nth term's limit. (only to test divergence)
+► Integral Test | Take limit of the series function's integration.
+► p-series Test | Examine at the `p` value of `1/nᴾ`.
+► Comparison Test | To test **rational expressions**.
+► Ratio Test | To test **factorial fractions**.
+► Root Test | 
+► Alternating Test |  To test the alternating series.
 
 
 # `Divergent Test`
