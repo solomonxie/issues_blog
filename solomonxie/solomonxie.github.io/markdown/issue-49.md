@@ -1538,6 +1538,8 @@ And for integration we need to reverse them.
 ## Special Rules
 ![image](https://user-images.githubusercontent.com/14041622/42393620-842ac028-8189-11e8-820a-3846a1481fd6.png)
 
+![image](https://user-images.githubusercontent.com/14041622/42394041-50d73862-818b-11e8-95de-b3befa88c67a.png)
+
 
 
 # Calculate Indefinite Integrals
