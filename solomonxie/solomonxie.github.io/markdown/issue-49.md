@@ -330,8 +330,8 @@ Reciprocal Rule | 1 / f | −f’ / f²
 Chain Rule | f(g(x)) | f’(g(x)) · g’(x)
 Exponent Rule | eˣ | eˣ
                      | aˣ | aˣ · ln(a)
-Log Rules | ln(x) | 1/x
-                    | ![image](https://user-images.githubusercontent.com/14041622/42376995-ed73ca2e-8153-11e8-8388-8fbbc4609595.png) | ![image](https://user-images.githubusercontent.com/14041622/42377002-f7ef75ac-8153-11e8-8ca9-fd555c95144b.png)
+Natural Log Rule | ln(x) | 1/x
+Log Rule | ![image](https://user-images.githubusercontent.com/14041622/42376995-ed73ca2e-8153-11e8-8388-8fbbc4609595.png) | ![image](https://user-images.githubusercontent.com/14041622/42377002-f7ef75ac-8153-11e8-8ca9-fd555c95144b.png)
 Trig Rules    | sin(x) | cos(x)
                                                    | cos(x) | −sin(x)
                                                    | tan(x) | sec²(x)
