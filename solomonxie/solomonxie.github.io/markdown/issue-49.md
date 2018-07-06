@@ -3376,17 +3376,22 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42362663-e9a40634-8126-11e8-90d5-57db2b669983.png)
 
 
-# Maclaurin Series of Trig functions
+# Maclaurin Series of Common functions
 
-Maclaurin series of `Cos(x) & Sin(x)` are very special, which we really want to **memorize**.
+[►Refer to Wiki: List of Maclaurin series of some common functions](https://en.wikipedia.org/wiki/Taylor_series#List_of_Maclaurin_series_of_some_common_functions)
 
-Trig | Maclaurin Series
+Maclaurin series of these common functions are very useful, which we really want to **memorize**.
+
+Function | Maclaurin Series
 -- | --
-sin(x) | ![image](https://user-images.githubusercontent.com/14041622/42364357-6b7b8e56-812d-11e8-9ca0-976980bfa412.png)
-cos(x) | ![image](https://user-images.githubusercontent.com/14041622/42364461-cc9c978e-812d-11e8-9445-dab90bf4faeb.png)
-tan(x) | ![image](https://user-images.githubusercontent.com/14041622/42363031-7b10fd88-8128-11e8-8fca-3a2221827c05.png)
-sec(x) | ![image](https://user-images.githubusercontent.com/14041622/42363044-85ad5214-8128-11e8-9889-3045c50c8d02.png)
-
+sin(x) | ![image](https://user-images.githubusercontent.com/14041622/42365046-f3794fbc-812f-11e8-84c0-c6e1aecf1b66.png)
+cos(x) | ![image](https://user-images.githubusercontent.com/14041622/42365056-fbf4c694-812f-11e8-89c6-8cb191427016.png)
+tan(x) | ![image](https://user-images.githubusercontent.com/14041622/42365075-06c91cb4-8130-11e8-89f8-2e93d7c6e4df.png)
+sec(x) | ![image](https://user-images.githubusercontent.com/14041622/42365080-0d658760-8130-11e8-876e-b1ba6348b4fa.png)
+eˣ | ![image](https://user-images.githubusercontent.com/14041622/42364980-a87f8224-812f-11e8-8e95-81d2750cb3cf.png)
+Geometric series 1 | ![image](https://user-images.githubusercontent.com/14041622/42365162-450be27c-8130-11e8-81f7-cdcf2a0931a3.png)
+Geometric series 2 | ![image](https://user-images.githubusercontent.com/14041622/42365179-5066964e-8130-11e8-8fa8-73c8da4cf954.png)
+Geometric series 3 | ![image](https://user-images.githubusercontent.com/14041622/42365183-54348ccc-8130-11e8-8975-c9f6fa211a32.png)
 
 
 ### Example
