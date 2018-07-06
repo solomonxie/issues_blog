@@ -523,7 +523,7 @@ Solve:
 
 
 
-## `Tangents to graphs of implicit relations`
+## `Vertical & Horizontal Tangents of Implicit Equations`
 
 [`► Jump over to Khan academy for practice.`](https://www.khanacademy.org/math/ap-calculus-bc?t=practice)
 
