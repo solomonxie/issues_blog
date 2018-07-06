@@ -1888,7 +1888,7 @@ Solve:
 
 
 
-# `Separable Equations`
+# `Separable Differential Equations`
 
 This section is an essential method for solving differential equations.
 Especially about the `initial condition`, it is the critical information for getting the original function.
