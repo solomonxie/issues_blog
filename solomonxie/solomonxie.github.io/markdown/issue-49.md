@@ -328,7 +328,7 @@ Product Rule | f · g | fg’ + f’ g
 Quotient Rule | f / g | (f’g − g’f ) / g²
 Reciprocal Rule | 1 / f | −f’ / f²
 Chain Rule | f(g(x)) | f’(g(x)) · g’(x)
-Exponential Rules | eˣ | eˣ
+Exponent Rule | eˣ | eˣ
                      | aˣ | aˣ · ln(a)
 Log Rules | ln(x) | 1/x
                     | log[a(x)] | 1 / (x·ln(a))
