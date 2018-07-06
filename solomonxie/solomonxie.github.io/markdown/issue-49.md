@@ -1912,6 +1912,8 @@ Solve:
 
 [`►Jump to Khan academy for practice`](https://www.khanacademy.org/math/ap-calculus-ab/ab-differential-equations-new/ab-7-8/e/exponential-model-equations)
 
+[►Refer to Khan academy: Worked example: exponential solution to differential equation](https://www.khanacademy.org/math/ap-calculus-ab/ab-differential-equations-new/ab-7-8/v/exponential-solution-to-differential-equation)
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42394651-7b65fdf0-818d-11e8-9b12-5e6595b10b0d.png)
 Solve:
