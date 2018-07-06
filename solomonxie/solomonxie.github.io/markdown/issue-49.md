@@ -523,6 +523,21 @@ Solve:
 
 
 
+## `Tangents to graphs of implicit relations`
+
+[`► Jump over to Khan academy for practice.`](https://www.khanacademy.org/math/ap-calculus-bc?t=practice)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42391885-65e08432-8183-11e8-9d05-d4c14413999f.png)
+Solve:
+- Plug in `y = 0` into the equation and get that `x = -6`, which is the answer.
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42391958-b03754de-8183-11e8-8dad-bbf8cdbc3258.png)
+Solve:
+
+
+
 # `Related Rates`
 
 Just so you know, `related rates` is actually the **Application** of `Implicit Differentiation` by using Chain Rule in the form of `dy/dx = dy/du * du/dx`.
