@@ -3166,6 +3166,18 @@ Solve:
 
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42368724-658b0398-813a-11e8-9091-c16e61d7e482.png)
+Solve:
+- Set the two series as `f(x)` and `g(x)`.
+- It's clear that `g(x) = -f'(x)`.
+- So by differentiate `f(x)` we will get:
+![image](https://user-images.githubusercontent.com/14041622/42368873-c4a82356-813a-11e8-8604-fd6efd4c38d5.png)
+- Then `-f'(x)` would be:
+![image](https://user-images.githubusercontent.com/14041622/42368903-dadb341a-813a-11e8-9fac-515e7eb984e5.png)
+
+
+
 # `Taylor Series`
 `Taylor series`, or `Taylor polynomial` is a series that can **REPRESENT** a function, regardless what function it is.
 
