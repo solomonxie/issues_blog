@@ -3403,3 +3403,9 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42364653-7e942baa-812e-11e8-93c8-a4d17062a59b.png)
 - So we could convert the series back to the trig function:
 ![image](https://user-images.githubusercontent.com/14041622/42364676-8f36be1e-812e-11e8-96d3-3d0821335888.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42365320-bb3528e6-8130-11e8-8ee6-ee6a96934cbf.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/42365343-c6d55f7c-8130-11e8-9bc7-01dd5e40dd34.png)
