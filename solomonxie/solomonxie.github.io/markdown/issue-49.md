@@ -2716,7 +2716,8 @@ Solve:
 For the the series in form of `1/nᴾ`, 
 the easiest way to determine its convergence is using the `p-series` test:
 
-![image](https://user-images.githubusercontent.com/14041622/41808619-db6bd6d2-7712-11e8-9f44-e11199e72941.png)
+![image](https://user-images.githubusercontent.com/14041622/42373515-b0036ee4-8147-11e8-9894-fce152f923ac.png)
+
 
 [▼Refer to xaktly: p-series test/harmonic series](http://www.xaktly.com/pSeries.html)
 ![image](https://user-images.githubusercontent.com/14041622/41808857-8cfbfdb6-7716-11e8-937d-2b81e39df339.png)
