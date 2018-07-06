@@ -2938,6 +2938,12 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42370989-c2fe0ba0-8140-11e8-8e44-3e6c98253686.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42371206-5ad9fc0e-8141-11e8-832c-580580ae8dbf.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/42371214-5ede403a-8141-11e8-9ea0-0ea6fddc6d40.png)
+
+
 
 # `Error Estimation of Alternating Series`
 > It's also called the `Remainder Estimation of Alternating Series`.
