@@ -3148,6 +3148,17 @@ Solve:
 
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42367884-24758736-8138-11e8-8dcd-98d39ad1e42a.png)
+Solve:
+- Let's assume the function of the **series above** is `f(x)`, and the **series below** is `g(x)`
+- It's clear to see that the `g(x) is the `Antiderivative` of the `f(x)`.
+- So we just need to **integrate** the function of the `f(x)`:
+![image](https://user-images.githubusercontent.com/14041622/42368010-7f00611c-8138-11e8-91af-470e8c4c2dca.png)
+- We see that the `antiderivative` can represent the `g(x)`, but only with the `C` in it:
+
+- So we need to solve for `C`. Let's 
+
 
 # `Taylor Series`
 `Taylor series`, or `Taylor polynomial` is a series that can **REPRESENT** a function, regardless what function it is.
