@@ -3146,7 +3146,9 @@ Solve:
 - Let's apply the formula:
 ![image](https://user-images.githubusercontent.com/14041622/42149485-d97c50b6-7e08-11e8-9ed6-9004b48c2b98.png)
 
+## Integrals & derivatives of functions with known power series
 
+[`► Jump over to have practice at Khan academy.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/e/creating-power-series-from-geometric-series-using-differentiation-and-integration)
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42367884-24758736-8138-11e8-8dcd-98d39ad1e42a.png)
