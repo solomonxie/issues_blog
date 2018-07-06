@@ -1563,6 +1563,16 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42393986-1ec12590-818b-11e8-978e-92d51567edac.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42394154-b283fd16-818b-11e8-8e43-9aae620c70c8.png)
+Solve:
+Solve:
+- Rewrite it to this form:
+![image](https://user-images.githubusercontent.com/14041622/42394242-0731f8cc-818c-11e8-88da-560f1e7960df.png)
+- Use the special arctan rule to solve it, and get:
+![image](https://user-images.githubusercontent.com/14041622/42394255-13e855f2-818c-11e8-8628-fc82f0677f78.png)
+
+
 
 # Calculate Definite Integrals
 
