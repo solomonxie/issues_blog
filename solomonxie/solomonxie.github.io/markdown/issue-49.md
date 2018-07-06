@@ -247,8 +247,13 @@ In another word, the point is not CONTINUOUS, it's `Jump Discontinuity`, or `Rem
 We know that the `Slope of Vertical Tangent` is **UNDEFINED**, 
 on the contrary:
 **IT IS A VERTICAL TANGENT, IF:**
-- `dy/dx = undefined`, or
-- the `denominator of derivative's expression = 0`
+- The derivative `dy/dx = undefined`, or
+- The `denominator of derivative's expression = 0`.
+
+
+## Horizontal Tangent
+**It's a Horizontal Tangent, if:**
+- `dy/dx = 0`.
 
 
 # `Derivative equation`
