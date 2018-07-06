@@ -1549,6 +1549,19 @@ Solve:
 
 
 
+## Integration using completing the square
+![image](https://user-images.githubusercontent.com/14041622/42393904-be29c282-818a-11e8-92e7-eb5b467c775d.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42393897-b88701aa-818a-11e8-9fd3-afb70954b9bb.png)
+Solve:
+- Rewrite it to this form:
+![image](https://user-images.githubusercontent.com/14041622/42393935-e08f0134-818a-11e8-9737-a9df35dd931c.png)
+- Use the special arctan rule to solve it, and get:
+![image](https://user-images.githubusercontent.com/14041622/42393986-1ec12590-818b-11e8-978e-92d51567edac.png)
+
+
+
 # Calculate Definite Integrals
 
 ### Example
