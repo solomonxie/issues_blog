@@ -1535,6 +1535,8 @@ And for integration we need to reverse them.
 ![image](https://user-images.githubusercontent.com/14041622/41217269-f8ed1334-6d89-11e8-90f1-4dd4c6040a65.png)
 
 
+## Special Rules
+![image](https://user-images.githubusercontent.com/14041622/42393620-842ac028-8189-11e8-820a-3846a1481fd6.png)
 
 
 
