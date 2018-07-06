@@ -2619,7 +2619,7 @@ Solve:
 
 
 
-# `Tests for Convergence`
+# `Convergence Tests`
 
 `Convergence test` are a set of tests to determine wether the series **CONVERGENT** or **DIVERGENT**.
 It includes:
