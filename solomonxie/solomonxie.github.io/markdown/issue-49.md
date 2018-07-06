@@ -335,9 +335,9 @@ Log Rule | ![image](https://user-images.githubusercontent.com/14041622/42376995-
 Trig Rules    | sin(x) | cos(x)
                                                    | cos(x) | −sin(x)
                                                    | tan(x) | sec²(x)
-Inverse Trig Rules | sin⁻¹(x) | 1/√(1−x²)
-                                     | cos⁻¹(x) | −1/√(1−x²)
-                                     | tan⁻¹(x) | 1/(1+x²)
+Inverse Trig Rules | arcsin(x) | 1/√(1−x²)
+                                     | arccos(x) | −1/√(1−x²)
+                                     | arctan⁻¹(x) | 1/(1+x²)
 
 
 
