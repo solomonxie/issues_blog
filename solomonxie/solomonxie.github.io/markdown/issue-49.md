@@ -3387,3 +3387,14 @@ cos(x) | ![image](https://user-images.githubusercontent.com/14041622/42364461-cc
 tan(x) | ![image](https://user-images.githubusercontent.com/14041622/42363031-7b10fd88-8128-11e8-8fca-3a2221827c05.png)
 sec(x) | ![image](https://user-images.githubusercontent.com/14041622/42363044-85ad5214-8128-11e8-9889-3045c50c8d02.png)
 
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42364580-2e227938-812e-11e8-89f4-de4979f77b2a.png)
+Solve:
+- This Maclaurin series has a clear pattern of `cos(x) Maclaurin series`:
+![image](https://user-images.githubusercontent.com/14041622/42364638-672415a2-812e-11e8-8b30-0b2a6fa4e1bb.png)
+- In this case, it's:
+![image](https://user-images.githubusercontent.com/14041622/42364653-7e942baa-812e-11e8-93c8-a4d17062a59b.png)
+- So we could convert the series back to the trig function:
+![image](https://user-images.githubusercontent.com/14041622/42364676-8f36be1e-812e-11e8-96d3-3d0821335888.png)
