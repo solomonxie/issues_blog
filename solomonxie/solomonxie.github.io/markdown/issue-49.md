@@ -3428,3 +3428,6 @@ Solve:
 
 ▼ `Euler's identity`:
 ![image](https://user-images.githubusercontent.com/14041622/42365959-82972c62-8132-11e8-9954-9b3a8e3b2a8b.png)
+
+
+> "The `Euler's identity` connects all of these **FUNDAMENTAL NUMBERS** in some mystical way that shows that there's some connectedness to the UNIVERSE." - Sal Khan
