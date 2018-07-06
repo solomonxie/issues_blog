@@ -243,6 +243,13 @@ In another word, the point is not CONTINUOUS, it's `Jump Discontinuity`, or `Rem
 ![image](https://user-images.githubusercontent.com/14041622/40108012-64c1e426-592c-11e8-99c9-357d59ee9a87.png)
 
 
+## Vertical Tangent
+We know that the `Slope of Vertical Tangent` is **UNDEFINED**, 
+on the contrary:
+**IT IS A VERTICAL TANGENT, IF:**
+- `dy/dx = undefined`, or
+- the `denominator of derivative's expression = 0`
+
 
 # `Derivative equation`
 The idea of derivative equation is quite simple: **The LIMIT of the SLOPE.**
