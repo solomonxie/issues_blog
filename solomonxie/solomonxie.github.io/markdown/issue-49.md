@@ -2626,9 +2626,9 @@ It includes:
 
 Test | Description
 -- | --
-Divergent Test | Only to test if the series is divergent.
-Integral Test | To test the series convergent or divergent.
-p-series Test | To test the specified form of series convergent or divergent.
+Divergent Test | Take nth term's limit. (only to test divergence)
+Integral Test | Take limit of the series function's integration.
+p-series Test | Examine at the `p` value of `1/nᴾ`.
 Comparison Test | To test **rational expressions**.
 Ratio Test | To test **factorial fractions**.
 Root Test | 
