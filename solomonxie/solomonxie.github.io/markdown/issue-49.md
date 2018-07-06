@@ -3355,7 +3355,11 @@ Solve:
 - After trying out some number for `n`, we get that `n ≥ 3`.
 
 
-# Function as a geometric series
+# Finding Taylor series for a function
+
+[►Refer to Khan academy's unit: Finding Taylor or Maclaurin series for a function](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/bc-10-14/v/function-as-a-geometric-series)
+
+## Function as a geometric series
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42362546-68667e44-8126-11e8-8e47-cf02f02bacfd.png)
@@ -3369,3 +3373,6 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42362651-dd61926a-8126-11e8-9a3b-50303742f7d0.png)
 - Expand the formula to be:
 ![image](https://user-images.githubusercontent.com/14041622/42362663-e9a40634-8126-11e8-90d5-57db2b669983.png)
+
+
+## Maclaurin Series of Trig functions
