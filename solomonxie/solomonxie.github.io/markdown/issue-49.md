@@ -3409,3 +3409,16 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42365320-bb3528e6-8130-11e8-8ee6-ee6a96934cbf.png)
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42365343-c6d55f7c-8130-11e8-9bc7-01dd5e40dd34.png)
+
+
+
+# `Euler's Formula & Euler's Identity`
+
+▼ `Euler's formula`:
+![image](https://user-images.githubusercontent.com/14041622/42365892-5380f19c-8132-11e8-8429-2265a6fe9421.png)
+
+![image](https://user-images.githubusercontent.com/14041622/42365994-9a703798-8132-11e8-9707-b59178309ad1.png)
+
+
+## `Euler's identity`
+![image](https://user-images.githubusercontent.com/14041622/42365959-82972c62-8132-11e8-9954-9b3a8e3b2a8b.png)
