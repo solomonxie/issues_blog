@@ -3156,8 +3156,12 @@ Solve:
 - So we just need to **integrate** the function of the `f(x)`:
 ![image](https://user-images.githubusercontent.com/14041622/42368010-7f00611c-8138-11e8-91af-470e8c4c2dca.png)
 - We see that the `antiderivative` can represent the `g(x)`, but only with the `C` in it:
+![image](https://user-images.githubusercontent.com/14041622/42368233-172b104a-8139-11e8-88a8-16949514b969.png)
+- So we need to solve for `C`. The easiest way is to plug in `0` for `g(x)`:
+![image](https://user-images.githubusercontent.com/14041622/42368389-7c8c8b6c-8139-11e8-9a9e-97728eab3149.png)
+- Then the answer is:
+![image](https://user-images.githubusercontent.com/14041622/42368415-8ab72792-8139-11e8-943d-6780bbdbb81e.png)
 
-- So we need to solve for `C`. Let's 
 
 
 # `Taylor Series`
