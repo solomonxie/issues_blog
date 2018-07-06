@@ -2932,6 +2932,13 @@ Solve:
 
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42370976-bd6cada4-8140-11e8-9e36-d5b26721fb22.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/42370989-c2fe0ba0-8140-11e8-8e44-3e6c98253686.png)
+
+
+
 # `Error Estimation of Alternating Series`
 > It's also called the `Remainder Estimation of Alternating Series`.
 
