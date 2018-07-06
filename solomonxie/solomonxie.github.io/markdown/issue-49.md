@@ -547,7 +547,13 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42391958-b03754de-8183-11e8-8dad-bbf8cdbc3258.png)
 Solve:
-
+- To have a `Vertical Tangent`, we have to let the **derivative** become `Undefined`,
+- which in this case is to let the denominator equal to zero:
+![image](https://user-images.githubusercontent.com/14041622/42392639-1a998264-8186-11e8-9a48-99f6b296c1f9.png)
+- Solve this equation out we get that `x = 3y²`, which means this relationship is true at the point of vertical tangent line.
+- Plug that back to the original function to get `y = -1`, which means the vertical tangent goes through this point.
+- Substitute y back and get `x = 3`
+- The answer is `(3, -1)`.
 
 
 # `Related Rates`
