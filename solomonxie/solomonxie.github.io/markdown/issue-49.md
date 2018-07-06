@@ -3414,8 +3414,8 @@ Solve:
 
 # `Euler's Formula & Euler's Identity`
 
-
-> "If this does not blow your mind, you have no emotion." - Sal Khan
+> "The `Euler's identity` connects all of these **FUNDAMENTAL NUMBERS** in some mystical way that shows that there's some connectedness to the UNIVERSE. 
+**If this does not blow your mind, you have no emotion.**" - Sal Khan
 
 [►Refer to the most well-known lecture from Sal Khan: Euler's formula & Euler's identity](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/v/euler-s-formula-and-euler-s-identity)
 
@@ -3430,4 +3430,3 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42365959-82972c62-8132-11e8-9954-9b3a8e3b2a8b.png)
 
 
-> "The `Euler's identity` connects all of these **FUNDAMENTAL NUMBERS** in some mystical way that shows that there's some connectedness to the UNIVERSE." - Sal Khan
