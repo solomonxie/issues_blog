@@ -2905,6 +2905,9 @@ Solve:
 
 # `Absolute vs. Conditional Convergence`
 
+[`► Jump over to have practice at Khan academy`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/e/determine-absolute-or-conditional-convergence)
+
+
 [►Refer to Khan academy: Conditional & absolute convergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/conditional-and-absolute-convergence)
 
 ▼We can make a series in **`Absolute form`** and **`Alternating form`**:
@@ -2925,6 +2928,7 @@ etc.,
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42370021-3e41a82e-813e-11e8-990d-8716a939b36d.png)
 Solve:
+![image](https://user-images.githubusercontent.com/14041622/42370365-256709f6-813f-11e8-879b-87c54c119f39.png)
 
 
 
