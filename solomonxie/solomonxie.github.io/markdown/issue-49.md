@@ -3224,7 +3224,7 @@ Solve:
 
 
 ▼Expand it we'll understand it better:
-![image](https://user-images.githubusercontent.com/14041622/42204920-944b7e4a-7ed5-11e8-9b59-d4d2670fc7a5.png)
+![image](https://user-images.githubusercontent.com/14041622/42362791-7b4db9c2-8127-11e8-863f-c44fe0a27f6d.png)
 
 
 ▼Here is a graph we're trying to approximate a function centred at `x=0`:
