@@ -3380,7 +3380,7 @@ Solve:
 Trig Function | Maclaurin Series
 -- | --
 sin(x) | ![image](https://user-images.githubusercontent.com/14041622/42362961-323fabae-8128-11e8-88bf-f75880f7b63c.png)
-cos(x) | ![image](https://user-images.githubusercontent.com/14041622/42362917-0608875e-8128-11e8-8faf-d3e26d515f5e.png)
+cos(x) | ![image](https://user-images.githubusercontent.com/14041622/42363084-abd4b4f0-8128-11e8-92f8-a4599a098c3d.png)
 tan(x) | ![image](https://user-images.githubusercontent.com/14041622/42363031-7b10fd88-8128-11e8-8fca-3a2221827c05.png)
 sec(x) | ![image](https://user-images.githubusercontent.com/14041622/42363044-85ad5214-8128-11e8-9889-3045c50c8d02.png)
 
