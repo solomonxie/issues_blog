@@ -2876,7 +2876,7 @@ Strategy:
 - Take limit of the rest part:
 ![image](https://user-images.githubusercontent.com/14041622/41907282-fa4a1a66-7972-11e8-86ef-b9f1b3bfe02a.png)
 - If the `Limit = 0`, then the series **CONVERGES**.
-- Other than that, we can't conclude anything.
+- If not, it diverges.
 
 
 
