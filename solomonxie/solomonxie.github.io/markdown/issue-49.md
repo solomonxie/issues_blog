@@ -2623,13 +2623,16 @@ Solve:
 
 `Convergence test` are a set of tests to determine wether the series **CONVERGENT** or **DIVERGENT**.
 It includes:
-- `Divergent Test`: Only to test if the series is divergent.
-- `Integral Test`: To test the series convergent or divergent.
-- `p-series Test`: To test the specified form of series convergent or divergent.
-- `Comparison Test`: To test **rational expressions**.
-- `Ratio Test`: To test **factorial fractions**.
-- `Root Test`: 
-- `Alternating Test`:  To test the alternating series.
+
+Test | Description
+-- | --
+Divergent Test | Only to test if the series is divergent.
+Integral Test | To test the series convergent or divergent.
+p-series Test | To test the specified form of series convergent or divergent.
+Comparison Test | To test **rational expressions**.
+Ratio Test | To test **factorial fractions**.
+Root Test | 
+Alternating Test |  To test the alternating series.
 
 
 # `Divergent Test`
