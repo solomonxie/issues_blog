@@ -3378,6 +3378,8 @@ Solve:
 
 # Maclaurin Series of Trig functions
 
+Maclaurin series of `Cos(x) & Sin(x)` are very special, which we really want to **memorize**.
+
 Trig | Maclaurin Series
 -- | --
 sin(x) | ![image](https://user-images.githubusercontent.com/14041622/42362961-323fabae-8128-11e8-88bf-f75880f7b63c.png)
