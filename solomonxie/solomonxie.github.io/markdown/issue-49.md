@@ -1885,6 +1885,9 @@ Solve:
 
 # `Parametric equations differentiation`
 
+[►Refer to Khan academy: Parametric equations differentiation](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-1/v/parametric-function-differentiation)
+[`►Jump over to have some practice at Khan academy.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-1/e/differentiate-parametric-functions)
+
 ## Why can we operate `dy/dx` algebraically?
 
 [Refer to Khan academy: Addressing treating differentials algebraically](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/v/addressing-treating-differentials-algebraically)
