@@ -2046,6 +2046,7 @@ Hint: Don't need to solve `y` completely.
 # Differentiate Polar Functions
 
 [►Refer to Khan academy: Polar functions derivatives](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-7/v/derivatives-in-polar-coordinates)
+[`►Jump over to have practice at Khan academy.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-7/e/differentiate-polar-functions)
 
 ![image](https://user-images.githubusercontent.com/14041622/42408971-cec59e88-8205-11e8-9e14-bc1a910846da.png)
 
