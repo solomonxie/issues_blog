@@ -1899,8 +1899,7 @@ Solve:
 ## Differentiate Parametric Equations
 
 ▼How to take derivative of a `parametric differential equation`?
-![image](https://user-images.githubusercontent.com/14041622/42408030-557f0c00-81f9-11e8-84b4-72a14eff42c9.png)
-
+![image](https://user-images.githubusercontent.com/14041622/42408083-09482802-81fa-11e8-81d2-ce60465673b4.png)
 
 
 ### Example
