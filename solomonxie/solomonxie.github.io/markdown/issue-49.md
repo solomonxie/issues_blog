@@ -2056,7 +2056,7 @@ which could be presented as:
 
 ![image](https://user-images.githubusercontent.com/14041622/42408955-8bb18e9a-8205-11e8-8750-67370131d552.png)
 
-
+And **taking derivative of Polar function** is actually **DIFFERENTIATING PARAMETRIC FUNCTION**.
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42408886-70192f54-8204-11e8-9eaf-ff0d0b4cc7b7.png)
