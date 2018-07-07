@@ -2065,6 +2065,12 @@ To take the derivative we need to:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42408886-70192f54-8204-11e8-9eaf-ff0d0b4cc7b7.png)
 Solve:
+- Since it's asking for the `Rate of change of y-coordinate`, so we convert the polar function to `rectangular function`:
+![image](https://user-images.githubusercontent.com/14041622/42409148-900f2008-8208-11e8-8433-6ec1dc53eaa2.png)
+- And we take the derivative `dy/dΘ`:
+![image](https://user-images.githubusercontent.com/14041622/42409155-b66604e2-8208-11e8-9b4a-1cfd57b53964.png)
+- Plug in the point `Θ=π` and get:
+![image](https://user-images.githubusercontent.com/14041622/42409162-ce8d4f58-8208-11e8-8bd5-a1b4062f71a4.png)
 
 
 
