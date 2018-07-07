@@ -2486,7 +2486,7 @@ Solve:
 
 
 ## `Formula`
-![image](https://user-images.githubusercontent.com/14041622/41653406-8b46d898-74b8-11e8-9861-b764b3715994.png)
+![image](https://user-images.githubusercontent.com/14041622/42408620-59beadc2-8201-11e8-83a6-2359eca034a7.png)
 
 
 ### Example
