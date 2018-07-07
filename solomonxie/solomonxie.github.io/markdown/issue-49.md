@@ -1917,9 +1917,12 @@ Solve:
 
 
 ### Example
-
 ![image](https://user-images.githubusercontent.com/14041622/42408184-065424f6-81fb-11e8-91fd-c5f18248e545.png)
 Solve:
+- Follow the rule, we got the first derivative:
+![image](https://user-images.githubusercontent.com/14041622/42408217-a701cfe8-81fb-11e8-820c-fddeaeb561f7.png)
+- And let's apply the rule for second derivative:
+![image](https://user-images.githubusercontent.com/14041622/42408227-cb01d0be-81fb-11e8-96fd-aa66b57a154b.png)
 
 
 
