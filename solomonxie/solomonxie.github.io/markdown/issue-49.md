@@ -2079,7 +2079,7 @@ Solve:
 ## `Tangents to Polar curves`
 Steps:
 - Find the slope `dy/dx`
-- Convert `x(θ)` and `y(θ)` to parametric equations
+- Convert the polar function to get the `x(θ)` and `y(θ)` parametric equations
 - Solve `dy/dx` and get the slope
 - Plug in the point's information to solve for `x & y`
 - Get the equation of the line (tangent).
@@ -2104,6 +2104,14 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42410082-d26ab8fa-8216-11e8-9362-9e88eb6f2a9f.png)
 Solve:
+- First, we need to convert the polar function to `x(θ) & y(θ)`:
+![image](https://user-images.githubusercontent.com/14041622/42410205-4a6413a0-8218-11e8-8721-95acf2208c63.png)
+- And we need to find the slope `dy/dx`:
+![image](https://user-images.githubusercontent.com/14041622/42410164-d9a5b8f8-8217-11e8-9bd5-1355d13c31ff.png)
+- Since it's a horizontal tangent, so `Slope =0`, which means `dy/dx =0`. But `dx` is dominator can't be zero, so we can set `dy = 0` and solve for θ:
+![image](https://user-images.githubusercontent.com/14041622/42410215-74fd8092-8218-11e8-85c2-975a74be7fc7.png)
+- So the answer is:
+![image](https://user-images.githubusercontent.com/14041622/42410218-940013c4-8218-11e8-8065-15bee832ee77.png)
 
 
 
