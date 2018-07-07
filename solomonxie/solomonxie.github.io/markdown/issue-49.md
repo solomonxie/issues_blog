@@ -1883,7 +1883,7 @@ Solve:
 
 
 
-# `Parametric equations differentiation`
+# `Parametric Equations Differentiation`
 
 [►Refer to Khan academy: Parametric equations differentiation](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-1/v/parametric-function-differentiation)
 [`►Jump over to have some practice at Khan academy.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-1/e/differentiate-parametric-functions)
@@ -1896,8 +1896,10 @@ Solve:
 
 ![image](https://user-images.githubusercontent.com/14041622/41278167-c1f8eace-6e5b-11e8-8a74-680783300059.png)
 
+## Differentiate Parametric Equations
 
-![image](https://user-images.githubusercontent.com/14041622/42407976-6307595a-81f8-11e8-8098-5e2f19daf4cd.png)
+▼How to take derivative of a `parametric differential equation`?
+![image](https://user-images.githubusercontent.com/14041622/42408030-557f0c00-81f9-11e8-84b4-72a14eff42c9.png)
 
 
 
