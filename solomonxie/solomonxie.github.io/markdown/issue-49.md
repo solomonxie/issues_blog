@@ -2047,7 +2047,13 @@ Hint: Don't need to solve `y` completely.
 
 [►Refer to Khan academy: Polar functions derivatives](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-7/v/derivatives-in-polar-coordinates)
 
-In the `Polar World`, instead of the relationship between `y & x`, the function is now representing the relationship between `Radius & Angle`, which could be presented as:
+![image](https://user-images.githubusercontent.com/14041622/42408971-cec59e88-8205-11e8-9e14-bc1a910846da.png)
+
+> In the `Polar World`, 
+instead of the relationship between `y & x`, 
+the function is now representing the relationship between `Radius & Angle`, 
+which could be presented as:
+
 ![image](https://user-images.githubusercontent.com/14041622/42408955-8bb18e9a-8205-11e8-8750-67370131d552.png)
 
 
