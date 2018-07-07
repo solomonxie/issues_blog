@@ -2493,7 +2493,7 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42408625-71114dd6-8201-11e8-9fcd-1fe9a06ad36c.png)
 Solve:
-- 
+- Just to apply the formula.
 
 
 
