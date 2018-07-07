@@ -2043,7 +2043,7 @@ Hint: Don't need to solve `y` completely.
 
 
 
-# Differentiate Polar Functions
+# `Polar Functions`
 
 [►Refer to Khan academy: Polar functions derivatives](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-7/v/derivatives-in-polar-coordinates)
 [`►Jump over to have practice at Khan academy.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-7/e/differentiate-polar-functions)
@@ -2057,7 +2057,9 @@ which could be presented as:
 
 ![image](https://user-images.githubusercontent.com/14041622/42408955-8bb18e9a-8205-11e8-8750-67370131d552.png)
 
-And **taking derivative of Polar function** is actually **DIFFERENTIATING PARAMETRIC FUNCTION**.
+## `Differentiate Polar Functions`
+
+**Taking derivative of Polar function** is actually **DIFFERENTIATING PARAMETRIC FUNCTION**.
 To take the derivative we need to:
 - Convert the `Polar function` in terms of `x & y`:
 ![image](https://user-images.githubusercontent.com/14041622/42409085-7f99bb26-8207-11e8-9b8f-53fd99405428.png)
@@ -2072,6 +2074,25 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42409155-b66604e2-8208-11e8-9b4a-1cfd57b53964.png)
 - Plug in the point `Θ=π` and get:
 ![image](https://user-images.githubusercontent.com/14041622/42409162-ce8d4f58-8208-11e8-8bd5-a1b4062f71a4.png)
+
+
+## `Tangents to Polar curves`
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42409334-61386854-820b-11e8-84de-f5676a5543f4.png)
+Solve:
+- To find the tangent line, we need to get the slope first, which is `dy/dx`.
+- And `dy/dx` would be a `parametric problem`:
+![image](https://user-images.githubusercontent.com/14041622/42409359-d9da5704-820b-11e8-9dd3-6bcce56f25f4.png)
+- Plug in the Θ value, to evaluate the slope:
+![image](https://user-images.githubusercontent.com/14041622/42409371-119c3dc4-820c-11e8-8eaf-8a0b6da1ca8f.png)
+- Find the `x & y` value according to the Θ:
+![image](https://user-images.githubusercontent.com/14041622/42409376-38b1ac46-820c-11e8-91f4-cb088fcc8ed6.png)
+- Now we got everything to form the equation for the tangent line:
+![image](https://user-images.githubusercontent.com/14041622/42409378-4c5659f4-820c-11e8-9675-dd1bc5d54907.png)
+![image](https://user-images.githubusercontent.com/14041622/42409379-512ce470-820c-11e8-882c-d0265c077d41.png)
+
 
 
 
