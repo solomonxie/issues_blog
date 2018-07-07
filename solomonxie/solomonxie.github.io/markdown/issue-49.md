@@ -1911,6 +1911,18 @@ Solve:
 
 
 
+## Second derivatives of Parametric functions
+
+![image](https://user-images.githubusercontent.com/14041622/42408205-79aa64c4-81fb-11e8-836a-d750ac4e7ac0.png)
+
+
+### Example
+
+![image](https://user-images.githubusercontent.com/14041622/42408184-065424f6-81fb-11e8-91fd-c5f18248e545.png)
+Solve:
+
+
+
 # `Separable Differential Equations`
 
 This section is an essential method for solving differential equations.
