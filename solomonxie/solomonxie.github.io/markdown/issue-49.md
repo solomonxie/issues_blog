@@ -2115,6 +2115,16 @@ Solve:
 
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42410271-bcbc245a-8219-11e8-8f8d-0e8bd320f408.png)
+Solve:
+- To find a vertical tangent, we have to set the dominator of the slope as 0, that's the only thing makes it **undefined**.
+- The slope is `dy/dx`, so we set `dx = 0`.
+- The equation for `x` is:
+![image](https://user-images.githubusercontent.com/14041622/42410294-0226d9c2-821a-11e8-91e3-cdf2809609b2.png)
+....
+
+
 
 # `Logistic Growth Model`
 ```
