@@ -2077,6 +2077,12 @@ Solve:
 
 
 ## `Tangents to Polar curves`
+Steps:
+- Find the slope `dy/dx`
+- Convert `x(θ)` and `y(θ)` to parametric equations
+- Solve `dy/dx` and get the slope
+- Plug in the point's information to solve for `x & y`
+- Get the equation of the line (tangent).
 
 
 ### Example
@@ -2092,6 +2098,12 @@ Solve:
 - Now we got everything to form the equation for the tangent line:
 ![image](https://user-images.githubusercontent.com/14041622/42409378-4c5659f4-820c-11e8-9675-dd1bc5d54907.png)
 ![image](https://user-images.githubusercontent.com/14041622/42409379-512ce470-820c-11e8-882c-d0265c077d41.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42410082-d26ab8fa-8216-11e8-9362-9e88eb6f2a9f.png)
+Solve:
 
 
 
