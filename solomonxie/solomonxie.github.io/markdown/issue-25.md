@@ -905,3 +905,13 @@ dyld: Library not loaded: /usr/local/opt/python/Frameworks/Python.framework/Vers
 ```sh
 $ brew reinstall vim
 ```
+但是经过长时间安装后，仍然失败：
+![image](https://user-images.githubusercontent.com/14041622/42413775-d5db3968-8259-11e8-8253-8c374f90e1e3.png)
+
+
+最后通过这个解决：
+```sh
+$ brew uninstall --ignore-dependencies perl
+$ brew uninstall vim
+$ brew install vim
+```
