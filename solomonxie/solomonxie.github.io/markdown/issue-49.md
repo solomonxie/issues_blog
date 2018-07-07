@@ -1913,7 +1913,7 @@ Solve:
 
 ## Second derivatives of Parametric functions
 
-![image](https://user-images.githubusercontent.com/14041622/42408205-79aa64c4-81fb-11e8-836a-d750ac4e7ac0.png)
+![image](https://user-images.githubusercontent.com/14041622/42408348-de90aa86-81fd-11e8-995c-65569a529746.png)
 
 
 ### Example
