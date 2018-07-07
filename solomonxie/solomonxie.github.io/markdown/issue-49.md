@@ -1936,8 +1936,13 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42395324-1970ce74-8190-11e8-94be-d834990a58bd.png)
 - Solve for `C`:
 ![image](https://user-images.githubusercontent.com/14041622/42395375-44c5f09a-8190-11e8-8259-c20b80902ed7.png)
-- Solve the rest:
-![image](https://user-images.githubusercontent.com/14041622/42395386-53b9b9ce-8190-11e8-821b-8e7f93812530.png)
+- Solve for `k`:
+![image](https://user-images.githubusercontent.com/14041622/42407316-62132d14-81ec-11e8-8677-042e082501ca.png)
+- get the `k`:
+![image](https://user-images.githubusercontent.com/14041622/42407320-720fdcd0-81ec-11e8-8694-927c2cded1c2.png)
+- Now we have the full equation, and get the result:
+![image](https://user-images.githubusercontent.com/14041622/42407323-8407f3b4-81ec-11e8-83c1-92e9fbbc7cb5.png)
+
 
 
 
