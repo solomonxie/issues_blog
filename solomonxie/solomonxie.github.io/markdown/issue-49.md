@@ -1845,6 +1845,9 @@ Strategy:
 
 ![image](https://user-images.githubusercontent.com/14041622/41277037-9cfcd670-6e58-11e8-8002-50737f26ff57.png)
 
+![image](https://user-images.githubusercontent.com/14041622/42407982-72e92b0a-81f8-11e8-8cca-d60256d85d00.png)
+
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41274688-e8fe7a5e-6e50-11e8-9681-9a5cf3e27c3b.png)
 Solve:
@@ -1878,6 +1881,13 @@ Solve:
 - `M(8) = 150 · e^(8 · ln(0.5)/13) ≃ 97.9  
 
 
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42407942-99fc97a0-81f7-11e8-94ca-7dfc3787ee47.png)
+Solve:
+- 
+
+
 # Why can we operate `dy/dx` algebraically?
 
 [Refer to Khan academy: Addressing treating differentials algebraically](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/v/addressing-treating-differentials-algebraically)
@@ -1885,6 +1895,9 @@ Solve:
 > [Jump back to previous note: How to understand `dy/dx`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-389389887)
 
 ![image](https://user-images.githubusercontent.com/14041622/41278167-c1f8eace-6e5b-11e8-8a74-680783300059.png)
+
+
+![image](https://user-images.githubusercontent.com/14041622/42407976-6307595a-81f8-11e8-8098-5e2f19daf4cd.png)
 
 
 
