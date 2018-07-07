@@ -1885,7 +1885,13 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42407942-99fc97a0-81f7-11e8-94ca-7dfc3787ee47.png)
 Solve:
-- 
+- Let's do some trick to `dy/dt` and use this one instead:
+![image](https://user-images.githubusercontent.com/14041622/42407989-9beda9cc-81f8-11e8-9448-ded6966bacc8.png)
+- Substitute the derivatives back:
+![image](https://user-images.githubusercontent.com/14041622/42407997-b7a531da-81f8-11e8-90cc-93bcf4546e31.png)
+- Plug in `t=1` to get the answer:
+![image](https://user-images.githubusercontent.com/14041622/42408000-c3f3e332-81f8-11e8-847a-1247c66bedd1.png)
+
 
 
 # Why can we operate `dy/dx` algebraically?
