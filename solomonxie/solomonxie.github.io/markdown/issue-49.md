@@ -325,9 +325,9 @@ Solve:
 
 ![image](https://user-images.githubusercontent.com/14041622/40227636-a305cc52-5ac1-11e8-9fbe-ac7e11dd4a6f.png)
 
-[Refer to Math is fun: Derivative Rules](https://www.mathsisfun.com/calculus/derivatives-rules.html)
-
 > [`Jump over to Basic Integral Rules`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-395356656)
+
+[▼Refer to Math is fun: Derivative Rules](https://www.mathsisfun.com/calculus/derivatives-rules.html)
 
 Rules | Function | Derivative
 -- | -- | --
@@ -350,6 +350,10 @@ Trig Rules    | sin(x) | cos(x)
 Inverse Trig Rules | arcsin(x) | 1/√(1−x²)
                                      | arccos(x) | −1/√(1−x²)
                                      | arctan⁻¹(x) | 1/(1+x²)
+
+
+[▼Refer to Wiki: Differentiation rules](https://en.wikipedia.org/wiki/Differentiation_rules)
+![image](https://user-images.githubusercontent.com/14041622/42408397-9fbb09ae-81fe-11e8-8a2e-d7ba9f89dbf3.png)
 
 
 
