@@ -1845,9 +1845,6 @@ Strategy:
 
 ![image](https://user-images.githubusercontent.com/14041622/41277037-9cfcd670-6e58-11e8-8002-50737f26ff57.png)
 
-![image](https://user-images.githubusercontent.com/14041622/42407982-72e92b0a-81f8-11e8-8cca-d60256d85d00.png)
-
-
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41274688-e8fe7a5e-6e50-11e8-9681-9a5cf3e27c3b.png)
 Solve:
@@ -1906,7 +1903,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42407942-99fc97a0-81f7-11e8-94ca-7dfc3787ee47.png)
 Solve:
 - Let's do some trick to `dy/dt` and use this one instead:
-![image](https://user-images.githubusercontent.com/14041622/42407989-9beda9cc-81f8-11e8-9448-ded6966bacc8.png)
+![image](https://user-images.githubusercontent.com/14041622/42408123-2d156d4e-81fa-11e8-9d9e-296e67feefd6.png)
 - Substitute the derivatives back:
 ![image](https://user-images.githubusercontent.com/14041622/42407997-b7a531da-81f8-11e8-90cc-93bcf4546e31.png)
 - Plug in `t=1` to get the answer:
