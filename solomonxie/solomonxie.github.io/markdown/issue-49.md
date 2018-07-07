@@ -2043,7 +2043,7 @@ Hint: Don't need to solve `y` completely.
 
 
 
-# Differentiate Polar Curves
+# Differentiate Polar Functions
 
 [►Refer to Khan academy: Polar functions derivatives](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-7/v/derivatives-in-polar-coordinates)
 
