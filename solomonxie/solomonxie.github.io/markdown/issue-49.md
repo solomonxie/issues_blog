@@ -1883,7 +1883,9 @@ Solve:
 
 
 
-# Why can we operate `dy/dx` algebraically?
+# `Parametric equations differentiation`
+
+## Why can we operate `dy/dx` algebraically?
 
 [Refer to Khan academy: Addressing treating differentials algebraically](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/v/addressing-treating-differentials-algebraically)
 
@@ -1893,6 +1895,18 @@ Solve:
 
 
 ![image](https://user-images.githubusercontent.com/14041622/42407976-6307595a-81f8-11e8-8098-5e2f19daf4cd.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42407942-99fc97a0-81f7-11e8-94ca-7dfc3787ee47.png)
+Solve:
+- Let's do some trick to `dy/dt` and use this one instead:
+![image](https://user-images.githubusercontent.com/14041622/42407989-9beda9cc-81f8-11e8-9448-ded6966bacc8.png)
+- Substitute the derivatives back:
+![image](https://user-images.githubusercontent.com/14041622/42407997-b7a531da-81f8-11e8-90cc-93bcf4546e31.png)
+- Plug in `t=1` to get the answer:
+![image](https://user-images.githubusercontent.com/14041622/42408000-c3f3e332-81f8-11e8-847a-1247c66bedd1.png)
 
 
 
