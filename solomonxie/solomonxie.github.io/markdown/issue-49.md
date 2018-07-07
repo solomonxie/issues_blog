@@ -2474,9 +2474,11 @@ Solve:
 
 
 # `Area of Polar Curves`
-
 Calculating area for `polar curves`, means we're now under the `Polar Coordinate` to do integration.
 And instead of using `rectangles`  to calculate the area, we are to use `triangles` to integrate the area for a curve.
+
+![image](https://user-images.githubusercontent.com/14041622/42410413-d8c58ad6-821b-11e8-9c16-f99783a79688.png)
+
 
 There're a few notable differences for calculating `Area of Polar Curves`:
 - It's now under the **`Polar Coordinate`**.
