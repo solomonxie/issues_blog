@@ -2627,6 +2627,18 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41702558-21a4e60e-7563-11e8-8850-c37361d65d9c.png)
 
 
+## `Volumes with solids of unknown solids`
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42432978-d791df24-837f-11e8-85bb-467f9d940a55.png)
+Solve:
+- Each slice will be like this:
+![image](https://user-images.githubusercontent.com/14041622/42432997-ef2c9822-837f-11e8-9aab-a87e2a840b9e.png)
+- The area of the slice would be:
+![image](https://user-images.githubusercontent.com/14041622/42433031-124f7900-8380-11e8-8942-6c8167555d57.png)
+- The boundaries are at two curves' intersection, which are `x = 1 and 5`
+- So integrate all the slices:
+![image](https://user-images.githubusercontent.com/14041622/42433060-3a4e2352-8380-11e8-9099-7f49bd161ce3.png)
 
 
 
