@@ -529,6 +529,9 @@ How does it work? As the picture below, just simply **scale the distance** from 
 Areas:
 - Area of Equilateral Triangles: 
 ![image](https://user-images.githubusercontent.com/14041622/42433887-ad4e232c-8383-11e8-807e-662349919c69.png)
+- Isosceles Right Triangle:
+![image](https://user-images.githubusercontent.com/14041622/42434550-22804e5c-8386-11e8-8ce7-c910075e9b23.png)
+
 
 
 ## Surface Area
