@@ -921,10 +921,16 @@ $ brew install vim
 
 # Vim Snipmate 自动补全插件
 
-在`~/.vimrc`的Vundle插件函数中添加以下内容：
+在`~/.vimrc`的Vundle插件管理函数中添加以下内容(插件本身和所依赖的插件)：
 ```vim
     Plugin 'MarcWeber/vim-addon-mw-utils'
     Plugin 'tomtom/tlib_vim'
     Plugin 'garbas/vim-snipmate'
     Plugin 'honza/vim-snippets' "massive common snippets
+```
+
+然后在Vim中输入命令安装插件：
+```
+:source %
+:PluginInstall
 ```
