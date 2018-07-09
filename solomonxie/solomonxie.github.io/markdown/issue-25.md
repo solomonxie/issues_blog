@@ -917,3 +917,14 @@ $ brew uninstall --ignore-dependencies perl
 $ brew uninstall vim
 $ brew install vim
 ```
+
+
+# Vim Snipmate 自动补全插件
+
+在`~/.vimrc`的Vundle插件函数中添加以下内容：
+```vim
+    Plugin 'MarcWeber/vim-addon-mw-utils'
+    Plugin 'tomtom/tlib_vim'
+    Plugin 'garbas/vim-snipmate'
+    Plugin 'honza/vim-snippets' "massive common snippets
+```
