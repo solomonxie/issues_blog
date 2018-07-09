@@ -1854,3 +1854,12 @@ Linux改密码异常简单，一个词就可以进入互动命令，输入新老
 ```sh
 $ passwd
 ```
+
+
+
+# Linux显示文件某一行
+
+```sh
+# 显示第3行
+$ head -3 filename.txt |tail -1
+```
