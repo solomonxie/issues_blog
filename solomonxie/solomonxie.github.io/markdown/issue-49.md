@@ -1516,6 +1516,18 @@ Solve:
 
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42437231-0ab0a2be-838f-11e8-9a34-02def74b102b.png)
+Solve:
+- We could use the `Second Fundamental Theorem of Calculus`:
+![image](https://user-images.githubusercontent.com/14041622/42437375-88383846-838f-11e8-87e0-caafe4a94218.png)
+- which in this case is:
+![image](https://user-images.githubusercontent.com/14041622/42437405-9a62b2da-838f-11e8-886f-535db3bcc9bb.png)
+- And we move the known terms to one side and keep the asking term at another side:
+![image](https://user-images.githubusercontent.com/14041622/42437475-d27d1138-838f-11e8-99a1-83c730375527.png)
+
+
+
 # Basic Integral Rules
 Remember there're a bunch of `Differential Rules` for calculating derivatives.
 And for integration we need to reverse them.
