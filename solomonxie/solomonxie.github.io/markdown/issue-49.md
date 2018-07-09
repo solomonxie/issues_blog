@@ -3185,8 +3185,8 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41900472-66a19bc4-7961-11e8-810c-8209f0e97f96.png)
 
 We call the series:
-- `Absolute Convergent`: if the series converges in BOTH Absolute form & Alternating form.
-- `Conditional Convergent`: if the series converges ONLY in Alternating form.
+- `Absolute Convergent`: if the series converges in BOTH **Absolute form** & **Original form**.
+- `Conditional Convergent`: if the series converges ONLY in **Oringal form** BUT NOT in **Absolute Form**.
 
 etc., 
 ![image](https://user-images.githubusercontent.com/14041622/41900212-c265fa6e-7960-11e8-99bb-3585053f2686.png)
