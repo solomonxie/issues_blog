@@ -3184,8 +3184,6 @@ Solve:
 ▼We can have a series in **`Given form`** and **`Absolute form`**:
 ![image](https://user-images.githubusercontent.com/14041622/42439540-c6febc20-8395-11e8-8540-f2ad2fa13d26.png)
 
-▲ Usually the **given series** is an `Alternating Series`.
-
 We call the series:
 - `Absolute Convergent`: if the series converges in BOTH **Given form** & **Absolute form**.
 - `Conditional Convergent`: if the series converges ONLY in **Given form** BUT NOT in **Absolute Form**.
@@ -3193,7 +3191,7 @@ We call the series:
 etc., 
 ![image](https://user-images.githubusercontent.com/14041622/41900212-c265fa6e-7960-11e8-99bb-3585053f2686.png)
 
-[▼Refer to xaktly: Alternating Series](http://www.xaktly.com/AlternatingSeries.html)
+[▼Refer to xaktly](http://www.xaktly.com/AlternatingSeries.html)
 ![image](https://user-images.githubusercontent.com/14041622/41852458-c53e13fa-78bd-11e8-9fda-0847cc285a09.png)
 
 
