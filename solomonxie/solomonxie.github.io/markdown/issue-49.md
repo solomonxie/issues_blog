@@ -23,7 +23,7 @@
 - [x] [Antiderivatives and the fundamental theorem of calculus](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/test/bc-antiderivatives-ftc-unit-test)
 - [x] [Differential equations](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/test/bc-diff-equations-unit-test)
 - [x] [Applications of definite integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/test/bc-applications-definite-integrals-unit-test)
-- [x] [Series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/test/bc-series-unit-test)
+- [ ] [Series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/test/bc-series-unit-test)
 
 
 
