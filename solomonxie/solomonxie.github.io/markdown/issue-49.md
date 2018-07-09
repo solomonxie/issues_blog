@@ -1464,6 +1464,9 @@ Solve:
 
 It's so much clearer if you see the function in the middle of integration as a `derivative`.
 
+![fundamental_theorem_of_calculus_ animation_](https://user-images.githubusercontent.com/14041622/42437874-ed50bac2-8390-11e8-86f9-280dcd9704d9.gif)
+
+
 Notice that:
 In this theorem, the lower boundary `a` is completely "ignored", 
 and the unknown `t` directly changed to `x`.
