@@ -1966,6 +1966,14 @@ Solve:
 - Operate to get `y`
 ![image](https://user-images.githubusercontent.com/14041622/41337445-d270bfb4-6f21-11e8-81dd-aa63e137cc14.png)
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42442167-912ddba6-839c-11e8-810a-72854466bf97.png)
+Solve:
+- We could easily get the derivative of second equation is `y' = -2/3`.
+- Let's see if two of the derivatives are equal by substitute back the `y` expression:
+![image](https://user-images.githubusercontent.com/14041622/42442753-1c180880-839e-11e8-8b95-4badfcf9083c.png)
+- Clearly they're equal. So the answer is `YES`.
+
 
 ## Exponential model equations
 
