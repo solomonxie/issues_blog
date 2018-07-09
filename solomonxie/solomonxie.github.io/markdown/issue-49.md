@@ -1471,7 +1471,8 @@ Notice that:
 In this theorem, the lower boundary `a` is completely "ignored", 
 and the unknown `t` directly changed to `x`.
 
-[Refer to Khan academy: Fundamental theorem of calculus review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/a/fundamental-theorem-of-calculus-review)
+[►Refer to Khan academy: Fundamental theorem of calculus review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/a/fundamental-theorem-of-calculus-review)
+[`►Jump over to have practice at Khan academy: Contextual and analytical applications of integration (calculator active).`](https://www.khanacademy.org/math/ap-calculus-ab/ab-applications-of-integration-new/ab-8-14/e/applications-of-integration-calculator-active)
 
 ## `1st FTC & 2nd FTC`
 
