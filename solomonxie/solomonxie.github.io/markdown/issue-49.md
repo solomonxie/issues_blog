@@ -3175,6 +3175,7 @@ Solve:
 
 
 # `Absolute vs. Conditional Convergence`
+> This section is not about calculation, but rather about the logic.
 
 [`► Jump over to have practice at Khan academy`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/e/determine-absolute-or-conditional-convergence)
 
