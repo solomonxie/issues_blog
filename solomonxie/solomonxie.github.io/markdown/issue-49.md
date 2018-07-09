@@ -1975,6 +1975,21 @@ Solve:
 - Clearly they're equal. So the answer is `YES`.
 
 
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42444282-3cc96da4-83a2-11e8-9991-a3d8c255eeda.png)
+Solve:
+- Move the same terms to each side:
+![image](https://user-images.githubusercontent.com/14041622/42444745-69d94854-83a3-11e8-9f4f-482aabca23c9.png)
+- Take integral of both side:
+![image](https://user-images.githubusercontent.com/14041622/42444763-761d7446-83a3-11e8-99c0-5219dfafdd63.png)
+- Get that:
+![image](https://user-images.githubusercontent.com/14041622/42444777-7fa6a4b0-83a3-11e8-920a-b58a69579613.png)
+- Plug in `y(0) = 3` to get `C=4`, so the equation then be:
+![image](https://user-images.githubusercontent.com/14041622/42444806-9c69e030-83a3-11e8-9fb6-c21d5c50c4d1.png)
+- Set `y=1` and get `t = ln(1/2) = -ln(2)`
+
+
 ## Exponential model equations
 
 [`►Jump to Khan academy for practice`](https://www.khanacademy.org/math/ap-calculus-ab/ab-differential-equations-new/ab-7-8/e/exponential-model-equations)
