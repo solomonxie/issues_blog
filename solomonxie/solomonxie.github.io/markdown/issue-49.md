@@ -3184,6 +3184,7 @@ Solve:
 ▼We can have a series in **`Given form`** and **`Absolute form`**:
 ![image](https://user-images.githubusercontent.com/14041622/42439540-c6febc20-8395-11e8-8540-f2ad2fa13d26.png)
 
+▲ Usually the **given series** is an `Alternating Series`.
 
 We call the series:
 - `Absolute Convergent`: if the series converges in BOTH **Given form** & **Absolute form**.
