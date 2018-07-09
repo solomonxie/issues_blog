@@ -942,7 +942,10 @@ $ brew install vim
 
 ## 如何自定义snippets
 直接在`~/.vim/snippets/`目录下添加`*.snippets`文件即可。
-（注意：`~/.vim/snippets/`目录是位于所有插件之外的，所以不会因插件更新而被删除。）
+
+注意以下几点：
+- `~/.vim/snippets/`目录是位于所有插件之外的，所以不会因插件更新而被删除。
+- 如果你也安装了`vim-snippets`，那么在trigger同名的时候，vim会在状态栏弹出选项让你选择使用哪个snippets。
 
 比如针对所有python文件，那就在`~/.vim/snippets/`目录下创建一个`python.snippets`文件，内容格式如下：
 ```vim
