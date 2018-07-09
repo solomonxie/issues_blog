@@ -142,8 +142,10 @@ filetype plugin indent on    " required
 直接在`.vimrc`里把Plugin的那一行删除，然后在vim里运行`:PluginUpdate`即可，然后将`~/.vim/bundle/`下该插件的目录删除。
 
 
-## Vim上的Snippets插件
+## Vim UltiSnips自动补全 （Python强依赖）
 > 想要Vim像Sublime一样快速编程，就需要各种好的snippets快速生成一段预备好的代码。一般常用的插件是`UltiSnips`作为生成代码的引擎，`Vim-snippets`插件作为各种语言的常用语句包。
+
+**注意：此插件极其依赖Python特定版本，一旦本地python版本有一丁点变动，整个vim的使用都会完全受阻！**
 
 ### 安装Snippets插件
 在已有Vundle插件管理器的基础上，直接在`.vimrc`文件中加入这两个插件名：
