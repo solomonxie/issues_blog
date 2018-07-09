@@ -3181,12 +3181,13 @@ Solve:
 
 [►Refer to Khan academy: Conditional & absolute convergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/v/conditional-and-absolute-convergence)
 
-▼We can make a series in **`Absolute form`** and **`Alternating form`**:
-![image](https://user-images.githubusercontent.com/14041622/41900472-66a19bc4-7961-11e8-810c-8209f0e97f96.png)
+▼We can have a series in **`Given form`** and **`Absolute form`**:
+![image](https://user-images.githubusercontent.com/14041622/42439540-c6febc20-8395-11e8-8540-f2ad2fa13d26.png)
+
 
 We call the series:
-- `Absolute Convergent`: if the series converges in BOTH **Absolute form** & **Original form**.
-- `Conditional Convergent`: if the series converges ONLY in **Oringal form** BUT NOT in **Absolute Form**.
+- `Absolute Convergent`: if the series converges in BOTH **Given form** & **Absolute form**.
+- `Conditional Convergent`: if the series converges ONLY in **Given form** BUT NOT in **Absolute Form**.
 
 etc., 
 ![image](https://user-images.githubusercontent.com/14041622/41900212-c265fa6e-7960-11e8-99bb-3585053f2686.png)
