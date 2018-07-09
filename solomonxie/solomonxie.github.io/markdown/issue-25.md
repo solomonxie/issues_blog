@@ -934,3 +934,21 @@ $ brew install vim
 :source %
 :PluginInstall
 ```
+完成。
+
+## 使用方法
+输入状态下，直接按<Tab>，就会自动打出相关的snippets预设片段。
+
+
+## 如何自定义snippets
+直接在`~/.vim/snippets/`目录下添加`*.snippets`文件即可。
+（注意：`~/.vim/snippets/`目录是位于所有插件之外的，所以不会因插件更新而被删除。）
+
+比如针对所有python文件，那就在`~/.vim/snippets/`目录下创建一个`python.snippets`文件，内容格式如下：
+```vim
+snippet #!
+    #!/usr/bin/env python
+    # -*- coding: utf-8 -*-
+```
+以上片段，只要你在python文件中输入`#!`并按下<Tab>，就会自动输出定义的那段内容。
+
