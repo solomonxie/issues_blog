@@ -1820,7 +1820,7 @@ Solve:
 
 # `Average Value of Functions`
 
-![image](https://user-images.githubusercontent.com/14041622/41189454-cad460ae-6c00-11e8-9463-598e28d21f54.png)
+![image](https://user-images.githubusercontent.com/14041622/42436507-bc454122-838c-11e8-8b68-c420f0e81872.png)
 
 [Refer to Khan academy: Average value over a closed interval](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/average-function-value-closed-interval)
 [Refer to video: Average Value of a Function on an Interval](https://www.youtube.com/watch?v=K-H86pxiBlk)
