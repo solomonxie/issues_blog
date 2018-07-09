@@ -1476,7 +1476,8 @@ The Fundamental Theorem of Calculus could actually be used in two forms. They ha
 
  (**Notice that boundaries & terms are different**)
 
-![image](https://user-images.githubusercontent.com/14041622/41086991-23674018-6a6e-11e8-99f1-91758ec39d38.png)
+![image](https://user-images.githubusercontent.com/14041622/42437797-b8b629a0-8390-11e8-83f3-126e0216f629.png)
+
 
 
 ## `How to Differentiate Integrals`
@@ -1520,7 +1521,7 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42437231-0ab0a2be-838f-11e8-9a34-02def74b102b.png)
 Solve:
 - We could use the `Second Fundamental Theorem of Calculus`:
-![image](https://user-images.githubusercontent.com/14041622/42437375-88383846-838f-11e8-87e0-caafe4a94218.png)
+![image](https://user-images.githubusercontent.com/14041622/42437825-d0a50856-8390-11e8-8043-2315c53f2cbd.png)
 - which in this case is:
 ![image](https://user-images.githubusercontent.com/14041622/42437405-9a62b2da-838f-11e8-886f-535db3bcc9bb.png)
 - And we move the known terms to one side and keep the asking term at another side:
