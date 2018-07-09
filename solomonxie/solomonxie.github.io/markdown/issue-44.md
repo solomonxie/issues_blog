@@ -526,19 +526,23 @@ How does it work? As the picture below, just simply **scale the distance** from 
 
 ![image](https://user-images.githubusercontent.com/14041622/37085857-17550858-2231-11e8-9e59-6d6273611d47.png)
 
+Areas:
+- Area of Equilateral Triangles: 
+![image](https://user-images.githubusercontent.com/14041622/42433887-ad4e232c-8383-11e8-807e-662349919c69.png)
+
 
 ## Surface Area
-- Surface of cylinder: `2π · r · (r + h)`
-- Surface of sphere: `4π · r²`
+- Surface of Cylinder: `2π · r · (r + h)`
+- Surface of Sphere: `4π · r²`
 
 ## Volume of Cuboids, Rectangular Prisms and Cubes
 Volume = Length · Width ·  Height
 
 ## [Volume of Cone, sphere, Cylinder](http://www.mathsisfun.com/geometry/cone-sphere-cylinder.html)
 
-The volume of a cylinder is: `π · r² · h`
-The volume of a cone is: `1/3 π · r² · h`
-The volume of the sphere is:`4/3 π · r³`
+The volume of a Cylinder is: `π · r² · h`
+The volume of a Cone is: `1/3 π · r² · h`
+The volume of the Sphere is:`4/3 π · r³`
 
 ## [Volume, surface area of Pyramid](http://www.mathsisfun.com/geometry/pyramids.html)
 - The **Volume** of a Pyramid: `1/3 · [Base Area] · Height`
