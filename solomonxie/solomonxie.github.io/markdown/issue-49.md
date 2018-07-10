@@ -3660,6 +3660,15 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42153875-e24c1920-7e16-11e8-9eee-a744364fac76.png)
 
 
+## Evaluate Maclaurin Series
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42505064-372650a0-8470-11e8-93ca-140a8bc23f75.png)
+Solve:
+
+
+
 
 # `Lagrange Error Bound`
 > It's also called the **`Lagrange Error Theorem`**, or **`Taylor's Remainder Theorem`**.
