@@ -3441,6 +3441,8 @@ Solve:
 
 
 # `Power Series`
+> Try to think `Power series = Geometric Series`.
+
 [►Refer to Math24: Power series](https://www.math24.net/power-series/)
 
 `Power series` is actually a **FUNCTION**, that a normal series **multiplied by** a `ratio` which is a variable with powers.
