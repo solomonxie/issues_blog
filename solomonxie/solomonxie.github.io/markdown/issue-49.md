@@ -2274,6 +2274,12 @@ Solve:
 - So the Range would be `(4, 6]`.
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42507505-ff19b3ca-8477-11e8-9950-e00ff0cbc113.png)
+Solve:
+
+
+
 # `Euler's Method`
 Euler's method means an approximation by writing down every critical value in a **table**, and **iterate** many many times until it get closer to the target value.
 
