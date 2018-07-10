@@ -3464,10 +3464,11 @@ In this function it's critical to know that:
 
 We have 2 ways to differentiate series, they work same way:
 - One way is to expand the series with real numbers (1,2,3...) and take their derivatives:
-![image](https://user-images.githubusercontent.com/14041622/42147518-cfce3816-7e00-11e8-9aef-c9f12b5903ce.png)
+![image](https://user-images.githubusercontent.com/14041622/42506420-709b1efc-8474-11e8-9acc-4c91ec14f9aa.png)
 (▲Note that this is constantly true for power series.)
 - Another way is to calculate the term's derivative and then plug in the real numbers (1,2,3):
-![image](https://user-images.githubusercontent.com/14041622/42150751-4df6968c-7e0d-11e8-8067-5478749a54b9.png)
+![image](https://user-images.githubusercontent.com/14041622/42506441-8064c46e-8474-11e8-9c8a-d6d065d6570e.png)
+
 
 Either way will do, it depends on the actual equation for you to choose which way you're gonna use.
 
