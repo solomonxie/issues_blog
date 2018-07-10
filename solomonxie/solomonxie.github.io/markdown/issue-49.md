@@ -2923,9 +2923,9 @@ Test | Description
 ► Divergent Test | Take nth term's limit. (only to test divergence)
 ► Integral Test | Take limit of the series function's integration.
 ► p-series Test | Examine at the `p` value of `1/nᴾ`.
-► Comparison Test | To test **rational expressions**.
-► Ratio Test | To test **factorial fractions**.
-► Root Test | 
+► Comparison Test | Compare the series to a "similar" p-series or geometric-series.
+► Ratio Test | Take limit of two terms ratio.
+► Root Test | Take the limit of nth root of nth term.
 ► Alternating Test |  To test the alternating series.
 
 
