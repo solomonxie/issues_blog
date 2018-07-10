@@ -282,6 +282,7 @@ AWS的Lightsails在创建服务器时允许运行初始脚本，这个非常方�
 ![image](https://user-images.githubusercontent.com/14041622/41411213-9566f1ea-700e-11e8-8be1-6101491b3966.png)
 
 
+
 以下为脚本内容：
 ```sh
 #! /bin/bash
