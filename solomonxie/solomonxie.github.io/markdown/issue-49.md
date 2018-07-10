@@ -2972,6 +2972,11 @@ Test | Description
 
 
 
+## Absolute Convergence & Conditional Convergence
+
+![image](https://user-images.githubusercontent.com/14041622/42500696-8ced4f4a-8464-11e8-81c7-0b25c409a96d.png)
+
+
 # `Divergent Test`
 > It's also called the `nth term divergence test`.
 The test can only tell if the series is divergent or not. It CAN NOT tell if it converges.
@@ -3238,8 +3243,10 @@ Solve:
 
 [`► Jump over to have practice at Khan academy`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/e/determine-absolute-or-conditional-convergence)
 
-
 [►Refer to Khan academy: Conditional & absolute convergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/v/conditional-and-absolute-convergence)
+
+![image](https://user-images.githubusercontent.com/14041622/42500696-8ced4f4a-8464-11e8-81c7-0b25c409a96d.png)
+
 
 ▼We can have a series in **`Given form`** and **`Absolute form`**:
 ![image](https://user-images.githubusercontent.com/14041622/42439540-c6febc20-8395-11e8-8540-f2ad2fa13d26.png)
