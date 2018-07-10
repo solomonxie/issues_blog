@@ -2956,6 +2956,18 @@ Find a p-series or geometric-series looks "similar" to the given series, and com
 ![image](https://user-images.githubusercontent.com/14041622/42499264-e9896ecc-8460-11e8-8893-e0aa1c6d20fd.png)
 
 
+## Ratio Test
+****
+
+![image](https://user-images.githubusercontent.com/14041622/42499429-5e0482be-8461-11e8-83f3-6253a90e52d5.png)
+
+
+## Root Test
+**Take the limit of nth root of nth term.**
+
+![image](https://user-images.githubusercontent.com/14041622/42499497-8579daba-8461-11e8-87bf-201f630a047f.png)
+
+
 
 # `Divergent Test`
 > It's also called the `nth term divergence test`.
