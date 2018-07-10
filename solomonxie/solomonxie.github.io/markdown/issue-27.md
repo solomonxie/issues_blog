@@ -1880,8 +1880,10 @@ alias unproxy='unset all_proxy'
 
 # 命令行下载视频
 
-## `you-get`
+## `you-get` 支持站点 ~100
 对国内支持比较好，使用方便，语法简单。
+
+> 支持：YouTube, Twitter, VK, Vine, Vimeo, Vidto, Videomega, Veoh, Tumblr, TED, SoundCloud, SHOWROOM, Pinterest, MusicPlayOn, MTV81, Mixcloud, Metacafe, Magisto, Khan, Academy, Internet, Archive, Instagram, InfoQ, Imgur, Heavy, Music, Archive, Google+, Freesound, Flickr, FC2, Video, Facebook, eHow, Dailymotion, Coub, CBS, Bandcamp, AliveThai, interest.me, 755, ナナゴーゴー, niconico, ニコニコ動画, 163, 网易视频, 网易云音乐, 56网, AcFun, Baidu, 百度贴吧, 爆米花网, bilibili, 哔哩哔哩, Dilidili, 豆瓣, 斗鱼, Panda, 熊猫, 凤凰视频, 风行网, iQIYI, 爱奇艺, 激动网, 酷6网, 酷狗音乐, 酷我音乐, 乐视网, 荔枝FM, 秒拍, MioMio弹幕网, 痞客邦, PPTV聚力, 齐鲁网, QQ, 腾讯视频, 企鹅直播, Sina, 新浪视频, 微博秒拍视频, Sohu, 搜狐视频, Tudou, 土豆, 虾米, 阳光卫视, 音悦Tai, Youku, 优酷, 战旗TV, 央视网, 花瓣, Naver, 네이버, 芒果TV, 火猫TV, 全民直播, 阳光宽频网, 西瓜视频, 快手, 抖音
 
 安装：
 ```sh
@@ -1909,16 +1911,14 @@ $ you-get --itag=18 <URL>
 ```
 
 
-## 支持站点 (~100)
 
-> YouTube, Twitter, VK, Vine, Vimeo, Vidto, Videomega, Veoh, Tumblr, TED, SoundCloud, SHOWROOM, Pinterest, MusicPlayOn, MTV81, Mixcloud, Metacafe, Magisto, Khan, Academy, Internet, Archive, Instagram, InfoQ, Imgur, Heavy, Music, Archive, Google+, Freesound, Flickr, FC2, Video, Facebook, eHow, Dailymotion, Coub, CBS, Bandcamp, AliveThai, interest.me, 755, ナナゴーゴー, niconico, ニコニコ動画, 163, 网易视频, 网易云音乐, 56网, AcFun, Baidu, 百度贴吧, 爆米花网, bilibili, 哔哩哔哩, Dilidili, 豆瓣, 斗鱼, Panda, 熊猫, 凤凰视频, 风行网, iQIYI, 爱奇艺, 激动网, 酷6网, 酷狗音乐, 酷我音乐, 乐视网, 荔枝FM, 秒拍, MioMio弹幕网, 痞客邦, PPTV聚力, 齐鲁网, QQ, 腾讯视频, 企鹅直播, Sina, 新浪视频, 微博秒拍视频, Sohu, 搜狐视频, Tudou, 土豆, 虾米, 阳光卫视, 音悦Tai, Youku, 优酷, 战旗TV, 央视网, 花瓣, Naver, 네이버, 芒果TV, 火猫TV, 全民直播, 阳光宽频网, 西瓜视频, 快手, 抖音
-
-
-
-
-
-## `youtube-dl`
+## `youtube-dl` 支持站点 1000+
 最强大的命令行下载器，支持1000+网站，几乎包含了**所有国家**的**所有主流**视频网站。
+
+> 常用支持站点：
+Youtube, facebook, ESPN, Instagram, 土豆，优酷，bilibili，CCTV，音悦台，爱奇艺，搜狐，网易云音乐，虾米音乐，QQ音乐
+[参考youtube-dl源代码。](https://github.com/rg3/youtube-dl/tree/master/youtube_dl/extractor)目录下有很多extractor脚本，每个脚本代表一个视频网站。
+[参考：Supported sites](https://rg3.github.io/youtube-dl/supportedsites.html)
 
 安装：
 ```sh
@@ -1937,10 +1937,5 @@ $ youtube-dl <URL>
 $ youtube-dl --all-subs --write-auto-sub --skip-download https://youtu.be/3mhx5XUYmGw
 ```
 
-### 支持站点 (1000+)
-[参考youtube-dl源代码。](https://github.com/rg3/youtube-dl/tree/master/youtube_dl/extractor)目录下有很多extractor脚本，每个脚本代表一个视频网站。
-[参考：Supported sites](https://rg3.github.io/youtube-dl/supportedsites.html)
-
-常用如下：
-> Youtube, facebook, ESPN, Instagram, 土豆，优酷，bilibili，CCTV，音悦台，爱奇艺，搜狐，网易云音乐，虾米音乐，QQ音乐
+### 
 
