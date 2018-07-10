@@ -2940,16 +2940,9 @@ The test can only tell if the series is divergent or not. It CAN NOT tell if it 
 [Jump over to Khan academy practice: nth term test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/nth-term-test)
 [Refer to Khan academy: nth term divergence test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/divergence-test)
 
-Here is the divergent test.
-For an infinite series:
-![image](https://user-images.githubusercontent.com/14041622/41808714-36a0a8ec-7714-11e8-8dca-f3c2e8ac32bd.png)
+▼Here is the divergent test, very simple:
+![image](https://user-images.githubusercontent.com/14041622/42498978-33d898c8-8460-11e8-9ba7-ea3f34903b9f.png)
 
-Take the **LIMIT** of the nth term:
-![image](https://user-images.githubusercontent.com/14041622/41808753-dea2299e-7714-11e8-983b-5316d3f434ba.png)
-
-if:
-- `Limit = 0`: No conclusion.
-- **Divergent.**
 
 
 ### Example
