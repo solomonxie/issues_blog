@@ -3662,10 +3662,9 @@ Solve:
 
 ## Evaluate Maclaurin Series
 
+To evaluate a Maclaurin series, we need to **convert the series to a function**,  and then evaluate the function.
 
-### Example
-![image](https://user-images.githubusercontent.com/14041622/42505064-372650a0-8470-11e8-93ca-140a8bc23f75.png)
-Solve:
+[`▼Jump forward to have a look at the note: Maclaurin Series of Common functions`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-402940122)
 
 
 
