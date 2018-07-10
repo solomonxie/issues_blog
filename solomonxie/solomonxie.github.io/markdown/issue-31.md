@@ -275,6 +275,8 @@ $ vncserver
 [参考阿里云官方参考文章。](https://help.aliyun.com/knowledge_detail/59330.html)
 
 
+
+
 # 远程服务器一键安装开启Shadowsocks脚本
 
 AWS的Lightsails在创建服务器时允许运行初始脚本，这个非常方便，省的我一个一个去敲代码了。
