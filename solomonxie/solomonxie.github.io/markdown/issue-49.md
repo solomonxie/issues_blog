@@ -2913,6 +2913,7 @@ Solve:
 
 
 # `Convergence Tests`
+> Here lists common Convergence Tests and overview of each. Details are singled out to each section.
 
 `Convergence test` are a set of tests to determine wether the series **CONVERGENT** or **DIVERGENT**.
 It includes:
@@ -2926,6 +2927,10 @@ Test | Description
 ► Ratio Test | To test **factorial fractions**.
 ► Root Test | 
 ► Alternating Test |  To test the alternating series.
+
+
+## Divergent Test
+
 
 
 # `Divergent Test`
