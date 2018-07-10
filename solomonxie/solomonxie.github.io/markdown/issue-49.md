@@ -2930,11 +2930,9 @@ Test | Description
 
 
 ## Divergent Test
-Very simple test:
-- Take the limit of nth term:
-![image](https://user-images.githubusercontent.com/14041622/42499079-72e3882a-8460-11e8-9de5-a858470a975e.png)
-- If the `limit = 0`, there's no conclusion.
-- Otherwise, it's **divergent**.
+> **Take the limit of nth term, if it's NOT ZERO, then it's DIVERGENT.**
+
+![image](https://user-images.githubusercontent.com/14041622/42499806-4fd8befc-8462-11e8-944d-c5bd4ff20c26.png)
 
 
 ## Integral Test
@@ -2945,25 +2943,25 @@ Very simple test:
 
 
 ## Direct Comparison Test
-Find a p-series or geometric-series looks "similar" to the given series, and compare them:
+> **Compare the series to a "similar" p-series or geometric-series.**
 
 ![image](https://user-images.githubusercontent.com/14041622/42499229-d46403cc-8460-11e8-9179-75850d9eed21.png)
 
 
 ## Limit Comparison Test
-Find a p-series or geometric-series looks "similar" to the given series, and compare them:
+> **Compare the series to a "similar" p-series or geometric-series.**
 
 ![image](https://user-images.githubusercontent.com/14041622/42499264-e9896ecc-8460-11e8-8893-e0aa1c6d20fd.png)
 
 
 ## Ratio Test
-****
+> **Take limit of two terms ratio.**
 
 ![image](https://user-images.githubusercontent.com/14041622/42499429-5e0482be-8461-11e8-83f3-6253a90e52d5.png)
 
 
 ## Root Test
-**Take the limit of nth root of nth term.**
+> **Take the limit of nth root of nth term.**
 
 ![image](https://user-images.githubusercontent.com/14041622/42499497-8579daba-8461-11e8-87bf-201f630a047f.png)
 
