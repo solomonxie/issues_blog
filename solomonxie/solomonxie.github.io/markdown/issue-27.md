@@ -972,8 +972,13 @@ E: Sub-process /usr/bin/dpkg returned an error code (1)
 尝试了网上无数种apt-get purge, clean, -f install等等等等，都不行。
 于是看到了[一篇中文文章](https://www.cnblogs.com/anpengapple/p/5098960.html)两句话解决：
 ```shell
-sudo mv /var/lib/dpkg/info/ /var/lib/dpkg/info_backup/
-sudo mkdir /var/lib/dpkg/info/
+# 删除锁
+sudo mv /var/lib/dpkg/info/ /tmp
+sudo mv /var/lib/apt/lists/lock /tmp
+sudo mv /var/cache/apt/archives/lock /tmp
+sudo mv /var/lib/dpkg/lock /tmp
+# 重新配置
+sudo dpkg --configure -a
 ```
 意思是，主要出错原因在于`/var/lib/dpkg/info/`文件夹，把它备份或删掉就好了，然后再创建一个同名文件夹。
 之后`sudo apt-get upgrade`升级试试，一切完好！
