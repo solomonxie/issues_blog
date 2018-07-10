@@ -3200,8 +3200,8 @@ Strategy:
 ![image](https://user-images.githubusercontent.com/14041622/42371381-ed222776-8141-11e8-9c90-4a725b80ae39.png)
 - Take limit of the rest part:
 ![image](https://user-images.githubusercontent.com/14041622/41907282-fa4a1a66-7972-11e8-86ef-b9f1b3bfe02a.png)
-- If the `Limit = 0`, then the series **CONVERGES**.
-- If not, it diverges.
+- If `Limit = 0`, then the series **CONVERGES**.
+- If `Limit ≠ 0`, then the series **DIVERGES**.
 
 
 
