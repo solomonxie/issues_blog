@@ -2977,7 +2977,7 @@ Test | Description
 ![image](https://user-images.githubusercontent.com/14041622/42500696-8ced4f4a-8464-11e8-81c7-0b25c409a96d.png)
 
 
-# `Divergent Test`
+# `nth Term Test`
 > It's also called the `nth term divergence test`.
 The test can only tell if the series is divergent or not. It CAN NOT tell if it converges.
 
