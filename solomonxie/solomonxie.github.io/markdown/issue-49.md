@@ -2930,6 +2930,14 @@ Test | Description
 
 
 ## Divergent Test
+Very simple test:
+- Take the limit of nth term:
+![image](https://user-images.githubusercontent.com/14041622/42499079-72e3882a-8460-11e8-9de5-a858470a975e.png)
+- If the `limit = 0`, there's no conclusion.
+- Otherwise, it's **divergent**.
+
+
+## Integral Test
 
 
 
