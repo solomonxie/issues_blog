@@ -2966,6 +2966,11 @@ Test | Description
 ![image](https://user-images.githubusercontent.com/14041622/42499497-8579daba-8461-11e8-87bf-201f630a047f.png)
 
 
+## Alternating Series Test
+
+![image](https://user-images.githubusercontent.com/14041622/42500239-4404186e-8463-11e8-9271-ab3e066198de.png)
+
+
 
 # `Divergent Test`
 > It's also called the `nth term divergence test`.
