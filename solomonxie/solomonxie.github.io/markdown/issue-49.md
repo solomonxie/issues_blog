@@ -3445,9 +3445,7 @@ Solve:
 
 [►Refer to Math24: Power series](https://www.math24.net/power-series/)
 
-`Power series` is actually a **FUNCTION**, that a normal series **multiplied by** a `ratio` which is a variable with powers.
-
-And it's actually the `Geometric series` in a more general and abstract form.
+`Power series` is actually the `Geometric series` in a more general and abstract form.
 
 ![image](https://user-images.githubusercontent.com/14041622/42147291-a00d5af4-7dff-11e8-9bbf-7ae10b740788.png)
 
