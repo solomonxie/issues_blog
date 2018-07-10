@@ -2948,9 +2948,8 @@ Take the **LIMIT** of the nth term:
 ![image](https://user-images.githubusercontent.com/14041622/41808753-dea2299e-7714-11e8-983b-5316d3f434ba.png)
 
 if:
-- `Limit DOES NOT exists`: The series is **Divergent**.
-- `Limit = nonzero number`: The series is **Divergent**.
-- `Limit = 0`: We can't conclude anything.
+- `Limit = 0`: No conclusion.
+- **Divergent.**
 
 
 ### Example
