@@ -1881,7 +1881,7 @@ alias unproxy='unset all_proxy'
 # 命令行下载视频
 
 ## `you-get` 支持站点 ~100
-对国内支持比较好，使用方便，语法简单。
+对国内支持比较好，国内视频下载速度极快（比youtube-dl快很多倍），使用方便，语法简单。
 
 > 支持：YouTube, Twitter, VK, Vine, Vimeo, Vidto, Videomega, Veoh, Tumblr, TED, SoundCloud, SHOWROOM, Pinterest, MusicPlayOn, MTV81, Mixcloud, Metacafe, Magisto, Khan, Academy, Internet, Archive, Instagram, InfoQ, Imgur, Heavy, Music, Archive, Google+, Freesound, Flickr, FC2, Video, Facebook, eHow, Dailymotion, Coub, CBS, Bandcamp, AliveThai, interest.me, 755, ナナゴーゴー, niconico, ニコニコ動画, 163, 网易视频, 网易云音乐, 56网, AcFun, Baidu, 百度贴吧, 爆米花网, bilibili, 哔哩哔哩, Dilidili, 豆瓣, 斗鱼, Panda, 熊猫, 凤凰视频, 风行网, iQIYI, 爱奇艺, 激动网, 酷6网, 酷狗音乐, 酷我音乐, 乐视网, 荔枝FM, 秒拍, MioMio弹幕网, 痞客邦, PPTV聚力, 齐鲁网, QQ, 腾讯视频, 企鹅直播, Sina, 新浪视频, 微博秒拍视频, Sohu, 搜狐视频, Tudou, 土豆, 虾米, 阳光卫视, 音悦Tai, Youku, 优酷, 战旗TV, 央视网, 花瓣, Naver, 네이버, 芒果TV, 火猫TV, 全民直播, 阳光宽频网, 西瓜视频, 快手, 抖音
 
