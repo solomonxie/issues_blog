@@ -8,6 +8,9 @@
 
 # `The creation` Genesis 1~2
 
+![Cover of 1534 Luther Bible, showing the created world of Genesis 1](https://user-images.githubusercontent.com/14041622/41820741-fa5e2e36-7808-11e8-9709-d5facc8b54d4.png)
+
+
 ## Gen 1
 Genesis one is all about how the universe and all creatures were created. 
 
@@ -113,6 +116,9 @@ Can’t say God is not `the first and the best doctor and biologist`.
 # `The First Man's fall` Genesis 3
 Genesis three is the start of `Human's Fall`.
 
+![image](https://user-images.githubusercontent.com/14041622/41820637-9e23ebca-7807-11e8-9095-22f4482e8069.png)
+
+
 ### Gen 3:1
 > "Now" the serpent...
 Q: `Now` emphasise the time moving or the nature of a living creature’s changing? 
@@ -173,6 +179,9 @@ Answered: Cain was set to the east.
 
 
 # `Cain’s psychology, biology and genealogy` Genesis 4
+
+![Giovanni Domenico Ferretti, Cain and Abel, 1740](https://user-images.githubusercontent.com/14041622/41817112-182d27a6-77c7-11e8-858a-fa764d6e57e2.png)
+
 
 ### Genesis 4:1
 > Q: `Know his wife` is only meaning `making sex`? 
@@ -237,6 +246,9 @@ And Nosh could have directed instruct Noah about everything.
 
 # `Chaos before The Flood` Genesis 6
 
+![The Sons of God and the Daughters of Men](https://user-images.githubusercontent.com/14041622/41817079-74ad3896-77c6-11e8-9db5-b5029380110a.png)
+[▲Refer to The Sons of God and the Daughters of Men](http://digestinggod.blogspot.com/2011/07/sons-of-god-and-daughters-of-men.html)
+
 ### Genesis 6:2
 > Does `sons of God` refer to Angels? 
 Corrupted angles
@@ -294,3 +306,41 @@ And animals **Might Not** be as various as now, since it’s just a few hundreds
 ### Genesis 6:22
 > Says so easy, but God knows how hard Noah achieve all those missions. 
 Each single one might be a `world class challenge`.
+
+
+# `Coming of the Great Flood` Genesis 7
+
+![image](https://user-images.githubusercontent.com/14041622/41817050-06b8e5ba-77c6-11e8-878e-17c38e61a041.png)
+
+
+### Genesis 7:2
+> (✔︎) Q: Noah had already had all kinds of animal, what does it mean to take 7 pairs ?
+A: It actually can be translated as "7 pairs of each kind", that makes more sense.
+
+### Genesis 7:11
+> In regard to this date so detailed , we could easily conduct what exact day did the great Flood came.
+
+> Graph: How did it look like that the window was opened?
+
+### Genesis 7:14
+> Research: Since then they’ve got the knowledge of categorise all creatures, what’s the term for that ? Biology?
+
+### Genesis 7:17
+> "Rose high above the earth", means the flood was higher than the highest point of any mountain on earth.
+Imagine that, no creature would survive in this condition (except some sea creatures). Even bird had no place to land.
+
+### Genesis 7:20
+> "`fifteen cubits` deep."
+Exact number ! It’s good for researching
+
+### Genesis 7:19
+> Probably the waters in the ancient time were not THAT deep like now. But because this Flood, many mountains were still hidden in waters, that human haven’t fully discovered yet
+
+### Genesis 7:21
+> Clearly said “sweaming creatures” died, so it even included fish, shark, whales
+
+### Genesis 7:23
+> Birds died because nowhere to stand to rest and to eat
+
+### Genesis 7:24
+> Stats: How to calculate or stimulate the situation for earth with these number

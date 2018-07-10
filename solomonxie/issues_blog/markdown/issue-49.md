@@ -243,6 +243,18 @@ In another word, the point is not CONTINUOUS, it's `Jump Discontinuity`, or `Rem
 ![image](https://user-images.githubusercontent.com/14041622/40108012-64c1e426-592c-11e8-99c9-357d59ee9a87.png)
 
 
+## Vertical Tangent
+We know that the `Slope of Vertical Tangent` is **UNDEFINED**, 
+on the contrary:
+**IT IS A VERTICAL TANGENT, IF:**
+- The derivative `dy/dx = undefined`, or
+- The `denominator of derivative's expression = 0`.
+
+
+## Horizontal Tangent
+**It's a Horizontal Tangent, if:**
+- `dy/dx = 0`.
+
 
 # `Derivative equation`
 The idea of derivative equation is quite simple: **The LIMIT of the SLOPE.**
@@ -313,9 +325,9 @@ Solve:
 
 ![image](https://user-images.githubusercontent.com/14041622/40227636-a305cc52-5ac1-11e8-9fbe-ac7e11dd4a6f.png)
 
-[Refer to Math is fun: Derivative Rules](https://www.mathsisfun.com/calculus/derivatives-rules.html)
-
 > [`Jump over to Basic Integral Rules`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-395356656)
+
+[▼Refer to Math is fun: Derivative Rules](https://www.mathsisfun.com/calculus/derivatives-rules.html)
 
 Rules | Function | Derivative
 -- | -- | --
@@ -328,16 +340,20 @@ Product Rule | f · g | fg’ + f’ g
 Quotient Rule | f / g | (f’g − g’f ) / g²
 Reciprocal Rule | 1 / f | −f’ / f²
 Chain Rule | f(g(x)) | f’(g(x)) · g’(x)
-Exponential Rules | eˣ | eˣ
+Exponent Rule | eˣ | eˣ
                      | aˣ | aˣ · ln(a)
-Log Rules | ln(x) | 1/x
-                    | log[a(x)] | 1 / (x·ln(a))
+Natural Log Rule | ln(x) | 1/x
+Log Rule | ![image](https://user-images.githubusercontent.com/14041622/42376995-ed73ca2e-8153-11e8-8388-8fbbc4609595.png) | ![image](https://user-images.githubusercontent.com/14041622/42377002-f7ef75ac-8153-11e8-8ca9-fd555c95144b.png)
 Trig Rules    | sin(x) | cos(x)
                                                    | cos(x) | −sin(x)
-                                                   | tan(x) | sec²(x)
-Inverse Trig Rules | sin⁻¹(x) | 1/√(1−x²)
-                                     | cos⁻¹(x) | −1/√(1−x²)
-                                     | tan⁻¹(x) | 1/(1+x²)
+                                                   | tan(x) | sec²(x) or 1/cos²(x)
+Inverse Trig Rules | arcsin(x) | 1/√(1−x²)
+                                     | arccos(x) | −1/√(1−x²)
+                                     | arctan⁻¹(x) | 1/(1+x²)
+
+
+[▼Refer to Wiki: Differentiation rules](https://en.wikipedia.org/wiki/Differentiation_rules)
+![image](https://user-images.githubusercontent.com/14041622/42408397-9fbb09ae-81fe-11e8-8a2e-d7ba9f89dbf3.png)
 
 
 
@@ -506,6 +522,42 @@ Solve (Same with above examples):
 - Now let's see what is `sin(x)` equal to:
 ![image](https://user-images.githubusercontent.com/14041622/40304151-1b93eee8-5d28-11e8-970b-04df4099abcb.png)
 - All done.
+
+## `Second derivatives of implicit equations`
+
+[`► Jump over to Khan academy for practice.`](https://www.khanacademy.org/math/ap-calculus-bc?t=practice)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42376012-2e2d845a-8150-11e8-9f8a-2a58368ac08a.png)
+Solve:
+- The first derivative is:
+![image](https://user-images.githubusercontent.com/14041622/42376194-d570d8f2-8150-11e8-8a55-0c4074fdfb3f.png)
+- The second derivative is:
+![image](https://user-images.githubusercontent.com/14041622/42376217-e8875f56-8150-11e8-9068-dcfa6f6895a0.png)
+- Plug in `y=1`, and get:
+![image](https://user-images.githubusercontent.com/14041622/42376247-f744cace-8150-11e8-8e7b-2563ecc9a1ce.png)
+
+
+
+## `Vertical & Horizontal Tangents of Implicit Equations`
+
+[`► Jump over to Khan academy for practice.`](https://www.khanacademy.org/math/ap-calculus-bc?t=practice)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42391885-65e08432-8183-11e8-9d05-d4c14413999f.png)
+Solve:
+- Plug in `y = 0` into the equation and get that `x = -6`, which is the answer.
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42391958-b03754de-8183-11e8-8dad-bbf8cdbc3258.png)
+Solve:
+- To have a `Vertical Tangent`, we have to let the **derivative** become `Undefined`,
+- which in this case is to let the denominator equal to zero:
+![image](https://user-images.githubusercontent.com/14041622/42392639-1a998264-8186-11e8-9a48-99f6b296c1f9.png)
+- Solve this equation out we get that `x = 3y²`, which means this relationship is true at the point of vertical tangent line.
+- Plug that back to the original function to get `y = -1`, which means the vertical tangent goes through this point.
+- Substitute y back and get `x = 3`
+- The answer is `(3, -1)`.
 
 
 # `Related Rates`
@@ -699,10 +751,11 @@ Which also means that, if the conditions are satisfied, then there **MUST BE** a
 `L`Hopital's Rule helps us to find the limit of an `Undefined` limits, like `0/0`, `∞/∞` and such.
 It's quite simple to apply and very convenient to solve some problems.
 
+[`►Jump back to review the previous note: Asymptote of Rational Expressions`](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-374894945)
+[`► Jump over to Khan academy for practice: Disguised derivatives`](https://www.khanacademy.org/math/ap-calculus-bc?t=practice)
 [Refer to `L'Hôpital's rule`](https://en.wikipedia.org/wiki/L%27H%C3%B4pital%27s_rule)
 
 From my experience, the L'Hopital's Rule is so often been used that we didn't even realize. Actually it's been used almost every time when we are to evaluate the **LIMITS OF RATIONAL EXPRESSIONS**.
-[►Jump back to review the previous note: Asymptote of Rational Expressions](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-374894945)
 
 
 ![image](https://user-images.githubusercontent.com/14041622/40418356-bb326906-5eb4-11e8-9255-c5987bc96b5e.png)
@@ -1411,11 +1464,15 @@ Solve:
 
 It's so much clearer if you see the function in the middle of integration as a `derivative`.
 
+![fundamental_theorem_of_calculus_ animation_](https://user-images.githubusercontent.com/14041622/42437874-ed50bac2-8390-11e8-86f9-280dcd9704d9.gif)
+
+
 Notice that:
 In this theorem, the lower boundary `a` is completely "ignored", 
 and the unknown `t` directly changed to `x`.
 
-[Refer to Khan academy: Fundamental theorem of calculus review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/a/fundamental-theorem-of-calculus-review)
+[►Refer to Khan academy: Fundamental theorem of calculus review](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/a/fundamental-theorem-of-calculus-review)
+[`►Jump over to have practice at Khan academy: Contextual and analytical applications of integration (calculator active).`](https://www.khanacademy.org/math/ap-calculus-ab/ab-applications-of-integration-new/ab-8-14/e/applications-of-integration-calculator-active)
 
 ## `1st FTC & 2nd FTC`
 
@@ -1423,7 +1480,8 @@ The Fundamental Theorem of Calculus could actually be used in two forms. They ha
 
  (**Notice that boundaries & terms are different**)
 
-![image](https://user-images.githubusercontent.com/14041622/41086991-23674018-6a6e-11e8-99f1-91758ec39d38.png)
+![image](https://user-images.githubusercontent.com/14041622/42437797-b8b629a0-8390-11e8-83f3-126e0216f629.png)
+
 
 
 ## `How to Differentiate Integrals`
@@ -1463,6 +1521,18 @@ Solve:
 
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42437231-0ab0a2be-838f-11e8-9a34-02def74b102b.png)
+Solve:
+- We could use the `Second Fundamental Theorem of Calculus`:
+![image](https://user-images.githubusercontent.com/14041622/42437825-d0a50856-8390-11e8-8043-2315c53f2cbd.png)
+- which in this case is:
+![image](https://user-images.githubusercontent.com/14041622/42437405-9a62b2da-838f-11e8-886f-535db3bcc9bb.png)
+- And we move the known terms to one side and keep the asking term at another side:
+![image](https://user-images.githubusercontent.com/14041622/42437475-d27d1138-838f-11e8-99a1-83c730375527.png)
+
+
+
 # Basic Integral Rules
 Remember there're a bunch of `Differential Rules` for calculating derivatives.
 And for integration we need to reverse them.
@@ -1486,6 +1556,10 @@ And for integration we need to reverse them.
 ![image](https://user-images.githubusercontent.com/14041622/41217269-f8ed1334-6d89-11e8-90f1-4dd4c6040a65.png)
 
 
+## Special Rules
+![image](https://user-images.githubusercontent.com/14041622/42393620-842ac028-8189-11e8-820a-3846a1481fd6.png)
+
+![image](https://user-images.githubusercontent.com/14041622/42394041-50d73862-818b-11e8-95de-b3befa88c67a.png)
 
 
 
@@ -1495,6 +1569,29 @@ And for integration we need to reverse them.
 ![image](https://user-images.githubusercontent.com/14041622/41094016-5f50cdb8-6a7f-11e8-9375-d21ffed56e2f.png)
 Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41094031-6b987d6e-6a7f-11e8-8d38-b4fe86eb7d8e.png)
+
+
+
+## Integration using completing the square
+![image](https://user-images.githubusercontent.com/14041622/42393904-be29c282-818a-11e8-92e7-eb5b467c775d.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42393897-b88701aa-818a-11e8-9fd3-afb70954b9bb.png)
+Solve:
+- Rewrite it to this form:
+![image](https://user-images.githubusercontent.com/14041622/42393935-e08f0134-818a-11e8-9737-a9df35dd931c.png)
+- Use the special arctan rule to solve it, and get:
+![image](https://user-images.githubusercontent.com/14041622/42393986-1ec12590-818b-11e8-978e-92d51567edac.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42394154-b283fd16-818b-11e8-8e43-9aae620c70c8.png)
+Solve:
+Solve:
+- Rewrite it to this form:
+![image](https://user-images.githubusercontent.com/14041622/42394242-0731f8cc-818c-11e8-88da-560f1e7960df.png)
+- Use the special arctan rule to solve it, and get:
+![image](https://user-images.githubusercontent.com/14041622/42394255-13e855f2-818c-11e8-8628-fc82f0677f78.png)
 
 
 
@@ -1740,7 +1837,7 @@ Solve:
 
 # `Average Value of Functions`
 
-![image](https://user-images.githubusercontent.com/14041622/41189454-cad460ae-6c00-11e8-9463-598e28d21f54.png)
+![image](https://user-images.githubusercontent.com/14041622/42436507-bc454122-838c-11e8-8b68-c420f0e81872.png)
 
 [Refer to Khan academy: Average value over a closed interval](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/average-function-value-closed-interval)
 [Refer to video: Average Value of a Function on an Interval](https://www.youtube.com/watch?v=K-H86pxiBlk)
@@ -1802,7 +1899,14 @@ Solve:
 - `M(8) = 150 · e^(8 · ln(0.5)/13) ≃ 97.9  
 
 
-# Why can we operate `dy/dx` algebraically?
+
+
+# `Parametric Equations Differentiation`
+
+[►Refer to Khan academy: Parametric equations differentiation](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-1/v/parametric-function-differentiation)
+[`►Jump over to have some practice at Khan academy.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-1/e/differentiate-parametric-functions)
+
+## Why can we operate `dy/dx` algebraically?
 
 [Refer to Khan academy: Addressing treating differentials algebraically](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/v/addressing-treating-differentials-algebraically)
 
@@ -1810,9 +1914,40 @@ Solve:
 
 ![image](https://user-images.githubusercontent.com/14041622/41278167-c1f8eace-6e5b-11e8-8a74-680783300059.png)
 
+## Differentiate Parametric Equations
+
+▼How to take derivative of a `parametric differential equation`?
+![image](https://user-images.githubusercontent.com/14041622/42408083-09482802-81fa-11e8-81d2-ce60465673b4.png)
 
 
-# `Separable Equations`
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42407942-99fc97a0-81f7-11e8-94ca-7dfc3787ee47.png)
+Solve:
+- Let's do some trick to `dy/dt` and use this one instead:
+![image](https://user-images.githubusercontent.com/14041622/42408123-2d156d4e-81fa-11e8-9d9e-296e67feefd6.png)
+- Substitute the derivatives back:
+![image](https://user-images.githubusercontent.com/14041622/42407997-b7a531da-81f8-11e8-90cc-93bcf4546e31.png)
+- Plug in `t=1` to get the answer:
+![image](https://user-images.githubusercontent.com/14041622/42408000-c3f3e332-81f8-11e8-847a-1247c66bedd1.png)
+
+
+
+## Second derivatives of Parametric functions
+
+![image](https://user-images.githubusercontent.com/14041622/42408348-de90aa86-81fd-11e8-995c-65569a529746.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42408184-065424f6-81fb-11e8-91fd-c5f18248e545.png)
+Solve:
+- Follow the rule, we got the first derivative:
+![image](https://user-images.githubusercontent.com/14041622/42408217-a701cfe8-81fb-11e8-820c-fddeaeb561f7.png)
+- And let's apply the rule for second derivative:
+![image](https://user-images.githubusercontent.com/14041622/42408227-cb01d0be-81fb-11e8-96fd-aa66b57a154b.png)
+
+
+
+# `Separable Differential Equations`
 
 This section is an essential method for solving differential equations.
 Especially about the `initial condition`, it is the critical information for getting the original function.
@@ -1830,6 +1965,68 @@ Solve:
 - Then take integral of each side
 - Operate to get `y`
 ![image](https://user-images.githubusercontent.com/14041622/41337445-d270bfb4-6f21-11e8-81dd-aa63e137cc14.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42442167-912ddba6-839c-11e8-810a-72854466bf97.png)
+Solve:
+- We could easily get the derivative of second equation is `y' = -2/3`.
+- Let's see if two of the derivatives are equal by substitute back the `y` expression:
+![image](https://user-images.githubusercontent.com/14041622/42442753-1c180880-839e-11e8-8b95-4badfcf9083c.png)
+- Clearly they're equal. So the answer is `YES`.
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42444282-3cc96da4-83a2-11e8-9991-a3d8c255eeda.png)
+Solve:
+- Move the same terms to each side:
+![image](https://user-images.githubusercontent.com/14041622/42444745-69d94854-83a3-11e8-9f4f-482aabca23c9.png)
+- Take integral of both side:
+![image](https://user-images.githubusercontent.com/14041622/42444763-761d7446-83a3-11e8-99c0-5219dfafdd63.png)
+- Get that:
+![image](https://user-images.githubusercontent.com/14041622/42444777-7fa6a4b0-83a3-11e8-920a-b58a69579613.png)
+- Plug in `y(0) = 3` to get `C=4`, so the equation then be:
+![image](https://user-images.githubusercontent.com/14041622/42444806-9c69e030-83a3-11e8-9fb6-c21d5c50c4d1.png)
+- Set `y=1` and get `t = ln(1/2) = -ln(2)`
+
+
+## Exponential model equations
+
+[`►Jump to Khan academy for practice`](https://www.khanacademy.org/math/ap-calculus-ab/ab-differential-equations-new/ab-7-8/e/exponential-model-equations)
+
+[►Refer to Khan academy: Worked example: exponential solution to differential equation](https://www.khanacademy.org/math/ap-calculus-ab/ab-differential-equations-new/ab-7-8/v/exponential-solution-to-differential-equation)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42394651-7b65fdf0-818d-11e8-9b12-5e6595b10b0d.png)
+Solve:
+- Rewrite the equation, and take integral of both side:
+![image](https://user-images.githubusercontent.com/14041622/42394806-0d49b310-818e-11e8-9c5c-73ce67fd8fa8.png)
+- And we get:
+![image](https://user-images.githubusercontent.com/14041622/42394852-2f595b90-818e-11e8-8df8-76ee6f286db5.png)
+- Let's plug in `g(3)=2` to solve for `C`:
+![image](https://user-images.githubusercontent.com/14041622/42394904-5daba2d2-818e-11e8-8222-253d51a82196.png)
+- Take `C` back and get the equation for `g(x)`:
+![image](https://user-images.githubusercontent.com/14041622/42394943-83bc49b8-818e-11e8-8306-078dcc0166ce.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42395147-5ed1d072-818f-11e8-9845-6c952b959803.png)
+Solve:
+- We are told that the rate of change of P is proportional to P, which means in Math is:
+![image](https://user-images.githubusercontent.com/14041622/42395276-e60d5c28-818f-11e8-9afc-7485136ec0ef.png)
+- It's clear that is a `Differential Equation`, and we rewrite them and take integral of both side to get:
+![image](https://user-images.githubusercontent.com/14041622/42395324-1970ce74-8190-11e8-94be-d834990a58bd.png)
+- Solve for `C`:
+![image](https://user-images.githubusercontent.com/14041622/42395375-44c5f09a-8190-11e8-8259-c20b80902ed7.png)
+- Solve for `k`:
+![image](https://user-images.githubusercontent.com/14041622/42407316-62132d14-81ec-11e8-8677-042e082501ca.png)
+- get the `k`:
+![image](https://user-images.githubusercontent.com/14041622/42407320-720fdcd0-81ec-11e8-8694-927c2cded1c2.png)
+- Now we have the full equation, and get the result:
+![image](https://user-images.githubusercontent.com/14041622/42407323-8407f3b4-81ec-11e8-83c1-92e9fbbc7cb5.png)
+
+
+
 
 
 
@@ -1886,7 +2083,87 @@ Hint: Don't need to solve `y` completely.
 
 
 
-#
+# `Polar Functions`
+
+[►Refer to Khan academy: Polar functions derivatives](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-7/v/derivatives-in-polar-coordinates)
+[`►Jump over to have practice at Khan academy.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-advanced-functions-new/bc-9-7/e/differentiate-polar-functions)
+
+![image](https://user-images.githubusercontent.com/14041622/42408971-cec59e88-8205-11e8-9e14-bc1a910846da.png)
+
+> In the `Polar World`, 
+instead of the relationship between `y & x`, 
+the function is now representing the relationship between `Radius & Angle`, 
+which could be presented as:
+
+![image](https://user-images.githubusercontent.com/14041622/42408955-8bb18e9a-8205-11e8-8750-67370131d552.png)
+
+## `Differentiate Polar Functions`
+
+**Taking derivative of Polar function** is actually **DIFFERENTIATING PARAMETRIC FUNCTION**.
+To take the derivative we need to:
+- Convert the `Polar function` in terms of `x & y`:
+![image](https://user-images.githubusercontent.com/14041622/42409085-7f99bb26-8207-11e8-9b8f-53fd99405428.png)
+- Take derivative of the parametric function.
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42408886-70192f54-8204-11e8-9eaf-ff0d0b4cc7b7.png)
+Solve:
+- Since it's asking for the `Rate of change of y-coordinate`, so we convert the polar function to `rectangular function`:
+![image](https://user-images.githubusercontent.com/14041622/42409148-900f2008-8208-11e8-8433-6ec1dc53eaa2.png)
+- And we take the derivative `dy/dΘ`:
+![image](https://user-images.githubusercontent.com/14041622/42409155-b66604e2-8208-11e8-9b4a-1cfd57b53964.png)
+- Plug in the point `Θ=π` and get:
+![image](https://user-images.githubusercontent.com/14041622/42409162-ce8d4f58-8208-11e8-8bd5-a1b4062f71a4.png)
+
+
+## `Tangents to Polar curves`
+Steps:
+- Find the slope `dy/dx`
+- Convert the polar function to get the `x(θ)` and `y(θ)` parametric equations
+- Solve `dy/dx` and get the slope
+- Plug in the point's information to solve for `x & y`
+- Get the equation of the line (tangent).
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42409334-61386854-820b-11e8-84de-f5676a5543f4.png)
+Solve:
+- To find the tangent line, we need to get the slope first, which is `dy/dx`.
+- And `dy/dx` would be a `parametric problem`:
+![image](https://user-images.githubusercontent.com/14041622/42409359-d9da5704-820b-11e8-9dd3-6bcce56f25f4.png)
+- Plug in the Θ value, to evaluate the slope:
+![image](https://user-images.githubusercontent.com/14041622/42409371-119c3dc4-820c-11e8-8eaf-8a0b6da1ca8f.png)
+- Find the `x & y` value according to the Θ:
+![image](https://user-images.githubusercontent.com/14041622/42409376-38b1ac46-820c-11e8-91f4-cb088fcc8ed6.png)
+- Now we got everything to form the equation for the tangent line:
+![image](https://user-images.githubusercontent.com/14041622/42409378-4c5659f4-820c-11e8-9675-dd1bc5d54907.png)
+![image](https://user-images.githubusercontent.com/14041622/42409379-512ce470-820c-11e8-882c-d0265c077d41.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42410082-d26ab8fa-8216-11e8-9362-9e88eb6f2a9f.png)
+Solve:
+- First, we need to convert the polar function to `x(θ) & y(θ)`:
+![image](https://user-images.githubusercontent.com/14041622/42410205-4a6413a0-8218-11e8-8721-95acf2208c63.png)
+- And we need to find the slope `dy/dx`:
+![image](https://user-images.githubusercontent.com/14041622/42410164-d9a5b8f8-8217-11e8-9bd5-1355d13c31ff.png)
+- Since it's a horizontal tangent, so `Slope =0`, which means `dy/dx =0`. But `dx` is dominator can't be zero, so we can set `dy = 0` and solve for θ:
+![image](https://user-images.githubusercontent.com/14041622/42410215-74fd8092-8218-11e8-85c2-975a74be7fc7.png)
+- So the answer is:
+![image](https://user-images.githubusercontent.com/14041622/42410218-940013c4-8218-11e8-8065-15bee832ee77.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42410271-bcbc245a-8219-11e8-8f8d-0e8bd320f408.png)
+Solve:
+- To find a vertical tangent, we have to set the dominator of the slope as 0, that's the only thing makes it **undefined**.
+- The slope is `dy/dx`, so we set `dx = 0`.
+- The equation for `x` is:
+![image](https://user-images.githubusercontent.com/14041622/42410294-0226d9c2-821a-11e8-91e3-cdf2809609b2.png)
+....
+
 
 
 # `Logistic Growth Model`
@@ -1995,6 +2272,12 @@ Solve:
 - Since `6` is the initial condition, so we make `6` as a boundary.
 - The slope at `(0,6)` is a negative slope, which seems keeps negative until `4`.
 - So the Range would be `(4, 6]`.
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42507505-ff19b3ca-8477-11e8-9950-e00ff0cbc113.png)
+Solve:
+
 
 
 # `Euler's Method`
@@ -2237,9 +2520,11 @@ Solve:
 
 
 # `Area of Polar Curves`
-
 Calculating area for `polar curves`, means we're now under the `Polar Coordinate` to do integration.
 And instead of using `rectangles`  to calculate the area, we are to use `triangles` to integrate the area for a curve.
+
+![image](https://user-images.githubusercontent.com/14041622/42410413-d8c58ad6-821b-11e8-9c16-f99783a79688.png)
+
 
 There're a few notable differences for calculating `Area of Polar Curves`:
 - It's now under the **`Polar Coordinate`**.
@@ -2321,20 +2606,22 @@ Solve:
 
 `Parametric Curves` are from `Parametric Equations`, means both `x` and `y` are functions, in terms of t: `x(t)` and `y(t)`.
 
+[`►Jump to Khan academy for some practice: Arc Length.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/arc-length-of-functions-in-one-variable)
+
 [Refer to xaktly: Parametric Equations](http://xaktly.com/ParametricEquations.html)
-[►Jump to Khan academy for some practice: Arc Length.](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/e/arc-length-of-functions-in-one-variable)
 [▼Refer to Khan academy: Parametric curve arc length](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-arc-length/v/parametric-curve-arc-length)
 
 ![image](https://user-images.githubusercontent.com/14041622/41652496-c6e08d66-74b5-11e8-8bd0-27b6746e382d.png)
 
 
 ## `Formula`
-![image](https://user-images.githubusercontent.com/14041622/41653406-8b46d898-74b8-11e8-9861-b764b3715994.png)
+![image](https://user-images.githubusercontent.com/14041622/42408620-59beadc2-8201-11e8-83a6-2359eca034a7.png)
 
 
 ### Example
-![image](https://user-images.githubusercontent.com/14041622/41652845-eb936aa6-74b6-11e8-828a-eadc1107c8aa.png)
+![image](https://user-images.githubusercontent.com/14041622/42408625-71114dd6-8201-11e8-9fcd-1fe9a06ad36c.png)
 Solve:
+- Just to apply the formula.
 
 
 
@@ -2386,6 +2673,18 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/41702558-21a4e60e-7563-11e8-8850-c37361d65d9c.png)
 
 
+## `Volumes with solids of unknown solids`
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42432978-d791df24-837f-11e8-85bb-467f9d940a55.png)
+Solve:
+- Each slice will be like this:
+![image](https://user-images.githubusercontent.com/14041622/42432997-ef2c9822-837f-11e8-9aab-a87e2a840b9e.png)
+- The area of the slice would be:
+![image](https://user-images.githubusercontent.com/14041622/42433031-124f7900-8380-11e8-8942-6c8167555d57.png)
+- The boundaries are at two curves' intersection, which are `x = 1 and 5`
+- So integrate all the slices:
+![image](https://user-images.githubusercontent.com/14041622/42433060-3a4e2352-8380-11e8-9099-7f49bd161ce3.png)
 
 
 
@@ -2514,7 +2813,7 @@ Divergence means the limit **DOES NOT EXISTS**.
 
 ## `Geometric Series in 𝚺 Notation`
 
-[▼Refer to Cool Math: Geometric Series](http://www.coolmath.com/algebra/19-sequences-series/08-geometic-series-02
+[▼Refer to Cool Math: Geometric Series](http://www.coolmath.com/algebra/19-sequences-series/08-geometic-series-02)
 ![image](https://user-images.githubusercontent.com/14041622/41806975-05a66fac-76fa-11e8-80c4-dd9cacb3dc10.png)
 
 ### Example
@@ -2566,9 +2865,13 @@ Solve:
 
 
 # `Infinite Seires`
-Evaluate the series, is actually to evaluate the **LIMIT** of the `series function`.
+
+![image](https://user-images.githubusercontent.com/14041622/42086658-5c42d2f8-7bc6-11e8-9c7d-26176d38f730.png)
+
 
 ## `Evaluate Infinite Series`
+Evaluate the series, is actually to evaluate the **LIMIT** of the `series function`.
+
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41806785-a0e2be7a-76f6-11e8-8f53-f3d1213d1379.png)
@@ -2615,35 +2918,82 @@ Solve:
 
 
 
-# `Convergence Test`
+# `Convergence Tests`
+> Here lists common Convergence Tests and overview of each. Details are singled out to each section.
 
 `Convergence test` are a set of tests to determine wether the series **CONVERGENT** or **DIVERGENT**.
 It includes:
-- `Divergent Test`: Only to test if the series is divergent.
-- `Integral Test`: To test the series convergent or divergent.
-- `p-series Test`: To test the specified form of series convergent or divergent.
-- `Comparison Test`: 
-- `Ratio Test`:
+
+Test | Description
+-- | --
+► Divergent Test | Take nth term's limit. (only to test divergence)
+► Integral Test | Take limit of the series function's integration.
+► p-series Test | Examine at the `p` value of `1/nᴾ`.
+► Comparison Test | Compare the series to a "similar" p-series or geometric-series.
+► Ratio Test | Take limit of two terms ratio.
+► Root Test | Take the limit of nth root of nth term.
+► Alternating Test |  To test the alternating series.
 
 
-# `Divergent Test`
+## Divergent Test
+> **Take the limit of nth term, if it's NOT ZERO, then it's DIVERGENT.**
+
+![image](https://user-images.githubusercontent.com/14041622/42499806-4fd8befc-8462-11e8-944d-c5bd4ff20c26.png)
+
+
+## Integral Test
+
+
+## p-series Test
+![image](https://user-images.githubusercontent.com/14041622/42499158-a4de17a0-8460-11e8-8031-1abb5117df3a.png)
+
+
+## Direct Comparison Test
+> **Compare the series to a "similar" p-series or geometric-series.**
+
+![image](https://user-images.githubusercontent.com/14041622/42499229-d46403cc-8460-11e8-9179-75850d9eed21.png)
+
+
+## Limit Comparison Test
+> **Compare the series to a "similar" p-series or geometric-series.**
+
+![image](https://user-images.githubusercontent.com/14041622/42499264-e9896ecc-8460-11e8-8893-e0aa1c6d20fd.png)
+
+
+## Ratio Test
+> **Take limit of two terms ratio.**
+
+![image](https://user-images.githubusercontent.com/14041622/42499429-5e0482be-8461-11e8-83f3-6253a90e52d5.png)
+
+
+## Root Test
+> **Take the limit of nth root of nth term.**
+
+![image](https://user-images.githubusercontent.com/14041622/42499497-8579daba-8461-11e8-87bf-201f630a047f.png)
+
+
+## Alternating Series Test
+
+
+![image](https://user-images.githubusercontent.com/14041622/42502260-2263b20a-8468-11e8-99db-646b384eb14a.png)
+
+
+
+## Absolute Convergence & Conditional Convergence
+
+![image](https://user-images.githubusercontent.com/14041622/42500696-8ced4f4a-8464-11e8-81c7-0b25c409a96d.png)
+
+
+# `nth Term Test`
 > It's also called the `nth term divergence test`.
 The test can only tell if the series is divergent or not. It CAN NOT tell if it converges.
 
 [Jump over to Khan academy practice: nth term test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/nth-term-test)
 [Refer to Khan academy: nth term divergence test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/divergence-test)
 
-Here is the divergent test.
-For an infinite series:
-![image](https://user-images.githubusercontent.com/14041622/41808714-36a0a8ec-7714-11e8-8dca-f3c2e8ac32bd.png)
+▼Here is the divergent test, very simple:
+![image](https://user-images.githubusercontent.com/14041622/42498978-33d898c8-8460-11e8-9ba7-ea3f34903b9f.png)
 
-Take the **LIMIT** of the nth term:
-![image](https://user-images.githubusercontent.com/14041622/41808753-dea2299e-7714-11e8-983b-5316d3f434ba.png)
-
-if:
-- `Limit DOES NOT exists`: The series is **Divergent**.
-- `Limit = nonzero number`: The series is **Divergent**.
-- `Limit = 0`: We can't conclude anything.
 
 
 ### Example
@@ -2679,7 +3029,7 @@ As been said above, we got this conclusion:
 
 ![image](https://user-images.githubusercontent.com/14041622/41808008-1f857dc2-770a-11e8-903e-0db037158421.png)
 
-![image](https://user-images.githubusercontent.com/14041622/41807997-0eb9a946-770a-11e8-923e-7763b9e6a769.png)
+![image](https://user-images.githubusercontent.com/14041622/41899074-19a5e2ce-795e-11e8-8b1a-1f20c7d4748c.png)
 
 
 
@@ -2707,14 +3057,809 @@ Solve:
 For the the series in form of `1/nᴾ`, 
 the easiest way to determine its convergence is using the `p-series` test:
 
-![image](https://user-images.githubusercontent.com/14041622/41808619-db6bd6d2-7712-11e8-9f44-e11199e72941.png)
+![image](https://user-images.githubusercontent.com/14041622/42373515-b0036ee4-8147-11e8-9894-fce152f923ac.png)
+
 
 [▼Refer to xaktly: p-series test/harmonic series](http://www.xaktly.com/pSeries.html)
 ![image](https://user-images.githubusercontent.com/14041622/41808857-8cfbfdb6-7716-11e8-937d-2b81e39df339.png)
 
 
+## `Harmonic Series`
+> Harmonic Series is `∑ 1/n`, and Harmonic Series **DIVERGES**. That's all you need to know.
+
+![image](https://user-images.githubusercontent.com/14041622/41841842-e46c0876-789b-11e8-952f-54e9c074f391.png)
+
+[▼Refer to Khan academy: harmonic series diverges](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/harmonic-series-divergent)
+![image](https://user-images.githubusercontent.com/14041622/41836289-d72c23c6-788c-11e8-977d-1bafe436c416.png)
+
+
 
 # `Comparison Test`
+> You can understand `Comparison Test` intuitively as a `Sandwich Test`.
+
+**THIS TEST IS GOOD FOR `RATIONAL EXPRESSIONS`.**
+
+## `Direct Comparison Test`
+
+Assume that we have a series `a_n`, and we're to make up a similar series to it as `b_n`:
+
+The logic is:
+- If `b > a` & `b` **converges**, then `a` **converges** as well.
+- If `a > b` & `b` **diverges**, then `a` **diverges** as well.
+
+It's so much easier if you think it graphically.
+
+[▼Refer to video: Comparison Test (KristaKingMath)](https://www.youtube.com/watch?v=ctJGrBzGoss&index=22&list=PLJ8OrXpbC-BPaXEPecIAS_ddViV2_gcYL&t=0s)
+![image](https://user-images.githubusercontent.com/14041622/41836071-335c1832-788c-11e8-8370-883596b34704.png)
+![image](https://user-images.githubusercontent.com/14041622/41839502-fbe6ede6-7895-11e8-994d-cba3b1663e4b.png)
+
+[▼Refer to xaktly: Comparison Test](http://www.xaktly.com/ComparisonTest.html)
+![image](https://user-images.githubusercontent.com/14041622/41899041-01c26114-795e-11e8-99c5-10db043f4e49.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41838143-27c14d48-7892-11e8-914b-3e656d97a16d.png)
+Solve:
+- Assume the asked series as `a_n`, and we make up a very similar series bigger than it, as `b_n`:
+![image](https://user-images.githubusercontent.com/14041622/41838411-f6f774e8-7892-11e8-9063-45c2a9285b83.png)
+- Apply the `p-series test` we get that the `b_n` **converges**.
+- Since `a_n < b_n`, so according to the `Sandwich test (Direct comparison test)`, `a_n` **converges** as well.
+
+## `Limit Comparison Test`
+
+`Limit comparison test` is like an extension when the `Direct comparison test` **won't** work. 
+etc., when we compare `a` with `b`, although `b` converges but `a > b`, so we can't make any conclusion.
+And that's where the `limit comparison test` comes in place.
+
+The logic is:
+- Take the limit of the division `a/b`.
+- If the `Limit > 0`, then they **both converges** or **both diverges**.
+- If the `Limit ≤ 0`, then there's no conclusion.
+
+[►`Jump over to Khan academy for practice: Limit comparison test`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/limit-comparison-test)
+
+[▼Refer to video: Limit Comparison Test (KristaKingMath)](https://www.youtube.com/watch?v=PPTLtFhAp6c&list=PLJ8OrXpbC-BPaXEPecIAS_ddViV2_gcYL&index=22)
+![image](https://user-images.githubusercontent.com/14041622/41836745-3b72364e-788e-11e8-9404-8f862092c188.png)
+
+[▼Refer to xaktly: Limit Comparison Test](http://www.xaktly.com/LimitComparisonTest.html)
+![image](https://user-images.githubusercontent.com/14041622/41899002-e801b784-795d-11e8-8b03-9470d5322a47.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41841203-43c74a30-789a-11e8-807e-8a03986e9276.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41841366-ab22aada-789a-11e8-9852-3a781fb63934.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41842613-e09c44ca-789d-11e8-894b-f12153b03232.png)
+Solve:
+- We can't easily tell in the comparison who's greater, so we decide to apply the `limit comparison test`:
+![image](https://user-images.githubusercontent.com/14041622/41842732-37c91160-789e-11e8-9352-d6cc241e898c.png)
+
 
 
 # `Ratio Test`
+
+**THIS TEST IS GOOD FOR `FACTORIALS`.**
+
+[▼Refer to xaktly: Ratio test / root test](http://www.xaktly.com/RatioTestRootTest.html)
+
+![image](https://user-images.githubusercontent.com/14041622/41852093-b5fa6214-78bc-11e8-8c7d-0a4e34c40fa5.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41895543-e1542e02-7954-11e8-90f6-7d8cdcf82e4b.png)
+Solve:
+- Apply the `ratio test`:
+![image](https://user-images.githubusercontent.com/14041622/41895582-ff709358-7954-11e8-891f-c495c31c204b.png)
+- `L = 0`, so the series absolutely converges.
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41896356-f7ba714a-7956-11e8-92aa-ec44c734c3a2.png)
+Solve:
+- Apply the `ratio test`, let `a_(n+1) / a_n`.
+- The trick is to know: `(n+1)! = (n+1)·n!`, and `(n+8)! = (n+8)·(n+7)!`
+- Take the limit to get: 
+![image](https://user-images.githubusercontent.com/14041622/41896515-5e3bb488-7957-11e8-85d3-d55cafb0d33e.png)
+- According to the ratio test, if `L = 1`, then there's no conclusion.
+
+
+# `Root Test`
+
+"The root test is used in situations where a series term or part of it is **raised to the power of the index variable**. "
+
+> Notice: The root test **isn't** a good choice if a series contains **factorial** terms.
+If the root test isn't fairly easy to use, you probably **shouldn't** use it. 
+But when it works, it often cuts to convergence or divergence quickly.
+
+[▼Refer to xaktly: Ratio test / root test](http://www.xaktly.com/RatioTestRootTest.html)
+
+![image](https://user-images.githubusercontent.com/14041622/41898160-d147e8c6-795b-11e8-9e9e-5c53918286a7.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41898303-45560054-795c-11e8-888f-67984ce1b423.png)
+Solve:
+- Apply the `root test`:
+![image](https://user-images.githubusercontent.com/14041622/41898382-78ae9678-795c-11e8-86d0-6a7d8df23fc6.png)
+- Since `L < 1`, so it converges.
+
+
+# `Alternating Series Test`
+It's the test for `Alternating series`.
+
+[►Refer to Khan academy: Alternating series test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/alternating-series-test)
+[►Refer to xaktly: Alternating Series](http://www.xaktly.com/AlternatingSeries.html)
+
+## Alternating Series
+It means,
+**Terms of the series "alternate"  between positive and negative.**
+
+etc., `The alternating harmonic series`:
+![image](https://user-images.githubusercontent.com/14041622/41898616-16c165c0-795d-11e8-9da9-8b2cfed657e9.png)
+
+
+## The Alternating Series Test
+![image](https://user-images.githubusercontent.com/14041622/41899163-58a00fe0-795e-11e8-9e70-5266ec6a6377.png)
+
+The very good example of this test is the `Alternating Harmonic Series`:
+
+![image](https://user-images.githubusercontent.com/14041622/41899612-784553b8-795f-11e8-8422-eed1da1b7f9f.png)
+
+▲ It does **CONVERGES**. (But the Harmonic Series does NOT converge)
+
+Strategy:
+- Take AWAY the `Alternating sign (-1)ⁿ`:
+![image](https://user-images.githubusercontent.com/14041622/41907244-db137e44-7972-11e8-85e4-19fd7ac7a3cb.png)
+- Determine if the rest part is a decreasing series:
+![image](https://user-images.githubusercontent.com/14041622/42371381-ed222776-8141-11e8-9c90-4a725b80ae39.png)
+- Take limit of the rest part:
+![image](https://user-images.githubusercontent.com/14041622/41907282-fa4a1a66-7972-11e8-86ef-b9f1b3bfe02a.png)
+- If `Limit = 0`, then the series **CONVERGES**.
+- If `Limit ≠ 0`, then the series **DIVERGES**.
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41901083-a2a293f2-7962-11e8-9ec5-654279cdc398.png)
+Solve:
+- Notice this is an `alternating series`, so we're to apply the `alternating series test`.
+- Take away the `alternating term`, and left with `(2/p)ⁿ`.
+- So the series only converges if `(2/p)ⁿ` is **decreasing** and its **limit is `0`**.
+- And the only way to make it decreasing is to make sure `(2/p) < 1`.
+- Based on that `p` value, the limit of `(2/p)ⁿ` is surely a `0`.
+- Therefore, `p > 2` makes the series converges.
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41901342-3fafa5e0-7963-11e8-8f5d-103e42047757.png)
+Solve:
+- Notice this is an `alternating series`, so we're to apply the `alternating series test`.
+- Take away the `alternating term`, and left with `(2n)ᴾ`.
+- So the series only converges if `(2n)ᴾ` is **decreasing** and its **limit is `0`**.
+- And the only way to make it decreasing is to make sure `p < 0`.
+- Based on that `p` value, the limit of `(2n)ᴾ` is surely a `0`.
+- Therefore, `p < 0` makes the series converges.
+
+
+
+# `Absolute vs. Conditional Convergence`
+> This section is not about calculation, but rather about the logic.
+
+[`► Jump over to have practice at Khan academy`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/e/determine-absolute-or-conditional-convergence)
+
+[►Refer to Khan academy: Conditional & absolute convergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/v/conditional-and-absolute-convergence)
+
+![image](https://user-images.githubusercontent.com/14041622/42500696-8ced4f4a-8464-11e8-81c7-0b25c409a96d.png)
+
+
+▼We can have a series in **`Given form`** and **`Absolute form`**:
+![image](https://user-images.githubusercontent.com/14041622/42439540-c6febc20-8395-11e8-8540-f2ad2fa13d26.png)
+
+We call the series:
+- `Absolute Convergent`: if the series converges in BOTH **Given form** & **Absolute form**.
+- `Conditional Convergent`: if the series converges ONLY in **Given form** BUT NOT in **Absolute Form**.
+
+etc., 
+![image](https://user-images.githubusercontent.com/14041622/41900212-c265fa6e-7960-11e8-99bb-3585053f2686.png)
+
+[▼Refer to xaktly](http://www.xaktly.com/AlternatingSeries.html)
+![image](https://user-images.githubusercontent.com/14041622/41852458-c53e13fa-78bd-11e8-9fda-0847cc285a09.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42370021-3e41a82e-813e-11e8-990d-8716a939b36d.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/42370365-256709f6-813f-11e8-879b-87c54c119f39.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42370976-bd6cada4-8140-11e8-9e36-d5b26721fb22.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/42370989-c2fe0ba0-8140-11e8-8e44-3e6c98253686.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42371206-5ad9fc0e-8141-11e8-832c-580580ae8dbf.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/42371214-5ede403a-8141-11e8-9ea0-0ea6fddc6d40.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42371798-138afb58-8143-11e8-91c7-176a993bf2ef.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/42371804-176b827e-8143-11e8-9b0b-013205ec3016.png)
+
+
+
+# `Error Estimation of Alternating Series`
+> It's also called the `Remainder Estimation of Alternating Series`.
+
+This is to calculating (approximating) an **Infinite Alternating Series**:
+![image](https://user-images.githubusercontent.com/14041622/41924214-fca30d4e-799b-11e8-90f5-4d0e2bd39402.png)
+
+[`►Jump over to Khan academy for practice: Alternating series remainder`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/alternating-series-remainder)
+
+[►Refer to The Organic Chemistry Tutor: Alternate Series Estimation Theorem](https://www.youtube.com/watch?v=FkUrAgBzAZo)
+[►Refer to Mathonline: Error Estimation for Approximating Alternating Series](http://mathonline.wikidot.com/error-estimation-for-approximating-alternating-series)
+[►Refer to mathwords: Alternating Series Remainder](http://www.mathwords.com/a/alternating_series_remainder.htm)
+
+The logic is:
+- First to **test** the series' convergence.
+- If the series **CONVERGES**, then we can proceed to calculate it by Error Estimation Theorem. Otherwise we aren't able to.
+- We can express the series as the **`sum of partial sums & infinite remainder`**:
+![image](https://user-images.githubusercontent.com/14041622/41923660-942ccc2e-799a-11e8-94ba-d082c0ba1aa1.png)
+(▲ `Sn` is the **first n terms**, and `Rn` is **from the n+1 term to the rest terms**.)
+- And the "structure" in the `partial sum` & `remainder` is:
+![image](https://user-images.githubusercontent.com/14041622/41963000-0d230af6-7a29-11e8-98d9-83fe12911fd9.png)
+- With a little twist, we will get the whole idea:
+![image](https://user-images.githubusercontent.com/14041622/41957415-71c855a2-7a19-11e8-9c8f-9490e97c9e38.png)
+(▲Since the **Rn** is the **gap** between `S & Sn`, so we call it **`The Error`**)
+- ▼ And the theorem is: `The Remainder` **MUST NOT** be greater than its **`first term`**:
+![image](https://user-images.githubusercontent.com/14041622/41963232-99460902-7a29-11e8-80fd-a81db1d3beb9.png)
+
+
+
+[▼Actual sum = Partial sum + Remainder: refer to Khan academy: Alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-error-estimation)
+
+![image](https://user-images.githubusercontent.com/14041622/41960877-76546840-7a23-11e8-8e73-4790192ebf0c.png)
+
+
+## `Sign & Size of Error`
+[►Refer to Khan academy: Alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-error-estimation)
+[►Refer to Khan academy: Worked example: alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-remainder)
+
+For the `Remainder series`, its **`FIRST TERM`** is always **DOMINATING** the whole remainder:
+- It dominates the remainder's **SIGN**: positive or negative.
+- It dominates the remainder's **SIZE**: the whole remainder's absolute value **CAN'T BE** greater than the first term.
+
+
+Based on the error's **sign**, 
+we could tell the approximated series is **UNDERESTIMATED** or **OVERESTIMATED**:
+- If `Error > 0`, then the approximated series is **Underestimate**.
+- If `Error < 0`, then the approximated series is **Overestimate**.
+
+## `Bound the Error (accuracy control)`
+
+The `error bound` regards to the **accuracy** of the approximated series, and we want to control the accuracy before approximation.
+
+[►Refer to Khan academy: Worked example: alternating series remainder](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/alternating-series-remainder)
+
+We have 2 ways to bound the error in a range:
+- Set up **how small** we want the `error` to be, or
+- Set up **how many** terms we want to have in the partial sum `Sn`.
+
+
+### Bound by terms
+**The Larger `n` → The smaller gap → The lesser Error → The more accurate.** 
+
+Strategy:
+- We could set the `partial sum` to include a certain number of terms, etc. `100 terms`
+- And the **first term** of Remainder should be the `101st term`.
+- The `error bound`, or the `error` is **dominated** by the **first term.**
+- So we say the `error bound` IS the value of the `101st term`.
+
+### Bound the error
+To bound the error in a range, we often say:
+- "Approximate the series to the **2 decimal places**",
+- "Let the error be **less than 0.01**",
+- "We want the accuracy within ±0.01"
+
+What they mean are the same:
+![image](https://user-images.githubusercontent.com/14041622/41926104-fa4da216-79a0-11e8-8c69-14a8c7835bf6.png)
+
+▲ And by solving the inequality, 
+we will get the scope for `n`, 
+then get the **`Smallest Integer of n`** in that scope.
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41963692-cc4be5be-7a2a-11e8-890e-c45377eb3e08.png)
+Solve:
+- First to notice, the `partial sum` is already set to `100` terms, so we're to **control accuracy** by `bound the terms`.
+- So the `error` should be from the `101st term` to infinity.
+- But the `error bound` is actually dominated by the first term of the error.
+- So the `error bound  = the value of 101st term`:
+![image](https://user-images.githubusercontent.com/14041622/41963906-5337bde6-7a2b-11e8-833b-c8fc45fbecaa.png)
+- We could say that: The `error bound` is **negative**, and negative error causes **overestimation**.
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41906491-90aa26b6-7970-11e8-8042-cf8216b918fa.png)
+Solve:
+- It's clear this is a `alternating series`.
+- So we want to do the `alternating series test` first, and it passed, which means it converges.
+- Since the series converges, we can do further approximation.
+- See that we don't know how many terms are in the `partial sum`, and only know how much accurate we'd like.
+- So we're to approximate by `bound the error`, and find out the terms.
+- Apply the `Error Approximation Theorem`, assume the **first term of remainder** is `a_(n+1)`:
+![image](https://user-images.githubusercontent.com/14041622/41925900-6ac33e62-79a0-11e8-8449-1e2fd0168c79.png)
+- Solve out the inequality to get `n ≥ 999,999`
+- And `999,999` the smallest integer of `n` to make the series converges with 2 decimal accuracy.
+
+
+
+
+
+
+# `Error Estimation Theorem`
+The Error Estimation Theorem is not only for alternating series, but available for all infinite series.
+
+[▼Boundary of estimating series: refer to Khan academy: Series estimation with integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/bc-estimating-inf-series/v/integrals-estimating-p-series)
+
+![image](https://user-images.githubusercontent.com/14041622/41959910-e19646e4-7a20-11e8-853f-bc0694ca441a.png)
+
+
+# `Interval of Convergence`
+When we see the series as a function, we can actually specify an interval for the function so that the series certainly converges over this interval.
+
+[`►Jump over to have practice at Khan academy: Interval of convergence`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/find-interval-of-convergence)
+
+The method is kind of like finding the interval of an ordinary function:
+- The `term` of series **can't** be `0`, so set `a_n ≠ 0` and solve  it to get the condition.
+- Take some `convergence tests`, etc. `ratio test`.
+- Calculate to get the condition that makes the **test** passes.
+- Substitute the `endpoints` of the interval back in the function and see if it also converges.
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42081333-c02988b6-7bb7-11e8-90f0-1ba22b2c8610.png)
+Solve:
+- The term **can't be** zero, so:
+![image](https://user-images.githubusercontent.com/14041622/42081873-2b7b6b38-7bb9-11e8-965d-d7c717510360.png)
+- And further more, take a `ratio test` which makes it converges:
+![image](https://user-images.githubusercontent.com/14041622/42081958-5f7a6204-7bb9-11e8-86ea-3393b5cfafa9.png)
+- Calculate the `ratio test` to get the interval:
+![image](https://user-images.githubusercontent.com/14041622/42082079-a471ddf6-7bb9-11e8-974d-cbc19ad7948b.png)
+- Get the interval for `x`:
+![image](https://user-images.githubusercontent.com/14041622/42082091-aba91cb0-7bb9-11e8-9e8d-0b0b1d879446.png)
+- Test the `endpoints` for this interval:
+![image](https://user-images.githubusercontent.com/14041622/42082232-0872485e-7bba-11e8-8baf-bd7423dde200.png)
+- In conclusion, the `interval of convergence` is:
+![image](https://user-images.githubusercontent.com/14041622/42082258-1aa5ede6-7bba-11e8-9b71-68ab89885a47.png)
+
+
+
+# `Power Series`
+> Try to think `Power series = Geometric Series`.
+
+[►Refer to Math24: Power series](https://www.math24.net/power-series/)
+
+`Power series` is actually the `Geometric series` in a more general and abstract form.
+
+![image](https://user-images.githubusercontent.com/14041622/42147291-a00d5af4-7dff-11e8-9bbf-7ae10b740788.png)
+
+For easier to remember it, that could be simplified as:
+
+![image](https://user-images.githubusercontent.com/14041622/42147247-7517f930-7dff-11e8-8f11-e283a1ff377f.png)
+
+
+In this function it's critical to know that:
+**`a_n` IS A CONSTANT NUMBER! NOT A VARIABLE !**
+
+
+## `Differentiate Power series`
+
+[►Refer to Khan academy: Differentiating power series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/differentiating-power-series)
+
+We have 2 ways to differentiate series, they work same way:
+- One way is to expand the series with real numbers (1,2,3...) and take their derivatives:
+![image](https://user-images.githubusercontent.com/14041622/42506420-709b1efc-8474-11e8-9acc-4c91ec14f9aa.png)
+(▲Note that this is constantly true for power series.)
+- Another way is to calculate the term's derivative and then plug in the real numbers (1,2,3):
+![image](https://user-images.githubusercontent.com/14041622/42506441-8064c46e-8474-11e8-9c8a-d6d065d6570e.png)
+
+
+Either way will do, it depends on the actual equation for you to choose which way you're gonna use.
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42149557-49116f7e-7e09-11e8-90b2-71cc0dbb1755.png)
+Solve:
+- Let's organize this function to make it clear:
+![image](https://user-images.githubusercontent.com/14041622/42150204-99ab2d74-7e0b-11e8-8bbc-b40cd3b32c88.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42085947-62513c40-7bc4-11e8-8eb4-c6e87a26d5a6.png)
+Solve:
+- Notice that: If we plug in the `x=0` at beginning, everything will be `0` and we don't have anything to calculate.
+- So Let's keep the `x` in the terms until the **last step**.
+- It's easier to `expand the series with real numbers`, and we're to try 3 or 4 terms in this case. 
+- Because at the end of it you'll notice, if we're doing `Third Derivative`, then more than 3 terms will just bring more `0`s.
+- First we're to organize the function in the standard **power series** form:
+![image](https://user-images.githubusercontent.com/14041622/42148100-793b43ba-7e03-11e8-97e2-bca413c295e3.png)
+- And the **constant number `a_n`** in the function is:
+![image](https://user-images.githubusercontent.com/14041622/42148159-aff276a8-7e03-11e8-8b22-deafe3cd3530.png)
+- Let's plug in the real number (0,1,2,3,4) for `n` to expand the series:
+![image](https://user-images.githubusercontent.com/14041622/42148679-c48ac622-7e05-11e8-9c4e-5807f084f9d5.png)
+- Based on that we can take the derivatives:
+![image](https://user-images.githubusercontent.com/14041622/42148867-6ef74446-7e06-11e8-9e2d-3ca70f8bff77.png)
+- Now we've got the `third derivative`, so let's plug in the `x=0` and see what we get:
+![image](https://user-images.githubusercontent.com/14041622/42148892-85613174-7e06-11e8-8236-744492cc4c0f.png)
+- And that's the answer.
+- And now you know **why in this case it's a waste to calculate more terms.**
+
+
+
+
+## `Integrate Power Series`
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42149117-8019f588-7e07-11e8-8750-2c113ca3cf64.png)
+Solve:
+- Knowing that `Integrate a series` can be turned to `a series of Integrations of terms`:
+![image](https://user-images.githubusercontent.com/14041622/42149518-fc263596-7e08-11e8-88e8-aa8e3c621a89.png)
+- Integrate the terms:
+![image](https://user-images.githubusercontent.com/14041622/42149534-1ca3bac8-7e09-11e8-95f4-9e52a6ca7c53.png)
+- And we get a simple `Geometric series`. So that we can apply the formula of calculating geometric series:
+![image](https://user-images.githubusercontent.com/14041622/42149454-b8a94d6c-7e08-11e8-9ff4-2cfbb182e18c.png)
+- Let's apply the formula:
+![image](https://user-images.githubusercontent.com/14041622/42149485-d97c50b6-7e08-11e8-9ed6-9004b48c2b98.png)
+
+## Integrals & derivatives of functions with known power series
+
+[`► Jump over to have practice at Khan academy.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/e/creating-power-series-from-geometric-series-using-differentiation-and-integration)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42367884-24758736-8138-11e8-8dcd-98d39ad1e42a.png)
+Solve:
+- Let's assume the function of the **series above** is `f(x)`, and the **series below** is `g(x)`
+- It's clear to see that the `g(x) is the `Antiderivative` of the `f(x)`.
+- So we just need to **integrate** the function of the `f(x)`:
+![image](https://user-images.githubusercontent.com/14041622/42368010-7f00611c-8138-11e8-91af-470e8c4c2dca.png)
+- We see that the `antiderivative` can represent the `g(x)`, but only with the `C` in it:
+![image](https://user-images.githubusercontent.com/14041622/42368233-172b104a-8139-11e8-88a8-16949514b969.png)
+- So we need to solve for `C`. The easiest way is to plug in `0` for `g(x)`:
+![image](https://user-images.githubusercontent.com/14041622/42368389-7c8c8b6c-8139-11e8-9a9e-97728eab3149.png)
+- Then the answer is:
+![image](https://user-images.githubusercontent.com/14041622/42368415-8ab72792-8139-11e8-943d-6780bbdbb81e.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42368724-658b0398-813a-11e8-9091-c16e61d7e482.png)
+Solve:
+- Set the two series as `f(x)` and `g(x)`.
+- It's clear that `g(x) = -f'(x)`.
+- So by differentiate `f(x)` we will get:
+![image](https://user-images.githubusercontent.com/14041622/42368873-c4a82356-813a-11e8-8604-fd6efd4c38d5.png)
+- Then `-f'(x)` would be:
+![image](https://user-images.githubusercontent.com/14041622/42368903-dadb341a-813a-11e8-9fac-515e7eb984e5.png)
+
+
+
+# `Taylor Series`
+`Taylor series`, or `Taylor polynomial` is a series that can **REPRESENT** a function, regardless what function it is.
+
+[▼Refer to 3Blue1Brown for animation & intuition: Taylor series | Chapter 10, Essence of calculus](https://www.youtube.com/watch?v=3d6DsjIBzJ4&t=56s)
+> "Taylor Series is one of the most powerful tools Math has to offer for **approximating functions.**" - 3Blue1Brown
+
+[►Refer to Khan academy: Taylor & Maclaurin polynomials intro (part 1)](https://www.khanacademy.org/math/old-ap-calculus-bc/bc-series/bc-taylor-series/v/maclaurin-and-taylor-series-intuition)
+[▼Refer to xaktly: Taylor Series](http://www.xaktly.com/TaylorSeries.html)
+![image](https://user-images.githubusercontent.com/14041622/42205356-d96aef1e-7ed6-11e8-8c2d-82b0b408bb4e.png)
+
+
+![image](https://user-images.githubusercontent.com/14041622/42205070-f8bc7ffa-7ed5-11e8-851a-6ac45201b5ee.png)
+(▲ `C` represents the **centre** where we're centred at to approximate the function.)
+
+> ▲ Notice: The **`Taylor Series`** is a **`Power Series`**, which means we can use a lot of techniques of power series on this to operate it easily.
+
+We could expand it and make it clearer ▼:
+![image](https://user-images.githubusercontent.com/14041622/42205239-73484920-7ed6-11e8-8f88-80b08440261a.png)
+
+
+The **main purpose** of using a `Taylor Polynomial` is to **REPLACE** the original function with a **polynomial**, which it is **easy to work with**.
+
+etc., we can express the function `f(x) = eˣ` as ▼:
+![image](https://user-images.githubusercontent.com/14041622/42203582-d55cde1e-7ed1-11e8-8eda-7f00d635e001.png)
+
+**More importantly**, by **adding more & more terms** into the polynomial, we can approximate the function more precisely:
+
+[►Refer to joseferrer: Mathematical explanation - Taylor series](https://steemit.com/mathematics/@joseferrer/mathematical-explanation-taylor-series)
+[►For More animation, visit Desmos: Taylor Series Visualization](https://www.desmos.com/calculator/oiexhzavjp)
+
+![97f5384c9b8d6ceebf3b894efc106adb](https://user-images.githubusercontent.com/14041622/42213417-4083dc38-7eeb-11e8-91d8-1d7c90abc4dd.gif)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42154228-c8084e84-7e17-11e8-9388-1e4817228c0d.png)
+Solve:
+- First to know the formula of `Taylor Series` centred at `x=1`:
+![image](https://user-images.githubusercontent.com/14041622/42154259-d6b14404-7e17-11e8-9fb5-50deb8f09a15.png)
+- The problem is asking the coefficient of `(x-1)³`, means **all the rest part** in the formula, which is:
+![image](https://user-images.githubusercontent.com/14041622/42154421-4bfa9c24-7e18-11e8-91af-dfded4db92e9.png)
+- And it also means the `n=3`, so the coefficient becomes:
+![image](https://user-images.githubusercontent.com/14041622/42154540-9c099f26-7e18-11e8-8eb9-625771b3c88b.png)
+- Let's evaluate the `f'''(1)`:
+![image](https://user-images.githubusercontent.com/14041622/42154522-91a67d2e-7e18-11e8-878a-4324dd932448.png)
+- So the coefficient is:
+![image](https://user-images.githubusercontent.com/14041622/42154558-abe0a26e-7e18-11e8-8115-ef65f579cf0b.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42206442-b2846152-7ed9-11e8-8539-cf4c0c2bcaed.png)
+Solve:
+- Let's express the Taylor polynomial to the `nth degree` as:
+![image](https://user-images.githubusercontent.com/14041622/42206602-37675a1e-7eda-11e8-9560-07e69c826435.png)
+- Since it's asking for the series to the `3rd degree`, then it becomes:
+![image](https://user-images.githubusercontent.com/14041622/42206807-c8dd4468-7eda-11e8-808e-a37f4e38d65f.png)
+- And we only need to find out every degree of derivatives, and we will get:
+![image](https://user-images.githubusercontent.com/14041622/42206703-7bdcc7b0-7eda-11e8-8be3-7aa7591f902e.png)
+- So the Taylor polynomial then is:
+![image](https://user-images.githubusercontent.com/14041622/42206818-cdede50c-7eda-11e8-8c4c-0bff77d285d1.png)
+
+
+
+
+
+# `Maclaurin Series`
+> It's also called `Maclaurin polynomials`.
+
+`Maclaurin series` is a special case of `Taylor Series` which centres at `x=0`.
+
+![image](https://user-images.githubusercontent.com/14041622/42204966-b82bb906-7ed5-11e8-9c7b-45de2e3e1ee4.png)
+
+
+▼Expand it we'll understand it better:
+![image](https://user-images.githubusercontent.com/14041622/42362791-7b4db9c2-8127-11e8-863f-c44fe0a27f6d.png)
+
+
+▼Here is a graph we're trying to approximate a function centred at `x=0`:
+![image](https://user-images.githubusercontent.com/14041622/42155112-0c2ab0b4-7e1a-11e8-86cd-98551cbd8191.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42205588-7f41afc2-7ed7-11e8-9e91-94416891c49a.png)
+Solve:
+- This problem is to test if you're familiar with the `Maclaurin Series Formula`.
+- Let's ignore all others and only see the asked `x⁴`.
+- `x⁴` means we're gonna find out the term of the `4th derivative`, and plug in 4 into the formula, we'll get the term:
+![image](https://user-images.githubusercontent.com/14041622/42205743-d63a03f6-7ed7-11e8-9267-15744a338ea7.png)
+- It's asking for the coefficient of `x⁴`, which is the rest part in that formula for the term:
+![image](https://user-images.githubusercontent.com/14041622/42205785-efa4d5be-7ed7-11e8-8b08-7c65ba9bdc0d.png)
+- And we only need to find out what is the value of the `4th derivative`.
+- By the given formula of `gᴺ(0)`, we can get: 
+![image](https://user-images.githubusercontent.com/14041622/42205922-4e1c14c2-7ed8-11e8-878b-eeaeb783fef8.png)
+- So the coefficient will be:
+![image](https://user-images.githubusercontent.com/14041622/42205985-8479b84e-7ed8-11e8-8309-200b4bc8d5b0.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42153599-21bb8b3c-7e16-11e8-8f9f-bae156b9cdb9.png)
+Solve:
+- We know the `Maclaurin series` is a Taylor series centred at `x=0`, and the formula is:
+![image](https://user-images.githubusercontent.com/14041622/42153779-bda67534-7e16-11e8-874e-9f4a0262ceb8.png)
+- It's told to list 4 terms, so we plug in the given value of `f', f'', f'''`  and get:
+![image](https://user-images.githubusercontent.com/14041622/42153857-d5ba9790-7e16-11e8-8d33-735a5e01e6dc.png)
+- And we get the answer:
+![image](https://user-images.githubusercontent.com/14041622/42153875-e24c1920-7e16-11e8-9eee-a744364fac76.png)
+
+
+## Evaluate Maclaurin Series
+
+To evaluate a Maclaurin series, we need to **convert the series to a function**,  and then evaluate the function.
+
+[`▼Jump forward to have a look at the note: Maclaurin Series of Common functions`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-402940122)
+
+
+
+
+# `Lagrange Error Bound`
+> It's also called the **`Lagrange Error Theorem`**, or **`Taylor's Remainder Theorem`**.
+
+To approximate a function more precisely, we'd like to express the function as a **sum of a Taylor Polynomial & a Remainder.**
+
+![image](https://user-images.githubusercontent.com/14041622/42287774-50cf980c-7fea-11e8-8ecb-59c2d9730f02.png)
+(▲ For `T` is the **Taylor polynomial** with n terms, and `R` is the **Remainder** after n terms.)
+
+[`▲Jump back to review the note on Error estimation Theorem.`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-400239322)
+
+[`►Jump over to have practice at Khan academy: Lagrange Error Bound.`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/e/taylor-polynomial-approximation)
+
+The tricky part of that expression is to "preset" the accuracy of the `Error`, aka. the `Remainder`.
+
+For **bounding** the `Error`, out strategy is to apply the `Lagrange Error Bound` theorem.
+
+Simply saying, the theorem is:
+- If a function's **ALL DERIVATIVES** are bounded by **a number** over the interval `(C, x)`:
+![image](https://user-images.githubusercontent.com/14041622/42287639-c4fdba20-7fe9-11e8-99dc-c3fd033459ed.png)
+(▲ for `C` is the centre of approximation)
+- where the max value of **all derivatives** of the function is:
+![image](https://user-images.githubusercontent.com/14041622/42287679-e5c2299e-7fe9-11e8-931d-6303f03cbeb1.png)
+(▲ for `z` is any value between `C` and `x` makes the derivative to the **max**)
+(▲ and note that: the **input** has to be `n+1` )
+- then the **function's Remainder** MUST satisfy this theorem:
+![image](https://user-images.githubusercontent.com/14041622/42278902-bc06c364-7fce-11e8-899f-a486f516ecc1.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42278785-72735c3a-7fce-11e8-8ecf-50a11b37a51e.png)
+Solve:
+- This problem is to approximate a function with Taylor Polynomial.
+- To do so, we're to set use the `Error estimation` method, which first to set up the equation:
+![image](https://user-images.githubusercontent.com/14041622/42279513-9350909c-7fd0-11e8-8d3c-8ebf088665c5.png)
+- In this case, it is:
+![image](https://user-images.githubusercontent.com/14041622/42279412-4700f1c8-7fd0-11e8-9e21-0b07de93cd0e.png)
+- Since it's only asking for the `error bound`, so we **only focus** on the Error `Rn`.
+- We want to apply the `Lagrange Error Bound Theorem`, and bound it to `0.001`:
+![image](https://user-images.githubusercontent.com/14041622/42279497-859ddc34-7fd0-11e8-9b29-467cc3253085.png)
+- For those **unknowns** variables in the theorem, we know that:
+    - The approximation is centred at `1.5π`, so `C = 1.5π`.
+    - The input of function is `1.3π`, so `x = 1.3π`.
+    - For The `M` value, because **all the derivatives** of the function `cos(x)`, are bounded to 1 even **without an interval** , so let's say the max value `M = 1`.
+- Therefore, the formula of this theorem becomes:
+![image](https://user-images.githubusercontent.com/14041622/42279703-423dd696-7fd1-11e8-8397-a176d420a69a.png)
+- Unfortunately, at this moment we don't have easier method to solve for `n` except trying some numbers in:
+![image](https://user-images.githubusercontent.com/14041622/42279842-a358b0cc-7fd1-11e8-94a4-c6d8697412fa.png)
+- We could see that, with the degree gets larger and larger, the `Error` becomes smaller and smaller.
+- Only until `n=4`, which means the `4th derivative`, the `Error` is less than `0.001`.
+- So the answer is `4th derivative`.
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42285625-c4ce0746-7fe2-11e8-8e96-5043b22f65cf.png)
+Solve:
+- Same with the problem above, we want to apply the `Lagrange Error Bound Theorem`, and bound it to `0.001`:
+![image](https://user-images.githubusercontent.com/14041622/42279497-859ddc34-7fd0-11e8-9b29-467cc3253085.png)
+- For those **unknowns** variables in the theorem, we know that:
+    - The approximation is centred at `0` because it's told as a `Maclaurin Series` , so `C = 0`.
+    - The input of function is `-0.95`, so `x = -0.95`.
+    - The interval is (C, x) or (x, C), which is `(-0.95, 0)`  in this case.
+- For The `M` value, since all the derivatives of `eˣ` is just `eˣ`, and `eˣ`  is unbounded at all, so we're to examine the Max value over the interval `(-0.95, 0)`
+- With the help from `Desmos Calculator`, we know that over the interval `(-0.95, 0)`, the max value of `eˣ` is `e⁰ = 1`:
+![image](https://user-images.githubusercontent.com/14041622/42287179-f78b7024-7fe7-11e8-9c9f-9f3a7d580301.png)
+- So boundary is `M = 1`.
+- Therefore, the formula of this theorem becomes:
+![image](https://user-images.githubusercontent.com/14041622/42285962-c35262b2-7fe3-11e8-9862-a95cc085d15c.png)
+- In this case, we need to try some numbers for `n` to get the desired value:
+![image](https://user-images.githubusercontent.com/14041622/42286050-1b676380-7fe4-11e8-8f84-ecb0c91da588.png)
+- After tried `n=5` and `n=6`, we could see that only until `n=6`, which means the `6th derivative`, the `Error` is less than `0.001`.
+- So the answer is `6th derivative`.
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42288078-d5ba3de6-7feb-11e8-934d-9ebae98d116f.png)
+Solve:
+- Same with the problem above, we want to apply the `Lagrange Error Bound Theorem`, and bound it to `0.001`:
+![image](https://user-images.githubusercontent.com/14041622/42279497-859ddc34-7fd0-11e8-9b29-467cc3253085.png)
+- For those **unknowns** variables in the theorem, we know that:
+    - The approximation is centred at `2`, so `C = 2`.
+    - The input of function is `2.5`, so `x = 2.5`.
+    - The interval then is `(2, 2.5)`.
+- For the `M` value, it's not easy to figure out, but we've been told the formula for derivative.
+![image](https://user-images.githubusercontent.com/14041622/42288599-fe6e5b80-7fed-11e8-8066-456535489726.png)
+- So the expression for `M` would be:
+- Let's directly plug in the `M` expression into the Remainder:
+![image](https://user-images.githubusercontent.com/14041622/42289216-e1d10362-7ff0-11e8-970e-6cff6b9c507f.png)
+- With the help from `Desmos grapher` we know that when within the interval `2≤ z ≤ 2.5`, that `z=2` makes the formula to the max:
+![image](https://user-images.githubusercontent.com/14041622/42289271-34ce8788-7ff1-11e8-94b3-b6cb43bb2651.png)
+- So let's set the inequality:
+![image](https://user-images.githubusercontent.com/14041622/42289259-1c7ffe50-7ff1-11e8-917f-8841f2585e5d.png)
+- After trying out some number for `n`, we get that `n ≥ 3`.
+
+
+# Finding Taylor series for a function
+
+[►Refer to Khan academy's unit: Finding Taylor or Maclaurin series for a function](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/bc-10-14/v/function-as-a-geometric-series)
+
+
+# Function as a geometric series
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42362546-68667e44-8126-11e8-8e47-cf02f02bacfd.png)
+Solve:
+- This function looks very alike the `Infinite Geometric function`:
+![image](https://user-images.githubusercontent.com/14041622/42362580-9fdc1474-8126-11e8-982c-cae11cec4a23.png)
+- So we extract the key numbers out:
+    - First term: `a = 1`
+    - Common Ratio: `r = -x²`
+- So the infinite geometric series would be:
+![image](https://user-images.githubusercontent.com/14041622/42362651-dd61926a-8126-11e8-9a3b-50303742f7d0.png)
+- Expand the formula to be:
+![image](https://user-images.githubusercontent.com/14041622/42362663-e9a40634-8126-11e8-90d5-57db2b669983.png)
+
+
+# Maclaurin Series of Common functions
+
+[►Refer to Wiki: List of Maclaurin series of some common functions](https://en.wikipedia.org/wiki/Taylor_series#List_of_Maclaurin_series_of_some_common_functions)
+
+Maclaurin series of these common functions are very useful, which we really want to **memorize**.
+
+Function | Maclaurin Series
+-- | --
+sin(x) | ![image](https://user-images.githubusercontent.com/14041622/42365046-f3794fbc-812f-11e8-84c0-c6e1aecf1b66.png)
+cos(x) | ![image](https://user-images.githubusercontent.com/14041622/42365056-fbf4c694-812f-11e8-89c6-8cb191427016.png)
+tan(x) | ![image](https://user-images.githubusercontent.com/14041622/42365075-06c91cb4-8130-11e8-89f8-2e93d7c6e4df.png)
+sec(x) | ![image](https://user-images.githubusercontent.com/14041622/42365080-0d658760-8130-11e8-876e-b1ba6348b4fa.png)
+eˣ | ![image](https://user-images.githubusercontent.com/14041622/42364980-a87f8224-812f-11e8-8e95-81d2750cb3cf.png)
+Geometric series 1 | ![image](https://user-images.githubusercontent.com/14041622/42365162-450be27c-8130-11e8-81f7-cdcf2a0931a3.png)
+Geometric series 2 | ![image](https://user-images.githubusercontent.com/14041622/42365179-5066964e-8130-11e8-8fa8-73c8da4cf954.png)
+Geometric series 3 | ![image](https://user-images.githubusercontent.com/14041622/42365183-54348ccc-8130-11e8-8975-c9f6fa211a32.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42364580-2e227938-812e-11e8-89f4-de4979f77b2a.png)
+Solve:
+- This Maclaurin series has a clear pattern of `cos(x) Maclaurin series`:
+![image](https://user-images.githubusercontent.com/14041622/42364638-672415a2-812e-11e8-8b30-0b2a6fa4e1bb.png)
+- In this case, it's:
+![image](https://user-images.githubusercontent.com/14041622/42364653-7e942baa-812e-11e8-93c8-a4d17062a59b.png)
+- So we could convert the series back to the trig function:
+![image](https://user-images.githubusercontent.com/14041622/42364676-8f36be1e-812e-11e8-96d3-3d0821335888.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42365320-bb3528e6-8130-11e8-8ee6-ee6a96934cbf.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/42365343-c6d55f7c-8130-11e8-9bc7-01dd5e40dd34.png)
+
+
+###  Example
+![image](https://user-images.githubusercontent.com/14041622/42505266-da5133b2-8470-11e8-92f8-09468c2c069b.png)
+Solve:
+- Looks quite a complicated series, but we look at the `factorial dominators`, we found that resembles the pattern of the `sin(x)`'s maclaurin series.
+- By comparing to the `sin(x) maclaurin series`, we notice that `x = π/2`, and all the rest are the same.
+- So rewrite the series to the function:
+![image](https://user-images.githubusercontent.com/14041622/42505445-564793e4-8471-11e8-89f0-1e317af23d74.png)
+- And we get the result is `1`.
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42506152-9cf2a0ca-8473-11e8-8fdd-f5257514ad6e.png)
+Solve:
+
+
+
+# `Euler's Formula & Euler's Identity`
+
+> "The `Euler's identity` connects all of these **FUNDAMENTAL NUMBERS** in some mystical way that shows that there's some connectedness to the UNIVERSE. 
+**If this does not blow your mind, you have no emotion.**" - Sal Khan
+
+[►Refer to the most well-known lecture from Sal Khan: Euler's formula & Euler's identity](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/v/euler-s-formula-and-euler-s-identity)
+
+
+▼ `Euler's formula`:
+![image](https://user-images.githubusercontent.com/14041622/42365892-5380f19c-8132-11e8-8429-2265a6fe9421.png)
+
+![image](https://user-images.githubusercontent.com/14041622/42365994-9a703798-8132-11e8-9707-b59178309ad1.png)
+
+
+▼ `Euler's identity`:
+![image](https://user-images.githubusercontent.com/14041622/42365959-82972c62-8132-11e8-9954-9b3a8e3b2a8b.png)
+
+

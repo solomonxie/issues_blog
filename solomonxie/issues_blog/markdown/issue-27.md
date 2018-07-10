@@ -979,33 +979,6 @@ sudo mkdir /var/lib/dpkg/info/
 之后`sudo apt-get upgrade`升级试试，一切完好！
 
 
-# 树莓派挂载U盘
-[参考文章](https://segmentfault.com/a/1190000014173634)
-
-```shell
-# 检查设备名字
-sudo fdisk -l
-
-# 设定映射目录
-sudo mkdir /mnt/udisk
-# 将指定设备映射到刚刚创建到目录
-sudo mount -o uid=pi,gid=pi /dev/sda1 /mnt/udisk/
-
-# 开机自动执行
-sudo vim /etc/rc.local
-# 将下面这句加到文件内容中(rc.local最后的exit 0之前都行)
-mount -o uid=pi,gid=pi /dev/sda1 /mnt/udisk/
-
-# 弹出优盘方法
-sudo umount /mnt/udisk
-
-# 如果提示device is busy
-ps -ef | grep /mnt/udisk
-sudo kill -9 xxx
-```
-
-
-
 # `Exiftool` 命令行操作图片元信息(Megadata)
 > Exiftool 是命令行操作exif最强大的工具。
 
@@ -1881,3 +1854,111 @@ Linux改密码异常简单，一个词就可以进入互动命令，输入新老
 ```sh
 $ passwd
 ```
+
+
+
+# Linux显示文件某一行
+
+```sh
+# 显示第3行
+$ head -3 filename.txt |tail -1
+```
+
+
+# 命令行通过代理连接网络
+
+[参考：Mac OSX终端走shadowsocks代理](https://github.com/mrdulin/blog/issues/18)
+
+Mac或Linux下，在`~/.bash_profile`或`~/.zshrc`中（根据你的shell而定），加入以下设定：
+```
+alias proxy='export all_proxy=socks5://127.0.0.1:1080'
+alias unproxy='unset all_proxy'
+```
+这样做的好处是，只有你需要的时候，输入`proxy`，才会开始走代理。
+以上的代理ip和端口，根据你自己的http代理设置。
+
+
+# 命令行下载视频
+
+## `you-get` 支持站点 ~100
+对国内支持比较好，国内视频下载速度极快（比youtube-dl快很多倍），使用方便，语法简单。
+
+> 支持：YouTube, Twitter, VK, Vine, Vimeo, Vidto, Videomega, Veoh, Tumblr, TED, SoundCloud, SHOWROOM, Pinterest, MusicPlayOn, MTV81, Mixcloud, Metacafe, Magisto, Khan, Academy, Internet, Archive, Instagram, InfoQ, Imgur, Heavy, Music, Archive, Google+, Freesound, Flickr, FC2, Video, Facebook, eHow, Dailymotion, Coub, CBS, Bandcamp, AliveThai, interest.me, 755, ナナゴーゴー, niconico, ニコニコ動画, 163, 网易视频, 网易云音乐, 56网, AcFun, Baidu, 百度贴吧, 爆米花网, bilibili, 哔哩哔哩, Dilidili, 豆瓣, 斗鱼, Panda, 熊猫, 凤凰视频, 风行网, iQIYI, 爱奇艺, 激动网, 酷6网, 酷狗音乐, 酷我音乐, 乐视网, 荔枝FM, 秒拍, MioMio弹幕网, 痞客邦, PPTV聚力, 齐鲁网, QQ, 腾讯视频, 企鹅直播, Sina, 新浪视频, 微博秒拍视频, Sohu, 搜狐视频, Tudou, 土豆, 虾米, 阳光卫视, 音悦Tai, Youku, 优酷, 战旗TV, 央视网, 花瓣, Naver, 네이버, 芒果TV, 火猫TV, 全民直播, 阳光宽频网, 西瓜视频, 快手, 抖音
+
+安装：
+```sh
+$ pip install -U you-get
+```
+
+## 下载方法
+默认下载方式：
+```sh
+$ you-get <URL>
+```
+
+通过代理下载：
+```sh
+$ you-get -x ADDRESS:PORT <URL>
+```
+
+根据不同分辨率下载：
+```sh
+# 查看可选分辨率（不会开始下载）：
+$ you-get -i <URL>
+
+# 根据选项编号，比如itag=18，选择下载：
+$ you-get --itag=18 <URL>
+```
+
+
+
+## `youtube-dl` 支持站点 1000+
+最强大的命令行下载器，支持1000+网站，几乎包含了**所有国家**的**所有主流**视频网站。
+
+> 常用支持站点：
+Youtube, facebook, ESPN, Instagram, 土豆，优酷，bilibili，CCTV，音悦台，爱奇艺，搜狐，网易云音乐，虾米音乐，QQ音乐
+[参考youtube-dl源代码。](https://github.com/rg3/youtube-dl/tree/master/youtube_dl/extractor)目录下有很多extractor脚本，每个脚本代表一个视频网站。
+[参考：Supported sites](https://rg3.github.io/youtube-dl/supportedsites.html)
+
+安装：
+```sh
+$ pip install youtube-dl
+```
+
+## 下载方法
+
+默认下载方式 (默认下载最高清的)：
+```sh
+$ youtube-dl <URL>
+```
+
+选择分辨率下载：
+```sh
+# 下载所有分辨率
+$ youtube-dl  --all-formats <URL>
+
+# 查看所有分辨率选项（不下载）
+$ youtube-dl --list-formats
+
+# 根据分辨率ID编号，比如2090989834555288v，选择下载：
+$ youtube-dl -f 2090989834555288v <URL>
+
+# 下载最高清视频和音频
+$ youtube-dl -f bestvideo+bestaudio <URL>
+```
+
+### 下载字幕
+```sh
+# 只下载字幕不下载视频
+$ youtube-dl --all-subs --write-auto-sub --skip-download https://youtu.be/3mhx5XUYmGw
+```
+
+
+
+# 终端移动光标技巧
+
+命令行一般都很长，用左右键一个字母一个字母移动实在太慢。
+这里总结一些命令行常用的移动技巧。
+
+- `Ctrl + ←` 向左移动一个单词
+- `Ctrl + →` 向右移动一个单词
