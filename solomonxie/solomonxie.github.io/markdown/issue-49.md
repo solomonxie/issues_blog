@@ -2968,7 +2968,8 @@ Test | Description
 
 ## Alternating Series Test
 
-![image](https://user-images.githubusercontent.com/14041622/42500239-4404186e-8463-11e8-9271-ab3e066198de.png)
+
+![image](https://user-images.githubusercontent.com/14041622/42502260-2263b20a-8468-11e8-99db-646b384eb14a.png)
 
 
 
