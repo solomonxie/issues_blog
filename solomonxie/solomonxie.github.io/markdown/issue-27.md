@@ -1952,3 +1952,13 @@ $ youtube-dl -f bestvideo+bestaudio <URL>
 # 只下载字幕不下载视频
 $ youtube-dl --all-subs --write-auto-sub --skip-download https://youtu.be/3mhx5XUYmGw
 ```
+
+
+
+# 终端移动光标技巧
+
+命令行一般都很长，用左右键一个字母一个字母移动实在太慢。
+这里总结一些命令行常用的移动技巧。
+
+- `Ctrl + ←` 向左移动一个单词
+- `Ctrl + →` 向右移动一个单词
