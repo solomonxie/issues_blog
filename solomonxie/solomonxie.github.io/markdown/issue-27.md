@@ -1876,3 +1876,35 @@ alias unproxy='unset all_proxy'
 ```
 这样做的好处是，只有你需要的时候，输入`proxy`，才会开始走代理。
 以上的代理ip和端口，根据你自己的http代理设置。
+
+
+# 命令行下载视频
+
+## `you-get`
+安装：
+```sh
+$ pip install -U you-get
+```
+
+默认下载方式：
+```sh
+$ you-get <URL>
+```
+
+支持站点：
+
+## `youtube-dl`
+安装：
+```sh
+$ pip install youtube-dl
+```
+
+默认下载方式：
+```sh
+$ youtube-dl <URL>
+```
+
+### 下载字幕
+```sh
+$ youtube-dl --all-subs --write-auto-sub --skip-download https://youtu.be/3mhx5XUYmGw
+```
