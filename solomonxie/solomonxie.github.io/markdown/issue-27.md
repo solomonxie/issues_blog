@@ -1906,7 +1906,7 @@ $ you-get -x ADDRESS:PORT <URL>
 # 查看可选分辨率（不会开始下载）：
 $ you-get -i <URL>
 
-# 选项的某一项下载：
+# 根据选项编号，比如itag=18，选择下载：
 $ you-get --itag=18 <URL>
 ```
 
@@ -1927,15 +1927,28 @@ $ pip install youtube-dl
 
 ## 下载方法
 
-默认下载方式：
+默认下载方式 (默认下载最高清的)：
 ```sh
 $ youtube-dl <URL>
 ```
 
-### 下载字幕
+选择分辨率下载：
 ```sh
-$ youtube-dl --all-subs --write-auto-sub --skip-download https://youtu.be/3mhx5XUYmGw
+# 下载所有分辨率
+$ youtube-dl  --all-formats <URL>
+
+# 查看所有分辨率选项（不下载）
+$ youtube-dl --list-formats
+
+# 根据分辨率ID编号，比如2090989834555288v，选择下载：
+$ youtube-dl -f 2090989834555288v <URL>
+
+# 下载最高清视频和音频
+$ youtube-dl -f bestvideo+bestaudio <URL>
 ```
 
-### 
-
+### 下载字幕
+```sh
+# 只下载字幕不下载视频
+$ youtube-dl --all-subs --write-auto-sub --skip-download https://youtu.be/3mhx5XUYmGw
+```
