@@ -3825,7 +3825,10 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42505266-da5133b2-8470-11e8-92f8-09468c2c069b.png)
 Solve:
 - Looks quite a complicated series, but we look at the `factorial dominators`, we found that resembles the pattern of the `sin(x)`'s maclaurin series.
-- 
+- By comparing to the `sin(x) maclaurin series`, we notice that `x = π/2`, and all the rest are the same.
+- So rewrite the series to the function:
+![image](https://user-images.githubusercontent.com/14041622/42505445-564793e4-8471-11e8-89f0-1e317af23d74.png)
+- And we get the result is `1`.
 
 
 # `Euler's Formula & Euler's Identity`
