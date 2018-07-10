@@ -3831,6 +3831,13 @@ Solve:
 - And we get the result is `1`.
 
 
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42506152-9cf2a0ca-8473-11e8-8fdd-f5257514ad6e.png)
+Solve:
+
+
+
 # `Euler's Formula & Euler's Identity`
 
 > "The `Euler's identity` connects all of these **FUNDAMENTAL NUMBERS** in some mystical way that shows that there's some connectedness to the UNIVERSE. 
