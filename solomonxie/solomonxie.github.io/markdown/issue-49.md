@@ -2940,6 +2940,22 @@ Very simple test:
 ## Integral Test
 
 
+## p-series Test
+![image](https://user-images.githubusercontent.com/14041622/42499158-a4de17a0-8460-11e8-8031-1abb5117df3a.png)
+
+
+## Direct Comparison Test
+Find a p-series or geometric-series looks "similar" to the given series, and compare them:
+
+![image](https://user-images.githubusercontent.com/14041622/42499229-d46403cc-8460-11e8-9179-75850d9eed21.png)
+
+
+## Limit Comparison Test
+Find a p-series or geometric-series looks "similar" to the given series, and compare them:
+
+![image](https://user-images.githubusercontent.com/14041622/42499264-e9896ecc-8460-11e8-8893-e0aa1c6d20fd.png)
+
+
 
 # `Divergent Test`
 > It's also called the `nth term divergence test`.
