@@ -3821,6 +3821,12 @@ Solve:
 ![image](https://user-images.githubusercontent.com/14041622/42365343-c6d55f7c-8130-11e8-9bc7-01dd5e40dd34.png)
 
 
+###  Example
+![image](https://user-images.githubusercontent.com/14041622/42505266-da5133b2-8470-11e8-92f8-09468c2c069b.png)
+Solve:
+- Looks quite a complicated series, but we look at the `factorial dominators`, we found that resembles the pattern of the `sin(x)`'s maclaurin series.
+- 
+
 
 # `Euler's Formula & Euler's Identity`
 
