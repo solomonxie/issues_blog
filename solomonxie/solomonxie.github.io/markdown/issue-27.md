@@ -1904,6 +1904,9 @@ $ pip install youtube-dl
 $ youtube-dl <URL>
 ```
 
+支持站点：
+参考youtube-dl源代码目录下的所有extractor脚本，每个脚本代表一个视频网站。[[链接]](https://github.com/rg3/youtube-dl/tree/master/youtube_dl/extractor)
+
 ### 下载字幕
 ```sh
 $ youtube-dl --all-subs --write-auto-sub --skip-download https://youtu.be/3mhx5XUYmGw
