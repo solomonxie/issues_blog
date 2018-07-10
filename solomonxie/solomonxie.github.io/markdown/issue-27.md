@@ -973,7 +973,7 @@ E: Sub-process /usr/bin/dpkg returned an error code (1)
 于是看到了[一篇中文文章](https://www.cnblogs.com/anpengapple/p/5098960.html)两句话解决：
 ```shell
 # 删除锁
-sudo rm /var/lib/dpkg/info/
+sudo rm -r /var/lib/dpkg/info/
 sudo rm /var/lib/apt/lists/lock
 sudo rm /var/cache/apt/archives/lock
 sudo rm /var/lib/dpkg/lock
