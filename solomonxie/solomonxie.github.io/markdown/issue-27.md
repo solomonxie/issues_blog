@@ -1881,7 +1881,6 @@ alias unproxy='unset all_proxy'
 # 命令行下载视频
 
 ## `you-get`
-
 对国内支持比较好，使用方便，语法简单。
 
 安装：
@@ -1919,7 +1918,6 @@ $ you-get --itag=18 <URL>
 
 
 ## `youtube-dl`
-
 最强大的命令行下载器，支持1000+网站，几乎包含了**所有国家**的**所有主流**视频网站。
 
 安装：
@@ -1940,8 +1938,6 @@ $ youtube-dl --all-subs --write-auto-sub --skip-download https://youtu.be/3mhx5X
 ```
 
 ### 支持站点 (1000+)
-> 
-
 [参考youtube-dl源代码。](https://github.com/rg3/youtube-dl/tree/master/youtube_dl/extractor)目录下有很多extractor脚本，每个脚本代表一个视频网站。
 [参考：Supported sites](https://rg3.github.io/youtube-dl/supportedsites.html)
 
