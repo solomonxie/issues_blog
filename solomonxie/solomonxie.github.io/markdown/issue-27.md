@@ -1969,3 +1969,25 @@ $ youtube-dl --all-subs --write-auto-sub --skip-download https://youtu.be/3mhx5X
 
 - `Ctrl + ←` 向左移动一个单词
 - `Ctrl + →` 向右移动一个单词
+
+
+# Bash脚本常用变量
+
+[参考：终端打印、算术运算、常用变量](http://man.linuxde.net/shell-script/shell-1)
+
+## 常用环境变量
+
+`set` 命令可以查看所有的shell变量，其中包括环境变量
+
+```sh
+$USER 查看账户信息
+$logname 登录相关信息
+$UID
+$Shell
+$HOME 家目录
+$pwd
+$PATH 用户所输入的命令是在哪些目录中查找
+$PS1
+$PS2
+$RANDOM 随机数
+```
