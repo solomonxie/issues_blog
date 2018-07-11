@@ -1786,7 +1786,7 @@ Solve:
 - Back substitute `3x` to `u` and the boundaries back to `x` get the result `π/6`.
 
 
-# `Integration by Parts` → Product Rule
+# `Integrate by Parts` → Product Rule
 > It's the `Reverse Product Rule`. 
 And here is the formula to solve the integration by parts: 
 
