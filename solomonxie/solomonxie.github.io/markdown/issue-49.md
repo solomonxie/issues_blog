@@ -1199,7 +1199,7 @@ These terms are constantly confusing people, especially the follow parts:
 
 [Jump over here for Khan academy's quizzes.](https://www.khanacademy.org/math/ap-calculus-ab/ab-applications-derivatives/modal/e/applications-of-derivatives--motion-along-a-line)
 
-### `Example`
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40774169-79fafe00-64f7-11e8-9ee6-86f09c752560.png)
 Solve:
 - The tricky part here is the relationships: `Position -> Velocity -> Acceleration`
@@ -1209,12 +1209,20 @@ Solve:
 - To conclude, the Max velocity should satisfy this: `a(t) = 0` & `a'(t) < 0`
 - Differentiate `x(t)` twice and set `x''(t) = 0`, get `t = 1`.
 
-### `Example`
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/40774946-721e4820-64f9-11e8-9fc6-6c86bfc10e25.png)
 Solve:
 - The velocity is `v(t) = x'(t)`
 - The Acceleration is `a(t) = v'(t) = x''(t) = 0`, and get `t=1`
 - Substitute to `v(1) = 3`
+
+
+
+## Example
+![image](https://user-images.githubusercontent.com/14041622/42556831-746e8c48-851f-11e8-9fac-7a29cd9e1290.png)
+
+[►Refer to the note: Related rates.](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-390385455)
+
 
 
 # `Planar motion (Derivative of vectors)`
