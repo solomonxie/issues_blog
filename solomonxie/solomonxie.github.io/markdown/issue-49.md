@@ -1790,7 +1790,7 @@ Solve:
 > It's the `Reverse Product Rule`. 
 And here is the formula to solve the integration by parts: 
 
-![image](https://user-images.githubusercontent.com/14041622/41225631-d4517296-6da1-11e8-8bc7-1e7772fcea42.png)
+![image](https://user-images.githubusercontent.com/14041622/42558857-0e62e43e-8525-11e8-837c-7069180ed471.png)
 
 [Refer to Khan academy: Integration by parts intro](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/deriving-integration-by-parts-formula)
 
