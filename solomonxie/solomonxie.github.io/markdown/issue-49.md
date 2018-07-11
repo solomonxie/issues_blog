@@ -2940,7 +2940,7 @@ Test | Description
 ► Comparison Test | Compare the series to a "similar" p-series or geometric-series.
 ► Ratio Test | Take limit of two terms ratio.
 ► Root Test | Take the limit of nth root of nth term.
-► Alternating Test |  To test the alternating series.
+► Alternating Test |  Test if terms are decreasing, and take limit of nth term.
 
 
 ## Divergent Test
@@ -2981,7 +2981,7 @@ Test | Description
 
 
 ## Alternating Series Test
-
+> **Test if terms are decreasing, and take limit of nth term.**
 
 ![image](https://user-images.githubusercontent.com/14041622/42502260-2263b20a-8468-11e8-99db-646b384eb14a.png)
 
