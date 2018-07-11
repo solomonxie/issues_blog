@@ -1977,7 +1977,7 @@ $ youtube-dl --all-subs --write-auto-sub --skip-download https://youtu.be/3mhx5X
 
 ## 常用环境变量
 
-`set` 命令可以查看所有的shell变量，其中包括环境变量
+`set` 命令可以查看所有的环境变量，`echo $xx`可以打印某一个环境变量。
 
 ```sh
 $USER 查看账户信息
