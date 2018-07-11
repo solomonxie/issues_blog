@@ -492,7 +492,9 @@ $ crontab > ./tasks.txt
 $ echo '# some new command' >> ./tasks.txt
 
 # 导入(覆盖)到crontab中
-$ crontab ./tasks.txt
+$ crontab jobs.txt
+# OR
+$ cat jobs.txt |crontab
 ```
 
 ## `Crontab创建任务时报错：crontab: no crontab - using an empty one crontab: "/usr/bin/vi" exited with status 1`
