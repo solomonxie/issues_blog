@@ -537,6 +537,8 @@ Areas:
 ## Surface Area
 - Surface of Cylinder: `2π · r · (r + h)`
 - Surface of Sphere: `4π · r²`
+- Surface of Cone: `π · r( r + √(h²+r²) ) `
+
 
 ## Volume of Cuboids, Rectangular Prisms and Cubes
 Volume = Length · Width ·  Height
