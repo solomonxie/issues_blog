@@ -1507,6 +1507,7 @@ The Fundamental Theorem of Calculus could actually be used in two forms. They ha
 
 
 
+
 ## `How to Differentiate Integrals`
 We could **CONVERT** the `integral formula` to `Differential formula`, by using the `fundamental theorem of calculus`, and use the Rules we've learnt to solve the differential equations.
 
@@ -1519,7 +1520,7 @@ We got different strategies for different boundaries situation:
 
 Here is formulas for different **boundaries** of integration:
 
-![image](https://user-images.githubusercontent.com/14041622/41088861-1e53d35c-6a73-11e8-846a-a35dbaa888f5.png)
+![image](https://user-images.githubusercontent.com/14041622/42630481-7feed27c-8609-11e8-81c7-dc827d77e1c7.png)
 
 
 ### Example
