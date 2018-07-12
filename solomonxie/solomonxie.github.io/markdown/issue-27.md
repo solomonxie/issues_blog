@@ -2014,3 +2014,10 @@ $PS1
 $PS2
 $RANDOM 随机数
 ```
+
+
+# Linux uniq命令 删除文本中重复行
+
+```sh
+$ uniq <FILE.txt>
+```
