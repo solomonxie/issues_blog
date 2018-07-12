@@ -2271,6 +2271,8 @@ Solve:
 
 # `Slope Field`
 
+[▶ Refer to Khan academy: Worked example: range of solution curve from slope field](https://www.khanacademy.org/math/ap-calculus-ab/ab-differential-equations-new/ab-7-4/v/range-of-solution-curve-from-slope-field)
+
 ![image](https://user-images.githubusercontent.com/14041622/41281238-746b311a-6e63-11e8-8b36-997f706f2377.png)
 
 
