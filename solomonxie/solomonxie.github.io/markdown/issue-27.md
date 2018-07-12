@@ -1972,6 +1972,9 @@ $ youtube-dl -ci <URL>
 
 # 从第3个视频开始下载列表
 $ youtube-dl --playlist-start 3 <URL>
+
+# 从文件读取多视频链接
+$ youtube-dl --batch-file='~/URL-LIST.txt'
 ```
 
 ### 下载字幕
