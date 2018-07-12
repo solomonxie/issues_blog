@@ -1905,7 +1905,7 @@ $ you-get <URL>
 
 通过代理下载：
 ```sh
-$ you-get -x ADDRESS:PORT <URL>
+$ you-get -x localhost:1080 <URL>
 ```
 
 根据不同分辨率下载：
@@ -1937,6 +1937,11 @@ $ pip install youtube-dl
 默认下载方式 (默认下载最高清的)：
 ```sh
 $ youtube-dl <URL>
+```
+
+通过代理下载：
+```sh
+$ youtube-dl --proxy "http://localhost:1080" <URL>
 ```
 
 根据不同分辨率下载：
