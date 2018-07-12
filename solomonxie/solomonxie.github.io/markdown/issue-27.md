@@ -1961,17 +1961,17 @@ $ youtube-dl -f bestvideo+bestaudio <URL>
 
 常用附加选项：
 ```sh
-# 最常用选项。-c 是Continue，断点续传未完成的；
-# -i 是ignore Error，忽略错误继续下载；
-# -t 是获取Title
-# -w 是no-overwrites不覆盖已存在文件
+# 最常用选项：断点续传c、忽略错误i、获取标题t、不覆盖已有文件w
 $ youtube-dl -citw <URL>
-
 ```
 
 ### 下载列表
 ```sh
-$ 
+# 默认下载全列表 (断点续传、忽略错误）
+$ youtube-dl -ci <URL>
+
+# 从第3个视频开始下载列表
+$ youtube-dl --playlist-start 3 <URL>
 ```
 
 ### 下载字幕
