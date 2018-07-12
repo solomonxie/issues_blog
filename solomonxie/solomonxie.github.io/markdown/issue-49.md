@@ -756,6 +756,11 @@ Which also means that, if the conditions are satisfied, then there **MUST BE** a
 ![Graph](https://user-images.githubusercontent.com/14041622/41189731-18eb9ed4-6c05-11e8-9752-33b1c48c0a8a.png)
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42626694-8a4e235a-85fd-11e8-83e6-58ad47b33760.png)
+Solve:
+- He's totally right.
+
 
 # `L'Hopital's Rule`
 `L`Hopital's Rule helps us to find the limit of an `Undefined` limits, like `0/0`, `∞/∞` and such.
