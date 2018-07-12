@@ -546,7 +546,7 @@ $ git push origin <local-branch-name>:<remote-branch-name>
 
 Git LFS需要单独下载，且是独立于git的另一个程序，且也是另一套逻辑。
 
-[参考官方：Git Large File Storage](https://git-lfs.github.com/)
+[参考Github官方：Git Large File Storage](https://git-lfs.github.com/)
 
 ## 安装和初始配置
 ```sh
