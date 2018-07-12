@@ -535,3 +535,26 @@ $ git push origin <branch-name>
 $ git push origin <local-branch-name>:<remote-branch-name>
 # 如 $ git push origin :dev
 ```
+
+
+# Git LFS (Large File Storage) 二进制文档版本控制
+
+一直有对二进制文档版本控制的需求，比如一些修图的文档，图片库什么的。之前不懂，一直在用原生git进行控制，结果原本的2G文件夹，很快变成了4G+。
+然后参考了git文档发现，官方是不推荐git进行二进制文档控制的。
+
+然后顺着思路找，发现二进制版本控制是有的，而且是git系统能提供的：`Git LFS`。
+
+Git LFS需要单独下载，且是独立于git的另一个程序，且也是另一套逻辑。
+
+[参考官方：Git Large File Storage](https://git-lfs.github.com/)
+
+## 安装和初始配置
+```sh
+# Mac
+$ brew install git-lfs
+```
+
+初始配置（只需要在第一次安装时配置一次）：
+```sh
+$ git lfs install
+```
