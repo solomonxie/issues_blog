@@ -1939,7 +1939,7 @@ $ pip install youtube-dl
 $ youtube-dl <URL>
 ```
 
-选择分辨率下载：
+根据不同分辨率下载：
 ```sh
 # 下载所有分辨率
 $ youtube-dl  --all-formats <URL>
@@ -1952,6 +1952,21 @@ $ youtube-dl -f 2090989834555288v <URL>
 
 # 下载最高清视频和音频
 $ youtube-dl -f bestvideo+bestaudio <URL>
+```
+
+常用附加选项：
+```sh
+# 最常用选项。-c 是Continue，断点续传未完成的；
+# -i 是ignore Error，忽略错误继续下载；
+# -t 是获取Title
+# -w 是no-overwrites不覆盖已存在文件
+$ youtube-dl -citw <URL>
+
+```
+
+### 下载列表
+```sh
+$ 
 ```
 
 ### 下载字幕
