@@ -1898,9 +1898,14 @@ $ pip install -U you-get
 ```
 
 ## 下载方法
-默认下载方式：
+最简单下载方式：
 ```sh
 $ you-get <URL>
+```
+
+最常用下载方式：
+```sh
+$ you-get -x localhost:1080 <URL>
 ```
 
 通过代理下载：
@@ -1934,9 +1939,14 @@ $ pip install youtube-dl
 
 ## 下载方法
 
-默认下载方式 (默认下载最高清的)：
+最简单下载方式 (默认下载最高清的)：
 ```sh
 $ youtube-dl <URL>
+```
+
+最常用下载方式：
+```sh
+$ youtube-dl -citw --verbose --proxy "localhost:1080" <URL>
 ```
 
 通过代理下载：
