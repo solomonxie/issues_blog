@@ -121,3 +121,8 @@ https://user-images.githubusercontent.com/14041622/38752411-a43e23c0-3f8d-11e8-8
 
 
 终于能在mac上玩极品9了！
+
+
+今天学到一句很喜欢的话：
+
+> "I don't have any safety-net to fall back on."
