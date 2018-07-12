@@ -558,3 +558,8 @@ $ brew install git-lfs
 ```sh
 $ git lfs install
 ```
+
+## 生成和配置本地项目
+```sh
+$ git init
+```
