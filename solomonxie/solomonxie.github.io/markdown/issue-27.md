@@ -1963,6 +1963,9 @@ $ youtube-dl -f bestvideo+bestaudio <URL>
 ```sh
 # 最常用选项：断点续传c、忽略错误i、获取标题t、不覆盖已有文件w
 $ youtube-dl -citw <URL>
+
+# 生成Description文件 （如果有支持的视频描述，则生成描述文件）
+$ youtube-dl --write-description  <URL>
 ```
 
 ### 下载列表
