@@ -1909,7 +1909,7 @@ $ youtube-dl <URL>
 
 最常用下载方式：
 ```sh
-$ youtube-dl -civw -f mp4  --proxy "localhost:1080" <URL>
+$ youtube-dl -civw -f bestvideo+bestaudio  --proxy "localhost:1080" <URL>
 ```
 
 通过代理下载：
