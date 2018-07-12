@@ -1930,6 +1930,8 @@ $ youtube-dl -f 2090989834555288v <URL>
 
 # 下载最高清视频和音频
 $ youtube-dl -f bestvideo+bestaudio <URL>
+# 或下载mp4格式和m4a格式质量最高选项
+$ youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'
 ```
 
 常用附加选项：
