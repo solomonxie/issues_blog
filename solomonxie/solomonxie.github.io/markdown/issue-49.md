@@ -1518,9 +1518,9 @@ We got different strategies for different boundaries situation:
 - A function and a number.
 - Two functions.
 
-Here is formulas for different **boundaries** of integration:
+▼ Here is formulas for different **boundaries** of integration:
 
-![image](https://user-images.githubusercontent.com/14041622/42630481-7feed27c-8609-11e8-81c7-dc827d77e1c7.png)
+![image](https://user-images.githubusercontent.com/14041622/42652400-e0e5a610-8644-11e8-99d8-4b06106164a3.png)
 
 
 ### Example
