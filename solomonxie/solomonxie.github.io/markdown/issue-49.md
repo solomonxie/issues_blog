@@ -2303,7 +2303,9 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42507505-ff19b3ca-8477-11e8-9950-e00ff0cbc113.png)
 Solve:
-
+- Try out a point, etc, the initial point is `(0, 1)`.
+- **TAKE DERIVATIVE** of each equation, to get the **SLOPE** of each.
+- Plug in the `x=0` value to get each slope, and eyeball it.
 
 
 # `Euler's Method`
