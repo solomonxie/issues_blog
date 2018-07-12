@@ -561,5 +561,9 @@ $ git lfs install
 
 ## 生成和配置本地项目
 ```sh
+# 初始化repo
 $ git init
+
+# 指定监视的文件夹&文件类型
+$ git lfs track "./"
 ```
