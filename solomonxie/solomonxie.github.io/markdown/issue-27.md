@@ -1909,7 +1909,7 @@ $ youtube-dl <URL>
 
 最常用下载方式：
 ```sh
-$ youtube-dl -civw --verbose --proxy "localhost:1080" <URL>
+$ youtube-dl -civw -f mp4  --proxy "localhost:1080" <URL>
 ```
 
 通过代理下载：
@@ -1934,7 +1934,7 @@ $ youtube-dl -f bestvideo+bestaudio <URL>
 
 常用附加选项：
 ```sh
-# 最常用选项：断点续传c、忽略错误i、显示debug信息v、不覆盖已有文件w
+# 最常用选项：断点续传c、忽略错误i、显示全部信息v、不覆盖已有文件w
 $ youtube-dl -civw <URL>
 
 # 生成Description文件 （如果有支持的视频描述，则生成描述文件）
