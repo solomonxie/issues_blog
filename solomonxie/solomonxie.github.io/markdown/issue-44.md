@@ -380,19 +380,28 @@ The `Mean absolute deviation` is the absolute average of all deviations.
 
 
 
-# How to find the distance of two points on x-y axis?
-Example: `What is the distance between (-6, 8) and (-3, 9) ?`
+# Distance between points & lines
 
-[Khan lecture.](https://www.khanacademy.org/math/basic-geo/basic-geometry-pythagorean-theorem/pythagorean-theorem-distance/v/example-finding-distance-with-pythagorean-theorem)
+## Distance of two points on x-y axis?
+[Refer to Khan academy lecture: pythagorean-theorem-distance](https://www.khanacademy.org/math/basic-geo/basic-geometry-pythagorean-theorem/pythagorean-theorem-distance/v/example-finding-distance-with-pythagorean-theorem)
 
-Easy way to do this:
-Make a triangle with two points same with the given points, and solve the length of the triangle.
-
+### Example
+`What is the distance between (-6, 8) and (-3, 9) ?`
+Solve:
+- Easy way to do this:
+- Make a triangle with two points same with the given points, and solve the length of the triangle.
 ![image](https://user-images.githubusercontent.com/14041622/37028828-592abeb0-2170-11e8-84cf-a67c6ccae342.png)
+- So to solve the example, just like this:
+![image](https://latex.codecogs.com/gif.latex?%5Csqrt%7B%28%7C%20-6-%28-3%29%20%7C%29%20&plus;%20%28%7C8-9%7C%29%7D%20%3D%20%5Csqrt%7B10%7D)
 
+## Distance between point & line
 
-So to solve the example, just like this:
-![](https://latex.codecogs.com/gif.latex?%5Csqrt%7B%28%7C%20-6-%28-3%29%20%7C%29%20&plus;%20%28%7C8-9%7C%29%7D%20%3D%20%5Csqrt%7B10%7D)
+[Refer to Khan academy: Distance between point & line](https://www.khanacademy.org/math/geometry-home/analytic-geometry-topic/distance-between-a-point-and-a-line/v/distance-between-a-point-and-a-line)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42691872-5a8c950e-86dc-11e8-965c-e094f01ef743.png)
+Solve:
+- 
 
 
 # `Makeup price` problem
