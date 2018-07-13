@@ -8,8 +8,16 @@
 - [x] [Kristan King: Calculus III (Multivariable Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMObozItpbiZ8f2pjf3qS9M)
 - [x] [The Organic Chemistry Tutor: New Calculus Playlist](https://www.youtube.com/playlist?list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv)
 - [x] [Mathispower4u: Calculus playlist](http://www.mathispower4u.com/calculus.php)
+- [x] [Math@Xaktly](http://xaktly.com/XMathMain.html)
+- [x] [Geoff(x): Teach math using Desmos](https://www.geoffofx.com/)
 - [ ] [MIT OCW 18.01SC: Single Variable Calculus](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/index.htm)
 - [ ] [MIT OCW 18.02SC: Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
+
+
+## Study Tools
+- [x] [Symbolab](https://www.symbolab.com/)
+- [x] [Desmos](https://www.desmos.com/calculator)
+- [x] [GeoGebra](https://www.geogebra.org/3d?lang=en)
 
 ## Practice To-do List (Linked with Unit tests)
 - [x] [Limits and continuity](https://www.khanacademy.org/math/ap-calculus-bc/bc-limits-new/modal/test/bc-limits-optional-unit-test)
