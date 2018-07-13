@@ -586,11 +586,10 @@ $ git lfs install
 所以你只要一开始建立好filter，后面就不用再管了。
 
 ```sh
-# 初始化repo
-$ git init
-
-# 指定监视的文件夹&文件类型
-$ git lfs track "./"
+# 指定监视的文件类型
+$ git lfs track "*.jpg"
+$ git lfs track "*.png"
+$ git lfs track "*.jpeg"
 ```
 
 ## 连接远程仓库
