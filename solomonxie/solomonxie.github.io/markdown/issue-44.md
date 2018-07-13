@@ -3229,11 +3229,21 @@ Solve:
 
 # Find roots of polynomials
 
+### Example
 ![image](https://user-images.githubusercontent.com/14041622/37644557-2a49c894-2c5f-11e8-9bf3-949903848cdd.png)
-
-----------------------
-
+Solve:
 ![image](https://user-images.githubusercontent.com/14041622/37644642-6de8d176-2c5f-11e8-93c9-83a3f4c77823.png)
-
 ![image](https://user-images.githubusercontent.com/14041622/37644655-74ddb33e-2c5f-11e8-87f0-a5c2475fe49c.png)
 
+
+
+
+# `Direct & Inverse variation`
+
+When we say two variables **vary directly**, it's like this:
+`y = mx`
+Their absolute value go the same way up or down.
+
+But they **vary inversely** when it's like this:
+`y = m/x`
+Their absolute value go opposite way that one goes up the other goes down.
