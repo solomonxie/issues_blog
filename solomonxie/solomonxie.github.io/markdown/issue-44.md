@@ -3138,3 +3138,19 @@ Trapezoid
 - Know that, a `quadrilateral` CAN be inscribed in a circle or even a semicircle, which means 4 vertices  are all on the circle. 
 - Since it's a `trapezoid`, and inscribed in a circle, then **IT HAS TO BE A ISOSCELES TRAPEZOID.** No matter its side crosses the centre or not.
 - 
+
+
+# Partial Fractions
+> It's a very useful trick even for Calculus problems
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42678917-f7800f1e-86b2-11e8-9656-91870bba3e0b.png)
+Solve:
+- Factorize the dominator:
+![image](https://user-images.githubusercontent.com/14041622/42678944-0d48831c-86b3-11e8-8e90-c09c3838c348.png)
+- Write `Partial fractions` according to the **dominator**:
+![image](https://user-images.githubusercontent.com/14041622/42679003-35513354-86b3-11e8-834c-d4a624a78df4.png)
+- Add up the partial fractions and arrange it in the same form of **nominator**:
+![image](https://user-images.githubusercontent.com/14041622/42679116-7b17dc6c-86b3-11e8-9d9a-684316c61cc6.png)
+- Compare the **nominators** of both fraction:
+![image](https://user-images.githubusercontent.com/14041622/42679176-9ed0af6c-86b3-11e8-8cc2-33704702c9ff.png)
