@@ -914,6 +914,30 @@ In which, the `(i, j)` represent the `vertex`, `(h, k)` represents the `focus`, 
 
 
 
+## Equation of a parabola from focus & directrix
+
+[Khan practice.](Equation of a parabola from focus & directrix)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/37862994-799f2652-2f91-11e8-89c4-6eee658f5138.png)
+Solve:
+According to the `focus` and `directrix` information, we know we can consist an equation like:
+```py
+(y-k)² = (x-a)² + (y-b)²
+```
+But that's for a `vertical parabola`. When the `directrix` is obviously making it to a `horizontal parabola`, we have to change the equation to:
+```py
+(x-k)² = (x-a)² + (y-b)²
+```
+So it becomes:
+```py
+(x+7)² = (x+3)² + (y+5)²
+```
+Expand the equation to get:
+![image](https://user-images.githubusercontent.com/14041622/37863035-4b288eac-2f92-11e8-8dab-a03d9f3de65f.png)
+
+
+
 # [`Bisect`](http://www.mathsisfun.com/geometry/bisect.html)
 `Bisect` is a verb, means to divide into two equal parts.
 You can bisect a line segment, an angle, a shape, etc.
@@ -2181,6 +2205,15 @@ Because:
 ![image](https://user-images.githubusercontent.com/14041622/37821724-5d2206c0-2ebf-11e8-9d4d-06fe9ac625a8.png)
 
 
+## Finite `geometric series` word problems
+
+[Khan practice.](https://www.khanacademy.org/math/algebra2/modal/e/modeling-with-one-variable-equations-and-inequalities)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/37824277-0ee64c2a-2ec7-11e8-8efd-c6a31d6bb771.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/37824291-1b1db1a4-2ec7-11e8-80b8-1c3f2fd30c30.png)
+![image](https://user-images.githubusercontent.com/14041622/37824312-21d692a4-2ec7-11e8-92fe-86c76743bf65.png)
 
 
 
