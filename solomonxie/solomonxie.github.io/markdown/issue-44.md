@@ -3146,11 +3146,14 @@ Trapezoid
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42678917-f7800f1e-86b2-11e8-9656-91870bba3e0b.png)
 Solve:
-- Factorize the dominator:
-![image](https://user-images.githubusercontent.com/14041622/42678944-0d48831c-86b3-11e8-8e90-c09c3838c348.png)
-- Write `Partial fractions` according to the **dominator**:
-![image](https://user-images.githubusercontent.com/14041622/42679003-35513354-86b3-11e8-834c-d4a624a78df4.png)
+- Factorize the dominator.
+- Write `Partial fractions` according to the **dominator**.
 - Add up the partial fractions and arrange it in the same form of **nominator**:
-![image](https://user-images.githubusercontent.com/14041622/42679116-7b17dc6c-86b3-11e8-9d9a-684316c61cc6.png)
+![image](https://user-images.githubusercontent.com/14041622/42679788-ba2a8f42-86b5-11e8-9c2f-4553ef5695df.png)
 - Compare the **nominators** of both fraction:
-![image](https://user-images.githubusercontent.com/14041622/42679176-9ed0af6c-86b3-11e8-8cc2-33704702c9ff.png)
+![image](https://user-images.githubusercontent.com/14041622/42679801-bf746b1c-86b5-11e8-872f-c8b31eb7013e.png)
+- Build `System of equations` to solve out for `A & B`:
+![image](https://user-images.githubusercontent.com/14041622/42679810-c3b18d54-86b5-11e8-82e4-b4c44a8d0d5b.png)
+- Plug in and write the `Partial fractions`:
+![image](https://user-images.githubusercontent.com/14041622/42679833-d0dea96c-86b5-11e8-92d1-b706794df98b.png)
+
