@@ -544,7 +544,7 @@ $ git push origin <local-branch-name>:<remote-branch-name>
 
 然后顺着思路找，发现二进制版本控制是有的，而且是git系统能提供的：`Git LFS`。
 
-Git LFS需要单独下载，且是独立于git的另一个程序，且也是另一套逻辑。
+Git LFS需要单独下载，看似是独立于git的另一个程序，但其实只是相当于一个git插件的存在。
 
 [参考Github官方：Git Large File Storage](https://git-lfs.github.com/)
 
@@ -560,6 +560,31 @@ $ git lfs install
 ```
 
 ## 生成和配置本地项目
+
+到这里，就要进入lfs领域了。需要说明的是，
+**其实绝大多数时间里，你都还是在使用原生的git命令。**
+
+我在一开始用时，脑袋非常混乱：到底怎么看待git lfs？另一套程序？还是git的一个指令？
+其实都不是，如果非要说的话，把它看出git的一个extension插件，看成一个Filter过滤器更为方便。
+
+现在来说一个典型的Workflow流程：
+- 打开一个本地文件夹
+- `git init` 初始化为git仓库
+- `git lfs track` 指定监控的LFS大文件类型
+- `git add . && git commit` 正常添加、提交仓库变化
+- `git push` 推送到远程
+- 修改一些文件
+- `git add . & git commit -m "update" && git push` 正常git流程
+- 修改一些文件
+- `git add . & git commit -m "update" && git push` 正常git流程
+- 修改一些文件
+- `git add . & git commit -m "update" && git push` 正常git流程
+
+看到了吗，只有一开始时候指定了监控那些是大文件，以后都不用再去管它了。
+
+实际上，Git LFS在这里的作用是一个Filter，把大文件过滤出来，不让它加入原生git的`文本数据`处理方案中，而采用另一套方案处理。
+所以你只要一开始建立好filter，后面就不用再管了。
+
 ```sh
 # 初始化repo
 $ git init
@@ -567,6 +592,15 @@ $ git init
 # 指定监视的文件夹&文件类型
 $ git lfs track "./"
 ```
+
+## 连接远程仓库
+
+使用的Gitlab来做LFS仓库时，第一次push会出现以下消息：
+```
+Locking support detected on remote "origin". Consider enabling it with:
+  $ git config lfs.https://gitlab.com/jason/test.git/info/lfs.locksverify true
+```
+然后照着它的提示，输入命令后再push，就没有问题了。
 
 
 # Git 乱码 不显示unicode字符问题
