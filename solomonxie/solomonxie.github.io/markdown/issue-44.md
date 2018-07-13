@@ -304,6 +304,18 @@ It's also called `Box and whisker plots`, or `Five-number summary`.
 
 
 
+## Interquartile range (IQR)  (STATS: Box plot)
+
+[Refer to Khan academy.](https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-spread-distributions/v/calculating-interquartile-range-iqr)
+
+### Example 
+![image](https://user-images.githubusercontent.com/14041622/36989354-74aa48e8-20dc-11e8-91b9-5c4c94655553.png)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/36989519-e5d4fbe4-20dc-11e8-83e9-39fef6cf012a.png)
+
+
+
 # `Clusters`, `gaps`, `peaks` & `outliers`   (STATS: Distribution graph)
 
 [Khan lecture: Shape for distributions.](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6-shape-of-data/v/shapes-of-distributions)
