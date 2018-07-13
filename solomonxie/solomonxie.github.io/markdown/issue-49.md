@@ -2,28 +2,25 @@
 > Notes on basic Calculus concepts.
 
 ## Study resources
-- [ ] [Khan academy: AP Calculus BC](https://www.khanacademy.org/math/ap-calculus-bc)
-- [ ] [Kristan King: Calculus I (Differential Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BOYyyC-Gunxrh-jYnSfsQy0)
-- [ ] [Kristan King: Calculus II (Integra Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMdeuQfJDVRJ5DPMduSzVow)
-- [ ] [Kristan King: Calculus III (Multivariable Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMObozItpbiZ8f2pjf3qS9M)
-- [ ] [The Organic Chemistry Tutor: New Calculus Playlist](https://www.youtube.com/playlist?list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv)
-- [ ] [Mathispower4u: Calculus playlist](http://www.mathispower4u.com/calculus.php)
+- [x] [Khan academy: AP Calculus BC](https://www.khanacademy.org/math/ap-calculus-bc)
+- [x] [Kristan King: Calculus I (Differential Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BOYyyC-Gunxrh-jYnSfsQy0)
+- [x] [Kristan King: Calculus II (Integra Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMdeuQfJDVRJ5DPMduSzVow)
+- [x] [Kristan King: Calculus III (Multivariable Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMObozItpbiZ8f2pjf3qS9M)
+- [x] [The Organic Chemistry Tutor: New Calculus Playlist](https://www.youtube.com/playlist?list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv)
+- [x] [Mathispower4u: Calculus playlist](http://www.mathispower4u.com/calculus.php)
 - [ ] [MIT OCW 18.01SC: Single Variable Calculus](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/index.htm)
 - [ ] [MIT OCW 18.02SC: Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
 
 ## Practice To-do List (Linked with Unit tests)
-- [x] [Limits and continuity](https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-continuity/modal/test/ab-limits-continuity-unit-test)
-- [x] [Derivatives introduction](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-intro/modal/test/ab-derivative-intro-unit-test)
-- [x] [Derivative rules](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-rules/modal/test/ab-derivative-rules-unit-test)
-- [x] [Advanced derivatives](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-advanced/modal/test/ab-derivatives-advanced-unit-test)
-- [x] [Existence theorems](https://www.khanacademy.org/math/ap-calculus-ab/ab-existence-theorems/modal/test/ab-existence-theorems-unit-test)
-- [x] [Using derivatives to analyze functions](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-analyze-functions/modal/test/ab-derivatives-analyze-functions-unit-test)
-- [x] [Applications of derivatives](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-derivatives/modal/test/bc-applications-derivatives-unit-test)
-- [x] [Accumulation and Riemann sums](https://www.khanacademy.org/math/ap-calculus-bc/bc-accumulation-riemann-sums/modal/test/bc-accumulation-riemann-sums-unit-test)
-- [x] [Antiderivatives and the fundamental theorem of calculus](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/test/bc-antiderivatives-ftc-unit-test)
-- [x] [Differential equations](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-equations/modal/test/bc-diff-equations-unit-test)
-- [x] [Applications of definite integrals](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/modal/test/bc-applications-definite-integrals-unit-test)
-- [ ] [Series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/test/bc-series-unit-test)
+- [x] [Limits and continuity](https://www.khanacademy.org/math/ap-calculus-bc/bc-limits-new/modal/test/bc-limits-optional-unit-test)
+- [x] [Differentiation: definition and basic derivative rules](https://www.khanacademy.org/math/ap-calculus-bc/bc-differentiation-1-new/modal/test/bc-diff-1-optional-unit-test)
+- [x] [Differentiation: composite, implicit, and inverse functions](https://www.khanacademy.org/math/ap-calculus-bc/bc-differentiation-2-new/modal/test/bc-diff-2-optional-unit-test)
+- [x] [Contextual applications of differentiation](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-contextual-applications-new/modal/test/bc-diff-context-optional-unit-test)
+- [x] [Applying derivatives to analyze functions](https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-analytical-applications-new/modal/test/bc-5-13-unit-test)
+- [x] [Integration and accumulation of change](https://www.khanacademy.org/math/ap-calculus-bc/bc-integration-new/modal/test/bc-integration-optional-unit-test)
+- [x] [Differential equations](https://www.khanacademy.org/math/ap-calculus-bc/bc-differential-equations-new/modal/test/bc-7-9-unit-test)
+- [x] [Applications of integration](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-of-integration-new/modal/test/bc-8-14-unit-test)
+- [x] [Infinite sequences and series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/test/bc-series-optional-unit-test)
 
 
 
