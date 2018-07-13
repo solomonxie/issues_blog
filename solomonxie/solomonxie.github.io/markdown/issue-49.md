@@ -1353,6 +1353,8 @@ Solve:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42704481-86769edc-8702-11e8-830a-e3d38e6d69de.png)
 Solve:
+![image](https://user-images.githubusercontent.com/14041622/42704699-7788697c-8703-11e8-95a9-705855e85e17.png)
+![image](https://user-images.githubusercontent.com/14041622/42704713-80454bfc-8703-11e8-88bb-2812c0ec256a.png)
 
 
 
