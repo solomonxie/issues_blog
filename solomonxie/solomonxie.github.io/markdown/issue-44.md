@@ -1695,9 +1695,22 @@ Simplify it to be:
 
 It has to have understanding of [`factorial`](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-374487125) and [`Combinations and Permutations`](http://www.mathsisfun.com/combinatorics/combinations-permutations.html) in order to understand this formula.
 
+[Practice.](https://www.khanacademy.org/math/algebra2?t=practice#polynomial-functions)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/37643075-5ee6bef4-2c5a-11e8-862a-87af4d091a80.png)
+Solve
+![image](https://user-images.githubusercontent.com/14041622/37643114-758d102c-2c5a-11e8-8e82-a6f1e2eed319.png)
+![image](https://user-images.githubusercontent.com/14041622/37643123-7da8fe6a-2c5a-11e8-9ae6-bbfb510ebdbe.png)
+![image](https://user-images.githubusercontent.com/14041622/37643128-8241a850-2c5a-11e8-89a0-f2e5f8d86e7e.png)
+
+
+
 
 
 ## How to understand 
+
+(Unfinished...)
 
 
 # `Fundamental theorem of Algebra`
