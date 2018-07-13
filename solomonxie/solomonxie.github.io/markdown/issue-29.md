@@ -546,6 +546,9 @@ $ git push origin <local-branch-name>:<remote-branch-name>
 
 Git LFS需要单独下载，看似是独立于git的另一个程序，但其实只是相当于一个git插件的存在。
 
+主要好处有：
+- Clone或pull一个仓库，只会保留实际文件，而不是每个文件的每个版本都下载下来。
+
 [参考Github官方：Git Large File Storage](https://git-lfs.github.com/)
 
 ## 安装和初始配置
