@@ -1345,6 +1345,11 @@ Solve:
 - So `x𝖎 = S(𝖎) = 2+2𝖎`
 - Takes it back to the function and gets: `f(x𝖎) = |2+2i-5| = |2i -3|`
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42703162-4237d7f8-86fe-11e8-9ee6-ef0b6dbdc86e.png)
+Solve:
+
+
 
 ## `How to calculate Riemann Sums`
 
