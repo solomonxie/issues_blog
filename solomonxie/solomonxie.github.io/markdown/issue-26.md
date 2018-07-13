@@ -286,3 +286,5 @@ $ lsblk
 ```
 
 ![image](https://user-images.githubusercontent.com/14041622/42690227-0656113c-86d6-11e8-99c9-803e5a3d9895.png)
+
+这个命令可以看到有那些外置盘连接上了，有没有映射，映射到哪个目录。
