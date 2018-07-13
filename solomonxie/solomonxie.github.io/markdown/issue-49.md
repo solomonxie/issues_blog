@@ -1830,7 +1830,9 @@ Solve:
 # `Partial fractions` → Log Rule
 > A technique for integrating `Rational functions`.
 
-[Refer to Khan academy: Partial fraction expansion to evaluate integral](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/partial-fraction-expansion-to-integrate)
+[`▶ Jump back to previous note on Partial fractions.`](https://github.com/solomonxie/solomonxie.github.io/issues/44#issuecomment-404754134)
+
+[▶Refer to Khan academy: Partial fraction expansion to evaluate integral](https://www.khanacademy.org/math/ap-calculus-bc/bc-antiderivatives-ftc/modal/v/partial-fraction-expansion-to-integrate)
 
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/41189233-0e9b8bfe-6bfd-11e8-94f0-88bae4d86f14.png)
