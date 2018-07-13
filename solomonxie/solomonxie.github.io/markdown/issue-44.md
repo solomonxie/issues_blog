@@ -407,7 +407,8 @@ Solve:
 Strategy:
 - Draw a perpendicular line form the point to the given line.
 - Find out the linear equation for this perpendicular line by:
-    - Find the slope: which is the `Negative Inverse of the slope of the given line`
+    - Find the slope: which is the `Negative Inverse of the slope of the given line`:
+    ![image](https://user-images.githubusercontent.com/14041622/42692342-f7315b96-86dd-11e8-8d75-f5bde3bc92ed.png)
     - Find the shift: plug in the point's `x & y` coordinates and get the shift
 - Set two lines' equations equal and get the `Intersect point's coordinates`.
 - Calculate two points distance by `Pythagorean Theorem`:
