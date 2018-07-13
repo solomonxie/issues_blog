@@ -385,6 +385,10 @@ The `Mean absolute deviation` is the absolute average of all deviations.
 ## Distance of two points on x-y axis?
 [Refer to Khan academy lecture: pythagorean-theorem-distance](https://www.khanacademy.org/math/basic-geo/basic-geometry-pythagorean-theorem/pythagorean-theorem-distance/v/example-finding-distance-with-pythagorean-theorem)
 
+▼ Just to apply the `Pythagorean Theorem`:
+![image](https://user-images.githubusercontent.com/14041622/42692224-82dcf282-86dd-11e8-8fb7-9e531a76f326.png)
+
+
 ### Example
 `What is the distance between (-6, 8) and (-3, 9) ?`
 Solve:
@@ -406,7 +410,8 @@ Strategy:
     - Find the slope: which is the `Negative Inverse of the slope of the given line`
     - Find the shift: plug in the point's `x & y` coordinates and get the shift
 - Set two lines' equations equal and get the `Intersect point's coordinates`.
-- Calculate two points distance by `Pathegorean Theorem`:
+- Calculate two points distance by `Pythagorean Theorem`:
+![image](https://user-images.githubusercontent.com/14041622/42692221-7e0c325e-86dd-11e8-8bd7-c0f83b22ca22.png)
 
 
 ### Example
