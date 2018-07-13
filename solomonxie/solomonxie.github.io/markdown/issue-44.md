@@ -3143,6 +3143,8 @@ Trapezoid
 # Partial Fractions
 > It's a very useful trick even for Calculus problems
 
+[`▶ Jump forward to the note on application on Partial fractions for Calculus Integration.`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-395949004)
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42678917-f7800f1e-86b2-11e8-9656-91870bba3e0b.png)
 Solve:
