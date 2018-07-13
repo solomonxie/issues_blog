@@ -2072,6 +2072,16 @@ Solve:
 
 
 
+## Construct exponential models
+
+[Khan practice.](https://www.khanacademy.org/math/algebra2/modal/e/construct-exponential-models-according-to-rate-of-change)
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/37713627-733157fe-2d52-11e8-8be7-7cea56b2fcf6.png)
+
+
+
+
 # `Function graphs`
 > Mainly on different graphs of common functions and their transformation images.
 
