@@ -1574,6 +1574,15 @@ Solve:
 > When we divide a polynomial `f(x)` by `x − c` and the remainder is `r`, then:
 `r = f(c)`.
 
+### Example
+[Practice.](https://www.khanacademy.org/math/algebra2/modal/e/remainder-theorem-of-polynomials)
+
+![image](https://user-images.githubusercontent.com/14041622/37637143-08dcc472-2c41-11e8-9407-8d5b160a32c8.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/37637213-5d99f1ba-2c41-11e8-871d-6528d53eaea1.png)
+![image](https://user-images.githubusercontent.com/14041622/37637222-68247ec0-2c41-11e8-8e02-b65a425a2892.png)
+
+
 ## `The factor theorem`
 
 
