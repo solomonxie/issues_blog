@@ -549,6 +549,12 @@ Git LFS需要单独下载，看似是独立于git的另一个程序，但其实�
 主要好处有：
 - Clone或pull一个仓库，只会保留实际文件，而不是每个文件的每个版本都下载下来。
 
+问题：
+- 使用了Git LFS后，2G的图片仓库还是会翻倍变成5G+，多出来的全都在.git文件夹中
+
+策略：
+- 全部上传到Gitlab或Github后，再换个地方git clone下来，就没有了多余的文件了，因为多余的文件都存在了云端。
+
 [参考Github官方：Git Large File Storage](https://git-lfs.github.com/)
 
 ## 安装和初始配置
