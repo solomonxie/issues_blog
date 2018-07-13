@@ -276,3 +276,13 @@ sudo umount /mnt/udisk
 ps -ef | grep /mnt/udisk
 sudo kill -9 xxx
 ```
+
+
+
+# 树莓派显示当前所有连接的硬盘
+
+```sh
+$ lsblk
+```
+
+![image](https://user-images.githubusercontent.com/14041622/42690227-0656113c-86d6-11e8-99c9-803e5a3d9895.png)
