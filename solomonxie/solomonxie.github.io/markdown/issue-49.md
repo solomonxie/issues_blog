@@ -1350,6 +1350,11 @@ Solve:
 Solve:
 
 
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42704481-86769edc-8702-11e8-830a-e3d38e6d69de.png)
+Solve:
+
+
 
 ## `How to calculate Riemann Sums`
 
