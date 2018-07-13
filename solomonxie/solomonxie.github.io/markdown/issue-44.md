@@ -1950,6 +1950,16 @@ For example, the rational function is `f(x) = (3x²+1)/(4x+1)`, and we do long d
 Ignore the remainder, we gets the `Oblique asymptote` is `y = (3/4)x - (3/16)`
 
 
+## `Analyze vertical asymptotes of rational functions`
+
+[Refer to Khan academy.](https://www.khanacademy.org/math/algebra2/rational-expressions-equations-and-functions/modal/e/analyze-vertical-asymptotes-of-rational-functions))
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/37704849-12a12e40-2d35-11e8-8561-8d05d92cf138.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/37705030-9f6ffcca-2d35-11e8-9131-790079bf1ca0.png)
+![image](https://user-images.githubusercontent.com/14041622/37704874-2a7c1408-2d35-11e8-8ca8-8b430a996512.png)
+![image](https://user-images.githubusercontent.com/14041622/37704996-86f41f3c-2d35-11e8-8641-0673184d03a1.png)
 
 
 
