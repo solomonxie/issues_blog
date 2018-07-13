@@ -4,8 +4,6 @@
 
 # `Polynomials Long Division`
 
-[Practice page.](https://www.khanacademy.org/math/algebra2/modal/e/divide-polynomials-by-binomials#arithmetic-with-polynomials)
-
 ![image](https://user-images.githubusercontent.com/14041622/37635362-1b67c8c2-2c36-11e8-8961-4085f0472c6f.png)
 
 ----------------------------------

@@ -1558,13 +1558,24 @@ until the `left over` is `zero` or lower than the `dominator`.
 
 ![image](https://user-images.githubusercontent.com/14041622/37611460-6222ee30-2bdd-11e8-837e-dad40895a84d.png)
 
-## [`The Remainder Theorem`](http://www.mathsisfun.com/algebra/polynomials-remainder-factor.html)
+### Example
+![image](https://user-images.githubusercontent.com/14041622/37635362-1b67c8c2-2c36-11e8-8961-4085f0472c6f.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/37635386-441cf9ea-2c36-11e8-9bce-7bfa69cdbf8c.png)
+![image](https://user-images.githubusercontent.com/14041622/37635394-4aa14776-2c36-11e8-9518-ce39188f3c84.png)
+
+
+
+
+## `The Remainder Theorem`
+
+[Refer to Math is fun](http://www.mathsisfun.com/algebra/polynomials-remainder-factor.html)
 
 > When we divide a polynomial `f(x)` by `x − c` and the remainder is `r`, then:
 `r = f(c)`.
 
 ## `The factor theorem`
-> 
+
 
 
 
