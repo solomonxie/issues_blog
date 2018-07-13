@@ -569,7 +569,7 @@ $ git lfs track "./"
 ```
 
 
-# Git 不显示unicode字符问题
+# Git 乱码 不显示unicode字符问题
 
 一直以来使用git，在出现中文时都是这种样子 ▼
 
