@@ -10,7 +10,7 @@
 - 1 `question` correct on `Mastery challenge`, the related `skill` will **promote 1 level up**.
 - 1 `question` incorrect on `Mastery challenge`, the related `skill` will **demote 1 level down**.
 - 1 `quiz` finished in course section, the correct `skills` will promote to `LEVEL ONE`.
-- 1 `unit test` finished in course section, the correct `skill` will promote **promote 1 level up till MASTERY**. This **will not demote level down**
+- 1 `unit test` finished in course section, the correct `skill` will promote **promote 1 level up till MASTERY**. This **will not** demote level down.
 
 
 ## Practice To-do List
