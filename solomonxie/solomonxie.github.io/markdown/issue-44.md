@@ -398,10 +398,21 @@ Solve:
 
 [Refer to Khan academy: Distance between point & line](https://www.khanacademy.org/math/geometry-home/analytic-geometry-topic/distance-between-a-point-and-a-line/v/distance-between-a-point-and-a-line)
 
+`Slope of a perpendicular line` is the `Negative Inverse of the slope of the given line`.
+
+Strategy:
+- Draw a perpendicular line form the point to the given line.
+- Find out the linear equation for this perpendicular line by:
+    - Find the slope: which is the `Negative Inverse of the slope of the given line`
+    - Find the shift: plug in the point's `x & y` coordinates and get the shift
+- Set two lines' equations equal and get the `Intersect point's coordinates`.
+- Calculate two points distance by `Pathegorean Theorem`:
+
+
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42691872-5a8c950e-86dc-11e8-965c-e094f01ef743.png)
 Solve:
-- 
+
 
 
 # `Makeup price` problem
