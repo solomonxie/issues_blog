@@ -126,3 +126,6 @@ https://user-images.githubusercontent.com/14041622/38752411-a43e23c0-3f8d-11e8-8
 今天学到一句很喜欢的话：
 
 > "I don't have any safety-net to fall back on."
+
+
+终于终于终于，完成了微积分的课程！正好正好两个月！12 May 到13 Jul，整整两个月！感谢主！ 
