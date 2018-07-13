@@ -418,7 +418,13 @@ Strategy:
 ### Example
 ![image](https://user-images.githubusercontent.com/14041622/42691872-5a8c950e-86dc-11e8-965c-e094f01ef743.png)
 Solve:
-
+- Find the perpendicular line from the point to the given line:
+    - `Slope = -1/-1 = 1`
+    - `y=ax + b` -> `2 = -3*1 +b` -> `b=5` -> `y=x+5`
+- Find the intersect: `-x+1 = x+5` -> `x=-2` -> `y=3` -> intersects at `(-2, 3)`
+- Calculate distance between two points:
+![image](https://user-images.githubusercontent.com/14041622/42695924-53697e56-86e9-11e8-9285-3703592a5b66.png)
+- The answer is `√2`
 
 
 # `Makeup price` problem
