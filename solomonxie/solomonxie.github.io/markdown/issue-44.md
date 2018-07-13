@@ -1582,6 +1582,18 @@ Solve:
 - The answer for SECOND TIME it hits 5.2 is `311 days`.
 
 
+## Inverse trig function all possible solutions
+
+### Example
+> Find all possible solutions: `cos(x)=0.15`
+
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/38292383-20aaf1ba-3816-11e8-9065-9779ec38840b.png)
+![image](https://user-images.githubusercontent.com/14041622/38292407-367f9d7e-3816-11e8-8265-3d4e3c716b8f.png)
+![image](https://user-images.githubusercontent.com/14041622/38292411-3a32e1c4-3816-11e8-8302-1d121f750ad9.png)
+
+
+
 # [`Polynomial long division`](https://en.wikipedia.org/wiki/Polynomial_long_division)
 
 > It's very import to understand it in the first place. Once get the idea, it's easy to solve this problem.
