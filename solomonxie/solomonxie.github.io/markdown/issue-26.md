@@ -288,6 +288,11 @@ $ sudo apt-get install exfat-fuse
 安装好后，就正常的使用`mount`命令挂载就OK了。
 
 
+## 树莓派挂载NTFS格式移动硬盘
+
+
+
+
 ## 常用硬盘调试命令
 
 显示所有正常连接的存储设备：
