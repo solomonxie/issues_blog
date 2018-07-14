@@ -279,6 +279,14 @@ ps -ef | grep /mnt/udisk
 sudo kill -9 xxx
 ```
 
+## 树莓派挂载exFAT格式的移动硬盘
+如果移动硬盘是exFAT格式，那么`mount`命令无法正常挂载这个移动硬盘。
+所以我们需要安装`exfat-fuse`插件，让`mount`支持这个格式：
+```sh
+$ sudo apt-get install exfat-fuse
+```
+安装好后，就正常的使用`mount`命令挂载就OK了。
+
 
 ## 常用硬盘调试命令
 
