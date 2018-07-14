@@ -262,20 +262,20 @@ $ sudo motion
 sudo fdisk -l
 
 # 设定映射目录
-sudo mkdir /mnt/udisk
+sudo mkdir /media/pi/udisk
 # 将指定设备映射到刚刚创建到目录
-sudo mount -o uid=pi,gid=pi /dev/sda1 /mnt/udisk/
+sudo mount -o uid=pi,gid=pi /dev/sda1 /media/pi/udisk
 
 # 开机自动执行
 sudo vim /etc/rc.local
 # 将下面这句加到文件内容中(rc.local最后的exit 0之前都行)
-mount -o uid=pi,gid=pi /dev/sda1 /mnt/udisk/
+mount -o uid=pi,gid=pi /dev/sda1 /media/pi/udisk
 
 # 弹出优盘方法
-sudo umount /mnt/udisk
+sudo umount /media/pi/udisk
 
 # 如果提示device is busy
-ps -ef | grep /mnt/udisk
+ps -ef | grep /media/pi/udisk
 sudo kill -9 xxx
 ```
 
