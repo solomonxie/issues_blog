@@ -300,3 +300,5 @@ $ dmesg |grep sda
 # 显示一切USB相关
 $ dmesg |grep usb
 ```
+![image](https://user-images.githubusercontent.com/14041622/42723600-7e230b9e-8793-11e8-9b54-1a91926ee53c.png)
+
