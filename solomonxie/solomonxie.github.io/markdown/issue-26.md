@@ -326,3 +326,12 @@ $ dmesg |grep usb
 这个显示出刚刚插上的USB设备出了问题：供电不足
 ![image](https://user-images.githubusercontent.com/14041622/42723600-7e230b9e-8793-11e8-9b54-1a91926ee53c.png)
 
+
+## 常见错误
+
+## `mount 映射时显示 Transport endpoint is not connected`
+这个是在`mount`命令挂载的过程中出现的错误。
+一般是被映射的空目录本身出了问题，所以只要删除这个目录，或者换个地方再映射，就好了。
+
+## `弹出硬盘时显示 Target Busy`
+这
