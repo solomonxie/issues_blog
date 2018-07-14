@@ -612,6 +612,13 @@ Locking support detected on remote "origin". Consider enabling it with:
 然后照着它的提示，输入命令后再push，就没有问题了。
 
 
+## 注意事项
+
+### 一定要`git lfs clone`, `git lfs push`和 `git lfs pull`
+如果不是使用git lsf指令clone、push、pull的话，git就会按照正常的步骤把**所有文件和所有版本**全部下载下来，对二进制文档来说效率极低。
+所以注意这里一定要指定`lfs`!
+
+
 # Git 乱码 不显示unicode字符问题
 
 一直以来使用git，在出现中文时都是这种样子 ▼
