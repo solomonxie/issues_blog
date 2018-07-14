@@ -611,6 +611,18 @@ Locking support detected on remote "origin". Consider enabling it with:
 ```
 然后照着它的提示，输入命令后再push，就没有问题了。
 
+常用的Git LFS远程连接有三项常用方法：
+```sh
+$ git lfs clone <URL>
+
+$ git lfs pull
+
+$ git lfs push
+```
+这三项至关重要，如果没有加`lfs`三个字的话，效率真的极低。
+lfs的远程逻辑完全不同：
+比如下载文件的话，不像git原生一个一个下载，lfs是先把所有文件夹、文件名都创建好，然后再把真实所需的文件下载下来。
+
 
 ## 注意事项
 
