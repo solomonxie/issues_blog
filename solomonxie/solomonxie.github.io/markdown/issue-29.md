@@ -581,15 +581,16 @@ $ git lfs install
 - `git init` 初始化为git仓库
 - `git lfs track` 指定监控的LFS大文件类型
 - `git add . && git commit` 正常添加、提交仓库变化
-- `git push` 推送到远程
+- `git lfs push` 通过lfs优化推送到远程
 - 修改一些文件
-- `git add . & git commit -m "update" && git push` 正常git流程
+- `git add . & git commit -m "update"` 正常git流程
 - 修改一些文件
-- `git add . & git commit -m "update" && git push` 正常git流程
+- `git add . & git commit -m "update"` 正常git流程
 - 修改一些文件
-- `git add . & git commit -m "update" && git push` 正常git流程
+- `git add . & git commit -m "update"` 正常git流程
+- `git lfs pull` 通过lfs优化更新本地仓库
+- `git lfs push`
 
-看到了吗，只有一开始时候指定了监控那些是大文件，以后都不用再去管它了。
 
 实际上，Git LFS在这里的作用是一个Filter，把大文件过滤出来，不对它使用文本的处理方式增大体积，而采用另一套方案处理。
 所以你只要一开始建立好filter，后面就不用再管了。
