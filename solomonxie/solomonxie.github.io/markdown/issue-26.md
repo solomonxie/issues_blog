@@ -300,5 +300,6 @@ $ dmesg |grep sda
 # 显示一切USB相关
 $ dmesg |grep usb
 ```
+这个显示出刚刚插上的USB设备出了问题：供电不足
 ![image](https://user-images.githubusercontent.com/14041622/42723600-7e230b9e-8793-11e8-9b54-1a91926ee53c.png)
 
