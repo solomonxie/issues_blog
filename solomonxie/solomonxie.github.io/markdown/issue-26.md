@@ -290,6 +290,16 @@ $ sudo apt-get install exfat-fuse
 
 ## 树莓派挂载NTFS格式移动硬盘
 
+```sh
+# 先查找当前已经插上的NTFS格式硬盘的设备位置，如：/dev/sda1
+$ sudo fdisk -l | grep NTFS
+
+# 随便找个地方建立一个空目录，用来映射硬盘内容
+$ sudo mkdir /media/pi/drive
+
+# 挂载硬盘
+$ sudo mount -t ntfs-3g /dev/sda1 /media/pi/drive 
+```
 
 
 
