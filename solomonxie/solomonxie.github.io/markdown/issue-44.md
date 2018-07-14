@@ -7,10 +7,10 @@
 - 1 `skill` finished 75%, will promote to `Practiced`.
 - 1 `skill` finished 100%, will promote to `LEVEL ONE`.
 - 1 `skill` **must be** `practiced` to join the `Mastery challenge`.
-- 1 `question` correct on `Mastery challenge`, the related `skill` will **promote 1 level up**.
-- 1 `question` incorrect on `Mastery challenge`, the related `skill` will **demote 1 level down**.
+- 1 `question` correct on `Mastery challenge`, the related `skill` will get **1 level up**.
+- 1 `question` incorrect on `Mastery challenge`, the related `skill` will get **1 level down**.
 - 1 `quiz` finished in course section, the correct `skills` will promote to `LEVEL ONE`.
-- 1 `unit test` finished in course section, the correct `skill` will **promote 1 level up till MASTERY**. Incorrect answer will **demote 1 level down**.
+- 1 `unit test` finished in course section, the correct `skill` will get **1 level up till MASTERY**. Incorrect answer will get **1 level down**.
 
 
 ## Practice To-do List
