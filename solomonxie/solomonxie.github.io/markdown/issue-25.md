@@ -958,12 +958,6 @@ snippet #!
 
 
 
-# Vim下方总是弹出总是弹出 enter or type command to continue
+# Vim下方总是弹出总是弹出`enter or type command to continue`或`Error E349 no identifier under cursor`
 
-这个很恼火。搜了一圈发现，原来是`vimrc`的配置出了问题。
-所以只有在vimrc配置中找一圈写错了的设置，就能解决。
-
-果然，找了一圈发现，有一句重复的设定，是之前复制时不小心留下的。删除后重启vim就没有问题了。
-
-不过修改了一些vimrc后，发现又出现了，非常奇怪。
-原来是之前更新Vim版本导致
+这个很恼火。搜了一圈发现，有人说是`vimrc`的配置出了问题，但是就算我把vimrc整个清空了也还是有这个问题。
