@@ -341,3 +341,35 @@ $ dmesg |grep usb
 
 终于有点时间来解决下家中NAS需求了。一般自制NAS，只有选Samba。速度比FTP快，便利性比Windows文件夹共享好，设置多等等。
 
+安装Samba：
+```sh
+$ sudo apt-get update
+$ sudo apt-get install samba samba-common-bin
+```
+
+配置Samba：
+```sh
+# 先建一个共享文件夹
+$ sudo mkdir -m 1777 /home/pi/share
+
+# 然后开始编辑Samba的配置文件，在最后面加上针对这个文件夹的共享设置
+sudo vim /etc/samba/smb.conf
+
+# 文件末尾添加如下内容：
+[share]
+Comment = Pi shared folder
+Path = /home/pi/share
+Browseable = yes
+Writeable = Yes
+only guest = no
+create mask = 0777
+directory mask = 0777
+Public = yes
+Guest ok = yes
+
+# 编辑好后设置Samba的访问密码 （Samba登录名随便设置，随后会要求输入密码）
+sudo smbpasswd -a SambaUsername
+
+# 重启Samba
+sudo /etc/init.d/samba restart
+```
