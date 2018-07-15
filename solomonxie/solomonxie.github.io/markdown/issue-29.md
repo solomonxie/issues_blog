@@ -547,10 +547,10 @@ $ git push origin <local-branch-name>:<remote-branch-name>
 Git LFS需要单独下载，看似是独立于git的另一个程序，但其实只是相当于一个git插件的存在。
 
 主要好处有：
-- Clone或pull一个仓库，只会保留实际文件，而不是每个文件的每个版本都下载下来。
+- 逻辑变了，运行速度就加快了。
 
 问题：
-- 使用了Git LFS后，2G的图片仓库还是会翻倍变成5G+，多出来的全都在.git文件夹中
+- 使用了Git LFS后，只不过体积增大问题还是没解决。2G的图片仓库还是会翻倍变成5G+，多出来的全都在`.git/lfs/objects`文件夹中（以前是存在`.git/objects`中）。
 
 
 
