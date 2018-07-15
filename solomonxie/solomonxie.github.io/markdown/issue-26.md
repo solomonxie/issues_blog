@@ -347,7 +347,7 @@ $ sudo apt-get update
 $ sudo apt-get install samba samba-common-bin
 ```
 
-配置Samba：
+配置并启动Samba：
 ```sh
 # 先建一个共享文件夹
 $ sudo mkdir -m 1777 /home/pi/share
@@ -373,3 +373,18 @@ sudo smbpasswd -a SambaUsername
 # 重启Samba
 sudo /etc/init.d/samba restart
 ```
+
+到这一步，如果没出问题的话，就会显示成功：
+![image](https://user-images.githubusercontent.com/14041622/42730143-053748c0-8820-11e8-814e-d85bf7090dce.png)
+
+安装之前的配置，现在你就可以访问Samba共享文件夹了。
+
+访问方法：
+- Windows：直接打开桌面的网络（网上邻居）-> RaspberryPi(树莓派的网络名)，然后就可以看到树莓派上所有共享的文件夹和设备了。
+- Mac: 直接在Finder左边就会有显示出局域网里的共享设备，点击树莓派，再点击右上角Connect as，输入刚才设置的Samba的用户名和密码（不是树莓派系统的用户名密码），就可以成功显示了：
+![image](https://user-images.githubusercontent.com/14041622/42730194-23d747de-8821-11e8-85e1-14901139ee99.png)
+
+
+然后可以看到，目录中和本地目录几乎没什么区别：能看预览，支持所有文件夹正常的快捷键，随意拷贝粘贴，这是FTP远不能比的。
+
+![image](https://user-images.githubusercontent.com/14041622/42730221-a50fd88e-8821-11e8-8221-13bf36273ec4.png)
