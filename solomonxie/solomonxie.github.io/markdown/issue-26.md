@@ -368,7 +368,7 @@ Public = yes
 Guest ok = yes
 
 # 编辑好后设置Samba的访问密码 （Samba登录名必须是本机已经有的某个用户名，随后会要求输入密码）
-sudo smbpasswd -a SambaUsername
+sudo smbpasswd -a pi
 
 # 重启Samba
 sudo /etc/init.d/samba restart
@@ -395,3 +395,18 @@ sudo /etc/init.d/samba restart
 Windows上，直接在文件夹里点击菜单->工具->映射网络驱动器。然后选择映射出来的驱动盘字母，点击浏览，选择网络邻居里的树莓派，确定完成。就会在本地的计算机里显示出映射磁盘了。
 
 Mac上，
+
+
+
+## 只允许指定的用户访问
+如果限定只允许那些用户登录的可以访问这个文件夹， 需要在刚刚的Samba文件夹的配置文件里加上一句：
+```
+valid users = samba01, samba02
+```
+
+## .DS_Store安全隐患
+Mac上访问远程文件夹会留下`.DS_Store`文件，其中包含太多信息这样很不安全。
+所以我们要在Mac上设置，在访问远程文件夹时不留下这个文件：
+```sh
+$ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+```
