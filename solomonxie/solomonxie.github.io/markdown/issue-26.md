@@ -343,6 +343,8 @@ $ dmesg |grep usb
 
 终于有点时间来解决下家中NAS需求了。一般自制NAS，只有选Samba。速度比FTP快，便利性比Windows文件夹共享好，设置多等等。
 
+[▶参考：samba简介](https://github.com/jaywcjlove/handbook/blob/master/CentOS/samba.md)
+
 安装Samba：
 ```sh
 $ sudo apt-get update
