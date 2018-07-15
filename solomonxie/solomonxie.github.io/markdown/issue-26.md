@@ -449,3 +449,15 @@ $ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 ### 访问外置硬盘Permission Denied
 这个也是用户权限问题，配置原生`pi`用户就没问题了。
+
+
+### 自己挂载的目录失效，树莓派自动挂载到另一个目录
+这是树莓派自动的，就像Windows一样插上硬盘就会挂载成一个驱动盘。
+但是这个不方便我们操作，因为目录和路径图都是不确定的，所以就关闭掉树莓派自动挂载。
+[参考：树莓派2（Raspberry pi）取消 usb 存储设备的自动挂载](https://blog.csdn.net/u010940020/article/details/45431325)
+方法如下：
+- 打开树莓派GUI桌面，直接连显示器或用vnc远程桌面都行。
+- 打开文件夹管理器
+- 点击菜单->Edit->Preference->Volume management
+- 取消所有Mount选项
+- 关闭窗口
