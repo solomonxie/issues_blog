@@ -381,8 +381,7 @@ sudo /etc/init.d/samba restart
 
 访问方法：
 - Windows：直接打开桌面的网络（网上邻居）-> RaspberryPi(树莓派的网络名)，然后就可以看到树莓派上所有共享的文件夹和设备了。
-- Mac: 直接在Finder左边就会有显示出局域网里的共享设备，点击树莓派，再点击右上角Connect as，输入刚才设置的Samba的用户名和密码（不是树莓派系统的用户名密码），就可以成功显示了：
-![image](https://user-images.githubusercontent.com/14041622/42730194-23d747de-8821-11e8-85e1-14901139ee99.png)
+- Mac: 稍微麻烦一点，要映射才能看到。参考下一节映射。
 
 
 然后可以看到，目录中和本地目录几乎没什么区别：能看预览，支持所有文件夹正常的快捷键，随意拷贝粘贴，这是FTP远不能比的。
@@ -390,12 +389,13 @@ sudo /etc/init.d/samba restart
 ![image](https://user-images.githubusercontent.com/14041622/42730221-a50fd88e-8821-11e8-8221-13bf36273ec4.png)
 
 
-## 将Samba的共享目录映射为本地目录
+## 将Samba的共享目录映射到本地
 
 Windows上，直接在文件夹里点击菜单->工具->映射网络驱动器。然后选择映射出来的驱动盘字母，点击浏览，选择网络邻居里的树莓派，确定完成。就会在本地的计算机里显示出映射磁盘了。
 
-Mac上，
+Mac上，在Finder中点击菜单 -> Go -> Connect to server -> 输入`smb://IP地址`，输入本机Mac的用户，再输入树莓派上设置的密码
 
+![image](https://user-images.githubusercontent.com/14041622/42730595-f57daaf4-882a-11e8-9db7-9fe590434604.png)
 
 
 ## 只允许指定的用户访问
