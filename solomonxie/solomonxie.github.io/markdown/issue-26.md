@@ -345,15 +345,21 @@ $ dmesg |grep usb
 
 [▶参考：samba简介](https://github.com/jaywcjlove/handbook/blob/master/CentOS/samba.md)
 
-安装Samba：
+## 安装Samba
 ```sh
 $ sudo apt-get update
 $ sudo apt-get install samba samba-common-bin
 ```
 
-核心步骤：配置Samba。
+## 核心步骤：配置Samba
 
 > Samba唯一设置的入口就算一个`smb.conf`文件，所有变化都依次而来，出了问题也只需要在这里找原因。
+
+配置之前先说明，
+这里我不打算只共享一个文件夹，而是共享树莓派连接上的所有外置硬盘。
+树莓派的外置硬盘默认挂载在了`/media/pi`目录下，每个硬盘挂载为`/media/pi/drive1`，`/media/pi/drive2`等。
+所以不用一个一个共享，直接把`/media/pi`共享就OK了。
+下面配置还会限制：只有`pi`这个用户可以访问。
 
 常用且肯定没问题的最简单配置如下：
 ```sh
@@ -370,7 +376,7 @@ writeable = Yes
 valid users=pi
 ```
 
-设置Samba用户名和密码：
+## 设置Samba用户名和密码
 这一步也至关重要，直接影响各设备的访问。
 注意，这个用户必须是本机已经在group和user里面都存在的用户，且必须权限设置什么的符合samba要求才行。否则会导致有些设备完全无法访问这个文件夹。
 之前试了自己`groupadd`和`useradd`本地用户后，又在samba里`smbpasswd -a`添加用户名密码，结果Mac完全访问不了，Windows也是根据系统的不同有的能访问有的不能访问。
@@ -380,7 +386,7 @@ valid users=pi
 sudo smbpasswd -a pi
 ```
 
-重启Samba：
+## 重启Samba
 ```sh
 # 推荐重启方法（可以看到自检过程）
 $ sudo /etc/init.d/samba restart
@@ -391,7 +397,9 @@ $ sudo /etc/init.d/samba restart
 
 按照之前的配置，现在你就可以访问Samba共享文件夹了。
 
-访问方法：
+## 访问方法
+
+一般访问方法如下：
 - Windows：直接打开桌面的网络（网上邻居）-> RaspberryPi(树莓派的网络名)，然后就可以看到树莓派上所有共享的文件夹和设备了。
 - Mac: 稍微麻烦一点，在Finder中点击菜单 -> Go -> Connect to server -> 输入`smb://IP地址`，按照要求输入本机或树莓派的Samba用户名密码：
 ![image](https://user-images.githubusercontent.com/14041622/42736889-41f02f68-88a0-11e8-9b9c-87a1de108457.png)
@@ -401,7 +409,8 @@ $ sudo /etc/init.d/samba restart
 
 ![image](https://user-images.githubusercontent.com/14041622/42730221-a50fd88e-8821-11e8-8221-13bf36273ec4.png)
 
-## 检查Samba设置、显示Samba所有的共享
+## Samba自检
+Samba的自检程序`testparm`，可以自动测试，并显示Samba所有的共享和定义
 ```sh
 $ testparm
 ```
