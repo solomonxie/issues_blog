@@ -351,31 +351,39 @@ $ sudo apt-get update
 $ sudo apt-get install samba samba-common-bin
 ```
 
-配置并启动Samba：
-```sh
-# 先建一个共享文件夹
-$ sudo mkdir -m 1777 /home/pi/share
+核心步骤：配置Samba。
 
-# 然后开始编辑Samba的配置文件，在最后面加上针对这个文件夹的共享设置
+> Samba唯一设置的入口就算一个`smb.conf`文件，所有变化都依次而来，出了问题也只需要在这里找原因。
+
+常用且肯定没问题的最简单配置如下：
+```sh
+# 编辑Samba的配置文件
 sudo vim /etc/samba/smb.conf
 
-# 文件末尾添加如下内容：
-[share]
-Comment = Pi shared folder
-Path = /home/pi/share
-Browseable = yes
-Writeable = Yes
-only guest = no
-create mask = 0777
-directory mask = 0777
-Public = yes
-Guest ok = yes
+# 文件末尾添加这个共享文件夹的定义：
+[NAS]
+comment = NAS External drive
+path = /media/pi
+public = Yes
+browseable = Yes
+writeable = Yes
+valid users=pi
+```
 
-# 编辑好后设置Samba的访问密码 （Samba登录名必须是本机已经有的某个用户名，随后会要求输入密码）
+设置Samba用户名和密码：
+这一步也至关重要，直接影响各设备的访问。
+注意，这个用户必须是本机已经在group和user里面都存在的用户，且必须权限设置什么的符合samba要求才行。否则会导致有些设备完全无法访问这个文件夹。
+之前试了自己`groupadd`和`useradd`本地用户后，又在samba里`smbpasswd -a`添加用户名密码，结果Mac完全访问不了，Windows也是根据系统的不同有的能访问有的不能访问。
+所以这里推荐用树莓派的默认用户名`pi`：
+```sh
+# 输入Samba用户的访问密码
 sudo smbpasswd -a pi
+```
 
-# 重启Samba
-sudo /etc/init.d/samba restart
+重启Samba：
+```sh
+# 推荐重启方法（可以看到自检过程）
+$ sudo /etc/init.d/samba restart
 ```
 
 到这一步，如果没出问题的话，就会显示成功：
@@ -385,7 +393,8 @@ sudo /etc/init.d/samba restart
 
 访问方法：
 - Windows：直接打开桌面的网络（网上邻居）-> RaspberryPi(树莓派的网络名)，然后就可以看到树莓派上所有共享的文件夹和设备了。
-- Mac: 稍微麻烦一点，要映射才能看到。参考下一节映射。
+- Mac: 稍微麻烦一点，在Finder中点击菜单 -> Go -> Connect to server -> 输入`smb://IP地址`，按照要求输入本机或树莓派的Samba用户名密码：
+![image](https://user-images.githubusercontent.com/14041622/42736889-41f02f68-88a0-11e8-9b9c-87a1de108457.png)
 
 
 然后可以看到，目录中和本地目录几乎没什么区别：能看预览，支持所有文件夹正常的快捷键，随意拷贝粘贴，这是FTP远不能比的。
@@ -403,9 +412,7 @@ $ testparm
 
 Windows上，直接在文件夹里点击菜单->工具->映射网络驱动器。然后选择映射出来的驱动盘字母，点击浏览，选择网络邻居里的树莓派，确定完成。就会在本地的计算机里显示出映射磁盘了。
 
-Mac上，在Finder中点击菜单 -> Go -> Connect to server -> 输入`smb://IP地址`，输入本机Mac的用户，再输入树莓派上设置的密码
-
-![image](https://user-images.githubusercontent.com/14041622/42730595-f57daaf4-882a-11e8-9db7-9fe590434604.png)
+Mac上，
 
 
 ## 只允许指定的用户访问
@@ -414,9 +421,22 @@ Mac上，在Finder中点击菜单 -> Go -> Connect to server -> 输入`smb://IP�
 valid users = samba01, samba02
 ```
 
-## .DS_Store安全隐患
+## Mac访问加速以及消除.DS_Store安全隐患
 Mac上访问远程文件夹会留下`.DS_Store`文件，其中包含太多信息这样很不安全。
 所以我们要在Mac上设置，在访问远程文件夹时不留下这个文件：
 ```sh
 $ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 ```
+
+## 常见问题
+
+### Mac上能用guest访问却不能用设置了的用户访问
+这个是你的Samba用户设置出了问题。
+有可能是Samba中定义的用户，在本机中权限不够。
+解决方法就是：
+- 直接用树莓派的原生用户`pi`，或
+- 仔细研究新创建的用户权限，添加好了再到Samba配置中设置
+
+
+### 访问外置硬盘Permission Denied
+这个也是用户权限问题，配置原生`pi`用户就没问题了。
