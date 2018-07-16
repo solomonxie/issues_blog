@@ -256,6 +256,9 @@ $ sudo motion
 
 ```sh
 $ mount -t deviceFileFormat -o umask=filePermissons,gid=ownerGroupID,uid=ownerID /device /mountpoint
+
+# 可选-o 模式
+rw,suid,dev,exec,auto,nouser,async
 ```
 
 ## 树莓派挂载U盘
