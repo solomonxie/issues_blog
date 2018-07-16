@@ -395,10 +395,10 @@ sudo vim /etc/samba/smb.conf
 [NAS]
 comment = NAS External drive
 path = /media/pi
-valid users=pi, @sambagroup
 public = Yes
 browseable = Yes
 writeable = Yes
+valid users=pi
 ```
 
 其中：
