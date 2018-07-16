@@ -327,6 +327,24 @@ $ dmesg |grep usb
 ![image](https://user-images.githubusercontent.com/14041622/42723600-7e230b9e-8793-11e8-9b54-1a91926ee53c.png)
 
 
+## 禁止树莓派自动挂载
+我自己挂载的目录失效，树莓派自动挂载到另一个目录。
+这是树莓派自动的，就像Windows一样插上硬盘就会挂载成一个驱动盘。
+但是这个不方便我们操作，因为目录和路径图都是不确定的，所以就关闭掉树莓派自动挂载。
+
+[参考：禁止u盘自动弹出](https://blog.csdn.net/luckywang1103/article/details/50829812)
+
+```sh
+# 查看各个设备的uuid号
+$ ls -l /dev/disk/by-uuid/
+lrwxrwxrwx 1 root root 10  6月 27 16:24 0000678400004823 -> ../../sdb1
+
+#  在fstab中关闭这个设备的自动挂载 noauto
+$ vim /etc/fstab
+UUID=0000678400004823 /media vfat noauto 0 0
+```
+
+
 ## 常见错误
 
 ## `mount 映射时显示 Transport endpoint is not connected`
