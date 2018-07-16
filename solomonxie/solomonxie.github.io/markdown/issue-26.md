@@ -264,7 +264,7 @@ sudo fdisk -l
 # 设定映射目录
 sudo mkdir /media/pi/udisk
 # 将指定设备映射到刚刚创建到目录
-sudo mount -o uid=pi,gid=pi /dev/sda1 /media/pi/udisk
+sudo mount /dev/sda1 /media/pi/udisk
 
 # 开机自动执行
 sudo vim /etc/rc.local
@@ -272,11 +272,7 @@ sudo vim /etc/rc.local
 mount -o uid=pi,gid=pi /dev/sda1 /media/pi/udisk
 
 # 弹出优盘方法
-sudo umount /media/pi/udisk
-
-# 如果提示device is busy
-ps -ef | grep /media/pi/udisk
-sudo kill -9 xxx
+sudo umount /dev/sda1
 ```
 
 ## 树莓派挂载exFAT格式的移动硬盘
@@ -351,12 +347,22 @@ UUID=0000678400004823 /media vfat noauto 0 0
 ```
 
 
-## 常见错误
+## 常见问题
+
+## 挂载的U盘或磁盘变成只读
+如果不管怎么`chmod`、`chown`、`mount -o rw`，都不管用的话，那就是磁盘本身的问题了。
+通过以下`dosfsck`文件系统错误修复命令瞬间修复：
+```sh
+# 先卸载磁盘 (比如磁盘sda1）
+$ sudo umount /dev/sda1
+
+# 修复磁盘
+$ sudo dosfsck  -v -a /dev/sda1
+```
 
 ## `mount 映射时显示 Transport endpoint is not connected`
 这个是在`mount`命令挂载的过程中出现的错误。
 一般是被映射的空目录本身出了问题，所以只要删除这个目录，或者换个地方再映射，就好了。
-
 如果删不掉这个目录，就重启一下就可以删了。
 
 ## `弹出硬盘时显示 Target Busy`
