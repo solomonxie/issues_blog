@@ -492,6 +492,8 @@ Mac上访问远程文件夹会留下`.DS_Store`文件，其中包含太多信息
 $ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 ```
 
+但是以上方法不是完全生效，目前MacOS 10.12以上都不一定能生效。
+
 ### 访问外置硬盘Permission Denied
 这个也是用户权限问题，配置原生`pi`用户就没问题了。
 
