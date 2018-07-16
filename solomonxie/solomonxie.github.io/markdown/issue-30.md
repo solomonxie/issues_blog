@@ -467,6 +467,7 @@ Sublime Text插件是完全基于Python开发的，全部Python开发环境。
 - Mac：
     - `/Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Installed Packages`
     - `/Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Packages/`
+    - `/Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Packages/User`
     - `/Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Packages/[YOUR-PACKAGE-NAME]`
 
 你把插件存在以上任意位置，都会被Sublime Text检测到。但是如果在里面嵌套目录的话，就不会被检测到。
@@ -475,7 +476,7 @@ Sublime Text插件是完全基于Python开发的，全部Python开发环境。
 
 ## Getting Started
 
-Sublime提供的Example：
+## Sublime自带的Example
 - Select Tools | New Plugin… in the menu.
 - Save to Packages/User/hello_world.py.
 - Open the Python console (Ctrl+`).
@@ -494,3 +495,31 @@ class ExampleCommand(sublime_plugin.TextCommand):
 ```
 Class名可以是任何名字，只看你调用了。以上`ExampleCommand`，Sublime只会提取`Example`这个词。
 
+
+### 组成一个最简单的的插件架构
+```sh
+# 打开保存插件的目录：
+$ cd /Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Packages/User
+
+# 插件一个插件目录
+$ mkdir Hello
+$ cd Hello
+
+# 创建插件的默认配置：名字是固定的不要改变（重要！）
+$ touch Default.sublime-commands
+
+# 创建插件脚本（任意名字，只要其中有class定义就会被识别）
+$ touch helloworld.py
+```
+
+打开`helloworld.py`，我们就可以开始写上面提到的标准class定义，以及其它功能逻辑。
+再打开`Default.sublime-commands`文件，注册插件的定义，这样我们就能在`Ctrl+Shift+P`打开面板时候搜索到自己的插件了。
+
+定义内容如下：
+```json
+[{
+  "id": "自定义插件ID",
+  "caption": "面板中显示名称",
+  "command": "要执行的class名"
+}]
+```
