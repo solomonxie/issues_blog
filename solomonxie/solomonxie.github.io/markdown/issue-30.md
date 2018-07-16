@@ -464,4 +464,33 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 Sublime Text插件是完全基于Python开发的，全部Python开发环境。
 
 插件存储位置：
-- Mac：`/Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Installed Packages`
+- Mac：
+    - `/Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Installed Packages`
+    - `/Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Packages/`
+    - `/Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Packages/[YOUR-PACKAGE-NAME]`
+
+你把插件存在以上任意位置，都会被Sublime Text检测到。但是如果在里面嵌套目录的话，就不会被检测到。
+
+> 插件可以是一个单独的`.py`脚本，或者一整个目录。
+
+## Getting Started
+
+Sublime提供的Example：
+- Select Tools | New Plugin… in the menu.
+- Save to Packages/User/hello_world.py.
+- Open the Python console (Ctrl+`).
+- Type: view.run_command("example") and press enter.
+
+▲ 以上范例，会自动生成一个插件，运行后，就会在当前的文本编辑位置插入一句“hello world”。
+
+标准插件内容：
+```py
+import sublime, sublime_plugin
+
+# The class name could be ANYTHING.
+class ExampleCommand(sublime_plugin.TextCommand):
+    def run(self, edit):
+        self.view.insert(edit, 0, "Hello, World!")
+```
+Class名可以是任何名字，只看你调用了。以上`ExampleCommand`，Sublime只会提取`Example`这个词。
+
