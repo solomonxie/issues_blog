@@ -473,8 +473,6 @@ Sublime Text插件是完全基于Python开发的，全部Python开发环境。
 
 > 插件可以是一个单独的`.py`脚本，或者一整个目录。
 
-## Getting Started
-
 ## Sublime自带的Example
 - Select Tools | New Plugin… in the menu.
 - Save to Packages/User/hello_world.py.
@@ -495,7 +493,7 @@ class ExampleCommand(sublime_plugin.TextCommand):
 Class名可以是任何名字，只看你调用了。以上`ExampleCommand`，Sublime只会提取`Example`这个词。
 
 
-### 组成一个最简单的的插件架构
+## 最简单的的插件架构
 ```sh
 # 打开保存插件的目录：
 $ cd /Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Packages/User
