@@ -504,8 +504,8 @@ $ cd /Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Packages/U
 $ mkdir Hello
 $ cd Hello
 
-# 创建插件的默认配置：名字是固定的不要改变（重要！）
-$ touch Default.sublime-commands
+# 创建插件的默认配置：名字随便起（重要！）
+$ touch hello.sublime-commands
 
 # 创建插件脚本（任意名字，只要其中有class定义就会被识别）
 $ touch helloworld.py
