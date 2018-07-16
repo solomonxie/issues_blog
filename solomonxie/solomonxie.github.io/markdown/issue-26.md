@@ -481,6 +481,20 @@ $ sudo pdbedit -L
 ![image](https://user-images.githubusercontent.com/14041622/42769960-5770ccb0-8956-11e8-8305-cba691304a95.png)
 
 
+### 使用smbclient测试
+smbclinet是命令行客户端，需要下载安装使用：
+```sh
+# 安装
+$ sudo apt-get install smbclient
+
+# 连接Samba服务器
+$ smbclient //192.168.1.111/share -U sambaUser01
+
+$ smb: ls
+```
+如果连接成功，就会进入smb的交互shell，然后输入ls，成功列出目录，则连接完全成功。
+这是常用的最方便的测试方法，如果有任何一点不成功，这个连接命令都无法执行。
+只要这里能够正常访问，那么其它地方都没有问题。
 
 ## 常见问题
 
