@@ -516,9 +516,10 @@ $ touch helloworld.py
 
 定义内容如下：
 ```json
-[{
-  "id": "自定义插件ID",
-  "caption": "面板中显示名称",
-  "command": "要执行的class名"
-}]
+[
+    {
+    "caption": "面板中显示名称",
+    "command": "要执行的class名"
+    }
+]
 ```
