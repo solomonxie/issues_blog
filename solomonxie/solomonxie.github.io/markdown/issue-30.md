@@ -457,3 +457,11 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 - `awesome-patched`
 
 根据你的情况来尝试，因为不是每个都能完美无乱码显示出来。
+
+
+# Sublime Text Plugin 插件开发
+
+Sublime Text插件是完全基于Python开发的，全部Python开发环境。
+
+插件存储位置：
+- Mac：`/Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Installed Packages`
