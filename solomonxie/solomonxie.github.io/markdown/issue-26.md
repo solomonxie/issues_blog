@@ -298,7 +298,13 @@ $ sudo fdisk -l | grep NTFS
 $ sudo mkdir /media/pi/drive
 
 # 挂载硬盘
-$ sudo mount -t ntfs-3g /dev/sda1 /media/pi/drive 
+$ ntfs-3g /dev/sda1 /media/pi/drive
+```
+
+由于NTFS格式不支持Unix系列的用户组策略，所以默认都是root用户，无法修改所有者。
+所以我们可以在挂载的时候选择所有者达到目的：
+```sh
+$ ntfs-3g /dev/sda1 /media/pi/drive -o gid=6001, uid=6001
 ```
 
 
