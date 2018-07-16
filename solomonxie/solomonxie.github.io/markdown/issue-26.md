@@ -428,13 +428,6 @@ $ sudo /etc/init.d/samba restart
 
 ![image](https://user-images.githubusercontent.com/14041622/42730221-a50fd88e-8821-11e8-8221-13bf36273ec4.png)
 
-## Samba自检
-Samba的自检程序`testparm`，可以自动测试，并显示Samba所有的共享和定义
-```sh
-$ testparm
-```
-![image](https://user-images.githubusercontent.com/14041622/42730699-a3387ab4-882d-11e8-85bb-8c669fa1495b.png)
-
 
 ## 将Samba的共享目录映射到本地
 
@@ -465,6 +458,24 @@ valid users = samba01, samba02
 - 在Samba配置文件里面，声明有权访问共享文件夹的用户或用户组
 
 > 注意：如果是挂载的NTFS磁盘，是不支持group和user更改的，里面的文件默认所有者和所属组都是root。除非在mount挂载时就指定所有者，但是也不能分别指定里面某个文件夹或目录的所有者。
+
+
+
+## Samba调试
+
+### Samba的自检程序`testparm`
+自动测试，并显示Samba所有的共享和定义：
+```sh
+$ testparm
+```
+![image](https://user-images.githubusercontent.com/14041622/42730699-a3387ab4-882d-11e8-85bb-8c669fa1495b.png)
+
+### 列出当前所有已注册的Samba用户
+
+```sh
+$ sudo pdbedit -L
+```
+![image](https://user-images.githubusercontent.com/14041622/42769960-5770ccb0-8956-11e8-8305-cba691304a95.png)
 
 
 
