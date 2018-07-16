@@ -254,6 +254,10 @@ $ sudo motion
 
 # 树莓派挂载外置存储
 
+```sh
+$ mount -t deviceFileFormat -o umask=filePermissons,gid=ownerGroupID,uid=ownerID /device /mountpoint
+```
+
 ## 树莓派挂载U盘
 [参考文章](https://segmentfault.com/a/1190000014173634)
 
