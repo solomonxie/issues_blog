@@ -389,11 +389,14 @@ sudo vim /etc/samba/smb.conf
 [NAS]
 comment = NAS External drive
 path = /media/pi
+valid users=pi, @sambagroup
 public = Yes
 browseable = Yes
 writeable = Yes
-valid users=pi
 ```
+
+其中：
+- `valid users`：只允许指定的用户和用户组访问
 
 ## 设置Samba用户名和密码
 这一步也至关重要，直接影响各设备的访问。
@@ -436,12 +439,6 @@ Windows上，直接在文件夹里点击菜单->工具->映射网络驱动器。
 Mac上，一般在文件夹里面通过`Cmd+K`连接服务器后打开共享文件夹后，系统就会自动把它挂载到`/Volumes/你的共享文件夹名`这里。可以直接通过命令行随意访问。然后即使桌面上的文件夹关闭后，也还是可以在命令行里正常访问。
 
 
-## 只允许指定的用户访问
-如果限定只允许那些用户登录的可以访问这个文件夹， 需要在刚刚的Samba文件夹的配置文件里加上一句：
-```
-valid users = samba01, samba02
-```
-
 ## 多用户访问Samba
 我们用Samba，就肯定有多用户需求。
 但是多用户问题恰是Samba最麻烦的地方，如果是像我这样对Linux用户权限不熟悉的话。
@@ -457,7 +454,7 @@ valid users = samba01, samba02
 - 创建与Linux用户对应的Samba用户，并创建密码
 - 在Samba配置文件里面，声明有权访问共享文件夹的用户或用户组
 
-> 注意：如果是挂载的NTFS磁盘，是不支持group和user更改的，里面的文件默认所有者和所属组都是root。除非在mount挂载时就指定所有者，但是也不能分别指定里面某个文件夹或目录的所有者。
+> 注意：挂载的NTFS磁盘，是不支持unix体系的group和user的，所以里面的文件默认所有者和所属组都是root。要解决这个，需要在mount挂载时就指定所有者，但是也不能分别指定里面某个文件夹或目录的所有者。
 
 
 
@@ -479,13 +476,6 @@ $ sudo pdbedit -L
 
 
 
-## Mac访问加速以及消除.DS_Store安全隐患
-Mac上访问远程文件夹会留下`.DS_Store`文件，其中包含太多信息这样很不安全。
-所以我们要在Mac上设置，在访问远程文件夹时不留下这个文件：
-```sh
-$ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
-```
-
 ## 常见问题
 
 ### Mac上能用guest访问却不能用设置了的用户访问
@@ -495,6 +485,12 @@ $ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 - 直接用树莓派的原生用户`pi`，或
 - 仔细研究新创建的用户权限，添加好了再到Samba配置中设置
 
+### 消除来自Mac的.DS_Store文件安全隐患
+Mac上访问远程文件夹会留下`.DS_Store`文件，其中包含太多信息这样很不安全。
+所以我们要在Mac上设置，在访问远程文件夹时不留下这个文件：
+```sh
+$ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+```
 
 ### 访问外置硬盘Permission Denied
 这个也是用户权限问题，配置原生`pi`用户就没问题了。
