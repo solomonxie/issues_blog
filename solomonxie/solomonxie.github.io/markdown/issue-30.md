@@ -467,7 +467,6 @@ Sublime Text插件是完全基于Python开发的，全部Python开发环境。
 - Mac：
     - `/Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Installed Packages`
     - `/Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Packages/`
-    - `/Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Packages/User`
     - `/Users/YOUR-USER-NAME/Library/Application Support/Sublime Text 3/Packages/[YOUR-PACKAGE-NAME]`
 
 你把插件存在以上任意位置，都会被Sublime Text检测到。但是如果在里面嵌套目录的话，就不会被检测到。
