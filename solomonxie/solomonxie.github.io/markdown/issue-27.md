@@ -617,12 +617,6 @@ PREFIX : resize-pane -D 20       当前窗格向下扩大 20 格
 PREFIX : resize-pane -t 2 -L 20  编号为 2 的窗格向左扩大 20 格
 ```
 
-## Tmux无法持久保存session问题
-它虽然好用，但是缺点是关机的话session就全都消失了。要解决这点，需要安装单独的插件。
-这个时候你就需要`Tmux-Resurrect`插件来了，[地址在这](https://github.com/tmux-plugins/tmux-resurrect)。
-插件说明里很清楚的写了，tmux一旦关机，就会失去一切的设置。所以还必须用插件来解决。
-安装方法：
-
 ## Tmux安装[插件管理器TPM](https://github.com/tmux-plugins/tpm)
 和vim一样的思路，需要先安装tmux专属的插件管理器，一般都是用这个：`tmux plugin manager`，即tpm。注意：文档里面都会提到`prefix + ...`，其中`prefix`指的是tmux的命令前缀，默认是`ctrl+b`。
 
@@ -665,15 +659,6 @@ set -g @plugin 'tmux-plugins/tmux-resurrect'
 - `prefix + Ctrl-s` - 保存session
 - `prefix + Ctrl-r` - 恢复session
 
-## Tmux中的vim等软件颜色丢失
-这是因为tmux默认TERM没有用256color，那么每次运行tmux时指定color即可,`TERM=screen-256color-bce tmux`，或者更简单一点，在`~/.bash.profile`或者`~/.zshrc`中设置别名：
-```
-alias tmux="TERM=screen-256color-bce tmux"
-```
-然后在`~/.tmux.conf`文件中加入这句话：
-```
-set -g default-terminal "xterm-256color"
-```
 
 
 ## `Tmux的配置文件`
@@ -723,6 +708,29 @@ set -g @plugin 'tmux-plugins/tmux-sensible'
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run '~/.tmux/plugins/tpm/tpm'
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+```
+
+
+
+## Tmux常见问题
+
+## 
+
+## Tmux无法持久保存session问题
+它虽然好用，但是缺点是关机的话session就全都消失了。要解决这点，需要安装单独的插件。
+这个时候你就需要`Tmux-Resurrect`插件来了，[地址在这](https://github.com/tmux-plugins/tmux-resurrect)。
+插件说明里很清楚的写了，tmux一旦关机，就会失去一切的设置。所以还必须用插件来解决。
+安装方法：
+
+
+### Tmux中的vim等软件颜色丢失
+这是因为tmux默认TERM没有用256color，那么每次运行tmux时指定color即可,`TERM=screen-256color-bce tmux`，或者更简单一点，在`~/.bash.profile`或者`~/.zshrc`中设置别名：
+```
+alias tmux="TERM=screen-256color-bce tmux"
+```
+然后在`~/.tmux.conf`文件中加入这句话：
+```
+set -g default-terminal "xterm-256color"
 ```
 
 
