@@ -338,3 +338,22 @@ $ ssh user@ip-address
 # 运行脚本
 # sudo bash ~/server-init.sh
 ```
+
+
+# Linux安装Shadowsocks客户端
+
+有时候想让树莓派等Linux机也用shadowsocks，这时就没有GUI客户端用了。
+所以我们直接使用Shadowsocks官方命令行客户端：`sslocal`。
+
+安装：
+```sh
+# 服务端和客户端都包括了
+$ sudo pip install shadowsocks
+```
+
+启动客户端：
+```sh
+# 连接IP为54.254.184.22 端口为2222的服务器，映射到本地1080端口
+# 格式为：sslocal -s 服务端IP  -p 服务端端口 -l 1080 -k "密码" 回车
+$ sslocal -s 54.254.184.22 -p 2222  -l 1080 -k "PASSWORD" -t 600 -m aes-256-cfb
+```
