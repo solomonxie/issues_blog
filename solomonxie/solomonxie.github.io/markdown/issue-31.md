@@ -345,6 +345,7 @@ $ ssh user@ip-address
 有时候想让树莓派等Linux机也用shadowsocks，这时就没有GUI客户端用了。
 所以我们直接使用Shadowsocks官方命令行客户端：`sslocal`。
 
+## 安装、配置、启动
 安装：
 ```sh
 # 服务端和客户端都包括了
@@ -387,3 +388,6 @@ $ sudo sslocal -c ~/ss-local.json -d restart
 # 关闭客户端
 $ sudo sslocal -c ~/ss-local.json -d stop
 ```
+
+## 使用
+记住，`sslocal`启用的是`socks`连接，你不能直接用HTTP方法去连接刚刚创建的本机代理。
