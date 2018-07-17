@@ -247,10 +247,11 @@ $ git commit --amend
 # 用git log得知某个版本SHA后，恢复readme.md这个文件
 $ git reset <SHA> readme.md
 
-# 恢复后不用add，直接commit提交
-$ git commit
+# 切换到该版本
+$ git checkout readme.md
 
-# 
+# 把变动提交
+$ git add . && git commit
 ```
 
 
