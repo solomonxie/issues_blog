@@ -212,7 +212,7 @@ git mv 1.txt ./src/1.txt
 
 [参考：Git 基础 - 撤消操作](https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E6%92%A4%E6%B6%88%E6%93%8D%E4%BD%9C)
 
-## Git 撤销add
+## 撤销add
 ```sh
 # 指定文件
 $ git reset HEAD file.txt
@@ -221,7 +221,7 @@ $ git reset HEAD file.txt
 $ git reset HEAD .
 ```
 
-## Git撤销修改
+## 撤销修改
 ```sh
 # 指定文件
 $ git checkout -- file.txt
@@ -230,16 +230,27 @@ $ git checkout -- file.txt
 $ git checkout -- .
 ```
 
-## Git 删除commit
+## 删除commit
 **一旦commit，就不能撤销！会永远留在历史里面。**
 
-## Git 修改commit
+## 修改commit
 一般流程如下：
 ```sh
 $ git commit -m '首次提交'
 
 $ git add forgotten_file
 $ git commit --amend
+```
+
+## 恢复某个文件到以前版本
+```sh
+# 用git log得知某个版本SHA后，恢复readme.md这个文件
+$ git reset <SHA> readme.md
+
+# 恢复后不用add，直接commit提交
+$ git commit
+
+# 
 ```
 
 
