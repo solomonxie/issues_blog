@@ -357,3 +357,33 @@ $ sudo pip install shadowsocks
 # 格式为：sslocal -s 服务端IP  -p 服务端端口 -l 1080 -k "密码" 回车
 $ sslocal -s 54.254.184.22 -p 2222  -l 1080 -k "PASSWORD" -t 600 -m aes-256-cfb
 ```
+
+这样启动其实听不方便的，而且还占用命令行，不能断开。
+所以我们用配置文件+start命令的方式启动客户端：
+```sh
+# 创建一个配置文件
+$ touch ~/ss-local.json
+
+# 存入以下内容：
+{
+  "server":"服务端IP地址",
+  "local_address": "127.0.0.1",
+  "local_port":1080,
+  "server_port": 2222,
+  "password":"服务端密码",
+  "timeout":300,
+  "method":"aes-256-cfb"
+}
+
+# 启动客户端
+$ sudo sslocal -c ~/ss-local.json -d start
+```
+
+重启或关闭客户端：
+```sh
+# 重启客户端
+$ sudo sslocal -c ~/ss-local.json -d restart
+
+# 关闭客户端
+$ sudo sslocal -c ~/ss-local.json -d stop
+```
