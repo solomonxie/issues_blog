@@ -980,6 +980,7 @@ sudo rm /var/lib/apt/lists/lock
 sudo rm /var/cache/apt/archives/lock
 sudo rm /var/lib/dpkg/lock
 # 重新配置
+sudo mkdir /var/lib/dpkg/info
 sudo dpkg --configure -a
 ```
 意思是，主要出错原因在于`/var/lib/dpkg/info/`文件夹，把它备份或删掉就好了，然后再创建一个同名文件夹。
