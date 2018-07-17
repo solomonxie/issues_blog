@@ -550,6 +550,12 @@ date
 
 [常用操作快捷键参考。](https://gist.github.com/ryerh/14b7c24dfd623ef8edc7#%E5%90%8C%E6%AD%A5%E7%AA%97%E6%A0%BC)
 
+## Tmux 重要概念
+
+在Tmux逻辑中，分清楚`Server > Session > Window > Pane`这个大小和层级顺序是极其重要的，直接关系到工作效率。
+
+
+
 ## Tmux常用命令参考
 
 ```shell
