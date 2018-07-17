@@ -714,7 +714,13 @@ run '~/.tmux/plugins/tpm/tpm'
 
 ## Tmux常见问题
 
-## 
+## Tmux不管怎么改配置文件，都不产生变化
+这个主要是由于Tmux的后台缓存机制造成的。我就犯了个大错误：甚至删了Tmux、重装Tmux、重启电脑，都没达成。
+Tmux会有一个叫`Tmux-server`的东西。只要把它kill，重启tmux就OK了：
+```sh
+$ tmux kill-server -a
+```
+
 
 ## Tmux无法持久保存session问题
 它虽然好用，但是缺点是关机的话session就全都消失了。要解决这点，需要安装单独的插件。
@@ -732,6 +738,12 @@ alias tmux="TERM=screen-256color-bce tmux"
 ```
 set -g default-terminal "xterm-256color"
 ```
+
+## Tmux中鼠标滚屏不能用
+tmux中鼠标滚屏默认是关闭的，且不是很容易像开关一样开启支持。
+看过了一些stackoverflow尝试了一些解决方案，发现没有一个管用。如果比这个还麻烦，暂时我就觉得没有必要再折腾了，直接用原生的屏幕滚动浏览快捷键即可：
+`Prefix + [`，然后直接用上下箭头，或者`PnUp`和`PnDown`即可
+
 
 
 # 使服务器上的任务不间断运行
