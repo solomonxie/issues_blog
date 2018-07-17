@@ -280,3 +280,35 @@ $ bundle exec jekyll serve
 说白了就是动态生成HTML，可以输出变量，操作数组，调用外部数据，设置IF ELSE判断，FOR循环等，这些都能达到。
 
 开始讲语法前，大概说明一下运行流程：
+
+
+
+# Sphinx+Github+Readthedocs+Rst快速创建规范文档
+> 注意：这个服务的文档不能用Markdown，只能用reStructuredText.
+
+虽然比较像Jekyll，是快速建站类服务，但是是完全不同的逻辑和构建思维。
+这个方式是快速建立一本书、一份完整文档、一个规范攻略的方式，与github和Readthedocs结合非常棒。
+
+大概运行逻辑是：
+- 本地运行Sphinx生成项目文件夹和基本构成文件
+- 上传到Github专门的repo仓库
+- 在这个repo中的settting设置添加与Readthedocs关联的服务
+- 到Readthedocs添加这个repo的地址，并开启关联
+- Readthedocs定期（大概每分钟）扫描repo并在远程执行生成命令，更新文档
+
+## 安装配置
+
+Sphinx是基于Python构建的，所以一般在各个平台直接用pip安装最方便：
+```sh
+# 建议在虚拟环境里安装
+$ pip install sphinx --user
+
+# 创建项目文件夹
+$ mkdir test
+$ cd test
+
+# 生成项目结构
+$ python -m sphinx-quickstart
+
+
+```
