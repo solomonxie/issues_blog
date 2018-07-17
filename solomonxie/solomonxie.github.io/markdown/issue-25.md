@@ -964,3 +964,10 @@ snippet #!
 
 
 这个很恼火。搜了一圈发现，有人说是`vimrc`的配置出了问题，但是就算我把vimrc整个清空了也还是有这个问题。
+
+
+
+# Vim中的搜索高亮
+
+[参考：在 Vim 中优雅地查找和替换](https://harttle.land/2016/08/08/vim-search-in-file.html)
+
