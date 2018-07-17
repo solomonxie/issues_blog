@@ -390,4 +390,11 @@ $ sudo sslocal -c ~/ss-local.json -d stop
 ```
 
 ## 使用
-记住，`sslocal`启用的是`socks`连接，你不能直接用HTTP方法去连接刚刚创建的本机代理。
+记住，`sslocal`启用的是`socks5`连接，你不能直接用HTTP方法去连接刚刚创建的本机代理。
+
+所以在命令行里使用任何命令并加上代理参数时，必须要选socks代理才能正确使用：
+```sh
+$ curl --socks5 127.0.0.1:1080 ip.cn
+```
+
+另一种方法就是：再下载一个软件把`socks5代理`映射为`Http代理`。
