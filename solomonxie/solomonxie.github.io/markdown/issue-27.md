@@ -552,38 +552,43 @@ date
 
 ## Tmux 重要概念
 
-在Tmux逻辑中，分清楚`Server > Session > Window > Pane`这个大小和层级顺序是极其重要的，直接关系到工作效率。
+第一，Tmux中，千万不要去背和记长度超过**1个字母**的命令！所有都按照自己的顺手程度，在`.tmux.conf`配置文件中配置快捷键，甚至把窗口改变大小的命令也忘记只要用鼠标代替即可。
 
+第二，在Tmux逻辑中，分清楚**`Server > Session > Window > Pane`**这个大小和层级顺序是极其重要的，直接关系到工作效率：
+- Server：是整个tmux的后台服务。有时候更改配置不生效，就要使用`tmux kill-server`来重启tmux。
+- Session：是tmux的所有会话。我之前就错把这个session当成窗口用，造成了很多不便里。一把只要保存**一个**session就足够了。
+- Window：相当于一个工作区，包含很多分屏，可以针对每种任务分一个Window。如下载一个Window，编程一个window。
+- Pane：是在Window里面的小分屏。最常用也最好用。
+
+了解了这个逻辑后，整个Tmux的使用和配置也就清晰了。
+
+（ps：下面这种方便好看的Status bar状态栏，显示的是windows，而不是sessions）
+![image](https://user-images.githubusercontent.com/14041622/42833326-5eb50aec-8a26-11e8-84c8-8fe853775f99.png)
 
 
 ## Tmux常用命令参考
 
 ```shell
 #启动新会话：
-tmux [new -s 会话名 -n 窗口名]
+$ tmux [new -s 会话名 -n 窗口名]
 
 #恢复会话：
-tmux at [-t 会话名]
+$ tmux at [-t 会话名]
 
 #列出所有会话：
-tmux ls
+$ tmux ls
 
 #关闭会话：
-tmux kill-session -t 会话名
+$ tmux kill-session -t 会话名
 
 #关闭所有会话：
-tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill
+$ tmux kill-server
 ```
 
 ## Tmux 常用内部命令
 > 所谓`内部命令`，就是进入Tmux后的指令。在按下`前缀键`后的命令，一般前缀键为`Ctrl+b`.
 
 ```vim
-#会话
-:new<回车>  启动新会话
-s           列出所有会话
-$           重命名当前会话
-
 #窗口
 c  创建新窗口
 w  列出所有窗口
@@ -604,23 +609,10 @@ q 显示每个窗格是第几个，当数字出现的时候按数字几就选中
 } 与下一个窗格交换位置
 z 切换窗格最大化/最小化
 
-#调整窗口排序
-swap-window -s 3 -t 1  交换 3 号和 1 号窗口
-swap-window -t 1       交换当前和 1 号窗口
-move-window -t 1       移动当前窗口到 1 号
-
-#同步窗格 
-#这么做可以切换到想要的窗口，输入 Tmux 前缀和一个冒号呼出命令提示行，然后输入：
-:setw synchronize-panes
-
-#调整窗格尺寸
-#如果你不喜欢默认布局，可以重调窗格的尺寸。虽然这很容易实现，但一般不需要这么干。这几个命令用来调整窗格：
-PREFIX : resize-pane -D          当前窗格向下扩大 1 格
-PREFIX : resize-pane -U          当前窗格向上扩大 1 格
-PREFIX : resize-pane -L          当前窗格向左扩大 1 格
-PREFIX : resize-pane -R          当前窗格向右扩大 1 格
-PREFIX : resize-pane -D 20       当前窗格向下扩大 20 格
-PREFIX : resize-pane -t 2 -L 20  编号为 2 的窗格向左扩大 20 格
+#会话
+:new<回车>  启动新会话
+s           列出所有会话
+$           重命名当前会话
 ```
 
 ## Tmux安装[插件管理器TPM](https://github.com/tmux-plugins/tpm)
