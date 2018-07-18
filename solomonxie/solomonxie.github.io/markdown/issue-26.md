@@ -625,19 +625,7 @@ $ sudo /etc/init.d/apache2 reload
 (注意：如果reload出错，很有可能是80端口被占用了，有可能是Nginx。所以要找到占用端口的服务，并关闭它)
 
 
-测试WebDav服务是否成功（需要下载第三发软件）：
-```sh
-# 下载安装cadaver
-$ sudo apt-get install cadaver
 
-# 测试WebDav网络服务
-$ cadaver http://localhost/webdav/
-
-# 正常下会显示如下（要求输入用户名密码）：
-Authentication required for test on server `localhost':
-Username: test
-Password:
-```
 
 
 ```
@@ -676,6 +664,9 @@ Alias /webdav  /var/www/webdav
 # 重启Apache2服务器
 sudo systemctl restart apache2
 ```
+
+然后就可以用任意浏览器输入：`http://树莓派的IP地址/webdav`来访问了。
+注意，`webdav`后面没有`/`斜杠。
 
 
 ## 常见问题
