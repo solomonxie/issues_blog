@@ -590,12 +590,13 @@ $ tmux kill-server
 
 ```vim
 # Window
+&  关闭当前Window
 c  创建新Window
 w  列出所有Windows
 n  后一个Window
 p  前一个Window
 ,  重命名当前Window
-&  关闭当前Window
+
 
 # Pane（分割窗口）
 x  关闭当前Pane
