@@ -553,12 +553,12 @@ $ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 安装Apache2服务器：
 ```sh
-$ cd ~
 $ sudo apt-get install apache2
 ```
 
-开启Apache支持WebDav的服务：
+开启Apache支持WebDav的服务(记住最好在用户目录下执行否则报错)：
 ```sh
+$ cd ~
 $ sudo  a2enmod dav_fs
 $ sudo a2enmod dav
 ```
@@ -569,7 +569,24 @@ $ sudo mkdir -p /var/www/web1/web
 $ sudo chown www-data /var/www/web1/web
 ```
 
-添加虚拟主机：
+创建和配置WebDav的访问用户：
+```sh
+# 创建保存用户数据的文件
+$ sudo htpasswd -c /var/www/web1/passwd.dav
+
+# 创建一个用户test (会弹出提示输入密码）
+$ sudo htpasswd -c /var/www/web1/passwd.dav test
+New password:
+Re-type new password:
+Adding password for user test
+
+# 修改用户文件的权限
+$ sudo chown root:www-data /var/www/web1/passwd.dav
+$ sudo chmod 640 /var/www/web1/passwd.dav
+```
+
+
+创建配置文件，并添加虚拟主机：
 ```sh
 $ sudo vim /etc/apache2/sites-available/default
 
@@ -598,3 +615,11 @@ NameVirtualHost *
 
 </VirtualHost>
 ```
+
+重新加载Apache2 (记住最好在用户目录下执行否则报错)：
+```sh
+$ cd ~
+$ sudo /etc/init.d/apache2 reload
+```
+▲ 注意：如果reload出错，很有可能是80端口被占用了，有可能是Nginx。所以要找到占用端口的服务，并关闭它。
+解决方法：`...`
