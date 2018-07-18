@@ -565,13 +565,12 @@ sudo a2enmod dav_fs
 sudo mkdir -p /var/www/webdav
 sudo chown -R www-data:www-data  /var/www/webdav
 
-# 创建WebDav的访问用户数据库，并修改数据库访问权限
-sudo htpasswd -c /etc/apache2/webdav.password
+# 创建WebDav的访问用户数据库，顺便创建用户`pi`
+sudo htpasswd -c /etc/apache2/webdav.password pi
+
+# 修改用户数据库访问权限
 sudo chown root:www-data /etc/apache2/webdav.password
 sudo chmod 640 /etc/apache2/webdav.password
-
-# 创建用户`pi`：
-sudo htpasswd /etc/apache2/webdav.password pi
 
 # 打开默认配置文件
 sudo vim /etc/apache2/sites-available/000-default.conf
