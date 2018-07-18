@@ -623,3 +623,13 @@ $ sudo /etc/init.d/apache2 reload
 ```
 ▲ 注意：如果reload出错，很有可能是80端口被占用了，有可能是Nginx。所以要找到占用端口的服务，并关闭它。
 解决方法：`...`
+
+
+测试WebDav服务是否成功（需要下载第三发软件）：
+```sh
+# 下载安装cadaver
+$ sudo apt-get install cadaver
+
+# 测试WebDav网络服务
+$ cadaver http://localhost/webdav/
+```
