@@ -614,7 +614,6 @@ sudo systemctl restart apache2
     - 输入`net stop webclient`并按回车，停止网络客户端
     - 输入`net start webclient`并按回车，开启网络客户端
     - 然后在文件夹菜单中找到`映射网络驱动器`，输入网址`http://树莓派IP地址/webdav`或`\\树莓派IP地址\webdav`，然后输入用户名密码，就能映射成功了。
-    - 另外，默认速度是极低的，是由于IE的默认设置问题。解决方法是：在`IE-->Internet选项—>连接-->局域网设置`中，去掉“自动检测设置”选项即可。
 
 ![image](https://user-images.githubusercontent.com/14041622/42875560-a448b3ca-8ab6-11e8-925d-c364431e261a.png)
 
@@ -643,6 +642,3 @@ Samba要等一秒以上，而WebDav几乎没有等待，或者说和本地打开
 
 
 ## Windows 访问WebDav很慢
-这是因为IE的默认设置问题。
-解决方法是：
-在`IE-->Internet选项—>连接-->局域网设置`中，去掉“自动检测设置”选项即可。
