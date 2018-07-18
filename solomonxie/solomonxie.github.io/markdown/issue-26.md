@@ -538,3 +538,13 @@ $ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 这个也是用户权限问题，配置原生`pi`用户就没问题了。
 
 
+
+
+
+# 树莓派安装WebDav文件共享服务器（NAS）
+
+为了做个NAS，折腾了超久的Samba，看似简单，其实Samba的用户设置实在太繁琐，坑太深。用户权限和目录权限、甚至磁盘格式稍有不同，都会导致无法登录。实在不靠谱，实际体验也不是很稳定。
+所以在找Alternatives过程中，发现了这个也存在了很久的WebDav协议。
+
+不像Samba是微软开发的软件体系，WebDav是一种协议，具体说是世界上最普遍的HTTP协议的一个小扩展。它**不是**一个软件。所以就好理解，为什么搜索不到WebDav的官网和官方安装指南了——因为没有“官方”。谁都可以开发软件支持这个协议，就像水都可以开发浏览器支持HTTP协议浏览网站一样。
+
