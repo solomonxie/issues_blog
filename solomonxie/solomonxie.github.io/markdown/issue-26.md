@@ -560,7 +560,7 @@ $ sudo apt-get install apache2
 开启Apache支持WebDav的服务(记住最好在用户目录下执行否则报错)：
 ```sh
 $ cd ~
-$ sudo  a2enmod dav_fs
+$ sudo a2enmod dav_fs
 $ sudo a2enmod dav
 ```
 
