@@ -486,3 +486,14 @@ proxyPort = 1087
 那么，比如使用curl时，就应当用http如此访问：
 `curl -x http://127.0.0.1:1087 httpbin.org/ip`
 其它软件也同理，选择http方式的该地址和该端口，就能正确连接了！
+
+
+# Apache 2 reload 失败
+
+尝试reload Apache：
+```sh
+$ sudo /etc/init.d/apache2 reload
+[....] Reloading apache2 configuration (via systemctl): apache2.service
+Job for apache2.service failed. 
+See "systemctl status apache2.service" and "journalctl -xe" for details.
+```
