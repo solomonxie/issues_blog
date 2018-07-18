@@ -588,34 +588,31 @@ $ tmux kill-server
 ## Tmux 常用内部命令
 > 所谓`内部命令`，就是进入**Tmux后**，并按下`前缀键`后的命令，一般前缀键为`Ctrl+b`.
 
-```vim
-# Window
-&  关闭当前Window
-c  创建新Window
-w  列出所有Windows
-n  后一个Window
-p  前一个Window
-,  重命名当前Window
+- 刷新配置文件：`<前缀键>r`
+- Window 窗体：
+    - 关闭当前Window: `&`
+    - 创建新Window: `c`
+    - 列出所有Windows: `w`
+    - 后一个Window: `n`
+    - 前一个Window: `p`
+    - 重命名当前Window: `,`
+- Pane 小面板：
+    - 关闭当前Pane: `x`  
+    - 上下分割Pane: `%`  
+    - 左右分割Pane: `"`  
+    - 最大化/最小化 Pane: `z` 
+    - 显示每个Pane的编号，可以按下数字键选中Pane: `q` 
+- Session 会话:
+    - 启动新会话: `:new<回车>`  
+    - 列出所有会话: `s`           
+    - 重命名当前会话: `$`           
 
+## Tmux安装插件（TPM插件管理器）
+[参考：TPM官网](https://github.com/tmux-plugins/tpm)
 
-# Pane（分割窗口）
-x  关闭当前Pane
-%  上下分割Pane
-"  左右分割Pane
-z 最大化/最小化 Pane
-q 显示每个Pane的编号，可以按下数字键选中Pane
-
-
-#会话
-:new<回车>  启动新会话
-s           列出所有会话
-$           重命名当前会话
-```
-
-## Tmux安装[插件管理器TPM](https://github.com/tmux-plugins/tpm)
 和vim一样的思路，需要先安装tmux专属的插件管理器，一般都是用这个：`tmux plugin manager`，即tpm。注意：文档里面都会提到`prefix + ...`，其中`prefix`指的是tmux的命令前缀，默认是`ctrl+b`。
 
-按照[官网](https://github.com/tmux-plugins/tpm)的做法，很简单就安装上了，输入下面命令：
+按照官网的做法，很简单就安装上了，输入下面命令：
 ```shell
 # 把管理器文件安装到`~/.tmux/plugins/tpm`之下 此前这些目录是不存在的
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
