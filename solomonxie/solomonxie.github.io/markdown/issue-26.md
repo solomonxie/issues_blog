@@ -606,7 +606,7 @@ sudo systemctl restart apache2
 网页里只能像FTP一样显示文件目录和下载文件。
 如果要正常使用，我们需要把它映射为本地目录才行：
 - Mac上：在Finder中用`CMD+K`打开连接服务器选项，输入`http://树莓派IP地址/webdav`，输入Webdav创建过的用户名密码来完成映射。
-- Windows上：
+- Windows上：在菜单里找到`映射网络驱动盘`，输入网址格式和通用格式不同：`\\树莓派IP\webdav`。
 - iPhone上：下载`FileExplorer`，添加WebDav服务，输入信息后就可以访问。直接看文档、看视频、听歌都行。
 
 
