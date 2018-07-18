@@ -640,6 +640,43 @@ Password:
 ```
 
 
+```
+# 安装Apache2服务器
+sudo apt-get  install  -y apache2
+
+# 开启Apache2中对WebDav协议的支持
+sudo a2enmod dav
+sudo a2enmod dav_fs
+
+# 创建共享目录并修改权限
+sudo mkdir -p /var/www/webdav
+sudo chown -R www-data:www-data  /var/www/webdav
+
+# 创建WebDav的访问用户数据库，顺便添加用户“pi”，并修改数据库访问权限
+sudo htpasswd -c /etc/apache2/webdav.password pi
+sudo chown root:www-data /etc/apache2/webdav.password
+sudo chmod 640 /etc/apache2/webdav.password
+
+# 打开默认配置文件
+sudo vim /etc/apache2/sites-available/000-default.conf
+
+# 全部替换为以下内容（记得先备份）：
+
+Alias /webdav  /var/www/webdav
+
+<Location /webdav>
+ Options Indexes
+ DAV On
+ AuthType Basic
+ AuthName "webdav"
+ AuthUserFile /etc/apache2/webdav.password
+ Require valid-user
+ </Location>
+
+# 重启Apache2服务器
+sudo systemctl restart apache2
+```
+
 
 ## 常见问题
 
