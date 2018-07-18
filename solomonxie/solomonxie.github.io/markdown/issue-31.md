@@ -490,10 +490,13 @@ proxyPort = 1087
 
 # Apache 2 reload 失败
 
-尝试reload Apache：
+Reload Apache时后发生错误：
 ```sh
 $ sudo /etc/init.d/apache2 reload
 [....] Reloading apache2 configuration (via systemctl): apache2.service
 Job for apache2.service failed. 
 See "systemctl status apache2.service" and "journalctl -xe" for details.
 ```
+
+尝试过的方案：
+- `sudo apt-get purge apache2 && sudo apt-get install apache2` --- 没用
