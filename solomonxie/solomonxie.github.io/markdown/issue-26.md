@@ -555,3 +555,17 @@ $ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 ```sh
 $ sudo apt-get install apache2
 ```
+
+开启Apache支持WebDav的服务：
+```sh
+$ sudo  a2enmod dav_fs
+$ sudo a2enmod dav
+
+# 重启
+$ sudo /etc/init.d/apache2 restart
+```
+
+创建共享目录：
+```sh
+
+```
