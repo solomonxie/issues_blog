@@ -552,87 +552,12 @@ $ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 [参考：How To Set Up WebDAV With Apache2 On Debian Etch](https://www.howtoforge.com/setting-up-webdav-with-apache2-on-debian-etch)
 
-安装Apache2服务器：
 ```sh
-$ sudo apt-get install apache2
-```
-
-开启Apache支持WebDav的服务(记住最好在用户目录下执行否则报错)：
-```sh
-$ cd ~
-$ sudo a2enmod dav_fs
-$ sudo a2enmod dav
-```
-
-创建共享目录，并赋予`www-data`用户组的权限：
-```sh
-$ sudo mkdir -p /var/www/web1/web
-$ sudo chown www-data /var/www/web1/web
-```
-
-创建和配置WebDav的访问用户：
-```sh
-# 创建保存用户数据的文件
-$ sudo htpasswd -c /var/www/web1/passwd.dav
-
-# 创建一个用户test (会弹出提示输入密码）
-$ sudo htpasswd -c /var/www/web1/passwd.dav test
-New password:
-Re-type new password:
-Adding password for user test
-
-# 修改用户文件的权限
-$ sudo chown root:www-data /var/www/web1/passwd.dav
-$ sudo chmod 640 /var/www/web1/passwd.dav
-```
-
-
-创建配置文件，并添加虚拟主机：
-```sh
-$ sudo vim /etc/apache2/sites-available/default
-
-# 添加如下内容并保存退出：
-NameVirtualHost *
-<VirtualHost *>
-        ServerAdmin webmaster@localhost
-
-        DocumentRoot /var/www/web1/web/
-        <Directory /var/www/web1/web/>
-                Options Indexes MultiViews
-                AllowOverride None
-                Order allow,deny
-                allow from all
-        </Directory>
-
-        Alias /webdav /var/www/web1/web
-
-        <Location /webdav>
-           DAV On
-           AuthType Basic
-           AuthName "webdav"
-           AuthUserFile /var/www/web1/passwd.dav
-           Require valid-user
-       </Location>
-
-</VirtualHost>
-```
-
-重新加载Apache2 (记住最好在用户目录下执行否则报错)：
-```sh
-$ cd ~
-$ sudo /etc/init.d/apache2 reload
-```
-(注意：如果reload出错，很有可能是80端口被占用了，有可能是Nginx。所以要找到占用端口的服务，并关闭它)
-
-
-
-
-
-```
 # 安装Apache2服务器
 sudo apt-get  install  -y apache2
 
-# 开启Apache2中对WebDav协议的支持
+# 开启Apache2中对WebDav协议的支持 (记住最好在用户目录下执行否则报错)
+cd ~
 sudo a2enmod dav
 sudo a2enmod dav_fs
 
@@ -640,10 +565,13 @@ sudo a2enmod dav_fs
 sudo mkdir -p /var/www/webdav
 sudo chown -R www-data:www-data  /var/www/webdav
 
-# 创建WebDav的访问用户数据库，顺便添加用户“pi”，并修改数据库访问权限
-sudo htpasswd -c /etc/apache2/webdav.password pi
+# 创建WebDav的访问用户数据库，并修改数据库访问权限
+sudo htpasswd -c /etc/apache2/webdav.password
 sudo chown root:www-data /etc/apache2/webdav.password
 sudo chmod 640 /etc/apache2/webdav.password
+
+# 创建用户`pi`：
+sudo htpasswd /etc/apache2/webdav.password pi
 
 # 打开默认配置文件
 sudo vim /etc/apache2/sites-available/000-default.conf
@@ -672,11 +600,5 @@ sudo systemctl restart apache2
 ## 常见问题
 
 ## Apache2 Reload出错
-
-## cadaver访问Webdav出错
-
-使用`cadaver http://localhost/webdav/`访问服务，显示：
-```
-Could not access /webdav/ (not WebDAV-enabled?):
-405 Method Not Allowed
-```
+如果reload出错，很有可能是80端口被占用了，有可能是Nginx。
+所以要找到占用端口的服务，并关闭它。
