@@ -684,5 +684,5 @@ fatal: Could not read from remote repository.
 
 其实问题是，我拷贝来拷贝去，不小心改变了`~/.ssh`文件夹的权限。所以再把权限改回来就好了：
 ```sh
-$ chmod 400 ~/.ssh 
+$ chmod 0400 ~/.ssh/id_rsa 
 ```
