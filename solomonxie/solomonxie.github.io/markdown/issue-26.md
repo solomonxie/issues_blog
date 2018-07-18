@@ -632,4 +632,23 @@ $ sudo apt-get install cadaver
 
 # 测试WebDav网络服务
 $ cadaver http://localhost/webdav/
+
+# 正常下会显示如下（要求输入用户名密码）：
+Authentication required for test on server `localhost':
+Username: test
+Password:
+```
+
+
+
+## 常见问题
+
+## Apache2 Reload出错
+
+## cadaver访问Webdav出错
+
+使用`cadaver http://localhost/webdav/`访问服务，显示：
+```
+Could not access /webdav/ (not WebDAV-enabled?):
+405 Method Not Allowed
 ```
