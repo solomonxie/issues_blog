@@ -550,3 +550,8 @@ $ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 > 所以就好理解，为什么搜索不到WebDav的官网和官方安装指南了——因为没有“官方”。谁都可以开发软件支持这个协议，就像水都可以开发浏览器支持HTTP协议浏览网站一样。
 
+
+安装Apache2服务器：
+```sh
+$ sudo apt-get install apache2
+```
