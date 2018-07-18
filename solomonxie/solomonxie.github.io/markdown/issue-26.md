@@ -553,6 +553,7 @@ $ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 安装Apache2服务器：
 ```sh
+$ cd ~
 $ sudo apt-get install apache2
 ```
 
@@ -560,12 +561,40 @@ $ sudo apt-get install apache2
 ```sh
 $ sudo  a2enmod dav_fs
 $ sudo a2enmod dav
-
-# 重启
-$ sudo /etc/init.d/apache2 restart
 ```
 
-创建共享目录：
+创建共享目录，并赋予`www-data`用户组的权限：
 ```sh
+$ sudo mkdir -p /var/www/web1/web
+$ sudo chown www-data /var/www/web1/web
+```
 
+添加虚拟主机：
+```sh
+$ sudo vim /etc/apache2/sites-available/default
+
+# 添加如下内容并保存退出：
+NameVirtualHost *
+<VirtualHost *>
+        ServerAdmin webmaster@localhost
+
+        DocumentRoot /var/www/web1/web/
+        <Directory /var/www/web1/web/>
+                Options Indexes MultiViews
+                AllowOverride None
+                Order allow,deny
+                allow from all
+        </Directory>
+
+        Alias /webdav /var/www/web1/web
+
+        <Location /webdav>
+           DAV On
+           AuthType Basic
+           AuthName "webdav"
+           AuthUserFile /var/www/web1/passwd.dav
+           Require valid-user
+       </Location>
+
+</VirtualHost>
 ```
