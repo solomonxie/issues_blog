@@ -550,6 +550,7 @@ $ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 > 所以就好理解，为什么搜索不到WebDav的官网和官方安装指南了——因为没有“官方”。谁都可以开发软件支持这个协议，就像水都可以开发浏览器支持HTTP协议浏览网站一样。
 
+[参考：How To Set Up WebDAV With Apache2 On Debian Etch](https://www.howtoforge.com/setting-up-webdav-with-apache2-on-debian-etch)
 
 安装Apache2服务器：
 ```sh
@@ -621,8 +622,7 @@ NameVirtualHost *
 $ cd ~
 $ sudo /etc/init.d/apache2 reload
 ```
-▲ 注意：如果reload出错，很有可能是80端口被占用了，有可能是Nginx。所以要找到占用端口的服务，并关闭它。
-解决方法：`...`
+(注意：如果reload出错，很有可能是80端口被占用了，有可能是Nginx。所以要找到占用端口的服务，并关闭它)
 
 
 测试WebDav服务是否成功（需要下载第三发软件）：
