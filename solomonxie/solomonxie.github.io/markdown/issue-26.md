@@ -567,6 +567,8 @@ sudo chown -R www-data:www-data  /var/www/webdav
 
 # 创建WebDav的访问用户数据库，顺便创建用户`pi`
 sudo htpasswd -c /etc/apache2/webdav.password pi
+# 创建guest用户
+#sudo htpasswd /etc/apache2/webdav.password guest
 
 # 修改用户数据库访问权限
 sudo chown root:www-data /etc/apache2/webdav.password
