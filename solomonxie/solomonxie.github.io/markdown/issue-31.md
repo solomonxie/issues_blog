@@ -505,3 +505,106 @@ See "systemctl status apache2.service" and "journalctl -xe" for details.
 尝试过的方案：
 - `sudo apt-get purge apache2 && sudo apt-get install apache2` --- 没用
 - `sudo /etc/init.d/apache2 restart` ---- 可以重启但是还不能reload
+
+解决方案：
+```sh
+# 找到占用80端口的服务 （发现是Nginx服务器在用）
+$ sudo netstat -pant |grep 80
+tcp6  0  0  :::80           :::*       LISTEN  769/nginx    -g  daemon
+
+# 找办法关闭这个服务
+$ sudo systemctl stop nginx
+# 或
+$ sudo service <服务名> stop
+
+# 重启并重新加载Apache2
+$ sudo /etc/init.d/apache2 restart
+$ sudo /etc/init.d/apache2 reload
+[ ok ] Reloading apache2 configuration (via systemctl): apache2.service.
+```
+
+
+# Ubuntu服务器安装OwnCloud私有云盘
+
+```sh
+sudo apt-get update
+
+# 下载Owncloud所需依赖
+sudo apt-get install -y apache2 mariadb-server libapache2-mod-php7.0 \
+    openssl php-imagick php7.0-common php7.0-curl php7.0-gd \
+    php7.0-imap php7.0-intl php7.0-json php7.0-ldap php7.0-mbstring \
+    php7.0-mcrypt php7.0-mysql php7.0-pgsql php-smbclient php-ssh2 \
+    php7.0-sqlite3 php7.0-xml php7.0-zip
+
+
+# 下载并解压最新版本OwnCloud（自行前往官网找到地址）
+# Download the latest version form the webpage: 
+wget https://download.owncloud.org/community/owncloud-10.0.8.tar.bz2
+# Download the related MD5 checksum file:
+wget https://download.owncloud.org/community/owncloud-10.0.8.tar.bz2.md5
+# 验证文件有效性
+# Verify the MD5 sum:
+md5sum -c owncloud-10.0.8.tar.bz2.md5 < owncloud-10.0.8.tar.bz2
+# Download the PGP signature:
+wget https://download.owncloud.org/community/owncloud-10.0.8.tar.bz2.asc
+wget https://owncloud.org/owncloud.asc
+# Verify the PGP signature:
+gpg --import owncloud.asc
+gpg --verify owncloud-10.0.8.tar.bz2.asc owncloud-10.0.8.tar.bz2
+# 解压文件并移动到Apache服务器目录中
+# Unarchive the Owncloud package
+tar -xjf owncloud-10.0.8.tar.bz2
+# Copy the folder to Apache Webserver root path
+sudo cp -r owncloud /var/www
+
+
+# 配置Apache服务器
+sudo touch /etc/apache2/sites-available/owncloud.conf
+sudo cat > /etc/apache2/sites-available/owncloud.conf <<EOF
+Alias /owncloud "/var/www/owncloud/"
+
+<Directory /var/www/owncloud/>
+  Options +FollowSymlinks
+  AllowOverride All
+
+ <IfModule mod_dav.c>
+  Dav off
+ </IfModule>
+
+ SetEnv HOME /var/www/owncloud
+ SetEnv HTTP_HOME /var/www/owncloud
+
+</Directory>
+EOF
+# Then create a symlink to /etc/apache2/sites-enabled:
+sudo ln -s /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/owncloud.conf
+ 
+# 开启Apache服务器相关模块和服务
+sudo a2enmod rewrite
+sudo a2enmod headers
+sudo a2enmod env
+sudo a2enmod dir
+sudo a2enmod mime 
+# Enable SSL (for https)
+sudo a2enmod ssl
+sudo a2ensite default-ssl
+sudo service apache2 reload
+# 重启Apache
+sudo service apache2 restart
+
+
+# 打开浏览器前往 `http://<本机IP>/owncloud` 配置服务
+echo "Please proceed to your web browser and open http://<IP>/owncloud to finish the setup."
+
+echo "========== (Enable Local External Storage, etc., Hard disk, flash disk) ==========="
+echo "Please add 'files_external_allow_create_new_local' => 'true', to /var/www/owncloud/config/config.php"
+echo "Refresh web browser to see the change."
+# Enable Local External Storage 
+#sudo vim /var/www/owncloud/config/config.php
+# Add this phrase into the array to enable local external storage
+#'files_external_allow_create_new_local' => 'true',
+
+
+echo "========== (OwnCloud Installing Finished) ==========="
+
+```
