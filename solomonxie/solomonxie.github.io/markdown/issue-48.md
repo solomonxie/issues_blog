@@ -2,13 +2,13 @@
 It's so much better to extract the basic knowledge from Precalculus in here.
 
 ## Prerequisites
-- [ ] Precalculus:
-    - [ ] Trigonometry: Unit circle, Inverse trig function
-    - [ ] Geometry: Transformation
-    - [ ] Precalculus: Conversion of complex numbers
-    - [ ] Algebra: Line equation
-    - [ ] Algebra: Systems of equations
-    - [ ] Vector: Dot product & Cross product
+- [x] Precalculus:
+    - [x] Trigonometry: Unit circle, Inverse trig function
+    - [x] Geometry: Transformation
+    - [x] Precalculus: Conversion of complex numbers
+    - [x] Algebra: Line equation
+    - [x] Algebra: Systems of equations
+    - [x] Vector: Dot product & Cross product
 
 
 # `Vector & basic operations`
