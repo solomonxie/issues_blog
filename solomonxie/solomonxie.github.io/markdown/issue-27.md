@@ -596,6 +596,7 @@ $ tmux kill-server
     - 后一个Window: `n`
     - 前一个Window: `p`
     - 重命名当前Window: `,`
+    - 修改当前Window位置（序号）：`.`
 - Pane 小面板：
     - 关闭当前Pane: `x`  
     - 上下分割Pane: `%`  
