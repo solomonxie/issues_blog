@@ -3726,7 +3726,7 @@ To evaluate a Maclaurin series, we need to **convert the series to a function**,
 
 
 
-# Lagrange Error Bound
+# `Lagrange Error Bound`
 > It's also called the **`Lagrange Error Theorem`**, or **`Taylor's Remainder Theorem`**.
 
 To approximate a function more precisely, we'd like to express the function as a **sum of a Taylor Polynomial & a Remainder.**
