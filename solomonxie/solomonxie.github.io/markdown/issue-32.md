@@ -254,6 +254,7 @@ $ bundle exec jekyll serve
 
 至此，一般简单的模版都可以搞定了。如果超出任何以上提及内容，我们就要到"特殊安装方法"一节来分析了。
 
+
 ## 特殊安装方法
 一般安装方法解决不了的，基本上算是特殊安装方法了。
 
@@ -267,6 +268,33 @@ $ bundle exec jekyll serve
 如果不是100%确定真的想用这个主题，就不要浪费时间去调试和修改gem环境了，不值得。
 
 > 我的经验是：安装越麻烦的，模版本身其实反而更丑更差劲👎。
+
+
+
+## 涉及Node.js技术的模版安装方法
+Github社区里的Jekyll模版流行使用nodejs的npm的gulp来编译scss这些东西。
+所以如果你没注意到主题的说明文档里提到的`gulp`, `npm`之类，就会发现用`jekyll serve`无法进行网站生成，或者是生成后命令行里总报错：`Error: sw.js`。
+
+这种情况下，只需要：安装`Node.js` -> 使用`npm` -> 安装`gulp` -> 命令行使用`gulp`编译网站中的css文件。不过大多数情况下你的机器已经自带了nodejs和npm（Windows除外），所以：
+```sh
+$ cd <主题的目录>
+
+# 安装此项目的依赖环境
+$ npm install
+
+# 编译此项目中的相关文件
+$ gulp run
+```
+
+小1分钟后，就会看到gulp开启了一个端口，并自动打开了你的chrome浏览器，打开了这个项目的网页（你会看到无法显示出正常效果，因为这里gulp这是用来编译css的，它运行不了jekyll项目）。
+然后ctrl+c退出，再打开jekyll命令编译网站就行了-_-!
+
+> 吐槽一下：请回想，为了安装个jekyll和主题，此时你已经经历了一个真的不算短的学习历程了：
+GitHub Pages -> Jekyll框架 -> `.yml`文件语法和配置 -> Liquid动态语言 -> Ruby -> gem -> bundle -> HTML+CSS+JS -> nodejs -> npm -> gulp……
+这其中哪一步都值得说上一段时间。
+然后回想起当初，其实你只是想在GIthub Pages里建个静态网页而已。
+
+
 
 
 # Jekyll制作模版 (Liquid语法)
@@ -309,6 +337,69 @@ $ cd test
 
 # 生成项目结构
 $ python -m sphinx-quickstart
+```
 
+在执行`sphinx-quickstart`后，会进入十几二十个问题选择环节，可以一直按回车选择默认选项，但是前几项一定要认真自己选择，要不然很麻烦：
+```sh
+$ python -m sphinx.quickstart
 
+Welcome to the Sphinx 1.7.6 quickstart utility.
+
+Please enter values for the following settings (just press Enter to
+accept a default value, if one is given in brackets).
+
+Selected root path: .
+
+You have two options for placing the build directory for Sphinx output.
+Either, you use a directory "_build" within the root path, or you separate
+"source" and "build" directories within the root path.
+> Separate source and build directories (y/n) [n]: y
+
+Inside the root directory, two more directories will be created; "_templates"
+for custom HTML templates and "_static" for custom stylesheets and other static
+files. You can enter another prefix (such as ".") to replace the underscore.
+> Name prefix for templates and static dir [_]: .
+
+The project name will occur in several places in the built documentation.
+> Project name: testtest
+> Author name(s): Solomon
+> Project release []: 0.01
+
+If the documents are to be written in a language other than English,
+you can select a language here by its language code. Sphinx will then
+translate text that it generates into that language.
+
+For a list of supported codes, see
+http://sphinx-doc.org/config.html#confval-language.
+> Project language [en]: en
+
+The file name suffix for source files. Commonly, this is either ".txt"
+or ".rst".  Only files with this suffix are considered documents.
+> Source file suffix [.rst]: .rst
+
+One document is special in that it is considered the top node of the
+"contents tree", that is, it is the root of the hierarchical structure
+of the documents. Normally, this is "index", but if your "index"
+document is a custom template, you can also set this to another filename.
+> Name of your master document (without suffix) [index]: index
+
+Sphinx can also add configuration for epub output:
+> Do you want to use the epub builder (y/n) [n]: n
+Indicate which of the following Sphinx extensions should be enabled:
+> autodoc: automatically insert docstrings from modules (y/n) [n]: n
+> doctest: automatically test code snippets in doctest blocks (y/n) [n]:
+> intersphinx: link between Sphinx documentation of different projects (y/n) [n]:
+> todo: write "todo" entries that can be shown or hidden on build (y/n) [n]:
+> coverage: checks for documentation coverage (y/n) [n]:
+> imgmath: include math, rendered as PNG or SVG images (y/n) [n]:
+> mathjax: include math, rendered in the browser by MathJax (y/n) [n]:
+> ifconfig: conditional inclusion of content based on config values (y/n) [n]:
+> viewcode: include links to the source code of documented Python objects (y/n) [n]:
+> githubpages: create .nojekyll file to publish the document on GitHub pages (y/n) [n]:
+
+A Makefile and a Windows command file can be generated for you so that you
+only have to run e.g. `make html' instead of invoking sphinx-build
+directly.
+> Create Makefile? (y/n) [y]:
+> Create Windows command file? (y/n) [y]:
 ```
