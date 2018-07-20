@@ -453,10 +453,17 @@ directly.
 {% endfor %}
 ```
 
+## 循环读取全站的categories
+```php
+{% for cat in site.categories %}
+    <h2> {{ cat[0] }} </h2>
+{% endfor %}
+```
+
 ## 循环读取全站的tags
 ```php
 {% for tag in site.tags %}
-    <h1> {{ tag }} </h1>
+    <h1> {{ tag[0] }} </h1>
 {% endfor %}
 ```
 
