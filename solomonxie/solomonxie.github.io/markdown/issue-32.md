@@ -301,7 +301,9 @@ GitHub Pages -> Jekyll框架 -> `.yml`文件语法和配置 -> Liquid动态语�
 ## 运行Jekyll serve 总报错： ERROR `/sw.js' not found
 ![image](https://user-images.githubusercontent.com/14041622/42981085-0674e738-8c0d-11e8-9050-721e4c592571.png)
 
-[根据这个Stackoverflow的回答](https://stackoverflow.com/questions/51201045/jekyll-serve-error-sw-js-not-found)：问题似乎是和React框架有关，更重要的是可能和node module有关。
+[根据这个Stackoverflow的回答](https://stackoverflow.com/questions/51201045/jekyll-serve-error-sw-js-not-found)：
+`sw.js`是Service worker的意思，是自动生成的。
+基本上不会造成什么影响，但是主要出现这个错误，jekyll就没法同步更新。
 
 
 # Jekyll制作模版 (Liquid语法)
