@@ -469,9 +469,6 @@ directly.
 ---
 layout: post
 title: I'm a post
-date: 2018-01-01
-image: https://xyz.com/abc.png
-description: hello
 category: 'blog'
 tags:
 - jekyll
@@ -484,10 +481,8 @@ tags:
 ```php
 <h2> {{ post.title }} </h2>
 <h2> {{ post.category }} </h2>
-<h2> {{ post.date }} </h2>
-<h2> {{ post.image }} </h2>
-<h2> {{ post.description }} </h2>
-<h2> {{ post.category }} </h2>
+
+<h2> {{ post.content }} </h2>
 
 {% for tag in post.tags %}
     <h2> {{ tag }} </h2>
