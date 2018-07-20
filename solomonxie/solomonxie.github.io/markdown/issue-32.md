@@ -500,6 +500,14 @@ tags:
 
 ## 进阶操作
 
+### Category对象
+从`site.categories`列表中循环得到的是一个一个的`category`，其中包括这些属性：
+- `cat[0]`: 返回`cat`的名称
+- `cat[0].size`: 返回这个分类里的文章数量
+- `cat[1]`: 返回一个`post_list`列表，包含这个category里所有的post对象。
+- `cat[1].size`: 返回这个`post_list`列表中的对象数量。
+
+
 ### tag对象
 从`site.tags`列表中循环得到的是一个一个的`tag`，其中包括这些属性：
 - `tag[0]`: 返回`tag`的名称
