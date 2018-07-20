@@ -305,6 +305,8 @@ GitHub Pages -> Jekyll框架 -> `.yml`文件语法和配置 -> Liquid动态语�
 `sw.js`是Service worker的意思，是自动生成的。
 基本上不会造成什么影响，但是主要出现这个错误，jekyll就没法同步更新。
 
+根据我的实际体验，这不是主题的问题，而是jekyll的问题：对每个主题都报有这个错误。
+
 
 # Jekyll制作模版 (Liquid语法)
 
