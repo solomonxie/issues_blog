@@ -478,9 +478,9 @@ layout: post
 title: I'm a post
 category: 'blog'
 tags:
-- jekyll
-- wordpress
-- blog
+    - jekyll
+    - wordpress
+    - blog
 ---
 ```
 
