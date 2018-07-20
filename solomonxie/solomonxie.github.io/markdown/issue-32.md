@@ -220,6 +220,7 @@ Jekyll的最终目标和整个存在意义都是生成静态网站。
 ```$
 $ wget -r --convert-links <URL>
 ```
+所以当你运行`Jekyll serve`成功编译生成`_site`目录后，就可以用wget下载本地的这个网站了。
 
 
 # Jekyll 安装模版
