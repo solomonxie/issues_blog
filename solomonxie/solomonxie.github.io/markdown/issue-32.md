@@ -460,11 +460,11 @@ directly.
 {% endfor %}
 ```
 
-## 读取Post的各项内容
+## 读取Post
 需要在MD文档里指定`layout`才能调用。比如文档里指定了`layout: post`，那么系统就找到`_layouts/post.html`这个文件；如果文档指定了`layout: blog`，那么系统就会找到`_layout/blog.html`这个文件。
 在layout里面读取post数据很简单，不需要for循环，不需要if判断，直接用`post`这个对象就行。因为系统已经把文章的数据传过来了。
 
-加上在`_posts/2018-01-01-Im-a-post.md`文档的头信息中，我们定义了：
+假如我们在`_posts/xx.md`文章的头信息中，定义了这些数据：
 ```yml
 ---
 layout: post
