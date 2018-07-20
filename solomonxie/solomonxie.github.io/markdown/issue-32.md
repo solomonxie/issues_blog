@@ -440,3 +440,14 @@ directly.
 > Create Makefile? (y/n) [y]:
 > Create Windows command file? (y/n) [y]:
 ```
+
+
+
+# Jekyll 制作模版
+
+## 循环读取tags
+```html
+{% for tag in post.tags %}
+    <h1>{{ tag }}</h1>
+{% endfor %}
+```
