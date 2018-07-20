@@ -273,7 +273,7 @@ $ bundle exec jekyll serve
 
 ## 涉及Node.js技术的模版安装方法
 Github社区里的Jekyll模版流行使用nodejs的npm的gulp来编译scss这些东西。
-所以如果你没注意到主题的说明文档里提到的`gulp`, `npm`之类，就会发现用`jekyll serve`无法进行网站生成，或者是生成后命令行里总报错：`Error: sw.js`。
+所以如果你没注意到主题的说明文档里提到的`gulp`, `npm`之类，就会发现用`jekyll serve`无法进行网站生成，或者是生成后命令行里总报错：`ERROR `/sw.js' not found.`。
 
 这种情况下，只需要：安装`Node.js` -> 使用`npm` -> 安装`gulp` -> 命令行使用`gulp`编译网站中的css文件。不过大多数情况下你的机器已经自带了nodejs和npm（Windows除外），所以：
 ```sh
