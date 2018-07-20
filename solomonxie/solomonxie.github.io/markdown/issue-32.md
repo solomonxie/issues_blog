@@ -461,6 +461,35 @@ directly.
 ```
 
 ## 读取Post的各项内容
-```php
+需要在MD文档里指定`layout`才能调用。比如文档里指定了`layout: post`，那么系统就找到`_layouts/post.html`这个文件；如果文档指定了`layout: blog`，那么系统就会找到`_layout/blog.html`这个文件。
+在layout里面读取post数据很简单，不需要for循环，不需要if判断，直接用`post`这个对象就行。因为系统已经把文章的数据传过来了。
 
+加上在`_posts/2018-01-01-Im-a-post.md`文档的头信息中，我们定义了：
+```yml
+---
+layout: post
+title: I'm a post
+date: 2018-01-01
+image: https://xyz.com/abc.png
+description: hello
+category: 'blog'
+tags:
+- jekyll
+- wordpress
+- blog
+---
+```
+
+以下就是这个`post.html`文件读取post数据的方式：
+```php
+<h2> {{ post.title }} </h2>
+<h2> {{ post.category }} </h2>
+<h2> {{ post.date }} </h2>
+<h2> {{ post.image }} </h2>
+<h2> {{ post.description }} </h2>
+<h2> {{ post.category }} </h2>
+
+{% for tag in post.tags %}
+    <h2> {{ tag }} </h2>
+{% endfor %}
 ```
