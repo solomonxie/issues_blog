@@ -445,7 +445,7 @@ directly.
 
 # Jekyll 制作模版
 
-## 循环读取Posts
+## 循环读取全站的Posts
 ```php
 {% for post in site.posts %}
     <h2> {{ post.category }} </h2>
@@ -453,9 +453,9 @@ directly.
 {% endfor %}
 ```
 
-## 循环读取tags
+## 循环读取全站的tags
 ```php
-{% for tag in post.tags %}
+{% for tag in site.tags %}
     <h1> {{ tag }} </h1>
 {% endfor %}
 ```
