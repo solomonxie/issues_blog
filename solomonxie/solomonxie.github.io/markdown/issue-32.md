@@ -445,7 +445,8 @@ directly.
 
 # Jekyll 制作模版
 
-## 循环读取全站的Posts
+## 常用操作
+### 循环读取全站的Posts
 ```php
 {% for post in site.posts %}
     <h2> {{ post.category }} </h2>
@@ -453,21 +454,21 @@ directly.
 {% endfor %}
 ```
 
-## 循环读取全站的categories
+### 循环读取全站的categories
 ```php
 {% for cat in site.categories %}
     <h2> {{ cat[0] }} </h2>
 {% endfor %}
 ```
 
-## 循环读取全站的tags
+### 循环读取全站的tags
 ```php
 {% for tag in site.tags %}
     <h1> {{ tag[0] }} </h1>
 {% endfor %}
 ```
 
-## 读取Post
+### 读取Post
 需要在MD文档里指定`layout`才能调用。比如文档里指定了`layout: post`，那么系统就找到`_layouts/post.html`这个文件；如果文档指定了`layout: blog`，那么系统就会找到`_layout/blog.html`这个文件。
 在layout里面读取post数据很简单，不需要for循环，不需要if判断，直接用`post`这个对象就行。因为系统已经把文章的数据传过来了。
 
@@ -495,3 +496,13 @@ tags:
     <h2> {{ tag }} </h2>
 {% endfor %}
 ```
+
+
+## 进阶操作
+
+### tag对象
+从`site.tags`列表中循环得到的是一个一个的`tag`，其中包括这些属性：
+- `tag[0]`: 返回`tag`的名称
+- `tag[0].size`: 返回这个tags里的文章数量
+- `tag[1]`: 返回一个`post_list`列表，包含这个tags里所有的post对象。
+- `tag[1].size`: 返回这个`post_list`列表中的对象数量。
