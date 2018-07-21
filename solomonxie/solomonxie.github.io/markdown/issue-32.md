@@ -445,12 +445,15 @@ directly.
 
 # Jekyll 制作模版
 
+
 ## 常用操作
 ### 循环读取全站的Posts
 ```php
 {% for post in site.posts %}
-    <h2> {{ post.category }} </h2>
     <h2> {{ post.title }} </h2>
+    <h2> {{ post.url }} </h2>
+    <h2> {{ post.category }} </h2> 
+    <h2> {{ post.excerpt }} </h2>  ◀︎ 文章摘要，自动生成的
 {% endfor %}
 ```
 
@@ -498,9 +501,37 @@ tags:
 ```
 
 
-## 进阶操作
+## 常用变量及属性
 
-### Category对象
+[参考：Jekyll 语法简单笔记](http://github.tiankonguse.com/blog/2014/11/10/jekyll-study.html)
+
+### site对象
+site对象是全站都能调用的变量，全部都在`_config.yml`文件中定义。
+常用变量如下：
+- `site.pages`: 所有`_
+- `site.posts`: 所有文章
+- `site.categories`: 所有的 categories
+- `site.tags`: 所有的 tags
+- `site.related_posts`: 从`LSI Keywords`提取出来最相关最新的10篇文章
+- `site.collections`: 所有集合（`_post`目录同级别的所有文章目录）
+- `site.documents`: 所有 collections 里面的文档
+- `site.data`: `_data` 目录下的数据
+- `site.[abc]`: 自定义的变量（手动在`_config.yml`中指定）
+
+### page对象
+- `page.content`: 页面的内容
+- `page.title`: 标题 （手动在Front Matters中指定）
+- `page.excerpt`: 摘要
+- `page.url`: 链接
+- `page.date`: 时间
+- `page.id`: 唯一标示
+- `page.categories`: 分类（手动在Front Matters中指定）
+- `page.tags`: 标签（手动在Front Matters中指定）
+- `page.path`: 源代码位置
+- `page.next`: 下一篇文章
+- `page.previous`: 上一篇文章
+
+### categories对象
 从`site.categories`列表中循环得到的是一个一个的`category`，其中包括这些属性：
 - `cat[0]`: 返回`cat`的名称
 - `cat[0].size`: 返回这个分类里的文章数量
@@ -514,3 +545,15 @@ tags:
 - `tag[0].size`: 返回这个tags里的文章数量
 - `tag[1]`: 返回一个`post_list`列表，包含这个tags里所有的post对象。
 - `tag[1].size`: 返回这个`post_list`列表中的对象数量。
+
+
+### paginator对象
+- `paginator.per_page`: 每一页的数量
+- `paginator.posts`: 这一页的数量
+- `paginator.total_posts`: 所有文章的数量
+- `paginator.total_pages`: 总的页数
+- `paginator.page`: 当前页数
+- `paginator.previous_page`: 上一页的页数
+- `paginator.previous_page_path`: 上一页的路径
+- `paginator.next_page`: 下一页的页数
+- `paginator.next_page_path`: 下一页的路径
