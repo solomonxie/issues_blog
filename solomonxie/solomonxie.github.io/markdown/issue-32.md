@@ -463,7 +463,7 @@ directly.
 例如`_posts/tech`文件夹中放的是一些category为`tech`的文章，那么读取方式是：
 ```php
 {% for post in site.categories.tech %}
-    <h2> {{ post.output }} </h2>
+    <h2> {{ post.title }} </h2>
 {% endfor %}
 ```
 
