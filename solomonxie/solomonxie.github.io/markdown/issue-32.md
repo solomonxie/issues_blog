@@ -626,3 +626,5 @@ tags:
 相对自己写`for/if`实现来说，虽然官方提供了这个功能，但是你仔细阅读文档就会发现，这个group_by必须配合单独的**静态的**额外的文档才能实现。
 也就是说，你必须手动写个`mygroup.doc`文件，一个一个指定每篇文章的分组、分类、顺序等。
 那实在太麻烦了。
+
+[参考官方：Navigation](https://jekyllrb.com/tutorials/navigation/#scenario-8-retrieving-items-based-on-front-matter-properties)
