@@ -477,6 +477,15 @@ directly.
 {% endfor %}
 ```
 
+读取所有分类下的所有文章：
+```php
+{% for cat in site.categories %}
+    {% for post in cat[1] %}
+        <h2> {{ post.title }} </h2>
+    {% endfor %}
+{% endfor %}
+```
+
 读取某个分类下所有的文章：
 ```php
 {% for post in site.categories.blog %}
@@ -485,14 +494,23 @@ directly.
 ```
 
 ### 循环读取tags
-读取全站所有的标签：
+读取全站所有的tags：
 ```php
 {% for tag in site.tags %}
     <h1> {{ tag[0] }} </h1>
 {% endfor %}
 ```
 
-读取某个标签下所有的文章：
+读取所有tags下的所有文章：
+```php
+{% for tag in site.tags %}
+    {% for post in cat[1] %}
+        <h2> {{ post.title }} </h2>
+    {% endfor %}
+{% endfor %}
+```
+
+读取某个tag下所有的文章：
 ```php
 {% for post in site.tags.math %}
     <h2> {{ post.title }} </h2>
