@@ -447,8 +447,9 @@ directly.
 # Jekyll 制作模版
 
 
-## 常用操作
-### 循环读取全站的Posts
+## 循环读取
+### 循环读取Posts
+读取全站所有的posts：
 ```php
 {% for post in site.posts %}
     <h2> {{ post.title }} </h2>
@@ -458,9 +459,17 @@ directly.
 {% endfor %}
 ```
 
-### 循环读取全站的categories
+只读取`_posts/`文件夹中某个category中的posts，
+例如`_posts/tech`文件夹中放的是一些category为`tech`的文章，那么读取方式是：
+```php
+{% for post in site.categories.tech %}
+    <h2> {{ post.output }} </h2>
+{% endfor %}
+```
 
-读取所有的分类：
+### 循环读取categories
+
+读取全站所有的分类：
 ```php
 {% for cat in site.categories %}
     <h2> {{ cat[0] }} </h2>
@@ -474,8 +483,8 @@ directly.
 {% endfor %}
 ```
 
-### 循环读取全站的tags
-读取所有的标签：
+### 循环读取tags
+读取全站所有的标签：
 ```php
 {% for tag in site.tags %}
     <h1> {{ tag[0] }} </h1>
