@@ -531,7 +531,7 @@ site对象是全站都能调用的变量，全部都在`_config.yml`文件中定
 - `site.categories`: 所有的 categories
 - `site.tags`: 所有的 tags
 - `site.related_posts`: 从`LSI Keywords`提取出来最相关最新的10篇文章
-- `site.collections`: 所有集合（`_post`目录同级别的所有文章目录）
+- `site.collections`: 所有集合（与posts逻辑很大不同，一般用来放members等特殊数据）
 - `site.documents`: 所有 collections 里面的文档
 - `site.data`: `_data` 目录下的数据
 - `site.[abc]`: 自定义的变量（手动在`_config.yml`中指定）
