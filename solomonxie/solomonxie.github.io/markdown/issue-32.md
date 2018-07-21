@@ -459,16 +459,33 @@ directly.
 ```
 
 ### 循环读取全站的categories
+
+读取所有的分类：
 ```php
 {% for cat in site.categories %}
     <h2> {{ cat[0] }} </h2>
 {% endfor %}
 ```
 
+读取某个分类下所有的文章：
+```php
+{% for post in site.categories.blog %}
+    <h2> {{ post.title }} </h2>
+{% endfor %}
+```
+
 ### 循环读取全站的tags
+读取所有的标签：
 ```php
 {% for tag in site.tags %}
     <h1> {{ tag[0] }} </h1>
+{% endfor %}
+```
+
+读取某个标签下所有的文章：
+```php
+{% for post in site.tags.math %}
+    <h2> {{ post.title }} </h2>
 {% endfor %}
 ```
 
