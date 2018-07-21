@@ -524,7 +524,12 @@ directly.
 {% endfor %}
 
 {% for tag in tags %}
-    <h2> {{ tag }} </h2>
+    <h2> {{ tag }} </h2>   ◀︎ 循环输出这个category中的所有tags
+    {% for post in site.categories.calculus %}
+        {% if post.tags contains tag %}      ◀︎ 循环判断如果文章属于此tag则显示出来
+            <h4> {{ post.title }} </h4>
+        {% endif %}
+    {% endfor %}
 {% endfor %}
 ```
 
