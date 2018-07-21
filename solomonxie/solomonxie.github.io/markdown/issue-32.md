@@ -466,6 +466,7 @@ directly.
     <h2> {{ post.title }} </h2>
 {% endfor %}
 ```
+注意，在`_posts`中nested文件夹里的文章，也必须在Front matter中指定分类，要不然读不出来。
 
 ### 循环读取categories
 
