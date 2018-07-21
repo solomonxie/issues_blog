@@ -447,7 +447,7 @@ directly.
 # Jekyll 制作模版
 
 
-## 循环读取
+## 列表读取（各种归档页面用）
 ### 循环读取Posts
 读取全站所有的posts：
 ```php
@@ -517,7 +517,19 @@ directly.
 {% endfor %}
 ```
 
-### 读取Post
+### 读取某category下所有文章并按tag分组读取
+```php
+{% for post in site.categories.Tech %}   ◀︎ 先读取某分类下所有的文章
+     {% assign tags = tags |concat: post.tags |uniq %}   ◀︎ 把每篇文章的tags存到列表里，并删除重复项
+{% endfor %}
+
+{% for tag in tags %}
+    <h2> {{ tag }} </h2>
+{% endfor %}
+```
+
+
+## Post读取
 需要在MD文档里指定`layout`才能调用。比如文档里指定了`layout: post`，那么系统就找到`_layouts/post.html`这个文件；如果文档指定了`layout: blog`，那么系统就会找到`_layout/blog.html`这个文件。
 在layout里面读取post数据很简单，不需要for循环，不需要if判断，直接用`post`这个对象就行。因为系统已经把文章的数据传过来了。
 
