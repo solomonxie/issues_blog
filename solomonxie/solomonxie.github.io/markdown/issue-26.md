@@ -764,6 +764,21 @@ server {
     client_max_body_size    0;
     create_full_put_path    on;
 
-    root /mnt/hydroplans;
+    root /home/pi/webdav-share;
 }
+```
+
+然后创建用户和密码：
+```sh
+echo -n 'pi:' | sudo tee /etc/nginx/.passwords.list
+openssl passwd -apr1 | sudo tee -a /etc/nginx/.passwords.list
+```
+
+测试和启动nginx：
+```sh
+# 测试配置是否通过
+$ sudo nginx -t
+
+# 启动Nginx
+$ sudo nginx
 ```
