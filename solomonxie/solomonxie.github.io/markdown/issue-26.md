@@ -615,6 +615,7 @@ sudo systemctl restart apache2
     - 输入`net stop webclient`并按回车，停止网络客户端
     - 输入`net start webclient`并按回车，开启网络客户端
     - 然后在文件夹菜单中找到`映射网络驱动器`，输入网址`http://树莓派IP地址/webdav`或`\\树莓派IP地址\webdav`，然后输入用户名密码，就能映射成功了。
+- 浏览器上：随便什么设备，只要是个浏览器就能支持。可以在线播放常用视频，直接打开图片浏览。但是不能上传。
 
 ![image](https://user-images.githubusercontent.com/14041622/42875560-a448b3ca-8ab6-11e8-925d-c364431e261a.png)
 
