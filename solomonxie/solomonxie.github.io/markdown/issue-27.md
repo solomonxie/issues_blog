@@ -2070,9 +2070,21 @@ $ base64 -D string.txt -o test222.jpg
 ```
 
 
-# ZSH安装超帅的Powerlevel9k主题
+# ZSH安装各式主题
 
-[参考Github官网：bhilburn/powerlevel9k](https://github.com/bhilburn/powerlevel9k)
+## 经典的Agnoster
+
+[参考Github：agnoster/agnoster-zsh-theme](https://github.com/agnoster/agnoster-zsh-theme)
+
+![image](https://user-images.githubusercontent.com/14041622/43047721-22fd8056-8e0e-11e8-98a8-576f736674e6.png)
+
+要正常显示出`Agnoster`主题效果，需满足以下几点：
+- 终端客户端开启Solarized配色方案
+- 支持Unicode-compatible 的字体和终端 (比如Mac上的iTerm2终端客户端 + Menlo字体)
+
+## 超帅的Powerlevel9k主题
+
+[参考Github：bhilburn/powerlevel9k](https://github.com/bhilburn/powerlevel9k)
 
 ![687474703a2f2f67696679752e636f6d2f696d616765732f70396b6e65772e676966](https://user-images.githubusercontent.com/14041622/43047671-6a65489e-8e0d-11e8-8982-86706ae777e5.gif)
 
