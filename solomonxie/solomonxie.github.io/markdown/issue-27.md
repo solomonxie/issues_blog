@@ -2114,7 +2114,7 @@ $ wget https://raw.githubusercontent.com/agnoster/agnoster-zsh-theme/master/agno
 # 在`~/.zshrc`中开启主题：
 ZSH_THEME="agnoster" 
 
-# 安装主题所需的字体
+# 安装主题所需的字体(需要Powerline-patched font ）
 ```
 
 
