@@ -2110,5 +2110,6 @@ $ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/the
 # 在`~/.zshrc`中开启主题
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-# 安装主题所需的字体
+# 安装主题所需的字体（需要在电脑上安装Powerline字体）
+
 ```
