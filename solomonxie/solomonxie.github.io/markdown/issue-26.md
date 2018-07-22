@@ -607,7 +607,7 @@ sudo systemctl restart apache2
 网页里只能像FTP一样显示文件目录和下载文件。
 如果要正常使用，我们需要把它映射为本地目录才行：
 - Mac上：在Finder中用`CMD+K`打开连接服务器选项，输入`http://树莓派IP地址/webdav`，输入Webdav创建过的用户名密码来完成映射。
-- iPhone上：下载`FileExplorer`，添加WebDav服务，输入信息后就可以访问。直接看文档、看视频、听歌都行。
+- iPhone上：安装网盘访问最强的`Readdle Documents`，添加WebDav服务，输入信息后就可以访问。直接看文档、看视频、听歌都行。
 - Windows上：比较麻烦的是，Win7以上默认只支持HTTPS的网络驱动器，做为HTTP的WebDav是不能连的。所以要修改Windows注册表，让它支持HTTP。方法入下：
     - 开始菜单 -> 运行 -> 输入regedit 并按回车，就打开了注册表 
     - 注册表中找到`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters\BasicAuthLevel`这个项目，把值改为`2`。
