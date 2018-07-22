@@ -2068,3 +2068,20 @@ $ base64 test111.jpg > string.txt
 # 把含有base64字符串的文本转换回图片文件
 $ base64 -D string.txt -o test222.jpg
 ```
+
+
+# ZSH安装超帅的Powerlevel9k主题
+
+[参考Github官网：bhilburn/powerlevel9k](https://github.com/bhilburn/powerlevel9k)
+
+![687474703a2f2f67696679752e636f6d2f696d616765732f70396b6e65772e676966](https://user-images.githubusercontent.com/14041622/43047671-6a65489e-8e0d-11e8-8982-86706ae777e5.gif)
+
+
+最方便的安装方法是用`oh-my-zsh`安装，方法如下：
+```sh
+# 下载主题包到oh-my-zsh目录下
+$ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+
+# 在`~/.zshrc`中开启主题
+ZSH_THEME="powerlevel9k/powerlevel9k"
+```
