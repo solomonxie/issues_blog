@@ -2089,6 +2089,8 @@ $ wget https://raw.githubusercontent.com/agnoster/agnoster-zsh-theme/master/agno
 
 # 在`~/.zshrc`中开启主题：
 ZSH_THEME="agnoster" 
+
+# 安装主题所需的字体
 ```
 
 
@@ -2107,4 +2109,6 @@ $ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/the
 
 # 在`~/.zshrc`中开启主题
 ZSH_THEME="powerlevel9k/powerlevel9k"
+
+# 安装主题所需的字体
 ```
