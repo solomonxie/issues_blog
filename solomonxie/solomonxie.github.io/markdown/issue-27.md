@@ -2070,9 +2070,30 @@ $ base64 -D string.txt -o test222.jpg
 ```
 
 
-# ZSH安装各式主题
+# ZSH终极美化
 
-## 经典的Agnoster
+## 终端专用字体
+终端美化不管是什么方案，都少不了的就是炫丽的字体安装。
+这个就是OS系统级别的东西了，所以我们要对在电脑系统里面安装。
+可以手动下载主题包，然后双击打开装到自己的电脑里（Mac、Windows、Linux）。
+如果是Mac和Linux，也可以在命令行里完成。
+程序员几乎需要的所有字体都在这个repo里了：
+[❖ 参考Github：powerline/fonts](https://github.com/powerline/fonts)
+
+安装方法：
+```sh
+# 下载
+cd ~
+git clone https://github.com/powerline/fonts.git --depth=1
+# 到该目录下执行安装。Mac、Linux都可以
+cd fonts
+./install.sh
+# 删除刚刚下载的
+cd ..
+rm -rf fonts
+```
+
+## 经典的Agnoster主题
 
 [参考Github：agnoster/agnoster-zsh-theme](https://github.com/agnoster/agnoster-zsh-theme)
 
