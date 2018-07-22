@@ -2092,6 +2092,9 @@ cd fonts
 cd ..
 rm -rf fonts
 ```
+安装完成后显示：
+![image](https://user-images.githubusercontent.com/14041622/43047942-0c12affc-8e12-11e8-9a8f-8139fed4c4f3.png)
+
 
 ## 经典的Agnoster主题
 
