@@ -2082,6 +2082,17 @@ $ base64 -D string.txt -o test222.jpg
 - 终端客户端开启Solarized配色方案
 - 支持Unicode-compatible 的字体和终端 (比如Mac上的iTerm2终端客户端 + Menlo字体)
 
+安装方法：
+```sh
+# 下载主题文件到`oh-my-zsh`的主题目录
+$ wget https://raw.githubusercontent.com/agnoster/agnoster-zsh-theme/master/agnoster.zsh-theme -P ~/.oh-my-zsh/themes/
+
+# 在`~/.zshrc`中开启主题：
+ZSH_THEME="agnoster" 
+```
+
+
+
 ## 超帅的Powerlevel9k主题
 
 [参考Github：bhilburn/powerlevel9k](https://github.com/bhilburn/powerlevel9k)
