@@ -1,4 +1,17 @@
 # Calculus Basics 微积分基础
+<!--JEKYLL-FRONT-MATTER
+---
+layout: post
+title: 
+image: 
+description: 
+categories:
+    - Calculus
+    - Math
+    - Khan Academy
+---
+-->
+
 > Notes on basic Calculus concepts.
 
 ## Study resources
