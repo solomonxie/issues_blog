@@ -25,6 +25,7 @@ categories:
 - [x] [Geoff(x): Teach math using Desmos](https://www.geoffofx.com/)
 - [ ] [MIT OCW 18.01SC: Single Variable Calculus](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/index.htm)
 - [ ] [MIT OCW 18.02SC: Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
+- [ ] [Coursera: Mathematics for Machine Learning: Multivariate Calculus](https://www.coursera.org/learn/multivariate-calculus-machine-learning/home/welcome)
 
 
 ## Study Tools
