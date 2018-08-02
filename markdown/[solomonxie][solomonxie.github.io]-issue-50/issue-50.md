@@ -1,5 +1,5 @@
 # Statistical Guessing 统计式猜测
-Khan academy AP Statistics
+Khan academy AP Statistics:
 - [x] [Analyzing categorical data](https://www.khanacademy.org/math/ap-statistics/analyzing-categorical-ap/modal/test/analyzing-categorical-ap-unit-test)
 - [ ] [Displaying and describing quantitative data](https://www.khanacademy.org/math/ap-statistics/quantitative-data-ap/modal/test/quantitative-data-ap-unit-test)
 - [ ] [Summarizing quantitative data](https://www.khanacademy.org/math/ap-statistics/summarizing-quantitative-data-ap/modal/test/summarizing-quantitative-data-ap-unit-test)
@@ -13,4 +13,12 @@ Khan academy AP Statistics
 - [ ] [Significance tests (hypothesis testing)](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap/modal/test/one-sample-t-test-mean-unit-test)
 - [ ] [Inference comparing two groups or populations](https://www.khanacademy.org/math/ap-statistics/two-sample-inference/modal/test/two-sample-t-test-means-unit-test)
 - [ ] [Chi-square tests for categorical data](https://www.khanacademy.org/math/ap-statistics/chi-square-tests/modal/test/chi-square-tests-two-way-tables-unit-test)
-- [ ] [Regression](https://www.khanacademy.org/math/ap-statistics/inference-slope-linear-regression/modal/test/inference-slope-unit-test) 
+- [ ] [Regression](https://www.khanacademy.org/math/ap-statistics/inference-slope-linear-regression/modal/test/inference-slope-unit-test)
+
+
+Machine Learning related topics:
+- [ ] Probability
+- [ ] Random Variables
+- [ ] Logistic Regression (with Logistic model)
+- [ ] Linear Regression (with Gradient Descent)
+- [ ] Hypothesis Testings 
