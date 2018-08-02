@@ -1,6 +1,6 @@
 # Statistical Guessing 统计式猜测
 Khan academy AP Statistics
-- [ ] [Analyzing categorical data](https://www.khanacademy.org/math/ap-statistics/analyzing-categorical-ap/modal/test/analyzing-categorical-ap-unit-test)
+- [x] [Analyzing categorical data](https://www.khanacademy.org/math/ap-statistics/analyzing-categorical-ap/modal/test/analyzing-categorical-ap-unit-test)
 - [ ] [Displaying and describing quantitative data](https://www.khanacademy.org/math/ap-statistics/quantitative-data-ap/modal/test/quantitative-data-ap-unit-test)
 - [ ] [Summarizing quantitative data](https://www.khanacademy.org/math/ap-statistics/summarizing-quantitative-data-ap/modal/test/summarizing-quantitative-data-ap-unit-test)
 - [ ] [Modeling data distributions](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/modal/test/density-curves-normal-distribution-ap-unit-test)
