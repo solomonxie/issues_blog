@@ -1,4 +1,4 @@
-# Statistical Guessing 统计式猜测
+# Statistical Guessing 统计式瞎猜
 ## Khan academy AP Statistics
 - [x] [Analyzing categorical data](https://www.khanacademy.org/math/ap-statistics/analyzing-categorical-ap/modal/test/analyzing-categorical-ap-unit-test)
 - [ ] [Displaying and describing quantitative data](https://www.khanacademy.org/math/ap-statistics/quantitative-data-ap/modal/test/quantitative-data-ap-unit-test)
