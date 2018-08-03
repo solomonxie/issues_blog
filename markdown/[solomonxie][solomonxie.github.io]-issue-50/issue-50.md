@@ -1,5 +1,5 @@
 # Statistical Guessing 统计式猜测
-Khan academy AP Statistics:
+## Khan academy AP Statistics
 - [x] [Analyzing categorical data](https://www.khanacademy.org/math/ap-statistics/analyzing-categorical-ap/modal/test/analyzing-categorical-ap-unit-test)
 - [ ] [Displaying and describing quantitative data](https://www.khanacademy.org/math/ap-statistics/quantitative-data-ap/modal/test/quantitative-data-ap-unit-test)
 - [ ] [Summarizing quantitative data](https://www.khanacademy.org/math/ap-statistics/summarizing-quantitative-data-ap/modal/test/summarizing-quantitative-data-ap-unit-test)
@@ -16,7 +16,7 @@ Khan academy AP Statistics:
 - [ ] [Regression](https://www.khanacademy.org/math/ap-statistics/inference-slope-linear-regression/modal/test/inference-slope-unit-test)
 
 
-Machine Learning related topics:
+## Machine Learning related topics
 - [ ] Probability
 - [ ] Random Variables
 - [ ] Logistic Regression (with Logistic model)
