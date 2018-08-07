@@ -1,8 +1,13 @@
 # Statistical Guessing 统计式瞎猜
+## Study Resources
+- [ ] [Khan academy Statistics & Probability](https://www.khanacademy.org/math/statistics-probability)
+- [ ] [Khan academy AP-Statistics](https://www.khanacademy.org/math/ap-statistics)
+- [ ] [Crash Course Statistics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
+
 ## Khan academy AP Statistics
 - [x] [Analyzing categorical data](https://www.khanacademy.org/math/ap-statistics/analyzing-categorical-ap/modal/test/analyzing-categorical-ap-unit-test)
-- [ ] [Displaying and describing quantitative data](https://www.khanacademy.org/math/ap-statistics/quantitative-data-ap/modal/test/quantitative-data-ap-unit-test)
-- [ ] [Summarizing quantitative data](https://www.khanacademy.org/math/ap-statistics/summarizing-quantitative-data-ap/modal/test/summarizing-quantitative-data-ap-unit-test)
+- [x] [Displaying and describing quantitative data](https://www.khanacademy.org/math/ap-statistics/quantitative-data-ap/modal/test/quantitative-data-ap-unit-test)
+- [x] [Summarizing quantitative data](https://www.khanacademy.org/math/ap-statistics/summarizing-quantitative-data-ap/modal/test/summarizing-quantitative-data-ap-unit-test)
 - [ ] [Modeling data distributions](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/modal/test/density-curves-normal-distribution-ap-unit-test)
 - [ ] [Exploring bivariate numerical data](https://www.khanacademy.org/math/ap-statistics/bivariate-data-ap/modal/test/bivariate-data-ap-unit-test)
 - [ ] [Study design](https://www.khanacademy.org/math/ap-statistics/gathering-data-ap/modal/test/gathering-data-ap-unit-test)
