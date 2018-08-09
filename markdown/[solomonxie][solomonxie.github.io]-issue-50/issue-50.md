@@ -11,7 +11,7 @@
 - [x] [Displaying and describing quantitative data](https://www.khanacademy.org/math/ap-statistics/quantitative-data-ap/modal/test/quantitative-data-ap-unit-test)
 - [x] [Summarizing quantitative data](https://www.khanacademy.org/math/ap-statistics/summarizing-quantitative-data-ap/modal/test/summarizing-quantitative-data-ap-unit-test)
 - [x] [Modeling data distributions](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/modal/test/density-curves-normal-distribution-ap-unit-test)
-- [ ] [Bivariate numerical data](https://www.khanacademy.org/math/ap-statistics/bivariate-data-ap/modal/test/bivariate-data-ap-unit-test)
+- [x] [Bivariate numerical data](https://www.khanacademy.org/math/ap-statistics/bivariate-data-ap/modal/test/bivariate-data-ap-unit-test)
 - [ ] [Study design](https://www.khanacademy.org/math/ap-statistics/gathering-data-ap/modal/test/gathering-data-ap-unit-test)
 - [ ] [Probability](https://www.khanacademy.org/math/ap-statistics/probability-ap/modal/test/probability-ap-unit-test)
 - [ ] [Random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap/modal/test/geometric-random-variable-unit-test)
