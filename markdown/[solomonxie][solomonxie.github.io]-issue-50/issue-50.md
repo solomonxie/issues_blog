@@ -13,7 +13,7 @@
 - [x] [Modeling Data Distributions](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/modal/test/density-curves-normal-distribution-ap-unit-test)
 - [x] [Bivariate Numerical data](https://www.khanacademy.org/math/ap-statistics/bivariate-data-ap/modal/test/bivariate-data-ap-unit-test)
 - [x] [Study design](https://www.khanacademy.org/math/ap-statistics/gathering-data-ap/modal/test/gathering-data-ap-unit-test)
-- [ ] [Probability](https://www.khanacademy.org/math/ap-statistics/probability-ap/modal/test/probability-ap-unit-test)
+- [x] [Probability](https://www.khanacademy.org/math/ap-statistics/probability-ap/modal/test/probability-ap-unit-test)
 - [ ] [Random Variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap/modal/test/geometric-random-variable-unit-test)
 - [ ] [Sampling Distributions](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/modal/test/sampling-distribution-mean-unit-test)
 - [ ] [Confidence Intervals](https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap/modal/test/one-sample-t-interval-mean-unit-test)
