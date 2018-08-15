@@ -24,7 +24,7 @@
 
 
 ## Machine Learning related topics
-- [ ] Probability
+- [ ] Bayesian Statistics
 - [ ] Random Variables
 - [ ] Logistic Regression (with Logistic model)
 - [ ] Linear Regression (with Gradient Descent)
