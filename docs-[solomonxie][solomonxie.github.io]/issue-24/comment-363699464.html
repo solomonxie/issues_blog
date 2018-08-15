@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+==============================================================================
+           "GitHub HTML5 Pandoc Template" v2.1 — by Tristano Ajmone           
+==============================================================================
+Copyright © Tristano Ajmone, 2017, MIT License (MIT). Project's home:
+
+- https://github.com/tajmone/pandoc-goodies
+
+The CSS in this template reuses source code taken from the following projects:
+
+- GitHub Markdown CSS: Copyright © Sindre Sorhus, MIT License (MIT):
+  https://github.com/sindresorhus/github-markdown-css
+
+- Primer CSS: Copyright © 2016-2017 GitHub Inc., MIT License (MIT):
+  http://primercss.io/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The MIT License 
+
+Copyright (c) Tristano Ajmone, 2017 (github.com/tajmone/pandoc-goodies)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright (c) 2017 GitHub Inc.
+
+"GitHub Pandoc HTML5 Template" is Copyright (c) Tristano Ajmone, 2017, released
+under the MIT License (MIT); it contains readaptations of substantial portions
+of the following third party softwares:
+
+(1) "GitHub Markdown CSS", Copyright (c) Sindre Sorhus, MIT License (MIT).
+(2) "Primer CSS", Copyright (c) 2016 GitHub Inc., MIT License (MIT).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+==============================================================================-->
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>comment-363699464</title>
+  <style type="text/css">
+.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#24292e;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:16px;line-height:1.5;word-wrap:break-word;box-sizing:border-box;min-width:200px;max-width:980px;margin:0 auto;padding:45px}.markdown-body a{color:#0366d6;background-color:transparent;text-decoration:none;-webkit-text-decoration-skip:objects}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body a:hover{text-decoration:underline}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body strong{font-weight:600}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1{font-size:2em;margin:.67em 0;padding-bottom:.3em;border-bottom:1px solid #eaecef}.markdown-body h2{padding-bottom:.3em;font-size:1.5em;border-bottom:1px solid #eaecef}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#6a737d}.markdown-body img{border-style:none}.markdown-body svg:not(:root){overflow:hidden}.markdown-body hr{box-sizing:content-box;height:.25em;margin:24px 0;padding:0;overflow:hidden;background-color:#e1e4e8;border:0}.markdown-body hr::before{display:table;content:""}.markdown-body hr::after{display:table;clear:both;content:""}.markdown-body input{margin:0;overflow:visible;font:inherit;font-family:inherit;font-size:inherit;line-height:inherit}.markdown-body [type=checkbox]{box-sizing:border-box;padding:0}.markdown-body *{box-sizing:border-box}.markdown-body blockquote{margin:0}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dd{margin-left:0}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace}.markdown-body pre{font:12px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;word-wrap:normal}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body blockquote{padding:0 1em;color:#6a737d;border-left:.25em solid #dfe2e5}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body table{display:block;width:100%;overflow:auto;border-spacing:0;border-collapse:collapse}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #dfe2e5}.markdown-body table tr{background-color:#fff;border-top:1px solid #c6cbd1}.markdown-body table tr:nth-child(2n){background-color:#f6f8fa}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body code{padding:.2em 0;margin:0;font-size:85%;background-color:rgba(27,31,35,.05);border-radius:3px}.markdown-body code::after,.markdown-body code::before{letter-spacing:-.2em;content:"\00a0"}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f6f8fa;border-radius:3px}.markdown-body pre code{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code::after,.markdown-body pre code::before{content:normal}.markdown-body .full-commit .btn-outline:not(:disabled):hover{color:#005cc5;border-color:#005cc5}.markdown-body kbd{box-shadow:inset 0 -1px 0 #959da5;display:inline-block;padding:3px 5px;font:11px/10px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;color:#444d56;vertical-align:middle;background-color:#fcfcfc;border:1px solid #c6cbd1;border-bottom-color:#959da5;border-radius:3px;box-shadow:inset 0 -1px 0 #959da5}.markdown-body :checked+.radio-label{position:relative;z-index:1;border-color:#0366d6}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item input{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body::before{display:table;content:""}.markdown-body::after{display:table;clear:both;content:""}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.Alert,.Error,.Note,.Success,.Warning{padding:11px;margin-bottom:24px;border-style:solid;border-width:1px;border-radius:4px}.Alert p,.Error p,.Note p,.Success p,.Warning p{margin-top:0}.Alert p:last-child,.Error p:last-child,.Note p:last-child,.Success p:last-child,.Warning p:last-child{margin-bottom:0}.Alert{color:#246;background-color:#e2eef9;border-color:#bac6d3}.Warning{color:#4c4a42;background-color:#fff9ea;border-color:#dfd8c2}.Error{color:#911;background-color:#fcdede;border-color:#d2b2b2}.Success{color:#22662c;background-color:#e2f9e5;border-color:#bad3be}.Note{color:#2f363d;background-color:#f6f8fa;border-color:#d5d8da}.Alert h1,.Alert h2,.Alert h3,.Alert h4,.Alert h5,.Alert h6{color:#246;margin-bottom:0}.Warning h1,.Warning h2,.Warning h3,.Warning h4,.Warning h5,.Warning h6{color:#4c4a42;margin-bottom:0}.Error h1,.Error h2,.Error h3,.Error h4,.Error h5,.Error h6{color:#911;margin-bottom:0}.Success h1,.Success h2,.Success h3,.Success h4,.Success h5,.Success h6{color:#22662c;margin-bottom:0}.Note h1,.Note h2,.Note h3,.Note h4,.Note h5,.Note h6{color:#2f363d;margin-bottom:0}.Alert h1:first-child,.Alert h2:first-child,.Alert h3:first-child,.Alert h4:first-child,.Alert h5:first-child,.Alert h6:first-child,.Error h1:first-child,.Error h2:first-child,.Error h3:first-child,.Error h4:first-child,.Error h5:first-child,.Error h6:first-child,.Note h1:first-child,.Note h2:first-child,.Note h3:first-child,.Note h4:first-child,.Note h5:first-child,.Note h6:first-child,.Success h1:first-child,.Success h2:first-child,.Success h3:first-child,.Success h4:first-child,.Success h5:first-child,.Success h6:first-child,.Warning h1:first-child,.Warning h2:first-child,.Warning h3:first-child,.Warning h4:first-child,.Warning h5:first-child,.Warning h6:first-child{margin-top:0}h1.title,p.subtitle{text-align:center}h1.title.followed-by-subtitle{margin-bottom:0}p.subtitle{font-size:1.5em;font-weight:600;line-height:1.25;margin-top:0;margin-bottom:16px;padding-bottom:.3em}div.line-block{white-space:pre-line}
+  </style>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<article class="markdown-body">
+<h1 id="为什么要用ipythonjupyter">为什么要用IPython/Jupyter?</h1>
+<blockquote>
+<p>python里面调试确实有点烦恼，尤其是在vim里，想要尝试一些简单的编码问题，实在是有点麻烦，不想到命令行模式一行一行执行，也不想再新建一个文件测试一个简单的功能。</p>
+</blockquote>
+<p>而且就是不管这些，测试一个简单的功能如学习语法、测试编码、测试新学习的包等，在IDE里面测试，看不到每个部分的output效果（除非自己手动去命令行里复制或截屏），在命令行里测试，则没法轻松撤销前面的代码。。。。 所以这时候才想到好像前阵子看到youtube视频里别人用IPython，是那种又能轻松编辑又能为每部分显示output效果，还能在旁做markdown笔记的东西。 出于这个想法，搜到了这篇<a href="https://www.zhihu.com/question/51467397">知乎回答</a>，看到了不少有意思的东西，感觉又展开了一个崭新的领域，python的视界豁然开朗。 <a href="https://zhuanlan.zhihu.com/p/33654849">这篇文章</a>极好的解释了IPython的入门用法，相当酷！我怎么竟然这么久都不知道这种东西的存在？</p>
+<h3 id="ipython和jupyter的区别">IPython和Jupyter的区别？</h3>
+<p>据说一开始IPython是作为<code>IPython shell</code>的存在，后来Jupyter融合了它，又把自己和IPython上独立出来，做成了网页版的<code>Jupyter Notebook</code>这样的东西。Jupyter强大的特性，加上和各种数据研究库的紧密结合，真让人不能忽视它的存在了。 IPython的安装方法，简单地<code>pip install ipython</code>即可。 但是，想到IPython本身一个shell，让我想起了我自己用的shell是<code>zsh</code>，让我把zsh切换到别的shell里面去，还真有点不喜欢。。这可能是个stylish issue吧。 所以，应该直接了当的安装jupyter，其中也会自动安装上<code>IPython shell</code>，作为其运行的Kernel。</p>
+<h2 id="错误的安装jupyter">错误的安装Jupyter</h2>
+<p>~只安装Jupyter本身的话，很简单：<code>python -m pip install jupyter</code>。不过根据官方文档，强烈建议安装Jupyter的<code>Anaconda</code>发行版，像大礼包一样的自动安装<code>python+Jupyter Notebook+一系列数据研究库</code>。因为本来就是要研究机器学习等一系列数据研究的，所以Anaconda正合适。这个我觉得再好不过了，所以直接跳到<a href="https://www.anaconda.com/download"><code>Anaconda</code>页面</a>去看安装方法。然后看到，Anaconda安装方法是不能简单<code>apt-get</code>或<code>brew</code>或<code>pip install</code>的，500M左右的大小，需要下载后启动图形安装工具或shell脚本安装（<code>.sh</code>文件本身就500M，而且安装分为Python 3和Python 2的两种方式。~</p>
+<p>然后就会发现：<strong>Anaconda谁装谁后悔！</strong> Anaconda体积庞大，软件管理看起来一体化简单，实际上在处理一些Bug和自定义设置的情况下非常不好定位。我在Mac上初次安装Anaconda大礼包后，连简单的<code>jupyter notebooke</code>这样的命令都执行不了，详尽了办法最后才用直接指定路径的方式运行。这只是一开始，之后还有notebook里各种找不到外部安装的python package的情况。 所以还是别图便宜，手动安装一步一步来吧。一键安装很多时候都没那么好。 试了下手动安装的方法，<code>pip install jupyter</code>，或者官方的<code>python -m pip install jupyter</code>，都会发生<code>jupyter: command not found</code>找不到命令。参考了数十篇网络上中英文文章，都没有解决。常说的直接引用<code>~/.local/bin</code>这个位置的 jupyter也不行（没有）。 终于，意识到这些方法都是错误的思路。</p>
+<h2 id="正确的安装jupyter-notebook">正确的安装Jupyter Notebook</h2>
+<p>不管官网怎么推荐Anaconda，网络上各种简单解说，总之Anaconda或<code>pip install jupyter</code>都很容易引发巨大的问题。由于jupyter的性质：它是调用python内核的东西，用系统python还是用自己的python，这都是很敏感很麻烦的问题。用系统的python很容易识别不到或者被别的程序修改导致bug，用自己的python会导致别的地方安装的package在jupyter里识别不了。 所以： 参考了<a href="https://zhuanlan.zhihu.com/p/27542582">这篇的思路</a>，正确的方法是在virtualenv虚拟环境下，绝对安全封闭的环境下用<code>pip</code>安装jupyter。这样的话，第一，不需要<code>sudo pip</code>这样敏感的东西去安装jupyter这么复杂的工具；第二，也保证了jupyter不会搞乱其它东西。 然后，二话不说，在已有virtualenv的情况下，在某个文件夹里建立虚拟环境，并启动虚拟环境。然后简单一句<code>pip install jupyter</code>，完成安装。 安装完成后<code>jupyter notebook</code>，完美运行！</p>
+<pre class="shell"><code># for Python2
+$ pip install jupyter
+
+# for Python3
+$ pip3 install jupyter</code></pre>
+<p>这样的话，即使以后要在jupyter里各种安装插件、各种配置新kernel等，都不用害怕了，因为再怎么玩弄，也出不去这个圈。 话说回来，实际上你也没什么需要在全系统配置jupyter的必要，在某个文件夹玩就足够足够的了。 何必呢？</p>
+<h2 id="启动jupyter">启动Jupyter</h2>
+<p>用命令行启动很简单，在某个工作目录，输入：</p>
+<pre><code>$ jupyter notebook</code></pre>
+<p>这样就能以这个目录打开一个<code>http://localhost:8889/tree</code>的网页，一切都在这个网页里操作。</p>
+<h2 id="正确的启动jupyter">正确的启动Jupyter</h2>
+<p>正确的方式，实际上是在Virtualenv虚拟环境下启动，可以随意安装各种包，适配各种Python版本环境：</p>
+<pre class="shell"><code># 启动Virtualenv
+$ source ~/PATH-TO-VENV/activate 
+
+# 启动Jupyter
+(venv)$ jupyter notebook</code></pre>
+<h2 id="添加python3-kernel">添加Python3 Kernel</h2>
+<p><a href="http://www.cnblogs.com/Jeffiy/p/4861528.html">参考：Jupyter增加内核</a></p>
+<p>默认的只有Python2 Kernel，所以只能建立Python2的笔记。 要添加也很简单。 <strong>强烈建议在Python3的Virtualenv虚拟环境下实现！！！</strong></p>
+<pre class="shell"><code># 启动Virtualenv
+$ source ~/PATH-TO-VENV/activate 
+
+# 在Python3的虚拟环境下安装Kernel
+(venv3)$ pip3 install ipykernel
+
+# 将Kernel添加进Jupyter笔记选项中
+(venv3)$ python -m ipykernel install</code></pre>
+<p>启动Jupyter notebook后，就会看到Kernel里面多了Python3了： <img src="https://user-images.githubusercontent.com/14041622/39862292-f1c80168-5475-11e8-9d50-576620dd6d6f.png" alt="image" /></p>
+<h3 id="终端里找不到jupyter命令">终端里找不到<code>jupyter</code>命令</h3>
+<p>总是报<code>command not found jupyter</code>错误，说没有这个命令。一开始还以为是zsh的问题，可是切换到bash也一样。 照着网上攻略在<code>.zshrc</code>里改也没用，在<code>.bash_profile</code>里改也没用。 然后发现，在Mac自带的Terminal.app中就可以正常打开，不需要改任何配置。 这才知道原来是iTerm2无法识别。于是在Terminal.app中用<code>which</code>命令查看jupyter命令的所在处，看到它位于<code>/Users/我的用户名/anaconda2/bin/jupyter</code>这个地方。 于是直接在<code>~/.zshrc</code>中加入alias：</p>
+<pre class="shell"><code>$ alias jupyter=&quot;/Users/我的用户名/anaconda2/bin/jupyter&quot;</code></pre>
+<p>重启iTerm2，好用！</p>
+<p>但是，iTerm2中的bash还是不能访问，用同样的方法也不行。暂时没找到解决方法。</p>
+<h2 id="常见问题">常见问题</h2>
+<h3 id="kernel-error">Kernel Error</h3>
+<p>这个一般是你的<code>.ipynb</code>文件中的kernel指定问题。 比如你创建笔记文件时，指定的是Python2的环境（或虚拟环境），然后你本机的Python2环境或虚拟环境被删除了，然后Jupyter根据笔记文件里指定的路径地址，就找不到Kernel了。 所以打开笔记本的这个笔记 -&gt; 点菜单上Kernel -&gt; 点Change Kernel -&gt; 选一个当前环境支持的Kernel就可以了。</p>
+</article>
+</body>
+</html>

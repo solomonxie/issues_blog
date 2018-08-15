@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<!--
+==============================================================================
+           "GitHub HTML5 Pandoc Template" v2.1 — by Tristano Ajmone           
+==============================================================================
+Copyright © Tristano Ajmone, 2017, MIT License (MIT). Project's home:
+
+- https://github.com/tajmone/pandoc-goodies
+
+The CSS in this template reuses source code taken from the following projects:
+
+- GitHub Markdown CSS: Copyright © Sindre Sorhus, MIT License (MIT):
+  https://github.com/sindresorhus/github-markdown-css
+
+- Primer CSS: Copyright © 2016-2017 GitHub Inc., MIT License (MIT):
+  http://primercss.io/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The MIT License 
+
+Copyright (c) Tristano Ajmone, 2017 (github.com/tajmone/pandoc-goodies)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright (c) 2017 GitHub Inc.
+
+"GitHub Pandoc HTML5 Template" is Copyright (c) Tristano Ajmone, 2017, released
+under the MIT License (MIT); it contains readaptations of substantial portions
+of the following third party softwares:
+
+(1) "GitHub Markdown CSS", Copyright (c) Sindre Sorhus, MIT License (MIT).
+(2) "Primer CSS", Copyright (c) 2016 GitHub Inc., MIT License (MIT).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+==============================================================================-->
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>comment-363034696</title>
+  <style type="text/css">
+.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#24292e;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:16px;line-height:1.5;word-wrap:break-word;box-sizing:border-box;min-width:200px;max-width:980px;margin:0 auto;padding:45px}.markdown-body a{color:#0366d6;background-color:transparent;text-decoration:none;-webkit-text-decoration-skip:objects}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body a:hover{text-decoration:underline}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body strong{font-weight:600}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1{font-size:2em;margin:.67em 0;padding-bottom:.3em;border-bottom:1px solid #eaecef}.markdown-body h2{padding-bottom:.3em;font-size:1.5em;border-bottom:1px solid #eaecef}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#6a737d}.markdown-body img{border-style:none}.markdown-body svg:not(:root){overflow:hidden}.markdown-body hr{box-sizing:content-box;height:.25em;margin:24px 0;padding:0;overflow:hidden;background-color:#e1e4e8;border:0}.markdown-body hr::before{display:table;content:""}.markdown-body hr::after{display:table;clear:both;content:""}.markdown-body input{margin:0;overflow:visible;font:inherit;font-family:inherit;font-size:inherit;line-height:inherit}.markdown-body [type=checkbox]{box-sizing:border-box;padding:0}.markdown-body *{box-sizing:border-box}.markdown-body blockquote{margin:0}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dd{margin-left:0}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace}.markdown-body pre{font:12px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;word-wrap:normal}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body blockquote{padding:0 1em;color:#6a737d;border-left:.25em solid #dfe2e5}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body table{display:block;width:100%;overflow:auto;border-spacing:0;border-collapse:collapse}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #dfe2e5}.markdown-body table tr{background-color:#fff;border-top:1px solid #c6cbd1}.markdown-body table tr:nth-child(2n){background-color:#f6f8fa}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body code{padding:.2em 0;margin:0;font-size:85%;background-color:rgba(27,31,35,.05);border-radius:3px}.markdown-body code::after,.markdown-body code::before{letter-spacing:-.2em;content:"\00a0"}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f6f8fa;border-radius:3px}.markdown-body pre code{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code::after,.markdown-body pre code::before{content:normal}.markdown-body .full-commit .btn-outline:not(:disabled):hover{color:#005cc5;border-color:#005cc5}.markdown-body kbd{box-shadow:inset 0 -1px 0 #959da5;display:inline-block;padding:3px 5px;font:11px/10px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;color:#444d56;vertical-align:middle;background-color:#fcfcfc;border:1px solid #c6cbd1;border-bottom-color:#959da5;border-radius:3px;box-shadow:inset 0 -1px 0 #959da5}.markdown-body :checked+.radio-label{position:relative;z-index:1;border-color:#0366d6}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item input{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body::before{display:table;content:""}.markdown-body::after{display:table;clear:both;content:""}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.Alert,.Error,.Note,.Success,.Warning{padding:11px;margin-bottom:24px;border-style:solid;border-width:1px;border-radius:4px}.Alert p,.Error p,.Note p,.Success p,.Warning p{margin-top:0}.Alert p:last-child,.Error p:last-child,.Note p:last-child,.Success p:last-child,.Warning p:last-child{margin-bottom:0}.Alert{color:#246;background-color:#e2eef9;border-color:#bac6d3}.Warning{color:#4c4a42;background-color:#fff9ea;border-color:#dfd8c2}.Error{color:#911;background-color:#fcdede;border-color:#d2b2b2}.Success{color:#22662c;background-color:#e2f9e5;border-color:#bad3be}.Note{color:#2f363d;background-color:#f6f8fa;border-color:#d5d8da}.Alert h1,.Alert h2,.Alert h3,.Alert h4,.Alert h5,.Alert h6{color:#246;margin-bottom:0}.Warning h1,.Warning h2,.Warning h3,.Warning h4,.Warning h5,.Warning h6{color:#4c4a42;margin-bottom:0}.Error h1,.Error h2,.Error h3,.Error h4,.Error h5,.Error h6{color:#911;margin-bottom:0}.Success h1,.Success h2,.Success h3,.Success h4,.Success h5,.Success h6{color:#22662c;margin-bottom:0}.Note h1,.Note h2,.Note h3,.Note h4,.Note h5,.Note h6{color:#2f363d;margin-bottom:0}.Alert h1:first-child,.Alert h2:first-child,.Alert h3:first-child,.Alert h4:first-child,.Alert h5:first-child,.Alert h6:first-child,.Error h1:first-child,.Error h2:first-child,.Error h3:first-child,.Error h4:first-child,.Error h5:first-child,.Error h6:first-child,.Note h1:first-child,.Note h2:first-child,.Note h3:first-child,.Note h4:first-child,.Note h5:first-child,.Note h6:first-child,.Success h1:first-child,.Success h2:first-child,.Success h3:first-child,.Success h4:first-child,.Success h5:first-child,.Success h6:first-child,.Warning h1:first-child,.Warning h2:first-child,.Warning h3:first-child,.Warning h4:first-child,.Warning h5:first-child,.Warning h6:first-child{margin-top:0}h1.title,p.subtitle{text-align:center}h1.title.followed-by-subtitle{margin-bottom:0}p.subtitle{font-size:1.5em;font-weight:600;line-height:1.25;margin-top:0;margin-bottom:16px;padding-bottom:.3em}div.line-block{white-space:pre-line}
+  </style>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; position: absolute; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine:empty
+  { position: absolute; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<article class="markdown-body">
+<h1 id="github-api-v3-文档学习">Github API v3 文档学习</h1>
+<blockquote>
+<p>对于常用Github的用户来说，经常有一些自动化的需求。比如我的需求是定时备份Github的issues和comments到本地。以下为Github的API的使用参考。</p>
+</blockquote>
+<p><a href="https://developer.github.com/v3/">v3版API的文档链接</a> <a href="https://developer.github.com/v3/guides/getting-started/">v3版API的官方教程</a></p>
+<h2 id="基本访问路径-root-endpoints">基本访问路径 (Root Endpoints)</h2>
+<p>一开始读文档的时候，照着它的事例直接在命令行里<code>curl</code>，或者在InSomnia或Postman软件里访问，都完美显示200状态。可是一旦把链接里改写成自己的用户名就各种显示404无页面。还以为是授权问题，然后在页头HEADER中按照各种方式试了username和token密钥，都没用还是404。结果发现，原来不是方法的问题，纯粹是链接地址没写对！ <code>实际上只是读取的话，完全不用任何授权</code>，可以在命令行、Insomnia、网页等各种情况下直接输入链接访问任何人的所有公开信息。 然后对照<a href="https://api.github.com/">官方路径列表Root Endpoints</a>得到的链接，好像怎么访问都不对。反而在Stackoverflow中看到的一个链接，顺藤摸瓜自己发现了各种正确的访问路径，总结如下： - 首先！访问的链接最后不能有<code>/</code>。如<code>https://api.github.com/users/solomonxie</code>是可以访问到我个人信息的，但是<code>https://api.github.com/users/solomonxie/</code>就不行了，唯一不同是多了一个<code>/</code>. - 其次！不同于一般URL访问，GIthub的API访问链接是<code>区分大小写</code>的！ - 个人主要信息。 <code>https://api.github.com/users/用户名</code>,得到数据如下图： <img src="https://user-images.githubusercontent.com/14041622/35799473-cc7cd7e0-0aa0-11e8-89bd-5f8e8150fa02.png" alt="image" /> - 个人所有repo。<code>https://api.github.com/users/用户名/repos</code>。会得到一个repo的JSON格式列表。 - repo详细信息。<code>https://api.github.com/repos/用户名/仓库名</code>。repo的路径就开始和个人信息不同了。 - 获取某个repo的内容列表。<code>https://api.github.com/repos/solomonxie/gists/contents</code>，注意这只会返回根目录的内容。 - 获取repo中子目录的内容列表。<code>https://api.github.com/repos/solomonxie/gists/contents/目录名</code>。一定要注意这里一定要完全遵循原文件名的大小写，否则无法获得信息。如果是更深层的内容，则在链接列按照顺序逐级写上目录名称。 - 获取repo中某文件信息（不包括内容）。<code>https://api.github.com/repos/solomonxie/gists/contents/文件路径</code>。文件路径是文件的完整路径，区分大小写。只会返回文件基本信息。 - 获取某文件的原始内容（Raw）。1. 通过上面的文件信息中提取<code>download_url</code>这条链接，就能获取它的原始内容了。2. 或者直接访问：<code>https://raw.githubusercontent.com/用户名/仓库名/分支名/文件路径</code> - repo中所有的commits列表。<code>https://api.github.com/repos/用户名/仓库名/commits</code>。 - 某一条commit详情。<code>https://api.github.com/repos/用户名/仓库名/commits/某一条commit的SHA</code> - issues列表。<code>https://api.github.com/repos/用户名/仓库名/issues</code>。 - 某条issue详情。<code>https://api.github.com/repos/用户名/仓库名/issues/序号</code>。issues都是以1,2,3这样的序列排号的。 - 某issue中的comments列表。<code>https://api.github.com/repos/用户名/仓库名/issues/序号/comments</code>。 - 某comment详情。<code>https://api.github.com/repos/用户名/仓库名/issues/comments/评论详情的ID</code>。其中评论ID是从issues列表中获得的。</p>
+<h2 id="查询参数-parameters">查询参数 (Parameters)</h2>
+<p>如果在上面基本链接中加入查询条件，那么返回的数据就是filtered，过滤了的。比如要求只返回正在开放的issues，或者让列表数据分页显示。常用如下： - 分页功能。格式是<code>?page=页数&amp;per_page=每页包含数量</code>。 如<code>https://api.github.com/users/solomonxie/repos?page=2&amp;per_page=3</code> - issues状态。格式是<code>?state=状态</code>。 如<code>https://api.github.com/repos/solomonxie/solomonxie.github.io/issues?state=closed</code></p>
+<h2 id="权限认证-authentication">权限认证 Authentication</h2>
+<blockquote>
+<p>首先需要知道都是，到此为止之前所有都查询都是不需要任何权限的，给个地址就返回数据，全公开。 但是创建文件、更新、删除等就是必须用自己的账号“登录”才能实现的。所以为了下面的增删改做准备，需要先看一下权限问题。 官网虽然写的很简答，不过如果不熟悉API的话还是不能马上就理解。</p>
+</blockquote>
+<p>常用的认证方法有三种，<code>Basic authentication</code>, <code>OAuth2 token</code>, <code>OAuth2 key/secret</code> 三种方法效果一样，但是各有其特点和方便之处。选哪种就要看自己哪种方便了。</p>
+<h3 id="认证方法一basic-authentication">认证方法一：Basic authentication</h3>
+<p>这种最简单，如果是用curl的话，就：</p>
+<pre><code>curl -u &quot;用户名:密码&quot; https://api.github.com</code></pre>
+<p>如果是用Insomnia等api调试工具的话，直接在Auth选项栏里选Basic Auth，然后填上用户名密码即可。</p>
+<h3 id="认证方法二oauth2-token">认证方法二：OAuth2 token</h3>
+<h4 id="关于token">关于token</h4>
+<blockquote>
+<p>这种token方式，说实话如果不是操作过API或深度了解REST的话，是很难理解的东西。 说白了就是<code>第二个密码</code>，你既不用到处泄露自己的用户名密码，又可以专门给这个“第二密码”设置不同需要的权限，如有的只可读有的还可以写等。而且这个“第二密码”是既包括用户名又包括密码功能的，全站只此一个绝对不会和别人重复。初次之外，你还可以设置很多个token，也就是第三、第四、第五…密码。很方便。</p>
+</blockquote>
+<h4 id="设置token方法">设置token方法</h4>
+<p>就位于github个人账号设置-&gt;开发者设置-&gt;个人token里。创建一个新token时，可以选择具体的权限，创建成功时一定要复制到本地哪里保存，只会让你看见一次，如果忘记的话就需要重新生成（其实丢了也不算麻烦）。 <img src="https://user-images.githubusercontent.com/14041622/36475101-a0745628-1734-11e8-9393-829813c2f6e3.png" alt="image" /></p>
+<p>另外！注意： &gt; token字符串不能存储在github的repo中，经过测试，一旦提交的文件中包含这个token字符串，那么github就会自动删除这个token -_-! 我用了很久才明白过来，创建的Personal Access Token总是自动消失，还以为是有时限的。</p>
+<h4 id="用token通过权限认证">用token通过权限认证</h4>
+<p>有两种传送方法，哪种都可以： 1. 作为url中的参数明文传输：</p>
+<pre><code>curl https://api.github.com/?access_token=OAUTH-TOKEN</code></pre>
+<ol start="2" type="1">
+<li>作为header中的参数传输：</li>
+</ol>
+<pre><code>curl -H &quot;Authorization: token OAUTH-TOKEN&quot; https://api.github.com</code></pre>
+<p>如果不是用curl而是Insomnia测试的话，和上面basic auth是大同小异的，很容易操作就不复述了。 到此为止，权限认证就算搞清了，而且也实际验证过有效了。强烈建议用insomnia工具操作，有GUI界面方便理解，成功后再转为curl或python等程序语言。</p>
+<h3 id="认证方法三oauth2-keysecret">认证方法三：OAuth2 key/secret</h3>
+<p>这个是除了Personal Access Token之外的另一种好用的方法，即创建自己的OAuth app，然后得到一对<code>client_id</code>和<code>client_secret</code>。如下： <img src="https://user-images.githubusercontent.com/14041622/36474687-3e2ac3e0-1733-11e8-9fff-1d7a8f52e9cc.png" alt="image" /> <img src="https://user-images.githubusercontent.com/14041622/36474746-6ac5d8fe-1733-11e8-9789-64cf8d1a5c14.png" alt="image" /> 得到这两个值之后，直接在访问任何api的url连接后面显性加上这两个参数即可完成认证，如： <code>https://api.github.com/users/yourusername?client_id=YOUR-CLIENT-ID&amp;client_secret=YOUR-CLIENT-SECRET</code> 但是： &gt; 目前这种认证方式<strong>不支持</strong>查询以外的操作，也就是只能GET获取某些api信息，不能执行request里的任何PUT/PATCH/DELETE操作。</p>
+<h2 id="创建新文件-create-content">创建新文件 Create content</h2>
+<blockquote>
+<p><a href="https://developer.github.com/v3/repos/contents/#get-contents">Contents操作 官方文档</a></p>
+</blockquote>
+<ul>
+<li>传输方法：<code>PUT</code></li>
+<li>访问路径：<code>https://api.github.com/repos/用户名/仓库名/contents/文件路径</code></li>
+<li>JSON格式：</li>
+</ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode javascript"><code class="sourceCode javascript"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="op">{</span></a>
+<a class="sourceLine" id="cb4-2" data-line-number="2">  <span class="st">&quot;message&quot;</span><span class="op">:</span> <span class="st">&quot;commit from INSOMNIA&quot;</span><span class="op">,</span></a>
+<a class="sourceLine" id="cb4-3" data-line-number="3">  <span class="st">&quot;content&quot;</span><span class="op">:</span> <span class="st">&quot;bXkgbmV3IGZpbGUgY29udGVudHM=&quot;</span></a>
+<a class="sourceLine" id="cb4-4" data-line-number="4"><span class="op">}</span></a></code></pre></div>
+<p>JSON填写如下图： <img src="https://user-images.githubusercontent.com/14041622/35808306-59661422-0ac0-11e8-8c35-55afa4f533c9.png" alt="image" /> - 注意：1.必须添加权限验证（上面有写） 2. 数据传送格式选择JSON 3. 文件内容必须是把文件整体转为Base64字符串再存到JSON变量中 4. 文件路径中如果有不存在的文件夹，则会自动创建</p>
+<p>起初不管怎么尝试都一直报同样都错误，400 Invalid JSON，如下图： <img src="https://user-images.githubusercontent.com/14041622/35806800-b6fc8170-0abb-11e8-997e-f69b19698d06.png" alt="image" /></p>
+<p>最后发现原来是犯了很小很小都错误才导致如此： <img src="https://user-images.githubusercontent.com/14041622/35806838-dc8adedc-0abb-11e8-8d8a-c0d0b32ebe58.png" alt="image" /> 原来，我的token看似是正常的，唯独错误的是，多了一个空行！也就是说，标明都是invalid JSON，结果没注意竟然是invalid Token!</p>
+<p>增加文件成功后返回的消息： <img src="https://user-images.githubusercontent.com/14041622/35807261-30b29d8c-0abd-11e8-8d61-723a9886441a.png" alt="image" /></p>
+<h2 id="更新文件-update-content">更新文件 Update content</h2>
+<blockquote>
+<p>主要这几点： 1. 传送方式用<code>PUT</code> 和创建文件一样 2. 需要权限验证，3. 传输内容数据用JSON 4. 需要指定该文件的SHA码 4. 路径和访问content时一样 5. 文件内容必须是把文件整体转为Base64字符串再存到JSON变量中</p>
+</blockquote>
+<ul>
+<li>传输方法：<code>PUT</code></li>
+<li>访问路径：<code>https://api.github.com/repos/用户名/仓库名/contents/文件路径</code></li>
+<li>JSON格式：</li>
+</ul>
+<div class="sourceCode" id="cb5"><pre class="sourceCode javascript"><code class="sourceCode javascript"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="op">{</span></a>
+<a class="sourceLine" id="cb5-2" data-line-number="2">  <span class="st">&quot;message&quot;</span><span class="op">:</span> <span class="st">&quot;update from INSOMNIA&quot;</span><span class="op">,</span></a>
+<a class="sourceLine" id="cb5-3" data-line-number="3">  <span class="st">&quot;content&quot;</span><span class="op">:</span> <span class="st">&quot;Y3JlYXRlIGZpbGUgZnJvbSBJTlNPTU5JQQoKSXQncyB1cGRhdGVkISEhCgpJdCdzIHVwZGF0ZWQgYWdhaW4hIQ==&quot;</span><span class="op">,</span></a>
+<a class="sourceLine" id="cb5-4" data-line-number="4">  <span class="st">&quot;sha&quot;</span><span class="op">:</span> <span class="st">&quot;57642f5283c98f6ffa75d65e2bf49d05042b4a6d&quot;</span></a>
+<a class="sourceLine" id="cb5-5" data-line-number="5"><span class="op">}</span></a></code></pre></div>
+<ul>
+<li>注意：必须指定该文件的<code>SHA码</code>，相当于文件的ID。 ## <code>SHA</code>虽然是对文件的唯一识别码，相当于ID，但是它是会随着文件内容变化而变化的！所以必须每次都重新获取才行。 至于获取方式，验证后发现，目前最靠谱的是用前面的<code>get content</code>获取到该文件的信息，然后里面找到<code>sha</code>。</li>
+</ul>
+<p>对上传时的JSON格式另有要求，如果没有按照要求把必填项输入，则会出现422错误信息： <img src="https://user-images.githubusercontent.com/14041622/35807463-d447ec7c-0abd-11e8-8d17-742052321128.png" alt="image" /></p>
+<p>或者如果用错了SHA，会出现409错误消息： <img src="https://user-images.githubusercontent.com/14041622/35807736-97e5feee-0abe-11e8-8e9b-5f9bb6576a7f.png" alt="image" /></p>
+<p>如果正确传送，就会显示200完成更新： <img src="https://user-images.githubusercontent.com/14041622/35807698-77cf55d8-0abe-11e8-9677-59f2961b5b0f.png" alt="image" /></p>
+<h2 id="删除文件-delete-content">删除文件 Delete content</h2>
+<ul>
+<li>传输方法：<code>DELETE</code></li>
+<li>访问路径：<code>https://api.github.com/repos/用户名/仓库名/contents/文件路径</code></li>
+<li>JSON格式：</li>
+</ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode javascript"><code class="sourceCode javascript"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="op">{</span></a>
+<a class="sourceLine" id="cb6-2" data-line-number="2">  <span class="st">&quot;message&quot;</span><span class="op">:</span> <span class="st">&quot;delete a file&quot;</span><span class="op">,</span></a>
+<a class="sourceLine" id="cb6-3" data-line-number="3">  <span class="st">&quot;sha&quot;</span><span class="op">:</span> <span class="st">&quot;46d2b1f2ef54669a974165d0b37979e9adba1ab2&quot;</span></a>
+<a class="sourceLine" id="cb6-4" data-line-number="4"><span class="op">}</span></a></code></pre></div>
+<p>删除成功后，会返回200消息： <img src="https://user-images.githubusercontent.com/14041622/35809967-2c095124-0ac5-11e8-84e3-d55117ed0709.png" alt="image" /></p>
+<h2 id="增删改issues">增删改issues</h2>
+<blockquote>
+<p>如果做过了上面文件的增删改，这里大同小异，不同的访问路径和JSON的格式而已。唯一不同的是，issues是不用把内容转为Base64码的。</p>
+</blockquote>
+<p>参考链接：<a href="https://developer.github.com/v3/issues/#create-an-issue">github官方文档</a></p>
+<h3 id="增加一条issue">增加一条issue</h3>
+<ul>
+<li>传输方法：<code>POST</code></li>
+<li>访问路径：<code>https://api.github.com/repos/用户名/仓库名/issues</code></li>
+<li>JSON格式：</li>
+</ul>
+<div class="sourceCode" id="cb7"><pre class="sourceCode javascript"><code class="sourceCode javascript"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="op">{</span></a>
+<a class="sourceLine" id="cb7-2" data-line-number="2">  <span class="st">&quot;title&quot;</span><span class="op">:</span> <span class="st">&quot;Creating issue from API&quot;</span><span class="op">,</span></a>
+<a class="sourceLine" id="cb7-3" data-line-number="3">  <span class="st">&quot;body&quot;</span><span class="op">:</span> <span class="st">&quot;Posting a issue from Insomnia&quot;</span></a>
+<a class="sourceLine" id="cb7-4" data-line-number="4"><span class="op">}</span></a></code></pre></div>
+<ul>
+<li>注意：issue的数据里面是可以加label，milestone和assignees的。但是必须注意milestone和assignees必须是已有的名次完全对应才行，否则无法完成创建。</li>
+</ul>
+<h3 id="更改某条issue">更改某条issue</h3>
+<ul>
+<li>传输方法：<code>PATCH</code></li>
+<li>访问路径：<code>https://api.github.com/repos/用户名/仓库名/issues/序号</code></li>
+<li>JSON格式：</li>
+</ul>
+<div class="sourceCode" id="cb8"><pre class="sourceCode javascript"><code class="sourceCode javascript"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="op">{</span></a>
+<a class="sourceLine" id="cb8-2" data-line-number="2">  <span class="st">&quot;title&quot;</span><span class="op">:</span> <span class="st">&quot;Creating issue from API ---updated&quot;</span><span class="op">,</span></a>
+<a class="sourceLine" id="cb8-3" data-line-number="3">  <span class="st">&quot;body&quot;</span><span class="op">:</span> <span class="st">&quot;Posting a issue from Insomnia </span><span class="sc">\n\n</span><span class="st"> Updated from insomnia.&quot;</span><span class="op">,</span></a>
+<a class="sourceLine" id="cb8-4" data-line-number="4">  <span class="st">&quot;state&quot;</span><span class="op">:</span> <span class="st">&quot;open&quot;</span></a>
+<a class="sourceLine" id="cb8-5" data-line-number="5"><span class="op">}</span></a></code></pre></div>
+<ul>
+<li>注意：如果JSON中加入空白的labels或assignees，如<code>&quot;labels&quot;: []</code>，作用就是清空所有的标签和相关人。</li>
+</ul>
+<h3 id="锁住某条issue">锁住某条issue</h3>
+<p>不允许别人评论（自己可以） <img src="https://user-images.githubusercontent.com/14041622/35862570-22025a00-0b87-11e8-9077-23c09fd5a094.png" alt="image" /></p>
+<ul>
+<li>传输方法：<code>PUT</code></li>
+<li>访问路径：<code>https://api.github.com/repos/用户名/仓库名/issues/序号/lock</code></li>
+<li>JSON格式：</li>
+</ul>
+<div class="sourceCode" id="cb9"><pre class="sourceCode javascript"><code class="sourceCode javascript"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="op">{</span></a>
+<a class="sourceLine" id="cb9-2" data-line-number="2">  <span class="st">&quot;locked&quot;</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></a>
+<a class="sourceLine" id="cb9-3" data-line-number="3">  <span class="st">&quot;active_lock_reason&quot;</span><span class="op">:</span> <span class="st">&quot;too heated&quot;</span></a>
+<a class="sourceLine" id="cb9-4" data-line-number="4"><span class="op">}</span></a></code></pre></div>
+<ul>
+<li>注意：active_lock_reason只能有4种值可选：<code>off-topic</code>, <code>too heated</code>, <code>resolved</code>, <code>spam</code>，否则报错。 另外，成功锁住，会返回<code>204 No Content</code>信息。</li>
+</ul>
+<h3 id="解锁某条issue">解锁某条issue</h3>
+<ul>
+<li>传输方法：<code>DELETE</code></li>
+<li>访问路径：<code>https://api.github.com/repos/用户名/仓库名/issues/序号/lock</code></li>
+<li>无JSON传输</li>
+</ul>
+<h2 id="增删改comments">增删改comments</h2>
+<blockquote>
+<p>参考<a href="https://developer.github.com/v3/issues/comments/#create-a-comment">官方文档</a></p>
+</blockquote>
+<h3 id="增加comment">增加comment</h3>
+<ul>
+<li>传输方法：<code>POST</code></li>
+<li>访问路径：<code>https://api.github.com/repos/用户名/仓库名/issues/序号/comments</code></li>
+<li>JSON格式：</li>
+</ul>
+<div class="sourceCode" id="cb10"><pre class="sourceCode javascript"><code class="sourceCode javascript"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="op">{</span></a>
+<a class="sourceLine" id="cb10-2" data-line-number="2">  <span class="st">&quot;body&quot;</span><span class="op">:</span> <span class="st">&quot;Create a comment from API&quot;</span></a>
+<a class="sourceLine" id="cb10-3" data-line-number="3"><span class="op">}</span></a></code></pre></div>
+<h3 id="更改comment">更改comment</h3>
+<ul>
+<li>传输方法：<code>PATCH</code></li>
+<li>访问路径：<code>https://api.github.com/repos/用户名/仓库名/issues/comments/评论ID</code></li>
+<li>JSON格式：</li>
+</ul>
+<div class="sourceCode" id="cb11"><pre class="sourceCode javascript"><code class="sourceCode javascript"><a class="sourceLine" id="cb11-1" data-line-number="1"><span class="op">{</span></a>
+<a class="sourceLine" id="cb11-2" data-line-number="2">  <span class="st">&quot;body&quot;</span><span class="op">:</span> <span class="st">&quot;Create a comment from API </span><span class="sc">\n\n</span><span class="st">----Updated&quot;</span></a>
+<a class="sourceLine" id="cb11-3" data-line-number="3"><span class="op">}</span></a></code></pre></div>
+<ul>
+<li>注意：地址中，issues后不用序号了，因为可以通过唯一的<code>评论ID</code>追查到。查看评论ID的方法，直接在上面查询链接中找。</li>
+</ul>
+<h3 id="删除comment">删除comment</h3>
+<ul>
+<li>传输方法：<code>DELETE</code></li>
+<li>访问路径：<code>https://api.github.com/repos/用户名/仓库名/issues/comments/评论ID</code></li>
+<li>无传输数据</li>
+</ul>
+</article>
+</body>
+</html>

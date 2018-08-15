@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!--
+==============================================================================
+           "GitHub HTML5 Pandoc Template" v2.1 — by Tristano Ajmone           
+==============================================================================
+Copyright © Tristano Ajmone, 2017, MIT License (MIT). Project's home:
+
+- https://github.com/tajmone/pandoc-goodies
+
+The CSS in this template reuses source code taken from the following projects:
+
+- GitHub Markdown CSS: Copyright © Sindre Sorhus, MIT License (MIT):
+  https://github.com/sindresorhus/github-markdown-css
+
+- Primer CSS: Copyright © 2016-2017 GitHub Inc., MIT License (MIT):
+  http://primercss.io/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The MIT License 
+
+Copyright (c) Tristano Ajmone, 2017 (github.com/tajmone/pandoc-goodies)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright (c) 2017 GitHub Inc.
+
+"GitHub Pandoc HTML5 Template" is Copyright (c) Tristano Ajmone, 2017, released
+under the MIT License (MIT); it contains readaptations of substantial portions
+of the following third party softwares:
+
+(1) "GitHub Markdown CSS", Copyright (c) Sindre Sorhus, MIT License (MIT).
+(2) "Primer CSS", Copyright (c) 2016 GitHub Inc., MIT License (MIT).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+==============================================================================-->
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>comment-375890493</title>
+  <style type="text/css">
+.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#24292e;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:16px;line-height:1.5;word-wrap:break-word;box-sizing:border-box;min-width:200px;max-width:980px;margin:0 auto;padding:45px}.markdown-body a{color:#0366d6;background-color:transparent;text-decoration:none;-webkit-text-decoration-skip:objects}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body a:hover{text-decoration:underline}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body strong{font-weight:600}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1{font-size:2em;margin:.67em 0;padding-bottom:.3em;border-bottom:1px solid #eaecef}.markdown-body h2{padding-bottom:.3em;font-size:1.5em;border-bottom:1px solid #eaecef}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#6a737d}.markdown-body img{border-style:none}.markdown-body svg:not(:root){overflow:hidden}.markdown-body hr{box-sizing:content-box;height:.25em;margin:24px 0;padding:0;overflow:hidden;background-color:#e1e4e8;border:0}.markdown-body hr::before{display:table;content:""}.markdown-body hr::after{display:table;clear:both;content:""}.markdown-body input{margin:0;overflow:visible;font:inherit;font-family:inherit;font-size:inherit;line-height:inherit}.markdown-body [type=checkbox]{box-sizing:border-box;padding:0}.markdown-body *{box-sizing:border-box}.markdown-body blockquote{margin:0}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dd{margin-left:0}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace}.markdown-body pre{font:12px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;word-wrap:normal}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body blockquote{padding:0 1em;color:#6a737d;border-left:.25em solid #dfe2e5}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body table{display:block;width:100%;overflow:auto;border-spacing:0;border-collapse:collapse}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #dfe2e5}.markdown-body table tr{background-color:#fff;border-top:1px solid #c6cbd1}.markdown-body table tr:nth-child(2n){background-color:#f6f8fa}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body code{padding:.2em 0;margin:0;font-size:85%;background-color:rgba(27,31,35,.05);border-radius:3px}.markdown-body code::after,.markdown-body code::before{letter-spacing:-.2em;content:"\00a0"}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f6f8fa;border-radius:3px}.markdown-body pre code{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code::after,.markdown-body pre code::before{content:normal}.markdown-body .full-commit .btn-outline:not(:disabled):hover{color:#005cc5;border-color:#005cc5}.markdown-body kbd{box-shadow:inset 0 -1px 0 #959da5;display:inline-block;padding:3px 5px;font:11px/10px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;color:#444d56;vertical-align:middle;background-color:#fcfcfc;border:1px solid #c6cbd1;border-bottom-color:#959da5;border-radius:3px;box-shadow:inset 0 -1px 0 #959da5}.markdown-body :checked+.radio-label{position:relative;z-index:1;border-color:#0366d6}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item input{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body::before{display:table;content:""}.markdown-body::after{display:table;clear:both;content:""}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.Alert,.Error,.Note,.Success,.Warning{padding:11px;margin-bottom:24px;border-style:solid;border-width:1px;border-radius:4px}.Alert p,.Error p,.Note p,.Success p,.Warning p{margin-top:0}.Alert p:last-child,.Error p:last-child,.Note p:last-child,.Success p:last-child,.Warning p:last-child{margin-bottom:0}.Alert{color:#246;background-color:#e2eef9;border-color:#bac6d3}.Warning{color:#4c4a42;background-color:#fff9ea;border-color:#dfd8c2}.Error{color:#911;background-color:#fcdede;border-color:#d2b2b2}.Success{color:#22662c;background-color:#e2f9e5;border-color:#bad3be}.Note{color:#2f363d;background-color:#f6f8fa;border-color:#d5d8da}.Alert h1,.Alert h2,.Alert h3,.Alert h4,.Alert h5,.Alert h6{color:#246;margin-bottom:0}.Warning h1,.Warning h2,.Warning h3,.Warning h4,.Warning h5,.Warning h6{color:#4c4a42;margin-bottom:0}.Error h1,.Error h2,.Error h3,.Error h4,.Error h5,.Error h6{color:#911;margin-bottom:0}.Success h1,.Success h2,.Success h3,.Success h4,.Success h5,.Success h6{color:#22662c;margin-bottom:0}.Note h1,.Note h2,.Note h3,.Note h4,.Note h5,.Note h6{color:#2f363d;margin-bottom:0}.Alert h1:first-child,.Alert h2:first-child,.Alert h3:first-child,.Alert h4:first-child,.Alert h5:first-child,.Alert h6:first-child,.Error h1:first-child,.Error h2:first-child,.Error h3:first-child,.Error h4:first-child,.Error h5:first-child,.Error h6:first-child,.Note h1:first-child,.Note h2:first-child,.Note h3:first-child,.Note h4:first-child,.Note h5:first-child,.Note h6:first-child,.Success h1:first-child,.Success h2:first-child,.Success h3:first-child,.Success h4:first-child,.Success h5:first-child,.Success h6:first-child,.Warning h1:first-child,.Warning h2:first-child,.Warning h3:first-child,.Warning h4:first-child,.Warning h5:first-child,.Warning h6:first-child{margin-top:0}h1.title,p.subtitle{text-align:center}h1.title.followed-by-subtitle{margin-bottom:0}p.subtitle{font-size:1.5em;font-weight:600;line-height:1.25;margin-top:0;margin-bottom:16px;padding-bottom:.3em}div.line-block{white-space:pre-line}
+  </style>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; position: absolute; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine:empty
+  { position: absolute; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<article class="markdown-body">
+<h1 id="sinusoidal-functions-trigonometry"><code>Sinusoidal functions</code> (TRIGONOMETRY)</h1>
+<p><code>Trig functions</code> like <code>sine</code> and <code>cosine</code> have <code>periodic graphs</code> which we called <strong><code>Sinusoidal Graph</code></strong>, or <strong><code>Sine wave</code></strong>.</p>
+<figure>
+<img src="https://user-images.githubusercontent.com/14041622/37864531-67f7c2a0-2fab-11e8-91e0-f7826b3b6520.png" alt="image" /><figcaption>image</figcaption>
+</figure>
+<p>Every period of <code>sine wave</code> is a whole unit circle:</p>
+<figure>
+<img src="https://user-images.githubusercontent.com/14041622/38596296-4bedd0f0-3d83-11e8-96e0-609879bcd5a2.gif" alt="400px-complexsininatimeaxe" /><figcaption>400px-complexsininatimeaxe</figcaption>
+</figure>
+<h2 id="sinusoidal-graphs"><code>Sinusoidal graphs</code></h2>
+<p><a href="http://www.mathsisfun.com/algebra/trig-sin-cos-tan-graphs.html">Math is fun: Graphs of Sine, Cosine and Tangent.</a> <a href="https://www.symbolab.com/solver/step-by-step/shift%20y%3Dsin%5Cleft(2x%2B3%5Cright)%2B10">Symbolab example.</a></p>
+<p>Graph of <code>unit sine &amp; cosine function</code>: <img src="https://user-images.githubusercontent.com/14041622/37892104-3cf453c0-3109-11e8-87a9-3775f21b1397.png" alt="image" /></p>
+<h2 id="midline-amplitude-and-period"><code>Midline, amplitude and period</code></h2>
+<blockquote>
+<p>They’re three features of <code>sinusoidal graphs</code>.</p>
+</blockquote>
+<figure>
+<img src="https://user-images.githubusercontent.com/14041622/37882310-d5f0280e-30d4-11e8-9674-8c89253ce49f.png" alt="image" /><figcaption>image</figcaption>
+</figure>
+<ul>
+<li><code>Midline</code>: is the <strong>horizontal line</strong> that passes exactly in the <strong>middle</strong> between the graph’s <strong>maximum</strong> and <strong>minimum</strong> points.</li>
+<li><code>Amplitude</code>: is the <strong>vertical distance</strong> between the <strong>midline</strong> and one of the <strong>extremum points</strong>.</li>
+<li><code>Period</code>: Also called <code>frequency</code>, is the <strong>distance</strong> between <strong>two consecutive maximum points</strong>, or two consecutive minimum points (these distances must be equal).</li>
+</ul>
+<h2 id="initial-period-and-how-to-graph-a-sinusoidal-function"><code>Initial period</code> and how to graph a sinusoidal function</h2>
+<blockquote>
+<p>To graph the whole function, you only need 1 period of the graph, and then just repeat that ever and ever. And to avoid any confusion, we’d pick the <code>initial period</code>, which: - <code>sin(x)</code> that interval is [0,2π], and looks like an <code>S</code>. Y-intersect at its midline. - <code>cos(x)</code> that interval is [0,2π], and looks like a <code>Bow</code>. Y-intersect at its peak.</p>
+</blockquote>
+<p>You really need to pay attention for the <code>starting point</code> of the <code>S</code> and the <code>bow</code>, it’s the great way to figure out the how much the graph shifted on x-axis.</p>
+<p>The necessary information to draw the <code>initial period</code> : - Any two of the three position: Max, Min and Midline - Period - Phase shift from <code>initial point</code></p>
+<p>With these information above, we could figure out all other informations about the period.</p>
+<h3 id="initial-period-of-sinx"><code>Initial period of sin(x)</code>:</h3>
+<blockquote>
+<p>Looks like a <code>flipped S</code>.</p>
+</blockquote>
+<p><code>Starting point</code> of the <code>flipped S</code> is its <strong><code>Midpoint</code></strong>, at <code>(0,0)</code>, <code>Full period</code> is <code>2π</code>, <code>Midline</code> at <code>y=0</code>, <code>Range</code> is <code>[1,-1]</code>. <img src="https://user-images.githubusercontent.com/14041622/38128547-97acc21c-342d-11e8-8fce-9668f6872c32.png" alt="image" /></p>
+<h3 id="initial-period-of-cosx"><code>Initial period of cos(x)</code>:</h3>
+<blockquote>
+<p>Looks like a <code>bow</code>.</p>
+</blockquote>
+<p><code>Starting point</code> of the <code>bow</code> is its <strong><code>Peak</code></strong>, at <code>(0,1)</code>, <code>Full period</code> is <code>2π</code>, <code>Midline</code> at <code>y=0</code>, <code>Range</code> is <code>[1,-1]</code>. <img src="https://user-images.githubusercontent.com/14041622/38128681-21d19436-342e-11e8-957f-a502ec4ee8d8.png" alt="image" /></p>
+<h2 id="phase-shift-of-trig-functions"><code>Phase shift of trig functions</code></h2>
+<blockquote>
+<p><code>Phase shift</code> means horizontal shift, or moves on x-axis. It’s much harder to understand and calculate than the vertical shift.</p>
+</blockquote>
+<p>Since trig functions(sine, cosine, tangent) are all periodic functions, so it’s really CONFUSING with horizontal moving, because it’s repeating, and you can’t easily tell what happened with the graph.</p>
+<h3 id="calculate-algebraically-how-much-is-the-phase-shift">Calculate algebraically how much is the Phase Shift</h3>
+<p>First need to figure out the <code>starting point</code> of the <code>initial period</code>, and to compare how much it moved from 0 on x-axis.</p>
+<p><a href="https://youtu.be/eiZCk-A6qVw?t=5m17s">Youtube tutorial: How do you determine the phase shifts for sine and cosine graphs</a> <a href="https://youtu.be/HHbbi1G_Y4k?t=4m29s">Youtube tutorial : Sine Function Phase Shift</a></p>
+<p>Since the <code>initial period</code> of both sine and cosine functions starts from <code>0 on x-axis</code>, with the formula of function <code>y = A*sin(Bx+C)+D</code>,</p>
+<blockquote>
+<p>we are to set the <code>(Bx+c) = 0</code>, and solve for <code>x</code>,</p>
+</blockquote>
+<p>the value of <code>x</code> is the phase shift of the graph.</p>
+<p>Why do we set <code>(Bx+c) = 0</code>? Because we could imagine the <code>(Bx+c)</code> is a whole, and could be <code>w</code> of the <code>sin(w)</code>. Since the <code>initial period</code> of <code>sin(w)</code>, always starts from <code>0</code>, we could say the <code>starting point of initial period</code> is <code>0</code>, so <code>w=0</code>, then <code>Bx+C=0</code>.</p>
+<h2 id="peak-points-max-min"><code>Peak points</code> (Max &amp; Min)</h2>
+<blockquote>
+<p>Let’s call the <strong><code>INITIAL PEAKS</code></strong>, which is the <code>peaks</code> of the <code>initial period</code> .</p>
+</blockquote>
+<p>Y-axis position of ALL peaks could be found in the function’s <strong><code>Range</code></strong>, which could also be express as <code>[Max, Min]</code> or <code>[Min, Max]</code>. Y-axis position of <code>Initial peaks</code>:<code>[-1, 1]</code> or Y-axis position of <code>all peaks</code>: - Max: <code>y= Midline_position + Amplitude</code> - Min: <code>y = Midline_position - Amplitude</code></p>
+<p><a href="https://www.symbolab.com/solver/step-by-step/range%20f%5Cleft(x%5Cright)%3D2sin%5Cleft(2x%2B3%5Cright)%2B5">Refer to the step-by-step solution at Symbolab.</a></p>
+<p>X-axis position of <code>Initial peaks</code>: - sin(x): - Max: <code>x=π/2</code> - Min: <code>x=3π/2</code> - cos(x): - Max: <code>x=0</code> - Min: <code>x=π</code></p>
+<p>To get the <code>x position</code> of these peak points, need to consider the <code>Phase shift</code> issue: 1. Whatever in the <code>sin(...)</code>, just assume it is standard function <code>sin(u)</code>. 2. Match the <code>x position</code> of standard function, e.g. <code>sin(u)</code> is at Max when <code>u=π/2</code>. 3. Solve the equation of <code>u</code> to get <code>x position</code>, e.g. <code>sin(2x+3)</code>, set <code>2x+3 = π/2</code> to get <code>x</code>. 4. <code>x</code> is the <code>x position</code> of the peak point of the <code>initial period</code>.</p>
+<h3 id="how-to-find-peak-points-of-any-period">How to find peak points of any period</h3>
+<p>The Y-axis position of peak points are maintaining <strong>THE SAME</strong> as the period repeats. The X-axis position of peak points of the number <code>n</code> period is:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode py"><code class="sourceCode python"><a class="sourceLine" id="cb1-1" data-line-number="1">Initial_peak <span class="op">+</span> n<span class="op">*</span>(Period_length)</a></code></pre></div>
+<p>Example: <img src="https://user-images.githubusercontent.com/14041622/38143668-27bad4ac-3474-11e8-8c61-c71f6e4442ea.png" alt="image" /> <strong>Find the value of <code>t</code> when it’s at the function’s lowest point.</strong> Solve: - <code>Max point</code> of <code>-sin(u)</code> is the <code>Min point</code>. - X-position of the function at Initial Period is <code>u=π/2</code> - Solve the equation <code>u=π/2</code> to get <code>t</code>: <img src="https://user-images.githubusercontent.com/14041622/38143846-e40a736a-3474-11e8-9161-844bb7011675.png" alt="image" /></p>
+<h2 id="informations-of-sinusoidal-functions">Informations of Sinusoidal functions</h2>
+<p>For the <code>General sinusoidal function</code>:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode py"><code class="sourceCode python"><a class="sourceLine" id="cb2-1" data-line-number="1">f(x) <span class="op">=</span> A・sin(Bx <span class="op">+</span> C) <span class="op">+</span> D</a></code></pre></div>
+<ul>
+<li><code>Amplitude</code>: <strong>|A|</strong></li>
+<li><code>Period</code>: <strong>|2π / B|</strong></li>
+<li><code>Vertical shift</code>: <strong>D</strong></li>
+<li><code>Midline</code>: <strong>y=D</strong></li>
+<li><code>Range</code>: <strong>[-A+D, A+D]</strong></li>
+<li><code>Phase shift</code>: Set <code>(Bx+C)=0</code>, and solve for <code>x</code>.</li>
+<li><code>Sign of function</code>: is the SAME sign of the slope of the <strong>ORIGINAL</strong> function’s Y-intersect point.</li>
+</ul>
+<p>Example:</p>
+<pre><code>f(x) = - 2sin(2x + 3) + 10</code></pre>
+<ul>
+<li>Amplitude: |-2| = 2</li>
+<li>Period: |2π / 2| = π</li>
+<li>Vertical shift: +10</li>
+<li>Midline: y=10</li>
+<li>Range: <code>[2+10, -2+10]</code> = [12, 8]</li>
+<li>Horizontal shift: set <code>2x+3=0</code>, get <code>x=-3/2</code>, so it’s shifting <code>-3/2</code> from origin.</li>
+</ul>
+<p>Example 2: <img src="https://user-images.githubusercontent.com/14041622/38131750-ce7caed0-343a-11e8-8950-ecc2b3f2ef58.png" alt="image" /> Solve: - Midline: <code>y=2.5</code> - Amplitude: <code>|6-2.5|=3.5</code> - Period: Midpoint to Max is 1/4 period, so <code>1/4 * 2π/B = |-4π - (-5/2)π|</code>, solve for B gets <code>1/3</code>. - Phase shift: <code>-4π</code>. Because the <code>midpoint</code> on the left is the <code>starting point of initial period</code></p>
+<p>At this moment, our formula is almost finished: <code>y = 3.5*sin(1/3 *x +C) +2.5</code>, so only the <code>C</code> is not yet solved. set <code>1/3 *x + C = 0</code>, since , since <code>-4π</code> is the <code>phase shift</code>, so we set <code>x=-4π</code>, solve C gets <code>4π/3</code>.</p>
+</article>
+</body>
+</html>

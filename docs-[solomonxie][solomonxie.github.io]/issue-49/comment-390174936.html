@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+==============================================================================
+           "GitHub HTML5 Pandoc Template" v2.1 — by Tristano Ajmone           
+==============================================================================
+Copyright © Tristano Ajmone, 2017, MIT License (MIT). Project's home:
+
+- https://github.com/tajmone/pandoc-goodies
+
+The CSS in this template reuses source code taken from the following projects:
+
+- GitHub Markdown CSS: Copyright © Sindre Sorhus, MIT License (MIT):
+  https://github.com/sindresorhus/github-markdown-css
+
+- Primer CSS: Copyright © 2016-2017 GitHub Inc., MIT License (MIT):
+  http://primercss.io/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The MIT License 
+
+Copyright (c) Tristano Ajmone, 2017 (github.com/tajmone/pandoc-goodies)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright (c) 2017 GitHub Inc.
+
+"GitHub Pandoc HTML5 Template" is Copyright (c) Tristano Ajmone, 2017, released
+under the MIT License (MIT); it contains readaptations of substantial portions
+of the following third party softwares:
+
+(1) "GitHub Markdown CSS", Copyright (c) Sindre Sorhus, MIT License (MIT).
+(2) "Primer CSS", Copyright (c) 2016 GitHub Inc., MIT License (MIT).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+==============================================================================-->
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>comment-390174936</title>
+  <style type="text/css">
+.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#24292e;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:16px;line-height:1.5;word-wrap:break-word;box-sizing:border-box;min-width:200px;max-width:980px;margin:0 auto;padding:45px}.markdown-body a{color:#0366d6;background-color:transparent;text-decoration:none;-webkit-text-decoration-skip:objects}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body a:hover{text-decoration:underline}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body strong{font-weight:600}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1{font-size:2em;margin:.67em 0;padding-bottom:.3em;border-bottom:1px solid #eaecef}.markdown-body h2{padding-bottom:.3em;font-size:1.5em;border-bottom:1px solid #eaecef}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#6a737d}.markdown-body img{border-style:none}.markdown-body svg:not(:root){overflow:hidden}.markdown-body hr{box-sizing:content-box;height:.25em;margin:24px 0;padding:0;overflow:hidden;background-color:#e1e4e8;border:0}.markdown-body hr::before{display:table;content:""}.markdown-body hr::after{display:table;clear:both;content:""}.markdown-body input{margin:0;overflow:visible;font:inherit;font-family:inherit;font-size:inherit;line-height:inherit}.markdown-body [type=checkbox]{box-sizing:border-box;padding:0}.markdown-body *{box-sizing:border-box}.markdown-body blockquote{margin:0}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dd{margin-left:0}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace}.markdown-body pre{font:12px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;word-wrap:normal}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body blockquote{padding:0 1em;color:#6a737d;border-left:.25em solid #dfe2e5}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body table{display:block;width:100%;overflow:auto;border-spacing:0;border-collapse:collapse}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #dfe2e5}.markdown-body table tr{background-color:#fff;border-top:1px solid #c6cbd1}.markdown-body table tr:nth-child(2n){background-color:#f6f8fa}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body code{padding:.2em 0;margin:0;font-size:85%;background-color:rgba(27,31,35,.05);border-radius:3px}.markdown-body code::after,.markdown-body code::before{letter-spacing:-.2em;content:"\00a0"}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f6f8fa;border-radius:3px}.markdown-body pre code{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code::after,.markdown-body pre code::before{content:normal}.markdown-body .full-commit .btn-outline:not(:disabled):hover{color:#005cc5;border-color:#005cc5}.markdown-body kbd{box-shadow:inset 0 -1px 0 #959da5;display:inline-block;padding:3px 5px;font:11px/10px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;color:#444d56;vertical-align:middle;background-color:#fcfcfc;border:1px solid #c6cbd1;border-bottom-color:#959da5;border-radius:3px;box-shadow:inset 0 -1px 0 #959da5}.markdown-body :checked+.radio-label{position:relative;z-index:1;border-color:#0366d6}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item input{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body::before{display:table;content:""}.markdown-body::after{display:table;clear:both;content:""}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.Alert,.Error,.Note,.Success,.Warning{padding:11px;margin-bottom:24px;border-style:solid;border-width:1px;border-radius:4px}.Alert p,.Error p,.Note p,.Success p,.Warning p{margin-top:0}.Alert p:last-child,.Error p:last-child,.Note p:last-child,.Success p:last-child,.Warning p:last-child{margin-bottom:0}.Alert{color:#246;background-color:#e2eef9;border-color:#bac6d3}.Warning{color:#4c4a42;background-color:#fff9ea;border-color:#dfd8c2}.Error{color:#911;background-color:#fcdede;border-color:#d2b2b2}.Success{color:#22662c;background-color:#e2f9e5;border-color:#bad3be}.Note{color:#2f363d;background-color:#f6f8fa;border-color:#d5d8da}.Alert h1,.Alert h2,.Alert h3,.Alert h4,.Alert h5,.Alert h6{color:#246;margin-bottom:0}.Warning h1,.Warning h2,.Warning h3,.Warning h4,.Warning h5,.Warning h6{color:#4c4a42;margin-bottom:0}.Error h1,.Error h2,.Error h3,.Error h4,.Error h5,.Error h6{color:#911;margin-bottom:0}.Success h1,.Success h2,.Success h3,.Success h4,.Success h5,.Success h6{color:#22662c;margin-bottom:0}.Note h1,.Note h2,.Note h3,.Note h4,.Note h5,.Note h6{color:#2f363d;margin-bottom:0}.Alert h1:first-child,.Alert h2:first-child,.Alert h3:first-child,.Alert h4:first-child,.Alert h5:first-child,.Alert h6:first-child,.Error h1:first-child,.Error h2:first-child,.Error h3:first-child,.Error h4:first-child,.Error h5:first-child,.Error h6:first-child,.Note h1:first-child,.Note h2:first-child,.Note h3:first-child,.Note h4:first-child,.Note h5:first-child,.Note h6:first-child,.Success h1:first-child,.Success h2:first-child,.Success h3:first-child,.Success h4:first-child,.Success h5:first-child,.Success h6:first-child,.Warning h1:first-child,.Warning h2:first-child,.Warning h3:first-child,.Warning h4:first-child,.Warning h5:first-child,.Warning h6:first-child{margin-top:0}h1.title,p.subtitle{text-align:center}h1.title.followed-by-subtitle{margin-bottom:0}p.subtitle{font-size:1.5em;font-weight:600;line-height:1.25;margin-top:0;margin-bottom:16px;padding-bottom:.3em}div.line-block{white-space:pre-line}
+  </style>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<article class="markdown-body">
+<h1 id="implicit-differentiation"><code>Implicit differentiation</code></h1>
+<blockquote>
+<p>Bit hard to understand it in the first place.</p>
+</blockquote>
+<figure>
+<img src="https://user-images.githubusercontent.com/14041622/40266041-b0ae9720-5b76-11e8-823f-33d3935a9124.png" alt="image" /><figcaption>image</figcaption>
+</figure>
+<h2 id="what-is-implicit-explicit-function"><code>What is Implicit &amp; Explicit Function</code></h2>
+<p><a href="https://www.youtube.com/watch?v=GpWCFoCznGI">Refer to video by Krista King: What is implicit differentiation?</a></p>
+<ul>
+<li><code>Explicit function</code>: it’s the normal function we’ve seen a lot before, which’s in the form of <code>y = x....</code></li>
+<li><code>Implicit function</code>: it’t NOT YET in the general form of a function and not easily separated, like <code>x² + y² = 1</code></li>
+</ul>
+<p>So knowing how to differentiate an <code>implicit function</code> is quite helpful when we’re dealing with those NOT EASILY SEPARATED functions.</p>
+<h2 id="how-to-differentiate-implicit-function"><code>How to Differentiate Implicit function</code></h2>
+<p><a href="https://www.youtube.com/watch?v=MzwcOw27ZRE">Refer to video: Use implicit differentiation to find the second derivative of y (y’’) (KristaKingMath)</a> <a href="https://www.youtube.com/watch?v=LGY-DjFsALc">Refer to video by The Organic Chemistry Tutor: Implicit Differentiation Explained - Product Rule, Quotient &amp; Chain Rule - Calculus</a></p>
+<p><a href="https://www.symbolab.com/solver/implicit-derivative-calculator/implicit%20derivative%20%5Cfrac%7Bdy%7D%7Bdx%7D%2C%20x%5E%7B2%7D%2Bxy%2By%5E%7B3%7D%3D0">Refer to Symbolab: Implicit Derivative Calculator</a></p>
+<p>Assume you are to differentiate <code>Y</code> <strong>WITH RESPECT</strong> to <code>X</code>, written as <code>dy/dx</code>: - Differentiate terms with <code>X</code> as normal - Differentiate terms with <code>Y</code> as the same to <code>X</code>, BUT multiply by <code>(dy/dx)</code> - Differentiate terms <strong>MIXED</strong> with <code>X &amp; Y</code> by using <code>Product Rule</code>, then differentiate each term.</p>
+<h3 id="how-to-differentiate-y-with-respect-to-x"><code>How to differentiate Y with respect to X</code></h3>
+<figure>
+<img src="https://user-images.githubusercontent.com/14041622/40266769-864f311c-5b83-11e8-9f35-f6087c87e85d.png" alt="image" /><figcaption>image</figcaption>
+</figure>
+<h3 id="how-to-differentiate-term-mixed-with-both-x-y"><code>How to differentiate term MIXED with both X &amp; Y</code></h3>
+<figure>
+<img src="https://user-images.githubusercontent.com/14041622/40266809-34b13dfe-5b84-11e8-8981-cd6b0349fb80.png" alt="image" /><figcaption>image</figcaption>
+</figure>
+<h3 id="example">Example</h3>
+<p><img src="https://user-images.githubusercontent.com/14041622/40271196-87e4a61c-5bcc-11e8-9b9a-bfe940549680.png" alt="image" /> Solve: <a href="https://www.symbolab.com/solver/implicit-derivative-calculator/implicit%20derivative%20%5Cfrac%7Bdy%7D%7Bdx%7D%2C%20x%5E%7B2%7D%2Bxy%2By%5E%7B3%7D%3D0">Refer to Symbolab: Implicit Derivative Calculator</a></p>
+<ul>
+<li>Treat <code>y</code> as <code>y(x)</code></li>
+<li>Apply the Sum Rule: <img src="https://user-images.githubusercontent.com/14041622/40271287-c61ce952-5bcd-11e8-92d4-3ed3c706cd2f.png" alt="image" /></li>
+<li>Apply the normal rules to <code>X term</code>, and</li>
+<li>Apply the Product Rule to the <code>Mixed term</code>, and</li>
+<li>Apply the Chain Rule to the <code>Y term</code>: <img src="https://user-images.githubusercontent.com/14041622/40271324-5448fa9a-5bce-11e8-9d89-f30ad9a81658.png" alt="image" /></li>
+<li>Operate the equation and <strong>solve for <code>dy/dx</code></strong>, and get: <img src="https://user-images.githubusercontent.com/14041622/40271337-94837f9a-5bce-11e8-8861-3b894ff5f0b9.png" alt="image" /></li>
+</ul>
+<h3 id="example-1">Example</h3>
+<p><img src="https://user-images.githubusercontent.com/14041622/40301867-f537cfd8-5d1f-11e8-87d7-308a2ebb320b.png" alt="image" /> Solve: - First thing we need to find the <strong>RIGHT</strong> equation of Chain rule. Since it’s asking us to find <code>dy/dt</code>, so we will re-write it to this one to form an equation: <img src="https://user-images.githubusercontent.com/14041622/40303119-18105648-5d24-11e8-9825-91f14654faa6.png" alt="image" /> - Then since we’ve given the <code>dx/dt = -3</code>, we only need to find out the <code>dy/dx</code> to get the result. - We’ve got an equation of <code>x &amp; y</code>, regardless whom it’s respecting to. So we can do either <code>Implicit or Explicit differentiation</code> to the equation <code>y²=7x+1</code>, with respect to <code>y</code>: <img src="https://user-images.githubusercontent.com/14041622/40303322-e0535cc2-5d24-11e8-9176-d082e0c68a70.png" alt="image" /> - Use the implicit differentiation method, we got the <code>dy/dx = 7/2y</code> - And since <code>y=6</code>, so <code>7/2y = 7/12</code> - Back to the Chain Rule equation, we get <code>dy/dt = 7/12 · (-3) = -7/4 = -1.75</code></p>
+<h3 id="example-2">Example</h3>
+<p><img src="https://user-images.githubusercontent.com/14041622/40303447-5c3a1196-5d25-11e8-9239-b95c743b8be0.png" alt="image" /> Solve: - Remind you that, in this problem, it’s <strong>NOT</strong> respecting to <code>x</code> anymore, so you need to change mind before getting confused. - First thing we need to find the <strong>RIGHT</strong> equation of Chain rule. Since it’s asking us to find <code>dx/dt</code>, so we will re-write it to this one to form an equation: <img src="https://user-images.githubusercontent.com/14041622/40303475-78622dd6-5d25-11e8-9912-bd3744e514e9.png" alt="image" /> - Then since we’ve given the <code>dy/dt = -0.5</code>, we only need to find out the <code>dx/dy</code> to get the result. - We’ve got an equation of <code>x &amp; y</code>, regardless whom it’s respecting to. It seems easier to <strong>differentiate</strong> explicitly: <img src="https://user-images.githubusercontent.com/14041622/40303547-c07bde32-5d25-11e8-8e6c-2c2d532a45b8.png" alt="image" /> - Then we use <code>d/dx</code> to differentiate the equation to get: <code>dx/dy = y⁻² = (0.2)⁻² = 25</code> - Back to the Chain Rule equation, we get <code>dx/dt = dx/dy · dy/dt = 25 * (-0.5) = -12.5</code>.</p>
+<h3 id="example-3">Example</h3>
+<p><img src="https://user-images.githubusercontent.com/14041622/40303696-6b528324-5d26-11e8-879e-e923697a8eaa.png" alt="image" /> Solve (Same with above examples): - Form an equation: <img src="https://user-images.githubusercontent.com/14041622/40303793-e113564c-5d26-11e8-94b8-fce0631e50b6.png" alt="image" /> - <code>dx/dt</code> has been given equals to <code>5</code>, so just to find out <code>dy/dx</code>: <img src="https://user-images.githubusercontent.com/14041622/40303865-20a8bfd6-5d27-11e8-9a70-e1d51f5451cf.png" alt="image" /> - And get: <img src="https://user-images.githubusercontent.com/14041622/40303898-3e7eac96-5d27-11e8-908d-e492d292c78b.png" alt="image" /> <img src="https://user-images.githubusercontent.com/14041622/40304158-238d9892-5d28-11e8-8588-c1923d4c33b4.png" alt="image" /> - Now let’s see what is <code>sin(x)</code> equal to: <img src="https://user-images.githubusercontent.com/14041622/40304151-1b93eee8-5d28-11e8-970b-04df4099abcb.png" alt="image" /> - All done.</p>
+<h2 id="second-derivatives-of-implicit-equations"><code>Second derivatives of implicit equations</code></h2>
+<p><a href="https://www.khanacademy.org/math/ap-calculus-bc?t=practice"><code>► Jump over to Khan academy for practice.</code></a></p>
+<h3 id="example-4">Example</h3>
+<p><img src="https://user-images.githubusercontent.com/14041622/42376012-2e2d845a-8150-11e8-9f8a-2a58368ac08a.png" alt="image" /> Solve: - The first derivative is: <img src="https://user-images.githubusercontent.com/14041622/42376194-d570d8f2-8150-11e8-8a55-0c4074fdfb3f.png" alt="image" /> - The second derivative is: <img src="https://user-images.githubusercontent.com/14041622/42376217-e8875f56-8150-11e8-9068-dcfa6f6895a0.png" alt="image" /> - Plug in <code>y=1</code>, and get: <img src="https://user-images.githubusercontent.com/14041622/42376247-f744cace-8150-11e8-8e7b-2563ecc9a1ce.png" alt="image" /></p>
+<h2 id="vertical-horizontal-tangents-of-implicit-equations"><code>Vertical &amp; Horizontal Tangents of Implicit Equations</code></h2>
+<p><a href="https://www.khanacademy.org/math/ap-calculus-bc?t=practice"><code>► Jump over to Khan academy for practice.</code></a></p>
+<h3 id="example-5">Example</h3>
+<p><img src="https://user-images.githubusercontent.com/14041622/42391885-65e08432-8183-11e8-9d05-d4c14413999f.png" alt="image" /> Solve: - Plug in <code>y = 0</code> into the equation and get that <code>x = -6</code>, which is the answer.</p>
+<h3 id="example-6">Example</h3>
+<p><img src="https://user-images.githubusercontent.com/14041622/42391958-b03754de-8183-11e8-8dad-bbf8cdbc3258.png" alt="image" /> Solve: - To have a <code>Vertical Tangent</code>, we have to let the <strong>derivative</strong> become <code>Undefined</code>, - which in this case is to let the denominator equal to zero: <img src="https://user-images.githubusercontent.com/14041622/42392639-1a998264-8186-11e8-9a48-99f6b296c1f9.png" alt="image" /> - Solve this equation out we get that <code>x = 3y²</code>, which means this relationship is true at the point of vertical tangent line. - Plug that back to the original function to get <code>y = -1</code>, which means the vertical tangent goes through this point. - Substitute y back and get <code>x = 3</code> - The answer is <code>(3, -1)</code>.</p>
+</article>
+</body>
+</html>
