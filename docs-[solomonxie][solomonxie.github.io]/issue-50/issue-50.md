@@ -29,4 +29,4 @@
 - [ ] Random Variables
 - [ ] Logistic Regression (with Logistic model)
 - [ ] Linear Regression (with Gradient Descent)
-- [ ] Hypothesis Testings 
+- [ ] Hypothesis Testings
