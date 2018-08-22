@@ -6,6 +6,9 @@
 - [ ] [Khan academy AP-Statistics](https://www.khanacademy.org/math/ap-statistics)
 - [ ] [Crash Course Statistics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
 
+## Tools
+- [x] [Omni Stats Calculators](https://www.omnicalculator.com/statistics)
+
 
 ## Khan academy AP Statistics
 - [x] [Categorical data](https://www.khanacademy.org/math/ap-statistics/analyzing-categorical-ap/modal/test/analyzing-categorical-ap-unit-test)
