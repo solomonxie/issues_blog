@@ -8,6 +8,7 @@
 
 ## Tools
 - [x] [Omni Stats Calculators](https://www.omnicalculator.com/statistics)
+    - [x] [Normal Distribution Calculator](https://www.omnicalculator.com/statistics/normal-distribution)
 
 
 ## Khan academy AP Statistics
