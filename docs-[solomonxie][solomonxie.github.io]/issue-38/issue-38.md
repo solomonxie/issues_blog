@@ -27,4 +27,3 @@ PCA, SVD, Eigen Decomposition, LU Decomposition, QR Decomposition, Norms, Projec
 - [ ] pandas
 
 ![image](https://user-images.githubusercontent.com/14041622/40230373-d8bd1028-5ac9-11e8-8a93-c00171b7576f.png)
- 
