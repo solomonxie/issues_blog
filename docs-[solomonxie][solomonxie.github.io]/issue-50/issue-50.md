@@ -2,8 +2,7 @@
 > Statistics is all about **PREDICTION**: Given some real information, and **predict** what will happen next.
 
 ## Study Resources
-- [x] [Khan academy Statistics & Probability](https://www.khanacademy.org/math/statistics-probability)
-- [ ] [Khan academy AP-Statistics](https://www.khanacademy.org/math/ap-statistics)
+- [ ] [Khan academy Statistics & Probability](https://www.khanacademy.org/math/statistics-probability)
 - [ ] [Crash Course Statistics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
 
 ## Tools
