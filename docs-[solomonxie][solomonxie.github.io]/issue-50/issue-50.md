@@ -18,7 +18,7 @@
 - [x] [Bivariate Numerical data](https://www.khanacademy.org/math/ap-statistics/bivariate-data-ap/modal/test/bivariate-data-ap-unit-test)
 - [x] [Study design](https://www.khanacademy.org/math/ap-statistics/gathering-data-ap/modal/test/gathering-data-ap-unit-test)
 - [ ] [Probability](https://www.khanacademy.org/math/statistics-probability/probability-library/modal/test/probability-library-unit-test)
-- [ ] [Random Variables](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/modal/test/random-variables-stats-library-unit-test)
+- [x] [Random Variables](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/modal/test/random-variables-stats-library-unit-test)
 - [ ] [Sampling Distributions](https://www.khanacademy.org/math/statistics-probability/sampling-distributions-library/modal/test/sample-means-unit-test)
 - [ ] [Confidence Intervals](https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap/modal/test/one-sample-t-interval-mean-unit-test)
 - [ ] [Significance Tests (hypothesis testing)](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap/modal/test/one-sample-t-test-mean-unit-test)
