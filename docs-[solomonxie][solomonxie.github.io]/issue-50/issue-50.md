@@ -17,7 +17,7 @@
 - [x] [Modeling Data Distributions](https://www.khanacademy.org/math/statistics-probability/modeling-distributions-of-data)
 - [x] [Bivariate Numerical data](https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data)
 - [x] [Study design](https://www.khanacademy.org/math/statistics-probability/designing-studies)
-- [ ] [Probability](https://www.khanacademy.org/math/statistics-probability/probability-library/modal/test/probability-library-unit-test)
+- [x] [Probability](https://www.khanacademy.org/math/statistics-probability/probability-library/modal/test/probability-library-unit-test)
 - [x] [Counting, permutations, and combinations](https://www.khanacademy.org/math/statistics-probability/counting-permutations-and-combinations/modal/test/combinatorics-probability-unit-test)
 - [x] [Random Variables](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/modal/test/random-variables-stats-library-unit-test)
 - [ ] [Sampling Distributions](https://www.khanacademy.org/math/statistics-probability/sampling-distributions-library/modal/test/sample-means-unit-test)
