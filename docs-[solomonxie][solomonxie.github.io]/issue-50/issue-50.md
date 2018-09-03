@@ -21,10 +21,9 @@
 - [x] [Counting, permutations, and combinations](https://www.khanacademy.org/math/statistics-probability/counting-permutations-and-combinations/modal/test/combinatorics-probability-unit-test)
 - [x] [Random Variables](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/modal/test/random-variables-stats-library-unit-test)
 - [x] [Sampling Distributions](https://www.khanacademy.org/math/statistics-probability/sampling-distributions-library/modal/test/sample-means-unit-test)
-- [ ] Confidence intervals
-- [ ] Significance tests (hypothesis testing)
-- [ ] Inference for categorical data (chi-square tests)
-
+- [ ] [Confidence intervals](https://www.khanacademy.org/math/statistics-probability/confidence-intervals-one-sample/modal/test/old-confidence-interval-videos-unit-test)
+- [ ] [Significance Tests (Hypothesis Testing)](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/modal/test/more-significance-testing-videos-unit-test)
+- [ ] [Inference for Categorical Data (Chi-Square Tests)](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/modal/test/chi-square-tests-for-homogeneity-and-association-independence-unit-test)
 
 ## Machine Learning related topics
 - [ ] Bayesian Statistics
