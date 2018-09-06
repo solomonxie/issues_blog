@@ -24,7 +24,7 @@
 - [x] [Confidence intervals](https://www.khanacademy.org/math/statistics-probability/confidence-intervals-one-sample/modal/test/old-confidence-interval-videos-unit-test)
 - [ ] [Significance Tests (Hypothesis Testing)](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/modal/test/more-significance-testing-videos-unit-test)
 - [ ] [Inference for Categorical Data (Chi-Square Tests)](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/modal/test/chi-square-tests-for-homogeneity-and-association-independence-unit-test)
-- [ ] [◆ `Course Challenge`](https://www.khanacademy.org/math/statistics-probability/modal/test/subject-challenge)
+- [ ] [◆ `Course Challenge` ◆](https://www.khanacademy.org/math/statistics-probability/modal/test/subject-challenge)
 
 ## Machine Learning related topics
 - [ ] Bayesian Statistics
