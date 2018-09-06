@@ -6,8 +6,16 @@
 - [ ] [Crash Course Statistics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
 
 ## Tools
+- [ ] [Online Stat Book](http://onlinestatbook.com/stat_sim/)
+    - [x] [Normal Distribution Simulation](http://onlinestatbook.com/2/calculators/normal_dist.html)
+    - [ ] [Sampling Distribution Simulation](http://onlinestatbook.com/stat_sim/sampling_dist/index.html)
 - [x] [Omni Stats Calculators](https://www.omnicalculator.com/statistics)
     - [x] [Normal Distribution Calculator](https://www.omnicalculator.com/statistics/normal-distribution)
+    - [x] [Combination Calculator](https://www.omnicalculator.com/statistics/combination)
+    - [x] [Permutation Calculator](https://www.omnicalculator.com/statistics/permutation)
+    - [ ] [Binomial Distribution Calculator](https://www.omnicalculator.com/statistics/binomial-distribution)
+    - [ ] [Geometric Distribution Calculator](https://www.omnicalculator.com/statistics/geometric-distribution)
+    - [ ] [Confidence Interval Calculator](Confidence Interval Calculator)
 
 
 ## Khan academy AP Statistics
