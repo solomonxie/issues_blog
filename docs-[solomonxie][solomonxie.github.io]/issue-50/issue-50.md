@@ -6,10 +6,10 @@
 - [ ] [Crash Course Statistics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
 
 ## Tools
-- [ ] [Online Stat Book (java needed)](http://onlinestatbook.com/stat_sim/)
+- [ ] [Online Stat Book (java required)](http://onlinestatbook.com/stat_sim/)
     - [ ] [Simulation Demos](http://onlinestatbook.com/chapter0/sims_demos.html)
     - [x] [Normal Distribution Simulation](http://onlinestatbook.com/2/calculators/normal_dist.html)
-    - [ ] [Sampling Distribution Simulation](http://onlinestatbook.com/stat_sim/sampling_dist/index.html)
+    - [x] [Sampling Distribution Simulation](http://onlinestatbook.com/stat_sim/sampling_dist/index.html)
 - [x] [Omni Stats Calculators](https://www.omnicalculator.com/statistics)
     - [x] [Normal Distribution Calculator](https://www.omnicalculator.com/statistics/normal-distribution)
     - [x] [Combination Calculator](https://www.omnicalculator.com/statistics/combination)
