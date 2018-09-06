@@ -7,6 +7,7 @@
 
 ## Tools
 - [ ] [Online Stat Book](http://onlinestatbook.com/stat_sim/)
+    - [ ] [Simulation Demos](http://onlinestatbook.com/chapter0/sims_demos.html)
     - [x] [Normal Distribution Simulation](http://onlinestatbook.com/2/calculators/normal_dist.html)
     - [ ] [Sampling Distribution Simulation](http://onlinestatbook.com/stat_sim/sampling_dist/index.html)
 - [x] [Omni Stats Calculators](https://www.omnicalculator.com/statistics)
