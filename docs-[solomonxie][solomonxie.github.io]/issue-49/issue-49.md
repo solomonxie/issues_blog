@@ -32,6 +32,9 @@ categories:
 - [x] [Symbolab](https://www.symbolab.com/)
 - [x] [Desmos](https://www.desmos.com/calculator)
 - [x] [GeoGebra](https://www.geogebra.org/3d?lang=en)
+- [ ] [MIT Mathlets](http://mathlets.org/mathlets/)
+    - [ ] [TAYLOR POLYNOMIALS](http://mathlets.org/mathlets/taylor-polynomials/)
+    - [ ] [HARMONIC FREQUENCY RESPONSE: VARIABLE INPUT FREQUENCY](http://mathlets.org/mathlets/harmonic-frequency-response-i/)
 
 ## Practice To-do List (Linked with Unit tests)
 - [x] [Limits and continuity](https://www.khanacademy.org/math/ap-calculus-bc/bc-limits-new/modal/test/bc-limits-optional-unit-test)
@@ -44,4 +47,3 @@ categories:
 - [x] [Applications of integration](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-of-integration-new/modal/test/bc-8-14-unit-test)
 - [x] [Infinite sequences and series](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/test/bc-series-optional-unit-test)
 
- 
