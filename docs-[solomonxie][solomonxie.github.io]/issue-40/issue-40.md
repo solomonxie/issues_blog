@@ -1,4 +1,4 @@
-# Linear Algebra with Moocs 线性代数课程笔记
+# Linear Algebra Intro 线性代数入门
 > Quick notes on College level of Math or Stats for machine learning.
 
 ## Study resources
