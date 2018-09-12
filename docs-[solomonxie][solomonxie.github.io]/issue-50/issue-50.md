@@ -22,6 +22,8 @@
     - [ ] [Binomial Distribution Calculator](https://www.omnicalculator.com/statistics/binomial-distribution)
     - [ ] [Geometric Distribution Calculator](https://www.omnicalculator.com/statistics/geometric-distribution)
     - [ ] [Confidence Interval Calculator](https://www.omnicalculator.com/statistics/confidence-interval)
+- [x] Others
+    - [x] [SurfStat T-distribution Calculator](https://surfstat.anu.edu.au/surfstat-home/tables/t.php)
 
 
 ## Khan academy AP Statistics
