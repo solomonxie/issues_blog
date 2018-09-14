@@ -5,7 +5,7 @@
 ## 涉及问题
 - [ ] Protocols 互联网协议
     - [ ] TCP/IP
-    - [ ] HTTP
+    - [x] HTTP
 - [ ] Troubleshooting 网络诊断
 - [x] Web monitor 网络监控
     - [x] Netdata
@@ -29,3 +29,6 @@
     - [x] ownCloud 私有云
     - [x] Webdav 网盘
     - [x] Samba 网盘
+- [x] 网络应用服务器
+    - [x] Apache
+    - [x] Nginx

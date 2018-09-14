@@ -5,9 +5,6 @@
 - [x] 静态网页生成器
     - [x] Github Pages
     - [x] Jekyll
-- [x] 网络应用服务器
-    - [x] Apache
-    - [x] Nginx
 - [x] 动态网页服务器
     - [x] Wordpress
     - [x] Django
