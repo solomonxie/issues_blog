@@ -25,3 +25,7 @@
     - [x] FTP
     - [x] SFTP
     - [x] scp
+- [x] 网络共享
+    - [x] ownCloud 私有云
+    - [x] Webdav 网盘
+    - [x] Samba 网盘
