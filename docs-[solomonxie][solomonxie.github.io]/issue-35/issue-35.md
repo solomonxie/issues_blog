@@ -7,10 +7,13 @@
     - [ ] TCP/IP
     - [ ] HTTP
 - [ ] Troubleshooting 网络诊断
-- [ ] Web monitor 网络监控
+- [x] Web monitor 网络监控
 - [ ] Web traffic sniffing 抓包分析
 - [x] Proxy 代理
     - [x] Shadowsocks
+- [x] 公网映射
+    - [ ] SSH Tunnel
+    - [x] FRP
 - [x] 网络连接
     - [x] SSH 终端连接
     - [x] Mosh 终端连接
