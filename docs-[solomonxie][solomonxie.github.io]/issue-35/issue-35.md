@@ -8,7 +8,9 @@
     - [ ] HTTP
 - [ ] Troubleshooting 网络诊断
 - [x] Web monitor 网络监控
+    - [x] Netdata
 - [ ] Web traffic sniffing 抓包分析
+    - [ ] Wireshark
 - [x] Proxy 代理
     - [x] Shadowsocks
 - [x] 公网映射
