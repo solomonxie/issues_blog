@@ -25,6 +25,10 @@
 - [x] SurfStat
     - [x] [T-distribution Calculator](https://surfstat.anu.edu.au/surfstat-home/tables/t.php)
     - [x] [Standard Normal Calculator](https://surfstat.anu.edu.au/surfstat-home/tables/normal.php)
+- [ ] DI Management
+    - [x] [Chi-square calculator](https://www.di-mgt.com.au/chisquare-calculator.html)
+- [ ] Maths if Fun
+    - [x] [Chi-Square Calculator](https://www.mathsisfun.com/data/chi-square-calculator.html)
 
 
 ## Khan academy AP Statistics
