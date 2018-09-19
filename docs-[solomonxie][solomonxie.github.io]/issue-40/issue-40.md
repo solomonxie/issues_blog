@@ -1,6 +1,9 @@
 # Linear Algebra Intro 线性代数入门
 > Quick notes on College level of Math or Stats for machine learning.
 
+![image](https://user-images.githubusercontent.com/14041622/45772250-b5164380-bc79-11e8-8795-713e8e9f1a05.png)
+
+
 ## Study resources
 - [x] [Wiki: List of linear algebra topics](https://en.wikipedia.org/wiki/List_of_linear_algebra_topics)
 - [x] [Slant: What are the best resources to learn linear algebra?](https://www.slant.co/topics/6073/~resources-to-learn-linear-algebra)
