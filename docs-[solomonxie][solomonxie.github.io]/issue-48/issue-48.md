@@ -10,7 +10,6 @@
     - [x] Algebra: Systems of equations
     - [x] Vector: Dot product & Cross product
 
-> Quick notes on College level of Math or Stats for machine learning.
 
 ## Study resources
 - [x] [Wiki: List of linear algebra topics](https://en.wikipedia.org/wiki/List_of_linear_algebra_topics)
