@@ -1,4 +1,4 @@
-# Pre Linear Algebra 线性代数基础
+# Linear Algebra Basics 线性代数基础
 It's so much better to extract the basic knowledge from Precalculus in here.
 
 ## Prerequisites
@@ -8,4 +8,4 @@ It's so much better to extract the basic knowledge from Precalculus in here.
     - [x] Precalculus: Conversion of complex numbers
     - [x] Algebra: Line equation
     - [x] Algebra: Systems of equations
-    - [x] Vector: Dot product & Cross product 
+    - [x] Vector: Dot product & Cross product
