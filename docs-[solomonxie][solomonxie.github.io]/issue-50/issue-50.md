@@ -46,7 +46,7 @@
 - [x] [Significance Tests (Hypothesis Testing)](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/modal/test/more-significance-testing-videos-unit-test)
 - [x] [Inference different groups](https://www.khanacademy.org/math/ap-statistics/two-sample-inference/modal/test/two-sample-t-test-means-unit-test)
 - [x] [Chi-Square Tests for Categorical data](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/modal/test/chi-square-tests-for-homogeneity-and-association-independence-unit-test)
-- [ ] [Advanced Regression (inference and transforming)](https://www.khanacademy.org/math/ap-statistics/inference-slope-linear-regression/modal/test/inference-slope-unit-test)
+- [x] [Advanced Regression (inference and transforming)](https://www.khanacademy.org/math/ap-statistics/inference-slope-linear-regression/modal/test/inference-slope-unit-test)
 - [ ] [◆ `Course Challenge` ◆](https://www.khanacademy.org/math/statistics-probability/modal/test/subject-challenge)
 
 ## Machine Learning related topics
