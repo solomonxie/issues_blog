@@ -16,4 +16,3 @@
 [苹果曾人才流失快 04年乔布斯着手接班人培养.docx](https://github.com/solomonxie/solomonxie.github.io/files/1934622/04.docx)
 [云渲染.docx](https://github.com/solomonxie/solomonxie.github.io/files/1934624/default.docx)
 [云渲染概念及优势.docx](https://github.com/solomonxie/solomonxie.github.io/files/1934625/default.docx)
- 

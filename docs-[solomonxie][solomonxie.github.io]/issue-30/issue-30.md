@@ -5,4 +5,4 @@
 
 ## 已收集IDE
 - [x] Sublime Text
-- [x] VScode 
+- [x] VScode

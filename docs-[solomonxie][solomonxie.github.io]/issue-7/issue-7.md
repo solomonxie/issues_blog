@@ -34,4 +34,3 @@ cmd中输入
 然后在cmd中输入`Scrapy`回车，有反应的话，就完工了！
 
 ![scra](https://cloud.githubusercontent.com/assets/14041622/11429408/598c145a-94b2-11e5-9e69-6de029feb5b0.png)
- 

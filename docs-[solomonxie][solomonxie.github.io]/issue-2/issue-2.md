@@ -9,4 +9,3 @@
 
 ![jumpcn naruto 20100904-1720573](https://cloud.githubusercontent.com/assets/14041622/10400553/f9f787a4-6eeb-11e5-96f3-bd9a7d2b352f.JPG)
 ## Hahaha~~
- 

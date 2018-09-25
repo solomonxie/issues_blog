@@ -17,4 +17,3 @@ Xie·Xiaobo
 [《如何正确地分析谢小波2014》.pdf](https://github.com/solomonxie/solomonxie.github.io/files/2020141/2014.pdf)
 [如何正确地分析谢小波2014.docx](https://github.com/solomonxie/solomonxie.github.io/files/2020142/2014.docx)
 [How To Correctly Analyze Xie Xiaobo 2014.docx](https://github.com/solomonxie/solomonxie.github.io/files/2020144/How.To.Correctly.Analyze.Xie.Xiaobo.2014.docx)
- 
