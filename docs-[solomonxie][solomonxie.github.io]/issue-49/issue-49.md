@@ -17,7 +17,7 @@ categories:
 ## Study resources
 - [x] [Khan academy: AP Calculus BC](https://www.khanacademy.org/math/ap-calculus-bc)
 - [x] [Kristan King: Calculus I (Differential Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BOYyyC-Gunxrh-jYnSfsQy0)
-- [x] [Kristan King: Calculus II (Integra Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMdeuQfJDVRJ5DPMduSzVow)
+- [x] [Kristan King: Calculus II (Integral Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMdeuQfJDVRJ5DPMduSzVow)
 - [x] [Kristan King: Calculus III (Multivariable Calculus)](https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMObozItpbiZ8f2pjf3qS9M)
 - [x] [The Organic Chemistry Tutor: New Calculus Playlist](https://www.youtube.com/playlist?list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv)
 - [x] [Mathispower4u: Calculus playlist](http://www.mathispower4u.com/calculus.php)
