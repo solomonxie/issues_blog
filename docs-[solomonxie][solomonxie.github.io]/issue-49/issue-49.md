@@ -49,9 +49,13 @@ categories:
 
 
 ## `Table of Contents`
-- [ ] [Limit & Continuity](url)
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [Limit & Continuity](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-389065252)
+    - [Limits at infinity](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-389097947)
+    - [All types of discontinuities](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-389112016)
+- [Derivatives](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-389389887)
+    - [Differentiability](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-389450771)
+    - [Local linearity & Linear approximation](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-389748831)
+    - [Basic Differential Rules](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-390102382)
+    - [Chain Rule](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-390151930)
+    - [Derivatives of Trig functions](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-390171964)
+
