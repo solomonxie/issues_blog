@@ -50,6 +50,7 @@ categories:
 
 ## `Table of Contents`
 - [Limit & Continuity](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-389065252)
+    - [Limit properties & Limits of Combined Functions](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-388416883)
     - [Limits at infinity](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-389097947)
     - [All types of discontinuities](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-389112016)
 - [Differential Calculus](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-389389887)
