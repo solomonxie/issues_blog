@@ -91,7 +91,7 @@ categories:
     - [Parametric Equations Differentiation](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-396505172)
     - [Separable Differential Equations](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-396517400)
     - [Specific antiderivatives](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-396520824)
-    - [Polar Functions (Differential Calc))](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-396527546)
+    - [Polar Curve Functions (Differential Calc))](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-396527546)
     - [Logistic Growth Model](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-396537354)
     - [Slope Field](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-396852129)
     - [Euler's Method](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-396852203)
