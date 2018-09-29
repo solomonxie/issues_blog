@@ -97,7 +97,7 @@ categories:
     - [Logistic Growth Model](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-396537354)
     - [Slope Field](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-396852129)
     - [Euler's Method](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-396852203)
-- [▶ Applications of definite integrals](url)
+- [▶ Applications of definite integrals](https://github.com/solomonxie/solomonxie.github.io/issues/49)
     - [Area under Rate function](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-398313540)
     - [Motion problems](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-398340530)
     - [Planar motion](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-398346952)
