@@ -81,6 +81,8 @@ categories:
     - [Antiderivatives](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-394270551)
     - [Fundamental Theorem of Calculus (FTC)](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-395305706)
     - [**`Basic Integral Rules`**](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-395356656)
+    - [Calculate Integrals](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-395370129)
+    - [Integration using Trig identities](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-395370247)
     - [Improper Integral](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-395404568)
     - [U-substitution → Chain Rule](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-395677669)
     - [Integrate by Parts → Product Rule](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-395694311)
