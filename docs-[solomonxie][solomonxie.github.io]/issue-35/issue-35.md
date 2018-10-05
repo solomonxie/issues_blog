@@ -14,7 +14,7 @@
 - [x] Proxy 代理
     - [x] Shadowsocks
 - [x] 公网映射
-    - [ ] SSH Tunnel
+    - [x] SSH Tunnel
     - [x] FRP
 - [x] 网络连接
     - [x] SSH 终端连接
