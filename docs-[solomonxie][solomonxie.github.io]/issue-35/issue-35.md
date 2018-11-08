@@ -5,7 +5,7 @@
 ## 涉及问题
 - [ ] Protocols 互联网协议
     - [ ] TCP/IP
-    - [x] HTTP
+    - [ ] HTTP
 - [ ] Troubleshooting 网络诊断
 - [x] Web monitor 网络监控
     - [x] Netdata
