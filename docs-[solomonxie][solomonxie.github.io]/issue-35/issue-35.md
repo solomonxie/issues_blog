@@ -7,7 +7,7 @@
     - [ ] TCP/IP
     - [ ] HTTP
     - [ ] HTTPS / SSL 
-    - [ ] CA / DV / OV / EV
+    - [x] CA / DV / OV / EV
 - [ ] Troubleshooting 网络诊断
 - [x] Web monitor 网络监控
     - [x] Netdata
