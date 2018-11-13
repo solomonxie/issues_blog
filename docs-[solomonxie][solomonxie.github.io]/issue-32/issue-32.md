@@ -2,6 +2,10 @@
 > 记录网络应用、网站建设等相关笔记。
 
 ## 涉及内容
+- [x] HTTP Server (Web Server)
+    - [ ] WSGI / uWSGI
+    - [ ] Nginx
+    - [ ] Apache
 - [x] 静态网页生成器 (Static Site Generator)
     - [x] Github Pages (Host)
     - [x] Jekyll
