@@ -28,13 +28,6 @@
     - [x] SFTP
     - [x] scp
     - [x] rsync
-- [x] 网络文件共享 File Sharing Protocol/System
-    - [x] ownCloud 私有云
-    - [x] NextCloud 私有云
-    - [x] Seafile 私有云
+- [x] 网络文件共享 File Sharing Protocol
     - [x] Webdav / Wsgidav
     - [x] Samba 
-- [x] 网络应用服务器 HTTP Server
-    - [x] Apache
-    - [x] Nginx
-    - [ ] SimpleHTTPServer
