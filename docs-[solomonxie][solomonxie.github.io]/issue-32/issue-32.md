@@ -6,6 +6,10 @@
     - [ ] WSGI / uWSGI
     - [ ] Nginx
     - [ ] Apache
+    - [ ] SimpleHTTPServer
+- [x] 网络文件共享 File Sharing System
+    - [x] ownCloud 私有云
+    - [x] NextCloud 私有云
 - [x] 静态网页生成器 (Static Site Generator)
     - [x] Github Pages (Host)
     - [x] Jekyll
