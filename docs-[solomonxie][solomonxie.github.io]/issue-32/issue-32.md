@@ -17,10 +17,12 @@
     - [x] ownCloud 私有云
     - [x] NextCloud 私有云
 - [x] 静态网页生成器 (Static Site Generator)
-    - [x] Github Pages (Host)
-    - [x] Jekyll
-    - [ ] Hugo
-    - [ ] Hexo
+    - [x] Github Pages (Jekyll or HTML)
+    - [x] Gitbook (Node.js)
+    - [ ] Readthedocs (reStructured Text)
+    - [x] Jekyll (Ruby)
+    - [ ] Hugo (Go)
+    - [ ] Hexo (Node.js)
 - [x] 动态模版语言 (Website Template Language/Engine)
     - [ ] Jinja2 (Python)
     - [x] Liquid (Ruby)
