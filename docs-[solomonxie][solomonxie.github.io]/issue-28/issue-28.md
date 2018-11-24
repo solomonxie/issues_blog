@@ -6,7 +6,7 @@
     - [x] SQL
     - [x] MySQL：传统中大型项目硬盘级存储
         - [ ] MariaDB：是MySQL的Fork分支，独立开发以规避MySQL的闭源风险。
-    - [ ] PostgreSQL：是MySQL的最强替代品和超越者，解决了超多MySQL短板缺点。
+    - [ ] PostgreSQL：是MySQL的最强替代品和超越者，解决了超多短板缺点，但效率有时不如它。
 - [x] NoSQL 非关系型数据库
     - [x] MongoDB：目前功能最齐全、查询方式最丰富的NoSQL大型存储
     - [ ] 内存数据库
