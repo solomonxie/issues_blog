@@ -7,11 +7,10 @@
 - [x] HTTP Server (Web Server)
     - [ ] Nginx
     - [ ] Apache
-- [x] 动态网页服务器 (Webapp Framework)
+- [x] Webapp Framework (CGI / WSGI / uWSGI)
     - [x] Wordpress (PHP)
     - [x] Django (Python)
     - [x] Flask (Python)
-    - [ ] CGI / WSGI / uWSGI
 - [x] 网络文件共享 File Sharing System
     - [x] ownCloud 私有云
     - [x] NextCloud 私有云
