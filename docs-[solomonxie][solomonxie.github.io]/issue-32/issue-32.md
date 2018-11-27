@@ -5,10 +5,11 @@
 
 ## 涉及内容
 - [x] HTTP Server (Web Server)
-    - [ ] WSGI / uWSGI
     - [ ] Nginx
     - [ ] Apache
-    - [ ] SimpleHTTPServer
+    - [ ] CGI / WSGI / uWSGI
+    - [ ] Flask
+    - [ ] Django
 - [x] 动态网页服务器 (Webapp Framework)
     - [x] Wordpress (PHP)
     - [x] Django (Python)
