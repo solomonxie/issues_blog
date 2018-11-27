@@ -23,5 +23,5 @@
     - [ ] Hugo (Go)
     - [ ] Hexo (Node.js)
 - [x] 动态模版语言 (Website Template Language/Engine)
-    - [ ] Jinja2 (Python)
+    - [x] Jinja2 (Python)
     - [x] Liquid (Ruby)
