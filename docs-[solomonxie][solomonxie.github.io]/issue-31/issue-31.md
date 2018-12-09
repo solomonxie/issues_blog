@@ -9,4 +9,4 @@
     - [x] Azure
     - [x] Google Cloud
     - [x] Aliyun
-- [ ] 自建服务器PC (DIY)
+- [x] 自建服务器PC (DIY)
