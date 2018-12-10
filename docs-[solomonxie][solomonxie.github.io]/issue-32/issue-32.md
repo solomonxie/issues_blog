@@ -11,7 +11,7 @@
     - [x] Wordpress (PHP)
     - [x] Django (Python)
     - [x] Flask (Python)
-- [ ] CGI / WSGI / uWSGI
+- [x] CGI / WSGI / uWSGI
 - [x] 网络文件共享 File Sharing System
     - [x] ownCloud 私有云
     - [x] NextCloud 私有云
