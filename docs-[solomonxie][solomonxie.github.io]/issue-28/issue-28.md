@@ -9,6 +9,9 @@
         - [x] MongoDB：目前功能最齐全、查询方式最丰富的NoSQL大型存储
         - [x] Redis：目前最流行的内存型数据库，支持多数据库类型及分布式、主从式存储
         - [ ] Memcached：只支持简单字符类型存储，支持功能不丰富，速度和Redis差不多。
+- [x] ORM 数据库对象映射
+    - [x] SQLAlchemy
+    - [ ] Django ORM
 - [x] 数据库设计、三范式
 - [x] SQL
     - [x] 增删改查 CRUD
