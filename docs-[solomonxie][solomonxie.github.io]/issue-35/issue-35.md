@@ -6,13 +6,15 @@
 
 
 ## 涉及问题
-- [ ] Protocols 互联网协议
-    - [ ] TCP/IP
-    - [ ] HTTP
-    - [ ] HTTPS / SSL 
+- [x] Protocols 互联网协议
+    - [x] TCP/IP
+    - [x] HTTP
+    - [x] HTTPS / SSL 
     - [x] CA / DV / OV / EV
-- [ ] Troubleshooting 网络诊断
+- [x] Troubleshooting 网络诊断
 - [x] Web monitor 网络监控
+    - [x] netstat
+    - [x] dstat
     - [x] Netdata
 - [ ] Web traffic sniffing 抓包分析
     - [ ] Wireshark
