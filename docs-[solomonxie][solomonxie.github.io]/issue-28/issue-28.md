@@ -3,7 +3,7 @@
 - [x] RDBMS 关系型数据库
     - [x] MySQL：传统中大型项目硬盘存储
         - [x] MariaDB：MySQL的Fork分支，完全兼容、命令相同，独立开源开发规避MySQL闭源。
-    - [ ] PostgreSQL：世界功能最强开源数据库，MySQL的超越者，但效率有时不如它。
+    - [x] PostgreSQL：世界功能最强开源数据库，MySQL的超越者，但效率有时不如它。
 - [x] NoSQL 非关系型数据库
     - [x] 内存数据库
         - [x] MongoDB：目前功能最齐全、查询方式最丰富的NoSQL大型存储
