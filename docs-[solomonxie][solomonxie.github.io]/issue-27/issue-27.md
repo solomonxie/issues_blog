@@ -11,7 +11,7 @@
 - [x] Bash 语言
 - [x] Linux CLI工具
 - [ ] Linux Package Manager 包管理器
-    - [ ] Apt
+    - [x] Apt
     - [ ] Apk
     - [ ] Pacman
     - [ ] rpm
