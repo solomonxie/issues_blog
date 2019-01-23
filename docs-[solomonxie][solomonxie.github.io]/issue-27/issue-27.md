@@ -4,18 +4,14 @@
 注意：这里说linux，linux之类的，其实在mac中也ok。只不过说起来和搜索起来方便而已。
 
 ## 涉及领域
-- [x] Unix 系统常识
-    - [x] 文件系统
-    - [x] 常用操作
-    - [x] 用户权限
-- [x] Bash 语言
+
+- [x] Shell
+    - [x] Bash
+    - [x] Zsh
+    - [x] Fish
 - [x] Linux CLI工具
 - [ ] Linux Package Manager 包管理器
     - [x] Apt
     - [ ] Apk
     - [ ] Pacman
     - [ ] rpm
-- [x] Shell
-    - [x] Bash
-    - [x] Zsh
-    - [x] Fish
