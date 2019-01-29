@@ -1,2 +1,2 @@
-# All About Computer Science 计算机科学
+# Computer Science 计算机科学
 >
