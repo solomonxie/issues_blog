@@ -11,6 +11,7 @@ Data Structures:
 - [ ] Queue
     - [ ] Priority Queue
 - [ ] Deque
+- [ ] String
 - [ ] Set
 - [ ] Hash Table
 - [ ] Tree
