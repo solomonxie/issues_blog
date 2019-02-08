@@ -10,6 +10,7 @@ Data Structures:
 - [ ] Stack
 - [ ] Queue
     - [ ] Priority Queue
+- [ ] Deque
 - [ ] Set
 - [ ] Hash Table
 - [ ] Tree
