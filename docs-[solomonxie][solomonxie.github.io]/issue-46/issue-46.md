@@ -4,8 +4,8 @@ Covers the topics of Algorithms & Data structures.
 Data Structures:
 - [ ] Array
 - [ ] Linked List
-    - [ ] Singular Linked List
-    - [ ] Double Linked List
+    - [ ] Singly Linked List
+    - [ ] Doubly Linked List
     - [ ] Circular Linked List
 - [ ] Stack
 - [ ] Queue
