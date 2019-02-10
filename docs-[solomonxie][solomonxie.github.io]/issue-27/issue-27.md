@@ -12,6 +12,7 @@
 - [x] Linux CLI工具
 - [ ] Linux Package Manager 包管理器
     - [x] Apt
+    - [x] Homebrew
     - [ ] Apk
     - [ ] Pacman
     - [ ] rpm
