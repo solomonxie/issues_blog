@@ -3,7 +3,7 @@ Covers the topics of Algorithms & Data structures.
 
 ## Data Structures
 
-Linear Data Structure: 
+Linear List Data Structure: 
 - [ ] Array List
     - [ ] String
     - [ ] Stack
