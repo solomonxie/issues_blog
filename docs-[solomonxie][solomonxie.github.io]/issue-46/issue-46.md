@@ -1,35 +1,38 @@
 # Algorithms and Data Structure 算法与数据结构
 Covers the topics of Algorithms & Data structures.
 
-Data Structures:
-- [ ] Linear Data Structure
-    - [ ] Array List
-        - [ ] String
-        - [ ] Stack
-        - [ ] Queue
-            - [ ] Priority Queue
-    - [ ] Linked List
-        - [ ] Singly Linked List
-        - [ ] Doubly Linked List
-        - [ ] Circular Linked List
-- [ ] Tree Data Structure
-    - [ ] Binary Tree
-    - [ ] Red-black Tree
-    - [ ] AVL Tree
-    - [ ] Heap Tree
-- [ ] Graph Data Structure
+## Data Structures
+
+Linear Data Structure: 
+- [ ] Array List
+    - [ ] String
+    - [ ] Stack
+    - [ ] Queue
+        - [ ] Priority Queue
+- [ ] Linked List
+    - [ ] Singly Linked List
+    - [ ] Doubly Linked List
+    - [ ] Circular Linked List
+
+Tree Data Structure:
+- [ ] Binary Tree
+- [ ] Red-black Tree
+- [ ] AVL Tree
+- [ ] Heap Tree
+
+Graph Data Structure:
 
 - [ ] Deque
 - [ ] Set
 - [ ] Hash Table
 
-Algorithms:
-- [ ] Sorting
-    - [ ] Bubble Sort
-    - [ ] Insertion Sort
-    - [ ] Selection Sort
-    - [ ] 
-    - [ ] Quick Sort
+## Algorithms
+
+Sorting:
+- [ ] Bubble Sort
+- [ ] Insertion Sort
+- [ ] Selection Sort
+- [ ] Quick Sort
 
 
 References:
