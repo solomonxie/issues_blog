@@ -2,14 +2,15 @@
 Covers the topics of Algorithms & Data structures.
 
 Data Structures:
-- [ ] Array
-- [ ] Linked List
-    - [ ] Singly Linked List
-    - [ ] Doubly Linked List
-    - [ ] Circular Linked List
-- [ ] Stack
-- [ ] Queue
-    - [ ] Priority Queue
+- [ ] Linear Data Structure
+    - [ ] Array
+    - [ ] Linked List
+        - [ ] Singly Linked List
+        - [ ] Doubly Linked List
+        - [ ] Circular Linked List
+    - [ ] Stack
+    - [ ] Queue
+        - [ ] Priority Queue
 - [ ] Deque
 - [ ] String
 - [ ] Set
