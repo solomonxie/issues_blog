@@ -3,24 +3,25 @@ Covers the topics of Algorithms & Data structures.
 
 Data Structures:
 - [ ] Linear Data Structure
-    - [ ] Array
+    - [ ] Array List
+        - [ ] String
+        - [ ] Stack
+        - [ ] Queue
+            - [ ] Priority Queue
     - [ ] Linked List
         - [ ] Singly Linked List
         - [ ] Doubly Linked List
         - [ ] Circular Linked List
-    - [ ] Stack
-    - [ ] Queue
-        - [ ] Priority Queue
-- [ ] Deque
-- [ ] String
-- [ ] Set
-- [ ] Hash Table
-- [ ] Tree
+- [ ] Tree Data Structure
     - [ ] Binary Tree
     - [ ] Red-black Tree
     - [ ] AVL Tree
     - [ ] Heap Tree
-- [ ] Graph
+- [ ] Graph Data Structure
+
+- [ ] Deque
+- [ ] Set
+- [ ] Hash Table
 
 Algorithms:
 - [ ] Sorting
