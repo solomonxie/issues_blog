@@ -4,5 +4,4 @@
 - [ ] CI/CD
     - [ ] Travis
 - [ ] Ansible
-- [ ] Excel VBA/VBS
 - [ ] AWK/SED
