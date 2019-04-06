@@ -10,7 +10,7 @@ VIM TODO:
 - [ ] https://github.com/wellle/targets.vim
 - [ ] https://github.com/ajh17/VimCompletesMe
 - [ ] https://github.com/SidOfc/mkdx
-
+- [ ] Ctags jumps whole project (Save tag files to `.git/` to avoid tracking)
 
 
 ## Plugins
