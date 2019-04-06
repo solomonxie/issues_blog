@@ -2,7 +2,7 @@
 ## 学vim的笔记。觉得这样历程型的笔记再好不过了。
 
 
-VIM Plugins TODO:
+VIM TODO:
 - [ ] https://github.com/devjoe/vim-codequery
 - [ ] https://github.com/easymotion/vim-easymotion
 - [ ] https://github.com/justinmk/vim-sneak
@@ -10,6 +10,7 @@ VIM Plugins TODO:
 - [ ] https://github.com/wellle/targets.vim
 - [ ] https://github.com/ajh17/VimCompletesMe
 - [ ] https://github.com/SidOfc/mkdx
+
 
 
 ## Plugins
