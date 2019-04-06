@@ -89,7 +89,7 @@ VIM TODO:
     - [x] `powerman/vim-plugin-viewdoc` "K-preview improvement
 
 
-## MISC
+### MISC
 
 - [x] `kassio/neoterm`
 - [x] `tpope/vim-obsession`  "For Tmux to restore VIM sessions
@@ -97,7 +97,7 @@ VIM TODO:
 - [x] `tweekmonster/startuptime.vim`   "VIM loading analysis
 
 
-## Stopped using
+### Discarded
 
 - [x] Window
     - [x] `blueyed/vim-diminactive`  "not dim Indent lines
