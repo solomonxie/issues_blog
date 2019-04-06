@@ -12,7 +12,7 @@ VIM Plugins TODO:
 - [ ] https://github.com/SidOfc/mkdx
 
 
-## Plugins Tried
+## Plugins
 
 ### UI
 
@@ -87,4 +87,11 @@ VIM Plugins TODO:
 - Documentation
     - `powerman/vim-plugin-viewdoc` "K-preview improvement
 
+
+## MISC
+
+- `kassio/neoterm`
+- `tpope/vim-obsession`  "For Tmux to restore VIM sessions
+- `mbbill/undotree`
+- `tweekmonster/startuptime.vim`   "VIM loading analysis
 
