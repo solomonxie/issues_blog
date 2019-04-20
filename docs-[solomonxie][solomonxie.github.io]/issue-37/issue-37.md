@@ -1,4 +1,4 @@
-# DevOooops
+# DevOps & Oooops
 涉及领域：
 - [x] Docker
 - [ ] CI/CD
