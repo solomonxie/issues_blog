@@ -12,4 +12,5 @@
 - [x] Azure 微软
 - [x] Google Cloud 谷歌云
 - [x] Aliyun 阿里云
+    - [x] ECS
 - [x] DIY Server 自建服务器
