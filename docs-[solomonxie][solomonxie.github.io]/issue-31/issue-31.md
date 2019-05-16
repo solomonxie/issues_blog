@@ -3,10 +3,13 @@
 另外，附带性的会有一些DigitalOcean等的其它服务商方案。
 
 ## 涉及问题
-- [x] VPS服务器供应商
-    - [x] AWS
-    - [x] Digital Ocean
-    - [x] Azure
-    - [x] Google Cloud
-    - [x] Aliyun
-- [x] 自建服务器PC (DIY)
+- [x] AWS
+    - [x] EC2
+    - [x] S3
+    - [ ] ECS
+    - [ ] Lambda
+- [x] Digital Ocean
+- [x] Azure 微软
+- [x] Google Cloud 谷歌云
+- [x] Aliyun 阿里云
+- [x] DIY Server 自建服务器
