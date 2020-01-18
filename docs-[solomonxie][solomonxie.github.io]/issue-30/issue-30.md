@@ -7,3 +7,4 @@
 - [x] Sublime Text
 - [x] VScode
 - [x] Excel VBA/VBS
+- [x] Jupyter Notebook
