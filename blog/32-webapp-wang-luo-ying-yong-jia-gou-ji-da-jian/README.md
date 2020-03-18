@@ -14,7 +14,7 @@
 - [ ] Webapp Framework
     - [ ] Wiki Server
         - [ ] Django-wiki (Python)
-    - [ ] Blog Server
+    - [x] Blog Server
 - [x] CGI / WSGI / uWSGI
 - [x] Chrome Developer Tools
 - [x] 网络文件共享 File Sharing System
