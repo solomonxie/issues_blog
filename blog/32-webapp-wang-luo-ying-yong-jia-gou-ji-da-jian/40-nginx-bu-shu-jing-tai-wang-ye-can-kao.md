@@ -1,5 +1,9 @@
 # Nginx 部署静态网页
 
+参考：https://showzeng.itscoder.com/nginx/2016/10/03/use-nginx-to-deploy-static-pages-easily.html
+参考：https://blog.csdn.net/lizhiyuan_eagle/article/details/90639448
+参考：https://juejin.im/post/5d7b72b7e51d453b386a63bc
+
 ```conf
 http {
     server {
