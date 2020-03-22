@@ -1,0 +1,124 @@
+#  ❖ Area of 「Polar Curves」 (Integral Calc)
+
+Calculating area for `polar curves`, means we're now under the `Polar Coordinate` to do integration.
+And instead of using `rectangles`  to calculate the area, we are to use `triangles` to integrate the area for a curve.
+
+> [`▶ Back to Polar functions (Differential Calc)`](http://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-396527546)
+
+![image](https://user-images.githubusercontent.com/14041622/42410413-d8c58ad6-821b-11e8-9c16-f99783a79688.png)
+
+
+There're a few notable differences for calculating `Area of Polar Curves`:
+- It's now under the **`Polar Coordinate`**.
+- It's using **`Circle Sectors`** with infinite small angles to integral the area.
+- It's the area between the function graph and a **`RAY`** or two **`RAYS`** from the origin.
+
+[`▶ Practice at Khan academy: Area bounded by polar curves`](https://www.khanacademy.org/math/old-ap-calculus-bc/bc-applications-definite-integrals/modal/e/area-enclosed-by-polar-graphs)
+
+[Refer to Khan Academy: Area bounded by polar curves](https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-definite-integrals/bc-polar-graphs-area/v/formula-area-polar-graph)
+
+![image](https://user-images.githubusercontent.com/14041622/41646649-f894721e-74a6-11e8-8f27-1b43183bdb99.png)
+
+
+![image](https://user-images.githubusercontent.com/14041622/41646309-ffdea87e-74a5-11e8-88c6-31b483d38137.png)
+
+
+## Finding the right 「boundaries」
+
+> The most tricky part in Polar system, is finding the right boundaries for `θ`, and it will be the first step for polar integral as well.
+
+[Refer to youtube: Finding Area In Polar Coordinates](https://www.youtube.com/watch?v=GQ6cDvY8K9g)
+
+Why is this?
+![image](https://user-images.githubusercontent.com/14041622/46336712-2da7d780-c65e-11e8-807d-35a7178bfad3.png)
+
+> Better to try out on Desmos.com, to see if the interval produces the right shape.
+
+
+
+### Example
+Find out the boundaries of θ for integrating the shaded area:
+![image](https://user-images.githubusercontent.com/14041622/46197584-dabbe080-c33c-11e8-9923-ed1f2ab09782.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/46197568-ced01e80-c33c-11e8-98e1-c195c2744eae.png)
+
+### Example
+Find out the boundaries of θ for both of the polar curves:
+![image](https://user-images.githubusercontent.com/14041622/46199589-068d9500-c342-11e8-832f-918c211eb631.png)
+Solve:
+- Obviously, for the shading area, both of the curves start at `θ = 0` and end at intersection `θ = π/6`
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/46199919-db577580-c342-11e8-9b75-e1be7ad4e321.png)
+Solve:
+- Start thinking as we're drawing the graph: the `r` starts drawing at 0, all the way **down** for a round and goes back to 0.
+- Since it goes **counter-clockwise**, so it's obvious `r` goes from `π` then takes a round back to `2π`.
+- So the boundaries are `π and 2π`
+
+### Example
+Find out the boundaries of θ for integrating the shaded area:
+![image](https://user-images.githubusercontent.com/14041622/46197840-806f4f80-c33d-11e8-80c0-5974b12ee8fc.png)
+Solve:
+- Let's look at the **drawing track**: It starts at `r = -1` ends at `r = 0`.
+- So we're to find out the θ-value for the start of `r` and end of `r`:
+    - When `r = -1`, from the equation we get `θ = 0`
+    - When `r = 0`, from the equation we get `θ = π/3`
+- Therefore, the boundaries are:
+![image](https://user-images.githubusercontent.com/14041622/46198064-1e631a00-c33e-11e8-9064-324dff73fbec.png)
+
+
+
+### Example
+Find out the boundaries of θ for integrating the shaded area:
+![image](https://user-images.githubusercontent.com/14041622/46196797-93cceb80-c33a-11e8-917f-dc805766a4ed.png)
+Solve:
+- Notice that, for the range `θ ∋ [0,π]`, it makes `r` negative: `sin(π)-1 = -1` and `sin(0)-1 = -1`.
+- But in this case, `r` starts at 0 and ends at 0, not negative value, 
+- so we're gonna **despise** the given range, and compute the θ-value for `r=0`:
+![image](https://user-images.githubusercontent.com/14041622/46197194-a693f000-c33b-11e8-942e-2e10176081e1.png)
+- And the boundaries for θ is `π/6` and `5π/6`.
+
+
+
+## Area between 「two Polar Curves」
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41647586-5740493a-74a9-11e8-9024-236434d97861.png)
+Solve:
+- First to notice, the boundaries are at two function's intersects.
+- So let `3sinθ = 1+sinθ`, to get `θ = π/6 and 5π/6`, which are the boundaries.
+- Within the boundaries, the area asked could be calculated by subtracting the smaller area form bigger one.
+- So the area is:
+![image](https://user-images.githubusercontent.com/14041622/41647828-f1be1118-74a9-11e8-9b3d-92282a59bae0.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41648691-31bbe1e4-74ac-11e8-9d30-3fb49ab35b8e.png)
+Solve:
+- It's bit tricky to find the boundaries.
+- In this case, it's **not subtracting** one area from another, but **adding two small areas**:
+![image](https://user-images.githubusercontent.com/14041622/41649970-7bfc2784-74af-11e8-84f9-30f5b52d7e66.png)
+- As showed above, for the `cosθ` shape, its boundaries are same with Quadrant-1: `[0, π/2]`
+- For the `1+sinθ` shape, its boundaries are same with Quadrant-4: `[3π/2, 2π]`
+- So the shaded region is:
+![image](https://user-images.githubusercontent.com/14041622/41650221-1a691436-74b0-11e8-86ec-397a7541f0ed.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41737392-c1542544-75c1-11e8-9e8b-54ad8b923160.png)
+Solve:
+- Another tricky one to **combine** areas.
+- Figure out the combination areas as below:
+![image](https://user-images.githubusercontent.com/14041622/41737442-e4cf9cb0-75c1-11e8-8ea0-26126559c8f4.png)
+- So the total area is:
+![image](https://user-images.githubusercontent.com/14041622/41737460-f602bf30-75c1-11e8-8cc8-b35f73befb04.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41644776-af30e224-74a1-11e8-8627-7f65e035aaae.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/41646691-11cf8b1a-74a7-11e8-982d-76739ef477c4.png)
+
