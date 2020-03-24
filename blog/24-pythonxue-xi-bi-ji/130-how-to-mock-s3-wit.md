@@ -1,4 +1,4 @@
-# How to Mock S3 with Boto3 & MinIO
+# How to Mock S3 with Boto3 & MinIO (Entire test framework)
 
 
 Docker-compose:
