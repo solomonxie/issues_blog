@@ -1,5 +1,16 @@
 # ❖ Linux 压缩包 [DRAFT]
 
+## .zip
+解压：unzip FileName.zip
+压缩：zip FileName.zip DirName
+
+解压多个文件到各自独立目录：
+参考：https://askubuntu.com/questions/518370/extract-several-zip-files-each-in-a-new-folder-with-the-same-name-via-ubuntu-t
+```sh
+for i in *.zip; do unzip "$i" -d "${i%%.zip}"; done
+```
+———————————————
+
 
 ## .tar 
 解包：tar xvf FileName.tar
@@ -56,11 +67,6 @@
 
 解压：tar xZvf FileName.tar.Z
 压缩：tar xZvf FileName.tar.Z DirName
-———————————————
-
-## .zip
-解压：unzip FileName.zip
-压缩：zip FileName.zip DirName
 ———————————————
 
 ## .rar
