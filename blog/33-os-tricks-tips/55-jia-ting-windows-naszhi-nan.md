@@ -40,6 +40,16 @@
 - 对比主机的网速，和服务器的网速
 - 如果服务器的网速慢很多，那么就说明：即使服务器与它附近的WiFi增强器连接满格，但是增强器与主路由的连接依然有很大损耗。
 
+比如：
+
+NAS服务器网速：
+![image](https://user-images.githubusercontent.com/14041622/77644735-77942400-6f9c-11ea-9f4a-0be0a1ddfcb0.png)
+
+
+Host主机网速：
+![image](https://user-images.githubusercontent.com/14041622/77644705-68ad7180-6f9c-11ea-985d-7b224a54bbce.png)
+
+可以看到服务器的网速和主机差一个量级。即使是同一个局域网，竟然有这么大差距，这就是WiFi的损耗。
 
 ## Windows设置自动登录
 为什么？
