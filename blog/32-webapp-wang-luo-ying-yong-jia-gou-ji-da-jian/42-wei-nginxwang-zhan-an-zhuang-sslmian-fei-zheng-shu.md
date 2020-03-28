@@ -27,4 +27,21 @@ sudo apt-get install python-certbot-nginx -y
 sudo certbot certonly --nginx
 ```
 
+但是Nginx如果不支持需要的插件，有可能会出现错误。
+
+
+## 安装acmesh - 纯bash的ACME协议客户端
+
+```sh
+cd ~
+git clone https://github.com/acmesh-official/acme.sh.git
+cd ./acme.sh
+./acme.sh --install
+
+# 添加cronjob，定期更新证书
+echo '0 0 * * * "/home/ubuntu/acme.sh"/acme.sh --cron --home "/home/ubuntu/acme.sh" > /dev/null' |crontab 
+crontab -l
+```
+
+未完待续..
 
