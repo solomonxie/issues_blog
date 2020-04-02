@@ -1,3 +1,0 @@
-# Jacobian [DRAFT]
-
-
