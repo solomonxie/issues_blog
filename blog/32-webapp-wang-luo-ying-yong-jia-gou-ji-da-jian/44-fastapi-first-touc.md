@@ -18,14 +18,51 @@ How to run:
 $ uvicorn main:app --reload
 ```
 
-## Basic Validation: Request Models
+## Basic Validation: Request / Response Models
 
-Basic model:
+It's based the `Pydantic` library.
+
+Refer to: https://pydantic-docs.helpmanual.io/usage/models/
+
+
+GET method path parameters:
 ```py
-
+@app.get("/items/{item_id}")
+async def read_item(item_id: str, q: str = None):
+        return {"item_id": item_id, "q": q}
 ```
 
-Nested Model:
+Basic Request model:
+```py
+from pydantic import BaseModel
+
+class Item(BaseModel):
+    name: str
+    description: str = None
+    price: float
+
+@app.post("/items/")
+async def create_item(item: Item):
+    return item
+```
+
+
+Basic Response models:
+```py
+from pydantic import BaseModel
+
+class Item(BaseModel):
+    name: str
+    description: str = None
+    price: float
+
+@app.post("/items/", response_model=Item)
+async def create_item(item: Item):
+    return item
+```
+
+
+Nested Models:
 ```py
 class PackageEnum(str, Enum):
     package_a = 'store_product_level'
@@ -52,13 +89,6 @@ class PostBody(BaseModel):
 @app.post('/p')
 def handle_post(body: PostBody):
     return body.json()
-```
-
-
-## Basic Validation: Response Models
-
-```py
-
 ```
 
 
