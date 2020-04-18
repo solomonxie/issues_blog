@@ -31,6 +31,8 @@ project/
 
 ## Middleware
 
+The Starlette middleware deals with both Request / Response at the same `dispatch()` function, which matches the `before_request` and `after_request` functions of Flask middleware.
+
 ```py
 #application/middlewares/demo.py
 
