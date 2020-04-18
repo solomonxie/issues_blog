@@ -18,7 +18,44 @@ How to run:
 $ uvicorn main:app --reload
 ```
 
-## Basic Validation: Request / Response Models
+## Basic Validation: Request Models
+
+Basic model:
+```py
+
+```
+
+Nested Model:
+```py
+class PackageEnum(str, Enum):
+    package_a = 'store_product_level'
+    package_b = 'usage_product_level_base'
+
+class SpanEnum(str, Enum):
+    daily = 'daily'
+    weekly = 'weekly'
+    monthly = 'monthly'
+
+class ParamItem(BaseModel):
+    package: PackageEnum
+    span: SpanEnum
+    target_date: str
+
+class DetailItem(BaseModel):
+    task_name: str
+    params: ParamItem
+
+class PostBody(BaseModel):
+    user_id: str
+    tasks: List[DetailItem] = []
+
+@app.post('/p')
+def handle_post(body: PostBody):
+    return body.json()
+```
+
+
+## Basic Validation: Response Models
 
 ```py
 
