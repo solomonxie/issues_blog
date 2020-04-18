@@ -10,7 +10,8 @@
     - [x] Wordpress (PHP)
     - [x] Django (Python)
     - [x] Flask (Python)
-    - [ ] Tornado
+    - [x] FastAPI (Python)
+    - [ ] Tornado (Python)
 - [ ] Webapp Framework
     - [ ] Wiki Server
         - [ ] Django-wiki (Python)
