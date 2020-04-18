@@ -4,9 +4,19 @@
 ## Hello World
 
 ```py
+from fastapi import FastAPI
 
+app = FastAPI()
+
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
 ```
 
+How to run:
+```sh
+$ uvicorn main:app --reload
+```
 
 ## Basic Validation: Request / Response Models
 
@@ -16,6 +26,8 @@
 
 
 ## Bigger App: Project Layout with APIRouter
+
+Refer to Bigger Applications - Multiple Files: https://fastapi.tiangolo.com/tutorial/bigger-applications
 
 ```
 project/
@@ -32,6 +44,9 @@ project/
 ## Middleware
 
 The Starlette middleware deals with both Request / Response at the same `dispatch()` function, which matches the `before_request` and `after_request` functions of Flask middleware.
+
+Refer to: https://fastapi.tiangolo.com/tutorial/middleware/
+Refer to: https://www.starlette.io/middleware/#basehttpmiddleware
 
 ```py
 #application/middlewares/demo.py
