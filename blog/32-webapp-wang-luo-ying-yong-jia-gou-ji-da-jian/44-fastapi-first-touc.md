@@ -66,19 +66,23 @@ def create_app(*args, **kwargs):
 app = create_app()
 ```
 
+## Handling Post Request Body
+
+```py
+import json
+
+@app.post('/endpoint')
+def endpoint(body: PostBody):
+    payload = body.dict()
+    assert json.loads(body.json()) == payload
+```
+
 ## Directly Using Request Object
 
 ```py
-#routers.py
-from fastapi import APIRouter, Request
-
-router = APIRouter()
-
-@router.post('/endpoint')
-def endpoint(body: PostBody, request: Request):
-    payload = body.dict()
+@app.post('/endpoint')
+def endpoint(request: Request):
     headers = request.headers
-    print(body.json())
     print(headers.get('Content-Type'))
 ```
 
