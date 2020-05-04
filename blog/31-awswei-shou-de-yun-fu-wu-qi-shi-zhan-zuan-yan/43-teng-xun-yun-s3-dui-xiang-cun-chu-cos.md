@@ -116,10 +116,6 @@ output = json
 [profile tencent]
 aws_access_key_id=abc
 aws_secret_access_key=abc
-region = ap-beijing
-output = json
-endpoint-url = http://cos.ap-beijing.myqcloud.com
-
 ```
 
 然后再命令行里
@@ -129,4 +125,59 @@ aws --profile tencent --endpoint-url http://cos.ap-beijing.myqcloud.com s3 ls
 
 # 列出某个bucket的所有文件
 aws --profile tencent --endpoint-url http://cos.ap-beijing.myqcloud.com s3 ls --recursive s3://BucketName/
+```
+
+如果想把`endpoint-url`加到配置文件里这样就不需要每次都在命令里面指定，这需要安装aws-cli的第三方插件`awscli-plugin-endpoint`:
+```sh
+pip install awscli-plugin-endpoint
+```
+
+然后在aws配置文件里面加一段这个来指定插件：
+```ini
+[plugins]
+endpoint = awscli_plugin_endpoint
+```
+
+整体效果如下:
+```ini
+[plugins]
+endpoint = awscli_plugin_endpoint
+
+[default]
+region = us-east-1a
+output=json
+
+[profile tencent]
+aws_access_key_id = AKIDKfbQ6XTg7LPDqGKL0ZyDDxUlodNcoU2M
+aws_secret_access_key = GiurfIlzNYTs30jDSgggQuBCyUlopc92
+region = ap-beijing
+output = json
+s3 =
+    endpoint_url = http://cos.ap-beijing.myqcloud.com
+```
+
+当然，还可以为aws的各个子命令配置不同endpoint：
+```ini
+[profile localstack]
+s3 =
+    endpoint_url = http://localhost:4572
+kms =
+    endpoint_url = http://localhost:4599
+lambda =
+    endpoint_url = http://localhost:4574
+iam =
+    endpoint_url = http://localhost:4593
+kinesis =
+    endpoint_url = http://localhost:4568
+logs =
+    endpoint_url = http://localhost:4586
+sts =
+    endpoint_url = http://localhost:4592
+ec2 =
+    endpoint_url = http://localhost:4597
+```
+
+最后使用的时候，直接指定profile即可：
+```sh
+aws --profile tencent s3 ls
 ```
