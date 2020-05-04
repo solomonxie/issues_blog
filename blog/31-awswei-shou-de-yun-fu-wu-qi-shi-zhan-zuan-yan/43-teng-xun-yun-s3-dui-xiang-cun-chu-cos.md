@@ -14,13 +14,19 @@ Region区域名称：
 ![image](https://user-images.githubusercontent.com/14041622/80973978-ada5ad00-8e52-11ea-9d26-100356d3d778.png)
 
 
-## 使用桌面客户端操作
+## 使用官方桌面客户端操作
 
 电脑的客户端强制要求使用key和secret来登录。
 
 除了登录外，使用方法和WEB大致相同：
 ![image](https://user-images.githubusercontent.com/14041622/80974114-e2b1ff80-8e52-11ea-87fc-9262caea5468.png)
 
+
+## 使用Cyberduck桌面客户端操作
+
+
+填写自定义endpoint-url（注意复制的时候不要加上http）：
+![image](https://user-images.githubusercontent.com/14041622/80974602-84d1e780-8e53-11ea-98c3-db5eb6c681e8.png)
 
 
 
@@ -144,9 +150,12 @@ aws --profile tencent --endpoint-url http://cos.ap-beijing.myqcloud.com s3 ls --
 ```
 
 如果想把`endpoint-url`加到配置文件里这样就不需要每次都在命令里面指定，这需要安装aws-cli的第三方插件`awscli-plugin-endpoint`:
+Refer to: https://github.com/wbingli/awscli-plugin-endpoint
+
 ```sh
 pip install awscli-plugin-endpoint
 ```
+
 
 然后在aws配置文件里面加一段这个来指定插件：
 ```ini
