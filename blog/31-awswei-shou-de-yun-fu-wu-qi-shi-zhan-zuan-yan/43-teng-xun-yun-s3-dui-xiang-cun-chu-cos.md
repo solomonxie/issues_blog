@@ -206,3 +206,14 @@ ec2 =
 ```sh
 aws --profile tencent s3 ls
 ```
+
+
+## 使用Grep删除一些匹配的文件
+
+```sh
+bucket="BucketName"
+for f in $(aws --profile tencent s3 ls --recursive --human-readable "$bucket/" |grep 'some_pattern' |awk '{print $5}')
+do
+    aws --profile tencent s3 rm "s3://$bucket/$f"
+done
+```
