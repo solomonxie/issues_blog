@@ -1,11 +1,27 @@
 # 腾讯云“S3”对象存储 COS
 
 Region区域名称：
+![image](https://user-images.githubusercontent.com/14041622/80973721-57386e80-8e52-11ea-82ff-e8cc695dd2d3.png)
+![image](https://user-images.githubusercontent.com/14041622/80973768-64555d80-8e52-11ea-9d07-daf4f3c3e73b.png)
 
 
 ## 使用Web网页客户端操作
+进入COS Console：https://console.cloud.tencent.com/cos
+
+![image](https://user-images.githubusercontent.com/14041622/80973909-8ea71b00-8e52-11ea-90cf-e983aeaf1c7e.png)
+
+创建后进入Bucket的主页，在这里进行各种控制：
+![image](https://user-images.githubusercontent.com/14041622/80973978-ada5ad00-8e52-11ea-9d26-100356d3d778.png)
+
 
 ## 使用桌面客户端操作
+
+电脑的客户端强制要求使用key和secret来登录。
+
+除了登录外，使用方法和WEB大致相同：
+![image](https://user-images.githubusercontent.com/14041622/80974114-e2b1ff80-8e52-11ea-87fc-9262caea5468.png)
+
+
 
 
 ## 使用Python boto3操作
@@ -148,8 +164,8 @@ region = us-east-1a
 output=json
 
 [profile tencent]
-aws_access_key_id = AKIDKfbQ6XTg7LPDqGKL0ZyDDxUlodNcoU2M
-aws_secret_access_key = GiurfIlzNYTs30jDSgggQuBCyUlopc92
+aws_access_key_id = abc
+aws_secret_access_key = abc
 region = ap-beijing
 output = json
 s3 =
