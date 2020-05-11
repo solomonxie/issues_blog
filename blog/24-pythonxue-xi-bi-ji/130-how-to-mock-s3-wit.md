@@ -92,6 +92,19 @@ class S3Operator:
             print(ex)
         return True
 
+    def download_file_blob(self, bucket_name, object_name):
+        obj = self.resource.Object(bucket_name, object_name)
+        body = obj.get()
+        blob = body['Body'].read()
+        return blob
+
+    def upload_file_blob(self, file_blob, bucket_name, object_name):
+        try:
+            self.client.put_object(Bucket=bucket_name, Key=object_name, Body=file_blob)
+        except S3Exception as ex:
+            print(ex)
+        return True
+
     def get_signed_url(self, bucket_name, object_name, expiredin=86400, httpmethod=None):
         url = self.client.generate_presigned_url(
             ClientMethod='get_object',
@@ -155,6 +168,11 @@ class TestS3(TestCase):
         objects = self.s3.list_objects(self.bucket_name)
         self.assertEqual(1, len(objects))
         self.assertIn('README.md', objects)
+
+    def test_download(self):
+        result = self.s3.upload_file_blob('[1, 2]', self.bucket_name, 'nums.json')
+        blob = self.s3.download_file_blob(self.bucket_name, 'nums.json')
+        self.assertEqual('[1, 2]', blob)
 
     def test_signed_url(self):
         self.s3.upload_file('./README.md', self.bucket_name, 'README.md')
