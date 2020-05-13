@@ -18,6 +18,9 @@
     - [x] Blog Server
 - [x] CGI / WSGI / uWSGI
 - [x] Chrome Developer Tools
+- [x] Media Server
+    - [x] Plex
+    - [ ] Emby
 - [x] 网络文件共享 File Sharing System
     - [x] ownCloud 私有云
     - [x] NextCloud 私有云
