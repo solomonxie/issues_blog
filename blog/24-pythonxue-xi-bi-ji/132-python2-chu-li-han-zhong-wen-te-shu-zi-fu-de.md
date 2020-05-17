@@ -21,3 +21,16 @@ True
 ## YAML
 
 https://stackoverflow.com/questions/956867/how-to-get-string-objects-instead-of-unicode-from-json
+
+```py
+>>> import json
+>>> import yaml
+>>> list_org = ['a', 'b']
+>>> list_dump = json.dumps(list_org)
+>>> list_dump
+'["a", "b"]'
+>>> json.loads(list_dump)
+[u'a', u'b']
+>>> yaml.safe_load(list_dump)
+['a', 'b']
+```
