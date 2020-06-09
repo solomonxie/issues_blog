@@ -68,6 +68,14 @@ Library: `Fakeredis`
 
 ```py
 redis_conn = fakeredis.FakeStrictRedis()
+
+# Proper use
+class TestRedisutils(TestCase):
+    def setUp(self):
+        self.redis_conn = FakeRedis()
+
+    def tearDown(self):
+        self.redis_conn.flushall()
 ```
 
 
