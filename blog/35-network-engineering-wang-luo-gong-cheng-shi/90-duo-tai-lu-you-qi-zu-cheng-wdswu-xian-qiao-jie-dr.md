@@ -20,8 +20,12 @@
 花了最长的时间研究、尝试，结果没成功。
 
 
-## TP-Link 作为副路由
+## TP-Link WR847N v2 作为副路由
 花了很长时间不断尝试、重启，结果没成功。
+
+参考标准的官方WDS文档，说的非常简单明了：
+[TL-WR847N V1 ~V3 无线桥接（WDS）如何设置](https://service.tp-link.com.cn/detail_article_698.html)
+
 
 
 ## 华为HG255D作为副路由
