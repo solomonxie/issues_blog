@@ -15,6 +15,10 @@
 
 ## 安装Linux (Ubuntu)
 
+参考：https://www.gitmemory.com/issue/solomonxie/solomonxie.github.io/33/506933418
+参考：https://www.youtube.com/watch?v=BwXRtJ6eC7I
+参考：https://post.smzdm.com/p/a83dp8l0/
+
 先下载个Ubuntu的官方镜像，然后把它刻录到任意U盘上：
 - Windows：用Rufus刻录
 - Mac：用Etcher刻录
@@ -26,9 +30,11 @@
 - [x] BIOS设置启动系统设置为Windows
 - [x] BIOS设置boot启动顺序为Linux这块硬盘优先
 - [x] 分区分区分区！和网友的蜗牛星级生效的分区设置不同，我体验的成功分区配置只有 (按顺序)：
-    1. `/boot` 分为primary主分区，1GB
+    1. `efi`格式 设为primary主分区，1GB
     2. `SWAP` 4GB
-    3. `/` 为系统分区，50GB
-    4. 其它都先不管，留为Free以后再弄
+    3. `/` 为系统分区，20GB
+    4. `/home` 为个人目录，30GB
+    5. 其它都先不管，留为Free以后再弄
+- [x] 如果上面不行，那就选择Erase disk那个，自动分区并安装系统，有时候也管用
 - [x] 分区完后先不要点下一步，确定下面的下拉框那里选择启动磁盘为刚才分给`/boot`的分区
 - [x] 安装全程不要插网线
