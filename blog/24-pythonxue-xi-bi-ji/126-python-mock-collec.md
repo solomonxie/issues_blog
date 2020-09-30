@@ -47,15 +47,32 @@ with patch.object(A, 'a', 9):
 Mock a method of an instance:
 ```py
 from unittest.mock import patch, MagicMock
-
+# directly return result
 >>> class A: pass
 >>> a = A()
 >>> a.func = MagicMock(return_value=7)
 >>> a.func()
 7
+
+# return error
 >>> a.func = MagicMock(side_effect=KeyError('I am an exception')))
 >>> a.func()
 KeyError: 'I am an exception'
+```
+
+Mock a method from a module:
+```py
+#a.py
+def target(n):
+    return n
+
+#b.py
+from a import target
+
+@patch('a.target')
+def main(mock_target):
+    mock_target.new = lambda x: x*2
+    target(3)
 ```
 
 
