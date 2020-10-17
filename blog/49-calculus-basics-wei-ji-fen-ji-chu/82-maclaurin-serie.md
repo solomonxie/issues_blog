@@ -1,0 +1,51 @@
+#  ❖ Maclaurin Series
+
+> It's also called `Maclaurin polynomials`.
+
+`Maclaurin series` is a special case of `Taylor Series` which centres at `x=0`.
+
+![image](https://user-images.githubusercontent.com/14041622/42204966-b82bb906-7ed5-11e8-9c7b-45de2e3e1ee4.png)
+
+
+▼Expand it we'll understand it better:
+![image](https://user-images.githubusercontent.com/14041622/42362791-7b4db9c2-8127-11e8-863f-c44fe0a27f6d.png)
+
+
+▼Here is a graph we're trying to approximate a function centred at `x=0`:
+![image](https://user-images.githubusercontent.com/14041622/42155112-0c2ab0b4-7e1a-11e8-86cd-98551cbd8191.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42205588-7f41afc2-7ed7-11e8-9e91-94416891c49a.png)
+Solve:
+- This problem is to test if you're familiar with the `Maclaurin Series Formula`.
+- Let's ignore all others and only see the asked `x⁴`.
+- `x⁴` means we're gonna find out the term of the `4th derivative`, and plug in 4 into the formula, we'll get the term:
+![image](https://user-images.githubusercontent.com/14041622/42205743-d63a03f6-7ed7-11e8-9267-15744a338ea7.png)
+- It's asking for the coefficient of `x⁴`, which is the rest part in that formula for the term:
+![image](https://user-images.githubusercontent.com/14041622/42205785-efa4d5be-7ed7-11e8-8b08-7c65ba9bdc0d.png)
+- And we only need to find out what is the value of the `4th derivative`.
+- By the given formula of `gᴺ(0)`, we can get: 
+![image](https://user-images.githubusercontent.com/14041622/42205922-4e1c14c2-7ed8-11e8-878b-eeaeb783fef8.png)
+- So the coefficient will be:
+![image](https://user-images.githubusercontent.com/14041622/42205985-8479b84e-7ed8-11e8-8309-200b4bc8d5b0.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42153599-21bb8b3c-7e16-11e8-8f9f-bae156b9cdb9.png)
+Solve:
+- We know the `Maclaurin series` is a Taylor series centred at `x=0`, and the formula is:
+![image](https://user-images.githubusercontent.com/14041622/42153779-bda67534-7e16-11e8-874e-9f4a0262ceb8.png)
+- It's told to list 4 terms, so we plug in the given value of `f', f'', f'''`  and get:
+![image](https://user-images.githubusercontent.com/14041622/42153857-d5ba9790-7e16-11e8-8d33-735a5e01e6dc.png)
+- And we get the answer:
+![image](https://user-images.githubusercontent.com/14041622/42153875-e24c1920-7e16-11e8-9eee-a744364fac76.png)
+
+
+## Evaluate 「Maclaurin Series」
+
+To evaluate a Maclaurin series, we need to **convert the series to a function**,  and then evaluate the function.
+
+[`▼Jump forward to have a look at the note: Maclaurin Series of Common functions`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-402940122)
+
+

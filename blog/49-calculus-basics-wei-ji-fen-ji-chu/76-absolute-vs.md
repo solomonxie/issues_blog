@@ -1,0 +1,52 @@
+#  ❖ 「Absolute」 vs. 「Conditional Convergence」
+
+> This section is not about calculation, but rather about the logic.
+
+[▶Refer to Khan academy: Conditional & absolute convergence](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/v/conditional-and-absolute-convergence)
+
+[`▶ Back to previous note on: p-series test`](https://github.com/solomonxie/solomonxie.github.io/issues/49#issuecomment-399662321)
+[`▶ Practice at Khan academy: determine-absolute-or-conditional-convergence`](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/modal/e/determine-absolute-or-conditional-convergence)
+
+![image](https://user-images.githubusercontent.com/14041622/42500696-8ced4f4a-8464-11e8-81c7-0b25c409a96d.png)
+
+
+▼We can have a series in **`Given form`** and **`Absolute form`**:
+![image](https://user-images.githubusercontent.com/14041622/42439540-c6febc20-8395-11e8-8540-f2ad2fa13d26.png)
+
+We call the series:
+- `Absolute Convergent`: if the series converges in BOTH **Given form** & **Absolute form**.
+- `Conditional Convergent`: if the series converges ONLY in **Given form** BUT NOT in **Absolute Form**.
+
+etc., 
+![image](https://user-images.githubusercontent.com/14041622/41900212-c265fa6e-7960-11e8-99bb-3585053f2686.png)
+
+[▼Refer to xaktly](http://www.xaktly.com/AlternatingSeries.html)
+![image](https://user-images.githubusercontent.com/14041622/41852458-c53e13fa-78bd-11e8-9fda-0847cc285a09.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42370021-3e41a82e-813e-11e8-990d-8716a939b36d.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/42370365-256709f6-813f-11e8-879b-87c54c119f39.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42370976-bd6cada4-8140-11e8-9e36-d5b26721fb22.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/42370989-c2fe0ba0-8140-11e8-8e44-3e6c98253686.png)
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42371206-5ad9fc0e-8141-11e8-832c-580580ae8dbf.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/42371214-5ede403a-8141-11e8-9ea0-0ea6fddc6d40.png)
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/42371798-138afb58-8143-11e8-91c7-176a993bf2ef.png)
+Solve:
+![image](https://user-images.githubusercontent.com/14041622/42371804-176b827e-8143-11e8-9b0b-013205ec3016.png)
+
