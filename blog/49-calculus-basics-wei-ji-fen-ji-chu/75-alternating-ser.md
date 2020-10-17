@@ -1,0 +1,59 @@
+#  ❖ Alternating Series Test
+
+It's the test for `Alternating series`.
+
+[►Refer to Khan academy: Alternating series test](https://www.khanacademy.org/math/ap-calculus-bc/bc-series/modal/v/alternating-series-test)
+[►Refer to xaktly: Alternating Series](http://www.xaktly.com/AlternatingSeries.html)
+
+## Alternating Series
+
+It means,
+**Terms of the series "alternate"  between positive and negative.**
+
+etc., `The alternating harmonic series`:
+![image](https://user-images.githubusercontent.com/14041622/41898616-16c165c0-795d-11e8-9da9-8b2cfed657e9.png)
+
+
+## The Alternating Series Test
+
+![image](https://user-images.githubusercontent.com/14041622/41899163-58a00fe0-795e-11e8-9e70-5266ec6a6377.png)
+
+The very good example of this test is the `Alternating Harmonic Series`:
+
+![image](https://user-images.githubusercontent.com/14041622/41899612-784553b8-795f-11e8-8422-eed1da1b7f9f.png)
+
+▲ It does **CONVERGES**. (But the Harmonic Series does NOT converge)
+
+Strategy:
+- Take AWAY the `Alternating sign (-1)ⁿ`:
+![image](https://user-images.githubusercontent.com/14041622/41907244-db137e44-7972-11e8-85e4-19fd7ac7a3cb.png)
+- Determine if the rest part is a decreasing series:
+![image](https://user-images.githubusercontent.com/14041622/42371381-ed222776-8141-11e8-9c90-4a725b80ae39.png)
+- Take limit of the rest part:
+![image](https://user-images.githubusercontent.com/14041622/41907282-fa4a1a66-7972-11e8-86ef-b9f1b3bfe02a.png)
+- If `Limit = 0`, then the series **CONVERGES**.
+- If `Limit ≠ 0`, then the series **DIVERGES**.
+
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41901083-a2a293f2-7962-11e8-9ec5-654279cdc398.png)
+Solve:
+- Notice this is an `alternating series`, so we're to apply the `alternating series test`.
+- Take away the `alternating term`, and left with `(2/p)ⁿ`.
+- So the series only converges if `(2/p)ⁿ` is **decreasing** and its **limit is `0`**.
+- And the only way to make it decreasing is to make sure `(2/p) < 1`.
+- Based on that `p` value, the limit of `(2/p)ⁿ` is surely a `0`.
+- Therefore, `p > 2` makes the series converges.
+
+
+### Example
+![image](https://user-images.githubusercontent.com/14041622/41901342-3fafa5e0-7963-11e8-8f5d-103e42047757.png)
+Solve:
+- Notice this is an `alternating series`, so we're to apply the `alternating series test`.
+- Take away the `alternating term`, and left with `(2n)ᴾ`.
+- So the series only converges if `(2n)ᴾ` is **decreasing** and its **limit is `0`**.
+- And the only way to make it decreasing is to make sure `p < 0`.
+- Based on that `p` value, the limit of `(2n)ᴾ` is surely a `0`.
+- Therefore, `p < 0` makes the series converges.
+
