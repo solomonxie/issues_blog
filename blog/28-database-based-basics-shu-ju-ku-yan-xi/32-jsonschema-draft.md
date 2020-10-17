@@ -1,3 +1,0 @@
-# JSONSchema [DRAFT]
-
-
