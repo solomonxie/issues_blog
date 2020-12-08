@@ -1,4 +1,4 @@
-# Podman如何代替Docker
+# Podman如何代替Docker [DRAFT]
 
 随着近期Docker可能会由于国界问题被禁用，我们开始寻找靠谱的替代方案。目前最可靠、迁移成本最低的就是新起之秀 `Podman`。
 
