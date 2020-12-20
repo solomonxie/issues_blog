@@ -23,7 +23,21 @@ $ sudo apt-get install postgresql
 检查是否安装成功: `$ psql --version`
 可以看到：Ubuntu 16.04支持的版本为`psql (PostgreSQL) 9.5.14`，且长期支持维护5年。
 
-客户端：
+
+**Docker安装：**
+```sh
+docker run --restart always \
+	--name pg \
+	-p 54320:5432 \
+	-e POSTGRES_PASSWORD=123123 \
+	-e POSTGRES_USER=sol \
+	-d postgres postgres -c log_statement=all
+```
+
+> 如果是docker版安装，可以跳过后面的基本配置部分。
+
+
+**客户端：**
 CLI版本的客户端：直接使用官方的`psql`即可。
 GUI的话使用官方推荐的`pgadmin`，或Mac的`psequel`。
 
